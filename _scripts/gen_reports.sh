@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/usr/bin/env bash
 type ex || exit 1
 type html2text || exit 1
 ROOT=$(git rev-parse --show-toplevel)

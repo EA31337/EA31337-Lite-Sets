@@ -1,10 +1,10 @@
-#!/usr/local/bin/bash -e
+#!/usr/bin/env bash
 # Initialize variables and settings.
 : ${1?"Usage: $0 (dir)"} || exit 1
-ROOT=$(git rev-parse --show-toplevel)
+ROOT="$(git rev-parse --show-toplevel)"
 
 # Find the ini files.
-inis=($(find $ROOT/$1 -name \*.ini))
+inis=($(find "$ROOT/$1" -name \*.ini))
 
 # Parse configuration and run the tests.
 for ini in ${inis[@]}; do
