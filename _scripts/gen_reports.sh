@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
+set -e
 type ex || exit 1
 type html2text || exit 1
+
 ROOT=$(git rev-parse --show-toplevel)
 OUT="README.md.new"
+
 dirs=($(find $ROOT -type d))
 for dir in "${dirs[@]}"; do
   cd "$dir"
