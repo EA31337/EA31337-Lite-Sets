@@ -2,6 +2,7 @@
 # Initialize variables and settings.
 : ${1?"Usage: $0 (dir)"} || exit 1
 set -e
+cd -P -- "$(dirname -- "$0")" && pwd -P
 ROOT="$(git rev-parse --show-toplevel)"
 type run_backtest || run_backtest() { echo run_backtest $*; }
 
