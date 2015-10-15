@@ -1,0 +1,105 @@
+# Travis CI build configuration config file.
+# Used environment variables (see: http://docs.travis-ci.com/user/ci-environment/):
+#   TRAVIS_BUILD_DIR - The absolute path to the directory where the repository being built has been copied on the worker. (e.g. "/home/travis/build/EA31337/EA31337-Sets")
+#   TRAVIS_REPO_SLUG - The slug (in form: owner_name/repo_name) of the repository currently being built. (e.g. "EA31337/EA31337-Sets")
+
+# Before Install
+# Use this to prepare the system to install prerequisites or dependencies.
+# Commonly used to update git repository submodules and do similar tasks that need to be performed before dependencies are installed.
+before_install:
+  - env
+  - set -e # This makes build to fail on first error.
+# - git submodule update --init --recursive # Update of nested submodules.
+  - |
+
+    # Add PPA/Wine repository
+    sudo add-apt-repository -y ppa:ubuntu-wine/ppa
+
+    # Skip unnecessary source indexes for a faster run
+    sudo sed -i'' 's/^deb-src/#deb-src/' /etc/apt/sources.list /etc/apt/sources.list.d/ubuntu-wine-ppa-precise.list
+
+    # Update apt repositories.
+    sudo apt-get update
+
+  - sudo -E apt-get --no-install-suggests --no-install-recommends --force-yes install xvfb xdotool winbind wine1.7 realpath
+  - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+  - git config --local include.path "$CWD/.gitconfig"
+  - install -vm700 <(echo "echo $PS") $CWD/ps && ls -al $CWD/ps
+  - install -vm600 <(git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c) $CWD/.id && ls -al $CWD/.id
+  - eval "$(ssh-agent -s)" # Start ssh-agent.
+
+# Install
+# Use this to install any prerequisites or dependencies necessary to run your build.
+install:
+  - test $PS = $($CWD/ps) && echo OK
+  - $CWD/ps | head -c5
+  - $CWD/ps | tail -c5
+# - echo foo | SSH_ASKPASS=/my/cmd ssh-add $CWD/.id
+# - test -n $PS && echo "SECRET" | SSH_ASKPASS=$CWD/ps ssh-add -
+# - test -n $EA && git clone -q $EA
+
+# Before Script
+# Use this to prepare your build for testing (e.g. copy database configurations, environment variables, etc.).
+before_script:
+  - PATH=${PATH//:\.\/node_modules\/\.bin/} # Fixes Travis bug: https://github.com/travis-ci/travis-ci/issues/4862
+  - Xvfb $DISPLAY -screen 0 1024x768x16 &
+
+# Script
+# Main build command to run.
+# All commands must exit with code 0 on success. Anything else is considered failure.
+script:
+  - $CWD/_VM/scripts/install_mt4.sh
+  - $CWD/_VM/scripts/dl_bt_data.sh
+
+# After Success
+# Note: The standard Unix exit code of "0" means the build passed; everything else is treated as failure.
+after_success:
+
+# After Failure
+after_failure:
+ - tree -d -L3 ~/ # Print directory structure in the form of a tree.
+ - env
+
+# After Script
+# Test result is exported to TRAVIS_TEST_RESULT.
+after_script:
+  - pwd
+
+# Environment
+env:
+  global:
+    - CWD="$TRAVIS_BUILD_DIR"
+    - GIT_TRACE=0
+    - DISPLAY=:0.0 WINEDLLOVERRIDES="mscoree,mshtml=" WINEDEBUG="fixme+all"
+    - secure: "crXsd5puGxZaDE9EVTDLU0tMeH3JRmIAUwLhBjheBPzbzT/buE1owFsaeGsr/XQStNrt2EWq8LxN/c4TOkHJ9tTU8f6+3IUkAXvzqYwwcE+HbY3KJ4jJd2KHRQ5NbwpAkDtADvcrw5CDdWGmMiOEaA54l4GCBg0Id5jWOy2KbKXBnjWeaZu6irYT1B6HMAYSxPKWVHriku323tgH3FgAn1HtKK2nhOPjulBj6vj/ioS7xy20sz9j2yN7hExGB1k0GGUSNi7O74xYqLHhBJISp7LplHbaTJCMi5/xd9h9kSfsTLxJtXTqxat/92JburhzFvGBEjd4gJOiZxJw0vymTVJaqwpfy7joD3QD6jz/nF7w5HSnTvEly6wLCOH00TbrfPvwPvFvfXTFl6diNZEfZCwiSJa9eM88hDkpPyp8+O2w9TprASI66qmsM2z3vt2UM4L5k5QfYrIVPE9J4LE1btjX4cecQVb1oauE5N9Hr77e92R5lfA7LgAcT5TluG5AMNJSEbDmdYrnz9W+nlm+2ML3OhdfWHvcvMFSI0Cjpn+9ZF88pGFBc0qjiQQPJCq7WwBgC3pMYsuioV92BNevCDtzCEPL4hp/oc69K+tKxzb4/OdFWSJO5zEKOno1FCheFHLTNl7qbDUt/5xz08hSwtWf7aR5da1CT7eG4RVJCoY="
+    - secure: "eMGIXPSYLk1LIxqocS3CuHl+vxUSr1ZDs38yNdA6jwc/7zeWn7zA0+N2zHKr9UzkHDYJ9cbLDlJZk/M8umtDr3H3orld3TCSXMgtyKqCdDV3T4rwmcJs3InyrOa7Ia72FNJttjpToQ53oWnMqCk/eN7sLL4ZJLmJxAlkW5JK5fml0UYn03jrE3ggXmjjm/CpjrkurgfioDL7xhxtnACHCNuWRupXxI4486rzAW6enqrluVcr25a0Zn7ZAAseIxqQhEuUqiyJlKRcrlaO3yDYIa1AI0drLYMlmOcEAxcSzVIwTX79CV4C7UQWg2SHYOXYK+ak+AXwKvr8Q4y5u4PZBvBZTOELHRW61MvDq5NjAvvEgc5VvHtsWG7b0Qqe0N3EU4cJBqLfeOettFd4rA+VBRgUVoUXaXgQlKibKBG4kBEM030mIfLzTMAAYduYNiallzffGhn4ZRzTQPOAM298sh5moIo5yIl+1z2bxEXXz0BOs273JZNhBBXzS1CSQoeHZEVvETnnWAUvnNPrZ6moQ6/gkabhyV1jUNiplxGoJ9bSShPzwh1rfgskAyHBrvGiNLnRzU5bx0YJRqT7njqRhPCXfVEa7Q5qWtrXwWF/DNDd9gbeocedsHAsmzlLgfeJsJiVX+9jM7w0/NlHowjhPnBZJYq2dLSzzku6/5Vv/WA="
+
+  matrix:
+    - PLATFORM=MT4 MODE=Lite
+
+notifications:
+  email: true
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/2c50114866dd0ba72f48
+    on_success: change  # options: [always|never|change] default: always
+    on_failure: always  # options: [always|never|change] default: always
+    on_start:   never   # options: [always|never|change] default: always
+
+sudo: required
+addons:
+  hosts:
+    - travis.local
+  apt:
+    packages:
+    - realpath
+    - tree
+    - xvfb      # X virtual framebuffer.
+    - xdotool   # Fake keyboard/mouse input.
+    - winbind   # Required for wine.
+#   - wine      # Free implementation of Windows on Unix.
+
+language: python
+
+python:
+- "3.4"
