@@ -9,7 +9,14 @@
 before_install:
   - env
   - set -e # This makes build to fail on first error.
-# - git submodule update --init --recursive # Update of nested submodules.
+
+  # Perform authentication tasks.
+  - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+  - git config --local include.path "$CWD/.gitconfig"
+  - install -vm700 <(echo "echo $PS") $CWD/ps && test $PS = $($CWD/ps) && echo OK
+  - eval "$(ssh-agent -s)" # Start ssh-agent for authentication.
+  - test -n $PS && git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c | DISPLAY= SSH_ASKPASS=$CWD/ps ssh-add -
+
   - |
 
     # Add PPA/Wine repository
@@ -22,27 +29,17 @@ before_install:
     sudo apt-get update
 
   - sudo -E apt-get --no-install-suggests --no-install-recommends --force-yes install xvfb xdotool winbind wine1.7 realpath
-  - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-  - git config --local include.path "$CWD/.gitconfig"
-  - install -vm700 <(echo "echo $PS") $CWD/ps && ls -al $CWD/ps
-  - install -vm600 <(git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c) $CWD/.id && ls -al $CWD/.id
-  - eval "$(ssh-agent -s)" # Start ssh-agent.
 
 # Install
 # Use this to install any prerequisites or dependencies necessary to run your build.
 install:
   - sudo install -v $CWD/_VM/scripts/run_backtest.sh ~/bin/run_backtest
-  - test $PS = $($CWD/ps) && echo OK
-  - $CWD/ps | head -c5
-  - $CWD/ps | tail -c5
-# - echo foo | SSH_ASKPASS=/my/cmd ssh-add $CWD/.id
-# - test -n $PS && echo "SECRET" | SSH_ASKPASS=$CWD/ps ssh-add -
-# - test -n $EA && git clone -q $EA
 
 # Before Script
 # Use this to prepare your build for testing (e.g. copy database configurations, environment variables, etc.).
 before_script:
   - Xvfb $DISPLAY -screen 0 1024x768x16 &
+  - test -n $EA && git clone -q $EA
 
 # Script
 # Main build command to run.
