@@ -52,7 +52,7 @@ script:
 
 # After Success
 # Note: The standard Unix exit code of "0" means the build passed; everything else is treated as failure.
-after_success:
+#after_success:
 
 # After Failure
 after_failure:
@@ -90,14 +90,6 @@ sudo: required
 addons:
   hosts:
     - travis.local
-  apt:
-    packages:
-    - realpath
-    - tree
-    - xvfb      # X virtual framebuffer.
-    - xdotool   # Fake keyboard/mouse input.
-    - winbind   # Required for wine.
-#   - wine      # Free implementation of Windows on Unix.
 
 language: python
 
