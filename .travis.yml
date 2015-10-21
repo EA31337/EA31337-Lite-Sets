@@ -61,7 +61,7 @@ before_install:
 # Use this to install any prerequisites or dependencies necessary to run your build.
 install:
   - sudo -E apt-get --no-install-suggests --no-install-recommends --force-yes install xvfb xdotool winbind wine1.7 realpath
-  - sudo install -v $CWD/_VM/scripts/run_backtest.sh ~/bin/run_backtest
+  - sudo install -v $CWD/_VM/scripts/run_backtest.sh /usr/local/bin
 
 
 # Before Script
