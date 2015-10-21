@@ -39,7 +39,6 @@ notifications:
 # Commonly used to update git repository submodules and do similar tasks that need to be performed before dependencies are installed.
 before_install:
   - env
-  - set -e # This makes build to fail on first error.
 
   # Perform authentication tasks.
   - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
@@ -57,12 +56,11 @@ before_install:
   # Update apt repositories.
   - sudo apt-get update
 
-  - sudo -E apt-get --no-install-suggests --no-install-recommends --force-yes install xvfb xdotool winbind wine1.7 realpath
-
 
 # Install
 # Use this to install any prerequisites or dependencies necessary to run your build.
 install:
+  - sudo -E apt-get --no-install-suggests --no-install-recommends --force-yes install xvfb xdotool winbind wine1.7 realpath
   - sudo install -v $CWD/_VM/scripts/run_backtest.sh ~/bin/run_backtest
 
 
