@@ -17,7 +17,7 @@ env:
   global:
     - CWD="$TRAVIS_BUILD_DIR"
     - GIT_TRACE=0
-    - DISPLAY=:0.0 WINEDLLOVERRIDES="mscoree,mshtml=" WINEDEBUG="fixme+all"
+    - DISPLAY=:0.0 DISPLAY_BACKUP=$DISPLAY WINEDLLOVERRIDES="mscoree,mshtml=" WINEDEBUG="fixme+all"
     - PATH=${PATH//:\.\/node_modules\/\.bin/} # Fixes Travis bug: https://github.com/travis-ci/travis-ci/issues/4862
     - secure: "crXsd5puGxZaDE9EVTDLU0tMeH3JRmIAUwLhBjheBPzbzT/buE1owFsaeGsr/XQStNrt2EWq8LxN/c4TOkHJ9tTU8f6+3IUkAXvzqYwwcE+HbY3KJ4jJd2KHRQ5NbwpAkDtADvcrw5CDdWGmMiOEaA54l4GCBg0Id5jWOy2KbKXBnjWeaZu6irYT1B6HMAYSxPKWVHriku323tgH3FgAn1HtKK2nhOPjulBj6vj/ioS7xy20sz9j2yN7hExGB1k0GGUSNi7O74xYqLHhBJISp7LplHbaTJCMi5/xd9h9kSfsTLxJtXTqxat/92JburhzFvGBEjd4gJOiZxJw0vymTVJaqwpfy7joD3QD6jz/nF7w5HSnTvEly6wLCOH00TbrfPvwPvFvfXTFl6diNZEfZCwiSJa9eM88hDkpPyp8+O2w9TprASI66qmsM2z3vt2UM4L5k5QfYrIVPE9J4LE1btjX4cecQVb1oauE5N9Hr77e92R5lfA7LgAcT5TluG5AMNJSEbDmdYrnz9W+nlm+2ML3OhdfWHvcvMFSI0Cjpn+9ZF88pGFBc0qjiQQPJCq7WwBgC3pMYsuioV92BNevCDtzCEPL4hp/oc69K+tKxzb4/OdFWSJO5zEKOno1FCheFHLTNl7qbDUt/5xz08hSwtWf7aR5da1CT7eG4RVJCoY="
     - secure: "eMGIXPSYLk1LIxqocS3CuHl+vxUSr1ZDs38yNdA6jwc/7zeWn7zA0+N2zHKr9UzkHDYJ9cbLDlJZk/M8umtDr3H3orld3TCSXMgtyKqCdDV3T4rwmcJs3InyrOa7Ia72FNJttjpToQ53oWnMqCk/eN7sLL4ZJLmJxAlkW5JK5fml0UYn03jrE3ggXmjjm/CpjrkurgfioDL7xhxtnACHCNuWRupXxI4486rzAW6enqrluVcr25a0Zn7ZAAseIxqQhEuUqiyJlKRcrlaO3yDYIa1AI0drLYMlmOcEAxcSzVIwTX79CV4C7UQWg2SHYOXYK+ak+AXwKvr8Q4y5u4PZBvBZTOELHRW61MvDq5NjAvvEgc5VvHtsWG7b0Qqe0N3EU4cJBqLfeOettFd4rA+VBRgUVoUXaXgQlKibKBG4kBEM030mIfLzTMAAYduYNiallzffGhn4ZRzTQPOAM298sh5moIo5yIl+1z2bxEXXz0BOs273JZNhBBXzS1CSQoeHZEVvETnnWAUvnNPrZ6moQ6/gkabhyV1jUNiplxGoJ9bSShPzwh1rfgskAyHBrvGiNLnRzU5bx0YJRqT7njqRhPCXfVEa7Q5qWtrXwWF/DNDd9gbeocedsHAsmzlLgfeJsJiVX+9jM7w0/NlHowjhPnBZJYq2dLSzzku6/5Vv/WA="
@@ -40,13 +40,6 @@ notifications:
 before_install:
   - env
 
-  # Perform authentication tasks.
-  - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-  - git config --local include.path "$CWD/.gitconfig"
-  - install -vm700 <(echo "echo $PS") $CWD/ps && test $PS = $($CWD/ps) && echo OK
-  - eval "$(ssh-agent -s)" # Start ssh-agent for authentication.
-  - test -n $PS && git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c | DISPLAY= SSH_ASKPASS=$CWD/ps ssh-add -
-
   # Add PPA/Wine repository
   - sudo add-apt-repository -y ppa:ubuntu-wine/ppa
 
@@ -61,6 +54,9 @@ before_install:
 # Use this to install any prerequisites or dependencies necessary to run your build.
 install:
   - sudo -E apt-get --no-install-suggests --no-install-recommends --force-yes install xvfb xdotool winbind wine1.7 realpath tree
+  - sudo ln -s $CWD/_VM /vagrant  # Workaround for FX-MT-VM/scripts/run_backtest.sh:3
+  - sudo rm -rf /opt              # Workaround for FX-MT-VM/scripts/run_backtest.sh:4
+  - sudo ln -s ~ /opt             # Workaround for FX-MT-VM/scripts/run_backtest.sh:4
   - sudo install -v $CWD/_VM/scripts/run_backtest.sh /usr/local/bin
 
 
@@ -68,7 +64,6 @@ install:
 # Use this to prepare your build for testing (e.g. copy database configurations, environment variables, etc.).
 before_script:
   - Xvfb $DISPLAY -screen 0 1024x768x16 &
-  - test -n $EA && git clone -q $EA
 
 
 # Script
@@ -76,8 +71,25 @@ before_script:
 # All commands must exit with code 0 on success. Anything else is considered failure.
 script:
   - $CWD/_VM/scripts/install_mt4.sh
+  - |
+    # Clone EAs if Travis runs on home repository
+    if [ "$TRAVIS_REPO_SLUG" = "EA31337/EA31337-Sets" ] && [ -n "$PS" ] && [ -n "$EA" ]; then
+      # Perform authentication tasks.
+      ssh-keyscan -H github.com >> ~/.ssh/known_hosts                                                         && echo 'OK #1'
+      git config --local include.path "$CWD/.gitconfig"                                                       && echo 'OK #2'
+      install -vm700 <(echo "echo $PS") $CWD/ps && test $PS = $($CWD/ps)                                      && echo 'OK #3'
+      eval "$(ssh-agent -s)"                                                                                  && echo 'OK #4'
+      unset DISPLAY                                                                                           && echo 'OK #5' # Required by ssh-add
+      git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c | SSH_ASKPASS=$CWD/ps ssh-add - && echo 'OK #6'
+      git clone -q $EA                                                                                        && echo 'OK #7'
+      DISPLAY=$DISPLAY_BACKUP                                                                                 && echo 'OK #8'
+    # Otherwise link an available sample EA
+    else
+      EA_SAMPLE=$(find ~/.wine/drive_c -path '*Experts*' -type f -name MACD*.ex4 -print0 -quit)               && echo 'OK #1'
+      ln -s "$EA_SAMPLE" "/vagrant/$MODE.ex4"                                                                 && echo 'OK #2'
+    fi
   - $CWD/_VM/scripts/dl_bt_data.sh
-  - $CWD/_scripts/run_backtests.sh
+  - $CWD/_scripts/run_backtests.sh "$MODE"
   - $CWD/_scripts/gen_reports.sh
 
 
