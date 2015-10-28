@@ -4,7 +4,7 @@
 set -e
 cd -P -- "$(dirname -- "$0")" && pwd -P
 ROOT="$(git rev-parse --show-toplevel)"
-type run_backtest || run_backtest() { echo run_backtest $*; }
+type run_backtest.sh || run_backtest() { echo run_backtest $*; }
 
 # Find, parse configuration and run the tests.
 find "$ROOT/$1" -type f -name "test.ini" -print0 | while IFS= read -r -d '' file; do
