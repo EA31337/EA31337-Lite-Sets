@@ -81,8 +81,9 @@ script:
       eval "$(ssh-agent -s)"                                                                                  && echo 'OK #4'
       unset DISPLAY                                                                                           && echo 'OK #5' # Required by ssh-add
       git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c | SSH_ASKPASS=$CWD/ps ssh-add - && echo 'OK #6'
-      git clone -q $EA                                                                                        && echo 'OK #7'
+      git clone -q $EA ~/ea                                                                                   && echo 'OK #7'
       DISPLAY=$DISPLAY_BACKUP                                                                                 && echo 'OK #8'
+      cp -v ~/ea/*.ex4 /vagrant                                                                               && echo 'OK #9'
     # Otherwise link an available sample EA
     else
       EA_SAMPLE=$(find ~/.wine/drive_c -path '*Experts*' -type f -name MACD*.ex4 -print0 -quit)               && echo 'OK #1'
