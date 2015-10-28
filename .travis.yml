@@ -90,7 +90,6 @@ script:
     fi
   - $CWD/_VM/scripts/dl_bt_data.sh
   - $CWD/_scripts/run_backtests.sh "$MODE"
-  - $CWD/_scripts/gen_reports.sh
 
 
 # After Success
