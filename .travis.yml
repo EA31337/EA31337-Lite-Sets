@@ -85,6 +85,7 @@ script:
       cp -v ~/ea/*.ex4 /vagrant
     # Otherwise link an available sample EA
     else
+      echo 'Using *SAMPLE* expert!'
       EA_SAMPLE=$(find ~/.wine/drive_c -path '*Experts*' -type f -name MACD*.ex4 -print0 -quit)
       ln -s "$EA_SAMPLE" "/vagrant/$MODE.ex4"
     fi
