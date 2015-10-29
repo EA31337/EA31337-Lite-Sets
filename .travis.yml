@@ -79,8 +79,7 @@ script:
       git config --local include.path "$CWD/.gitconfig"
       install -vm700 <(echo "echo $PS") $CWD/ps && test $PS = $($CWD/ps)
       eval "$(ssh-agent -s)"
-      unset DISPLAY  # Required by ssh-add
-      git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c | SSH_ASKPASS=$CWD/ps ssh-add -
+      git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c | DISPLAY= SSH_ASKPASS=$CWD/ps ssh-add -
       git clone -q $EA ~/ea
       DISPLAY=$DISPLAY_BACKUP
       cp -v ~/ea/*.ex4 /vagrant
