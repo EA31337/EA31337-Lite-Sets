@@ -63,7 +63,7 @@ install:
 # Before Script
 # Use this to prepare your build for testing (e.g. copy database configurations, environment variables, etc.).
 before_script:
-  - Xvfb $DISPLAY -screen 0 1024x768x16 &
+  - Xvfb $DISPLAY -screen 0 1024x768x16 &> ~/Xvfb.log &
 
 
 # Script
