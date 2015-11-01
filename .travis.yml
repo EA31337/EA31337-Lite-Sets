@@ -100,11 +100,11 @@ script:
 
 # After Failure
 after_failure:
- - tree -d -L3 ~/ # Print directory structure in the form of a tree.
- - env
- # Dump collected logs
- - LINE=$(printf '%*s' 80 | tr ' ' '-')
- - find ~ -name *.log -exec echo -e "$LINE\nDumping {}\n$LINE" ';' -exec cat {} ';' -exec echo -e "\n" ';'
+  - tree -d -L3 ~/ # Print directory structure in the form of a tree.
+  - env
+  # Dump collected logs
+  - LINE=$(printf '%*s' 80 | tr ' ' '-')
+  - find ~ -name *.log -exec echo -e "$LINE\nDumping {}\n$LINE" ';' -exec cat {} ';' -exec echo -e "\n" ';'
 
 # After Script
 # Test result is exported to TRAVIS_TEST_RESULT.
