@@ -100,7 +100,7 @@ script:
 
 # After Failure
 after_failure:
-  - tree -d -L3 ~/ # Print directory structure in the form of a tree.
+  - tree -dL 3 ~/  # Print directory structure in the form of a tree.
   - env
   # Dump collected logs
   - LINE=$(printf '%*s' 80 | tr ' ' '-')
