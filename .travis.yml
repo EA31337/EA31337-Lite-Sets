@@ -17,6 +17,9 @@ env:
   global:
     - CWD="$TRAVIS_BUILD_DIR"
     - GIT_TRACE=0
+    - UPSTREAM_USER='EA31337'
+    - USER=${TRAVIS_REPO_SLUG%%/*}
+    - REPOSITORY=${TRAVIS_REPO_SLUG##*/}
     - DISPLAY=:0.0 DISPLAY_BACKUP=$DISPLAY WINEDLLOVERRIDES="mscoree,mshtml=" WINEDEBUG="fixme+all"
     - PATH=${PATH//:\.\/node_modules\/\.bin/} # Fixes Travis bug: https://github.com/travis-ci/travis-ci/issues/4862
     - secure: "crXsd5puGxZaDE9EVTDLU0tMeH3JRmIAUwLhBjheBPzbzT/buE1owFsaeGsr/XQStNrt2EWq8LxN/c4TOkHJ9tTU8f6+3IUkAXvzqYwwcE+HbY3KJ4jJd2KHRQ5NbwpAkDtADvcrw5CDdWGmMiOEaA54l4GCBg0Id5jWOy2KbKXBnjWeaZu6irYT1B6HMAYSxPKWVHriku323tgH3FgAn1HtKK2nhOPjulBj6vj/ioS7xy20sz9j2yN7hExGB1k0GGUSNi7O74xYqLHhBJISp7LplHbaTJCMi5/xd9h9kSfsTLxJtXTqxat/92JburhzFvGBEjd4gJOiZxJw0vymTVJaqwpfy7joD3QD6jz/nF7w5HSnTvEly6wLCOH00TbrfPvwPvFvfXTFl6diNZEfZCwiSJa9eM88hDkpPyp8+O2w9TprASI66qmsM2z3vt2UM4L5k5QfYrIVPE9J4LE1btjX4cecQVb1oauE5N9Hr77e92R5lfA7LgAcT5TluG5AMNJSEbDmdYrnz9W+nlm+2ML3OhdfWHvcvMFSI0Cjpn+9ZF88pGFBc0qjiQQPJCq7WwBgC3pMYsuioV92BNevCDtzCEPL4hp/oc69K+tKxzb4/OdFWSJO5zEKOno1FCheFHLTNl7qbDUt/5xz08hSwtWf7aR5da1CT7eG4RVJCoY="
@@ -39,6 +42,35 @@ notifications:
 # Commonly used to update git repository submodules and do similar tasks that need to be performed before dependencies are installed.
 before_install:
   - env
+  - |
+    # Send pull request to upstream repository if Travis is running in a forked repository
+    if [ "$USER" != "$UPSTREAM_USER" ]; then
+      # Check if the forker's GitHub access token was passed to Travis
+      if [ -z "$OAUTH_TOKEN" ]; then
+        echo "Please set the OAUTH_TOKEN environment variable in Travis CI with a valid access token which has the 'public_repo' scope."
+        exit 1
+      fi
+
+      # Send pull request to upstream (main) repository for doing the backtests
+      PR_HTTP_STATUS=$(curl -siH "Authorization: token $OAUTH_TOKEN" -d '{"title": "PR to backtest", "base": "'$TRAVIS_BRANCH'", "head": "'$USER':'$TRAVIS_BRANCH'"}' https://api.github.com/repos/$UPSTREAM_USER/$REPOSITORY/pulls | head -n1 | cut -d' ' -f2)
+      if [ "$PR_HTTP_STATUS" != "201" ]; then
+        echo "[ERROR] Unable to create new pull request, please check if your access token is valid and you haven't had already an open pull request!"
+        echo "PR_HTTP_STATUS=$PR_HTTP_STATUS"
+        exit 1
+      fi
+      echo "[INFO] Your changeset has been sent to upstream repository as a pull request, please wait until it's merged."
+      exit 0
+    else
+      # If pull request was sent to upstream repository (via Travis or manually) notify the sender about it, ...
+      if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
+        echo "[INFO] Your changes are now staged in the upstream repository, waiting for a merge by repository owner..."
+        exit 0
+      fi
+    fi
+
+  # ||
+  # ||  ... otherwise continue with preparing and doing the backtests on master branch of the upstream repository
+  # \/
 
   # Add PPA/Wine repository
   - sudo add-apt-repository -y ppa:ubuntu-wine/ppa
@@ -90,7 +122,22 @@ script:
       ln -s "$EA_SAMPLE" "/vagrant/$MODE.ex4"
     fi
   - $CWD/_VM/scripts/dl_bt_data.sh
-  - $CWD/_scripts/run_backtests.sh "$MODE"
+  # Run backtests in a new branch and push results back to upstream repository
+  - NEW_BRANCH="EA-$(date +%Y%m%d_%H%M)"
+  - git checkout -b $NEW_BRANCH
+  - $CWD/_scripts/run_backtests.sh $MODE
+  - find $MODE -type f -regex '.*Report\.\(htm\|gif\)' -delete  # Workaround for FX-MT-VM/scripts/run_backtest.sh:34
+  - git add -vA $MODE
+  - git config user.name $USER
+  - git config user.email $USER@users.noreply.github.com
+  - git commit -am "Reports of branch $NEW_BRANCH. [ci skip]"
+  - |
+    # Check if the GitHub access token of main repository was passed to Travis
+    if [ -z "$OAUTH_TOKEN" ]; then
+      echo "Please set the OAUTH_TOKEN environment variable in Travis CI with a valid access token which has the 'public_repo' scope."
+      exit 1
+    fi
+  - git push --set-upstream https://$UPSTREAM_USER:$OAUTH_TOKEN@github.com/$UPSTREAM_USER/$REPOSITORY $NEW_BRANCH
 
 
 # After Success
