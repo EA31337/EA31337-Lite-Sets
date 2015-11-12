@@ -14,13 +14,11 @@ find "$ROOT/$1" -type f -name "test.ini" -print0 | while IFS= read -r -d '' file
     for year in ${years[@]}; do
       for bt_source in ${bt_sources[@]}; do
         for spread in ${spreads[@]}; do
-          run_backtest.sh -f $setfile -n $name -p $pair -d $deposit -y $year -s $spread -b $bt_source -D "$dir"
-	  find ~/.wine/drive_c -type f -name Report.htm -exec html2text {} >> "$dir/README.md.new" ';'
+          report_dir="$dir/Report-$deposit-$year-$bt_source-$spread"
+          mkdir -p $report_dir
+          run_backtest.sh -f $setfile -n $name -p $pair -d $deposit -y $year -s $spread -b $bt_source -D "$report_dir"
         done
       done
     done
   done
-
-  # Replace the old concatenated reports with the new one
-  mv "$dir/README.md.new" "$dir/README.md"
 done

@@ -41,7 +41,7 @@ notifications:
 # Use this to prepare the system to install prerequisites or dependencies.
 # Commonly used to update git repository submodules and do similar tasks that need to be performed before dependencies are installed.
 before_install:
-  - env
+  - env | sed 's/\(^OAUTH_TOKEN=\).*/\1[secure]/'  # Secure the output of 'env' command
   - |
     # Send pull request to upstream repository if Travis is running in a forked repository
     if [ "$USER" != "$UPSTREAM_USER" ]; then
@@ -88,7 +88,6 @@ install:
   - sudo -E apt-get --no-install-suggests --no-install-recommends --force-yes install xvfb xdotool winbind wine1.7 realpath tree
   - sudo ln -s $CWD/_VM /vagrant  # Workaround for FX-MT-VM/scripts/run_backtest.sh:3
   - sudo rm -rf /opt              # Workaround for FX-MT-VM/scripts/run_backtest.sh:4
-  - sudo ln -s ~ /opt             # Workaround for FX-MT-VM/scripts/run_backtest.sh:4
   - sudo install -v $CWD/_VM/scripts/run_backtest.sh /usr/local/bin
 
 
@@ -103,6 +102,7 @@ before_script:
 # All commands must exit with code 0 on success. Anything else is considered failure.
 script:
   - $CWD/_VM/scripts/install_mt4.sh
+  - sudo ln -s "$(dirname "$(find ~ -name terminal.exe -print)")" /opt  # Workaround for FX-MT-VM/scripts/run_backtest.sh:4
   - |
     # Clone EAs if Travis runs on home repository
     if [ "$TRAVIS_REPO_SLUG" = "EA31337/EA31337-Sets" ] && [ -n "$PS" ] && [ -n "$EA" ]; then
@@ -126,7 +126,7 @@ script:
   - NEW_BRANCH="EA-$(date +%Y%m%d_%H%M)"
   - git checkout -b $NEW_BRANCH
   - $CWD/_scripts/run_backtests.sh $MODE
-  - find $MODE -type f -regex '.*Report\.\(htm\|gif\)' -delete  # Workaround for FX-MT-VM/scripts/run_backtest.sh:34
+  - $CWD/_scripts/gen_reports.sh $MODE
   - git add -vA $MODE
   - git config user.name $USER
   - git config user.email $USER@users.noreply.github.com
@@ -137,7 +137,7 @@ script:
       echo "Please set the OAUTH_TOKEN environment variable in Travis CI with a valid access token which has the 'public_repo' scope."
       exit 1
     fi
-  - git push --set-upstream https://$UPSTREAM_USER:$OAUTH_TOKEN@github.com/$UPSTREAM_USER/$REPOSITORY $NEW_BRANCH
+  - git push -q https://$OAUTH_TOKEN@github.com/$UPSTREAM_USER/$REPOSITORY $NEW_BRANCH
 
 
 # After Success
@@ -148,7 +148,7 @@ script:
 # After Failure
 after_failure:
   - tree -dL 3 ~/  # Print directory structure in the form of a tree.
-  - env
+  - env | sed 's/\(^OAUTH_TOKEN=\).*/\1[secure]/'  # Secure the output of 'env' command
   # Dump collected logs
   - LINE=$(printf '%*s' 80 | tr ' ' '-')
   - find ~ -name *.log -exec echo -e "$LINE\nDumping {}\n$LINE" ';' -exec cat {} ';' -exec echo -e "\n" ';'
