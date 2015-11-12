@@ -88,7 +88,6 @@ install:
   - sudo -E apt-get --no-install-suggests --no-install-recommends --force-yes install xvfb xdotool winbind wine1.7 realpath tree
   - sudo ln -s $CWD/_VM /vagrant  # Workaround for FX-MT-VM/scripts/run_backtest.sh:3
   - sudo rm -rf /opt              # Workaround for FX-MT-VM/scripts/run_backtest.sh:4
-  - sudo ln -s ~ /opt             # Workaround for FX-MT-VM/scripts/run_backtest.sh:4
   - sudo install -v $CWD/_VM/scripts/run_backtest.sh /usr/local/bin
 
 
@@ -103,6 +102,7 @@ before_script:
 # All commands must exit with code 0 on success. Anything else is considered failure.
 script:
   - $CWD/_VM/scripts/install_mt4.sh
+  - sudo ln -s "$(dirname "$(find ~ -name terminal.exe -print)")" /opt  # Workaround for FX-MT-VM/scripts/run_backtest.sh:4
   - |
     # Clone EAs if Travis runs on home repository
     if [ "$TRAVIS_REPO_SLUG" = "EA31337/EA31337-Sets" ] && [ -n "$PS" ] && [ -n "$EA" ]; then
