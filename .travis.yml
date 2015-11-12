@@ -126,7 +126,7 @@ script:
   - NEW_BRANCH="EA-$(date +%Y%m%d_%H%M)"
   - git checkout -b $NEW_BRANCH
   - $CWD/_scripts/run_backtests.sh $MODE
-  - find $MODE -type f -regex '.*Report\.\(htm\|gif\)' -delete  # Workaround for FX-MT-VM/scripts/run_backtest.sh:34
+  - $CWD/_scripts/gen_reports.sh $MODE
   - git add -vA $MODE
   - git config user.name $USER
   - git config user.email $USER@users.noreply.github.com
