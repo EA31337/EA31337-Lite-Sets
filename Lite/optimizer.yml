@@ -83,26 +83,30 @@ Strategy-Bands-All:
       end:  27
 
 Profit-Stop:
-  TakeProfit:
-    start: 0
-    step: 20
-    end: 400
-  StopLoss:
-    start: 0
-    step: 20
-    end: 400
-  TrailingStop:
-    start: 0
-    step: 20
-    end: 400
-  TrailingStopOneWay:
-    start: 0
-    step:  1
-    end:   1
-  TrailingProfitOneWay:
-    start: 0
-    step:  1
-    end:   1
+  Settings:
+    Enable:  [ "*_Active" ]
+    Disable: [ "Account_Conditions_Active", "Boosting_Enabled" ]
+  Test-Profit-Stop:
+    TakeProfit:
+      start: 0
+      step: 20
+      end: 400
+    StopLoss:
+      start: 0
+      step: 20
+      end: 400
+    TrailingStop:
+      start: 0
+      step: 20
+      end: 400
+    TrailingStopOneWay:
+      start: 0
+      step:  1
+      end:   1
+    TrailingProfitOneWay:
+      start: 0
+      step:  1
+      end:   1
 
 Conditions:
   Settings:
