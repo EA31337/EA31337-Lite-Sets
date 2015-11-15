@@ -35,6 +35,12 @@ notifications:
     on_failure: always  # options: [always|never|change] default: always
     on_start:   never   # options: [always|never|change] default: always
 
+cache:
+  - apt
+  - pip
+  directories:
+    - /opt
+    - ~/.wine
 
 # Before Install
 # Use this to prepare the system to install prerequisites or dependencies.
