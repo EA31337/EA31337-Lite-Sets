@@ -1,0 +1,18 @@
+# Init settings.
+input_set *,F 0
+input_set Account_Conditions_Active 0
+input_set Boosting_Enabled 0
+input_set LotSize 0.01
+input_set *_Active 0
+input_set Bands*_Active 0
+
+# Optimizer settings.
+input_set Bands_Shift,F 1
+input_set Bands_Shift,1 0
+input_set Bands_Shift,2 1
+input_set Bands_Shift,3 4
+
+input_set Bands_Shift_Far,F 1
+input_set Bands_Shift_Far,1 0
+input_set Bands_Shift_Far,2 1
+input_set Bands_Shift_Far,3 4

@@ -1,0 +1,18 @@
+# Init settings.
+input_set *,F 0
+input_set Account_Conditions_Active 0
+input_set Boosting_Enabled 0
+input_set LotSize 0.01
+input_set *_Active 0
+input_set Bands*_Active 0
+
+# Optimizer settings.
+input_set Bands_TrailingStopMethod,F 1
+input_set Bands_TrailingStopMethod,1 0
+input_set Bands_TrailingStopMethod,2 1
+input_set Bands_TrailingStopMethod,3 27
+
+input_set Bands_TrailingProfitMethod,F 1
+input_set Bands_TrailingProfitMethod,1 0
+input_set Bands_TrailingProfitMethod,2 1
+input_set Bands_TrailingProfitMethod,3 27

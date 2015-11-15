@@ -1,0 +1,11 @@
+# Init settings.
+input_set *,F 0
+input_set Account_Conditions_Active 0
+input_set Boosting_Enabled 0
+input_set LotSize 0.01
+input_set *_Active 0
+# Optimizer settings.
+input_set Bands_Deviation,F 1
+input_set Bands_Deviation,1 2.0
+input_set Bands_Deviation,2 0.1
+input_set Bands_Deviation,3 2.2
