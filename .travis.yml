@@ -1,5 +1,5 @@
 # Travis CI build configuration config file.
-# Used environment variables (see: http://docs.travis-ci.com/user/ci-environment/):
+# Used environment variables (see: http://docs.travis-ci.com/user/environment-variables/):
 #   TRAVIS_BUILD_DIR - The absolute path to the directory where the repository being built has been copied on the worker. (e.g. "/home/travis/build/EA31337/EA31337-Sets")
 #   TRAVIS_REPO_SLUG - The slug (in form: owner_name/repo_name) of the repository currently being built. (e.g. "EA31337/EA31337-Sets")
 
@@ -20,7 +20,6 @@ env:
     - UPSTREAM_USER='EA31337'
     - USER=${TRAVIS_REPO_SLUG%%/*}
     - REPOSITORY=${TRAVIS_REPO_SLUG##*/}
-    - DISPLAY=:0.0 DISPLAY_BACKUP=$DISPLAY WINEDLLOVERRIDES="mscoree,mshtml=" WINEDEBUG="fixme+all"
     - PATH=${PATH//:\.\/node_modules\/\.bin/} # Fixes Travis bug: https://github.com/travis-ci/travis-ci/issues/4862
     - secure: "crXsd5puGxZaDE9EVTDLU0tMeH3JRmIAUwLhBjheBPzbzT/buE1owFsaeGsr/XQStNrt2EWq8LxN/c4TOkHJ9tTU8f6+3IUkAXvzqYwwcE+HbY3KJ4jJd2KHRQ5NbwpAkDtADvcrw5CDdWGmMiOEaA54l4GCBg0Id5jWOy2KbKXBnjWeaZu6irYT1B6HMAYSxPKWVHriku323tgH3FgAn1HtKK2nhOPjulBj6vj/ioS7xy20sz9j2yN7hExGB1k0GGUSNi7O74xYqLHhBJISp7LplHbaTJCMi5/xd9h9kSfsTLxJtXTqxat/92JburhzFvGBEjd4gJOiZxJw0vymTVJaqwpfy7joD3QD6jz/nF7w5HSnTvEly6wLCOH00TbrfPvwPvFvfXTFl6diNZEfZCwiSJa9eM88hDkpPyp8+O2w9TprASI66qmsM2z3vt2UM4L5k5QfYrIVPE9J4LE1btjX4cecQVb1oauE5N9Hr77e92R5lfA7LgAcT5TluG5AMNJSEbDmdYrnz9W+nlm+2ML3OhdfWHvcvMFSI0Cjpn+9ZF88pGFBc0qjiQQPJCq7WwBgC3pMYsuioV92BNevCDtzCEPL4hp/oc69K+tKxzb4/OdFWSJO5zEKOno1FCheFHLTNl7qbDUt/5xz08hSwtWf7aR5da1CT7eG4RVJCoY="
     - secure: "eMGIXPSYLk1LIxqocS3CuHl+vxUSr1ZDs38yNdA6jwc/7zeWn7zA0+N2zHKr9UzkHDYJ9cbLDlJZk/M8umtDr3H3orld3TCSXMgtyKqCdDV3T4rwmcJs3InyrOa7Ia72FNJttjpToQ53oWnMqCk/eN7sLL4ZJLmJxAlkW5JK5fml0UYn03jrE3ggXmjjm/CpjrkurgfioDL7xhxtnACHCNuWRupXxI4486rzAW6enqrluVcr25a0Zn7ZAAseIxqQhEuUqiyJlKRcrlaO3yDYIa1AI0drLYMlmOcEAxcSzVIwTX79CV4C7UQWg2SHYOXYK+ak+AXwKvr8Q4y5u4PZBvBZTOELHRW61MvDq5NjAvvEgc5VvHtsWG7b0Qqe0N3EU4cJBqLfeOettFd4rA+VBRgUVoUXaXgQlKibKBG4kBEM030mIfLzTMAAYduYNiallzffGhn4ZRzTQPOAM298sh5moIo5yIl+1z2bxEXXz0BOs273JZNhBBXzS1CSQoeHZEVvETnnWAUvnNPrZ6moQ6/gkabhyV1jUNiplxGoJ9bSShPzwh1rfgskAyHBrvGiNLnRzU5bx0YJRqT7njqRhPCXfVEa7Q5qWtrXwWF/DNDd9gbeocedsHAsmzlLgfeJsJiVX+9jM7w0/NlHowjhPnBZJYq2dLSzzku6/5Vv/WA="
@@ -41,68 +40,19 @@ notifications:
 # Use this to prepare the system to install prerequisites or dependencies.
 # Commonly used to update git repository submodules and do similar tasks that need to be performed before dependencies are installed.
 before_install:
-  - env | sed 's/\(^OAUTH_TOKEN=\).*/\1[secure]/'  # Secure the output of 'env' command
-  - |
-    # Send pull request to upstream repository if Travis is running in a forked repository
-    if [ "$USER" != "$UPSTREAM_USER" ]; then
-      # Check if the forker's GitHub access token was passed to Travis
-      if [ -z "$OAUTH_TOKEN" ]; then
-        echo "Please set the OAUTH_TOKEN environment variable in Travis CI with a valid access token which has the 'public_repo' scope."
-        exit 1
-      fi
-
-      # Send pull request to upstream (main) repository for doing the backtests
-      PR_HTTP_STATUS=$(curl -siH "Authorization: token $OAUTH_TOKEN" -d '{"title": "PR to backtest", "base": "'$TRAVIS_BRANCH'", "head": "'$USER':'$TRAVIS_BRANCH'"}' https://api.github.com/repos/$UPSTREAM_USER/$REPOSITORY/pulls | head -n1 | cut -d' ' -f2)
-      if [ "$PR_HTTP_STATUS" != "201" ]; then
-        echo "[ERROR] Unable to create new pull request, please check if your access token is valid and you haven't had already an open pull request!"
-        echo "PR_HTTP_STATUS=$PR_HTTP_STATUS"
-        exit 1
-      fi
-      echo "[INFO] Your changeset has been sent to upstream repository as a pull request, please wait until it's merged."
-      exit 0
-    else
-      # If pull request was sent to upstream repository (via Travis or manually) notify the sender about it, ...
-      if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
-        echo "[INFO] Your changes are now staged in the upstream repository, waiting for a merge by repository owner..."
-        exit 0
-      fi
-    fi
-
-  # ||
-  # ||  ... otherwise continue with preparing and doing the backtests on master branch of the upstream repository
-  # \/
-
-  # Add PPA/Wine repository
-  - sudo add-apt-repository -y ppa:ubuntu-wine/ppa
-
-  # Skip unnecessary source indexes for a faster run
-  - sudo sed -i'' 's/^deb-src/#deb-src/' /etc/apt/sources.list /etc/apt/sources.list.d/ubuntu-wine-ppa-precise.list
-
-  # Update apt repositories.
-  - sudo apt-get update
-
+  - env
+  - git config user.name $USER
+  - git config user.email $USER@users.noreply.github.com
 
 # Install
 # Use this to install any prerequisites or dependencies necessary to run your build.
 install:
-  - sudo -E apt-get --no-install-suggests --no-install-recommends --force-yes install xvfb xdotool winbind wine1.7 realpath tree
-  - sudo ln -s $CWD/_VM /vagrant  # Workaround for FX-MT-VM/scripts/run_backtest.sh:3
-  - sudo rm -rf /opt              # Workaround for FX-MT-VM/scripts/run_backtest.sh:4
-  - sudo install -v $CWD/_VM/scripts/run_backtest.sh /usr/local/bin
-
+  - sudo $CWD/scripts/provision.sh
 
 # Before Script
 # Use this to prepare your build for testing (e.g. copy database configurations, environment variables, etc.).
 before_script:
-  - Xvfb $DISPLAY -screen 0 1024x768x16 &> ~/Xvfb.log &
-
-
-# Script
-# Main build command to run.
-# All commands must exit with code 0 on success. Anything else is considered failure.
-script:
-  - $CWD/_VM/scripts/install_mt4.sh
-  - sudo ln -s "$(dirname "$(find ~ -name terminal.exe -print)")" /opt  # Workaround for FX-MT-VM/scripts/run_backtest.sh:4
+  - set -e
   - |
     # Clone EAs if Travis runs on home repository
     if [ "$TRAVIS_REPO_SLUG" = "EA31337/EA31337-Sets" ] && [ -n "$PS" ] && [ -n "$EA" ]; then
@@ -112,33 +62,27 @@ script:
       install -vm700 <(echo "echo $PS") $CWD/ps && test $PS = $($CWD/ps)
       eval "$(ssh-agent -s)"
       git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c | DISPLAY= SSH_ASKPASS=$CWD/ps ssh-add -
-      git clone -q $EA ~/ea
-      DISPLAY=$DISPLAY_BACKUP
-      cp -v ~/ea/*.ex4 /vagrant
+      git clone -q $EA
+# cp -v ~/EA/*.ex4 /vagrant
     # Otherwise link an available sample EA
     else
       echo 'Using *SAMPLE* expert!'
       EA_SAMPLE=$(find ~/.wine/drive_c -path '*Experts*' -type f -name MACD*.ex4 -print0 -quit)
       ln -s "$EA_SAMPLE" "/vagrant/$MODE.ex4"
     fi
-  - $CWD/_VM/scripts/dl_bt_data.sh
+
+# Script
+# Main build command to run.
+# All commands must exit with code 0 on success. Anything else is considered failure.
+script:
   # Run backtests in a new branch and push results back to upstream repository
-  - NEW_BRANCH="EA-$(date +%Y%m%d_%H%M)"
-  - git checkout -b $NEW_BRANCH
+  - BRANCH="EA-$(date +%Y%m%d_%H%M)"
   - $CWD/_scripts/run_backtests.sh $MODE
   - $CWD/_scripts/gen_reports.sh $MODE
+  - git checkout -b $BRANCH
   - git add -vA $MODE
-  - git config user.name $USER
-  - git config user.email $USER@users.noreply.github.com
-  - git commit -am "Reports of branch $NEW_BRANCH. [ci skip]"
-  - |
-    # Check if the GitHub access token of main repository was passed to Travis
-    if [ -z "$OAUTH_TOKEN" ]; then
-      echo "Please set the OAUTH_TOKEN environment variable in Travis CI with a valid access token which has the 'public_repo' scope."
-      exit 1
-    fi
-  - git push -q https://$OAUTH_TOKEN@github.com/$UPSTREAM_USER/$REPOSITORY $NEW_BRANCH
-
+  - git commit -am "Report: $BRANCH."
+  - git push git@github.com:$UPSTREAM_USER/$REPOSITORY $BRANCH
 
 # After Success
 # Note: The standard Unix exit code of "0" means the build passed; everything else is treated as failure.
@@ -148,7 +92,6 @@ script:
 # After Failure
 after_failure:
   - tree -dL 3 ~/  # Print directory structure in the form of a tree.
-  - env | sed 's/\(^OAUTH_TOKEN=\).*/\1[secure]/'  # Secure the output of 'env' command
   # Dump collected logs
   - LINE=$(printf '%*s' 80 | tr ' ' '-')
   - find ~ -name *.log -exec echo -e "$LINE\nDumping {}\n$LINE" ';' -exec cat {} ';' -exec echo -e "\n" ';'
