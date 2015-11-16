@@ -8,6 +8,12 @@ python: '3.4'
 
 sudo: required  # Required for Precise/Wine 1.7
 
+branches:
+  only:
+    - master
+    - /^dev\/.*$/
+    - /^travis\/.*$/
+
 addons:
   hosts:
     - travis.local
