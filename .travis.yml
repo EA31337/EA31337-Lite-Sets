@@ -3,16 +3,10 @@
 #   TRAVIS_BUILD_DIR - The absolute path to the directory where the repository being built has been copied on the worker. (e.g. "/home/travis/build/EA31337/EA31337-Sets")
 #   TRAVIS_REPO_SLUG - The slug (in form: owner_name/repo_name) of the repository currently being built. (e.g. "EA31337/EA31337-Sets")
 
-language: python
-python: '3.4'
-
-sudo: required  # Required for Precise/Wine 1.7
-
-addons:
-  hosts:
-    - travis.local
-
 # Environment
+language: python
+python: 3.4
+sudo: required  # Required for Precise/Wine 1.7
 env:
   global:
     - CWD="$TRAVIS_BUILD_DIR"
@@ -26,6 +20,21 @@ env:
   matrix:
     - PLATFORM=MT4 MODE=Lite
 
+addons:
+  hosts:
+    - travis.local
+
+# CI
+branches:
+  only:
+    - master
+
+cache:
+  apt: true
+  pip: true
+  directories:
+    - $HOME/.wine
+
 notifications:
   email: true
   webhooks:
@@ -34,13 +43,6 @@ notifications:
     on_success: change  # options: [always|never|change] default: always
     on_failure: always  # options: [always|never|change] default: always
     on_start:   never   # options: [always|never|change] default: always
-
-#cache:
-#  - apt
-#  - pip
-#  directories:
-#    - /opt
-#    - ~/.wine
 
 # Before Install
 # Use this to prepare the system to install prerequisites or dependencies.
