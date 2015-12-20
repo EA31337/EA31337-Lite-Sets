@@ -1,13 +1,23 @@
-# Init settings.
-input_set *,F 0
+## Init settings.
+# Disable all optimization settings.
+input_set .*,F 0
+# Disable all active strategies.
+input_set .*_Active 0
+# Disable account conditions.
 input_set Account_Conditions_Active 0
+# Disable boosting.
 input_set Boosting_Enabled 0
+# Set lot size.
 input_set LotSize 0.01
-input_set *_Active 0
-input_set Bands*_Active 0
 
-# Optimizer settings.
-input_set Applied_Price,F 1
-input_set Applied_Price,1 20
-input_set Applied_Price,2 2
-input_set Applied_Price,3 30
+## Enable Bands strategies.
+input_set Bands.*_Active 1
+
+## Optimization settings.
+# Set Applied Price.
+input_set Bands_Applied_Price,F 1
+input_set Bands_Applied_Price,1 20
+input_set Bands_Applied_Price,2 2
+input_set Bands_Applied_Price,3 30
+
+# vim: set syntax=sh:
