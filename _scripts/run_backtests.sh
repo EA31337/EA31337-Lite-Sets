@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 # Initialize variables and settings.
 : ${1?"Usage: $0 (dir)"} || exit 1
-set -e
+set -ex
 cd -P -- "$(dirname -- "$0")" && pwd -P
 ROOT="$(git rev-parse --show-toplevel)"
-type run_backtest.sh || run_backtest() { echo run_backtest $*; }
 
 # Find, parse configuration and run the tests.
 find "$ROOT/$1" -type f -name "test.ini" -print0 | while IFS= read -r -d '' file; do
@@ -15,8 +14,8 @@ find "$ROOT/$1" -type f -name "test.ini" -print0 | while IFS= read -r -d '' file
       for bt_source in ${bt_sources[@]}; do
         for spread in ${spreads[@]}; do
           report_dir="$dir/Report-$deposit-$year-$bt_source-$spread"
-          mkdir -p $report_dir
-          run_backtest.sh -f $setfile -n $name -p $pair -d $deposit -y $year -s $spread -b $bt_source -D "$report_dir"
+          mkdir -p "$report_dir"
+          run_backtest.sh -x -e $name -f "$dir/$setfile" -p $pair -d $deposit -y $year -s $spread -b $bt_source -D "$report_dir"
         done
       done
     done
