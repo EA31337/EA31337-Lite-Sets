@@ -1,0 +1,22 @@
+## Init settings.
+# Disable all optimization settings.
+input_set .*,F 0
+# Disable all active strategies.
+input_set .*_Active 0
+# Disable account conditions.
+input_set Account_Conditions_Active 0
+# Disable boosting.
+input_set Boosting_Enabled 0
+# Set lot size.
+input_set LotSize 0.01
+
+## Enable Bands strategies.
+input_set Bands1.*_Active 1
+
+# Set Bands OpenMethod.
+input_set Bands1_OpenMethod,F 1
+input_set Bands1_OpenMethod,1 0
+input_set Bands1_OpenMethod,2 1
+input_set Bands1_OpenMethod,3 255
+
+# vim: set syntax=sh:

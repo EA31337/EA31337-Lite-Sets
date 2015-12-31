@@ -1,0 +1,27 @@
+## Init settings.
+# Disable all optimization settings.
+input_set .*,F 0
+# Disable all active strategies.
+input_set .*_Active 0
+# Disable account conditions.
+input_set Account_Conditions_Active 0
+# Disable boosting.
+input_set Boosting_Enabled 0
+# Set lot size.
+input_set LotSize 0.01
+
+## Enable Bands strategies.
+input_set Bands.*_Active 1
+
+# Set Bands trailing stop
+input_set Bands_TrailingStopMethod,F 1
+input_set Bands_TrailingStopMethod,1 0
+input_set Bands_TrailingStopMethod,2 1
+input_set Bands_TrailingStopMethod,3 27
+# Set Bands trailing profit
+input_set Bands_TrailingProfitMethod,F 1
+input_set Bands_TrailingProfitMethod,1 0
+input_set Bands_TrailingProfitMethod,2 1
+input_set Bands_TrailingProfitMethod,3 27
+
+# vim: set syntax=sh:
