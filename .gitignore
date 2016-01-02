@@ -1,0 +1,3 @@
+# Ignore Finder metadata files on Mac.
+.DS_Store
+

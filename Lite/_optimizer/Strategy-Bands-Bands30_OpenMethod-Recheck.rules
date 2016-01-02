@@ -1,0 +1,25 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( Bands30_OpenMethod )
+# Disable all optimization settings.
+input_set .*,F 0
+# Disable all active strategies.
+input_set .*_Active 0
+# Disable account conditions.
+input_set Account_Conditions_Active 0
+# Disable boosting.
+input_set Boosting_Enabled 0
+# Set lot size.
+input_set LotSize 0.01
+
+## Enable Bands strategies.
+input_set Bands30.*_Active 1
+
+## Optimization settings.
+# Set Bands OpenMethod.
+input_set Bands30_OpenMethod,F 1
+input_set Bands30_OpenMethod,1 0
+input_set Bands30_OpenMethod,2 $(input_get Bands30_OpenMethod)
+input_set Bands30_OpenMethod,3 $(input_get Bands30_OpenMethod)
+
+# vim: set syntax=sh:

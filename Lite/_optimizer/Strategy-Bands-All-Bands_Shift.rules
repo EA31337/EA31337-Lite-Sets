@@ -1,4 +1,6 @@
 ## Init settings.
+# Parameter list to optimize.
+param_list=( Bands_Shift Bands_Shift_Far )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -13,16 +15,15 @@ input_set LotSize 0.01
 ## Enable Bands strategies.
 input_set Bands.*_Active 1
 
-# Init settings.
-input_set *,F 0
-input_set Account_Conditions_Active 0
-input_set Boosting_Enabled 0
-input_set LotSize 0.01
-input_set *_Active 0
-# Optimizer settings.
-input_set Bands_Applied_Price,F 1
-input_set Bands_Applied_Price,1 20
-input_set Bands_Applied_Price,2 2
-input_set Bands_Applied_Price,3 30
+## Optimization settings.
+# Set Bands shift
+input_set Bands_Shift,F 1
+input_set Bands_Shift,1 0
+input_set Bands_Shift,2 1
+input_set Bands_Shift,3 4
+input_set Bands_Shift_Far,F 1
+input_set Bands_Shift_Far,1 0
+input_set Bands_Shift_Far,2 1
+input_set Bands_Shift_Far,3 4
 
 # vim: set syntax=sh:

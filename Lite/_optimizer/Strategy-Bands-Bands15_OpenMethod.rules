@@ -1,4 +1,6 @@
 ## Init settings.
+# Parameter list to optimize.
+param_list=( Bands15_OpenMethod )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -11,13 +13,13 @@ input_set Boosting_Enabled 0
 input_set LotSize 0.01
 
 ## Enable Bands strategies.
-input_set Bands.*_Active 1
+input_set Bands15.*_Active 1
 
 ## Optimization settings.
-# Set Bands period.
-input_set Bands_Period,F 1
-input_set Bands_Period,1 20
-input_set Bands_Period,2 2
-input_set Bands_Period,3 30
+# Set Bands OpenMethod.
+input_set Bands15_OpenMethod,F 1
+input_set Bands15_OpenMethod,1 0
+input_set Bands15_OpenMethod,2 1
+input_set Bands15_OpenMethod,3 255
 
 # vim: set syntax=sh:

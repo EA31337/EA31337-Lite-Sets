@@ -1,4 +1,6 @@
 ## Init settings.
+# Parameter list to optimize.
+param_list=( Bands_TrailingStopMethod Bands_TrailingProfitMethod )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -13,6 +15,7 @@ input_set LotSize 0.01
 ## Enable Bands strategies.
 input_set Bands.*_Active 1
 
+## Optimization settings.
 # Set Bands trailing stop
 input_set Bands_TrailingStopMethod,F 1
 input_set Bands_TrailingStopMethod,1 0

@@ -84,6 +84,7 @@ before_script:
 # All commands must exit with code 0 on success. Anything else is considered failure.
 #
 script:
+  - find "$CWD" -name "*.rules" -exec bash -n "{}" ';' # Check syntax of rule files.
   - |- # Run backtests in a new branch.
     run_backtests.sh $MODE
     gen_reports.sh $MODE
