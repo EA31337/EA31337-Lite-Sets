@@ -15,7 +15,7 @@ find "$ROOT/$1" -type f -name "test.ini" -print0 | while IFS= read -r -d '' file
         for curr_spread in ${spreads[@]}; do
           report_dir="$dir/Report-$curr_deposit-$curr_year-$curr_bt_source-$curr_spread"
           mkdir -p "$report_dir"
-          run_backtest.sh -x -v -e $name -f "$dir/$setfile" -c $currency -p $pair -d $curr_deposit -y $curr_year -s $curr_spread -b $curr_bt_source -D "$report_dir"
+          run_backtest.sh -v -e $name -f "$dir/$setfile" -c $currency -p $pair -d $curr_deposit -y $curr_year -s $curr_spread -b $curr_bt_source -D "$report_dir"
         done
       done
     done
