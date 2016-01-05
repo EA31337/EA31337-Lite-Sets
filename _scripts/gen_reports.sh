@@ -1,23 +1,24 @@
 #!/usr/bin/env bash
+set -ex
+type html2text grep sed
+[ $# -eq 0 ] && { echo "Usage: $0 (dir)"; exit 1; }
+DIR="$1"
+ROOT="$(git rev-parse --show-toplevel)"
+OUT="README.md"
+FILTER="-e Period -e quality -e errors -e deposit -e profit -e drawdown -e positions -e trade -e consecutive"
+[ -d "$DIR" ]
 
-if [ ! "$1" ]; then
-  echo "[ERROR] Missing parameter, usage is: $0 <directory to process>"
-  exit 1
-fi
-
-set -e
-type html2text || exit 1
-
-TEMPORARY_FILE="README.md.new"
-README_FILE="README.md"
-
-for REPORT in $(find $1 -type f -name 'Report.htm' -print); do
-  OUTPUT_PATH="$(dirname $(dirname $REPORT))/$TEMPORARY_FILE"
-  echo -n "Appending $REPORT to $OUTPUT_PATH ...  "
-  html2text $REPORT >> $OUTPUT_PATH && \
-  echo "Done!"
+# Find, parse configuration and run the tests.
+find "$ROOT/$1" -type f -name "test.ini" -print0 | while IFS= read -r -d '' file; do
+  dir="$(dirname "$file")"
+  > "$dir/$OUT"
+  find "$dir" -type f -name "*USD*.txt" -print0 | while IFS= read -r -d '' report; do
+    base=$(basename "$report")
+    name=$(echo "$base" | sed "s/-/ /g")
+    gif="$(basename "${base%.*}.gif")"
+    printf "\n### Report: ${name%.*}\n\n" >> "$dir/$OUT"
+    printf "![$name]($gif)\n\n" >> "$dir/$OUT"
+    grep "^\S" "$report" | sed 's/^/    /' >> "$dir/$OUT"
+  done
 done
-
-echo -n "Renaming $TEMPORARY_FILE files to $README_FILE ...  "
-find $1 -type f -name "$TEMPORARY_FILE" -execdir mv "$TEMPORARY_FILE" "$README_FILE" ';' && \
-echo "Done!"
+echo "$0 done."
