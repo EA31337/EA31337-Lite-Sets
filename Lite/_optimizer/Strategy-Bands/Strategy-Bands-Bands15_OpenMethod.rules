@@ -11,9 +11,8 @@ input_set Account_Conditions_Active 0
 input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
-
-## Enable Bands strategies.
-input_set Bands15.*_Active 1
+# Enable strategy.
+input_set Bands15_Active 1
 
 ## Optimization settings.
 # Test Bands OpenMethod.

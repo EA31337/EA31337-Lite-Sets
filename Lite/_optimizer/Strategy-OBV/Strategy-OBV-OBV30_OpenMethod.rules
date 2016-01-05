@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Bands1_OpenMethod )
+param_list=( OBV30_OpenMethod )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -12,13 +12,13 @@ input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
 # Enable strategy.
-input_set Bands1_Active 1
+input_set OBV30_Active 1
 
-## Optimization settings.
-# Test Bands OpenMethod.
-input_set Bands1_OpenMethod,F 1
-input_set Bands1_OpenMethod,1 0
-input_set Bands1_OpenMethod,2 1
-input_set Bands1_OpenMethod,3 255
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test OBV30_OpenMethod.
+input_set OBV30_OpenMethod,F 1
+input_set OBV30_OpenMethod,1 0
+input_set OBV30_OpenMethod,2 1
+input_set OBV30_OpenMethod,3 31
 
 # vim: set syntax=sh:
