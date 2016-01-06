@@ -1,0 +1,178 @@
+
+
+
+                                         SSttrraatteeggyy TTeesstteerr RReeppoorrtt
+                                      EEAA3311333377--LLiittee--BBaacckktteesstt--vv11..006666
+                                               ((BBuuiilldd 995500))
+
+Symbol                    EURUSD (Euro vs US Dollar)
+Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.01.29 23:59 (2014.01.01 - 2014.01.30)
+Model                     Every tick (the most precise method based on all available least timeframes)
+                          __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.066 --
+                          "; __EA_Order_Parameters__="-- Profit/Loss settings (set 0 for auto) --";
+                          LotSize=0; TakeProfit=80; StopLoss=40; MaxOrders=0; MaxOrdersPerType=0;
+                          TradeMicroLots=true; __EA_Trailing_Parameters__="-- Settings for trailing stops
+                          --"; TrailingStop=40; TrailingStopOneWay=true; TrailingProfit=30;
+                          TrailingProfitOneWay=true; TrailingStopAddPerMinute=0;
+                          __EA_Risk_Parameters__="-- Risk management --"; RiskRatio=0;
+                          TradeWithTrend=false; MinimalizeLosses=false;
+                          __Strategy_Boosting_Parameters__="-- Strategy boosting (set 1.0 to default) --
+                          "; Boosting_Enabled=false; BestDailyStrategyMultiplierFactor=1;
+                          BestWeeklyStrategyMultiplierFactor=1; BestMonthlyStrategyMultiplierFactor=1;
+                          WorseDailyStrategyDividerFactor=1; WorseWeeklyStrategyDividerFactor=1;
+                          WorseMonthlyStrategyDividerFactor=1; BoostTrendFactor=1.2;
+                          __Market_Parameters__="-- Market parameters --"; TrendMethod=181;
+                          TrendMethodAction=238; MinVolumeToTrade=2; MaxOrderPriceSlippage=5;
+                          DemoMarketStopLevel=10; MaxTries=5; MarketSuddenDropSize=10;
+                          MarketBigDropSize=50; MinPipChangeToTrade=0.7; MinPipGap=10;
+                          __EA_Conditions__="-- Account conditions --"; Account_Conditions_Active=false;
+                          Account_Condition_MinProfitCloseOrder=20; __AC_Parameters__="-- Settings for
+                          the Bill Williams' Accelerator/Decelerator oscillator --"; AC1_Active=true;
+                          AC5_Active=true; AC15_Active=true; AC30_Active=true; AC_OpenLevel=0;
+                          AC1_OpenMethod=15; AC5_OpenMethod=15; AC15_OpenMethod=15; AC30_OpenMethod=15;
+                          __AD_Parameters__="-- Settings for the Accumulation/Distribution indicator --";
+                          AD1_Active=true; AD5_Active=true; AD15_Active=true; AD30_Active=true;
+                          AD_OpenLevel=0; AD1_OpenMethod=15; AD5_OpenMethod=15; AD15_OpenMethod=15;
+                          AD30_OpenMethod=15; __ADX_Parameters__="-- Settings for the Average Directional
+                          Movement Index indicator --"; ADX1_Active=true; ADX5_Active=true;
+                          ADX15_Active=true; ADX30_Active=true; ADX_Period=14; ADX_OpenLevel=0;
+Parameters                ADX1_OpenMethod=15; ADX5_OpenMethod=15; ADX15_OpenMethod=15;
+                          ADX30_OpenMethod=15; __Alligator_Parameters__="-- Settings for the Alligator
+                          indicator --"; Alligator1_Active=true; Alligator5_Active=true;
+                          Alligator15_Active=true; Alligator30_Active=true; Alligator_Jaw_Period=22;
+                          Alligator_Jaw_Shift=0; Alligator_Teeth_Period=10; Alligator_Teeth_Shift=4;
+                          Alligator_Lips_Period=9; Alligator_Lips_Shift=2; Alligator_Shift=0;
+                          Alligator_Shift_Far=1; Alligator_OpenLevel=0.01; Alligator1_OpenMethod=63;
+                          Alligator5_OpenMethod=63; Alligator15_OpenMethod=63; Alligator30_OpenMethod=63;
+                          __ATR_Parameters__="-- Settings for the Average True Range indicator --";
+                          ATR1_Active=true; ATR5_Active=true; ATR15_Active=true; ATR30_Active=true;
+                          ATR_Period_Fast=14; ATR_Period_Slow=20; ATR_OpenLevel=0; ATR1_OpenMethod=31;
+                          ATR5_OpenMethod=31; ATR15_OpenMethod=31; ATR30_OpenMethod=31;
+                          __Awesome_Parameters__="-- Settings for the Awesome oscillator --";
+                          Awesome1_Active=true; Awesome5_Active=true; Awesome15_Active=true;
+                          Awesome30_Active=true; Awesome_OpenLevel=0; Awesome1_OpenMethod=31;
+                          Awesome5_OpenMethod=0; Awesome15_OpenMethod=31; Awesome30_OpenMethod=31;
+                          __Bands_Parameters__="-- Settings for the Bollinger Bands indicator --";
+                          Bands1_Active=false; Bands5_Active=false; Bands15_Active=false;
+                          Bands30_Active=false; Bands_Period=26; Bands_Deviation=2.1; Bands_Shift=0;
+                          Bands_Shift_Far=0; Bands1_OpenMethod=24; Bands5_OpenMethod=0;
+                          Bands15_OpenMethod=0; Bands30_OpenMethod=0; __BPower_Parameters__="-- Settings
+                          for the Bulls/Bears Power indicator --"; BPower1_Active=true;
+                          BPower5_Active=true; BPower15_Active=true; BPower30_Active=true;
+                          BPower_Period=13; BPower_OpenLevel=0; BPower1_OpenMethod=0;
+                          BPower5_OpenMethod=0; BPower15_OpenMethod=0; BPower30_OpenMethod=0;
+                          __Breakage_Parameters__="-- Settings for the custom Breakage strategy --";
+                          Breakage1_Active=true; Breakage5_Active=true; Breakage15_Active=true;
+                          Breakage30_Active=true; Breakage_OpenLevel=0; Breakage1_OpenMethod=0;
+                          Breakage5_OpenMethod=0; Breakage15_OpenMethod=0; Breakage30_OpenMethod=0;
+                          BWMFI1_Active=true; BWMFI5_Active=true; CCI_OpenLevel=0;
+Bars in test        28858 Ticks modelled                  6395457 Modelling quality                24.92%
+Mismatched charts       0
+errors
+Initial deposit   2000.00                                         Spread                               10
+Total net profit  -108.80 Gross profit                      69.88 Gross loss                      -178.68
+Profit factor        0.39 Expected payoff                  -36.27
+Absolute drawdown  187.68 Maximal drawdown        237.24 (11.58%) Relative drawdown       11.58% (237.24)
+Total trades            3 Short positions (won %)     1 (100.00%) Long positions (won %)        2 (0.00%)
+                          Profit trades (% of          1 (33.33%) Loss trades (% of            2 (66.67%)
+                          total)                                  total)
+                  Largest profit trade                      69.88 loss trade                       -89.67
+                  Average profit trade                      69.88 loss trade                       -89.34
+                  Maximum consecutive wins              1 (69.88) consecutive losses          2 (-178.68)
+                          (profit in money)                       (loss in money)
+                  Maximal consecutive profit            69.88 (1) consecutive loss (count     -178.68 (2)
+                          (count of wins)                         of losses)
+                  Average consecutive wins                      1 consecutive losses                    2
+                                                 [Graph]
+             #             Time          Type Order Size  Price  S / L  T / P Profit Balance
+             1 2014.01.01 23:41          sell     1 0.10 1.3766 1.3856 1.3656
+             2 2014.01.01 23:41           buy     2 0.10 1.3776 1.3686 1.3886
+             3 2014.01.02 11:06        modify     1 0.10 1.3766 1.3856 1.3655
+             4 2014.01.02 11:08        modify     1 0.10 1.3766 1.3856 1.3654
+             5 2014.01.02 11:11        modify     1 0.10 1.3766 1.3856 1.3653
+             6 2014.01.02 11:12        modify     1 0.10 1.3766 1.3856 1.3650
+             7 2014.01.02 11:13        modify     1 0.10 1.3766 1.3856 1.3643
+             8 2014.01.02 11:21        modify     1 0.10 1.3766 1.3856 1.3642
+             9 2014.01.02 11:24        modify     1 0.10 1.3766 1.3856 1.3641
+            10 2014.01.02 11:26           s/l     2 0.10 1.3686 1.3686 1.3886 -89.01 1910.99
+            11 2014.01.02 11:27           buy     3 0.10 1.3696 1.3606 1.3806
+            12 2014.01.02 11:27        modify     1 0.10 1.3766 1.3856 1.3638
+            13 2014.01.02 12:02        modify     1 0.10 1.3766 1.3856 1.3635
+            14 2014.01.02 12:04        modify     1 0.10 1.3766 1.3856 1.3630
+            15 2014.01.02 12:07        modify     1 0.10 1.3766 1.3856 1.3623
+            16 2014.01.02 12:28        modify     1 0.10 1.3766 1.3856 1.3622
+            17 2014.01.02 12:29        modify     1 0.10 1.3766 1.3856 1.3619
+            18 2014.01.02 12:31        modify     1 0.10 1.3766 1.3856 1.3614
+            19 2014.01.02 12:36        modify     1 0.10 1.3766 1.3856 1.3613
+            20 2014.01.02 12:38        modify     1 0.10 1.3766 1.3856 1.3608
+            21 2014.01.02 12:54        modify     1 0.10 1.3766 1.3856 1.3599
+            22 2014.01.02 12:56        modify     1 0.10 1.3766 1.3856 1.3593
+            23 2014.01.02 12:57        modify     1 0.10 1.3766 1.3856 1.3592
+            24 2014.01.02 13:42        modify     1 0.10 1.3766 1.3856 1.3589
+            25 2014.01.02 15:34        modify     1 0.10 1.3766 1.3856 1.3586
+            26 2014.01.02 15:38        modify     1 0.10 1.3766 1.3856 1.3584
+            27 2014.01.02 15:40        modify     1 0.10 1.3766 1.3856 1.3582
+            28 2014.01.03 13:22        modify     1 0.10 1.3766 1.3856 1.3579
+            29 2014.01.03 14:07        modify     1 0.10 1.3766 1.3856 1.3576
+            30 2014.01.03 14:08        modify     1 0.10 1.3766 1.3856 1.3570
+            31 2014.01.03 14:10        modify     1 0.10 1.3766 1.3856 1.3568
+            32 2014.01.03 14:11        modify     1 0.10 1.3766 1.3856 1.3567
+            33 2014.01.03 14:14        modify     1 0.10 1.3766 1.3856 1.3565
+            34 2014.01.03 14:20        modify     1 0.10 1.3766 1.3856 1.3563
+            35 2014.01.03 14:36        modify     1 0.10 1.3766 1.3856 1.3561
+            36 2014.01.03 14:43        modify     1 0.10 1.3766 1.3856 1.3560
+            37 2014.01.03 14:47           s/l     3 0.10 1.3606 1.3606 1.3806 -89.67 1821.32
+            38 2014.01.03 14:48        modify     1 0.10 1.3766 1.3856 1.3557
+            39 2014.01.03 15:09        modify     1 0.10 1.3766 1.3856 1.3556
+            40 2014.01.03 15:11        modify     1 0.10 1.3766 1.3856 1.3553
+            41 2014.01.03 15:14        modify     1 0.10 1.3766 1.3856 1.3552
+            42 2014.01.03 17:05        modify     1 0.10 1.3766 1.3856 1.3551
+            43 2014.01.03 17:06        modify     1 0.10 1.3766 1.3856 1.3546
+            44 2014.01.03 20:13        modify     1 0.10 1.3766 1.3856 1.3545
+            45 2014.01.03 20:17        modify     1 0.10 1.3766 1.3856 1.3541
+            46 2014.01.03 20:21        modify     1 0.10 1.3766 1.3856 1.3540
+            47 2014.01.03 20:42        modify     1 0.10 1.3766 1.3856 1.3539
+            48 2014.01.03 20:43        modify     1 0.10 1.3766 1.3856 1.3538
+            49 2014.01.03 20:44        modify     1 0.10 1.3766 1.3856 1.3537
+            50 2014.01.03 20:46        modify     1 0.10 1.3766 1.3856 1.3536
+            51 2014.01.03 20:57        modify     1 0.10 1.3766 1.3856 1.3535
+            52 2014.01.03 21:00        modify     1 0.10 1.3766 1.3856 1.3534
+            53 2014.01.06 01:46        modify     1 0.10 1.3766 1.3856 1.3533
+            54 2014.01.06 02:12        modify     1 0.10 1.3766 1.3856 1.3531
+            55 2014.01.06 05:57        modify     1 0.10 1.3766 1.3856 1.3530
+            56 2014.01.06 05:58        modify     1 0.10 1.3766 1.3856 1.3528
+            57 2014.01.06 06:04        modify     1 0.10 1.3766 1.3856 1.3527
+            58 2014.01.06 06:05        modify     1 0.10 1.3766 1.3856 1.3526
+            59 2014.01.06 06:07        modify     1 0.10 1.3766 1.3856 1.3524
+            60 2014.01.08 13:19        modify     1 0.10 1.3766 1.3856 1.3522
+            61 2014.01.08 17:25        modify     1 0.10 1.3766 1.3856 1.3521
+            62 2014.01.08 17:26        modify     1 0.10 1.3766 1.3856 1.3512
+            63 2014.01.08 19:05        modify     1 0.10 1.3766 1.3856 1.3511
+            64 2014.01.08 19:06        modify     1 0.10 1.3766 1.3856 1.3508
+            65 2014.01.08 19:09        modify     1 0.10 1.3766 1.3856 1.3507
+            66 2014.01.09 14:12        modify     1 0.10 1.3766 1.3856 1.3506
+            67 2014.01.17 16:59        modify     1 0.10 1.3766 1.3856 1.3505
+            68 2014.01.17 17:00        modify     1 0.10 1.3766 1.3856 1.3504
+            69 2014.01.17 17:04        modify     1 0.10 1.3766 1.3856 1.3501
+            70 2014.01.17 17:05        modify     1 0.10 1.3766 1.3856 1.3492
+            71 2014.01.17 17:07        modify     1 0.10 1.3766 1.3856 1.3491
+            72 2014.01.17 17:08        modify     1 0.10 1.3766 1.3856 1.3490
+            73 2014.01.17 17:09        modify     1 0.10 1.3766 1.3856 1.3487
+            74 2014.01.17 17:28        modify     1 0.10 1.3766 1.3856 1.3485
+            75 2014.01.17 17:29        modify     1 0.10 1.3766 1.3856 1.3481
+            76 2014.01.17 17:31        modify     1 0.10 1.3766 1.3856 1.3480
+            77 2014.01.17 17:51        modify     1 0.10 1.3766 1.3856 1.3479
+            78 2014.01.17 18:04        modify     1 0.10 1.3766 1.3856 1.3478
+            79 2014.01.17 18:07        modify     1 0.10 1.3766 1.3856 1.3477
+            80 2014.01.17 18:08        modify     1 0.10 1.3766 1.3856 1.3476
+            81 2014.01.17 18:14        modify     1 0.10 1.3766 1.3856 1.3475
+            82 2014.01.17 18:15        modify     1 0.10 1.3766 1.3856 1.3473
+            83 2014.01.17 18:22        modify     1 0.10 1.3766 1.3856 1.3472
+            84 2014.01.20 00:16        modify     1 0.10 1.3766 1.3856 1.3470
+            85 2014.01.20 00:17        modify     1 0.10 1.3766 1.3856 1.3468
+            86 2014.01.20 00:23        modify     1 0.10 1.3766 1.3856 1.3467
+            87 2014.01.20 00:25        modify     1 0.10 1.3766 1.3856 1.3466
+            88 2014.01.20 00:26        modify     1 0.10 1.3766 1.3856 1.3465
+            89 2014.01.20 00:27        modify     1 0.10 1.3766 1.3856 1.3461
+            90 2014.01.20 00:29        modify     1 0.10 1.3766 1.3856 1.3460
+            91 2014.01.29 23:59 close at stop     1 0.10 1.3667 1.3856 1.3460  69.88 1891.20

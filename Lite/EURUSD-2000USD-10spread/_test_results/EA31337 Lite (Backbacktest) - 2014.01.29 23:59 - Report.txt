@@ -1,0 +1,27 @@
+Total net profit:                           0.00
+Gross profit:                               0.00
+Gross loss:                                 0.00
+Profit factor:                              0.30
+Expected payoff:                            -46.27
+Absolute drawdown:                          198.68
+Maximal drawdown:                           0.0 (100.0%)
+Relative drawdown:                          (0.0%) 0.0
+Trades total                                3
+Short positions (won  ):                    1 (100.0%)
+Long positions(won %):                      2 (0%)
+Profit trades (% of total):                 1 (33.3333%)
+Loss trades (% of total):                   2 (66.6667%)
+Largest profit trade:                       59.88
+Largest loss trade:                         -99.67
+Average profit trade:                       59.88
+Average loss trade:                         -99.34
+Average consecutive wins:                   1
+Average consecutive losses:                 2
+Maximum consecutive wins (profit in money): 1 (59.88)
+Maximum consecutive losses (loss in money): 2 (-198.68)
+Maximal consecutive profit (count of wins): 59.88 (1)
+Maximal consecutive loss (count of losses): -198.68 (2)
+Strategy stats: 
+Profit factor: 1.00, Total net profit: -100.33pips (+0.00/-100.33), Total orders: 1 (Won: 0.0% [0] / Loss: 100.0% [1]) - DeMarker M1
+Profit factor: 1.00, Total net profit: -100.99pips (+0.00/-100.99), Total orders: 1 (Won: 0.0% [0] / Loss: 100.0% [1]) - DeMarker M5
+
