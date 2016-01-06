@@ -1,0 +1,14 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( TrailingStopAddPerMinute )
+# Disable all optimization settings.
+input_set .*,F 0
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test TrailingStop.
+input_set TrailingStopAddPerMinute,F 1
+input_set TrailingStopAddPerMinute,1 0.0
+input_set TrailingStopAddPerMinute,2 0.1
+input_set TrailingStopAddPerMinute,3 0.2
+
+# vim: set syntax=sh:

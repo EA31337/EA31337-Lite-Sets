@@ -10,10 +10,12 @@ sudo: required  # Required for Precise/Wine 1.7
 env:
   global:
     - CWD="$TRAVIS_BUILD_DIR"
-    - GIT_TRACE=0
+    - EA_DIR="$CWD/_VM/EA"
     - UPSTREAM_USER='EA31337'
     - USER=${TRAVIS_REPO_SLUG%%/*}
     - REPOSITORY=${TRAVIS_REPO_SLUG##*/}
+    - PUSH_BRANCH="EA-$(date +%Y%m%d)"
+    - PATH="$PATH:$CWD/_scripts:$CWD/_VM/scripts"
     - PATH=${PATH//:\.\/node_modules\/\.bin/} # Fixes Travis bug: https://github.com/travis-ci/travis-ci/issues/4862
     - secure: "crXsd5puGxZaDE9EVTDLU0tMeH3JRmIAUwLhBjheBPzbzT/buE1owFsaeGsr/XQStNrt2EWq8LxN/c4TOkHJ9tTU8f6+3IUkAXvzqYwwcE+HbY3KJ4jJd2KHRQ5NbwpAkDtADvcrw5CDdWGmMiOEaA54l4GCBg0Id5jWOy2KbKXBnjWeaZu6irYT1B6HMAYSxPKWVHriku323tgH3FgAn1HtKK2nhOPjulBj6vj/ioS7xy20sz9j2yN7hExGB1k0GGUSNi7O74xYqLHhBJISp7LplHbaTJCMi5/xd9h9kSfsTLxJtXTqxat/92JburhzFvGBEjd4gJOiZxJw0vymTVJaqwpfy7joD3QD6jz/nF7w5HSnTvEly6wLCOH00TbrfPvwPvFvfXTFl6diNZEfZCwiSJa9eM88hDkpPyp8+O2w9TprASI66qmsM2z3vt2UM4L5k5QfYrIVPE9J4LE1btjX4cecQVb1oauE5N9Hr77e92R5lfA7LgAcT5TluG5AMNJSEbDmdYrnz9W+nlm+2ML3OhdfWHvcvMFSI0Cjpn+9ZF88pGFBc0qjiQQPJCq7WwBgC3pMYsuioV92BNevCDtzCEPL4hp/oc69K+tKxzb4/OdFWSJO5zEKOno1FCheFHLTNl7qbDUt/5xz08hSwtWf7aR5da1CT7eG4RVJCoY="
     - secure: "eMGIXPSYLk1LIxqocS3CuHl+vxUSr1ZDs38yNdA6jwc/7zeWn7zA0+N2zHKr9UzkHDYJ9cbLDlJZk/M8umtDr3H3orld3TCSXMgtyKqCdDV3T4rwmcJs3InyrOa7Ia72FNJttjpToQ53oWnMqCk/eN7sLL4ZJLmJxAlkW5JK5fml0UYn03jrE3ggXmjjm/CpjrkurgfioDL7xhxtnACHCNuWRupXxI4486rzAW6enqrluVcr25a0Zn7ZAAseIxqQhEuUqiyJlKRcrlaO3yDYIa1AI0drLYMlmOcEAxcSzVIwTX79CV4C7UQWg2SHYOXYK+ak+AXwKvr8Q4y5u4PZBvBZTOELHRW61MvDq5NjAvvEgc5VvHtsWG7b0Qqe0N3EU4cJBqLfeOettFd4rA+VBRgUVoUXaXgQlKibKBG4kBEM030mIfLzTMAAYduYNiallzffGhn4ZRzTQPOAM298sh5moIo5yIl+1z2bxEXXz0BOs273JZNhBBXzS1CSQoeHZEVvETnnWAUvnNPrZ6moQ6/gkabhyV1jUNiplxGoJ9bSShPzwh1rfgskAyHBrvGiNLnRzU5bx0YJRqT7njqRhPCXfVEa7Q5qWtrXwWF/DNDd9gbeocedsHAsmzlLgfeJsJiVX+9jM7w0/NlHowjhPnBZJYq2dLSzzku6/5Vv/WA="
@@ -28,10 +30,13 @@ addons:
 branches:
   only:
     - master
+    - dev
+    - travis
+matrix:
+  fast_finish: true
 
 cache:
   apt: true
-  pip: true
   directories:
     - $HOME/.wine
 
@@ -46,65 +51,56 @@ notifications:
 
 # Before Install
 # Use this to prepare the system to install prerequisites or dependencies.
-# Commonly used to update git repository submodules and do similar tasks that need to be performed before dependencies are installed.
+#
 before_install:
-  - env
-  - git config user.name $USER
-  - git config user.email $USER@users.noreply.github.com
+  - git config --local include.path "$CWD/.gitconfig"
+  - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
 
 # Install
 # Use this to install any prerequisites or dependencies necessary to run your build.
+#
 install:
-  - sudo $CWD/scripts/provision.sh
+  - sudo env PATH="$PATH" provision.sh
 
 # Before Script
 # Use this to prepare your build for testing (e.g. copy database configurations, environment variables, etc.).
+#
 before_script:
   - set -e
-  - |
-    # Clone EAs if Travis runs on home repository
-    if [ "$TRAVIS_REPO_SLUG" = "EA31337/EA31337-Sets" ] && [ -n "$PS" ] && [ -n "$EA" ]; then
-      # Perform authentication tasks.
-      ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-      git config --local include.path "$CWD/.gitconfig"
-      install -vm700 <(echo "echo $PS") $CWD/ps && test $PS = $($CWD/ps)
+  - |-
+    if [ -n "$PS" ] && [ -n "$EA" ]; then # Clone and configure EA if available.
       eval "$(ssh-agent -s)"
-      git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c | DISPLAY= SSH_ASKPASS=$CWD/ps ssh-add -
-      git clone -q $EA
-# cp -v ~/EA/*.ex4 /vagrant
-    # Otherwise link an available sample EA
-    else
-      echo 'Using *SAMPLE* expert!'
-      EA_SAMPLE=$(find ~/.wine/drive_c -path '*Experts*' -type f -name MACD*.ex4 -print0 -quit)
-      ln -s "$EA_SAMPLE" "/vagrant/$MODE.ex4"
+      install -vm700 <(echo "echo $PS") $HOME/.ps
+      git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c | DISPLAY= SSH_ASKPASS=$HOME/.ps ssh-add -
+      git clone -q $EA "$EA_DIR"
+      ssh-add -l
+    else # Otherwise run sample EA.
+      run_backtest.sh
+      exit 0
     fi
 
 # Script
 # Main build command to run.
 # All commands must exit with code 0 on success. Anything else is considered failure.
+#
 script:
-  # Run backtests in a new branch and push results back to upstream repository
-  - BRANCH="EA-$(date +%Y%m%d_%H%M)"
-  - $CWD/_scripts/run_backtests.sh $MODE
-  - $CWD/_scripts/gen_reports.sh $MODE
-  - git checkout -b $BRANCH
-  - git add -vA $MODE
-  - git commit -am "Report: $BRANCH."
-  - git push git@github.com:$UPSTREAM_USER/$REPOSITORY $BRANCH
+  - find "$CWD" -name "*.rules" -exec bash -n "{}" ';' # Check syntax of rule files.
+  - run_backtests.sh $MODE
 
 # After Success
 # Note: The standard Unix exit code of "0" means the build passed; everything else is treated as failure.
-#after_success:
-
+#
+after_success:
+  - echo "Success."
 
 # After Failure
+#
 after_failure:
   - tree -dL 3 ~/  # Print directory structure in the form of a tree.
-  # Dump collected logs
-  - LINE=$(printf '%*s' 80 | tr ' ' '-')
-  - find ~ -name *.log -exec echo -e "$LINE\nDumping {}\n$LINE" ';' -exec cat {} ';' -exec echo -e "\n" ';'
+  - find ~/.wine -name "*.log" -print -execdir tail "{}" ';' # Show logs.
 
 # After Script
 # Test result is exported to TRAVIS_TEST_RESULT.
+#
 after_script:
   - pwd
