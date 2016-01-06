@@ -85,14 +85,7 @@ before_script:
 #
 script:
   - find "$CWD" -name "*.rules" -exec bash -n "{}" ';' # Check syntax of rule files.
-  - |- # Run backtests in a new branch.
-    run_backtests.sh $MODE
-    gen_reports.sh $MODE
-  - |- # Push results back to upstream repository.
-    git add -vA $MODE
-    git checkout -b "$PUSH_BRANCH"
-    git commit -am "Report: $PUSH_BRANCH"
-    git push git@github.com:$UPSTREAM_USER/$REPOSITORY $PUSH_BRANCH
+  - run_backtests.sh $MODE
 
 # After Success
 # Note: The standard Unix exit code of "0" means the build passed; everything else is treated as failure.
@@ -104,9 +97,7 @@ after_success:
 #
 after_failure:
   - tree -dL 3 ~/  # Print directory structure in the form of a tree.
-  # Dump collected logs
-  - LINE=$(printf '%*s' 80 | tr ' ' '-')
-  - find ~/ -name *.log -exec echo -e "$LINE\nDumping {}\n$LINE" ';' -exec cat {} ';' -exec echo -e "\n" ';'
+  - find ~/.wine -name "*.log" -print -execdir tail "{}" ';' # Show logs.
 
 # After Script
 # Test result is exported to TRAVIS_TEST_RESULT.
