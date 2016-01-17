@@ -1,0 +1,14 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( BoostTrendFactor )
+# Disable all optimization settings.
+input_set .*,F 0
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test BoostTrendFactor.
+input_set BoostTrendFactor,F 1
+input_set BoostTrendFactor,1 1.0
+input_set BoostTrendFactor,2 0.1
+input_set BoostTrendFactor,3 1.5
+
+# vim: set syntax=sh:

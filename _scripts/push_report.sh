@@ -6,10 +6,9 @@ ROOT="$(git rev-parse --show-toplevel)"
 CHK="$1"
 MSG="$2"
 
-git stash
-git checkout master
-git checkout -b "$CHK"
-git commit -m "$MSG" -a
-git stash pop
-echo git push origin "$CHK"
+cd "$ROOT"
+git add -vA *.txt *.gif
+git checkout dev
+git checkout -B "$CHK"
+git commit -vm "$MSG" -a && git push -v origin "$CHK"
 echo "$0 done."
