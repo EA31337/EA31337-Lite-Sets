@@ -26,4 +26,5 @@ find "$ROOT/$1" -type f -name "test.ini" -print0 | while IFS= read -r -d '' file
   gen_report.sh "$dir" "$OUT" "$name"
   push_report.sh "Backtest-$base_name" "Backtest results: $base_name"
 done
+times
 echo "$0 done."

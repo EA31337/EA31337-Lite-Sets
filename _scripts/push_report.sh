@@ -9,8 +9,6 @@ MSG="$2"
 cd "$ROOT"
 git add -vA *.txt *.gif
 git checkout -mB "$CHK" master
-times | (
-  read -a time
-  git commit -vm "$MSG (${time[@]})" -a && git push -v origin "$CHK"
-)
+git commit -vm "$MSG" -a && git push -v origin "$CHK"
+times
 echo "$0 done."
