@@ -9,6 +9,7 @@ MSG="$2"
 cd "$ROOT"
 git add -vA *.txt *.gif
 git checkout -mB "$CHK" master
+EDITOR=cat git pull origin "$CHK"
 git commit -vm "$MSG" -a && git push -v origin "$CHK"
 times
 echo "$0 done."
