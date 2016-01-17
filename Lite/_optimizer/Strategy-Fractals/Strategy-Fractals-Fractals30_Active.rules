@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Fractals1_Active )
+param_list=( Fractals30_Active )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -13,10 +13,10 @@ input_set Boosting_Enabled 0
 input_set LotSize 0.01
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test Fractals1_Active.
-input_set Fractals1_Active,F 1
-input_set Fractals1_Active,1 0
-input_set Fractals1_Active,2 1
-input_set Fractals1_Active,3 1
+# Test Fractals30_Active.
+input_set Fractals30_Active,F 1
+input_set Fractals30_Active,1 0
+input_set Fractals30_Active,2 1
+input_set Fractals30_Active,3 1
 
 # vim: set syntax=sh:
