@@ -12,13 +12,13 @@ input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
 # Enable strategy.
-input_set StdDev5_Active 1
+input_set ^StdDev5_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test StdDev5_OpenMethod.
-input_set StdDev5_OpenMethod,F 1
-input_set StdDev5_OpenMethod,1 0
-input_set StdDev5_OpenMethod,2 1
-input_set StdDev5_OpenMethod,3 31
+input_set ^StdDev5_OpenMethod,F 1
+input_set ^StdDev5_OpenMethod,1 0
+input_set ^StdDev5_OpenMethod,2 1
+input_set ^StdDev5_OpenMethod,3 31
 
 # vim: set syntax=sh:

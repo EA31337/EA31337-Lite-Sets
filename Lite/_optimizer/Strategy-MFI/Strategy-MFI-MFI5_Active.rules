@@ -14,9 +14,9 @@ input_set LotSize 0.01
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test MFI5_Active.
-input_set MFI5_Active,F 1
-input_set MFI5_Active,1 0
-input_set MFI5_Active,2 1
-input_set MFI5_Active,3 1
+input_set ^MFI5_Active,F 1
+input_set ^MFI5_Active,1 0
+input_set ^MFI5_Active,2 1
+input_set ^MFI5_Active,3 1
 
 # vim: set syntax=sh:
