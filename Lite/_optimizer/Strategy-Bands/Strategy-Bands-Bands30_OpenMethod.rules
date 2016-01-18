@@ -12,13 +12,13 @@ input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
 # Enable strategy.
-input_set Bands30_Active 1
+input_set ^Bands30_Active 1
 
 ## Optimization settings.
 # Test Bands OpenMethod.
-input_set Bands30_OpenMethod,F 1
-input_set Bands30_OpenMethod,1 0
-input_set Bands30_OpenMethod,2 1
-input_set Bands30_OpenMethod,3 255
+input_set ^Bands30_OpenMethod,F 1
+input_set ^Bands30_OpenMethod,1 0
+input_set ^Bands30_OpenMethod,2 1
+input_set ^Bands30_OpenMethod,3 255
 
 # vim: set syntax=sh:

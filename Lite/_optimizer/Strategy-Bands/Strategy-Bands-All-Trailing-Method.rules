@@ -13,18 +13,18 @@ input_set Boosting_Enabled 0
 input_set LotSize 0.01
 
 ## Enable Bands strategies.
-input_set Bands.*_Active 1
+input_set ^Bands.*_Active 1
 
 ## Optimization settings.
 # Test Bands trailing stop
-input_set Bands_TrailingStopMethod,F 1
-input_set Bands_TrailingStopMethod,1 0
-input_set Bands_TrailingStopMethod,2 1
-input_set Bands_TrailingStopMethod,3 27
+input_set ^Bands_TrailingStopMethod,F 1
+input_set ^Bands_TrailingStopMethod,1 0
+input_set ^Bands_TrailingStopMethod,2 1
+input_set ^Bands_TrailingStopMethod,3 27
 # Test Bands trailing profit
-input_set Bands_TrailingProfitMethod,F 1
-input_set Bands_TrailingProfitMethod,1 0
-input_set Bands_TrailingProfitMethod,2 1
-input_set Bands_TrailingProfitMethod,3 27
+input_set ^Bands_TrailingProfitMethod,F 1
+input_set ^Bands_TrailingProfitMethod,1 0
+input_set ^Bands_TrailingProfitMethod,2 1
+input_set ^Bands_TrailingProfitMethod,3 27
 
 # vim: set syntax=sh:
