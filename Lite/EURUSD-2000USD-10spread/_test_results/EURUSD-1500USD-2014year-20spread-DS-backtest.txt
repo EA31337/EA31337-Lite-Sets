@@ -1,18 +1,18 @@
 
 
 
-                                         Strategy Tester Report
-                                      EA31337-Lite-Backtest-v1.066
-                                               (Build 950)
+                                         SSttrraatteeggyy TTeesstteerr RReeppoorrtt
+                                      EEAA3311333377--LLiittee--BBaacckktteesstt--vv11..006666
+                                               ((BBuuiilldd 995500))
 
 Symbol                    EURUSD (Euro vs US Dollar)
 Period                    1 Minute (M1) 2014.01.01 22:00 - 2014.12.31 22:00 (2014.01.01 - 2014.12.30)
 Model                     Every tick (the most precise method based on all available least timeframes)
-                          __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.066 --
-                          "; __EA_Order_Parameters__="-- Profit/Loss settings (set 0 for auto) --";
+                          __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.066 -
+                          -"; __EA_Order_Parameters__="-- Profit/Loss settings (set 0 for auto) --";
                           LotSize=0; TakeProfit=80; StopLoss=40; MaxOrders=0; MaxOrdersPerType=0;
-                          TradeMicroLots=true; __EA_Trailing_Parameters__="-- Settings for trailing stops
-                          --"; TrailingStop=40; TrailingStopOneWay=true; TrailingProfit=30;
+                          TradeMicroLots=true; __EA_Trailing_Parameters__="-- Settings for trailing
+                          stops --"; TrailingStop=40; TrailingStopOneWay=true; TrailingProfit=30;
                           TrailingProfitOneWay=true; TrailingStopAddPerMinute=0;
                           __EA_Risk_Parameters__="-- Risk management --"; RiskRatio=0;
                           TradeWithTrend=false; MinimalizeLosses=false;
@@ -30,11 +30,11 @@ Model                     Every tick (the most precise method based on all avail
                           the Bill Williams' Accelerator/Decelerator oscillator --"; AC1_Active=true;
                           AC5_Active=true; AC15_Active=true; AC30_Active=true; AC_OpenLevel=0;
                           AC1_OpenMethod=15; AC5_OpenMethod=15; AC15_OpenMethod=15; AC30_OpenMethod=15;
-                          __AD_Parameters__="-- Settings for the Accumulation/Distribution indicator --";
-                          AD1_Active=true; AD5_Active=true; AD15_Active=true; AD30_Active=true;
+                          __AD_Parameters__="-- Settings for the Accumulation/Distribution indicator --
+                          "; AD1_Active=true; AD5_Active=true; AD15_Active=true; AD30_Active=true;
                           AD_OpenLevel=0; AD1_OpenMethod=15; AD5_OpenMethod=15; AD15_OpenMethod=15;
-                          AD30_OpenMethod=15; __ADX_Parameters__="-- Settings for the Average Directional
-                          Movement Index indicator --"; ADX1_Active=true; ADX5_Active=true;
+                          AD30_OpenMethod=15; __ADX_Parameters__="-- Settings for the Average
+                          Directional Movement Index indicator --"; ADX1_Active=true; ADX5_Active=true;
                           ADX15_Active=true; ADX30_Active=true; ADX_Period=14; ADX_OpenLevel=0;
 Parameters                ADX1_OpenMethod=15; ADX5_OpenMethod=15; ADX15_OpenMethod=15;
                           ADX30_OpenMethod=15; __Alligator_Parameters__="-- Settings for the Alligator
@@ -42,8 +42,8 @@ Parameters                ADX1_OpenMethod=15; ADX5_OpenMethod=15; ADX15_OpenMeth
                           Alligator15_Active=true; Alligator30_Active=true; Alligator_Jaw_Period=22;
                           Alligator_Jaw_Shift=0; Alligator_Teeth_Period=10; Alligator_Teeth_Shift=4;
                           Alligator_Lips_Period=9; Alligator_Lips_Shift=2; Alligator_Shift=0;
-                          Alligator_Shift_Far=1; Alligator_OpenLevel=0.01; Alligator1_OpenMethod=63;
-                          Alligator5_OpenMethod=63; Alligator15_OpenMethod=63; Alligator30_OpenMethod=63;
+                          Alligator_Shift_Far=1; Alligator_OpenLevel=0.01; Alligator1_OpenMethod=47;
+                          Alligator5_OpenMethod=2; Alligator15_OpenMethod=3; Alligator30_OpenMethod=1;
                           __ATR_Parameters__="-- Settings for the Average True Range indicator --";
                           ATR1_Active=true; ATR5_Active=true; ATR15_Active=true; ATR30_Active=true;
                           ATR_Period_Fast=14; ATR_Period_Slow=20; ATR_OpenLevel=0; ATR1_OpenMethod=31;
@@ -65,22 +65,23 @@ Parameters                ADX1_OpenMethod=15; ADX5_OpenMethod=15; ADX15_OpenMeth
                           Breakage1_Active=true; Breakage5_Active=true; Breakage15_Active=true;
                           Breakage30_Active=true; Breakage_OpenLevel=0; Breakage1_OpenMethod=0;
                           Breakage5_OpenMethod=0; Breakage15_OpenMethod=0; Breakage30_OpenMethod=0;
-                          BWMFI1_Active=true; BWMFI5_Active=true; MA_Shift=0;
-Bars in test       371463 Ticks modelled                 16999067 Modelling quality                   n/a
+                          BWMFI1_Active=true; BWMFI5_Active=true; CCI_OpenLevel=0;
+Bars in test       371463 Ticks modelled               16999067 Modelling quality                    n/a
 Mismatched charts       0
 errors
-Initial deposit   1500.00                                         Spread                               20
-Total net profit  2516.96 Gross profit                   40392.29 Gross loss                    -37875.33
-Profit factor        1.07 Expected payoff                    0.04
-Absolute drawdown  340.50 Maximal drawdown        964.82 (26.63%) Relative drawdown       26.63% (964.82)
-Total trades        71539 Short positions (won %)  35871 (75.08%) Long positions (won %)   35668 (71.57%)
-                          Profit trades (% of      52459 (73.33%) Loss trades (% of        19080 (26.67%)
-                          total)                                  total)
-                  Largest profit trade                      14.82 loss trade                       -16.00
-                  Average profit trade                       0.77 loss trade                        -1.99
-                  Maximum consecutive wins           523 (243.93) consecutive losses         27 (-137.04)
-                          (profit in money)                       (loss in money)
-                  Maximal consecutive profit         243.93 (523) consecutive loss (count    -353.62 (24)
-                          (count of wins)                         of losses)
-                  Average consecutive wins                      5 consecutive losses                    2
+Initial deposit   1500.00                                       Spread                                20
+Total net profit  1243.32 Gross profit                 39193.28 Gross loss                     -37949.96
+Profit factor        1.03 Expected payoff                  0.02
+Absolute drawdown  284.11 Maximal drawdown     1527.60 (43.78%) Relative drawdown       43.78% (1527.60)
+Total trades        72293 Short positions (won   37751 (76.79%) Long positions (won %)    34542 (72.77%)
+                          %)
+                          Profit trades (% of    54126 (74.87%) Loss trades (% of         18167 (25.13%)
+                          total)                                total)
+                  Largest profit trade                    11.99 loss trade                         -8.00
+                  Average profit trade                     0.72 loss trade                         -2.09
+                  Maximum consecutive wins         411 (317.87) consecutive losses          32 (-215.68)
+                          (profit in money)                     (loss in money)
+                  Maximal consecutive profit       407.72 (298) consecutive loss (count     -226.65 (31)
+                          (count of wins)                       of losses)
+                  Average consecutive wins                    5 consecutive losses                     2
                                                  [Graph]
