@@ -13,13 +13,13 @@ input_set Boosting_Enabled 0
 input_set LotSize 0.01
 
 ## Enable Bands strategies.
-input_set Bands.*_Active 1
+input_set ^Bands.*_Active 1
 
 ## Optimization settings.
 # Test Bands Applied Price.
-input_set Bands_Applied_Price,F 1
-input_set Bands_Applied_Price,1 0
-input_set Bands_Applied_Price,2 1
-input_set Bands_Applied_Price,3 6
+input_set ^Bands_Applied_Price,F 1
+input_set ^Bands_Applied_Price,1 0
+input_set ^Bands_Applied_Price,2 1
+input_set ^Bands_Applied_Price,3 6
 
 # vim: set syntax=sh:
