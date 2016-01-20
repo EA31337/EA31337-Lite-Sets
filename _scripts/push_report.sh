@@ -7,7 +7,7 @@ CHK="$1"
 MSG="$2"
 
 cd "$ROOT"
-git add -vA *.txt *.gif
+git add -vA *.txt *.gif *.md
 git checkout -mB "$CHK" master
 git commit -vm "$MSG" -a && git push -fv origin "$CHK"
 times
