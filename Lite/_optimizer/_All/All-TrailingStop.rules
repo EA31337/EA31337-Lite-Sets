@@ -22,4 +22,5 @@ input_set TrailingProfit,1 0
 input_set TrailingProfit,2 40
 input_set TrailingProfit,3 240
 
+# $ETA:$
 # vim: set syntax=sh:

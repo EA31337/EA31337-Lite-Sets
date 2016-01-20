@@ -11,4 +11,5 @@ input_set BoostTrendFactor,1 1.0
 input_set BoostTrendFactor,2 0.1
 input_set BoostTrendFactor,3 1.5
 
+# $ETA:$
 # vim: set syntax=sh:
