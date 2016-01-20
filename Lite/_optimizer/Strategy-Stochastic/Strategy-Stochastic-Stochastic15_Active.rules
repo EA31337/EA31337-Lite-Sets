@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Stochastic1_Active )
+param_list=( Stochastic15_Active )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -13,10 +13,10 @@ input_set Boosting_Enabled 0
 input_set LotSize 0.01
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test Stochastic1_Active.
-input_set Stochastic1_Active,F 1
-input_set Stochastic1_Active,1 0
-input_set Stochastic1_Active,2 1
-input_set Stochastic1_Active,3 1
+# Test Stochastic15_Active.
+input_set ^Stochastic15_Active,F 1
+input_set ^Stochastic15_Active,1 0
+input_set ^Stochastic15_Active,2 1
+input_set ^Stochastic15_Active,3 1
 
 # vim: set syntax=sh:

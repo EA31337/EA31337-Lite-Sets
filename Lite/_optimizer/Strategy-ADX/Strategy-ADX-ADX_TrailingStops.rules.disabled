@@ -12,18 +12,18 @@ input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
 # Enable strategy.
-input_set ADX.*_Active 1
+input_set ^ADX.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test ADX_TrailingStopMethod.
-input_set ADX_TrailingStopMethod,F 1
-input_set ADX_TrailingStopMethod,1 0
-input_set ADX_TrailingStopMethod,2 1
-input_set ADX_TrailingStopMethod,3 27
+input_set ^ADX_TrailingStopMethod,F 1
+input_set ^ADX_TrailingStopMethod,1 0
+input_set ^ADX_TrailingStopMethod,2 1
+input_set ^ADX_TrailingStopMethod,3 27
 # Test ADX_TrailingProfitMethod.
-input_set ADX_TrailingProfitMethod,F 1
-input_set ADX_TrailingProfitMethod,1 0
-input_set ADX_TrailingProfitMethod,2 1
-input_set ADX_TrailingProfitMethod,3 27
+input_set ^ADX_TrailingProfitMethod,F 1
+input_set ^ADX_TrailingProfitMethod,1 0
+input_set ^ADX_TrailingProfitMethod,2 1
+input_set ^ADX_TrailingProfitMethod,3 27
 
 # vim: set syntax=sh:
