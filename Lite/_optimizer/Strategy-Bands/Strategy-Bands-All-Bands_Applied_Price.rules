@@ -22,4 +22,5 @@ input_set ^Bands_Applied_Price,1 0
 input_set ^Bands_Applied_Price,2 1
 input_set ^Bands_Applied_Price,3 6
 
+# $ETA:$
 # vim: set syntax=sh:

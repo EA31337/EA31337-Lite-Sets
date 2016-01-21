@@ -21,4 +21,5 @@ input_set ^SAR15_OpenMethod,1 0
 input_set ^SAR15_OpenMethod,2 1
 input_set ^SAR15_OpenMethod,3 127
 
+# $ETA:$
 # vim: set syntax=sh:
