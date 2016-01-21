@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Initialize variables and settings.
 : ${1?"Usage: $0 (dir)"} || exit 1
-set -ex
+set -e
 cd -P -- "$(dirname -- "$0")" && pwd -P
 ROOT="$(git rev-parse --show-toplevel)"
 PATH="$PATH:$ROOT/_scripts"
