@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Script to run optimization tests.
 : ${1?"Usage: $0 (dir) (filter)"} || exit 1
-set -ex
+set -e
 cd -P -- "$(dirname -- "$0")" && pwd -P
 ROOT="$(git rev-parse --show-toplevel)"
 OUT="README.md"
