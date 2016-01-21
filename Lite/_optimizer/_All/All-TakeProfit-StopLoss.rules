@@ -13,7 +13,7 @@ input_set LotSize 0.01
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test TakeProfit.
 input_set TakeProfit,F 1
-input_set TakeProfit,1 0
+input_set TakeProfit,1 40
 input_set TakeProfit,2 40
 input_set TakeProfit,3 240
 # Test TrailingProfitOneWay.
@@ -23,7 +23,7 @@ input_set TrailingProfitOneWay,2 1
 input_set TrailingProfitOneWay,3 1
 # Test StopLoss.
 input_set StopLoss,F 1
-input_set StopLoss,1 0
+input_set StopLoss,1 40
 input_set StopLoss,2 40
 input_set StopLoss,3 240
 # Test TrailingStopOneWay.
