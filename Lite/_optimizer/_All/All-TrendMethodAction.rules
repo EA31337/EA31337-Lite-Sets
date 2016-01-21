@@ -17,4 +17,5 @@ input_set TrendMethodAction,1 0
 input_set TrendMethodAction,2 1
 input_set TrendMethodAction,3 255
 
+# $ETA:$
 # vim: set syntax=sh:
