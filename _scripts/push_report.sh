@@ -6,9 +6,10 @@ ROOT="$(git rev-parse --show-toplevel)"
 CHK="$1"
 MSG="$2"
 
+set -x
 cd "$ROOT"
-git add -vA *.txt *.gif
-git checkout -mB "$CHK" master
+git checkout -mB "$CHK" origin/master
+git add -vA *.txt *.gif *.md
 git commit -vm "$MSG" -a && git push -fv origin "$CHK"
-times
+exit
 echo "$0 done."

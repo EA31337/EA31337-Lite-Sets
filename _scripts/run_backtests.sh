@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Initialize variables and settings.
 : ${1?"Usage: $0 (dir)"} || exit 1
-set -ex
+set -e
 cd -P -- "$(dirname -- "$0")" && pwd -P
 ROOT="$(git rev-parse --show-toplevel)"
 PATH="$PATH:$ROOT/_scripts"
@@ -17,7 +17,7 @@ find "$ROOT/$1" -type f -name "test.ini" -print0 | while IFS= read -r -d '' file
       for curr_bt_source in ${bt_sources[@]}; do
         for curr_spread in ${spreads[@]}; do
           report_name="${pair}-${curr_deposit}${currency}-${curr_year}year-${curr_spread}spread-${curr_bt_source}-backtest"
-          run_backtest.sh -v -t -e $name -f "$dir/$setfile" -c $currency -p $pair -d $curr_deposit -y $curr_year -s $curr_spread -b $curr_bt_source -r "$report_name" -D "$dir/_test_results"
+          run_backtest.sh $2 -v -t -e $name -f "$dir/$setfile" -c $currency -p $pair -d $curr_deposit -y $curr_year -s $curr_spread -b $curr_bt_source -r "$report_name" -D "$dir/_test_results"
         done
       done
     done

@@ -21,4 +21,5 @@ input_set ^WPR5_OpenMethod,1 0
 input_set ^WPR5_OpenMethod,2 1
 input_set ^WPR5_OpenMethod,3 63
 
+# $ETA:$
 # vim: set syntax=sh:

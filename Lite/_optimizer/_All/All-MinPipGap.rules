@@ -17,4 +17,5 @@ input_set MinPipGap,1 0
 input_set MinPipGap,2 10
 input_set MinPipGap,3 80
 
+# $ETA: 0h$
 # vim: set syntax=sh:

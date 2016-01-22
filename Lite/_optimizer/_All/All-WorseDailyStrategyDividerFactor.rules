@@ -17,4 +17,5 @@ input_set WorseDailyStrategyDividerFactor,1 1.0
 input_set WorseDailyStrategyDividerFactor,2 0.1
 input_set WorseDailyStrategyDividerFactor,3 1.5
 
+# $ETA:$
 # vim: set syntax=sh:
