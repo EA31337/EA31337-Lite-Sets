@@ -4,6 +4,7 @@
 set -e
 cd -P -- "$(dirname -- "$0")" && pwd -P
 ROOT="$(git rev-parse --show-toplevel)"
+PATH="$PATH:$ROOT/_scripts:$ROOT/_VM/scripts"
 OUT="README.md"
 
 # Find, parse configuration and run the tests.
