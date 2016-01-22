@@ -1,0 +1,26 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( TrailingProfitOneWay TrailingStopOneWay )
+# Disable all optimization settings.
+input_set .*,F 0
+# Disable account conditions.
+input_set Account_Conditions_Active 0
+# Disable boosting.
+input_set Boosting_Enabled 0
+# Set lot size.
+input_set LotSize 0.01
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test TrailingProfitOneWay.
+input_set TrailingProfitOneWay,F 1
+input_set TrailingProfitOneWay,1 0
+input_set TrailingProfitOneWay,2 1
+input_set TrailingProfitOneWay,3 1
+# Test TrailingStopOneWay.
+input_set TrailingStopOneWay,F 1
+input_set TrailingStopOneWay,1 0
+input_set TrailingStopOneWay,2 1
+input_set TrailingStopOneWay,3 1
+
+# $ETA:$
+# vim: set syntax=sh:
