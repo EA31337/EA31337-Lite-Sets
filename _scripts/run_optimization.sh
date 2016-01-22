@@ -4,6 +4,7 @@
 set -e
 cd -P -- "$(dirname -- "$0")" && pwd -P
 ROOT="$(git rev-parse --show-toplevel)"
+PATH="$PATH:$ROOT/_scripts:$ROOT/_VM/scripts"
 OUT="README.md"
 
 # Find, parse configuration and run the tests.
@@ -18,5 +19,4 @@ find "$ROOT/$1" -type f -name "test.ini" -print0 | while IFS= read -r -d '' file
   done
   gen_report.sh "$dir/_optimization_results" "$OUT"
 done
-times
 echo "$0 done."
