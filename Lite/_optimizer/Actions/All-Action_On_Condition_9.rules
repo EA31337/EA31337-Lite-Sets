@@ -9,7 +9,7 @@ input_set Account_Conditions_Active 1
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test Market_Condition_9.
 input_set Market_Condition_9,F 1
-input_set Market_Condition_9,1 0
+input_set Market_Condition_9,1 2
 input_set Market_Condition_9,2 1
 input_set Market_Condition_9,3 14
 # Test Action_On_Condition_9.
