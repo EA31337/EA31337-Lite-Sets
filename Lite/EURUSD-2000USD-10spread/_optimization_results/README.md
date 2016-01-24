@@ -99,6 +99,11 @@
 ![Strategy Alligator Alligator5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Alligator-Alligator5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy Alligator Alligator_Applied_Price  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Alligator Alligator_Applied_Price  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Alligator-Alligator_Applied_Price--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy Alligator Alligator_MA_Method  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Alligator Alligator_MA_Method  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Alligator-Alligator_MA_Method--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
