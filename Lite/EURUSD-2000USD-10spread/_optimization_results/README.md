@@ -4,6 +4,11 @@
 ![All Account_Conditions_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Account_Conditions_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: All Action_On_Condition_11  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![All Action_On_Condition_11  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Action_On_Condition_11--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: All Action_On_Condition_3  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![All Action_On_Condition_3  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Action_On_Condition_3--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
@@ -107,6 +112,11 @@
 ### Report: Strategy Alligator Alligator_MA_Method  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Alligator Alligator_MA_Method  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Alligator-Alligator_MA_Method--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Alligator Alligator_Periods  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Alligator Alligator_Periods  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Alligator-Alligator_Periods--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
 ### Report: Strategy Alligator Alligator_Shift  EURUSD 2000USD 2014year 10spread DS optimization test
