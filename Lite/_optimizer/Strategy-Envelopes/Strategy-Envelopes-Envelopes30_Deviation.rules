@@ -17,9 +17,9 @@ input_set ^Envelopes30_Active 1
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test Envelopes30_Deviation.
 input_set ^Envelopes30_Deviation,F 1
-input_set ^Envelopes30_Deviation,1 $(( $(input_get Envelopes30_Deviation) > 0.2 ? $(input_get Envelopes30_Deviation) - 0.2 : 0.0 ))
+input_set ^Envelopes30_Deviation,1 $( echo $(input_get Envelopes30_Deviation) - 0.2 | bc )
 input_set ^Envelopes30_Deviation,2 0.1
-input_set ^Envelopes30_Deviation,3 $(( $(input_get Envelopes30_Deviation) + 0.2 ))
+input_set ^Envelopes30_Deviation,3 $( echo $(input_get Envelopes30_Deviation) + 0.2 | bc )
 
 # $ETA:$
 # vim: set syntax=sh:
