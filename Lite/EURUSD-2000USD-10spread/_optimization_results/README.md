@@ -219,6 +219,11 @@
 ![Strategy DeMarker Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-DeMarker-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy Envelopes Envelopes15_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Envelopes Envelopes15_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Envelopes15_Deviation--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy Envelopes Envelopes5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Envelopes Envelopes5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Envelopes5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
