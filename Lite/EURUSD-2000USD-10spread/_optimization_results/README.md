@@ -286,8 +286,16 @@
 ![Strategy MA MA5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+<<<<<<< HEAD
+### Report: Strategy MA MA_Periods  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MA MA_Periods  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA_Periods--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+=======
 =======
 >>>>>>> local
+>>>>>>> ca30e139c4be1390a41f4942b3189d032e7b266c
 ### Report: Strategy MACD MACD15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy MACD MACD15_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD15_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
