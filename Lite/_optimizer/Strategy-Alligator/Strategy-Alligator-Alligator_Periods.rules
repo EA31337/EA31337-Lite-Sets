@@ -31,5 +31,5 @@ input_set ^Alligator_Lips_Period,1 $(( $(input_get Alligator_Lips_Period) > 2 ? 
 input_set ^Alligator_Lips_Period,2 1
 input_set ^Alligator_Lips_Period,3 $(($(input_get Alligator_Lips_Period) + 2))
 
-# $ETA:$
+# $ETA: 11h$
 # vim: set syntax=sh:
