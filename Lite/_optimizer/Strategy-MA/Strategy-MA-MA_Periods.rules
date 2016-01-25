@@ -12,7 +12,7 @@ input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
 # Enable strategy.
-input_set ^Alligator.*_Active 1
+input_set ^MA.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test MA_Period_Fast.
@@ -31,5 +31,5 @@ input_set ^MA_Period_Slow,1 $(( $(input_get MA_Period_Slow) > 2 ? $(($(input_get
 input_set ^MA_Period_Slow,2 1
 input_set ^MA_Period_Slow,3 $(($(input_get MA_Period_Slow) + 2))
 
-# $ETA: 18h$
+# $ETA:$
 # vim: set syntax=sh:

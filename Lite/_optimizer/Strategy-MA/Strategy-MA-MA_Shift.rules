@@ -1,0 +1,45 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( MA_Shift MA_Shift_Fast MA_Shift_Medium MA_Shift_Slow MA_Shift_Far )
+# Disable all optimization settings.
+input_set .*,F 0
+# Disable all active strategies.
+input_set .*_Active 0
+# Disable account conditions.
+input_set Account_Conditions_Active 0
+# Disable boosting.
+input_set Boosting_Enabled 0
+# Set lot size.
+input_set LotSize 0.01
+# Enable strategy.
+input_set ^MA.*_Active 1
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test MA_Shift.
+input_set ^MA_Shift,F 1
+input_set ^MA_Shift,1 $(( $(input_get MA_Shift) > 1 ? $(($(input_get MA_Shift) - 1)) : 0 ))
+input_set ^MA_Shift,2 1
+input_set ^MA_Shift,3 $(($(input_get MA_Shift) + 1))
+# Test MA_Shift_Fast.
+input_set ^MA_Shift_Fast,F 1
+input_set ^MA_Shift_Fast,1 $(( $(input_get MA_Shift_Fast) > 1 ? $(($(input_get MA_Shift_Fast) - 1)) : 0 ))
+input_set ^MA_Shift_Fast,2 1
+input_set ^MA_Shift_Fast,3 $(($(input_get MA_Shift_Fast) + 1))
+# Test MA_Shift_Medium.
+input_set ^MA_Shift_Medium,F 1
+input_set ^MA_Shift_Medium,1 $(( $(input_get MA_Shift_Medium) > 1 ? $(($(input_get MA_Shift_Medium) - 1)) : 0 ))
+input_set ^MA_Shift_Medium,2 1
+input_set ^MA_Shift_Medium,3 $(($(input_get MA_Shift_Medium) + 1))
+# Test MA_Shift_Slow.
+input_set ^MA_Shift_Slow,F 1
+input_set ^MA_Shift_Slow,1 $(( $(input_get MA_Shift_Slow) > 1 ? $(($(input_get MA_Shift_Slow) - 1)) : 0 ))
+input_set ^MA_Shift_Slow,2 1
+input_set ^MA_Shift_Slow,3 $(($(input_get MA_Shift_Slow) + 1))
+# Test MA_Shift_Far.
+input_set ^MA_Shift_Far,F 1
+input_set ^MA_Shift_Far,1 $(( $(input_get MA_Shift_Far) > 1 ? $(($(input_get MA_Shift_Far) - 1)) : 0 ))
+input_set ^MA_Shift_Far,2 1
+input_set ^MA_Shift_Far,3 $(($(input_get MA_Shift_Far) + 1))
+
+# $ETA:$
+# vim: set syntax=sh:
