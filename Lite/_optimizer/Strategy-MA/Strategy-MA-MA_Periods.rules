@@ -31,5 +31,5 @@ input_set ^MA_Period_Slow,1 $(( $(input_get MA_Period_Slow) > 2 ? $(($(input_get
 input_set ^MA_Period_Slow,2 1
 input_set ^MA_Period_Slow,3 $(($(input_get MA_Period_Slow) + 2))
 
-# $ETA:$
+# $ETA: 3h$
 # vim: set syntax=sh:
