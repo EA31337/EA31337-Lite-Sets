@@ -12,7 +12,7 @@ input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
 # Enable strategy.
-input_set ^SAR_Active 1
+input_set ^SAR.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test SAR_Maximum_Stop.
