@@ -200,12 +200,16 @@ Account_Condition_2,F=0
 Account_Condition_2,1=0
 Account_Condition_2,2=0
 Account_Condition_2,3=0
-Market_Condition_2=1
+Market_Condition_2=14
 Market_Condition_2,F=0
 Market_Condition_2,1=0
 Market_Condition_2,2=0
 Market_Condition_2,3=0
+<<<<<<< origin/master
 Action_On_Condition_2=1
+=======
+Action_On_Condition_2=10
+>>>>>>> local
 Action_On_Condition_2,F=0
 Action_On_Condition_2,1=0
 Action_On_Condition_2,2=0
