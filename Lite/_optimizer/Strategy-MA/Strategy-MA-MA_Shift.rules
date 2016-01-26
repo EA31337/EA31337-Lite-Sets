@@ -41,5 +41,5 @@ input_set ^MA_Shift_Far,1 $(( $(input_get MA_Shift_Far) > 1 ? $(($(input_get MA_
 input_set ^MA_Shift_Far,2 1
 input_set ^MA_Shift_Far,3 $(($(input_get MA_Shift_Far) + 1))
 
-# $ETA:$
+# $ETA: 2h$
 # vim: set syntax=sh:
