@@ -5,83 +5,83 @@
                                       EEAA3311333377--LLiittee--BBaacckktteesstt--vv11..006666
                                                ((BBuuiilldd 995500))
 
-Symbol                    EURUSD (Euro vs US Dollar)
-Period                    1 Minute (M1) 2014.01.01 22:00 - 2014.12.31 22:00 (2014.01.01 - 2014.12.30)
-Model                     Every tick (the most precise method based on all available least timeframes)
-                          __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.066 -
-                          -"; __EA_Order_Parameters__="-- Profit/Loss settings (set 0 for auto) --";
-                          LotSize=0; TakeProfit=160; StopLoss=80; MaxOrders=0; MaxOrdersPerType=0;
-                          TradeMicroLots=true; __EA_Trailing_Parameters__="-- Settings for trailing
-                          stops --"; TrailingStop=40; TrailingStopOneWay=false; TrailingProfit=30;
-                          TrailingProfitOneWay=true; TrailingStopAddPerMinute=0;
-                          __EA_Risk_Parameters__="-- Risk management --"; RiskRatio=0;
-                          TradeWithTrend=false; MinimalizeLosses=false;
-                          __Strategy_Boosting_Parameters__="-- Strategy boosting (set 1.0 to default) --
-                          "; Boosting_Enabled=true; BestDailyStrategyMultiplierFactor=1.5;
-                          BestWeeklyStrategyMultiplierFactor=1; BestMonthlyStrategyMultiplierFactor=1;
-                          WorseDailyStrategyDividerFactor=1; WorseWeeklyStrategyDividerFactor=1;
-                          WorseMonthlyStrategyDividerFactor=1; BoostTrendFactor=1.3;
-                          __Market_Parameters__="-- Market parameters --"; TrendMethod=181;
-                          TrendMethodAction=238; MinVolumeToTrade=2; MaxOrderPriceSlippage=5;
-                          DemoMarketStopLevel=10; MaxTries=5; MarketSuddenDropSize=10;
-                          MarketBigDropSize=50; MinPipChangeToTrade=0.7; MinPipGap=80;
-                          __EA_Conditions__="-- Account conditions --"; Account_Conditions_Active=true;
-                          Account_Condition_MinProfitCloseOrder=20; __AC_Parameters__="-- Settings for
-                          the Bill Williams' Accelerator/Decelerator oscillator --"; AC1_Active=true;
-                          AC5_Active=true; AC15_Active=true; AC30_Active=true; AC_OpenLevel=0;
-                          AC1_OpenMethod=15; AC5_OpenMethod=15; AC15_OpenMethod=15; AC30_OpenMethod=15;
-                          __AD_Parameters__="-- Settings for the Accumulation/Distribution indicator --
-                          "; AD1_Active=true; AD5_Active=true; AD15_Active=true; AD30_Active=true;
-                          AD_OpenLevel=0; AD1_OpenMethod=15; AD5_OpenMethod=15; AD15_OpenMethod=15;
-                          AD30_OpenMethod=15; __ADX_Parameters__="-- Settings for the Average
-                          Directional Movement Index indicator --"; ADX1_Active=true; ADX5_Active=true;
-                          ADX15_Active=true; ADX30_Active=true; ADX_Period=14; ADX_OpenLevel=0;
-Parameters                ADX1_OpenMethod=15; ADX5_OpenMethod=15; ADX15_OpenMethod=15;
-                          ADX30_OpenMethod=15; __Alligator_Parameters__="-- Settings for the Alligator
-                          indicator --"; Alligator1_Active=true; Alligator5_Active=true;
-                          Alligator15_Active=true; Alligator30_Active=true; Alligator_Jaw_Period=22;
-                          Alligator_Jaw_Shift=1; Alligator_Teeth_Period=10; Alligator_Teeth_Shift=4;
-                          Alligator_Lips_Period=9; Alligator_Lips_Shift=1; Alligator_Shift=1;
-                          Alligator_Shift_Far=2; Alligator_OpenLevel=0.01; Alligator1_OpenMethod=47;
-                          Alligator5_OpenMethod=2; Alligator15_OpenMethod=3; Alligator30_OpenMethod=1;
-                          __ATR_Parameters__="-- Settings for the Average True Range indicator --";
-                          ATR1_Active=true; ATR5_Active=true; ATR15_Active=true; ATR30_Active=true;
-                          ATR_Period_Fast=14; ATR_Period_Slow=20; ATR_OpenLevel=0; ATR1_OpenMethod=31;
-                          ATR5_OpenMethod=31; ATR15_OpenMethod=31; ATR30_OpenMethod=31;
-                          __Awesome_Parameters__="-- Settings for the Awesome oscillator --";
-                          Awesome1_Active=true; Awesome5_Active=true; Awesome15_Active=true;
-                          Awesome30_Active=true; Awesome_OpenLevel=0; Awesome1_OpenMethod=31;
-                          Awesome5_OpenMethod=0; Awesome15_OpenMethod=31; Awesome30_OpenMethod=31;
-                          __Bands_Parameters__="-- Settings for the Bollinger Bands indicator --";
-                          Bands1_Active=true; Bands5_Active=false; Bands15_Active=false;
-                          Bands30_Active=false; Bands_Period=26; Bands_Deviation=2.1; Bands_Shift=0;
-                          Bands_Shift_Far=0; Bands1_OpenMethod=24; Bands5_OpenMethod=124;
-                          Bands15_OpenMethod=0; Bands30_OpenMethod=225; __BPower_Parameters__="-
-                          - Settings for the Bulls/Bears Power indicator --"; BPower1_Active=true;
-                          BPower5_Active=true; BPower15_Active=true; BPower30_Active=true;
-                          BPower_Period=13; BPower_OpenLevel=0; BPower1_OpenMethod=15;
-                          BPower5_OpenMethod=15; BPower15_OpenMethod=15; BPower30_OpenMethod=15;
-                          __Breakage_Parameters__="-- Settings for the custom Breakage strategy --";
-                          Breakage1_Active=true; Breakage5_Active=true; Breakage15_Active=true;
-                          Breakage30_Active=true; Breakage_OpenLevel=0; Breakage1_OpenMethod=0;
-                          Breakage5_OpenMethod=0; Breakage15_OpenMethod=0; Breakage30_OpenMethod=0;
-                          BWMFI1_Active=true; BWMFI5_Active=true; MA_Shift=0;
-Bars in test       371463 Ticks modelled               16999067 Modelling quality                    n/a
-Mismatched charts       0
-errors
-Initial deposit   2000.00                                       Spread                                10
-Total net profit  2753.16 Gross profit                 14512.39 Gross loss                     -11759.23
-Profit factor        1.23 Expected payoff                  0.09
-Absolute drawdown  656.95 Maximal drawdown     1004.81 (42.80%) Relative drawdown       42.80% (1004.81)
-Total trades        30361 Short positions (won   15950 (24.01%) Long positions (won %)    14411 (22.75%)
-                          %)
-                          Profit trades (% of     7109 (23.41%) Loss trades (% of         23252 (76.59%)
-                          total)                                total)
-                  Largest profit trade                   179.68 loss trade                        -21.74
-                  Average profit trade                     2.04 loss trade                         -0.51
-                  Maximum consecutive wins         44 (2804.74) consecutive losses           64 (-18.22)
-                          (profit in money)                     (loss in money)
-                  Maximal consecutive profit       2804.74 (44) consecutive loss (count     -189.83 (22)
-                          (count of wins)                       of losses)
-                  Average consecutive wins                    2 consecutive losses                     5
+ Symbol                    EURUSD (Euro vs US Dollar)
+ Period                    1 Minute (M1) 2014.01.01 22:00 - 2014.12.31 22:00 (2014.01.01 - 2014.12.30)
+ Model                     Every tick (the most precise method based on all available least timeframes)
+                           __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.066
+                           --"; __EA_Order_Parameters__="-- Profit/Loss settings (set 0 for auto) --";
+                           LotSize=0; TakeProfit=160; StopLoss=80; MaxOrders=0; MaxOrdersPerType=0;
+                           TradeMicroLots=true; __EA_Trailing_Parameters__="-- Settings for trailing
+                           stops --"; TrailingStop=40; TrailingStopOneWay=false; TrailingProfit=30;
+                           TrailingProfitOneWay=true; TrailingStopAddPerMinute=0;
+                           __EA_Risk_Parameters__="-- Risk management --"; RiskRatio=0;
+                           TradeWithTrend=false; MinimalizeLosses=false;
+                           __Strategy_Boosting_Parameters__="-- Strategy boosting (set 1.0 to default) -
+                           -"; Boosting_Enabled=true; BestDailyStrategyMultiplierFactor=1.5;
+                           BestWeeklyStrategyMultiplierFactor=1; BestMonthlyStrategyMultiplierFactor=1;
+                           WorseDailyStrategyDividerFactor=1; WorseWeeklyStrategyDividerFactor=1;
+                           WorseMonthlyStrategyDividerFactor=1; BoostTrendFactor=1.3;
+                           __Market_Parameters__="-- Market parameters --"; TrendMethod=181;
+                           TrendMethodAction=238; MinVolumeToTrade=2; MaxOrderPriceSlippage=5;
+                           DemoMarketStopLevel=10; MaxTries=5; MarketSuddenDropSize=10;
+                           MarketBigDropSize=50; MinPipChangeToTrade=0.7; MinPipGap=80;
+                           __EA_Conditions__="-- Account conditions --"; Account_Conditions_Active=true;
+                           Account_Condition_MinProfitCloseOrder=20; __AC_Parameters__="-- Settings for
+                           the Bill Williams' Accelerator/Decelerator oscillator --"; AC1_Active=true;
+                           AC5_Active=true; AC15_Active=true; AC30_Active=true; AC_OpenLevel=0;
+                           AC1_OpenMethod=15; AC5_OpenMethod=15; AC15_OpenMethod=15; AC30_OpenMethod=15;
+                           __AD_Parameters__="-- Settings for the Accumulation/Distribution indicator --
+                           "; AD1_Active=true; AD5_Active=true; AD15_Active=true; AD30_Active=true;
+                           AD_OpenLevel=0; AD1_OpenMethod=15; AD5_OpenMethod=15; AD15_OpenMethod=15;
+                           AD30_OpenMethod=15; __ADX_Parameters__="-- Settings for the Average
+                           Directional Movement Index indicator --"; ADX1_Active=true; ADX5_Active=true;
+                           ADX15_Active=true; ADX30_Active=true; ADX_Period=14; ADX_OpenLevel=0;
+ Parameters                ADX1_OpenMethod=15; ADX5_OpenMethod=15; ADX15_OpenMethod=15;
+                           ADX30_OpenMethod=15; __Alligator_Parameters__="-- Settings for the Alligator
+                           indicator --"; Alligator1_Active=true; Alligator5_Active=true;
+                           Alligator15_Active=true; Alligator30_Active=true; Alligator_Jaw_Period=20;
+                           Alligator_Jaw_Shift=1; Alligator_Teeth_Period=8; Alligator_Teeth_Shift=4;
+                           Alligator_Lips_Period=9; Alligator_Lips_Shift=1; Alligator_Shift=1;
+                           Alligator_Shift_Far=2; Alligator_OpenLevel=0.01; Alligator1_OpenMethod=47;
+                           Alligator5_OpenMethod=2; Alligator15_OpenMethod=3; Alligator30_OpenMethod=1;
+                           __ATR_Parameters__="-- Settings for the Average True Range indicator --";
+                           ATR1_Active=true; ATR5_Active=true; ATR15_Active=true; ATR30_Active=true;
+                           ATR_Period_Fast=14; ATR_Period_Slow=20; ATR_OpenLevel=0; ATR1_OpenMethod=31;
+                           ATR5_OpenMethod=31; ATR15_OpenMethod=31; ATR30_OpenMethod=31;
+                           __Awesome_Parameters__="-- Settings for the Awesome oscillator --";
+                           Awesome1_Active=true; Awesome5_Active=true; Awesome15_Active=true;
+                           Awesome30_Active=true; Awesome_OpenLevel=0; Awesome1_OpenMethod=31;
+                           Awesome5_OpenMethod=0; Awesome15_OpenMethod=31; Awesome30_OpenMethod=31;
+                           __Bands_Parameters__="-- Settings for the Bollinger Bands indicator --";
+                           Bands1_Active=true; Bands5_Active=false; Bands15_Active=false;
+                           Bands30_Active=false; Bands_Period=26; Bands_Deviation=2.3; Bands_Shift=0;
+                           Bands_Shift_Far=0; Bands1_OpenMethod=24; Bands5_OpenMethod=124;
+                           Bands15_OpenMethod=0; Bands30_OpenMethod=225; __BPower_Parameters__="-
+                           - Settings for the Bulls/Bears Power indicator --"; BPower1_Active=true;
+                           BPower5_Active=true; BPower15_Active=true; BPower30_Active=true;
+                           BPower_Period=13; BPower_OpenLevel=0; BPower1_OpenMethod=15;
+                           BPower5_OpenMethod=15; BPower15_OpenMethod=15; BPower30_OpenMethod=15;
+                           __Breakage_Parameters__="-- Settings for the custom Breakage strategy --";
+                           Breakage1_Active=true; Breakage5_Active=true; Breakage15_Active=true;
+                           Breakage30_Active=true; Breakage_OpenLevel=0; Breakage1_OpenMethod=0;
+                           Breakage5_OpenMethod=0; Breakage15_OpenMethod=0; Breakage30_OpenMethod=0;
+                           BWMFI1_Active=true; BWMFI5_Active=true; MA_Shift=0;
+ Bars in test       371463 Ticks modelled               16999067 Modelling quality                   n/a
+ Mismatched charts       0
+ errors
+ Initial deposit   2000.00                                       Spread                               10
+ Total net profit  5701.66 Gross profit                 37620.38 Gross loss                    -31918.72
+ Profit factor        1.18 Expected payoff                  0.10
+ Absolute drawdown  762.23 Maximal drawdown     3570.43 (35.64%) Relative drawdown       41.33% (871.91)
+ Total trades        57787 Short positions (won   41685 (74.75%) Long positions (won %)   16102 (54.71%)
+                           %)
+                           Profit trades (% of    39971 (69.17%) Loss trades (% of        17816 (30.83%)
+                           total)                                total)
+                   Largest profit trade                    88.83 loss trade                      -202.58
+                   Average profit trade                     0.94 loss trade                        -1.79
+                   Maximum consecutive wins         295 (181.72) consecutive losses         40 (-380.95)
+                           (profit in money)                     (loss in money)
+                   Maximal consecutive profit       1608.91 (41) consecutive loss (count   -1665.62 (36)
+                           (count of wins)                       of losses)
+                   Average consecutive wins                   11 consecutive losses                    5
                                                  [Graph]
