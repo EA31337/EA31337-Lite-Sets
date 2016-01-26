@@ -21,5 +21,5 @@ input_set ^SAR_Maximum_Stop,1 $( echo $(input_get SAR_Maximum_Stop) - 0.2 | bc )
 input_set ^SAR_Maximum_Stop,2 0.1
 input_set ^SAR_Maximum_Stop,3 $( echo $(input_get SAR_Maximum_Stop) + 0.2 | bc )
 
-# $ETA:$
+# $ETA: 1h$
 # vim: set syntax=sh:
