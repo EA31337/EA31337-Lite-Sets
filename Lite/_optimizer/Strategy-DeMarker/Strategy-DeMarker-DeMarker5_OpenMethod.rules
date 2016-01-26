@@ -21,5 +21,5 @@ input_set ^DeMarker5_OpenMethod,1 0
 input_set ^DeMarker5_OpenMethod,2 1
 input_set ^DeMarker5_OpenMethod,3 31
 
-# $ETA: 1h$
+# $ETA:$
 # vim: set syntax=sh:
