@@ -17,5 +17,5 @@ input_set MinPipGap,1 $(( $(input_get MinPipGap) > 10 ? $(($(input_get MinPipGap
 input_set MinPipGap,2 10
 input_set MinPipGap,3 $(($(input_get MinPipGap) + 20))
 
-# $ETA: 1h$
+# $ETA: 0h$
 # vim: set syntax=sh:
