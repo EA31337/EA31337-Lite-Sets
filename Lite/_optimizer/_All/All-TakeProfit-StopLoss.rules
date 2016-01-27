@@ -22,5 +22,5 @@ input_set StopLoss,1 $(( $(input_get StopLoss) > 40 ? $(($(input_get StopLoss) -
 input_set StopLoss,2 20
 input_set StopLoss,3 $(($(input_get StopLoss) + 40))
 
-# $ETA: 0h$
+# $ETA: 2h$
 # vim: set syntax=sh:
