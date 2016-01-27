@@ -11,5 +11,5 @@ input_set TrailingStopAddPerMinute,1 0.0
 input_set TrailingStopAddPerMinute,2 0.1
 input_set TrailingStopAddPerMinute,3 0.2
 
-# $ETA:$
+# $ETA: 0h$
 # vim: set syntax=sh:
