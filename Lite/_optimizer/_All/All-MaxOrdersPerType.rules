@@ -11,5 +11,5 @@ input_set MaxOrdersPerType,1 0
 input_set MaxOrdersPerType,2 5
 input_set MaxOrdersPerType,3 $(($(input_get MaxOrdersPerType) + 10))
 
-# $ETA:$
+# $ETA: 0h$
 # vim: set syntax=sh:
