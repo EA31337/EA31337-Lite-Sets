@@ -19,9 +19,19 @@
 ![All Action_On_Condition_11  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Action_On_Condition_11--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: All Action_On_Condition_2  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![All Action_On_Condition_2  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Action_On_Condition_2--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: All Action_On_Condition_3  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![All Action_On_Condition_3  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Action_On_Condition_3--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: All Action_On_Condition_4  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![All Action_On_Condition_4  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Action_On_Condition_4--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
 ### Report: All Action_On_Condition_5  EURUSD 2000USD 2014year 10spread DS optimization test
