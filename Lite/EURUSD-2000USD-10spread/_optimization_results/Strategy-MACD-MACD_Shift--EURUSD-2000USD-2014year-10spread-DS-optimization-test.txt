@@ -1,0 +1,17 @@
+
+
+
+                                           OOppttiimmiizzaattiioonn RReeppoorrtt
+                                      EEAA3311333377--LLiittee--BBaacckktteesstt--vv11..006666
+                                               ((BBuuiilldd 995500))
+
+      Symbol          EURUSD (Euro vs US Dollar)
+      Period          1 Minute (M1) 2014.01.01 22:00 - 2014.12.31 22:00 (2014.01.01 - 2014.12.30)
+      Model           Every tick (the most precise method based on all available least timeframes)
+      Initial deposit 2000.00
+      Spread          10
+                                          [Optimization Graph]
+              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                 3 -337.99         4625          0.94           -0.07     526.18      24.10
+                 2 -337.99         4625          0.94           -0.07     526.18      24.10
+                 1 -337.99         4625          0.94           -0.07     526.18      24.10
