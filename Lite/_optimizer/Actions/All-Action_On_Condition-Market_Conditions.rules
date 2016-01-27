@@ -1,0 +1,76 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( \
+    Market_Condition_1 Market_Condition_2 Market_Condition_3 Market_Condition_4 \
+    Market_Condition_5 Market_Condition_6 Market_Condition_7 Market_Condition_8 \
+    Market_Condition_9 Market_Condition_10 Market_Condition_11 Market_Condition_12 \
+    )
+# Disable all optimization settings.
+input_set .*,F 0
+# Double check that account conditions are enabled.
+input_set Account_Conditions_Active 1
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test Market_Condition_1.
+input_set Market_Condition_1,F 1
+input_set Market_Condition_1,1 0
+input_set Market_Condition_1,2 $(( $(input_get Market_Condition_1) ))
+input_set Market_Condition_1,3 $(( $(input_get Market_Condition_1) ))
+# Test Market_Condition_2.
+input_set Market_Condition_2,F 1
+input_set Market_Condition_2,1 0
+input_set Market_Condition_2,2 $(( $(input_get Market_Condition_2) ))
+input_set Market_Condition_2,3 $(( $(input_get Market_Condition_2) ))
+# Test Market_Condition_3.
+input_set Market_Condition_3,F 1
+input_set Market_Condition_3,1 0
+input_set Market_Condition_3,2 $(( $(input_get Market_Condition_3) ))
+input_set Market_Condition_3,3 $(( $(input_get Market_Condition_3) ))
+# Test Market_Condition_4.
+input_set Market_Condition_4,F 1
+input_set Market_Condition_4,1 0
+input_set Market_Condition_4,2 $(( $(input_get Market_Condition_4) ))
+input_set Market_Condition_4,3 $(( $(input_get Market_Condition_4) ))
+# Test Market_Condition_5.
+input_set Market_Condition_5,F 1
+input_set Market_Condition_5,1 0
+input_set Market_Condition_5,2 $(( $(input_get Market_Condition_5) ))
+input_set Market_Condition_5,3 $(( $(input_get Market_Condition_5) ))
+# Test Market_Condition_6.
+input_set Market_Condition_6,F 1
+input_set Market_Condition_6,1 0
+input_set Market_Condition_6,2 $(( $(input_get Market_Condition_6) ))
+input_set Market_Condition_6,3 $(( $(input_get Market_Condition_6) ))
+# Test Market_Condition_7.
+input_set Market_Condition_7,F 1
+input_set Market_Condition_7,1 0
+input_set Market_Condition_7,2 $(( $(input_get Market_Condition_7) ))
+input_set Market_Condition_7,3 $(( $(input_get Market_Condition_7) ))
+# Test Market_Condition_8.
+input_set Market_Condition_8,F 1
+input_set Market_Condition_8,1 0
+input_set Market_Condition_8,2 $(( $(input_get Market_Condition_8) ))
+input_set Market_Condition_8,3 $(( $(input_get Market_Condition_8) ))
+# Test Market_Condition_9.
+input_set Market_Condition_9,F 1
+input_set Market_Condition_9,1 0
+input_set Market_Condition_9,2 $(( $(input_get Market_Condition_9) ))
+input_set Market_Condition_9,3 $(( $(input_get Market_Condition_9) ))
+# Test Market_Condition_10.
+input_set Market_Condition_10,F 1
+input_set Market_Condition_10,1 0
+input_set Market_Condition_10,2 $(( $(input_get Market_Condition_10) ))
+input_set Market_Condition_10,3 $(( $(input_get Market_Condition_10) ))
+# Test Market_Condition_11.
+input_set Market_Condition_11,F 1
+input_set Market_Condition_11,1 0
+input_set Market_Condition_11,2 $(( $(input_get Market_Condition_11) ))
+input_set Market_Condition_11,3 $(( $(input_get Market_Condition_11) ))
+# Test Market_Condition_12.
+input_set Market_Condition_12,F 1
+input_set Market_Condition_12,1 0
+input_set Market_Condition_12,2 $(( $(input_get Market_Condition_12) ))
+input_set Market_Condition_12,3 $(( $(input_get Market_Condition_12) ))
+
+# $ETA:$
+# vim: set syntax=sh:
