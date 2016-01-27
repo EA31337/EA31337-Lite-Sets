@@ -10,8 +10,8 @@ input_set Account_Conditions_Active 1
 # Test Market_Condition_5.
 input_set Market_Condition_5,F 1
 input_set Market_Condition_5,1 0
-input_set Market_Condition_5,2 $(( $(input_get Market_Condition_5) ))
-input_set Market_Condition_5,3 $(( $(input_get Market_Condition_5) ))
+input_set Market_Condition_5,2 5
+input_set Market_Condition_5,3 5
 
 # $ETA:$
 # vim: set syntax=sh:

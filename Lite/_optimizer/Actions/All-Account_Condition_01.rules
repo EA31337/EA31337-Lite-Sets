@@ -10,8 +10,8 @@ input_set Account_Conditions_Active 1
 # Test Account_Condition_1.
 input_set Account_Condition_1,F 1
 input_set Account_Condition_1,1 0
-input_set Account_Condition_1,2 $(( $(input_get Account_Condition_1) ))
-input_set Account_Condition_1,3 $(( $(input_get Account_Condition_1) ))
+input_set Account_Condition_1,2 1
+input_set Account_Condition_1,3 1
 
 # $ETA:$
 # vim: set syntax=sh:
