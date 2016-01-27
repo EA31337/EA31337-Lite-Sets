@@ -184,6 +184,11 @@
 ![Strategy Bands All Bands_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Deviation--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy Bands All Bands_Shift  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands All Bands_Shift  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Shift--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy Bands Bands1_Active  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Bands Bands1_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Bands1_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)

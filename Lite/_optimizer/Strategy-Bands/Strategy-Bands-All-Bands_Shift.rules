@@ -26,5 +26,5 @@ input_set ^Bands_Shift_Far,1 0
 input_set ^Bands_Shift_Far,2 1
 input_set ^Bands_Shift_Far,3 4
 
-# $ETA:$
+# $ETA: 0h$
 # vim: set syntax=sh:
