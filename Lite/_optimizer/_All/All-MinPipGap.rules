@@ -13,7 +13,7 @@ input_set LotSize 0.01
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test MinPipGap.
 input_set MinPipGap,F 1
-input_set MinPipGap,1 $(( $(input_get MinPipGap) > 10 ? $(($(input_get MinPipGap) - 20)) : 0 ))
+input_set MinPipGap,1 $(( $(input_get MinPipGap) > 20 ? $(($(input_get MinPipGap) - 20)) : 0 ))
 input_set MinPipGap,2 10
 input_set MinPipGap,3 $(($(input_get MinPipGap) + 20))
 
