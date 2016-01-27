@@ -64,6 +64,11 @@
 ![All DefaultTrailingMethods  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-DefaultTrailingMethods--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: All MaxOrders  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![All MaxOrders  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-MaxOrders--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: All MaxOrdersPerType  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![All MaxOrdersPerType  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-MaxOrdersPerType--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
@@ -164,16 +169,7 @@
 ![Strategy BPower BPower15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BPower-BPower15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
-<<<<<<< origin/master
 ### Report: Strategy BPower BPower1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
-=======
-### Report: Strategy Bands All Bands_Period  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy Bands All Bands_Period  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Period--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy Bands Bands1_Active  EURUSD 2000USD 2014year 10spread DS optimization test
->>>>>>> local
 
 ![Strategy BPower BPower1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BPower-BPower1_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
@@ -196,6 +192,11 @@
 ### Report: Strategy Bands All Bands_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Bands All Bands_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Deviation--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Bands All Bands_Period  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands All Bands_Period  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Period--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
 ### Report: Strategy Bands All Bands_Shift  EURUSD 2000USD 2014year 10spread DS optimization test
