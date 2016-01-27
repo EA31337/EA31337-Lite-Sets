@@ -44,6 +44,19 @@
 ![All Action_On_Condition_9  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Action_On_Condition_9--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+<<<<<<< origin/master
+=======
+### Report: All BestMonthlyStrategyMultiplierFactor  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![All BestMonthlyStrategyMultiplierFactor  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-BestMonthlyStrategyMultiplierFactor--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: All Boosting_Enabled  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![All Boosting_Enabled  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Boosting_Enabled--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+>>>>>>> local
 ### Report: All BoostTrendFactor  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![All BoostTrendFactor  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-BoostTrendFactor--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
