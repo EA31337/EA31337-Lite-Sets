@@ -8,7 +8,7 @@ PATH="$PATH:$ROOT/_scripts:$ROOT/_VM/scripts"
 OUT="README.md"
 
 # Find, parse configuration and run the tests.
-find "$ROOT/$1" -type f -name "test.ini" -print0 | while IFS= read -r -d '' file; do
+find "$ROOT/$1" -type f -name "test.ini" -print0 | sort -z | while IFS= read -r -d '' file; do
   . <(grep = "$file" | sed "s/;/#/g") # Load ini values.
   dir="$(dirname "$file")"
   base_name="${pair}-${deposit}${currency}-${year}year-${spread}spread-${bt_source}"
