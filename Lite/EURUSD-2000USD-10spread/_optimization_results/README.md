@@ -159,6 +159,7 @@
 ![Strategy Alligator Alligator_Shift  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Alligator-Alligator_Shift--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+<<<<<<< origin/master
 ### Report: Strategy BPower BPower15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy BPower BPower15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BPower-BPower15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
@@ -168,6 +169,16 @@
 
 ![Strategy BPower BPower1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BPower-BPower1_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
+=======
+### Report: Strategy Bands All Bands_Applied_Price  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands All Bands_Applied_Price  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Applied_Price--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Bands All Bands_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands All Bands_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Deviation--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+>>>>>>> local
 
 ### Report: Strategy BPower BPower30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
