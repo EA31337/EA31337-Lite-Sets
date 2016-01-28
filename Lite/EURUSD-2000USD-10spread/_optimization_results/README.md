@@ -502,6 +502,14 @@
 ![Strategy RSI Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-RSI-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+<<<<<<< origin/master
+=======
+### Report: Strategy RVI RVI5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy RVI RVI5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-RVI-RVI5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+>>>>>>> local
 ### Report: Strategy SAR SAR15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy SAR SAR15_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-SAR-SAR15_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
