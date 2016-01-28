@@ -1,4 +1,9 @@
 
+### Report: All Account_Condition_07  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![All Account_Condition_07  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Account_Condition_07--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: All Account_Conditions_Active  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![All Account_Conditions_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Account_Conditions_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
