@@ -564,6 +564,11 @@
 ![Strategy WPR WPR1_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-WPR-WPR1_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy WPR WPR1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy WPR WPR1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-WPR-WPR1_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy WPR WPR30_Active  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy WPR WPR30_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-WPR-WPR30_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
