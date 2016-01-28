@@ -13,5 +13,5 @@ input_set Market_Condition_3,1 0
 input_set Market_Condition_3,2 3
 input_set Market_Condition_3,3 3
 
-# $ETA:$
+# $ETA: 0h$
 # vim: set syntax=sh:
