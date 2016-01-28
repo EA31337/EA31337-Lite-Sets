@@ -6,7 +6,7 @@
                                                (Build 950)
 
       Symbol          EURUSD (Euro vs US Dollar)
-      Period          1 Minute (M1) 2014.01.01 21:00 - 2014.12.31 21:00 (2014.01.01 - 2014.12.30)
+      Period          1 Minute (M1) 2014.01.01 22:00 - 2014.12.31 22:00 (2014.01.01 - 2014.12.30)
       Model           Every tick (the most precise method based on all available least timeframes)
       Initial deposit 2000.00
       Spread          10
