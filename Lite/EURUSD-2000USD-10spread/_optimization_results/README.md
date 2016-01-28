@@ -1,4 +1,17 @@
 
+<<<<<<< origin/master
+=======
+### Report: All Account_Condition_08  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![All Account_Condition_08  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Account_Condition_08--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: All Account_Condition_12  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![All Account_Condition_12  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Account_Condition_12--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+>>>>>>> local
 ### Report: All Account_Conditions_Active  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![All Account_Conditions_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-Account_Conditions_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)

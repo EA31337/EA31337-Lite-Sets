@@ -13,5 +13,5 @@ input_set Account_Condition_12,1 0
 input_set Account_Condition_12,2 12
 input_set Account_Condition_12,3 12
 
-# $ETA:$
+# $ETA: 0h$
 # vim: set syntax=sh:
