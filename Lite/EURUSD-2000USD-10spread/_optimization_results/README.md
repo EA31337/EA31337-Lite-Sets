@@ -264,6 +264,19 @@
 ![Strategy Envelopes Envelopes15_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Envelopes15_Deviation--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+<<<<<<< origin/master
+=======
+### Report: Strategy Envelopes Envelopes15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Envelopes Envelopes15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Envelopes15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Envelopes Envelopes30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Envelopes Envelopes30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Envelopes30_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+>>>>>>> local
 ### Report: Strategy Envelopes Envelopes5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Envelopes Envelopes5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Envelopes5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
