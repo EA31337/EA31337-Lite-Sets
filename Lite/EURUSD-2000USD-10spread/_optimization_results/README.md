@@ -434,6 +434,19 @@
 ![Strategy MA MA_Shift  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA_Shift--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+<<<<<<< origin/master
+=======
+### Report: Strategy OSMA OSMA15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy OSMA OSMA15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-OSMA-OSMA15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy OSMA OSMA30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy OSMA OSMA30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-OSMA-OSMA30_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+>>>>>>> local
 ### Report: Strategy RSI RSI15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy RSI RSI15_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-RSI-RSI15_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
