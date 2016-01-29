@@ -344,6 +344,11 @@
 ![Strategy Fractals Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Fractals-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy Ichimoku Ichimoku5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Ichimoku Ichimoku5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Ichimoku-Ichimoku5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy MACD MACD15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy MACD MACD15_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD15_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
