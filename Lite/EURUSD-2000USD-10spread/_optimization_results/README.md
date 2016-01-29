@@ -199,6 +199,11 @@
 ![Strategy Bands Bands5_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Bands5_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy Bands Bands5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands Bands5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Bands5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy Bands Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Bands Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
