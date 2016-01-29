@@ -26,5 +26,5 @@ input_set ^Envelopes_TrailingProfitMethod,1 0
 input_set ^Envelopes_TrailingProfitMethod,2 1
 input_set ^Envelopes_TrailingProfitMethod,3 27
 
-# $ETA: 0h$
+# $ETA: 1h$
 # vim: set syntax=sh:
