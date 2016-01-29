@@ -194,6 +194,11 @@
 ![Strategy Bands Bands30_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Bands30_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy Bands Bands30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands Bands30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Bands30_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy Bands Bands5_Active  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Bands Bands5_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Bands5_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
@@ -434,6 +439,14 @@
 ![Strategy MA MA_Shift  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA_Shift--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+<<<<<<< origin/master
+=======
+### Report: Strategy OSMA OSMA5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy OSMA OSMA5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-OSMA-OSMA5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+>>>>>>> local
 ### Report: Strategy RSI RSI15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy RSI RSI15_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-RSI-RSI15_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
