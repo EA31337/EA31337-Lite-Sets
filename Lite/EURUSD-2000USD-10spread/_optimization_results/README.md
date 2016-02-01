@@ -74,6 +74,11 @@
 ![All DefaultTrailingMethods  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-DefaultTrailingMethods--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: All MaxOrders  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![All MaxOrders  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-MaxOrders--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: All MaxOrdersPerType  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![All MaxOrdersPerType  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-MaxOrdersPerType--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)

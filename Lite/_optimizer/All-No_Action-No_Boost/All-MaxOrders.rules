@@ -17,5 +17,5 @@ input_set MaxOrders,1 0
 input_set MaxOrders,2 10
 input_set MaxOrders,3 $(($(input_get MaxOrders) + 20))
 
-# $ETA:$
+# $ETA: 3h$
 # vim: set syntax=sh:
