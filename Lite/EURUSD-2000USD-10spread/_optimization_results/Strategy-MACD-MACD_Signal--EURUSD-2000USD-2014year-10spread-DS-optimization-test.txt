@@ -1,9 +1,9 @@
 
 
 
-                                           OOppttiimmiizzaattiioonn RReeppoorrtt
-                                      EEAA3311333377--LLiittee--BBaacckktteesstt--vv11..006666
-                                               ((BBuuiilldd 995500))
+                                           Optimization Report
+                                      EA31337-Lite-Backtest-v1.066
+                                               (Build 950)
 
       Symbol          EURUSD (Euro vs US Dollar)
       Period          1 Minute (M1) 2014.01.01 22:00 - 2014.12.31 22:00 (2014.01.01 - 2014.12.30)
@@ -11,9 +11,9 @@
       Initial deposit 2000.00
       Spread          10
                                           [Optimization Graph]
-              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 4 -133.54         4466          0.95           -0.03     247.06      12.25
-                 3 -137.90         4524          0.94           -0.03     255.78      12.64
-                 5 -156.95         4416          0.94           -0.04     242.90      12.07
-                 2 -170.33         4592          0.93           -0.04     291.70      14.39
-                 1 -212.96         4654          0.92           -0.05     295.31      14.57
+              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                 3 649.06         5844          1.25            0.11      93.48       4.13
+                 1 637.52         5885          1.24            0.11      97.12       4.30
+                 2 621.72         5862          1.23            0.11      94.52       4.16
+                 4 587.46         5836          1.22            0.10      93.01       4.11
+                 5 578.58         5815          1.22            0.10      96.55       4.27
