@@ -404,6 +404,11 @@
 ![Strategy MACD MACD5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy MACD MACD_Applied_Price  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MACD MACD_Applied_Price  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD_Applied_Price--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy MACD MACD_Signal  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy MACD MACD_Signal  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD_Signal--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
