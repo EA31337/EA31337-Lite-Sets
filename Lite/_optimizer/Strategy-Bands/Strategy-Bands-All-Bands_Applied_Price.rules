@@ -11,11 +11,10 @@ input_set Account_Conditions_Active 0
 input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
-
 ## Enable Bands strategies.
 input_set ^Bands.*_Active 1
 
-## Optimization settings.
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test Bands Applied Price.
 input_set ^Bands_Applied_Price,F 1
 input_set ^Bands_Applied_Price,1 0
