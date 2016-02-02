@@ -174,6 +174,19 @@
 ![Strategy Alligator Alligator_Shift  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Alligator-Alligator_Shift--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+<<<<<<< origin/master
+=======
+### Report: Strategy ATR ATR30_Active  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy ATR ATR30_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-ATR-ATR30_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy ATR ATR30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy ATR ATR30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-ATR-ATR30_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+>>>>>>> local
 ### Report: Strategy Bands All Bands_Applied_Price  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Bands All Bands_Applied_Price  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Applied_Price--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
