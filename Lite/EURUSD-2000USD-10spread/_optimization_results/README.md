@@ -539,6 +539,11 @@
 ![Strategy SAR SAR5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-SAR-SAR5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy SAR SAR_OpenLevel  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy SAR SAR_OpenLevel  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-SAR-SAR_OpenLevel--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy SAR SAR_Step  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy SAR SAR_Step  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-SAR-SAR_Step--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
