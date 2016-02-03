@@ -269,6 +269,11 @@
 ![Strategy Envelopes Envelopes5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Envelopes5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy Envelopes Envelopes_MA_Periods  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Envelopes Envelopes_MA_Periods  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Envelopes_MA_Periods--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy Envelopes Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Envelopes Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
