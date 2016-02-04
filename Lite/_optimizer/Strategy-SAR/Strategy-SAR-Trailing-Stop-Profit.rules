@@ -26,5 +26,5 @@ input_set ^SAR_TrailingProfitMethod,1 0
 input_set ^SAR_TrailingProfitMethod,2 1
 input_set ^SAR_TrailingProfitMethod,3 27
 
-# $ETA: 0h$
+# $ETA: 2h$
 # vim: set syntax=sh:
