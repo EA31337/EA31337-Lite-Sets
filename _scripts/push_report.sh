@@ -11,4 +11,5 @@ cd "$ROOT"
 git checkout -mB "$CHK" origin/master
 git add -vA *.txt *.gif *.md
 git commit -vm "$MSG" --author="$AUTHOR" -a && git push -fv origin "$CHK"
+git checkout master
 echo "$0 done."
