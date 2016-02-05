@@ -104,6 +104,11 @@
 ![All TrailingProfitOneWay TrailingStopOneWay  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-TrailingProfitOneWay-TrailingStopOneWay--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: All TrailingStopAddPerMinute  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![All TrailingStopAddPerMinute  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-TrailingStopAddPerMinute--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: All TrendMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![All TrendMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-TrendMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
