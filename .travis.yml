@@ -4,14 +4,14 @@
 #   TRAVIS_REPO_SLUG - The slug (in form: owner_name/repo_name) of the repository currently being built. (e.g. "EA31337/EA31337-Sets")
 
 # Environment
-language: python
-python: 3.4
-sudo: required  # Required for Precise/Wine 1.7
+language: generic
+sudo: required  # Required for Precise/Wine 1.8
+dist: trusty
 env:
   global:
     - OWNER='EA31337'
     - EA_MODE='Lite'
-    - EA_VERSION='v⒈.67'
+    - EA_VERSION='v1.67'
     - USER=${TRAVIS_REPO_SLUG%%/*}
     - REPOSITORY=${TRAVIS_REPO_SLUG##*/}
     - PUSH_BRANCH="EA-$(date +%Y%m%d)"
@@ -41,6 +41,7 @@ matrix:
 
 cache:
   apt: true
+  pip: true
   directories:
     - $HOME/.wine
 
@@ -66,6 +67,7 @@ before_install:
 #
 install:
   - sudo env PATH="$PATH" provision.sh
+  - sudo env PATH="$PATH" secur32_fix.sh
   - mkdir -vp "$EA_DIR"
 
 # Before Script
@@ -75,11 +77,10 @@ before_script:
   - echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" > ~/.secrets
   - (cd "$EA_DIR"; get_gh_asset.sh $OWNER $OWNER-$EA_MODE-Releases $EA_VERSION Backtest)
   - |-
-    if [ -n "$PS" ] && [ -n "$EA" ]; then # Clone and configure EA if available.
+    if [ -n "$PS" ]; then
       eval "$(ssh-agent -s)"
       install -vm700 <(echo "echo $PS") $HOME/.ps
       git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c | DISPLAY= SSH_ASKPASS=$HOME/.ps ssh-add -
-      git clone -q $EA "$EA_DIR"
       ssh-add -l
     else # Otherwise run sample EA.
       run_backtest.sh
