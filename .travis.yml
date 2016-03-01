@@ -93,7 +93,7 @@ before_script:
 #
 script:
   - find "$CWD" -name "*.rules" -exec bash -n "{}" ';' # Check syntax of rule files.
-  - run_backtests.sh $EA_MODE
+  - run_backtests.sh
 
 # After Success
 # Note: The standard Unix exit code of "0" means the build passed; everything else is treated as failure.
