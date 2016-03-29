@@ -4,23 +4,26 @@
 #   TRAVIS_REPO_SLUG - The slug (in form: owner_name/repo_name) of the repository currently being built. (e.g. "EA31337/EA31337-Sets")
 
 # Environment
-language: python
-python: 3.4
-sudo: required  # Required for Precise/Wine 1.7
+language: generic
+sudo: required  # Required for Precise/Wine 1.8
+dist: trusty
 env:
   global:
-    - CWD="$TRAVIS_BUILD_DIR"
-    - EA_DIR="$CWD/_VM/EA"
-    - UPSTREAM_USER='EA31337'
+    - OWNER='EA31337'
+    - EA_MODE='Lite'
+    - EA_VERSION='v1.67'
     - USER=${TRAVIS_REPO_SLUG%%/*}
     - REPOSITORY=${TRAVIS_REPO_SLUG##*/}
     - PUSH_BRANCH="EA-$(date +%Y%m%d)"
+    - CWD="$TRAVIS_BUILD_DIR"
+    - VM_DIR="$CWD/_VM"
+    - EA_DIR="$VM_DIR/EA"
     - PATH="$PATH:$CWD/_scripts:$CWD/_VM/scripts"
     - PATH=${PATH//:\.\/node_modules\/\.bin/} # Fixes Travis bug: https://github.com/travis-ci/travis-ci/issues/4862
     - secure: "crXsd5puGxZaDE9EVTDLU0tMeH3JRmIAUwLhBjheBPzbzT/buE1owFsaeGsr/XQStNrt2EWq8LxN/c4TOkHJ9tTU8f6+3IUkAXvzqYwwcE+HbY3KJ4jJd2KHRQ5NbwpAkDtADvcrw5CDdWGmMiOEaA54l4GCBg0Id5jWOy2KbKXBnjWeaZu6irYT1B6HMAYSxPKWVHriku323tgH3FgAn1HtKK2nhOPjulBj6vj/ioS7xy20sz9j2yN7hExGB1k0GGUSNi7O74xYqLHhBJISp7LplHbaTJCMi5/xd9h9kSfsTLxJtXTqxat/92JburhzFvGBEjd4gJOiZxJw0vymTVJaqwpfy7joD3QD6jz/nF7w5HSnTvEly6wLCOH00TbrfPvwPvFvfXTFl6diNZEfZCwiSJa9eM88hDkpPyp8+O2w9TprASI66qmsM2z3vt2UM4L5k5QfYrIVPE9J4LE1btjX4cecQVb1oauE5N9Hr77e92R5lfA7LgAcT5TluG5AMNJSEbDmdYrnz9W+nlm+2ML3OhdfWHvcvMFSI0Cjpn+9ZF88pGFBc0qjiQQPJCq7WwBgC3pMYsuioV92BNevCDtzCEPL4hp/oc69K+tKxzb4/OdFWSJO5zEKOno1FCheFHLTNl7qbDUt/5xz08hSwtWf7aR5da1CT7eG4RVJCoY="
     - secure: "eMGIXPSYLk1LIxqocS3CuHl+vxUSr1ZDs38yNdA6jwc/7zeWn7zA0+N2zHKr9UzkHDYJ9cbLDlJZk/M8umtDr3H3orld3TCSXMgtyKqCdDV3T4rwmcJs3InyrOa7Ia72FNJttjpToQ53oWnMqCk/eN7sLL4ZJLmJxAlkW5JK5fml0UYn03jrE3ggXmjjm/CpjrkurgfioDL7xhxtnACHCNuWRupXxI4486rzAW6enqrluVcr25a0Zn7ZAAseIxqQhEuUqiyJlKRcrlaO3yDYIa1AI0drLYMlmOcEAxcSzVIwTX79CV4C7UQWg2SHYOXYK+ak+AXwKvr8Q4y5u4PZBvBZTOELHRW61MvDq5NjAvvEgc5VvHtsWG7b0Qqe0N3EU4cJBqLfeOettFd4rA+VBRgUVoUXaXgQlKibKBG4kBEM030mIfLzTMAAYduYNiallzffGhn4ZRzTQPOAM298sh5moIo5yIl+1z2bxEXXz0BOs273JZNhBBXzS1CSQoeHZEVvETnnWAUvnNPrZ6moQ6/gkabhyV1jUNiplxGoJ9bSShPzwh1rfgskAyHBrvGiNLnRzU5bx0YJRqT7njqRhPCXfVEa7Q5qWtrXwWF/DNDd9gbeocedsHAsmzlLgfeJsJiVX+9jM7w0/NlHowjhPnBZJYq2dLSzzku6/5Vv/WA="
   matrix:
-    - PLATFORM=MT4 MODE=Lite
+    - PLATFORM=MT4
 
 addons:
   hosts:
@@ -32,11 +35,13 @@ branches:
     - master
     - dev
     - travis
+
 matrix:
   fast_finish: true
 
 cache:
   apt: true
+  pip: true
   directories:
     - $HOME/.wine
 
@@ -53,6 +58,7 @@ notifications:
 # Use this to prepare the system to install prerequisites or dependencies.
 #
 before_install:
+  - set -e
   - git config --local include.path "$CWD/.gitconfig"
   - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
 
@@ -61,18 +67,20 @@ before_install:
 #
 install:
   - sudo env PATH="$PATH" provision.sh
+  - sudo env PATH="$PATH" secur32_fix.sh
+  - mkdir -vp "$EA_DIR"
 
 # Before Script
 # Use this to prepare your build for testing (e.g. copy database configurations, environment variables, etc.).
 #
 before_script:
-  - set -e
+  - echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" > ~/.secrets
+  - (cd "$EA_DIR"; get_gh_asset.sh $OWNER $OWNER-$EA_MODE-Releases $EA_VERSION Backtest)
   - |-
-    if [ -n "$PS" ] && [ -n "$EA" ]; then # Clone and configure EA if available.
+    if [ -n "$PS" ]; then
       eval "$(ssh-agent -s)"
       install -vm700 <(echo "echo $PS") $HOME/.ps
       git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c | DISPLAY= SSH_ASKPASS=$HOME/.ps ssh-add -
-      git clone -q $EA "$EA_DIR"
       ssh-add -l
     else # Otherwise run sample EA.
       run_backtest.sh
@@ -85,7 +93,7 @@ before_script:
 #
 script:
   - find "$CWD" -name "*.rules" -exec bash -n "{}" ';' # Check syntax of rule files.
-  - run_backtests.sh $MODE
+  - run_backtests.sh
 
 # After Success
 # Note: The standard Unix exit code of "0" means the build passed; everything else is treated as failure.
