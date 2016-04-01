@@ -4,7 +4,7 @@ param_list=( TrendMethodAction )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable account conditions.
-input_set Account_Conditions_Active 0
+#input_set Account_Conditions_Active 0
 # Disable boosting.
 input_set Boosting_Enabled 0
 # Set lot size.

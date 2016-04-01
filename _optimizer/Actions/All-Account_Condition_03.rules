@@ -4,7 +4,7 @@ param_list=( Account_Condition_3 )
 # Disable all optimization settings.
 input_set .*,F 0
 # Double check that account conditions are enabled.
-input_set Account_Conditions_Active 1
+#input_set Account_Conditions_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test Account_Condition_3.
