@@ -34,7 +34,7 @@ branches:
   only:
     - master
     - dev
-    - travis
+    - ci
 
 matrix:
   fast_finish: true
