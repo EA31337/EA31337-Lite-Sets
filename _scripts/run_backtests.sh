@@ -23,6 +23,6 @@ find "$ROOT" -type f -name "test.ini" -print0 | sort -z | while IFS= read -r -d 
   done
   gen_report.sh "$dir/_test_results" "$OUT"
   gen_report.sh "$dir" "$OUT" "$name"
-  push_report.sh "Backtest-$base_name" "Backtest results: $base_name"
+#push_report.sh "Backtest-$base_name" "Backtest results: $base_name"
 done
 echo "$0 done."
