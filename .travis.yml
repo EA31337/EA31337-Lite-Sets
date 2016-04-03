@@ -46,15 +46,13 @@ before_install:
 - set -e
 - git config --local include.path "$CWD/.gitconfig"
 - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+- echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" > ~/.secrets
+- (mkdir -vp "$EA_DIR" && cd "$EA_DIR"; get_gh_asset.sh $OWNER $OWNER-$EA_MODE-Releases $EA_VERSION Backtest) || exit 0
 install:
 - sudo env PATH="$PATH" provision.sh
 - sudo env PATH="$PATH" secur32_fix.sh
-- mkdir -vp "$EA_DIR"
 before_script:
-- get_gh_asset.sh EA31337 EA31337-Lite-Releases v1.67 EA31337-Lite-Backtest
-
-- echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" > ~/.secrets
-- (cd "$EA_DIR"; get_gh_asset.sh $OWNER $OWNER-$EA_MODE-Releases $EA_VERSION Backtest) || exit 0
+- find "$CWD" -name "*.rules" -exec bash -n "{}" ';'
 # |-
 # if [ -n "$PS" ]; then
 #   eval "$(ssh-agent -s)"
@@ -66,7 +64,6 @@ before_script:
 #   exit 0
 # fi
 script:
-- find "$CWD" -name "*.rules" -exec bash -n "{}" ';'
 - run_main_backtest.sh
 after_success:
 - echo "Success."
