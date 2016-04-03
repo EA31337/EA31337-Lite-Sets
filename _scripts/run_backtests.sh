@@ -7,7 +7,7 @@ PATH="$PATH:$ROOT/_scripts:$ROOT/_VM/scripts"
 OUT="README.md"
 
 # Find, parse configuration and run the tests.
-find "$ROOT" -type f -name "test.ini" -print0 | sort -z | while IFS= read -r -d '' file; do
+find "$ROOT" -type f -name "test.ini" -path "*$1*" -print0 | sort -z | while IFS= read -r -d '' file; do
   . <(grep = "$file" | sed "s/;/#/g") # Load ini values.
   dir="$(dirname "$file")"
   base_name="${pair}-${deposit}${currency}-${year}year-${spread}spread-${bt_source}"
@@ -16,7 +16,7 @@ find "$ROOT" -type f -name "test.ini" -print0 | sort -z | while IFS= read -r -d 
       for curr_bt_source in ${bt_sources[@]}; do
         for curr_spread in ${spreads[@]}; do
           report_name="${pair}-${curr_deposit}${currency}-${curr_year}year-${curr_spread}spread-${curr_bt_source}-backtest"
-          run_backtest.sh $2 -v -t -e $name -f "$dir/$setfile" -c $currency -p $pair -d $curr_deposit -y $curr_year -s $curr_spread -b $curr_bt_source -r "$report_name" -D "$dir/_test_results"
+          run_backtest.sh ${@:2} -v -t -e $name -f "$dir/$setfile" -c $currency -p $pair -d $curr_deposit -y $curr_year -s $curr_spread -b $curr_bt_source -r "$report_name" -D "$dir/_test_results"
         done
       done
     done

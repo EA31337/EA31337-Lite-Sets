@@ -79,6 +79,7 @@ deploy:
   file:
   - EURUSD-2000USD-10spread/EURUSD-2000USD-2014year-10spread-DS-main-test.txt
   - EURUSD-2000USD-10spread/EURUSD-2000USD-2014year-10spread-DS-main-test.gif
+  - EURUSD-2000USD-10spread/EA31337-Lite.set
   on:
     repo: EA31337/EA31337-Lite-Sets
     tags: true
