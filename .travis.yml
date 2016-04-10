@@ -77,9 +77,9 @@ deploy:
   api_key:
     secure: loTZKrdYEptxw6zgPqL3mJ3XrC7Kh71QQI9qKxMgC5C6IDwYRHZ1PSx8T87r2B+Kg/iRlim9XStu7c8Rg3A0Tm79Y7SeTALZEIYdL2frakkln1r1tiKjGmSgenIoFqaTpGTcMH+rK3NibuhL7Jlw/MkatA+JyrPCvnp/JNNCgxFuc1xkqFW6PGsCP+fil1HhSf4kbIqSZSzW2uhzFGapZsXigxM/6BwNa7D/VF9Gk6AWGR3FTFWXUKPbWqaYiP58uxZv6842hgbXs7VKXHNPr0P1rzIZLbSBQzcPZAKs6CiON/XEu2Ao0NSJQMAKtP5bVJtZIMpUJFDAk/3Y1mSyvYsEbDYIyZIbVY1d7hHAsqDevlpXUUm4/iGr3aLsnBQPEGDSBS/CfvgHnfuZipRyk1p0+4HitBiIu84gtovhIKw/YQhx/I73HSNvqDbCpC+CqrViXoRFNxaVGM2CcsULS/GkBuwMbHYvWIsjMe0PLSHFXMTc76awOKXb9+GyTz5IhKxgJZ5+yYwN4gFe+EHpRMW9HRbagGAVqLRzdVX8HmlBLR7AxlqGwPiRk8auVOMgUGaE2TZy+KUdloq+5Lwc/2EdALxlQ/kAEju82MnYNDrsPtHCzQcHZUR2PeWYW0Y94wIoS/igSPdooVxN9/qKLAI0zJs1gfdkDhbZ8pSZN5s=
   file:
-  - EURUSD-2000USD-10spread/EURUSD-2000USD-2014year-10spread-DS-main-test.txt
-  - EURUSD-2000USD-10spread/EURUSD-2000USD-2014year-10spread-DS-main-test.gif
-  - EURUSD-2000USD-10spread/EA31337-Lite.set
+  - "*/*.txt"
+  - "*/*.gif"
+  - "*/*.set"
   on:
     repo: EA31337/EA31337-Lite-Sets
     tags: true
