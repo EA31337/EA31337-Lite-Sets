@@ -244,6 +244,26 @@
 ![Strategy BPower BPower5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BPower-BPower5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy BWMFI BWMFI15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy BWMFI BWMFI15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BWMFI-BWMFI15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy BWMFI BWMFI1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy BWMFI BWMFI1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BWMFI-BWMFI1_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy BWMFI BWMFI30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy BWMFI BWMFI30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BWMFI-BWMFI30_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy BWMFI BWMFI5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy BWMFI BWMFI5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BWMFI-BWMFI5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy DeMarker DeMarker15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy DeMarker DeMarker15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-DeMarker-DeMarker15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
