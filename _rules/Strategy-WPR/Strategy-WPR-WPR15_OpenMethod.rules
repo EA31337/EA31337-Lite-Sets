@@ -21,5 +21,5 @@ input_set ^WPR15_OpenMethod,1 0
 input_set ^WPR15_OpenMethod,2 1
 input_set ^WPR15_OpenMethod,3 63
 
-# $ETA: 0h$
+# $ETA: 1h$
 # vim: set syntax=sh:
