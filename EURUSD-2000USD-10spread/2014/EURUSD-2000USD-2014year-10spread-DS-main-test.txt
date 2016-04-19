@@ -6,28 +6,28 @@
                                                (Build 950)
 
 Symbol                     EURUSD (Euro vs US Dollar)
-Period                     1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
+Period                     1 Minute (M1) 2014.01.01 22:00 - 2014.12.31 22:00 (2014.01.01 - 2014.12.30)
 Model                      Every tick (the most precise method based on all available least timeframes)
                            __Strategy_Boosting_Parameters__="-- Strategy boosting (set 1.0 to default) --
                            __AD_Parameters__="-- Settings for the Accumulation/Distribution indicator --
 Parameters                 indicator --"; Alligator1_Active=true; Alligator5_Active=true;
                            __BWMFI_Parameters__="-- Settings for the Market Facilitation Index indicator
-Bars in test        368715 Ticks modelled               67235720 Modelling quality                 24.99%
+Bars in test        371463 Ticks modelled               16999067 Modelling quality                    n/a
 Mismatched charts        0
 errors
 Initial deposit    2000.00                                       Spread                                10
-Total net profit  -1876.22 Gross profit                   428.18 Gross loss                      -2304.40
-Profit factor         0.19 Expected payoff               -375.24
-Absolute drawdown  1876.22 Maximal drawdown     2523.15 (95.32%) Relative drawdown       95.32% (2523.15)
-Total trades             5 Short positions (won        0 (0.00%) Long positions (won %)        5 (40.00%)
+Total net profit  10993.92 Gross profit                 14789.35 Gross loss                      -3795.43
+Profit factor         3.90 Expected payoff                 17.45
+Absolute drawdown   495.59 Maximal drawdown     4907.13 (41.35%) Relative drawdown       41.35% (4907.13)
+Total trades           630 Short positions (won     349 (56.16%) Long positions (won %)      281 (43.77%)
                            %)
-                           Profit trades (% of        2 (40.00%) Loss trades (% of             3 (60.00%)
+                           Profit trades (% of      319 (50.63%) Loss trades (% of           311 (49.37%)
                            total)                                total)
-                   Largest profit trade                   214.09 loss trade                       -803.57
-                   Average profit trade                   214.09 loss trade                       -768.13
-                   Maximum consecutive wins           2 (428.18) consecutive losses          3 (-2304.40)
+                   Largest profit trade                   278.58 loss trade                       -190.80
+                   Average profit trade                    46.36 loss trade                        -12.20
+                   Maximum consecutive wins         39 (7578.07) consecutive losses            13 (-9.52)
                            (profit in money)                     (loss in money)
-                   Maximal consecutive profit         428.18 (2) consecutive loss (count     -2304.40 (3)
+                   Maximal consecutive profit       7578.07 (39) consecutive loss (count     -817.08 (11)
                            (count of wins)                       of losses)
-                   Average consecutive wins                    2 consecutive losses                     3
+                   Average consecutive wins                    3 consecutive losses                     3
                                                  [Graph]
