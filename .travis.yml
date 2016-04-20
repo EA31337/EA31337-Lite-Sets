@@ -25,6 +25,7 @@ branches:
   - master
   - dev
   - ci
+
 matrix:
   fast_finish: true
 cache:

@@ -2,6 +2,7 @@
 # Script to run optimization tests.
 set -e
 cd -P -- "$(dirname -- "$0")" && pwd -P
+[ "$TRACE" ] && set -x
 ROOT="$(git rev-parse --show-toplevel)"
 PATH="$PATH:$ROOT/_scripts:$ROOT/_VM/scripts"
 OUT="README.md"
