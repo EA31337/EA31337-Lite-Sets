@@ -1,0 +1,35 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( Alligator_Jaw_Period Alligator_Teeth_Period Alligator_Lips_Period )
+# Disable all optimization settings.
+input_set .*,F 0
+# Disable all active strategies.
+input_set .*_Active 0
+# Disable account conditions.
+#input_set Account_Conditions_Active 0
+# Disable boosting.
+input_set Boosting_Enabled 0
+# Set lot size.
+input_set LotSize 0.01
+# Enable strategy.
+input_set ^Alligator.*_Active 1
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test Alligator_Jaw_Period.
+input_set ^Alligator_Jaw_Period,F 1
+input_set ^Alligator_Jaw_Period,1 $(( $(input_get Alligator_Jaw_Period) > 2 ? $(($(input_get Alligator_Jaw_Period) - 2)) : 0 ))
+input_set ^Alligator_Jaw_Period,2 1
+input_set ^Alligator_Jaw_Period,3 $(($(input_get Alligator_Jaw_Period) + 2))
+# Test Alligator_Teeth_Period.
+input_set ^Alligator_Teeth_Period,F 1
+input_set ^Alligator_Teeth_Period,1 $(( $(input_get Alligator_Teeth_Period) > 2 ? $(($(input_get Alligator_Teeth_Period) - 2)) : 0 ))
+input_set ^Alligator_Teeth_Period,2 1
+input_set ^Alligator_Teeth_Period,3 $(($(input_get Alligator_Teeth_Period) + 2))
+# Test Alligator_Lips_Period.
+input_set ^Alligator_Lips_Period,F 1
+input_set ^Alligator_Lips_Period,1 $(( $(input_get Alligator_Lips_Period) > 2 ? $(($(input_get Alligator_Lips_Period) - 2)) : 0 ))
+input_set ^Alligator_Lips_Period,2 1
+input_set ^Alligator_Lips_Period,3 $(($(input_get Alligator_Lips_Period) + 2))
+
+# $ETA: 11h$
+# vim: set syntax=sh:

@@ -1,0 +1,27 @@
+Initial deposit:                            0.00
+Total net profit:                           0.00
+Gross profit:                               0.00
+Gross loss:                                 0.00
+Profit factor:                              0.19
+Expected payoff:                            -375.24
+Absolute drawdown:                          1876.22
+Maximal drawdown:                           0.0 (94.9%)
+Relative drawdown:                          (94.9%) 0.0
+Trades total                                5
+Long positions (won %):                     5 (40.0%)
+Profit trades (% of total):                 2 (40.0%)
+Loss trades (% of total):                   3 (60.0%)
+Largest profit trade:                       214.09
+Largest loss trade:                         -803.57
+Average profit trade:                       214.09
+Average loss trade:                         -768.13
+Average consecutive wins:                   2.00
+Average consecutive losses:                 3.00
+Maximum consecutive wins (profit in money): 2 428.18
+Maximum consecutive losses (loss in money): 3 -2304.40
+Maximal consecutive profit (count of wins): 428.18 2
+Maximal consecutive loss (count of losses): 2304.40 3
+Strategy stats: 
+Profit factor: 1.00, Total net profit: 165.91pips (+165.91/0.00), Total orders: 1 (Won: 100.0% [1] / Loss: 0.0% [0]) - Alligator M5
+Profit factor: 1.00, Total net profit: 165.91pips (+165.91/0.00), Total orders: 1 (Won: 100.0% [1] / Loss: 0.0% [0]) - Fractals M5
+
