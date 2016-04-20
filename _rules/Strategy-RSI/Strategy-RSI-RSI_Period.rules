@@ -1,0 +1,25 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( RSI_Period )
+# Disable all optimization settings.
+input_set .*,F 0
+# Disable all active strategies.
+input_set .*_Active 0
+# Disable account conditions.
+#input_set Account_Conditions_Active 0
+# Disable boosting.
+input_set Boosting_Enabled 0
+# Set lot size.
+input_set LotSize 0.01
+# Enable strategy.
+input_set ^RSI.*_Active 1
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test RSI_Period.
+input_set ^RSI_Period,F 1
+input_set ^RSI_Period,1 $(( $(input_get RSI_Period) > 6 ? $(input_get RSI_Period) - 4 : 2 ))
+input_set ^RSI_Period,2 1
+input_set ^RSI_Period,3 $(( $(input_get RSI_Period) + 4 ))
+
+# $ETA: 0h$
+# vim: set syntax=sh:

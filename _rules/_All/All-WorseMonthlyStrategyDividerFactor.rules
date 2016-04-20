@@ -1,0 +1,17 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( WorseMonthlyStrategyDividerFactor )
+# Disable all optimization settings.
+input_set .*,F 0
+# Enable boosting.
+input_set Boosting_Enabled 1
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test WorseMonthlyStrategyDividerFactor.
+input_set WorseMonthlyStrategyDividerFactor,F 1
+input_set WorseMonthlyStrategyDividerFactor,1 1.0
+input_set WorseMonthlyStrategyDividerFactor,2 0.2
+input_set WorseMonthlyStrategyDividerFactor,3 2.0
+
+# $ETA:$
+# vim: set syntax=sh:

@@ -1,0 +1,21 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( MaxOrdersPerType )
+# Disable all optimization settings.
+input_set .*,F 0
+# Disable account conditions.
+#input_set Account_Conditions_Active 0
+# Disable boosting.
+input_set Boosting_Enabled 0
+# Set lot size.
+input_set LotSize 0.01
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test TrailingStop.
+input_set MaxOrdersPerType,F 1
+input_set MaxOrdersPerType,1 0
+input_set MaxOrdersPerType,2 5
+input_set MaxOrdersPerType,3 $(($(input_get MaxOrdersPerType) + 10))
+
+# $ETA: 6h$
+# vim: set syntax=sh:

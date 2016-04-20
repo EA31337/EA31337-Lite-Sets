@@ -1,0 +1,26 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( Bands_Deviation )
+# Disable all optimization settings.
+input_set .*,F 0
+# Disable all active strategies.
+input_set .*_Active 0
+# Disable account conditions.
+#input_set Account_Conditions_Active 0
+# Disable boosting.
+input_set Boosting_Enabled 0
+# Set lot size.
+input_set LotSize 0.01
+
+## Enable Bands strategies.
+input_set ^Bands.*_Active 1
+
+## Optimization settings.
+# Test Bands Deviation.
+input_set ^Bands_Deviation,F 1
+input_set ^Bands_Deviation,1 1.5
+input_set ^Bands_Deviation,2 0.1
+input_set ^Bands_Deviation,3 2.5
+
+# $ETA: 0h$
+# vim: set syntax=sh:
