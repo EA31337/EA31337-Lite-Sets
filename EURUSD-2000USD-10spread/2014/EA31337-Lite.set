@@ -2173,11 +2173,7 @@ WPR15_OpenMethod,F=0
 WPR15_OpenMethod,1=0
 WPR15_OpenMethod,2=0
 WPR15_OpenMethod,3=0
-<<<<<<< HEAD
 WPR30_OpenMethod=0
-=======
-WPR30_OpenMethod=12
->>>>>>> Optimization-Strategy-RSI-RSI_Period
 WPR30_OpenMethod,F=0
 WPR30_OpenMethod,1=0
 WPR30_OpenMethod,2=0
