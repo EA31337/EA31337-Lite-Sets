@@ -1,0 +1,33 @@
+Initial deposit:                            0.00
+Total net profit:                           0.00
+Gross profit:                               0.00
+Gross loss:                                 0.00
+Profit factor:                              0.94
+Expected payoff:                            -8.50
+Absolute drawdown:                          489.95
+Maximal drawdown:                           0.0 (45.4%)
+Relative drawdown:                          (45.4%) 0.0
+Trades total                                17
+Short positions (won %):                    8 (37.5%)
+Long positions (won %):                     9 (22.2%)
+Profit trades (% of total):                 5 (29.4%)
+Loss trades (% of total):                   12 (70.6%)
+Largest profit trade:                       1487.24
+Largest loss trade:                         -415.18
+Average profit trade:                       443.79
+Average loss trade:                         -196.95
+Average consecutive wins:                   1.00
+Average consecutive losses:                 4.00
+Maximum consecutive wins (profit in money): 2 364.82
+Maximum consecutive losses (loss in money): 6 -1359.94
+Maximal consecutive profit (count of wins): 1487.24 1
+Maximal consecutive loss (count of losses): 1359.94 6
+Strategy stats: 
+Profit factor: 1.00, Total net profit: -823.17pips (+177.59/-1000.76), Total orders: 6 (Won: 16.7% [1] / Loss: 83.3% [5]) - Alligator M5
+Profit factor: 1.00, Total net profit: -405.87pips (+0.00/-405.87), Total orders: 2 (Won: 0.0% [0] / Loss: 100.0% [2]) - Alligator M15
+Profit factor: 1.00, Total net profit: -380.84pips (+0.00/-380.84), Total orders: 2 (Won: 0.0% [0] / Loss: 100.0% [2]) - Alligator M30
+Profit factor: 1.00, Total net profit: 1770.38pips (+1770.38/0.00), Total orders: 2 (Won: 100.0% [2] / Loss: 0.0% [0]) - DeMarker M5
+Profit factor: 1.00, Total net profit: -213.46pips (+0.00/-213.46), Total orders: 1 (Won: 0.0% [0] / Loss: 100.0% [1]) - DeMarker M30
+Profit factor: 1.00, Total net profit: 177.59pips (+177.59/0.00), Total orders: 1 (Won: 100.0% [1] / Loss: 0.0% [0]) - Fractals M5
+Profit factor: 1.00, Total net profit: -211.76pips (+0.00/-211.76), Total orders: 1 (Won: 0.0% [0] / Loss: 100.0% [1]) - Fractals M15
+
