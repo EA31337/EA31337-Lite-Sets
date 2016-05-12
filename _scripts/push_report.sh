@@ -8,7 +8,7 @@ MSG="$2"
 AUTHOR="EA Tester <kenorb+ea@gmail.com>"
 
 cd "$ROOT"
-git checkout -mB "$CHK" origin/master
+git checkout -mB "$CHK" master
 git add -vA *.txt *.gif *.md
 git commit -vm "$MSG" --author="$AUTHOR" -a && git push -fv origin "$CHK"
 git checkout master
