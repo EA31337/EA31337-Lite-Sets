@@ -26,5 +26,5 @@ input_set ^RSI_TrailingProfitMethod,1 0
 input_set ^RSI_TrailingProfitMethod,2 1
 input_set ^RSI_TrailingProfitMethod,3 27
 
-# $ETA: 1h$
+# $ETA: 0h$
 # vim: set syntax=sh:
