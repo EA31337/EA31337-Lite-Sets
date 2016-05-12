@@ -1,0 +1,61 @@
+Initial deposit:                            0.00
+Total net profit:                           0.00
+Gross profit:                               0.00
+Gross loss:                                 0.00
+Profit factor:                              1.48
+Expected payoff:                            3.23
+Absolute drawdown:                          562.23
+Maximal drawdown:                           0.0 (30.5%)
+Relative drawdown:                          (62.1%) 0.0
+Trades total                                1683
+Short positions (won %):                    887 (46.9%)
+Long positions (won %):                     796 (28.9%)
+Profit trades (% of total):                 646 (38.4%)
+Loss trades (% of total):                   1037 (61.6%)
+Largest profit trade:                       198.17
+Largest loss trade:                         -165.61
+Average profit trade:                       25.81
+Average loss trade:                         -10.84
+Average consecutive wins:                   2.00
+Average consecutive losses:                 4.00
+Maximum consecutive wins (profit in money): 34 495.83
+Maximum consecutive losses (loss in money): 34 -1304.10
+Maximal consecutive profit (count of wins): 2938.39 31
+Maximal consecutive loss (count of losses): 1304.10 34
+Strategy stats: 
+Profit factor: 1.70, Total net profit: 174.28pips (+421.61/-247.33), Total orders: 18 (Won: 50.0% [9] / Loss: 50.0% [9]) - Alligator M1
+Profit factor: 1.91, Total net profit: 464.08pips (+973.18/-509.11), Total orders: 28 (Won: 57.1% [16] / Loss: 42.9% [12]) - Alligator M5
+Profit factor: 2.41, Total net profit: 423.38pips (+723.12/-299.74), Total orders: 22 (Won: 54.5% [12] / Loss: 45.5% [10]) - Alligator M15
+Profit factor: 4.65, Total net profit: 507.57pips (+646.65/-139.08), Total orders: 17 (Won: 58.8% [10] / Loss: 41.2% [7]) - Alligator M30
+Profit factor: 0.94, Total net profit: -5.82pips (+90.85/-96.67), Total orders: 106 (Won: 11.3% [12] / Loss: 88.7% [94]) - Bands M1
+Profit factor: 4.50, Total net profit: 564.01pips (+725.23/-161.22), Total orders: 22 (Won: 40.9% [9] / Loss: 59.1% [13]) - DeMarker M1
+Profit factor: 1.71, Total net profit: 206.26pips (+496.72/-290.46), Total orders: 19 (Won: 42.1% [8] / Loss: 57.9% [11]) - DeMarker M5
+Profit factor: 1.57, Total net profit: 167.11pips (+461.17/-294.06), Total orders: 18 (Won: 44.4% [8] / Loss: 55.6% [10]) - DeMarker M15
+Profit factor: 2.84, Total net profit: 412.48pips (+636.54/-224.06), Total orders: 20 (Won: 50.0% [10] / Loss: 50.0% [10]) - DeMarker M30
+Profit factor: 1.91, Total net profit: 178.43pips (+374.25/-195.82), Total orders: 25 (Won: 60.0% [15] / Loss: 40.0% [10]) - Envelopes M1
+Profit factor: 3.13, Total net profit: 324.11pips (+476.42/-152.31), Total orders: 24 (Won: 54.2% [13] / Loss: 45.8% [11]) - Envelopes M5
+Profit factor: 4.20, Total net profit: 318.08pips (+417.52/-99.44), Total orders: 20 (Won: 50.0% [10] / Loss: 50.0% [10]) - Envelopes M15
+Profit factor: 6.88, Total net profit: 207.02pips (+242.22/-35.20), Total orders: 11 (Won: 63.6% [7] / Loss: 36.4% [4]) - Envelopes M30
+Profit factor: 0.83, Total net profit: -54.77pips (+274.69/-329.47), Total orders: 19 (Won: 31.6% [6] / Loss: 68.4% [13]) - Fractals M1
+Profit factor: 1.75, Total net profit: 255.25pips (+595.42/-340.17), Total orders: 26 (Won: 53.8% [14] / Loss: 46.2% [12]) - Fractals M5
+Profit factor: 1.08, Total net profit: 24.24pips (+346.65/-322.40), Total orders: 19 (Won: 42.1% [8] / Loss: 57.9% [11]) - Fractals M15
+Profit factor: 12.40, Total net profit: 706.70pips (+768.70/-62.00), Total orders: 20 (Won: 65.0% [13] / Loss: 35.0% [7]) - Fractals M30
+Profit factor: 1.80, Total net profit: 189.16pips (+425.93/-236.77), Total orders: 29 (Won: 41.4% [12] / Loss: 58.6% [17]) - MA M1
+Profit factor: 1.30, Total net profit: 87.74pips (+379.59/-291.85), Total orders: 19 (Won: 47.4% [9] / Loss: 52.6% [10]) - MA M5
+Profit factor: 2.07, Total net profit: 325.96pips (+631.31/-305.35), Total orders: 23 (Won: 52.2% [12] / Loss: 47.8% [11]) - MA M15
+Profit factor: 9.61, Total net profit: 431.48pips (+481.58/-50.10), Total orders: 14 (Won: 71.4% [10] / Loss: 28.6% [4]) - MA M30
+Profit factor: 1.20, Total net profit: 86.63pips (+525.89/-439.26), Total orders: 303 (Won: 33.0% [100] / Loss: 67.0% [203]) - MACD M1
+Profit factor: 1.06, Total net profit: 21.60pips (+395.63/-374.03), Total orders: 223 (Won: 33.2% [74] / Loss: 66.8% [149]) - MACD M5
+Profit factor: 0.84, Total net profit: -54.50pips (+289.72/-344.22), Total orders: 134 (Won: 35.1% [47] / Loss: 64.9% [87]) - MACD M15
+Profit factor: 0.71, Total net profit: -96.33pips (+240.84/-337.17), Total orders: 24 (Won: 37.5% [9] / Loss: 62.5% [15]) - RSI M1
+Profit factor: 0.70, Total net profit: -51.70pips (+121.41/-173.10), Total orders: 16 (Won: 43.8% [7] / Loss: 56.3% [9]) - RSI M5
+Profit factor: 1.58, Total net profit: 124.05pips (+337.59/-213.54), Total orders: 24 (Won: 50.0% [12] / Loss: 50.0% [12]) - RSI M15
+Profit factor: 2.13, Total net profit: 295.74pips (+556.72/-260.99), Total orders: 25 (Won: 56.0% [14] / Loss: 44.0% [11]) - SAR M1
+Profit factor: 0.70, Total net profit: -72.03pips (+168.51/-240.53), Total orders: 15 (Won: 33.3% [5] / Loss: 66.7% [10]) - SAR M5
+Profit factor: 1.26, Total net profit: 97.54pips (+467.04/-369.50), Total orders: 21 (Won: 42.9% [9] / Loss: 57.1% [12]) - SAR M15
+Profit factor: 1.68, Total net profit: 179.86pips (+443.31/-263.45), Total orders: 17 (Won: 41.2% [7] / Loss: 58.8% [10]) - SAR M30
+Profit factor: 1.10, Total net profit: 39.83pips (+436.29/-396.46), Total orders: 173 (Won: 35.3% [61] / Loss: 64.7% [112]) - WPR M1
+Profit factor: 1.16, Total net profit: 36.72pips (+263.02/-226.30), Total orders: 72 (Won: 36.1% [26] / Loss: 63.9% [46]) - WPR M5
+Profit factor: 0.24, Total net profit: -180.76pips (+56.32/-237.08), Total orders: 25 (Won: 36.0% [9] / Loss: 64.0% [16]) - WPR M15
+Profit factor: 0.71, Total net profit: -47.06pips (+115.23/-162.29), Total orders: 20 (Won: 50.0% [10] / Loss: 50.0% [10]) - WPR M30
+
