@@ -1,12 +1,10 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Envelopes_TrailingStopMethod Envelopes_TrailingProfitMethod )
+param_list=( Envelopes_TrailingStopMethod )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
 input_set .*_Active 0
-# Disable account conditions.
-#input_set Account_Conditions_Active 0
 # Disable boosting.
 input_set Boosting_Enabled 0
 # Set lot size.
@@ -20,11 +18,6 @@ input_set ^Envelopes_TrailingStopMethod,F 1
 input_set ^Envelopes_TrailingStopMethod,1 0
 input_set ^Envelopes_TrailingStopMethod,2 1
 input_set ^Envelopes_TrailingStopMethod,3 27
-# Test Envelopes_TrailingProfitMethod.
-input_set ^Envelopes_TrailingProfitMethod,F 1
-input_set ^Envelopes_TrailingProfitMethod,1 0
-input_set ^Envelopes_TrailingProfitMethod,2 1
-input_set ^Envelopes_TrailingProfitMethod,3 27
 
 # $ETA: 3h$
 # vim: set syntax=sh:
