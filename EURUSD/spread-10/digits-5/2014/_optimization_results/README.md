@@ -339,9 +339,9 @@
 ![Strategy Fractals Fractals5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Fractals-Fractals5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
-### Report: Strategy Fractals Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
+### Report: Strategy Fractals_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
-![Strategy Fractals Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Fractals-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+![Strategy Fractals_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Fractals_TrailingProfitMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
 ### Report: Strategy MACD MACD15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
@@ -392,11 +392,6 @@
 ### Report: Strategy MACD_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy MACD_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD_TrailingProfitMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy MACD Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy MACD Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
 ### Report: Strategy MA MA15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
