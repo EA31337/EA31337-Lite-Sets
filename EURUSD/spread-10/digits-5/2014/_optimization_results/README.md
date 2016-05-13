@@ -144,6 +144,31 @@
 ![Strategy BPower BPower5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BPower-BPower5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy Bands Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy BPower BPower15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy BPower BPower15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BPower-BPower15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy BPower BPower1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy BPower BPower1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BPower-BPower1_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy BPower BPower30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy BPower BPower30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BPower-BPower30_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy BPower BPower5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy BPower BPower5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BPower-BPower5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy BWMFI BWMFI15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy BWMFI BWMFI15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BWMFI-BWMFI15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
@@ -396,42 +421,42 @@
 
 ### Report: Strategy MACD MACD15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
 
-![Strategy MACD MACD15_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD15_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+![Strategy MA MA_Method  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA_Method--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
-### Report: Strategy MACD MACD15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+### Report: Strategy MA MA_Periods  EURUSD 2000USD 2014year 10spread DS optimization test
 
-![Strategy MACD MACD15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy MACD MACD1_Active  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy MACD MACD1_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD1_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+![Strategy MA MA_Periods  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA_Periods--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
-### Report: Strategy MACD MACD1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+### Report: Strategy MA MA_Shift  EURUSD 2000USD 2014year 10spread DS optimization test
 
-![Strategy MACD MACD1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD1_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy MACD MACD30_Active  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy MACD MACD30_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD30_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+![Strategy MA MA_Shift  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA_Shift--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
-### Report: Strategy MACD MACD30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+### Report: Strategy MA Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
 
-![Strategy MACD MACD30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD30_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy MACD MACD5_Active  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy MACD MACD5_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD5_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+![Strategy MA Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
-### Report: Strategy MACD MACD5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+### Report: Strategy Momentum Momentum15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
-![Strategy MACD MACD5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+![Strategy Momentum Momentum15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Momentum-Momentum15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Momentum Momentum1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Momentum Momentum1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Momentum-Momentum1_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Momentum Momentum30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Momentum Momentum30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Momentum-Momentum30_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Momentum Momentum5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Momentum Momentum5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Momentum-Momentum5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
 ### Report: Strategy MACD MACD_Signal  EURUSD 2000USD 2014year 10spread DS optimization test
