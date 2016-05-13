@@ -22,5 +22,5 @@ input_set TrailingProfit,1 $(( $(input_get TrailingStop) > 40 ? $(( $(input_get 
 input_set TrailingProfit,2 20
 input_set TrailingProfit,3 $(( $(input_get TrailingStop) + 40))
 
-# $ETA: 1h$
+# $ETA: 2h$
 # vim: set syntax=sh:
