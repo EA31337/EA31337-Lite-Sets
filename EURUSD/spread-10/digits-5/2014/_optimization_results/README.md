@@ -133,7 +133,6 @@
 
 ![Strategy Bands All Bands_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Deviation--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
-
 ### Report: Strategy Bands All Bands_Period  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Bands All Bands_Period  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Period--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
@@ -339,9 +338,20 @@
 ![Strategy Fractals Fractals5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Fractals-Fractals5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+<<<<<<< HEAD
 ### Report: Strategy Fractals_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Fractals_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Fractals_TrailingProfitMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+=======
+### Report: Strategy Fractals_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Fractals_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Fractals_TrailingStopMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Fractals Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Fractals Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Fractals-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+>>>>>>> 4176ad28ace9a3dbfe6d1ac00d01f9cbe88d0f73
 
 
 ### Report: Strategy MACD MACD15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
@@ -389,9 +399,15 @@
 ![Strategy MACD MACD_Signal  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD_Signal--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+<<<<<<< HEAD
 ### Report: Strategy MACD_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy MACD_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD_TrailingProfitMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+=======
+### Report: Strategy MACD Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MACD Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+>>>>>>> 4176ad28ace9a3dbfe6d1ac00d01f9cbe88d0f73
 
 
 ### Report: Strategy MA MA15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
