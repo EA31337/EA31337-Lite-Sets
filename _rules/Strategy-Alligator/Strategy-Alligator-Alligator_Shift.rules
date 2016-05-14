@@ -41,5 +41,5 @@ input_set ^Alligator_Lips_Shift,1 $(( $(input_get Alligator_Lips_Shift) > 1 ? $(
 input_set ^Alligator_Lips_Shift,2 1
 input_set ^Alligator_Lips_Shift,3 $(($(input_get Alligator_Lips_Shift) + 1))
 
-# $ETA: 8h$
+# $ETA: 2h$
 # vim: set syntax=sh:
