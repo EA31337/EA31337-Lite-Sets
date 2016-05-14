@@ -21,5 +21,5 @@ input_set ^Envelopes1_Deviation,1 $( echo $(input_get Envelopes1_Deviation) - 0.
 input_set ^Envelopes1_Deviation,2 0.1
 input_set ^Envelopes1_Deviation,3 $( echo $(input_get Envelopes1_Deviation) + 0.2 | bc )
 
-# $ETA:$
+# $ETA: 0h$
 # vim: set syntax=sh:
