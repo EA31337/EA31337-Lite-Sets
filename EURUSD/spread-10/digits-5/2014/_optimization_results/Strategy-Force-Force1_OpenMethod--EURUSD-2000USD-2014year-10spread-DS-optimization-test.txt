@@ -2,7 +2,7 @@
 
 
                                            Optimization Report
-                                      EA31337-Lite-Backtest-v1.067
+                                      EA31337-Lite-Backtest-v1.068
                                                (Build 950)
 
       Symbol          EURUSD (Euro vs US Dollar)
