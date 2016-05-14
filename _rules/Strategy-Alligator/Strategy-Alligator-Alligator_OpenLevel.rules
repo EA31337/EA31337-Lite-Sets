@@ -1,25 +1,23 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Alligator15_OpenMethod )
+param_list=( Alligator_OpenLevel )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
 input_set .*_Active 0
-# Disable account conditions.
-#input_set Account_Conditions_Active 0
 # Disable boosting.
 input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
 # Enable strategy.
-input_set ^Alligator15_Active 1
+input_set ^Alligator.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test Alligator15_OpenMethod.
-input_set ^Alligator15_OpenMethod,F 1
-input_set ^Alligator15_OpenMethod,1 0
-input_set ^Alligator15_OpenMethod,2 1
-input_set ^Alligator15_OpenMethod,3 63
+# Test Alligator_OpenLevel.
+input_set ^Alligator_OpenLevel,F 1
+input_set ^Alligator_OpenLevel,1 $( bc <<< "$(input_get Alligator_OpenLevel) - 0.02" )
+input_set ^Alligator_OpenLevel,2 0.01
+input_set ^Alligator_OpenLevel,3 $( bc <<< "$(input_get Alligator_OpenLevel) + 0.02" )
 
 # $ETA: 0h$
 # vim: set syntax=sh:
