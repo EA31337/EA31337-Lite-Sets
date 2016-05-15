@@ -18,7 +18,7 @@ input_set ^Envelopes15_Active 1
 # Test Envelopes15_Deviation.
 input_set ^Envelopes15_Deviation,F 1
 input_set ^Envelopes15_Deviation,1 $( echo $(input_get Envelopes15_Deviation) - 0.2 | bc )
-input_set ^Envelopes15_Deviation,2 0.1
+input_set ^Envelopes15_Deviation,2 0.05
 input_set ^Envelopes15_Deviation,3 $( echo $(input_get Envelopes15_Deviation) + 0.2 | bc )
 
 # $ETA: 0h$
