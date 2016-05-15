@@ -936,7 +936,7 @@ DeMarker_OpenLevel,F=0
 DeMarker_OpenLevel,1=0.20000000
 DeMarker_OpenLevel,2=0.00000000
 DeMarker_OpenLevel,3=0.00000000
-DeMarker_TrailingStopMethod=1
+DeMarker_TrailingStopMethod=13
 DeMarker_TrailingStopMethod,F=0
 DeMarker_TrailingStopMethod,1=0
 DeMarker_TrailingStopMethod,2=0
@@ -1032,7 +1032,11 @@ Envelopes_Shift,F=0
 Envelopes_Shift,1=2
 Envelopes_Shift,2=0
 Envelopes_Shift,3=0
+<<<<<<< HEAD
+Envelopes_TrailingStopMethod=22
+=======
 Envelopes_TrailingStopMethod=1
+>>>>>>> 4052e517bacc9d7c8b7d8ba48dbcad4587fe3e4b
 Envelopes_TrailingStopMethod,F=0
 Envelopes_TrailingStopMethod,1=0
 Envelopes_TrailingStopMethod,2=0
@@ -1382,7 +1386,11 @@ MA_Applied_Price,F=0
 MA_Applied_Price,1=0
 MA_Applied_Price,2=0
 MA_Applied_Price,3=0
+<<<<<<< HEAD
+MA_TrailingStopMethod=22
+=======
 MA_TrailingStopMethod=13
+>>>>>>> 4052e517bacc9d7c8b7d8ba48dbcad4587fe3e4b
 MA_TrailingStopMethod,F=0
 MA_TrailingStopMethod,1=0
 MA_TrailingStopMethod,2=0
