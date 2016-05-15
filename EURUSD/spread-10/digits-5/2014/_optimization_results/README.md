@@ -19,6 +19,11 @@
 ![All DefaultTrailingMethods  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-DefaultTrailingMethods--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: All DefaultTrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![All DefaultTrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-DefaultTrailingStopMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: All MaxOrders  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![All MaxOrders  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-MaxOrders--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
@@ -52,6 +57,11 @@
 ### Report: All TrailingStop  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![All TrailingStop  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-TrailingStop--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: All TrailingStopAddPerMinute  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![All TrailingStopAddPerMinute  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./All-TrailingStopAddPerMinute--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
 ### Report: All TrendMethod  EURUSD 2000USD 2014year 10spread DS optimization test
@@ -114,6 +124,11 @@
 ![Strategy Alligator Alligator_MA_Method  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Alligator-Alligator_MA_Method--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy Alligator Alligator_OpenLevel  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Alligator Alligator_OpenLevel  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Alligator-Alligator_OpenLevel--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy Alligator Alligator_Periods  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Alligator Alligator_Periods  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Alligator-Alligator_Periods--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
@@ -124,49 +139,9 @@
 ![Strategy Alligator Alligator_Shift  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Alligator-Alligator_Shift--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
-### Report: Strategy Bands All Bands_Applied_Price  EURUSD 2000USD 2014year 10spread DS optimization test
+### Report: Strategy Alligator_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
-![Strategy Bands All Bands_Applied_Price  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Applied_Price--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy Bands All Bands_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy Bands All Bands_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Deviation--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy Bands All Bands_Period  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy Bands All Bands_Period  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Period--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy Bands All Bands_Shift  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy Bands All Bands_Shift  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Shift--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy Bands All Trailing Method  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy Bands All Trailing Method  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Trailing-Method--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy Bands Bands1_Active  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy Bands Bands1_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Bands1_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy Bands Bands30_Active  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy Bands Bands30_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Bands30_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy Bands Bands5_Active  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy Bands Bands5_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Bands5_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy Bands Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy Bands Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+![Strategy Alligator_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Alligator_TrailingStopMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
 ### Report: Strategy BPower BPower15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
@@ -209,6 +184,66 @@
 ![Strategy BWMFI BWMFI5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-BWMFI-BWMFI5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy Bands All Bands_Applied_Price  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands All Bands_Applied_Price  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Applied_Price--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Bands All Bands_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands All Bands_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Deviation--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Bands All Bands_Period  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands All Bands_Period  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Period--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Bands All Bands_Shift  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands All Bands_Shift  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Bands_Shift--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Bands All Trailing Method  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands All Trailing Method  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-All-Trailing-Method--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Bands Bands1_Active  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands Bands1_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Bands1_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Bands Bands1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands Bands1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Bands1_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Bands Bands30_Active  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands Bands30_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Bands30_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Bands Bands5_Active  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands Bands5_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Bands5_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Bands Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Bands_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands_TrailingProfitMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Bands_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Bands_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Bands_TrailingStopMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy DeMarker DeMarker15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy DeMarker DeMarker15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-DeMarker-DeMarker15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
@@ -244,6 +279,11 @@
 ![Strategy DeMarker Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-DeMarker-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy DeMarker_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy DeMarker_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-DeMarker_TrailingStopMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy Envelopes Envelopes15_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Envelopes Envelopes15_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Envelopes15_Deviation--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
@@ -252,6 +292,16 @@
 ### Report: Strategy Envelopes Envelopes15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Envelopes Envelopes15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Envelopes15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Envelopes Envelopes1_Active  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Envelopes Envelopes1_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Envelopes1_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Envelopes Envelopes1_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Envelopes Envelopes1_Deviation  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Envelopes1_Deviation--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
 ### Report: Strategy Envelopes Envelopes1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
@@ -272,6 +322,11 @@
 ### Report: Strategy Envelopes Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy Envelopes Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Envelopes_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Envelopes_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Envelopes_TrailingStopMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
 ### Report: Strategy Force Force15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
@@ -344,6 +399,71 @@
 ![Strategy Fractals Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Fractals-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy Fractals_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Fractals_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Fractals_TrailingProfitMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy Fractals_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy Fractals_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-Fractals_TrailingStopMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy MA MA15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MA MA15_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA15_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy MA MA15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MA MA15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy MA MA1_Active  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MA MA1_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA1_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy MA MA1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MA MA1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA1_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy MA MA30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MA MA30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA30_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy MA MA5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MA MA5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy MA MA_Method  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MA MA_Method  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA_Method--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy MA MA_OpenLevel  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MA MA_OpenLevel  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA_OpenLevel--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy MA MA_Periods  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MA MA_Periods  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA_Periods--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy MA MA_Shift  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MA MA_Shift  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA_Shift--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy MA Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy MA Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy MACD MACD15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy MACD MACD15_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-MACD15_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
@@ -394,49 +514,19 @@
 ![Strategy MACD Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
-### Report: Strategy MA MA15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
+### Report: Strategy MACD_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
-![Strategy MA MA15_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA15_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy MA MA15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy MA MA15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+![Strategy MACD_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD_TrailingProfitMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
-### Report: Strategy MA MA1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+### Report: Strategy MACD_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
-![Strategy MA MA1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA1_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy MA MA30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy MA MA30_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA30_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+![Strategy MACD_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MACD_TrailingStopMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
-### Report: Strategy MA MA5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+### Report: Strategy MA_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
-![Strategy MA MA5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy MA MA_Method  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy MA MA_Method  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA_Method--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy MA MA_Periods  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy MA MA_Periods  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA_Periods--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy MA MA_Shift  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy MA MA_Shift  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-MA_Shift--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
-
-
-### Report: Strategy MA Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
-
-![Strategy MA Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+![Strategy MA_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-MA_TrailingStopMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
 ### Report: Strategy Momentum Momentum15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
@@ -514,6 +604,11 @@
 ![Strategy RSI Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-RSI-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
+### Report: Strategy RSI_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy RSI_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-RSI_TrailingStopMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
 ### Report: Strategy SAR SAR15_Active  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy SAR SAR15_Active  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-SAR-SAR15_Active--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
@@ -522,6 +617,11 @@
 ### Report: Strategy SAR SAR15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy SAR SAR15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-SAR-SAR15_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy SAR SAR1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy SAR SAR1_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-SAR-SAR1_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
 ### Report: Strategy SAR SAR30_Active  EURUSD 2000USD 2014year 10spread DS optimization test
@@ -557,6 +657,11 @@
 ### Report: Strategy SAR Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy SAR Trailing Stop Profit  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-SAR-Trailing-Stop-Profit--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy SAR_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy SAR_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-SAR_TrailingStopMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 
 
 ### Report: Strategy StdDev StdDev15_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
@@ -622,4 +727,9 @@
 ### Report: Strategy WPR WPR5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test
 
 ![Strategy WPR WPR5_OpenMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-WPR-WPR5_OpenMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
+
+
+### Report: Strategy WPR_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test
+
+![Strategy WPR_TrailingStopMethod  EURUSD 2000USD 2014year 10spread DS optimization test.txt](./Strategy-WPR_TrailingStopMethod--EURUSD-2000USD-2014year-10spread-DS-optimization-test.gif)
 

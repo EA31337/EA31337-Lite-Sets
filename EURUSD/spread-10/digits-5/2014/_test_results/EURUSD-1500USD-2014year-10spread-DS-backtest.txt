@@ -2,7 +2,7 @@
 
 
                                          Strategy Tester Report
-                                      EA31337-Lite-Backtest-v1.067
+                                      EA31337-Lite-Backtest-v1.068
                                       Tripleafx-FX-Demo (Build 950)
 
 Symbol                    EURUSD (Euro vs US Dollar)
@@ -16,18 +16,18 @@ Bars in test       368715 Ticks modelled               74312557 Modelling qualit
 Mismatched charts       0
 errors
 Initial deposit   1500.00                                       Spread                                10
-Total net profit  5921.38 Gross profit                 17075.37 Gross loss                     -11153.99
-Profit factor        1.53 Expected payoff                  2.85
-Absolute drawdown  182.84 Maximal drawdown     4040.99 (42.30%) Relative drawdown       42.30% (4040.99)
-Total trades         2075 Short positions (won    1058 (47.92%) Long positions (won %)     1017 (31.17%)
+Total net profit  7411.13 Gross profit                 19384.73 Gross loss                     -11973.60
+Profit factor        1.62 Expected payoff                  6.40
+Absolute drawdown  392.80 Maximal drawdown     5475.63 (45.81%) Relative drawdown       45.81% (5475.63)
+Total trades         1158 Short positions (won     679 (55.08%) Long positions (won %)      479 (31.11%)
                           %)
-                          Profit trades (% of      824 (39.71%) Loss trades (% of          1251 (60.29%)
+                          Profit trades (% of      523 (45.16%) Loss trades (% of           635 (54.84%)
                           total)                                total)
-                  Largest profit trade                   152.54 loss trade                       -105.52
-                  Average profit trade                    20.72 loss trade                         -8.92
-                  Maximum consecutive wins          30 (402.80) consecutive losses         29 (-1203.17)
+                  Largest profit trade                   266.08 loss trade                       -149.32
+                  Average profit trade                    37.06 loss trade                        -18.86
+                  Maximum consecutive wins          34 (442.14) consecutive losses         26 (-1510.11)
                           (profit in money)                     (loss in money)
-                  Maximal consecutive profit       1929.90 (28) consecutive loss (count    -1203.17 (29)
+                  Maximal consecutive profit       4004.71 (33) consecutive loss (count    -1510.11 (26)
                           (count of wins)                       of losses)
-                  Average consecutive wins                    2 consecutive losses                     3
+                  Average consecutive wins                    3 consecutive losses                     3
                                                  [Graph]

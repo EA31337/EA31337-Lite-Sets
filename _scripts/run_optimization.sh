@@ -16,7 +16,8 @@ find "$ROOT" -type f -name "test.ini" -print0 | sort -z | while IFS= read -r -d 
     report_base="$(basename "${rule_file%.*}")"
     report_name="${report_base}--${pair}-${deposit}${currency}-${year}year-${spread}spread-${bt_source}-optimization-test"
     run_backtest.sh ${@:2} -v -o -t -e $name -f "$dir/$setfile" -c $currency -p $pair -d $deposit -D $digits -y $year -s $spread -b $bt_source -r "$report_name" -i "$rule_file" -O "$dir/_optimization_results"
-    gen_report.sh "$dir/_optimization_results" "$OUT"
+    [ "$TEST" ] && continue
+    # gen_report.sh "$dir/_optimization_results" "$OUT"
     push_report.sh "Optimization-$report_base" "Optimization results: $report_name"
   done
 done
