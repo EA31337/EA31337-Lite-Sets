@@ -20,5 +20,5 @@ input_set ^Bands_Deviation,1 $( echo $(input_get Bands_Deviation) - 0.2 | bc )
 input_set ^Bands_Deviation,2 0.1
 input_set ^Bands_Deviation,3 $( echo $(input_get Bands_Deviation) + 0.2 | bc )
 
-# $ETA: 0h$
+# $ETA: 2h$
 # vim: set syntax=sh:
