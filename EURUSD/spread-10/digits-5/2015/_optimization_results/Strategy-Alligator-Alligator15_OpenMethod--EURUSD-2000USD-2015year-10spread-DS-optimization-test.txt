@@ -6,7 +6,7 @@
                                       Tripleafx-FX-Demo (Build 950)
 
       Symbol          EURUSD (Euro vs US Dollar)
-      Period          1 Minute (M1) 2014.01.01 23:41 - 2014.01.29 23:59 (2014.01.01 - 2014.01.30)
+      Period          1 Minute (M1) 2015.01.01 23:40 - 2015.01.29 23:59 (2015.01.01 - 2015.01.30)
       Model           Every tick (the most precise method based on all available least timeframes)
       Initial deposit 2000.00
       Spread          10
