@@ -18,8 +18,8 @@ input_set ^Bands1_Active 1
 # Test Bands OpenMethod.
 input_set ^Bands1_OpenMethod,F 1
 input_set ^Bands1_OpenMethod,1 0
-input_set ^Bands1_OpenMethod,2 1
+input_set ^Bands1_OpenMethod,2 3
 input_set ^Bands1_OpenMethod,3 255
 
-# $ETA: 1h$
+# $ETA: 0h$
 # vim: set syntax=sh:
