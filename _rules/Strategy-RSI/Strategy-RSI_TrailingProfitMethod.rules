@@ -7,6 +7,8 @@ input_set .*,F 0
 input_set .*_Active 0
 # Disable boosting.
 input_set Boosting_Enabled 0
+# Disable account conditions.
+input_set Account_Conditions_Active 0
 # Set lot size.
 input_set LotSize 0.01
 # Enable strategy.
