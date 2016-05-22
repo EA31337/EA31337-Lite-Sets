@@ -1,0 +1,37 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( Market_Condition_1 Market_Condition_2 Market_Condition_3 Market_Condition_4 Market_Condition_5 )
+# Disable all optimization settings.
+input_set .*,F 0
+# Enable account conditions.
+input_set Account_Conditions_Active 1
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test Market_Condition_1.
+input_set Market_Condition_1,F 1
+input_set Market_Condition_1,1 0
+input_set Market_Condition_1,2 $(( $(input_get Market_Condition_1) ))
+input_set Market_Condition_1,3 $(( $(input_get Market_Condition_1) ))
+# Test Market_Condition_2.
+input_set Market_Condition_2,F 1
+input_set Market_Condition_2,1 0
+input_set Market_Condition_2,2 $(( $(input_get Market_Condition_2) ))
+input_set Market_Condition_2,3 $(( $(input_get Market_Condition_2) ))
+# Test Market_Condition_3.
+input_set Market_Condition_3,F 1
+input_set Market_Condition_3,1 0
+input_set Market_Condition_3,2 $(( $(input_get Market_Condition_3) ))
+input_set Market_Condition_3,3 $(( $(input_get Market_Condition_3) ))
+# Test Market_Condition_4.
+input_set Market_Condition_4,F 1
+input_set Market_Condition_4,1 0
+input_set Market_Condition_4,2 $(( $(input_get Market_Condition_4) ))
+input_set Market_Condition_4,3 $(( $(input_get Market_Condition_4) ))
+# Test Market_Condition_5.
+input_set Market_Condition_5,F 1
+input_set Market_Condition_5,1 0
+input_set Market_Condition_5,2 $(( $(input_get Market_Condition_5) ))
+input_set Market_Condition_5,3 $(( $(input_get Market_Condition_5) ))
+
+# $ETA:$
+# vim: set syntax=sh:
