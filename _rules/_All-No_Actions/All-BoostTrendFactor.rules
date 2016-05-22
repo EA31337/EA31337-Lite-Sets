@@ -3,13 +3,17 @@
 param_list=( BoostTrendFactor )
 # Disable all optimization settings.
 input_set .*,F 0
+# Enable boosting.
+input_set Boosting_Enabled 1
+# Disable account conditions.
+input_set Account_Conditions_Active 0
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test BoostTrendFactor.
 input_set BoostTrendFactor,F 1
-input_set BoostTrendFactor,1 1.0
+input_set BoostTrendFactor,1 $( bc <<< "$(input_get BoostTrendFactor) - 0.2" )
 input_set BoostTrendFactor,2 0.1
-input_set BoostTrendFactor,3 1.5
+input_set BoostTrendFactor,3 $( bc <<< "$(input_get BoostTrendFactor) + 0.2" )
 
 # $ETA: 0h$
 # vim: set syntax=sh:
