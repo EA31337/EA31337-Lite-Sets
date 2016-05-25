@@ -1,6 +1,8 @@
 ## Init settings.
 # Parameter list to optimize.
 param_list=( Market_Condition_1 Action_On_Condition_1 )
+# Set backtest EA parameters.
+ini_set_ea maxdrawdown 25
 # Disable all optimization settings.
 input_set .*,F 0
 # Enable account conditions.
