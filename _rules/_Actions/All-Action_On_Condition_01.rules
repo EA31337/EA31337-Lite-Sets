@@ -6,7 +6,8 @@ input_set .*,F 0
 # Enable account conditions.
 input_set Account_Conditions_Active 1
 # Disable other actions by default.
-input_set Account_Condition_.* 0
+input_set Market_Condition_.* 0
+input_set Action_On_Condition_.* 0
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test Market_Condition_1.
