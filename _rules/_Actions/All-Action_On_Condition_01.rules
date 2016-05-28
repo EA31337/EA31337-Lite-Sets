@@ -23,5 +23,5 @@ input_set Action_On_Condition_1,1 0
 input_set Action_On_Condition_1,2 1
 input_set Action_On_Condition_1,3 10
 
-# $ETA:$
+# $ETA: 14h$
 # vim: set syntax=sh:
