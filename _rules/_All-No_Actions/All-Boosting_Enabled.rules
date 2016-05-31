@@ -3,6 +3,8 @@
 param_list=( Boosting_Enabled )
 # Disable all optimization settings.
 input_set .*,F 0
+# Disable account conditions.
+input_set Account_Conditions_Active 0
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test Boosting_Enabled.

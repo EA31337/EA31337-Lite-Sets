@@ -5,13 +5,15 @@ param_list=( WorseDailyStrategyDividerFactor )
 input_set .*,F 0
 # Enable boosting.
 input_set Boosting_Enabled 1
+# Disable account conditions.
+input_set Account_Conditions_Active 0
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test WorseDailyStrategyDividerFactor.
 input_set WorseDailyStrategyDividerFactor,F 1
-input_set WorseDailyStrategyDividerFactor,1 1.0
-input_set WorseDailyStrategyDividerFactor,2 0.2
-input_set WorseDailyStrategyDividerFactor,3 2.0
+input_set WorseDailyStrategyDividerFactor,1 $( bc <<< "$(input_get WorseDailyStrategyDividerFactor) - 0.2" )
+input_set WorseDailyStrategyDividerFactor,2 0.1
+input_set WorseDailyStrategyDividerFactor,3 $( bc <<< "$(input_get WorseDailyStrategyDividerFactor) + 0.2" )
 
 # $ETA:$
 # vim: set syntax=sh:

@@ -1,0 +1,33 @@
+
+
+
+                                         Strategy Tester Report
+                                      EA31337-Lite-Backtest-v1.068
+                                      Tripleafx-FX-Demo (Build 950)
+
+Symbol                    EURUSD (Euro vs US Dollar)
+Period                    1 Minute (M1) 2015.01.01 23:40 - 2015.12.29 23:59 (2015.01.01 - 2015.12.30)
+Model                     Every tick (the most precise method based on all available least timeframes)
+                          __Strategy_Boosting_Parameters__="-- Strategy boosting (set 1.0 to default) --
+                          __AD_Parameters__="-- Settings for the Accumulation/Distribution indicator --
+Parameters                indicator --"; Alligator1_Active=true; Alligator5_Active=true;
+                          __BWMFI_Parameters__="-- Settings for the Market Facilitation Index indicator
+Bars in test       370084 Ticks modelled               80830113 Modelling quality                 24.99%
+Mismatched charts       0
+errors
+Initial deposit   1500.00                                       Spread                                10
+Total net profit   790.71 Gross profit                  2473.72 Gross loss                      -1683.01
+Profit factor        1.47 Expected payoff                  1.92
+Absolute drawdown  919.27 Maximal drawdown     2764.46 (82.64%) Relative drawdown       82.64% (2764.46)
+Total trades          411 Short positions (won     163 (77.30%) Long positions (won %)      248 (52.82%)
+                          %)
+                          Profit trades (% of      257 (62.53%) Loss trades (% of           154 (37.47%)
+                          total)                                total)
+                  Largest profit trade                   111.94 loss trade                        -71.30
+                  Average profit trade                     9.63 loss trade                        -10.93
+                  Maximum consecutive wins         21 (1401.13) consecutive losses            8 (-64.83)
+                          (profit in money)                     (loss in money)
+                  Maximal consecutive profit       1401.13 (21) consecutive loss (count      -243.85 (6)
+                          (count of wins)                       of losses)
+                  Average consecutive wins                    4 consecutive losses                     2
+                                                 [Graph]

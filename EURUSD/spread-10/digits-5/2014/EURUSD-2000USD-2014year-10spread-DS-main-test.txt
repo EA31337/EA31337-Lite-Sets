@@ -9,25 +9,22 @@ Symbol                    EURUSD (Euro vs US Dollar)
 Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
 Model                     Every tick (the most precise method based on all available least timeframes)
                           __Strategy_Boosting_Parameters__="-- Strategy boosting (set 1.0 to default) --
-                          __AD_Parameters__="-- Settings for the Accumulation/Distribution indicator --
-Parameters                indicator --"; Alligator1_Active=true; Alligator5_Active=true;
-                          __BWMFI_Parameters__="-- Settings for the Market Facilitation Index indicator
-Bars in test       368715 Ticks modelled               74312557 Modelling quality                 24.99%
+Parameters                ADX1_OpenMethod=15; ADX5_OpenMethod=15; ADX15_OpenMethod=15;
+Bars in test       368715 Ticks modelled                 74312557 Modelling quality                24.99%
 Mismatched charts       0
 errors
-Initial deposit   2000.00                                       Spread                                10
-Total net profit  6202.21 Gross profit                 13229.98 Gross loss                      -7027.77
-Profit factor        1.88 Expected payoff                  1.34
-Absolute drawdown  593.32 Maximal drawdown     2514.74 (36.00%) Relative drawdown       36.00% (2514.74)
-Total trades         4618 Short positions (won    2715 (68.77%) Long positions (won %)     1903 (56.28%)
-                          %)
-                          Profit trades (% of     2938 (63.62%) Loss trades (% of          1680 (36.38%)
-                          total)                                total)
-                  Largest profit trade                   169.20 loss trade                        -53.86
-                  Average profit trade                     4.50 loss trade                         -4.18
-                  Maximum consecutive wins         51 (5025.82) consecutive losses          14 (-333.61)
-                          (profit in money)                     (loss in money)
-                  Maximal consecutive profit       5025.82 (51) consecutive loss (count     -333.61 (14)
-                          (count of wins)                       of losses)
-                  Average consecutive wins                    3 consecutive losses                     2
+Initial deposit   2000.00                                         Spread                               10
+Total net profit  3320.70 Gross profit                    5871.77 Gross loss                     -2551.06
+Profit factor        2.30 Expected payoff                    4.00
+Absolute drawdown  146.41 Maximal drawdown        921.01 (20.53%) Relative drawdown       20.53% (921.01)
+Total trades          831 Short positions (won %)    411 (70.56%) Long positions (won %)     420 (52.38%)
+                          Profit trades (% of        510 (61.37%) Loss trades (% of          321 (38.63%)
+                          total)                                  total)
+                  Largest profit trade                     177.16 loss trade                       -44.05
+                  Average profit trade                      11.51 loss trade                        -7.95
+                  Maximum consecutive wins           28 (3096.14) consecutive losses          9 (-120.23)
+                          (profit in money)                       (loss in money)
+                  Maximal consecutive profit         3096.14 (28) consecutive loss (count     -120.23 (9)
+                          (count of wins)                         of losses)
+                  Average consecutive wins                      3 consecutive losses                    2
                                                  [Graph]
