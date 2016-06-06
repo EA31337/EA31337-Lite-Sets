@@ -14,7 +14,7 @@ find "$ROOT" -type f -name "test.ini" -print0 | sort -z | while IFS= read -r -d 
   find "$ROOT" -type f -name "*$1*.rules" -print0 | while IFS= read -r -d '' rule_file; do
     report_base="$(basename "${rule_file%.*}")"
     report_name="${report_base}--${pair}-${deposit}${currency}-${year}year-${spread}spread-${bt_source}-backtest-test"
-    run_backtest.sh ${@:2} -v -t -e $name -f "$dir/$setfile" -c $currency -p $pair -d $deposit -D $digits -y $year -s $spread -b $bt_source -r "$report_name" -i "$rule_file" -O "$ROOT/results"
+    env TRACE=$TRACE run_backtest.sh ${@:2} -v -t -e $name -f "$dir/$setfile" -c $currency -p $pair -d $deposit -D $digits -y $year -s $spread -b $bt_source -r "$report_name" -i "$rule_file" -O "$ROOT/results"
     [ "$FIRST" ] && break
   done
 done
