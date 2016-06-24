@@ -5,7 +5,7 @@ env:
   global:
   - OWNER='EA31337'
   - EA_MODE='Lite'
-  - EA_VERSION='v1.67'
+  - EA_VERSION='v1.69'
   - USER=${TRAVIS_REPO_SLUG%%/*}
   - REPOSITORY=${TRAVIS_REPO_SLUG##*/}
   - PUSH_BRANCH="EA-$(date +%Y%m%d)"
@@ -16,23 +16,16 @@ env:
   - PATH=${PATH//:\.\/node_modules\/\.bin/}
   - secure: FIsYONUWQC6HaVNat3HP5ih+PwmmhN/o+/4zkshzUPa6Ix5s3EA+l0k4AQLeNta26TkWy4owkrxn2OzSi+No7dDMNNHauSif+RuQaAgrwQTTv7Q0Oa4ElkYE9R2nr2xBRl195L4u+/ln9/24+1p2LtuKY38+pzeGn9+OFZRj7ra+FbpHax0ozwnYK/eNnTwRAwurCUQ7rhlc78Ek3LRl7keMeoinWW9/gZmOYUXh3lC9agnB9gJqZW0ZTgzjwVz3n8b0JqTOc/yPxJVsRgnJ2E0QbRPeXG9tbKgW5n8/JMiaJboD2i1OXE19y8KIDmtQDC+Tejp3SuNSXbB2qiR62RP7nTtvEt2ak2HSPCmEBwWoDsY54vFqOcVh7xw23NLaGoXv1gCh+N2eH1786kL2rcKpYBWh5LsZEUyRCzLT8pI5JLM9m/SxogmExJoI+p6MArAZ+i1rhd2THhOd6BP3jnLTxIoqQxxry5i639SBDzn9CTtzxdoeMQyhzmRkGiVHyxyz5tDSegpSzKGhrYVtWxC2zaa/3WgCiGfamIRFO7cbNsfO6s6VZQc2xIEysv0X1yZDTvjq+BeLAU14Vt+bG1RPomjMPaoDa9n4J7FPDJfRS70Whqr0dO/HSUsYHKlMFcQ9QzkJPA7LKTLNiYkxD48K0hlSimfdmqeT3AY7hdc=
   matrix:
-  - FILTER=EURUSD SCRIPT=run_main_backtest.sh PLATFORM=MT4
+  - INI=EURUSD/default/10-spread/5-digits/2014/test.ini
 addons:
   hosts:
   - travis.local
-branches:
-  only:
-  - master
-  - dev
-  - ci
-
 matrix:
   fast_finish: true
 cache:
   apt: true
   pip: true
-  directories:
-  - "$HOME/.wine"
+  directories: "$HOME/.wine"
 notifications:
   email: true
   webhooks:
@@ -46,24 +39,14 @@ before_install:
 - git config --local include.path "$CWD/.gitconfig"
 - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
 - echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" > ~/.secrets
-- (mkdir -vp "$EA_DIR" && cd "$EA_DIR"; get_gh_asset.sh $OWNER $OWNER-$EA_MODE-Releases $EA_VERSION Backtest) || exit 0
+- get_gh_asset.sh $OWNER $OWNER-$EA_MODE-Releases $EA_VERSION $EA_MODE-Backtest "$EA_DIR"
 install:
 - sudo env PATH="$PATH" provision.sh
 - sudo env PATH="$PATH" secur32_fix.sh
 before_script:
 - find "$CWD" -name "*.rules" -exec bash -n "{}" ';'
-# |-
-# if [ -n "$PS" ]; then
-#   eval "$(ssh-agent -s)"
-#   install -vm700 <(echo "echo $PS") $HOME/.ps
-#   git config --get key.travis | tr '|' '\n' | rev | base64 -d | gunzip -c | DISPLAY= SSH_ASKPASS=$HOME/.ps ssh-add -
-#   ssh-add -l
-# else # Otherwise run sample EA.
-#   run_backtest.sh
-#   exit 0
-# fi
 script:
-- $SCRIPT $FILTER
+- run_test.sh "$INI" -E VerboseInfo=0
 after_success:
 - echo "Success."
 after_failure:
@@ -76,9 +59,9 @@ deploy:
   api_key:
     secure: loTZKrdYEptxw6zgPqL3mJ3XrC7Kh71QQI9qKxMgC5C6IDwYRHZ1PSx8T87r2B+Kg/iRlim9XStu7c8Rg3A0Tm79Y7SeTALZEIYdL2frakkln1r1tiKjGmSgenIoFqaTpGTcMH+rK3NibuhL7Jlw/MkatA+JyrPCvnp/JNNCgxFuc1xkqFW6PGsCP+fil1HhSf4kbIqSZSzW2uhzFGapZsXigxM/6BwNa7D/VF9Gk6AWGR3FTFWXUKPbWqaYiP58uxZv6842hgbXs7VKXHNPr0P1rzIZLbSBQzcPZAKs6CiON/XEu2Ao0NSJQMAKtP5bVJtZIMpUJFDAk/3Y1mSyvYsEbDYIyZIbVY1d7hHAsqDevlpXUUm4/iGr3aLsnBQPEGDSBS/CfvgHnfuZipRyk1p0+4HitBiIu84gtovhIKw/YQhx/I73HSNvqDbCpC+CqrViXoRFNxaVGM2CcsULS/GkBuwMbHYvWIsjMe0PLSHFXMTc76awOKXb9+GyTz5IhKxgJZ5+yYwN4gFe+EHpRMW9HRbagGAVqLRzdVX8HmlBLR7AxlqGwPiRk8auVOMgUGaE2TZy+KUdloq+5Lwc/2EdALxlQ/kAEju82MnYNDrsPtHCzQcHZUR2PeWYW0Y94wIoS/igSPdooVxN9/qKLAI0zJs1gfdkDhbZ8pSZN5s=
   file:
-  - "*/*/*.txt"
-  - "*/*/*.gif"
-  - "*/*/*.set"
+  - "results/*.txt"
+  - "results/*.gif"
+  - "results/*.set"
   on:
     repo: EA31337/EA31337-Lite-Sets
     tags: true
