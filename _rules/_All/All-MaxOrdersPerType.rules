@@ -1,0 +1,16 @@
+## Init settings.
+# Parameter list to optimize.
+param=MaxOrdersPerType
+param_list=( $param )
+# Disable all optimization settings.
+input_set .*,F 0
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test TrailingStop.
+input_set $param,F 1
+input_set $param,1 0
+input_set $param,2 5
+input_set $param,3 20
+
+# $ETA:$
+# vim: set syntax=sh:
