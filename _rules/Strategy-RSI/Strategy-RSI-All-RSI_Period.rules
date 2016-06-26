@@ -1,4 +1,6 @@
 ## Init settings.
+# Backtest settings.
+ini_set_ea maxdrawdown_enable 0
 # Parameter list to optimize.
 param_list=( RSI_Period )
 # Disable all optimization settings.
@@ -19,9 +21,9 @@ input_set ^RSI.*_Active 1
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test RSI_Period.
 input_set ^RSI_Period,F 1
-input_set ^RSI_Period,1 $(( $(input_get RSI_Period) > 6 ? $(input_get RSI_Period) - 4 : 2 ))
+input_set ^RSI_Period,1 $(( $(input_get RSI_Period) > 2 ? $(input_get RSI_Period) - 2 : 2 ))
 input_set ^RSI_Period,2 1
-input_set ^RSI_Period,3 $(( $(input_get RSI_Period) + 4 ))
+input_set ^RSI_Period,3 $(( $(input_get RSI_Period) + 2 ))
 
 # $ETA: 0h$
 # vim: set syntax=sh:
