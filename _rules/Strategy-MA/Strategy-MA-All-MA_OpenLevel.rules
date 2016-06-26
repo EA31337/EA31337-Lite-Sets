@@ -23,5 +23,5 @@ input_set ^MA_OpenLevel,1 $( bc <<< "$(input_get MA_OpenLevel) - 0.2" )
 input_set ^MA_OpenLevel,2 0.1
 input_set ^MA_OpenLevel,3 $( bc <<< "$(input_get MA_OpenLevel) + 0.2" )
 
-# $ETA: 0h$
+# $ETA: 5h$
 # vim: set syntax=sh:
