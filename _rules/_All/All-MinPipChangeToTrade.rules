@@ -1,0 +1,15 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( MinPipChangeToTrade )
+# Disable all optimization settings.
+input_set .*,F 0
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test MinPipChangeToTrade.
+input_set ^MinPipChangeToTrade,F 1
+input_set ^MinPipChangeToTrade,1 $( bc <<< "$(input_get MinPipChangeToTrade) - 0.2" )
+input_set ^MinPipChangeToTrade,2 0.1
+input_set ^MinPipChangeToTrade,3 $( bc <<< "$(input_get MinPipChangeToTrade) + 0.2" )
+
+# $ETA:$
+# vim: set syntax=sh:
