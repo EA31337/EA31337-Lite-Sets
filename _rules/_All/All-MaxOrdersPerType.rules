@@ -12,5 +12,5 @@ input_set $param,1 0
 input_set $param,2 5
 input_set $param,3 $(($(input_get $param) + 20))
 
-# $ETA:$
+# $ETA: 2h$
 # vim: set syntax=sh:
