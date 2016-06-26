@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param1=MarketBigDropSize
+param1=MarketSuddenDropSize
 param_list=( $param1 )
 # Disable all optimization settings.
 input_set .*,F 0
