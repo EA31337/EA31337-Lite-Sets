@@ -1,6 +1,7 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( RSI_OpenLevel )
+param=RSI_OpenLevel
+param_list=( $param )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -17,11 +18,11 @@ input_set ^RSI.*_OpenMethod 0
 input_set ^RSI.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test RSI_OpenLevel.
-input_set ^RSI_OpenLevel,F 1
-input_set ^RSI_OpenLevel,1 $(( $(input_get RSI_OpenLevel) - 5))
-input_set ^RSI_OpenLevel,2 1
-input_set ^RSI_OpenLevel,3 $(( $(input_get RSI_OpenLevel) + 5))
+# Test $param.
+input_set ^$param,F 1
+input_set ^$param,1 $(( $(input_get $param) - 4))
+input_set ^$param,2 2
+input_set ^$param,3 $(( $(input_get $param) + 4))
 
 # $ETA: 0h$
 # vim: set syntax=sh:
