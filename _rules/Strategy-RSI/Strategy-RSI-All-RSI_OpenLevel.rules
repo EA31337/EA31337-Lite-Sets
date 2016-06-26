@@ -1,4 +1,6 @@
 ## Init settings.
+# Backtest settings.
+ini_set_ea maxdrawdown_enable 0
 # Parameter list to optimize.
 param=RSI_OpenLevel
 param_list=( $param )
