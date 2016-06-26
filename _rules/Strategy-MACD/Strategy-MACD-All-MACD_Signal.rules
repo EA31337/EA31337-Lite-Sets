@@ -23,5 +23,5 @@ input_set ^MACD_Signal_Period,1 $(( $(input_get MACD_Signal_Period) > 2 ? $(( $(
 input_set ^MACD_Signal_Period,2 1
 input_set ^MACD_Signal_Period,3 $(( $(input_get MACD_Signal_Period) + 2 ))
 
-# $ETA: 0h$
+# $ETA: 4h$
 # vim: set syntax=sh:
