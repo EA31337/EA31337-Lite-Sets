@@ -1,19 +1,22 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( DefaultTrailingStopMethod )
+param=DefaultTrailingStopMethod
+param_list=( $param )
 # Disable all optimization settings.
 input_set .*,F 0
+# Disable account conditions.
+input_set Account_Conditions_Active 0
 # Disable boosting.
 input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test DefaultTrailingStopMethod.
-input_set DefaultTrailingStopMethod,F 1
-input_set DefaultTrailingStopMethod,1 0
-input_set DefaultTrailingStopMethod,2 1
-input_set DefaultTrailingStopMethod,3 27
+# Test $param.
+input_set $param,F 1
+input_set $param,1 0
+input_set $param,2 1
+input_set $param,3 27
 
 # $ETA: 3h$
 # vim: set syntax=sh:
