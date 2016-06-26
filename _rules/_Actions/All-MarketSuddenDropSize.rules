@@ -14,5 +14,5 @@ input_set $param1,1 $(( $(input_get $param1) > 20 ? $(($(input_get $param1) - 20
 input_set $param1,2 10
 input_set $param1,3 $(($(input_get $param1) + 20))
 
-# $ETA:$
+# $ETA: 2h$
 # vim: set syntax=sh:
