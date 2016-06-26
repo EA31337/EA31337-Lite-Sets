@@ -1,6 +1,9 @@
 ## Init settings.
+# Backtest settings.
+ini_set_ea maxdrawdown_enable 0
 # Parameter list to optimize.
-param_list=( Bands_TrailingStopMethod )
+param=Bands_TrailingStopMethod
+param_list=( $param )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -17,11 +20,11 @@ input_set ^Bands.*_OpenMethod 0
 input_set ^Bands.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test Bands_TrailingStopMethod.
-input_set ^Bands_TrailingStopMethod,F 1
-input_set ^Bands_TrailingStopMethod,1 0
-input_set ^Bands_TrailingStopMethod,2 1
-input_set ^Bands_TrailingStopMethod,3 27
+# Test $param.
+input_set ^$param,F 1
+input_set ^$param,1 0
+input_set ^$param,2 2
+input_set ^$param,3 27
 
 # $ETA: 0h$
 # vim: set syntax=sh:
