@@ -1,6 +1,7 @@
 ## Init settings.
+strategy=Envelopes
 # Parameter list to optimize.
-param_list=( Envelopes_TrailingStopMethod )
+param_list=( ${strategy}_TrailingStopMethod )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -11,15 +12,17 @@ input_set Boosting_Enabled 0
 input_set Account_Conditions_Active 0
 # Set lot size.
 input_set LotSize 0.01
+# Reset open methods.
+input_set ^${strategy}.*_OpenMethod 0
 # Enable strategy.
-input_set ^Envelopes.*_Active 1
+input_set ^${strategy}.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test Envelopes_TrailingStopMethod.
-input_set ^Envelopes_TrailingStopMethod,F 1
-input_set ^Envelopes_TrailingStopMethod,1 0
-input_set ^Envelopes_TrailingStopMethod,2 1
-input_set ^Envelopes_TrailingStopMethod,3 27
+# Test $strategy_TrailingStopMethod.
+input_set ^${strategy}_TrailingStopMethod,F 1
+input_set ^${strategy}_TrailingStopMethod,1 0
+input_set ^${strategy}_TrailingStopMethod,2 1
+input_set ^${strategy}_TrailingStopMethod,3 27
 
 # $ETA: 0h$
 # vim: set syntax=sh:
