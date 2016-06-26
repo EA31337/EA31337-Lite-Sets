@@ -1,11 +1,11 @@
 __EA_Parameters__=-- Input EA parameters for EA31337 Lite (Backtest) v1.068 --
 __EA_Order_Parameters__=-- Profit and loss parameters --
-TakeProfit=140.00000000
+TakeProfit=140
 TakeProfit,F=0
 TakeProfit,1=0.00000000
 TakeProfit,2=0.00000000
 TakeProfit,3=0.00000000
-StopLoss=160
+StopLoss=140
 StopLoss,F=0
 StopLoss,1=0.00000000
 StopLoss,2=0.00000000
