@@ -1,0 +1,21 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( MarketBigDropSize )
+# Disable all optimization settings.
+input_set .*,F 0
+# Disable account conditions.
+input_set Account_Conditions_Active 0
+# Disable boosting.
+input_set Boosting_Enabled 0
+# Set lot size.
+input_set LotSize 0.01
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test MarketBigDropSize.
+input_set MarketBigDropSize,F 1
+input_set MarketBigDropSize,1 $(( $(input_get MarketBigDropSize) > 20 ? $(($(input_get MarketBigDropSize) - 20)) : 0 ))
+input_set MarketBigDropSize,2 10
+input_set MarketBigDropSize,3 $(($(input_get MarketBigDropSize) + 20))
+
+# $ETA:$
+# vim: set syntax=sh:
