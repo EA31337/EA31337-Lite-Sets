@@ -24,5 +24,5 @@ input_set ^${strategy}_TrailingProfitMethod,1 0
 input_set ^${strategy}_TrailingProfitMethod,2 1
 input_set ^${strategy}_TrailingProfitMethod,3 27
 
-# $ETA: 3h$
+# $ETA: 10h$
 # vim: set syntax=sh:
