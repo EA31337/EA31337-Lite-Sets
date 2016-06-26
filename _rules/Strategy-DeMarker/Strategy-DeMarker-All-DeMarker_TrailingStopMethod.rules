@@ -1,25 +1,27 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( DeMarker_OpenLevel )
+param_list=( DeMarker_TrailingStopMethod )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
 input_set .*_Active 0
-# Disable account conditions.
-input_set Account_Conditions_Active 0
 # Disable boosting.
 input_set Boosting_Enabled 0
+# Disable account conditions.
+input_set Account_Conditions_Active 0
 # Set lot size.
 input_set LotSize 0.01
+# Reset open methods.
+input_set ^DeMarker.*_OpenMethod 0
 # Enable strategy.
 input_set ^DeMarker.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test DeMarker_OpenLevel.
-input_set ^DeMarker_OpenLevel,F 1
-input_set ^DeMarker_OpenLevel,1 $( bc <<< "$(input_get DeMarker_OpenLevel) - 0.2" )
-input_set ^DeMarker_OpenLevel,2 0.1
-input_set ^DeMarker_OpenLevel,3 $( bc <<< "$(input_get DeMarker_OpenLevel) + 0.2" )
+# Test DeMarker_TrailingStopMethod.
+input_set ^DeMarker_TrailingStopMethod,F 1
+input_set ^DeMarker_TrailingStopMethod,1 0
+input_set ^DeMarker_TrailingStopMethod,2 1
+input_set ^DeMarker_TrailingStopMethod,3 27
 
 # $ETA: 0h$
 # vim: set syntax=sh:

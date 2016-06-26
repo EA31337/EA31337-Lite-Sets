@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( DeMarker_Shift )
+param_list=( DeMarker_OpenLevel )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -11,15 +11,17 @@ input_set Account_Conditions_Active 0
 input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
+# Reset open methods.
+input_set ^DeMarker.*_OpenMethod 0
 # Enable strategy.
 input_set ^DeMarker.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test DeMarker_Shift.
-input_set ^DeMarker_Shift,F 1
-input_set ^DeMarker_Shift,1 $(( $(input_get DeMarker_Shift) > 2 ? $(input_get DeMarker_Shift) - 2 : 0 ))
-input_set ^DeMarker_Shift,2 1
-input_set ^DeMarker_Shift,3 $(( $(input_get DeMarker_Shift) + 2 ))
+# Test DeMarker_OpenLevel.
+input_set ^DeMarker_OpenLevel,F 1
+input_set ^DeMarker_OpenLevel,1 $( bc <<< "$(input_get DeMarker_OpenLevel) - 0.2" )
+input_set ^DeMarker_OpenLevel,2 0.1
+input_set ^DeMarker_OpenLevel,3 $( bc <<< "$(input_get DeMarker_OpenLevel) + 0.2" )
 
-# $ETA:$
+# $ETA: 0h$
 # vim: set syntax=sh:
