@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param=Bands_Shift
+param=Bands_Shift_Far
 param_list=( $param )
 # Disable all optimization settings.
 input_set .*,F 0
