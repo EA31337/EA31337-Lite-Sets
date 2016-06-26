@@ -23,5 +23,5 @@ input_set ^RSI_Shift,1 $(( $(input_get RSI_Shift) > 2 ? $(input_get RSI_Shift) -
 input_set ^RSI_Shift,2 1
 input_set ^RSI_Shift,3 $(( $(input_get RSI_Shift) + 2 ))
 
-# $ETA:$
+# $ETA: 0h$
 # vim: set syntax=sh:
