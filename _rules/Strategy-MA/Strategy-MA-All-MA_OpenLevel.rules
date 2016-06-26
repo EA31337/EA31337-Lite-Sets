@@ -1,25 +1,27 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( MA_TrailingProfitMethod )
+param_list=( MA_OpenLevel )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
 input_set .*_Active 0
-# Disable boosting.
-input_set Boosting_Enabled 0
 # Disable account conditions.
 input_set Account_Conditions_Active 0
+# Disable boosting.
+input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
+# Reset open methods.
+input_set ^MA.*_OpenMethod 0
 # Enable strategy.
 input_set ^MA.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test MA_TrailingProfitMethod.
-input_set ^MA_TrailingProfitMethod,F 1
-input_set ^MA_TrailingProfitMethod,1 0
-input_set ^MA_TrailingProfitMethod,2 1
-input_set ^MA_TrailingProfitMethod,3 27
+# Test MA_OpenLevel.
+input_set ^MA_OpenLevel,F 1
+input_set ^MA_OpenLevel,1 $( bc <<< "$(input_get MA_OpenLevel) - 0.2" )
+input_set ^MA_OpenLevel,2 0.1
+input_set ^MA_OpenLevel,3 $( bc <<< "$(input_get MA_OpenLevel) + 0.2" )
 
 # $ETA: 0h$
 # vim: set syntax=sh:
