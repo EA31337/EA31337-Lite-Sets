@@ -1,25 +1,27 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Alligator_Applied_Price )
+param_list=( Alligator_TrailingStopMethod )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
 input_set .*_Active 0
-# Disable account conditions.
-input_set Account_Conditions_Active 0
 # Disable boosting.
 input_set Boosting_Enabled 0
+# Disable account conditions.
+input_set Account_Conditions_Active 0
 # Set lot size.
 input_set LotSize 0.01
+# Reset open methods.
+input_set ^Alligator.*_OpenMethod 0
 # Enable strategy.
 input_set ^Alligator.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test Alligator_Applied_Price.
-input_set ^Alligator_Applied_Price,F 1
-input_set ^Alligator_Applied_Price,1 0
-input_set ^Alligator_Applied_Price,2 1
-input_set ^Alligator_Applied_Price,3 6
+# Test Alligator_TrailingStopMethod.
+input_set ^Alligator_TrailingStopMethod,F 1
+input_set ^Alligator_TrailingStopMethod,1 0
+input_set ^Alligator_TrailingStopMethod,2 1
+input_set ^Alligator_TrailingStopMethod,3 27
 
 # $ETA: 1h$
 # vim: set syntax=sh:
