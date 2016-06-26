@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( MACD_Shift )
+param_list=( MACD_OpenLevel )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -11,15 +11,17 @@ input_set Account_Conditions_Active 0
 input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
+# Reset open methods.
+input_set ^MACD.*_OpenMethod 0
 # Enable strategy.
-input_set ^MA.*_Active 1
+input_set ^MACD.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test MACD_Shift.
-input_set ^MACD_Shift,F 1
-input_set ^MACD_Shift,1 $(( $(input_get MACD_Shift) > 1 ? $(( $(input_get MACD_Shift) - 1)) : 0 ))
-input_set ^MACD_Shift,2 1
-input_set ^MACD_Shift,3 $(( $(input_get MACD_Shift) + 1 ))
+# Test MACD_OpenLevel.
+input_set ^MACD_OpenLevel,F 1
+input_set ^MACD_OpenLevel,1 $( bc <<< "$(input_get MACD_OpenLevel) - 0.2" )
+input_set ^MACD_OpenLevel,2 0.1
+input_set ^MACD_OpenLevel,3 $( bc <<< "$(input_get MACD_OpenLevel) + 0.2" )
 
-# $ETA:$
+# $ETA: 0h$
 # vim: set syntax=sh:

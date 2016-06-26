@@ -11,6 +11,8 @@ input_set Boosting_Enabled 0
 input_set Account_Conditions_Active 0
 # Set lot size.
 input_set LotSize 0.01
+# Reset open methods.
+input_set ^MACD.*_OpenMethod 0
 # Enable strategy.
 input_set ^MACD.*_Active 1
 
