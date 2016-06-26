@@ -22,5 +22,5 @@ input_set TrailingStopOneWay,1 0
 input_set TrailingStopOneWay,2 1
 input_set TrailingStopOneWay,3 1
 
-# $ETA: 0h$
+# $ETA: 2h$
 # vim: set syntax=sh:
