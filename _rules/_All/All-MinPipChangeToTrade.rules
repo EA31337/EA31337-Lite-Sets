@@ -11,5 +11,5 @@ input_set ^MinPipChangeToTrade,1 $( bc <<< "$(input_get MinPipChangeToTrade) - 0
 input_set ^MinPipChangeToTrade,2 0.1
 input_set ^MinPipChangeToTrade,3 $( bc <<< "$(input_get MinPipChangeToTrade) + 0.2" )
 
-# $ETA:$
+# $ETA: 0h$
 # vim: set syntax=sh:
