@@ -1,25 +1,27 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( SAR_Maximum_Stop )
+param_list=( SAR_TrailingProfitMethod )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
 input_set .*_Active 0
-# Disable account conditions.
-input_set Account_Conditions_Active 0
 # Disable boosting.
 input_set Boosting_Enabled 0
+# Disable account conditions.
+input_set Account_Conditions_Active 0
 # Set lot size.
 input_set LotSize 0.01
+# Reset open methods.
+input_set ^SAR.*_OpenMethod 0
 # Enable strategy.
 input_set ^SAR.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test SAR_Maximum_Stop.
-input_set ^SAR_Maximum_Stop,F 1
-input_set ^SAR_Maximum_Stop,1 $( echo $(input_get SAR_Maximum_Stop) - 0.2 | bc )
-input_set ^SAR_Maximum_Stop,2 0.1
-input_set ^SAR_Maximum_Stop,3 $( echo $(input_get SAR_Maximum_Stop) + 0.2 | bc )
+# Test SAR_TrailingProfitMethod.
+input_set ^SAR_TrailingProfitMethod,F 1
+input_set ^SAR_TrailingProfitMethod,1 0
+input_set ^SAR_TrailingProfitMethod,2 1
+input_set ^SAR_TrailingProfitMethod,3 27
 
-# $ETA:$
+# $ETA: 2h$
 # vim: set syntax=sh:
