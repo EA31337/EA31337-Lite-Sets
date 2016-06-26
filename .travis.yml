@@ -25,7 +25,7 @@ matrix:
 cache:
   apt: true
   pip: true
-  directories: "$HOME/.wine"
+  directories: "$HOME/.wine/drive_c"
 notifications:
   email: true
   webhooks:
