@@ -18,7 +18,7 @@ input_set ^DeMarker1_Active 1
 # Test DeMarker1_OpenMethod.
 input_set ^DeMarker1_OpenMethod,F 1
 input_set ^DeMarker1_OpenMethod,1 0
-input_set ^DeMarker1_OpenMethod,2 1
+input_set ^DeMarker1_OpenMethod,2 3
 input_set ^DeMarker1_OpenMethod,3 31
 
 # $ETA: 1h$

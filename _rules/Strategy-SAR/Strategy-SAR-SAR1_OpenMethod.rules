@@ -18,7 +18,7 @@ input_set ^SAR1_Active 1
 # Test SAR1_OpenMethod.
 input_set ^SAR1_OpenMethod,F 1
 input_set ^SAR1_OpenMethod,1 0
-input_set ^SAR1_OpenMethod,2 1
+input_set ^SAR1_OpenMethod,2 7
 input_set ^SAR1_OpenMethod,3 127
 
 # $ETA: 3h$

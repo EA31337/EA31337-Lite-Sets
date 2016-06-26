@@ -18,7 +18,7 @@ input_set ^Bands15_Active 1
 # Test Bands OpenMethod.
 input_set ^Bands15_OpenMethod,F 1
 input_set ^Bands15_OpenMethod,1 0
-input_set ^Bands15_OpenMethod,2 3
+input_set ^Bands15_OpenMethod,2 7
 input_set ^Bands15_OpenMethod,3 255
 
 # $ETA:$

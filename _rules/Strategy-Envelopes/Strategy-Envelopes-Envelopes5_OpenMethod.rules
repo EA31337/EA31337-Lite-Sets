@@ -18,7 +18,7 @@ input_set ^Envelopes5_Active 1
 # Test Envelopes5_OpenMethod.
 input_set ^Envelopes5_OpenMethod,F 1
 input_set ^Envelopes5_OpenMethod,1 0
-input_set ^Envelopes5_OpenMethod,2 1
+input_set ^Envelopes5_OpenMethod,2 7
 input_set ^Envelopes5_OpenMethod,3 127
 
 # $ETA: 3h$

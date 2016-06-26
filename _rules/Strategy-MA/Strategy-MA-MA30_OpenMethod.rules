@@ -18,7 +18,7 @@ input_set ^MA30_Active 1
 # Test MA30_OpenMethod.
 input_set ^MA30_OpenMethod,F 1
 input_set ^MA30_OpenMethod,1 0
-input_set ^MA30_OpenMethod,2 1
+input_set ^MA30_OpenMethod,2 7
 input_set ^MA30_OpenMethod,3 127
 
 # $ETA: 5h$

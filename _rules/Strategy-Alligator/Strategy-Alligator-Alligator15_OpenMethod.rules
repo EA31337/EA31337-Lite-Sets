@@ -18,7 +18,7 @@ input_set ^Alligator15_Active 1
 # Test Alligator15_OpenMethod.
 input_set ^Alligator15_OpenMethod,F 1
 input_set ^Alligator15_OpenMethod,1 0
-input_set ^Alligator15_OpenMethod,2 1
+input_set ^Alligator15_OpenMethod,2 3
 input_set ^Alligator15_OpenMethod,3 63
 
 # $ETA: 0h$

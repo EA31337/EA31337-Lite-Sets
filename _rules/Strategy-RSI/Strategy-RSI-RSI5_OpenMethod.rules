@@ -18,7 +18,7 @@ input_set ^RSI5_Active 1
 # Test RSI5_OpenMethod.
 input_set ^RSI5_OpenMethod,F 1
 input_set ^RSI5_OpenMethod,1 0
-input_set ^RSI5_OpenMethod,2 1
+input_set ^RSI5_OpenMethod,2 7
 input_set ^RSI5_OpenMethod,3 63
 
 # $ETA: 0h$
