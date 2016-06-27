@@ -25,5 +25,5 @@ input_set ^$param,1 $(( $(input_get $param) > 1 ? $(($(input_get $param) - 1)) :
 input_set ^$param,2 1
 input_set ^$param,3 $(($(input_get $param) + 1))
 
-# $ETA:$
+# $ETA: 0h$
 # vim: set syntax=sh:
