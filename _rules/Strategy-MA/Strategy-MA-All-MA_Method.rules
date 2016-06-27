@@ -23,5 +23,5 @@ input_set ^MA_Method,1 0
 input_set ^MA_Method,2 1
 input_set ^MA_Method,3 3
 
-# $ETA: 3h$
+# $ETA: 0h$
 # vim: set syntax=sh:
