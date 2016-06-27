@@ -1,7 +1,8 @@
 ## Init settings.
 strategy=Envelopes
+param=TrailingStopMethod
 # Parameter list to optimize.
-param_list=( ${strategy}_TrailingStopMethod )
+param_list=( ${strategy}_${param} )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -18,11 +19,11 @@ input_set ^${strategy}.*_OpenMethod 0
 input_set ^${strategy}.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test $strategy_TrailingStopMethod.
-input_set ^${strategy}_TrailingStopMethod,F 1
-input_set ^${strategy}_TrailingStopMethod,1 0
-input_set ^${strategy}_TrailingStopMethod,2 1
-input_set ^${strategy}_TrailingStopMethod,3 27
+# Test $strategy_$param.
+input_set ^${strategy}_${param},F 1
+input_set ^${strategy}_${param},1 0
+input_set ^${strategy}_${param},2 1
+input_set ^${strategy}_${param},3 27
 
 # $ETA: 0h$
 # vim: set syntax=sh:
