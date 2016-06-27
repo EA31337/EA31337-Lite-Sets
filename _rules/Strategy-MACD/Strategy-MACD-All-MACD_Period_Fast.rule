@@ -1,7 +1,7 @@
 ## Init settings.
 # Parameter list to optimize.
 strategy=MACD
-param=${strategy}_Fast_Period
+param=${strategy}_Period_Fast
 param_list=( ${param} )
 # Disable all optimization settings.
 input_set .*,F 0
