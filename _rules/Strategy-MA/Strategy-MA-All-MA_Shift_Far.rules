@@ -1,7 +1,7 @@
 ## Init settings.
 # Parameter list to optimize.
 strategy=MA
-param=${strategy}_Shift
+param=${strategy}_Shift_Far
 param_list=( $param )
 # Disable all optimization settings.
 input_set .*,F 0
