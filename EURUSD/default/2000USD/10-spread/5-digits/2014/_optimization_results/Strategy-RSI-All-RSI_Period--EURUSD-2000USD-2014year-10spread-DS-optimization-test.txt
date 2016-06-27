@@ -1,23 +1,19 @@
 
 
 
-                                           OOppttiimmiizzaattiioonn RReeppoorrtt
-                                      EEAA3311333377--LLiittee--BBaacckktteesstt--vv11..006666
-                                               ((BBuuiilldd 995500))
+                                           Optimization Report
+                                      EA31337-Lite-Backtest-v1.069
+                                      Tripleafx-FX-Demo (Build 971)
 
       Symbol          EURUSD (Euro vs US Dollar)
-      Period          1 Minute (M1) 2014.01.01 22:00 - 2014.12.31 22:00 (2014.01.01 - 2014.12.30)
+      Period          1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
       Model           Every tick (the most precise method based on all available least timeframes)
       Initial deposit 2000.00
       Spread          10
                                           [Optimization Graph]
-              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 5 478.25        10585          1.13            0.05     176.59       7.34
-                 6 456.51        10575          1.12            0.04     174.67       7.32
-                 4 453.90        10563          1.12            0.04     169.32       7.05
-                 7 437.54        10586          1.12            0.04     187.10       7.83
-                 8 434.93        10573          1.11            0.04     183.47       7.70
-                 3 421.94        10583          1.11            0.04     176.48       7.39
-                 2 419.99        10610          1.11            0.04     189.31       7.81
-                 1 412.32        10619          1.11            0.04     188.64       7.81
-                 9 411.23        10596          1.11            0.04     184.03       7.78
+              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                 3 -727.01          155          0.69           -4.69    1375.38      57.88
+                 1 -727.76          155          0.69           -4.70    1376.14      57.91
+                 2 -727.77          155          0.69           -4.70    1376.14      57.91
+                 5 -862.21          156          0.63           -5.53    1468.72      62.28
+                 4 -894.39          155          0.62           -5.77    1508.93      63.50
