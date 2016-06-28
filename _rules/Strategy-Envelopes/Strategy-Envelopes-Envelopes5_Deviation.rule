@@ -1,6 +1,8 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Envelopes15_Deviation )
+strategy=Envelopes5
+param=${strategy}_Deviation
+param_list=( $param )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -12,14 +14,14 @@ input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
 # Enable strategy.
-input_set ^Envelopes15_Active 1
+input_set ^${strategy}_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test Envelopes15_Deviation.
-input_set ^Envelopes15_Deviation,F 1
-input_set ^Envelopes15_Deviation,1 $( echo $(input_get Envelopes15_Deviation) - 0.2 | bc )
-input_set ^Envelopes15_Deviation,2 0.05
-input_set ^Envelopes15_Deviation,3 $( echo $(input_get Envelopes15_Deviation) + 0.2 | bc )
+value=$(input_get $param)
+input_set ^$param,F 1
+input_set ^$param,1 $( bc <<< "if ($value - 0.2 > 0.05) $value - 0.2 else 0.05" )
+input_set ^$param,2 0.05
+input_set ^$param,3  $( bc <<< "$value + 0.2" )
 
-# $ETA: 0h$
+# $ETA:$
 # vim: set syntax=sh:
