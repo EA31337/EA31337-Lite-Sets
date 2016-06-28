@@ -15,5 +15,5 @@ input_set BoostTrendFactor,1 $( bc <<< "$(input_get BoostTrendFactor) - 0.2" )
 input_set BoostTrendFactor,2 0.1
 input_set BoostTrendFactor,3 $( bc <<< "$(input_get BoostTrendFactor) + 0.2" )
 
-# $ETA: 0h$
+# $ETA: 2h$
 # vim: set syntax=sh:
