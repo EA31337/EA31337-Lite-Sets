@@ -1,6 +1,10 @@
 ## Init settings.
+# Backtest settings.
+ini_set_ea maxdrawdown_enable 0
 # Parameter list to optimize.
-param_list=( WPR_TrailingStopMethod )
+strategy=WPR
+param=${strategy}_Period
+param_list=( ${param} )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -12,16 +16,16 @@ input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
 # Reset open methods.
-input_set ^WPR.*_OpenMethod 0
+input_set ^${strategy}.*_OpenMethod 0
 # Enable strategy.
-input_set ^WPR.*_Active 1
+input_set ^${strategy}.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test WPR_TrailingStopMethod.
-input_set ^WPR_TrailingStopMethod,F 1
-input_set ^WPR_TrailingStopMethod,1 0
-input_set ^WPR_TrailingStopMethod,2 1
-input_set ^WPR_TrailingStopMethod,3 27
+# Test ${param}.
+input_set ^${param},F 1
+input_set ^${param},1 $(( $(input_get ${param}) > 4 ? $(input_get ${param}) - 4 : 4 ))
+input_set ^${param},2 1
+input_set ^${param},3 $(( $(input_get ${param}) + 4 ))
 
-# $ETA: 1h$
+# $ETA:$
 # vim: set syntax=sh:
