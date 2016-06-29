@@ -23,5 +23,5 @@ input_set ^MACD_TrailingStopMethod,1 0
 input_set ^MACD_TrailingStopMethod,2 1
 input_set ^MACD_TrailingStopMethod,3 27
 
-# $ETA: 8h$
+# $ETA: 3h$
 # vim: set syntax=sh:
