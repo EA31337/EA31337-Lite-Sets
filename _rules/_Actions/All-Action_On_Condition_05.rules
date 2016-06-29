@@ -2,6 +2,7 @@
 # Parameter list to optimize.
 param_list=( Market_Condition_5 Action_On_Condition_5 )
 # Set backtest EA parameters.
+ini_set "^TestModel" 2
 ini_set_ea maxdrawdown 25
 # Disable all optimization settings.
 input_set .*,F 0
