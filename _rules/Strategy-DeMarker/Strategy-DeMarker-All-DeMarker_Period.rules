@@ -3,6 +3,12 @@
 strategy=DeMarker
 param=${strategy}_Period
 param_list=( $param )
+## EA settings.
+# Close all orders at 22 each day.
+input_set ^Account_Condition_1    1
+input_set ^Market_Condition_1    15
+input_set ^Action_On_Condition_1 10
+input_set ^MarketSpecificHour    22
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -21,9 +27,9 @@ input_set ^${strategy}.*_Active 1
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 value=$(input_get $param)
 input_set ^$param,F 1
-input_set ^$param,1 $(( $value > 4 ? $value - 4 : 2 ))
+input_set ^$param,1 $(( $value > 2 ? $value - 2 : 2 ))
 input_set ^$param,2 1
-input_set ^$param,3 $(( $value + 4 ))
+input_set ^$param,3 $(( $value + 2 ))
 
 # $ETA: 2h$
 # vim: set syntax=sh:
