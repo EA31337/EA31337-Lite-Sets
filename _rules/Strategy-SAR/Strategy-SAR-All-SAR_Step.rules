@@ -25,5 +25,5 @@ input_set ^$param,1 $( bc <<< "if ($value - 0.02 > 0.02) $value - 0.02 else 0.02
 input_set ^$param,2 0.01
 input_set ^$param,3 $( bc <<< "$value + 0.02" )
 
-# $ETA: 1h$
+# $ETA: 0h$
 # vim: set syntax=sh:
