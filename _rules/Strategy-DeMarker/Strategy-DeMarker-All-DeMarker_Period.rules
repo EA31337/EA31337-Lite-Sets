@@ -1,6 +1,8 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( DeMarker_Period )
+strategy=DeMarker
+param=${strategy}_Period
+param_list=( $param )
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -12,16 +14,16 @@ input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
 # Reset open methods.
-input_set ^DeMarker.*_OpenMethod 0
+input_set ^${strategy}.*_OpenMethod 0
 # Enable strategy.
-input_set ^DeMarker.*_Active 1
+input_set ^${strategy}.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test DeMarker_Period.
-input_set ^DeMarker_Period,F 1
-input_set ^DeMarker_Period,1 $(( $(input_get DeMarker_Period) > 6 ? $(input_get DeMarker_Period) - 4 : 2 ))
-input_set ^DeMarker_Period,2 1
-input_set ^DeMarker_Period,3 $(( $(input_get DeMarker_Period) + 4 ))
+value=$(input_get $param)
+input_set ^$param,F 1
+input_set ^$param,1 $(( $value > 4 ? $value - 4 : 2 ))
+input_set ^$param,2 1
+input_set ^$param,3 $(( $value + 4 ))
 
 # $ETA: 2h$
 # vim: set syntax=sh:
