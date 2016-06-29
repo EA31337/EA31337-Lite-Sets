@@ -23,5 +23,5 @@ input_set ^DeMarker_Shift,1 $(( $(input_get DeMarker_Shift) > 2 ? $(input_get De
 input_set ^DeMarker_Shift,2 1
 input_set ^DeMarker_Shift,3 $(( $(input_get DeMarker_Shift) + 2 ))
 
-# $ETA: 0h$
+# $ETA: 2h$
 # vim: set syntax=sh:
