@@ -23,5 +23,5 @@ input_set ^DeMarker_Period,1 $(( $(input_get DeMarker_Period) > 6 ? $(input_get 
 input_set ^DeMarker_Period,2 1
 input_set ^DeMarker_Period,3 $(( $(input_get DeMarker_Period) + 4 ))
 
-# $ETA:$
+# $ETA: 2h$
 # vim: set syntax=sh:
