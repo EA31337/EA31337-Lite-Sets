@@ -1,0 +1,21 @@
+## Init settings.
+# Parameter list to optimize.
+param=MarketSpecificHour
+param_list=( $param )
+# Disable all optimization settings.
+input_set .*,F 0
+
+# Close all orders at specific hour.
+input_set ^Account_Condition_1    1
+input_set ^Market_Condition_1    15
+input_set ^Action_On_Condition_1 10
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+value=$(input_get $param)
+input_set $param,F 1
+input_set $param,1 0
+input_set $param,2 1
+input_set $param,3 23
+
+# $ETA:$
+# vim: set syntax=sh:
