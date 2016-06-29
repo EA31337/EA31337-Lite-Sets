@@ -1,27 +1,22 @@
 ## Init settings.
 # Parameter list to optimize.
-strategy=Envelopes30
-param=${strategy}_Deviation
+param=StopLoss
 param_list=( $param )
 # Disable all optimization settings.
 input_set .*,F 0
-# Disable all active strategies.
-input_set .*_Active 0
 # Disable account conditions.
 input_set Account_Conditions_Active 0
 # Disable boosting.
 input_set Boosting_Enabled 0
 # Set lot size.
 input_set LotSize 0.01
-# Enable strategy.
-input_set ^${strategy}_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 value=$(input_get $param)
-input_set ^$param,F 1
-input_set ^$param,1 $( bc <<< "if ($value - 0.2 > 0.05) $value - 0.2 else 0.05" )
-input_set ^$param,2 0.05
-input_set ^$param,3  $( bc <<< "$value + 0.2" )
+input_set $param,F 1
+input_set $param,1 $(( $value > 40 ? $(( $value - 40)) : 0 ))
+input_set $param,2 20
+input_set $param,3 $(( $value + 40))
 
 # $ETA: 0h$
 # vim: set syntax=sh:
