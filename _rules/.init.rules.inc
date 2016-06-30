@@ -50,9 +50,9 @@ ea_action_set() {
 
 # Reset/set all actions.
 ea_actions_reset_all() {
-  input_set ^Account_Condition_.*   ${1:-0}
-  input_set ^Market_Condition_.*    ${2:-0}
-  input_set ^Action_On_Condition_.* ${3:-0}
+  input_set ^Account_Condition_[0-9]\\+   ${1:-0}
+  input_set ^Market_Condition_[0-9]\\+    ${2:-0}
+  input_set ^Action_On_Condition_[0-9]\\+ ${3:-0}
 }
 
 ## BOOSTING ##
