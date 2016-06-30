@@ -459,7 +459,11 @@ DeMarker30_Active,F=0
 DeMarker30_Active,1=0
 DeMarker30_Active,2=1
 DeMarker30_Active,3=1
+<<<<<<< HEAD
 DeMarker_Period=23
+=======
+DeMarker_Period=24
+>>>>>>> 0b07aec1ebddc8979b09f28357f3df1a0917cf6c
 DeMarker_Period,F=0
 DeMarker_Period,1=24
 DeMarker_Period,2=0
