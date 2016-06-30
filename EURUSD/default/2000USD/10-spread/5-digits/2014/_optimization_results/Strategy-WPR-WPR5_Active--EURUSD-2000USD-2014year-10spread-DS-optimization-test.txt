@@ -12,5 +12,5 @@
       Spread          10
                                           [Optimization Graph]
               Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 2  30.34           87          1.13            0.35     116.34       5.68
+                 2 232.63          120          1.89            1.94     103.19       4.71
                  1   0.00            0          0.00            0.00       0.00       0.00
