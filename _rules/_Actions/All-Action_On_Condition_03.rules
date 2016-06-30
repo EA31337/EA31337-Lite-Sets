@@ -5,7 +5,7 @@ param_list=( Market_Condition_3 Action_On_Condition_3 )
 ini_set "^TestModel" 2
 ini_set_ea maxdrawdown 25
 # Disable all optimization settings.
-input_set .*,F 0
+ea_optimize_all_set 0
 # Enable account conditions.
 input_set Account_Conditions_Active 1
 # Disable other actions by default.

@@ -3,9 +3,9 @@
 param1=MarketBigDropSize
 param_list=( $param1 )
 # Disable all optimization settings.
-input_set .*,F 0
+ea_optimize_all_set 0
 # Disable boosting.
-input_set Boosting_Enabled 0
+ea_boost_enabled 0
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test $param1.

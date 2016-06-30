@@ -2,13 +2,13 @@
 # Parameter list to optimize.
 param_list=( CCI15_Active )
 # Disable all optimization settings.
-input_set .*,F 0
+ea_optimize_all_set 0
 # Disable all active strategies.
 input_set .*_Active 0
 # Disable account conditions.
-input_set Account_Conditions_Active 0
+ea_actions_enabled 0
 # Disable boosting.
-input_set Boosting_Enabled 0
+ea_boost_enabled 0
 # Set lot size.
 input_set LotSize 0.01
 

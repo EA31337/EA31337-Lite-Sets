@@ -2,11 +2,11 @@
 # Parameter list to optimize.
 param_list=( WorseWeeklyStrategyDividerFactor )
 # Disable all optimization settings.
-input_set .*,F 0
+ea_optimize_all_set 0
 # Enable boosting.
 input_set Boosting_Enabled 1
 # Disable account conditions.
-input_set Account_Conditions_Active 0
+ea_actions_enabled 0
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 # Test WorseWeeklyStrategyDividerFactor.

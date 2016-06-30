@@ -3,9 +3,9 @@
 param=TrendMethodAction
 param_list=( $param )
 # Disable all optimization settings.
-input_set .*,F 0
+ea_optimize_all_set 0
 # Disable boosting.
-input_set Boosting_Enabled 0
+ea_boost_enabled 0
 # Set lot size.
 input_set LotSize 0.01
 
