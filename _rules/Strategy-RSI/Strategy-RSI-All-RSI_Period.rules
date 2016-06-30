@@ -25,5 +25,5 @@ input_set ^RSI_Period,1 $(( $(input_get RSI_Period) > 2 ? $(input_get RSI_Period
 input_set ^RSI_Period,2 1
 input_set ^RSI_Period,3 $(( $(input_get RSI_Period) + 2 ))
 
-# $ETA: 0h$
+# $ETA: 2h$
 # vim: set syntax=sh:
