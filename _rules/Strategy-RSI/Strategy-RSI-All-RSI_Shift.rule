@@ -4,7 +4,7 @@ strategy=RSI
 param=${strategy}_Shift
 param_list=( $param )
 ## EA settings.
-close_all_orders_at 22
+ea_orders_close_all_at 22
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.

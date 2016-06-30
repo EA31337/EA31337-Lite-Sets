@@ -2,19 +2,18 @@
 # Parameter list to optimize.
 param=MarketSpecificHour
 param_list=( $param )
+#
 # Disable all optimization settings.
-input_set .*,F 0
+ea_optimize_all_set 0
 
-# Close all orders at specific hour.
-input_set ^Account_Condition_1    1
-input_set ^Market_Condition_1    15
-input_set ^Action_On_Condition_1 10
+# Enable conditional actions.
+ea_actions_all_set 1
 
-## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-input_set $param,F 1
-input_set $param,1 0
-input_set $param,2 1
-input_set $param,3 23
+# Set action to close all orders at specific hour.
+ea_action_set 1 15 10
+
+# Optimization rules.
+ea_optimize_param_set $param 0 23 1
 
 # $ETA: 0h$
 # vim: set syntax=sh:

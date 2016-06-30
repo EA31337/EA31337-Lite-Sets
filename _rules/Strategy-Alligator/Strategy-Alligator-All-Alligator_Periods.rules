@@ -1,9 +1,9 @@
 ## Init settings.
 # Parameter list to optimize.
 strategy=Alligator
-param1=${strategy}_Period_Jaw
+param1=${strategy}_Period_Lips
 param2=${strategy}_Period_Teeth
-param3=${strategy}_Period_Lips
+param3=${strategy}_Period_Jaw
 param_list=( ${strategy}_${param1} ${strategy}_${param2} ${strategy}_${param3} )
 # Disable all optimization settings.
 input_set .*,F 0
@@ -23,7 +23,7 @@ input_set ^${strategy}.*_Active 1
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 value1=$(input_get ${param1})
 input_set ^${param1},F 1
-input_set ^${param1},1 $(( $value1  > 2 ? $(( $value1 - 1 )) : 2 ))
+input_set ^${param1},1 $(( $value1  > 1 ? $(( $value1 - 1 )) : 1 ))
 input_set ^${param1},2 1
 input_set ^${param1},3 $(( $value1 + 1 )
 value2=$(input_get ${param2})
@@ -33,7 +33,7 @@ input_set ^${param2},2 1
 input_set ^${param2},3 $(( $value2 + 1 )
 value3=$(input_get ${param3})
 input_set ^${param3},F 1
-input_set ^${param3},1 $(( $value3  > 2 ? $(( $value3 - 1 )) : 2 ))
+input_set ^${param3},1 $(( $value3  > 3 ? $(( $value3 - 1 )) : 3 ))
 input_set ^${param3},2 1
 input_set ^${param3},3 $(( $value3 + 1 )
 
