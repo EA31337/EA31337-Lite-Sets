@@ -3,6 +3,8 @@
 strategy=MACD
 param=${strategy}_Period_Fast
 param_list=( ${param} )
+## EA settings.
+close_all_orders_at 22
 # Disable all optimization settings.
 input_set .*,F 0
 # Disable all active strategies.
@@ -15,6 +17,8 @@ input_set Boosting_Enabled 0
 input_set LotSize 0.01
 # Reset open methods.
 input_set ^${strategy}.*_OpenMethod 0
+# Reset open level.
+input_set ^${strategy}_OpenLevel 0
 # Enable strategy.
 input_set ^${strategy}.*_Active 1
 
