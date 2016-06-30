@@ -6,26 +6,26 @@ param_list=( ${param} )
 ## EA settings.
 ea_orders_close_all_at 22
 # Disable all optimization settings.
-input_set .*,F 0
+ea_optimize_all_set 0
 # Disable all active strategies.
-input_set .*_Active 0
+ea_strategies_enabled 0
 # Disable account conditions.
-input_set Account_Conditions_Active 0
+ea_actions_all_set 0
 # Disable boosting.
-input_set Boosting_Enabled 0
+ea_boost_enabled 0
 # Set lot size.
-input_set LotSize 0.01
+ea_lotsize_set 0.01
 # Reset open methods.
-input_set ^${strategy}.*_OpenMethod 0
+ea_strategies_param_set ${strategy} OpenMethod 0
 # Enable strategy.
-input_set ^${strategy}.*_Active 1
+ea_strategy_enabled ${strategy} 1
+
+# Optimization rules.
+ea_optimize_param_set ${param}
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 value=$(input_get ${param})
-input_set ^${param},F 1
-input_set ^${param},1 $(( $value - 2 > 2 ? $(( $value - 2 )) : 1 ))
-input_set ^${param},2 1
-input_set ^${param},3 $(( $value + 2))
+ea_optimize_param_set ${param} $(( $value - 2 > 2 ? $(( $value - 2 )) : 1 )) $(( $value + 2)) 1
 
 # $ETA: 1h$
 # vim: set syntax=sh:

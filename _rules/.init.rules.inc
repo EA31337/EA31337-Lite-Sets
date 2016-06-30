@@ -28,6 +28,12 @@ ea_orders_close_all_at() {
   input_set ^MarketSpecificHour    hour
 }
 
+## TRADE ##
+
+ea_lotsize_set() {
+  input_set ^LotSize $1
+}
+
 ## ACTIONS ##
 
 # Enables/disables account conditional actions.
@@ -40,6 +46,32 @@ ea_action_set() {
   input_set ^Account_Condition_1   $1
   input_set ^Market_Condition_1    $2
   input_set ^Action_On_Condition_1 $3
+}
+
+## BOOSTING ##
+
+# Enables/disables boosting.
+ea_boost_enabled() {
+  input_set ^Boosting_Enabled $1
+}
+
+## STRATEGIES ##
+
+# Enables/disables strategies.
+ea_strategies_enabled() {
+  input_set .*_Active $1
+}
+
+# Set strategy parameters.
+ea_strategies_param_set() {
+  local strategy=$1
+  local pattern=$2
+  local value=$3
+  input_set ^${strategy}.*_${pattern} $3
+}
+
+ea_strategy_enabled() {
+  input_set ^$1.*_Active ${2:-1}
 }
 
 ## MISC ##
