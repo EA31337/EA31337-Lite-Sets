@@ -31,5 +31,5 @@ input_set ^$param,1 $(( $value > 4 ? $value - 4 : 2 ))
 input_set ^$param,2 2
 input_set ^$param,3 $(( $value + 4 ))
 
-# $ETA: 0h$
+# $ETA: 1h$
 # vim: set syntax=sh:
