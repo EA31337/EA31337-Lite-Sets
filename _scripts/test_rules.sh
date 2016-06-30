@@ -18,4 +18,5 @@ cd "$ROOT"
 find "$ROOT" -type f -name "*$1*.rule" -print0 | sort -z | while IFS= read -r -d '' rule_file; do
   echo "Testing $(basename ${rule_file} .rule)..."
   . "$rule_file"
-done && echo OK
+done
+echo $0 OK

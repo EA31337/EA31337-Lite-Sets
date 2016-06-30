@@ -48,6 +48,13 @@ ea_action_set() {
   input_set ^Action_On_Condition_1 $3
 }
 
+# Reset/set all actions.
+ea_actions_reset_all() {
+  input_set ^Account_Condition_.*   ${1:-0}
+  input_set ^Market_Condition_.*    ${2:-0}
+  input_set ^Action_On_Condition_.* ${3:-0}
+}
+
 ## BOOSTING ##
 
 # Enables/disables boosting.

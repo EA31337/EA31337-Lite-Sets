@@ -6,8 +6,9 @@ param_list=( $param )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 
-# Enable conditional actions.
+# Enable and reset conditional actions.
 ea_actions_enabled 1
+ea_actions_reset_all
 
 # Set action to close all orders at specific hour.
 ea_action_set 1 15 10
