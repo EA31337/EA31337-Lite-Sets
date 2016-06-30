@@ -1,0 +1,23 @@
+## Init settings.
+# Parameter list to optimize.
+param1=Market_Condition_1
+param2=Market_Condition_2
+param3=Market_Condition_3
+param4=Market_Condition_4
+param5=Market_Condition_5
+param_list=( ${param1} ${param2} ${param3} ${param4} ${param5} )
+# Set backtest EA parameters.
+ini_set_ea maxdrawdown 50
+# Disable all optimization settings.
+ea_optimize_all_set 0
+# Enable account conditions.
+ea_actions_enabled 1
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+for param in "${param_list[@]}"; do
+  value=$(input_get ${param})
+  ea_optimize_param_set ${param} 0 ${value} ${value}
+done
+
+# $ETA:$
+# vim: set syntax=sh:
