@@ -22,7 +22,7 @@ input_set ^Bands.*_Active 1
 # Test Bands Period.
 input_set ^Bands_Period,F 1
 input_set ^Bands_Period,1 $( echo $(input_get Bands_Period) - 4 | bc )
-input_set ^Bands_Period,2 1
+input_set ^Bands_Period,2 2
 input_set ^Bands_Period,3 $( echo $(input_get Bands_Period) + 4 | bc )
 
 # $ETA: 0h$

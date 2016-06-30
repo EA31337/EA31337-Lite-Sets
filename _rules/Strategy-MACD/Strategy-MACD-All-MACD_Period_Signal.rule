@@ -10,7 +10,7 @@ ea_optimize_all_set 0
 # Disable all active strategies.
 ea_strategies_enabled 0
 # Disable account conditions.
-ea_actions_all_set 0
+ea_actions_enabled 0
 # Disable boosting.
 ea_boost_enabled 0
 # Set lot size.

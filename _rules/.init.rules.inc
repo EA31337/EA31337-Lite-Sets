@@ -37,7 +37,7 @@ ea_lotsize_set() {
 ## ACTIONS ##
 
 # Enables/disables account conditional actions.
-ea_actions_all_set() {
+ea_actions_enabled() {
   input_set Account_Conditions_Active $1
 }
 
