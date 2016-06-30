@@ -45,6 +45,7 @@ install:
 - sudo env PATH="$PATH" secur32_fix.sh
 before_script:
 - find "$CWD" -name "*.rules" -exec bash -n "{}" ';'
+- test_rules.sh
 script:
 - run_test.sh "$INI" -E VerboseInfo=0
 after_success:

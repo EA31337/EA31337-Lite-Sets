@@ -24,8 +24,8 @@ ea_optimize_param_set() {
 # Close all orders at the given hour.
 ea_orders_close_all_at() {
   local hour=${1:-22}
-  set_action 1 15 10
-  input_set ^MarketSpecificHour    hour
+  ea_action_set 1 15 10
+  input_set ^MarketSpecificHour hour
 }
 
 ## TRADE ##
