@@ -21,10 +21,11 @@ input_set ^${strategy}.*_OpenMethod 0
 input_set ^${strategy}.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+value=$(input_get ${param})
 input_set ^${param},F 1
-input_set ^${param},1 $(( $(input_get ${param}) > 2 ? $(( $(input_get ${param}) - 2)) : 0 ))
+input_set ^${param},1 $(( $value - 2 > 2 ? $(( $value - 2 )) : 2 ))
 input_set ^${param},2 1
-input_set ^${param},3 $(( $(input_get ${param}) + 2))
+input_set ^${param},3 $(( $value + 2))
 
 # $ETA:$
 # vim: set syntax=sh:
