@@ -29,5 +29,5 @@ input_set ^${param},1 $(( $value - 2 > 2 ? $(( $value - 2 )) : 1 ))
 input_set ^${param},2 1
 input_set ^${param},3 $(( $value + 2))
 
-# $ETA: 1h$
+# $ETA: 2h$
 # vim: set syntax=sh:
