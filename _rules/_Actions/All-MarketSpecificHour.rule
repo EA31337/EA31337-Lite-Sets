@@ -16,5 +16,5 @@ ea_set_action 1 15 10
 # Optimization rules.
 ea_set_optimize_param $param 0 23 1
 
-# $ETA: 0h$
+# $ETA: 1h$
 # vim: set syntax=sh:
