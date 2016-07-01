@@ -12,7 +12,7 @@ ea_actions_enabled 0
 # Disable boosting.
 ea_boost_enabled 0
 # Set lot size.
-input_set LotSize 0.01
+ea_set_lotsize 0.01
 # Reset open methods.
 input_set ^Bands.*_OpenMethod 0
 # Enable Bands strategies.

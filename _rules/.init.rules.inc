@@ -24,13 +24,13 @@ ea_optimize_param_set() {
 # Close all orders at the given hour.
 ea_orders_close_all_at() {
   local hour=${1:-22}
-  ea_action_set 1 15 10
+  ea_set_action 1 15 10
   input_set ^MarketSpecificHour hour
 }
 
 ## TRADE ##
 
-ea_lotsize_set() {
+ea_set_lotsize() {
   input_set ^LotSize $1
 }
 
@@ -41,18 +41,18 @@ ea_actions_enabled() {
   input_set Account_Conditions_Active $1
 }
 
-# Set action with the specific condition.
-ea_action_set() {
-  input_set ^Account_Condition_1   $1
-  input_set ^Market_Condition_1    $2
-  input_set ^Action_On_Condition_1 $3
-}
-
 # Reset/set all actions.
 ea_actions_reset_all() {
   input_set ^Account_Condition_[0-9]\\+   ${1:-0}
   input_set ^Market_Condition_[0-9]\\+    ${2:-0}
   input_set ^Action_On_Condition_[0-9]\\+ ${3:-0}
+}
+
+# Set action with the specific condition.
+ea_set_action() {
+  input_set ^Account_Condition_1   $1
+  input_set ^Market_Condition_1    $2
+  input_set ^Action_On_Condition_1 $3
 }
 
 ## BOOSTING ##

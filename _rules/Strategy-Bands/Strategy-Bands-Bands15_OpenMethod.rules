@@ -12,16 +12,12 @@ ea_actions_enabled 0
 # Disable boosting.
 ea_boost_enabled 0
 # Set lot size.
-input_set LotSize 0.01
+ea_set_lotsize 0.01
 # Enable strategy.
 input_set ^Bands15_Active 1
 
-## Optimization settings.
-# Test Bands OpenMethod.
-input_set ^$param,F 1
-input_set ^$param,1 0
-input_set ^$param,2 7
-input_set ^$param,3 255
+## Optimization rules.
+ea_optimize_param_set ${param} 0 255 7
 
 # $ETA:$
 # vim: set syntax=sh:
