@@ -6,7 +6,7 @@ ea_orders_close_all_at 22
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
-input_set .*_Active 0
+ea_strategies_enabled 0
 # Disable account conditions.
 ea_actions_enabled 0
 # Disable boosting.

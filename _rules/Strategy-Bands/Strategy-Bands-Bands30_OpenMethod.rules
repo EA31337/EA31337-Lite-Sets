@@ -1,10 +1,12 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Bands30_OpenMethod )
+strategy=Bands30
+param=${strategy}_OpenMethod
+param_list=( $param )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
-input_set .*_Active 0
+ea_strategies_enabled 0
 # Disable account conditions.
 ea_actions_enabled 0
 # Disable boosting.
@@ -16,10 +18,10 @@ input_set ^Bands30_Active 1
 
 ## Optimization settings.
 # Test Bands OpenMethod.
-input_set ^Bands30_OpenMethod,F 1
-input_set ^Bands30_OpenMethod,1 0
-input_set ^Bands30_OpenMethod,2 7
-input_set ^Bands30_OpenMethod,3 255
+input_set ^$param,F 1
+input_set ^$param,1 0
+input_set ^$param,2 7
+input_set ^$param,3 255
 
 # $ETA:$
 # vim: set syntax=sh:

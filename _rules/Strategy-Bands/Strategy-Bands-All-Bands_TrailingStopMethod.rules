@@ -7,7 +7,7 @@ param_list=( $param )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
-input_set .*_Active 0
+ea_strategies_enabled 0
 # Disable boosting.
 ea_boost_enabled 0
 # Disable account conditions.
