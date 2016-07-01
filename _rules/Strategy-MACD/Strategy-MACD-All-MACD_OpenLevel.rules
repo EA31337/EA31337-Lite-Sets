@@ -12,7 +12,7 @@ ea_boost_enabled 0
 # Set lot size.
 ea_set_lotsize 0.01
 # Reset open methods.
-input_set ^MACD.*_OpenMethod 0
+input_set ^MACD.*_SignalMethod 0
 # Enable strategy.
 input_set ^MACD.*_Active 1
 

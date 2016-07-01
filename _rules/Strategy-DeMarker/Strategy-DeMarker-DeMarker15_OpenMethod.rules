@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( DeMarker15_OpenMethod )
+param_list=( DeMarker15_SignalMethod )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -15,11 +15,11 @@ ea_set_lotsize 0.01
 input_set ^DeMarker15_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test DeMarker15_OpenMethod.
-input_set ^DeMarker15_OpenMethod,F 1
-input_set ^DeMarker15_OpenMethod,1 0
-input_set ^DeMarker15_OpenMethod,2 3
-input_set ^DeMarker15_OpenMethod,3 31
+# Test DeMarker15_SignalMethod.
+input_set ^DeMarker15_SignalMethod,F 1
+input_set ^DeMarker15_SignalMethod,1 0
+input_set ^DeMarker15_SignalMethod,2 3
+input_set ^DeMarker15_SignalMethod,3 31
 
 # $ETA: 2h$
 # vim: set syntax=sh:

@@ -1,7 +1,7 @@
 ## Init settings.
 # Parameter list to optimize.
 strategy=Bands30
-param=${strategy}_OpenMethod
+param=${strategy}_SignalMethod
 param_list=( $param )
 # Disable all optimization settings.
 ea_optimize_all_set 0

@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( AC1_OpenMethod )
+param_list=( AC1_SignalMethod )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -15,11 +15,11 @@ ea_set_lotsize 0.01
 input_set ^AC1_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test AC1_OpenMethod.
-input_set ^AC1_OpenMethod,F 1
-input_set ^AC1_OpenMethod,1 0
-input_set ^AC1_OpenMethod,2 1
-input_set ^AC1_OpenMethod,3 15
+# Test AC1_SignalMethod.
+input_set ^AC1_SignalMethod,F 1
+input_set ^AC1_SignalMethod,1 0
+input_set ^AC1_SignalMethod,2 1
+input_set ^AC1_SignalMethod,3 15
 
 # $ETA:$
 # vim: set syntax=sh:

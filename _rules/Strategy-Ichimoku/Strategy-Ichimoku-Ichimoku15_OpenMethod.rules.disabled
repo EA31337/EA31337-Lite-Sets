@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Ichimoku15_OpenMethod )
+param_list=( Ichimoku15_SignalMethod )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -15,11 +15,11 @@ ea_set_lotsize 0.01
 input_set ^Ichimoku15_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test Ichimoku15_OpenMethod.
-input_set ^Ichimoku15_OpenMethod,F 1
-input_set ^Ichimoku15_OpenMethod,1 0
-input_set ^Ichimoku15_OpenMethod,2 1
-input_set ^Ichimoku15_OpenMethod,3 31
+# Test Ichimoku15_SignalMethod.
+input_set ^Ichimoku15_SignalMethod,F 1
+input_set ^Ichimoku15_SignalMethod,1 0
+input_set ^Ichimoku15_SignalMethod,2 1
+input_set ^Ichimoku15_SignalMethod,3 31
 
 # $ETA:$
 # vim: set syntax=sh:

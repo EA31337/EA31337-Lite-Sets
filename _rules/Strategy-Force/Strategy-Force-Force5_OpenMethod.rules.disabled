@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Force5_OpenMethod )
+param_list=( Force5_SignalMethod )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -15,11 +15,11 @@ ea_set_lotsize 0.01
 input_set ^Force5_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test Force5_OpenMethod.
-input_set ^Force5_OpenMethod,F 1
-input_set ^Force5_OpenMethod,1 0
-input_set ^Force5_OpenMethod,2 1
-input_set ^Force5_OpenMethod,3 31
+# Test Force5_SignalMethod.
+input_set ^Force5_SignalMethod,F 1
+input_set ^Force5_SignalMethod,1 0
+input_set ^Force5_SignalMethod,2 1
+input_set ^Force5_SignalMethod,3 31
 
 # $ETA: 0h$
 # vim: set syntax=sh:

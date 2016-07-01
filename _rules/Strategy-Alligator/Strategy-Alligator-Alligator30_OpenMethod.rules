@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Alligator30_OpenMethod )
+param_list=( Alligator30_SignalMethod )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -15,11 +15,11 @@ ea_set_lotsize 0.01
 input_set ^Alligator30_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test Alligator30_OpenMethod.
-input_set ^Alligator30_OpenMethod,F 1
-input_set ^Alligator30_OpenMethod,1 0
-input_set ^Alligator30_OpenMethod,2 3
-input_set ^Alligator30_OpenMethod,3 63
+# Test Alligator30_SignalMethod.
+input_set ^Alligator30_SignalMethod,F 1
+input_set ^Alligator30_SignalMethod,1 0
+input_set ^Alligator30_SignalMethod,2 3
+input_set ^Alligator30_SignalMethod,3 63
 
 # $ETA:$
 # vim: set syntax=sh:

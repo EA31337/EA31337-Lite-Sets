@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( MA1_OpenMethod )
+param_list=( MA1_SignalMethod )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -15,11 +15,11 @@ ea_set_lotsize 0.01
 input_set ^MA1_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test MA1_OpenMethod.
-input_set ^MA1_OpenMethod,F 1
-input_set ^MA1_OpenMethod,1 0
-input_set ^MA1_OpenMethod,2 7
-input_set ^MA1_OpenMethod,3 127
+# Test MA1_SignalMethod.
+input_set ^MA1_SignalMethod,F 1
+input_set ^MA1_SignalMethod,1 0
+input_set ^MA1_SignalMethod,2 7
+input_set ^MA1_SignalMethod,3 127
 
 # $ETA: 3h$
 # vim: set syntax=sh:
