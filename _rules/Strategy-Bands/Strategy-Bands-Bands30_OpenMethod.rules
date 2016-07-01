@@ -17,7 +17,7 @@ ea_set_lotsize 0.01
 input_set ^Bands30_Active 1
 
 ## Optimization rules.
-ea_optimize_param_set ${param} 0 255 7
+ea_set_optimize_param ${param} 0 255 7
 
 # $ETA:$
 # vim: set syntax=sh:

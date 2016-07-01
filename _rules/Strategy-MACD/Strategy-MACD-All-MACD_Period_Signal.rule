@@ -21,11 +21,11 @@ ea_set_strategy_param ${strategy} OpenMethod 0
 ea_strategy_enabled ${strategy} 1
 
 # Optimization rules.
-ea_optimize_param_set ${param}
+ea_set_optimize_param ${param}
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 value=$(input_get ${param})
-ea_optimize_param_set ${param} $(( $value - 2 > 2 ? $(( $value - 2 )) : 1 )) $(( $value + 2)) 1
+ea_set_optimize_param ${param} $(( $value - 2 > 2 ? $(( $value - 2 )) : 1 )) $(( $value + 2)) 1
 
 # $ETA: 1h$
 # vim: set syntax=sh:

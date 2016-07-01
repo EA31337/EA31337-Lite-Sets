@@ -9,7 +9,7 @@ ea_optimize_all_set() {
 }
 
 # Optimize specific parameter.
-ea_optimize_param_set() {
+ea_set_optimize_param() {
   local param=$1
   local start=$2
   local end=$3

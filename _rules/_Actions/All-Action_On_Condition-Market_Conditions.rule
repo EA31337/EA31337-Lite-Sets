@@ -16,7 +16,7 @@ ea_actions_enabled 1
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 for param in "${param_list[@]}"; do
   value=$(input_get ${param})
-  ea_optimize_param_set ${param} 0 ${value} ${value}
+  ea_set_optimize_param ${param} 0 ${value} ${value}
 done
 
 # $ETA:$
