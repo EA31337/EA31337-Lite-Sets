@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-strategy=Bands30
+strategy=Bands1
 param=${strategy}_OpenMethod
 param_list=( $param )
 # Disable all optimization settings.
@@ -13,11 +13,13 @@ ea_actions_enabled 0
 ea_boost_enabled 0
 # Set lot size.
 ea_set_lotsize 0.01
+# Close orders at 22.
+ea_orders_close_all_at 22
 # Enable strategy.
-input_set ^Bands30_Active 1
+ea_strategy_enabled ${strategy}
 
 ## Optimization rules.
 ea_set_optimize_param ${param} 0 255 7
 
-# $ETA:$
+# $ETA: 0h$
 # vim: set syntax=sh:

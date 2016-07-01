@@ -14,7 +14,7 @@ ea_actions_enabled 0
 # Disable boosting.
 ea_boost_enabled 0
 # Set lot size.
-ea_lotsize_set 0.01
+ea_set_lotsize 0.01
 # Reset open methods.
 ea_set_strategy_param ${strategy} OpenMethod 0
 # Enable strategy.
