@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Alligator_Shift Alligator_Shift_Far Alligator_Jaw_Shift Alligator_Teeth_Shift Alligator_Lips_Shift )
+param_list=( Alligator_Shift Alligator_Shift_Far Alligator_Shift_Jaw Alligator_Shift_Teeth Alligator_Shift_Lips )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -27,21 +27,21 @@ input_set ^Alligator_Shift_Far,F 1
 input_set ^Alligator_Shift_Far,1 $(( $(input_get Alligator_Shift_Far) > 1 ? $(($(input_get Alligator_Shift_Far) - 1)) : 0 ))
 input_set ^Alligator_Shift_Far,2 1
 input_set ^Alligator_Shift_Far,3 $(($(input_get Alligator_Shift_Far) + 1))
-# Test Alligator_Jaw_Shift.
-input_set ^Alligator_Jaw_Shift,F 1
-input_set ^Alligator_Jaw_Shift,1 $(( $(input_get Alligator_Jaw_Shift) > 1 ? $(($(input_get Alligator_Jaw_Shift) - 1)) : 0 ))
-input_set ^Alligator_Jaw_Shift,2 1
-input_set ^Alligator_Jaw_Shift,3 $(($(input_get Alligator_Jaw_Shift) + 1))
-# Test Alligator_Teeth_Shift.
-input_set ^Alligator_Teeth_Shift,F 1
-input_set ^Alligator_Teeth_Shift,1 $(( $(input_get Alligator_Teeth_Shift) > 1 ? $(($(input_get Alligator_Teeth_Shift) - 1)) : 0 ))
-input_set ^Alligator_Teeth_Shift,2 1
-input_set ^Alligator_Teeth_Shift,3 $(($(input_get Alligator_Teeth_Shift) + 1))
-# Test Alligator_Lips_Shift.
-input_set ^Alligator_Lips_Shift,F 1
-input_set ^Alligator_Lips_Shift,1 $(( $(input_get Alligator_Lips_Shift) > 1 ? $(($(input_get Alligator_Lips_Shift) - 1)) : 0 ))
-input_set ^Alligator_Lips_Shift,2 1
-input_set ^Alligator_Lips_Shift,3 $(($(input_get Alligator_Lips_Shift) + 1))
+# Test Alligator_Shift_Jaw.
+input_set ^Alligator_Shift_Jaw,F 1
+input_set ^Alligator_Shift_Jaw,1 $(( $(input_get Alligator_Shift_Jaw) > 1 ? $(($(input_get Alligator_Shift_Jaw) - 1)) : 0 ))
+input_set ^Alligator_Shift_Jaw,2 1
+input_set ^Alligator_Shift_Jaw,3 $(($(input_get Alligator_Shift_Jaw) + 1))
+# Test Alligator_Shift_Teeth.
+input_set ^Alligator_Shift_Teeth,F 1
+input_set ^Alligator_Shift_Teeth,1 $(( $(input_get Alligator_Shift_Teeth) > 1 ? $(($(input_get Alligator_Shift_Teeth) - 1)) : 0 ))
+input_set ^Alligator_Shift_Teeth,2 1
+input_set ^Alligator_Shift_Teeth,3 $(($(input_get Alligator_Shift_Teeth) + 1))
+# Test Alligator_Shift_Lips.
+input_set ^Alligator_Shift_Lips,F 1
+input_set ^Alligator_Shift_Lips,1 $(( $(input_get Alligator_Shift_Lips) > 1 ? $(($(input_get Alligator_Shift_Lips) - 1)) : 0 ))
+input_set ^Alligator_Shift_Lips,2 1
+input_set ^Alligator_Shift_Lips,3 $(($(input_get Alligator_Shift_Lips) + 1))
 
 # $ETA: 2h$
 # vim: set syntax=sh:
