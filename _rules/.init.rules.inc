@@ -70,7 +70,7 @@ ea_strategies_enabled() {
 }
 
 # Set strategy parameters.
-ea_strategies_param_set() {
+ea_set_strategy_param() {
   local strategy=$1
   local pattern=$2
   local value=$3
