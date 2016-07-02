@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param=MinProfitFactorToTrade
+param=ProfitFactorMaxToTrade
 param_list=( ${param} )
 # Disable all optimization settings.
 ea_optimize_all_set 0
@@ -15,7 +15,7 @@ ea_set_lotsize 0.01
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 value=$(input_get ${param})
-ea_set_optimize_param ${param} $( bc <<< "$value - 0.2" ) $( bc <<< "$value + 0.2" ) 0.1
+ea_set_optimize_param ${param} $( bc <<< "$value - 0.4" ) $( bc <<< "$value + 0.4" ) 0.2
 
 # $ETA:$
 # vim: set syntax=sh:
