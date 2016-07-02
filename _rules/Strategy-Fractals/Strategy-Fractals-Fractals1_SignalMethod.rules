@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Fractals5_SignalMethod )
+param_list=( Fractals1_SignalMethod )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -12,14 +12,14 @@ ea_boost_enabled 0
 # Set lot size.
 ea_set_lotsize 0.01
 # Enable strategy.
-input_set ^Fractals5_Active 1
+input_set ^Fractals1_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test Fractals5_SignalMethod.
-input_set ^Fractals5_SignalMethod,F 1
-input_set ^Fractals5_SignalMethod,1 0
-input_set ^Fractals5_SignalMethod,2 1
-input_set ^Fractals5_SignalMethod,3 1
+# Test Fractals1_SignalMethod.
+input_set ^Fractals1_SignalMethod,F 1
+input_set ^Fractals1_SignalMethod,1 0
+input_set ^Fractals1_SignalMethod,2 1
+input_set ^Fractals1_SignalMethod,3 7
 
 # $ETA: 0h$
 # vim: set syntax=sh:
