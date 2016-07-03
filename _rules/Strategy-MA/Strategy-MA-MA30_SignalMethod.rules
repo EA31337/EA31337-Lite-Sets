@@ -3,6 +3,8 @@
 param_list=( MA30_SignalMethod )
 ## Backtest settings.
 ini_set ^TestPeriod M30
+## EA settings.
+ea_orders_close_all_at 22
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -20,7 +22,7 @@ input_set ^MA30_Active 1
 # Test MA30_SignalMethod.
 input_set ^MA30_SignalMethod,F 1
 input_set ^MA30_SignalMethod,1 0
-input_set ^MA30_SignalMethod,2 7
+input_set ^MA30_SignalMethod,2 3
 input_set ^MA30_SignalMethod,3 127
 
 # $ETA: 0h$
