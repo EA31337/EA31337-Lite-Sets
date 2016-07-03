@@ -2,7 +2,7 @@
 # Parameter list to optimize.
 param_list=( CCI15_Active )
 ## Backtest settings.
-ini_set ^TestPeriod M15
+#ini_set ^TestPeriod M15
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.

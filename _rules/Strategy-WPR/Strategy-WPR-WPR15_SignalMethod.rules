@@ -2,7 +2,9 @@
 # Parameter list to optimize.
 param_list=( WPR15_SignalMethod )
 ## Backtest settings.
-ini_set ^TestPeriod M15
+#ini_set ^TestPeriod M15
+## EA settings.
+ea_orders_close_all_at 22
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -23,5 +25,5 @@ input_set ^WPR15_SignalMethod,1 0
 input_set ^WPR15_SignalMethod,2 7
 input_set ^WPR15_SignalMethod,3 63
 
-# $ETA: 1h$
+# $ETA: 0h$
 # vim: set syntax=sh:

@@ -2,7 +2,9 @@
 # Parameter list to optimize.
 param_list=( RSI5_SignalMethod )
 ## Backtest settings.
-ini_set ^TestPeriod M5
+#ini_set ^TestPeriod M5
+## EA settings.
+ea_orders_close_all_at 22
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
