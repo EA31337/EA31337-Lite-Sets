@@ -4,7 +4,7 @@ strategy=Envelopes30
 param=${strategy}_Deviation
 param_list=( $param )
 ## Backtest settings.
-ini_set ^TestPeriod M30
+#ini_set ^TestPeriod M30
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
