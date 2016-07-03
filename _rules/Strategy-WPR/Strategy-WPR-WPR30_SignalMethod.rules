@@ -23,5 +23,5 @@ input_set ^WPR30_SignalMethod,1 0
 input_set ^WPR30_SignalMethod,2 7
 input_set ^WPR30_SignalMethod,3 63
 
-# $ETA: 1h$
+# $ETA: 0h$
 # vim: set syntax=sh:
