@@ -1,6 +1,8 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( AD1_Active )
+param_list=( AD15_Active )
+## Backtest settings.
+#ini_set ^TestPeriod M15
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -13,11 +15,11 @@ ea_boost_enabled 0
 ea_set_lotsize 0.01
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test AD1_Active.
-input_set ^AD1_Active,F 1
-input_set ^AD1_Active,1 0
-input_set ^AD1_Active,2 1
-input_set ^AD1_Active,3 1
+# Test AD15_Active.
+input_set ^AD15_Active,F 1
+input_set ^AD15_Active,1 0
+input_set ^AD15_Active,2 1
+input_set ^AD15_Active,3 1
 
 # $ETA:$
 # vim: set syntax=sh:

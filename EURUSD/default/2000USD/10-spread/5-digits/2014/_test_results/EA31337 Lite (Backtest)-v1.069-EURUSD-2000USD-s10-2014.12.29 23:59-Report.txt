@@ -1,0 +1,58 @@
+Initial deposit:                            0.00
+Total net profit:                           0.00
+Gross profit:                               0.00
+Gross loss:                                 0.00
+Profit factor:                              3.25
+Expected payoff:                            14.34
+Absolute drawdown:                          1232.84
+Maximal drawdown:                           0.0 (71.1%)
+Relative drawdown:                          (71.1%) 0.0
+Trades total                                533
+Short positions (won %):                    396 (52.3%)
+Long positions (won %):                     137 (36.5%)
+Profit trades (% of total):                 257 (48.2%)
+Loss trades (% of total):                   276 (51.8%)
+Largest profit trade:                       304.12
+Largest loss trade:                         -170.33
+Average profit trade:                       42.94
+Average loss trade:                         -12.29
+Average consecutive wins:                   3.00
+Average consecutive losses:                 3.00
+Maximum consecutive wins (profit in money): 55 6741.58
+Maximum consecutive losses (loss in money): 24 -1384.79
+Maximal consecutive profit (count of wins): 6741.58 55
+Maximal consecutive loss (count of losses): 1384.79 24
+Strategy stats: 
+Profit factor: 1.00, Total net profit: -44.98pips (+141.84/-186.82), Total orders: 10 (Won: 80.0% [8] / Loss: 20.0% [2]) - Alligator M1
+Profit factor: 0.44, Total net profit: -167.41pips (+129.58/-296.99), Total orders: 11 (Won: 63.6% [7] / Loss: 36.4% [4]) - Alligator M5
+Profit factor: 0.40, Total net profit: -50.74pips (+34.40/-85.14), Total orders: 11 (Won: 18.2% [2] / Loss: 81.8% [9]) - DeMarker M1
+Profit factor: 0.20, Total net profit: -237.13pips (+57.96/-295.09), Total orders: 14 (Won: 28.6% [4] / Loss: 71.4% [10]) - DeMarker M5
+Profit factor: 0.87, Total net profit: -8.26pips (+55.68/-63.95), Total orders: 75 (Won: 34.7% [26] / Loss: 65.3% [49]) - Envelopes M1
+Profit factor: 1.84, Total net profit: 151.37pips (+331.77/-180.40), Total orders: 172 (Won: 37.8% [65] / Loss: 62.2% [107]) - Envelopes M5
+Profit factor: 20.23, Total net profit: 256.41pips (+269.74/-13.33), Total orders: 14 (Won: 78.6% [11] / Loss: 21.4% [3]) - Fractals M1
+Profit factor: 0.55, Total net profit: -41.71pips (+50.33/-92.04), Total orders: 11 (Won: 36.4% [4] / Loss: 63.6% [7]) - Fractals M5
+Profit factor: 0.42, Total net profit: -197.89pips (+144.49/-342.38), Total orders: 15 (Won: 46.7% [7] / Loss: 53.3% [8]) - MA M1
+Profit factor: 0.04, Total net profit: -555.77pips (+25.46/-581.23), Total orders: 15 (Won: 26.7% [4] / Loss: 73.3% [11]) - MA M5
+Profit factor: 1.35, Total net profit: 28.09pips (+109.25/-81.16), Total orders: 14 (Won: 50.0% [7] / Loss: 50.0% [7]) - MACD M1
+Profit factor: 0.67, Total net profit: -60.88pips (+121.05/-181.93), Total orders: 11 (Won: 54.5% [6] / Loss: 45.5% [5]) - MACD M5
+Profit factor: 0.48, Total net profit: -1.18pips (+1.11/-2.29), Total orders: 11 (Won: 27.3% [3] / Loss: 72.7% [8]) - RSI M1
+Profit factor: 0.06, Total net profit: -4.63pips (+0.31/-4.94), Total orders: 11 (Won: 27.3% [3] / Loss: 72.7% [8]) - RSI M5
+Profit factor: 15.29, Total net profit: 1112.48pips (+1190.31/-77.83), Total orders: 23 (Won: 73.9% [17] / Loss: 26.1% [6]) - SAR M1
+Profit factor: 3.18, Total net profit: 815.97pips (+1189.93/-373.96), Total orders: 31 (Won: 61.3% [19] / Loss: 38.7% [12]) - SAR M5
+Profit factor: 0.90, Total net profit: -1.61pips (+14.49/-16.10), Total orders: 12 (Won: 33.3% [4] / Loss: 66.7% [8]) - WPR M1
+Profit factor: 0.46, Total net profit: -22.41pips (+19.02/-41.42), Total orders: 11 (Won: 36.4% [4] / Loss: 63.6% [7]) - WPR M5
+Report log:
+2014.01.01 23:41:00: EA31337 Lite (Backtest) v1.069 by kenorb (https://github.com/EA31337)
+Platform variables: Symbol: EURUSD, Bars: 101, Server: , Login: 16384
+Broker info: Name: , Account type: Backtest on Live, Leverage: 1:100, Currency: USD
+Market variables: Ask: 1.3768, Bid: 1.3767, Volume: 1
+Market constants: Digits: 5, Point: 1e-05, Min Lot: 0.01, Max Lot: 10000, Lot Step: 0.01, Lot Size: 100000, Margin Required: 1376.75, Margin Init: 0, Stop Level: 0pts, Freeze level: 0pts
+Contract specification for EURUSD: Profit mode: 0, Margin mode: 0, Spread: 10pts, Tick size: 1e-05, Point value: 1e-05, Digits: 5, Trade stop level: 8, Trade contract size: 100000
+Swap specification for EURUSD: Mode: 0, Long/buy order value: 0.33, Short/sell order value: -1.04
+Calculated variables: Pip size: 0.0001, Lot size: 0.01, Points per pip: 10, Pip digits: 4, Volume digits: 2, Spread in pips: 1.0, Stop Out Level: 0.7
+Strategies: Active strategies: 18 of 120, Max orders: 50 (per type: 35)
+Timeframes: M1: Active, M5: Active, M15: Not active, M30: Not active, H1: Not active, H4: Not active, D1: Not active, W1: Not active, MN1: Not active;
+Datetime: Hour of day: 23, Day of week: 3, Day of month: 1, Day of year: 1, Month: 1, Year: 2014
+Account Details: Time: 2014.01.01 23:41:00; Account Balance: $2000.00; Account Equity: $2000.00; Used Margin: $0.00; Free Margin: $2000.00; No of Orders: 0 (BUY/SELL: 0/0); Risk Ratio: 1.0
+
+

@@ -1,0 +1,27 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( WPR_SignalLevel )
+# Disable all optimization settings.
+ea_optimize_all_set 0
+# Disable all active strategies.
+ea_strategies_enabled 0
+# Disable account conditions.
+ea_actions_enabled 0
+# Disable boosting.
+ea_boost_enabled 0
+# Set lot size.
+ea_set_lotsize 0.01
+# Reset open methods.
+input_set ^WPR.*_SignalMethod 0
+# Enable strategy.
+input_set ^WPR.*_Active 1
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test WPR_SignalLevel.
+input_set ^WPR_SignalLevel,F 1
+input_set ^WPR_SignalLevel,1 $(( $(input_get WPR_SignalLevel) - 5))
+input_set ^WPR_SignalLevel,2 1
+input_set ^WPR_SignalLevel,3 $(( $(input_get WPR_SignalLevel) + 5))
+
+# $ETA: 0h$
+# vim: set syntax=sh:

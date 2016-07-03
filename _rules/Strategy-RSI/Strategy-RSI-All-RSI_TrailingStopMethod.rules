@@ -12,7 +12,7 @@ ea_actions_enabled 0
 # Set lot size.
 ea_set_lotsize 0.01
 # Reset open methods.
-input_set ^RSI.*_OpenMethod 0
+input_set ^RSI.*_SignalMethod 0
 # Enable strategy.
 input_set ^RSI.*_Active 1
 
@@ -23,5 +23,5 @@ input_set ^RSI_TrailingStopMethod,1 0
 input_set ^RSI_TrailingStopMethod,2 1
 input_set ^RSI_TrailingStopMethod,3 27
 
-# $ETA: 4h$
+# $ETA: 3h$
 # vim: set syntax=sh:

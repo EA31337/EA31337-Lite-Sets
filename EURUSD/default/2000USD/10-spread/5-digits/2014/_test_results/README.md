@@ -6,15 +6,15 @@
     Symbol                    EURUSD (Euro vs US Dollar)
     Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
     Model                     Every tick (the most precise method based on all available least timeframes)
-    Parameters                indicator --"; Alligator1_Active=true; Alligator5_Active=true;
+    Parameters                Bollinger Bands indicator --"; Bands1_Active=false; Bands5_Active=false;
     Bars in test       368715 Ticks modelled               74312557 Modelling quality                 24.99%
     Mismatched charts       0
     errors
     Initial deposit   1500.00                                       Spread                                10
-    Total net profit  7411.13 Gross profit                 19384.73 Gross loss                     -11973.60
-    Profit factor        1.62 Expected payoff                  6.40
-    Absolute drawdown  392.80 Maximal drawdown     5475.63 (45.81%) Relative drawdown       45.81% (5475.63)
-    Total trades         1158 Short positions (won     679 (55.08%) Long positions (won %)      479 (31.11%)
+    Total net profit  8461.05 Gross profit                 11516.14 Gross loss                      -3055.09
+    Profit factor        3.77 Expected payoff                 17.41
+    Absolute drawdown  307.48 Maximal drawdown     2748.20 (35.40%) Relative drawdown       35.40% (2748.20)
+    Total trades          486 Short positions (won     360 (49.72%) Long positions (won %)      126 (31.75%)
 
 ### Report: EURUSD 1500USD 2014year 20spread DS backtest
 
@@ -23,15 +23,15 @@
     Symbol                    EURUSD (Euro vs US Dollar)
     Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
     Model                     Every tick (the most precise method based on all available least timeframes)
-    Parameters                indicator --"; Alligator1_Active=true; Alligator5_Active=true;
+    Parameters                Bollinger Bands indicator --"; Bands1_Active=false; Bands5_Active=false;
     Bars in test       368715 Ticks modelled               74312557 Modelling quality                 24.99%
     Mismatched charts       0
     errors
     Initial deposit   1500.00                                       Spread                                20
-    Total net profit  7248.71 Gross profit                 17021.45 Gross loss                      -9772.74
-    Profit factor        1.74 Expected payoff                  6.66
-    Absolute drawdown  370.60 Maximal drawdown     5328.46 (50.13%) Relative drawdown       50.13% (5328.46)
-    Total trades         1089 Short positions (won     661 (55.98%) Long positions (won %)      428 (26.87%)
+    Total net profit  6395.61 Gross profit                  9865.78 Gross loss                      -3470.18
+    Profit factor        2.84 Expected payoff                 19.38
+    Absolute drawdown  326.57 Maximal drawdown     2399.93 (40.38%) Relative drawdown       40.38% (2399.93)
+    Total trades          330 Short positions (won     203 (58.13%) Long positions (won %)      127 (29.13%)
 
 ### Report: EURUSD 2000USD 2014year 10spread DS backtest
 
@@ -40,15 +40,15 @@
     Symbol                    EURUSD (Euro vs US Dollar)
     Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
     Model                     Every tick (the most precise method based on all available least timeframes)
-    Parameters                indicator --"; Alligator1_Active=true; Alligator5_Active=true;
+    Parameters                Bollinger Bands indicator --"; Bands1_Active=false; Bands5_Active=false;
     Bars in test       368715 Ticks modelled               74312557 Modelling quality                 24.99%
     Mismatched charts       0
     errors
     Initial deposit   2000.00                                       Spread                                10
-    Total net profit  8985.05 Gross profit                 23566.64 Gross loss                     -14581.59
-    Profit factor        1.62 Expected payoff                  6.40
-    Absolute drawdown  541.08 Maximal drawdown     7171.07 (48.57%) Relative drawdown       48.57% (7171.07)
-    Total trades         1404 Short positions (won     814 (52.95%) Long positions (won %)      590 (33.22%)
+    Total net profit  7643.65 Gross profit                 11035.29 Gross loss                      -3391.65
+    Profit factor        3.25 Expected payoff                 14.34
+    Absolute drawdown  300.39 Maximal drawdown     2748.34 (35.52%) Relative drawdown       35.52% (2748.34)
+    Total trades          533 Short positions (won     396 (52.27%) Long positions (won %)      137 (36.50%)
 
 ### Report: EURUSD 2000USD 2014year 20spread DS backtest
 
@@ -57,12 +57,12 @@
     Symbol                    EURUSD (Euro vs US Dollar)
     Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
     Model                     Every tick (the most precise method based on all available least timeframes)
-    Parameters                indicator --"; Alligator1_Active=true; Alligator5_Active=true;
+    Parameters                Bollinger Bands indicator --"; Bands1_Active=false; Bands5_Active=false;
     Bars in test       368715 Ticks modelled               74312557 Modelling quality                 24.99%
     Mismatched charts       0
     errors
     Initial deposit   2000.00                                       Spread                                20
-    Total net profit  7561.42 Gross profit                 20844.81 Gross loss                     -13283.39
-    Profit factor        1.57 Expected payoff                  4.72
-    Absolute drawdown  554.27 Maximal drawdown     6824.63 (48.88%) Relative drawdown       48.88% (6824.63)
-    Total trades         1601 Short positions (won     943 (54.19%) Long positions (won %)      658 (29.94%)
+    Total net profit  8281.46 Gross profit                 12014.93 Gross loss                      -3733.48
+    Profit factor        3.22 Expected payoff                 16.02
+    Absolute drawdown  337.58 Maximal drawdown     3096.67 (38.29%) Relative drawdown       38.29% (3096.67)
+    Total trades          517 Short positions (won     374 (54.28%) Long positions (won %)      143 (32.87%)

@@ -2,32 +2,30 @@
 
 
                                          Strategy Tester Report
-                                      EA31337-Lite-Backtest-v1.068
-                                      Tripleafx-FX-Demo (Build 950)
+                                      EA31337-Lite-Backtest-v1.069
+                                      Tripleafx-FX-Demo (Build 971)
 
 Symbol                    EURUSD (Euro vs US Dollar)
 Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
 Model                     Every tick (the most precise method based on all available least timeframes)
-                          __Strategy_Boosting_Parameters__="-- Strategy boosting (set 1.0 to default) --
-                          __AD_Parameters__="-- Settings for the Accumulation/Distribution indicator --
-Parameters                indicator --"; Alligator1_Active=true; Alligator5_Active=true;
-                          __BWMFI_Parameters__="-- Settings for the Market Facilitation Index indicator
+                          __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.068 -
+Parameters                Bollinger Bands indicator --"; Bands1_Active=false; Bands5_Active=false;
 Bars in test       368715 Ticks modelled               74312557 Modelling quality                 24.99%
 Mismatched charts       0
 errors
 Initial deposit   1500.00                                       Spread                                20
-Total net profit  7248.71 Gross profit                 17021.45 Gross loss                      -9772.74
-Profit factor        1.74 Expected payoff                  6.66
-Absolute drawdown  370.60 Maximal drawdown     5328.46 (50.13%) Relative drawdown       50.13% (5328.46)
-Total trades         1089 Short positions (won     661 (55.98%) Long positions (won %)      428 (26.87%)
+Total net profit  6395.61 Gross profit                  9865.78 Gross loss                      -3470.18
+Profit factor        2.84 Expected payoff                 19.38
+Absolute drawdown  326.57 Maximal drawdown     2399.93 (40.38%) Relative drawdown       40.38% (2399.93)
+Total trades          330 Short positions (won     203 (58.13%) Long positions (won %)      127 (29.13%)
                           %)
-                          Profit trades (% of      485 (44.54%) Loss trades (% of           604 (55.46%)
+                          Profit trades (% of      155 (46.97%) Loss trades (% of           175 (53.03%)
                           total)                                total)
-                  Largest profit trade                   227.96 loss trade                       -159.40
-                  Average profit trade                    35.10 loss trade                        -16.18
-                  Maximum consecutive wins         37 (3506.73) consecutive losses         28 (-1363.10)
+                  Largest profit trade                   349.05 loss trade                       -174.49
+                  Average profit trade                    63.65 loss trade                        -19.83
+                  Maximum consecutive wins         55 (7749.60) consecutive losses         31 (-2196.91)
                           (profit in money)                     (loss in money)
-                  Maximal consecutive profit       3506.73 (37) consecutive loss (count    -1363.10 (28)
+                  Maximal consecutive profit       7749.60 (55) consecutive loss (count    -2196.91 (31)
                           (count of wins)                       of losses)
                   Average consecutive wins                    3 consecutive losses                     4
                                                  [Graph]

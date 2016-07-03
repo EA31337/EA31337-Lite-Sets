@@ -14,7 +14,7 @@ ea_boost_enabled 0
 # Set lot size.
 ea_set_lotsize 0.01
 # Reset open methods.
-input_set ^${strategy}.*_OpenMethod 0
+input_set ^${strategy}.*_SignalMethod 0
 # Enable strategy.
 input_set ^${strategy}.*_Active 1
 
@@ -25,5 +25,5 @@ input_set ^$param,1 $(( $(input_get $param) > 1 ? $(($(input_get $param) - 1)) :
 input_set ^$param,2 1
 input_set ^$param,3 $(($(input_get $param) + 1))
 
-# $ETA: 0h$
+# $ETA: 4h$
 # vim: set syntax=sh:

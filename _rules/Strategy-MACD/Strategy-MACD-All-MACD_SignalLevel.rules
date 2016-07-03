@@ -1,0 +1,27 @@
+## Init settings.
+# Parameter list to optimize.
+param_list=( MACD_SignalLevel )
+# Disable all optimization settings.
+ea_optimize_all_set 0
+# Disable all active strategies.
+ea_strategies_enabled 0
+# Disable account conditions.
+ea_actions_enabled 0
+# Disable boosting.
+ea_boost_enabled 0
+# Set lot size.
+ea_set_lotsize 0.01
+# Reset open methods.
+input_set ^MACD.*_SignalMethod 0
+# Enable strategy.
+input_set ^MACD.*_Active 1
+
+## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test MACD_SignalLevel.
+input_set ^MACD_SignalLevel,F 1
+input_set ^MACD_SignalLevel,1 $( bc <<< "$(input_get MACD_SignalLevel) - 0.2" )
+input_set ^MACD_SignalLevel,2 0.1
+input_set ^MACD_SignalLevel,3 $( bc <<< "$(input_get MACD_SignalLevel) + 0.2" )
+
+# $ETA: 4h$
+# vim: set syntax=sh:
