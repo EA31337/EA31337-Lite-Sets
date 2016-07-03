@@ -18,7 +18,7 @@ ea_set_lotsize 0.01
 # Reset open methods.
 input_set ^${strategy}.*_SignalMethod 0
 # Reset open level.
-input_set ^${strategy}_OpenLevel 0
+input_set ^${strategy}_SignalLevel 0
 # Enable strategy.
 input_set ^${strategy}.*_Active 1
 

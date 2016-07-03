@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( SAR_OpenLevel )
+param_list=( WPR_SignalLevel )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -12,16 +12,16 @@ ea_boost_enabled 0
 # Set lot size.
 ea_set_lotsize 0.01
 # Reset open methods.
-input_set ^SAR.*_SignalMethod 0
+input_set ^WPR.*_SignalMethod 0
 # Enable strategy.
-input_set ^SAR.*_Active 1
+input_set ^WPR.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test SAR_OpenLevel.
-input_set ^SAR_OpenLevel,F 1
-input_set ^SAR_OpenLevel,1 $( bc <<< "$(input_get SAR_OpenLevel) - 0.2" )
-input_set ^SAR_OpenLevel,2 0.1
-input_set ^SAR_OpenLevel,3 $( bc <<< "$(input_get SAR_OpenLevel) + 0.2" )
+# Test WPR_SignalLevel.
+input_set ^WPR_SignalLevel,F 1
+input_set ^WPR_SignalLevel,1 $(( $(input_get WPR_SignalLevel) - 5))
+input_set ^WPR_SignalLevel,2 1
+input_set ^WPR_SignalLevel,3 $(( $(input_get WPR_SignalLevel) + 5))
 
-# $ETA: 2h$
+# $ETA: 0h$
 # vim: set syntax=sh:

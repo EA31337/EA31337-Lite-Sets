@@ -1,6 +1,8 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( MA_OpenLevel )
+strategy=DeMarker
+param=${strategy}_SignalLevel
+param_list=( $param )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -12,16 +14,15 @@ ea_boost_enabled 0
 # Set lot size.
 ea_set_lotsize 0.01
 # Reset open methods.
-input_set ^MA.*_SignalMethod 0
+input_set ^${strategy}.*_SignalMethod 0
 # Enable strategy.
-input_set ^MA.*_Active 1
+input_set ^${strategy}.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test MA_OpenLevel.
-input_set ^MA_OpenLevel,F 1
-input_set ^MA_OpenLevel,1 $( bc <<< "$(input_get MA_OpenLevel) - 0.2" )
-input_set ^MA_OpenLevel,2 0.1
-input_set ^MA_OpenLevel,3 $( bc <<< "$(input_get MA_OpenLevel) + 0.2" )
+input_set ^$param,F 1
+input_set ^$param,1 0.0
+input_set ^$param,2 0.1
+input_set ^$param,3 0.4
 
-# $ETA: 3h$
+# $ETA: 0h$
 # vim: set syntax=sh:

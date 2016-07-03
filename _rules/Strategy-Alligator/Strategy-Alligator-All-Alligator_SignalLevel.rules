@@ -1,6 +1,6 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( Alligator_OpenLevel )
+param_list=( Alligator_SignalLevel )
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
@@ -17,11 +17,11 @@ input_set ^Alligator.*_SignalMethod 0
 input_set ^Alligator.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test Alligator_OpenLevel.
-input_set ^Alligator_OpenLevel,F 1
-input_set ^Alligator_OpenLevel,1 $( bc <<< "$(input_get Alligator_OpenLevel) - 0.02" )
-input_set ^Alligator_OpenLevel,2 0.01
-input_set ^Alligator_OpenLevel,3 $( bc <<< "$(input_get Alligator_OpenLevel) + 0.02" )
+# Test Alligator_SignalLevel.
+input_set ^Alligator_SignalLevel,F 1
+input_set ^Alligator_SignalLevel,1 $( bc <<< "$(input_get Alligator_SignalLevel) - 0.02" )
+input_set ^Alligator_SignalLevel,2 0.01
+input_set ^Alligator_SignalLevel,3 $( bc <<< "$(input_get Alligator_SignalLevel) + 0.02" )
 
 # $ETA: 0h$
 # vim: set syntax=sh:

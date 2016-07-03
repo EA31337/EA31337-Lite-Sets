@@ -1,7 +1,8 @@
 ## Init settings.
+# Backtest settings.
+ini_set_ea maxdrawdown_enable 0
 # Parameter list to optimize.
-strategy=DeMarker
-param=${strategy}_OpenLevel
+param=RSI_SignalLevel
 param_list=( $param )
 # Disable all optimization settings.
 ea_optimize_all_set 0
@@ -14,15 +15,16 @@ ea_boost_enabled 0
 # Set lot size.
 ea_set_lotsize 0.01
 # Reset open methods.
-input_set ^${strategy}.*_SignalMethod 0
+input_set ^RSI.*_SignalMethod 0
 # Enable strategy.
-input_set ^${strategy}.*_Active 1
+input_set ^RSI.*_Active 1
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
+# Test $param.
 input_set ^$param,F 1
-input_set ^$param,1 0.0
-input_set ^$param,2 0.1
-input_set ^$param,3 0.4
+input_set ^$param,1 $(( $(input_get $param) - 4))
+input_set ^$param,2 2
+input_set ^$param,3 $(( $(input_get $param) + 4))
 
-# $ETA: 0h$
+# $ETA: 5h$
 # vim: set syntax=sh:
