@@ -5,20 +5,20 @@
                                       EA31337-Lite-Backtest-v1.069
                                       Tripleafx-FX-Demo (Build 971)
 
-      Symbol          EURUSD (Euro vs US Dollar)
-      Period          1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
-      Model           Every tick (the most precise method based on all available least timeframes)
-      Initial deposit 2000.00
-      Spread          10
+     Symbol          EURUSD (Euro vs US Dollar)
+     Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+     Model           Every tick (the most precise method based on all available least timeframes)
+     Initial deposit 2000.00
+     Spread          10
                                           [Optimization Graph]
-              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 7 1361.99           27         12.28           50.44     461.48      15.92
-                 6 1132.78           22         12.16           51.49     348.03      11.55
-                 8 1022.39           35          5.41           29.21     206.86       7.16
-                10  820.92           18          8.40           45.61     194.23       7.66
-                 9  585.22           29          3.42           20.18     120.84       4.96
-                 5  577.43           38          2.53           15.20     108.63       4.32
-                 4  513.21           41          2.17           12.52     107.76       5.12
-                 1  459.06           47          1.90            9.77     115.45       4.86
-                 3  387.58           35          2.05           11.07     104.77       5.12
-                 2  329.51           34          1.90            9.69      98.56       4.30
+              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                 4 211.73           16          8.69           13.23      37.86       1.79
+                 9 196.54           13          7.10           15.12      78.58       3.84
+                 1 193.38           39          1.66            4.96      57.08       2.61
+                 5 131.87           14          7.88            9.42      30.63       1.47
+                 6 119.47           13          4.28            9.19      43.16       2.00
+                 7 106.69           13          3.78            8.21      43.16       2.01
+                 8 101.80           13          3.69            7.83      56.17       2.78
+                 3  98.33           12          6.32            8.19      26.25       1.29
+                 2  72.34           13          2.58            5.56      43.16       2.04
+                10 -27.52           14          0.84           -1.97     106.00       5.13
