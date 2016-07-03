@@ -1,6 +1,8 @@
 ## Init settings.
 # Parameter list to optimize.
 param_list=( Breakage5_Active )
+## Backtest settings.
+ini_set ^Period M5
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.

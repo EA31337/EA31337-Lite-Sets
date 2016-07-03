@@ -3,6 +3,8 @@
 strategy=MACD5
 param=${strategy}_SignalMethod
 param_list=( ${param} )
+## Backtest settings.
+ini_set ^Period M5
 ## EA settings.
 ea_orders_close_all_at 22
 # Disable all optimization settings.

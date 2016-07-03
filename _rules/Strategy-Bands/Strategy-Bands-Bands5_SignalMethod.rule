@@ -3,6 +3,8 @@
 strategy=Bands5
 param=${strategy}_SignalMethod
 param_list=( $param )
+## Backtest settings.
+ini_set ^Period M5
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
