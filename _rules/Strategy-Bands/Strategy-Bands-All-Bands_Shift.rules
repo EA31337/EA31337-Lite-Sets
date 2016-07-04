@@ -1,6 +1,7 @@
 ## Init settings.
 # Parameter list to optimize.
-param=Bands_Shift
+strategy=Bands
+param=${strategy}_Shift
 param_list=( $param )
 # Disable all optimization settings.
 ea_optimize_all_set 0
@@ -13,16 +14,17 @@ ea_boost_enabled 0
 # Set lot size.
 ea_set_lotsize 0.01
 # Reset open methods.
-input_set ^Bands.*_SignalMethod 0
+input_set ^${strategy}.*_SignalMethod 0
 # Enable Bands strategies.
-input_set ^Bands.*_Active 1
+input_set ^${strategy}.*_Active 1
 
 ## Optimization settings.
 # Test Bands shift
+value=$(input_get $param)
 input_set ^$param,F 1
-input_set ^$param,1 $(($(input_get $param) - 1))
+input_set ^$param,1 $(( $value > 0 ? $value - 1 : 0 ))
 input_set ^$param,2 1
-input_set ^$param,3 $(($(input_get $param) + 1))
+input_set ^$param,3 $(( $value + 1 ))
 
 # $ETA: 0h$
 # vim: set syntax=sh:
