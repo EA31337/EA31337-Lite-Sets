@@ -1,6 +1,8 @@
 ## Init settings.
 # Parameter list to optimize.
 param_list=( Alligator_Shift Alligator_Shift_Far Alligator_Shift_Jaw Alligator_Shift_Teeth Alligator_Shift_Lips )
+## EA settings.
+input_set ^CloseOrderAfterXHours 72
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
