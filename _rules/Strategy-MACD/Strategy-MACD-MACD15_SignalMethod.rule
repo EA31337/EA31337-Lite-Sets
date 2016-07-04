@@ -6,7 +6,7 @@ param_list=( ${param} )
 ## Backtest settings.
 ini_set ^TestPeriod M15
 ## EA settings.
-ea_orders_close_all_at 22
+input_set ^CloseOrderAfterXHours 72
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
