@@ -3,6 +3,8 @@
 strategy=MA
 param=${strategy}_Shift
 param_list=( $param )
+## EA settings.
+input_set ^CloseOrderAfterXHours 72
 # Disable all optimization settings.
 ea_optimize_all_set 0
 # Disable all active strategies.
