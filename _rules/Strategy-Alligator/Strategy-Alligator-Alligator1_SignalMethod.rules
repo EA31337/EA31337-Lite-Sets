@@ -25,5 +25,5 @@ input_set ^Alligator1_SignalMethod,1 0
 input_set ^Alligator1_SignalMethod,2 3
 input_set ^Alligator1_SignalMethod,3 63
 
-# $ETA: 2h$
+# $ETA: 0h$
 # vim: set syntax=sh:
