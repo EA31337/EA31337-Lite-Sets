@@ -1,12 +1,15 @@
 ## Init settings.
 # Parameter list to optimize.
-strategy=Alligator1
+name=Alligator
+period=1
+strategy=${name}${period}
 param=${strategy}_SignalMethod
 param_list=( ${param} )
 ## Backtest settings.
-ini_set ^TestPeriod M1
+ini_set ^TestPeriod M${period}
 ## EA settings.
 ea_strategy_default_sets ${strategy}
+ea_set_neutral_trail ${name}
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 ea_set_optimize_param ${param} 0 63 3

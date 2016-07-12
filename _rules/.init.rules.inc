@@ -91,7 +91,7 @@ ea_strategy_default_sets() {
   ea_strategies_enabled 0
   # Enables single strategy.
   input_set ^${strategy}_Active 1
-  ea_set_neutral_trail ${strategy}
+  # Close orders after some time.
   input_set ^CloseOrderAfterXHours 72
   # Disable all optimization settings.
   ea_optimize_all_set 0
