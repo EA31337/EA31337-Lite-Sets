@@ -11,5 +11,5 @@ ea_strategy_default_sets ${strategy}
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 ea_set_optimize_param ${param} 0 63 3
 
-# $ETA: 2h$
+# $ETA: 0h$
 # vim: set syntax=sh:
