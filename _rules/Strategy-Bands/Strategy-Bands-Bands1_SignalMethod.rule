@@ -12,7 +12,7 @@ ea_strategy_default_sets ${strategy}
 ea_set_neutral_trail ${name}
 
 ## Optimization rules.
-ea_set_optimize_param ${param} 0 255 7
+ea_set_optimize_param ${param} 0 255 1
 
 # $ETA: 0h$
 # vim: set syntax=sh:
