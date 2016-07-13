@@ -1,29 +1,18 @@
 ## Init settings.
 # Parameter list to optimize.
-param_list=( OSMA1_SignalMethod )
+name=OSMA
+period=1
+strategy=${name}${period}
+param=${strategy}_SignalMethod
+param_list=( ${param} )
 ## Backtest settings.
-ini_set ^TestPeriod M1
+ini_set ^TestPeriod M${period}
 ## EA settings.
-input_set ^CloseOrderAfterXHours 72
-# Disable all optimization settings.
-ea_optimize_all_set 0
-# Disable all active strategies.
-ea_strategies_enabled 0
-# Disable account conditions.
-ea_actions_enabled 0
-# Disable boosting.
-ea_boost_enabled 0
-# Set lot size.
-ea_set_lotsize 0.01
-# Enable strategy.
-input_set ^OSMA1_Active 1
+ea_strategy_default_sets ${strategy}
+ea_set_neutral_trail ${name}
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-# Test OSMA1_SignalMethod.
-input_set ^OSMA1_SignalMethod,F 1
-input_set ^OSMA1_SignalMethod,1 0
-input_set ^OSMA1_SignalMethod,2 1
-input_set ^OSMA1_SignalMethod,3 31
+ea_set_optimize_param ${param} 0 31 1
 
-# $ETA:$
+# $ETA: 0h$
 # vim: set syntax=sh:
