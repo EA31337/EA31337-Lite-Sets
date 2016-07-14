@@ -14,5 +14,5 @@ ea_set_neutral_trail ${name}
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
 ea_set_optimize_param ${param} 0 63 1
 
-# $ETA: 0h$
+# $ETA: 6h$
 # vim: set syntax=sh:
