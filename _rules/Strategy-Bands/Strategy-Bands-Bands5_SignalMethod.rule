@@ -14,5 +14,5 @@ ea_set_neutral_trail ${name}
 ## Optimization rules.
 ea_set_optimize_param ${param} 0 255 7
 
-# $ETA:$
+# $ETA: 1h$
 # vim: set syntax=sh:
