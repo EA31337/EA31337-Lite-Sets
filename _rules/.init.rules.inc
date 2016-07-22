@@ -79,8 +79,39 @@ ea_set_strategy_param() {
   input_set ^${strategy}.*_${pattern} $3
 }
 
+# Enables/disables strategy.
 ea_strategy_enabled() {
   input_set ^$1.*_Active ${2:-1}
+}
+
+# Sets default sets to test core logic.
+ea_strategy_default_sets() {
+  local strategy=$1
+  # Disable all active strategies.
+  ea_strategies_enabled 0
+  # Enables single strategy.
+  input_set ^${strategy}_Active 1
+  # Close orders after some time.
+  input_set ^CloseOrderAfterXHours 72
+  # Disable all optimization settings.
+  ea_optimize_all_set 0
+  # Disable account conditions.
+  ea_actions_enabled 0
+  # Disable boosting.
+  ea_boost_enabled 0
+  # Set lot size.
+  ea_set_lotsize 0.01
+}
+
+## TRAILINGS ##
+
+ea_set_neutral_trail() {
+  local strategy=$1
+  input_set ^TrailingProfitOneWay 1
+  input_set ^TrailingStopOneWay 1
+  input_set ^${strategy}_TrailingProfitMethod 22
+  input_set ^${strategy}_TrailingStopMethod 22
+  input_set ^MinPipGap 10
 }
 
 ## MISC ##

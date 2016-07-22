@@ -1,29 +1,18 @@
 ## Init settings.
 # Parameter list to optimize.
-strategy=Bands5
+name=Bands
+period=5
+strategy=${name}${period}
 param=${strategy}_SignalMethod
-param_list=( $param )
+param_list=( ${param} )
 ## Backtest settings.
-ini_set ^TestPeriod M5
+ini_set ^TestPeriod M${period}
 ## EA settings.
-input_set ^CloseOrderAfterXHours 72
-# Disable all optimization settings.
-ea_optimize_all_set 0
-# Disable all active strategies.
-ea_strategies_enabled 0
-# Disable account conditions.
-ea_actions_enabled 0
-# Disable boosting.
-ea_boost_enabled 0
-# Set lot size.
-ea_set_lotsize 0.01
-# Close orders at 22.
-input_set ^CloseOrderAfterXHours 72
-# Enable strategy.
-ea_strategy_enabled ${strategy}
+ea_strategy_default_sets ${strategy}
+ea_set_neutral_trail ${name}
 
 ## Optimization rules.
 ea_set_optimize_param ${param} 0 255 7
 
-# $ETA:$
+# $ETA: 1h$
 # vim: set syntax=sh:

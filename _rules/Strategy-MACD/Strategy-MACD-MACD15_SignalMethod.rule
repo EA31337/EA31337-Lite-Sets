@@ -1,30 +1,18 @@
 ## Init settings.
 # Parameter list to optimize.
-strategy=MACD15
+name=MACD
+period=15
+strategy=${name}${period}
 param=${strategy}_SignalMethod
 param_list=( ${param} )
 ## Backtest settings.
-ini_set ^TestPeriod M15
+ini_set ^TestPeriod M${period}
 ## EA settings.
-input_set ^CloseOrderAfterXHours 72
-# Disable all optimization settings.
-ea_optimize_all_set 0
-# Disable all active strategies.
-ea_strategies_enabled 0
-# Disable account conditions.
-ea_actions_enabled 0
-# Disable boosting.
-ea_boost_enabled 0
-# Set lot size.
-ea_set_lotsize 0.01
-# Enable strategy.
-input_set ^${strategy}_Active 1
+ea_strategy_default_sets ${strategy}
+ea_set_neutral_trail ${name}
 
 ## Optimization settings (F-On, 1-Min, 2-Step, 3-Max).
-input_set ^${param},F 1
-input_set ^${param},1 0
-input_set ^${param},2 3
-input_set ^${param},3 31
+ea_set_optimize_param ${param} 0 31 1
 
 # $ETA: 0h$
 # vim: set syntax=sh:

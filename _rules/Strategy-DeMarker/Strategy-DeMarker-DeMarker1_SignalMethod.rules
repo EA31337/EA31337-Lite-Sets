@@ -25,5 +25,5 @@ input_set ^DeMarker1_SignalMethod,1 0
 input_set ^DeMarker1_SignalMethod,2 3
 input_set ^DeMarker1_SignalMethod,3 31
 
-# $ETA: 1h$
+# $ETA: 0h$
 # vim: set syntax=sh:
