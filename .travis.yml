@@ -44,6 +44,7 @@ install:
 - sudo env PATH="$PATH" provision.sh
 - sudo env PATH="$PATH" secur32_fix.sh
 before_script:
+- find "$CWD" -name test.ini -execdir bash -c '. <(grep = {} | sed "s/;/#/g")' ';'
 - find "$CWD" -name "*.rules" -exec bash -n "{}" ';'
 - test_rules.sh
 script:
