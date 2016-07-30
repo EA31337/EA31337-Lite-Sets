@@ -2,18 +2,18 @@
 
 
                                            Optimization Report
-                                      EA31337-Lite-Backtest-v1.070
+                                      EA31337-Lite-Backtest-v1.069
                                       Tripleafx-FX-Demo (Build 971)
 
-     Symbol          EURUSD (Euro vs US Dollar)
-     Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
-     Model           Every tick (the most precise method based on all available least timeframes)
-     Initial deposit 2000.00
-     Spread          10
+      Symbol          EURUSD (Euro vs US Dollar)
+      Period          1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
+      Model           Every tick (the most precise method based on all available least timeframes)
+      Initial deposit 2000.00
+      Spread          10
                                           [Optimization Graph]
               Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 3  -59.20          107          0.66           -0.55     100.72       5.02
-                 5  -97.45          114          0.56           -0.85     108.09       5.38
-                 1 -111.34          108          0.45           -1.03     125.27       6.25
-                 2 -111.49          108          0.45           -1.03     126.02       6.29
-                 4 -132.53          120          0.46           -1.10     139.19       6.94
+                 5 4429.56          135          2.91           32.81    1857.79      37.93
+                 2 4141.02          133          2.77           31.14    1741.68      37.71
+                 1 4129.83          133          2.76           31.05    1741.68      37.80
+                 3 4128.12          134          2.75           30.81    1741.68      37.82
+                 4 4080.97          134          2.73           30.45    1741.68      37.74
