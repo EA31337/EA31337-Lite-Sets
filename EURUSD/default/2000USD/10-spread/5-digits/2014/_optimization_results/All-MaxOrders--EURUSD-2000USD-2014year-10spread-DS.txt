@@ -2,18 +2,18 @@
 
 
                                            Optimization Report
-                                      EA31337-Lite-Backtest-v1.069
+                                      EA31337-Lite-Backtest-v1.070
                                       Tripleafx-FX-Demo (Build 971)
 
-      Symbol          EURUSD (Euro vs US Dollar)
-      Period          1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
-      Model           Every tick (the most precise method based on all available least timeframes)
-      Initial deposit 2000.00
-      Spread          10
+     Symbol          EURUSD (Euro vs US Dollar)
+     Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+     Model           Every tick (the most precise method based on all available least timeframes)
+     Initial deposit 2000.00
+     Spread          10
                                           [Optimization Graph]
-             Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                1 10196.62          586          2.58           17.40    3948.30      35.95
-                5  2539.54           94          4.57           27.02     679.42      15.13
-                4  2198.48           69          6.18           31.86     503.22      12.90
-                3  1328.18           45          4.91           29.52     323.53      10.04
-                2   709.25           22          4.32           32.24     232.22       9.05
+              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                 1 2223.88          207          1.73           10.74     777.50      19.41
+                 4 1529.13          139          2.62           11.00     368.60      14.50
+                 5 1519.67          156          2.04            9.74     336.78      12.81
+                 3 1231.28          131          3.27            9.40     327.99      11.15
+                 2  299.85           76          1.62            3.95     116.73       5.31
