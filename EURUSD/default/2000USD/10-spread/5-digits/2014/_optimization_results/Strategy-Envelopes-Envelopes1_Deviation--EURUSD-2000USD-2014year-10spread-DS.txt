@@ -2,7 +2,7 @@
 
 
                                            Optimization Report
-                                      EA31337-Lite-Backtest-v1.069
+                                      EA31337-Lite-Backtest-v1.070
                                       Tripleafx-FX-Demo (Build 971)
 
       Symbol          EURUSD (Euro vs US Dollar)
@@ -11,10 +11,9 @@
       Initial deposit 2000.00
       Spread          10
                                           [Optimization Graph]
-              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 1  93.70          785          1.16            0.12      52.51       2.57
-                 4  60.96           93          1.67            0.66      42.63       2.10
-                 5  41.65           46          1.70            0.91      45.18       2.23
-                 2  36.64          387          1.11            0.09      53.50       2.66
-                 3  27.58          181          1.16            0.15      52.15       2.59
-                 6  -2.93           26          0.94           -0.11      48.68       2.43
+              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                 2 1879.82           20          0.00           93.99     614.71      17.58
+                 1 1820.45           20          0.00           91.02     613.58      18.17
+                 3 1556.71           17          0.00           91.57     517.65      15.21
+                 4 1441.41           16          0.00           90.09     485.30      14.72
+                 5 1322.94           15          0.00           88.20     429.50      13.57
