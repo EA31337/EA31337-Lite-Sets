@@ -2,18 +2,18 @@
 
 
                                            Optimization Report
-                                      EA31337-Lite-Backtest-v1.069
+                                      EA31337-Lite-Backtest-v1.070
                                       Tripleafx-FX-Demo (Build 971)
 
-      Symbol          EURUSD (Euro vs US Dollar)
-      Period          1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
-      Model           Every tick (the most precise method based on all available least timeframes)
-      Initial deposit 2000.00
-      Spread          10
+     Symbol          EURUSD (Euro vs US Dollar)
+     Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+     Model           Every tick (the most precise method based on all available least timeframes)
+     Initial deposit 2000.00
+     Spread          10
                                           [Optimization Graph]
-              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 4 -399.78         1863          0.73           -0.21     431.45      21.27
-                 5 -403.78         1840          0.72           -0.22     441.21      21.66
-                 1 -422.46         1922          0.72           -0.22     448.25      22.14
-                 2 -429.47         1906          0.72           -0.23     470.85      23.18
-                 3 -434.59         1882          0.71           -0.23     459.35      22.69
+              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                 3  -8.58           66          0.74           -0.13      17.33       0.86
+                 5  -9.71           63          0.70           -0.15      16.92       0.84
+                 2  -9.88           72          0.73           -0.14      19.80       0.99
+                 4  -9.91           56          0.61           -0.18      18.90       0.94
+                 1 -11.54          104          0.78           -0.11      19.87       0.99
