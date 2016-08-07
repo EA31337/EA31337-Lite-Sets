@@ -1,0 +1,30 @@
+
+
+
+                                         Strategy Tester Report
+                                      EA31337-Lite-Backtest-v1.070
+                                      Tripleafx-FX-Demo (Build 971)
+
+Symbol                    EURUSD (Euro vs US Dollar)
+Period                    30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+Model                     Every tick (the most precise method based on all available least timeframes)
+                          __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.070 --
+Parameters                Alligator30_SignalMethod=57; __Bands_Parameters__="-- Settings for the
+Bars in test        12360 Ticks modelled                73320617 Modelling quality                 89.27%
+Mismatched charts       0
+errors
+Initial deposit   2000.00                                        Spread                                10
+Total net profit   520.80 Gross profit                   1113.80 Gross loss                       -593.00
+Profit factor        1.88 Expected payoff                   1.58
+Absolute drawdown   17.30 Maximal drawdown        215.32 (8.75%) Relative drawdown         8.75% (215.32)
+Total trades          330 Short positions (won %)   252 (58.33%) Long positions (won %)       78 (50.00%)
+                          Profit trades (% of       186 (56.36%) Loss trades (% of           144 (43.64%)
+                          total)                                 total)
+                  Largest profit trade                     87.11 loss trade                        -46.26
+                  Average profit trade                      5.99 loss trade                         -4.12
+                  Maximum consecutive wins           11 (244.18) consecutive losses            5 (-19.71)
+                          (profit in money)                      (loss in money)
+                  Maximal consecutive profit          276.28 (5) consecutive loss (count       -60.63 (3)
+                          (count of wins)                        of losses)
+                  Average consecutive wins                     2 consecutive losses                     2
+                                                 [Graph]
