@@ -11,6 +11,6 @@
      Initial deposit 2000.00
      Spread          10
                                           [Optimization Graph]
-              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 1 3529.43          206          2.24           17.13     737.75      19.79
-                 2  708.29          204          1.40            3.47     285.32      13.82
+              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                 1 491.02          157          3.39            3.13     196.01       8.05
+                 2 489.08          157          3.38            3.12     196.01       8.05
