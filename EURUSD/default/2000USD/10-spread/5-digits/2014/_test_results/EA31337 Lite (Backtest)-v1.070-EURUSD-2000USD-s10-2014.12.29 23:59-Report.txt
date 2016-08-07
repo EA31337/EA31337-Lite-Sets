@@ -1,0 +1,53 @@
+Initial deposit:                            0.00
+Total net profit:                           0.00
+Gross profit:                               0.00
+Gross loss:                                 0.00
+Profit factor:                              1.88
+Expected payoff:                            1.58
+Absolute drawdown:                          15.52
+Maximal drawdown:                           0.0 (4.8%)
+Relative drawdown:                          (4.8%) 0.0
+Trades total                                330
+Short positions (won %):                    252 (58.3%)
+Long positions (won %):                     78 (50.0%)
+Profit trades (% of total):                 186 (56.4%)
+Loss trades (% of total):                   144 (43.6%)
+Largest profit trade:                       87.11
+Largest loss trade:                         -46.26
+Average profit trade:                       5.99
+Average loss trade:                         -4.12
+Average consecutive wins:                   2.00
+Average consecutive losses:                 2.00
+Maximum consecutive wins (profit in money): 11 244.18
+Maximum consecutive losses (loss in money): 5 -19.71
+Maximal consecutive profit (count of wins): 276.28 5
+Maximal consecutive loss (count of losses): 60.63 3
+Strategy stats:
+Profit factor: 0.89, Total net profit: -1.18pips (+9.13/-10.31), Total orders: 31 (Won: 38.7% [12] / Loss: 61.3% [19]) - Alligator M5
+Profit factor: 0.07, Total net profit: -6.43pips (+0.49/-6.92), Total orders: 12 (Won: 16.7% [2] / Loss: 83.3% [10]) - Alligator M15
+Profit factor: 1.19, Total net profit: 70.94pips (+450.87/-379.93), Total orders: 195 (Won: 61.5% [120] / Loss: 38.5% [75]) - Envelopes M30
+Profit factor: 1.00, Total net profit: 1.84pips (+1.84/0.00), Total orders: 1 (Won: 100.0% [1] / Loss: 0.0% [0]) - MA M1
+Profit factor: 1.00, Total net profit: -4.79pips (+0.57/-5.36), Total orders: 4 (Won: 25.0% [1] / Loss: 75.0% [3]) - MA M5
+Profit factor: 0.51, Total net profit: -2.89pips (+2.96/-5.85), Total orders: 11 (Won: 36.4% [4] / Loss: 63.6% [7]) - MA M15
+Profit factor: 0.89, Total net profit: -1.90pips (+15.19/-17.09), Total orders: 11 (Won: 54.5% [6] / Loss: 45.5% [5]) - MACD M15
+Profit factor: 1.19, Total net profit: 6.30pips (+39.62/-33.32), Total orders: 14 (Won: 71.4% [10] / Loss: 28.6% [4]) - RSI M15
+Profit factor: 1.00, Total net profit: 21.79pips (+23.35/-1.57), Total orders: 2 (Won: 50.0% [1] / Loss: 50.0% [1]) - RSI M30
+Profit factor: 2.81, Total net profit: 204.63pips (+317.76/-113.13), Total orders: 16 (Won: 62.5% [10] / Loss: 37.5% [6]) - SAR M30
+Profit factor: 0.54, Total net profit: -4.15pips (+4.81/-8.96), Total orders: 12 (Won: 33.3% [4] / Loss: 66.7% [8]) - WPR M15
+Profit factor: 2.12, Total net profit: 12.12pips (+22.93/-10.81), Total orders: 14 (Won: 57.1% [8] / Loss: 42.9% [6]) - WPR M30
+Report log:
+2014.01.06 00:00:00: EA31337 Lite (Backtest) v1.070 by kenorb (https://github.com/EA31337)
+Platform variables: Symbol: EURUSD, Bars: 101, Server: , Login: 16384
+Broker info: Name: , Account type: Backtest on Live, Leverage: 1:100, Currency: USD
+Market variables: Ask: 1.35967, Bid: 1.35957, Volume: 1
+Market constants: Digits: 5, Point: 1e-05, Min Lot: 0.01, Max Lot: 10000, Lot Step: 0.01, Lot Size: 100000, Margin Required: 1359.62, Margin Init: 0, Stop Level: 0pts, Freeze level: 0pts
+Contract specification for EURUSD: Profit mode: 0, Margin mode: 0, Spread: 10pts, Tick size: 1e-05, Point value: 1e-05, Digits: 5, Trade stop level: 8, Trade contract size: 100000
+Swap specification for EURUSD: Mode: 0, Long/buy order value: 0.33, Short/sell order value: -1.04
+Calculated variables: Pip size: 0.0001, Lot size: 0.01, Points per pip: 10, Pip digits: 4, Volume digits: 2, Spread in pips: 1.0, Stop Out Level: 0.7
+EA params: Risk margin: 1%
+Strategies: Active strategies: 12 of 120, Max orders: 56 (per type: 35)
+Timeframes: M1: Active, M5: Active, M15: Active, M30: Active, H1: Active, H4: Not active, D1: Not active, W1: Not active, MN1: Not active;
+Datetime: Hour of day: 0, Day of week: 1, Day of month: 6, Day of year: 6, Month: 1, Year: 2014
+Account Details: Time: 2014.01.06 00:00:00; Account Balance: $2000.00; Account Equity: $2000.00; Used Margin: $0.00; Free Margin: $2000.00; No of Orders: 0 (BUY/SELL: 0/0); Risk Ratio: 1.0
+
+
