@@ -1,4 +1,4 @@
-__EA_Parameters__=-- Input EA parameters for EA31337 Lite (Backtest) v1.069 --
+__EA_Parameters__=-- Input EA parameters for EA31337 Lite (Backtest) v1.070 --
 __Trade_Parameters__=-- Trade parameters --
 MaxOrders=0
 MaxOrders,F=0
