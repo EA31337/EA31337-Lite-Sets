@@ -2,18 +2,18 @@
 
 
                                            Optimization Report
-                                      EA31337-Lite-Backtest-v1.069
+                                      EA31337-Lite-Backtest-v1.070
                                       Tripleafx-FX-Demo (Build 971)
 
-      Symbol          EURUSD (Euro vs US Dollar)
-      Period          1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
-      Model           Every tick (the most precise method based on all available least timeframes)
-      Initial deposit 2000.00
-      Spread          10
+     Symbol          EURUSD (Euro vs US Dollar)
+     Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+     Model           Every tick (the most precise method based on all available least timeframes)
+     Initial deposit 2000.00
+     Spread          10
                                           [Optimization Graph]
-              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 3 2146.26          599          2.05            3.58     551.74      25.11
-                 2 2037.61          620          2.00            3.29     551.74      25.32
-                 5 1775.71          878          1.89            2.02     455.27      20.80
-                 4 1712.99          785          1.79            2.18     487.92      22.73
-                 1 1656.94          758          1.73            2.19     488.77      22.56
+              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                 2  58.93          654          1.10            0.09     126.77       6.01
+                 5  58.10          167          1.22            0.35     104.72       5.01
+                 4  57.50          410          1.15            0.14      60.38       2.93
+                 3  27.59          524          1.06            0.05     116.15       5.57
+                 1  25.88          676          1.04            0.04     114.31       5.47
