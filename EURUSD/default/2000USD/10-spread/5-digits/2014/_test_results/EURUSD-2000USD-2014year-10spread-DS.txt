@@ -2,30 +2,29 @@
 
 
                                          Strategy Tester Report
-                                      EA31337-Lite-Backtest-v1.069
+                                      EA31337-Lite-Backtest-v1.070
                                       Tripleafx-FX-Demo (Build 971)
 
 Symbol                    EURUSD (Euro vs US Dollar)
-Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
+Period                    30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
 Model                     Every tick (the most precise method based on all available least timeframes)
-                          __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.068 -
-Parameters                Bollinger Bands indicator --"; Bands1_Active=false; Bands5_Active=false;
-Bars in test       368715 Ticks modelled               74312557 Modelling quality                 24.99%
+                          __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.070 --
+Parameters                Alligator30_SignalMethod=63; __Bands_Parameters__="-- Settings for the
+Bars in test        12360 Ticks modelled                 73320617 Modelling quality                89.27%
 Mismatched charts       0
 errors
-Initial deposit   2000.00                                       Spread                                10
-Total net profit  7643.65 Gross profit                 11035.29 Gross loss                      -3391.65
-Profit factor        3.25 Expected payoff                 14.34
-Absolute drawdown  300.39 Maximal drawdown     2748.34 (35.52%) Relative drawdown       35.52% (2748.34)
-Total trades          533 Short positions (won     396 (52.27%) Long positions (won %)      137 (36.50%)
-                          %)
-                          Profit trades (% of      257 (48.22%) Loss trades (% of           276 (51.78%)
-                          total)                                total)
-                  Largest profit trade                   304.12 loss trade                       -170.33
-                  Average profit trade                    42.94 loss trade                        -12.29
-                  Maximum consecutive wins         55 (6741.58) consecutive losses         24 (-1384.79)
-                          (profit in money)                     (loss in money)
-                  Maximal consecutive profit       6741.58 (55) consecutive loss (count    -1384.79 (24)
-                          (count of wins)                       of losses)
-                  Average consecutive wins                    3 consecutive losses                     3
+Initial deposit   2000.00                                         Spread                               10
+Total net profit  1067.83 Gross profit                    2940.37 Gross loss                     -1872.54
+Profit factor        1.57 Expected payoff                    2.83
+Absolute drawdown  137.62 Maximal drawdown        327.43 (14.95%) Relative drawdown       14.95% (327.43)
+Total trades          377 Short positions (won %)    332 (52.71%) Long positions (won %)      45 (40.00%)
+                          Profit trades (% of        193 (51.19%) Loss trades (% of          184 (48.81%)
+                          total)                                  total)
+                  Largest profit trade                     348.86 loss trade                      -142.94
+                  Average profit trade                      15.24 loss trade                       -10.18
+                  Maximum consecutive wins           12 (1807.58) consecutive losses        15 (-1219.92)
+                          (profit in money)                       (loss in money)
+                  Maximal consecutive profit         1807.58 (12) consecutive loss (count   -1219.92 (15)
+                          (count of wins)                         of losses)
+                  Average consecutive wins                      3 consecutive losses                    2
                                                  [Graph]
