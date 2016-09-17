@@ -1,0 +1,78 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          15 Minutes (M15) 2015.01.04 23:00 - 2015.12.29 23:45 (2015.01.01 - 2015.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1 1097.04         3008          1.40            0.36     116.61       5.65  WPR15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=15;
+           3  731.52         2014          1.42            0.36     115.06       5.40  WPR15_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=15;
+          32   19.16           18          6.44            1.06       6.28       0.31 WPR15_SignalMethod=31; MaxOrders=0; MaxOrdersPerType=15;
+          31   19.16           18          6.44            1.06       6.28       0.31 WPR15_SignalMethod=30; MaxOrders=0; MaxOrdersPerType=15;
+          28   19.16           18          6.44            1.06       6.28       0.31 WPR15_SignalMethod=27; MaxOrders=0; MaxOrdersPerType=15;
+          27   19.16           18          6.44            1.06       6.28       0.31 WPR15_SignalMethod=26; MaxOrders=0; MaxOrdersPerType=15;
+          24   19.16           18          6.44            1.06       6.28       0.31 WPR15_SignalMethod=23; MaxOrders=0; MaxOrdersPerType=15;
+          23   19.16           18          6.44            1.06       6.28       0.31 WPR15_SignalMethod=22; MaxOrders=0; MaxOrdersPerType=15;
+          20   19.16           18          6.44            1.06       6.28       0.31 WPR15_SignalMethod=19; MaxOrders=0; MaxOrdersPerType=15;
+          19   19.16           18          6.44            1.06       6.28       0.31 WPR15_SignalMethod=18; MaxOrders=0; MaxOrdersPerType=15;
+          47   17.77           12         69.35            1.48       5.86       0.29 WPR15_SignalMethod=46; MaxOrders=0; MaxOrdersPerType=15;
+          39   17.77           12         69.35            1.48       5.86       0.29 WPR15_SignalMethod=38; MaxOrders=0; MaxOrdersPerType=15;
+          35   17.12           16          5.36            1.07       6.06       0.30 WPR15_SignalMethod=34; MaxOrders=0; MaxOrdersPerType=15;
+          43   15.64           11         61.16            1.42       4.61       0.23 WPR15_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=15;
+          29   15.31           12          5.51            1.28       5.87       0.29 WPR15_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=15;
+          25   15.31           12          5.51            1.28       5.87       0.29 WPR15_SignalMethod=24; MaxOrders=0; MaxOrdersPerType=15;
+          48   14.34           15          5.25            0.96       6.13       0.30 WPR15_SignalMethod=47; MaxOrders=0; MaxOrdersPerType=15;
+          44   14.34           15          5.25            0.96       6.13       0.30 WPR15_SignalMethod=43; MaxOrders=0; MaxOrdersPerType=15;
+          40   14.34           15          5.25            0.96       6.13       0.30 WPR15_SignalMethod=39; MaxOrders=0; MaxOrdersPerType=15;
+          36   14.34           15          5.25            0.96       6.13       0.30 WPR15_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=15;
+          45   13.96           12         11.42            1.16       8.41       0.42 WPR15_SignalMethod=44; MaxOrders=0; MaxOrdersPerType=15;
+          11   13.42           13          5.90            1.03       4.61       0.23 WPR15_SignalMethod=10; MaxOrders=0; MaxOrdersPerType=15;
+          41   11.53           13          9.61            0.89       7.34       0.36 WPR15_SignalMethod=40; MaxOrders=0; MaxOrdersPerType=15;
+          15   10.76           12          6.28            0.90       6.56       0.33 WPR15_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=15;
+           7   10.76           12          6.28            0.90       6.56       0.33  WPR15_SignalMethod=6; MaxOrders=0; MaxOrdersPerType=15;
+          13   10.68           12          8.97            0.89       8.31       0.41 WPR15_SignalMethod=12; MaxOrders=0; MaxOrdersPerType=15;
+          16   10.12           11         13.19            0.92       4.79       0.24 WPR15_SignalMethod=15; MaxOrders=0; MaxOrdersPerType=15;
+          12   10.12           11         13.19            0.92       4.79       0.24 WPR15_SignalMethod=11; MaxOrders=0; MaxOrdersPerType=15;
+           8   10.12           11         13.19            0.92       4.79       0.24  WPR15_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=15;
+           4   10.12           11         13.19            0.92       4.79       0.24  WPR15_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=15;
+           9    8.62           11         12.19            0.78       6.85       0.34  WPR15_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=15;
+          33   -0.62          140          1.00           -0.00      78.69       3.85 WPR15_SignalMethod=32; MaxOrders=0; MaxOrdersPerType=15;
+          64   -2.98           16          0.84           -0.19      15.22       0.76 WPR15_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=15;
+          63   -2.98           16          0.84           -0.19      15.22       0.76 WPR15_SignalMethod=62; MaxOrders=0; MaxOrdersPerType=15;
+          60   -2.98           16          0.84           -0.19      15.22       0.76 WPR15_SignalMethod=59; MaxOrders=0; MaxOrdersPerType=15;
+          59   -2.98           16          0.84           -0.19      15.22       0.76 WPR15_SignalMethod=58; MaxOrders=0; MaxOrdersPerType=15;
+          56   -2.98           16          0.84           -0.19      15.22       0.76 WPR15_SignalMethod=55; MaxOrders=0; MaxOrdersPerType=15;
+          55   -2.98           16          0.84           -0.19      15.22       0.76 WPR15_SignalMethod=54; MaxOrders=0; MaxOrdersPerType=15;
+          52   -2.98           16          0.84           -0.19      15.22       0.76 WPR15_SignalMethod=51; MaxOrders=0; MaxOrdersPerType=15;
+          51   -2.98           16          0.84           -0.19      15.22       0.76 WPR15_SignalMethod=50; MaxOrders=0; MaxOrdersPerType=15;
+          22   -5.56           84          0.93           -0.07      54.10       2.67 WPR15_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=15;
+          18   -5.56           84          0.93           -0.07      54.10       2.67 WPR15_SignalMethod=17; MaxOrders=0; MaxOrdersPerType=15;
+          14   -8.58           78          0.89           -0.11      68.21       3.35 WPR15_SignalMethod=13; MaxOrders=0; MaxOrdersPerType=15;
+          10   -8.58           78          0.89           -0.11      68.21       3.35  WPR15_SignalMethod=9; MaxOrders=0; MaxOrdersPerType=15;
+          30   -8.87           71          0.87           -0.12      54.10       2.67 WPR15_SignalMethod=29; MaxOrders=0; MaxOrdersPerType=15;
+          26   -8.87           71          0.87           -0.12      54.10       2.67 WPR15_SignalMethod=25; MaxOrders=0; MaxOrdersPerType=15;
+           6  -10.52           86          0.87           -0.12      57.54       2.84  WPR15_SignalMethod=5; MaxOrders=0; MaxOrdersPerType=15;
+           2  -10.52           86          0.87           -0.12      57.54       2.84  WPR15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=15;
+          38  -15.41           67          0.79           -0.23      55.62       2.76 WPR15_SignalMethod=37; MaxOrders=0; MaxOrdersPerType=15;
+          34  -15.41           67          0.79           -0.23      55.62       2.76 WPR15_SignalMethod=33; MaxOrders=0; MaxOrdersPerType=15;
+           5  -16.01          134          0.88           -0.12      79.40       3.89  WPR15_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=15;
+          21  -16.65          114          0.86           -0.15      74.56       3.66 WPR15_SignalMethod=20; MaxOrders=0; MaxOrdersPerType=15;
+          37  -19.59          107          0.82           -0.18      78.69       3.86 WPR15_SignalMethod=36; MaxOrders=0; MaxOrdersPerType=15;
+          46  -23.79           56          0.65           -0.42      60.41       2.99 WPR15_SignalMethod=45; MaxOrders=0; MaxOrdersPerType=15;
+          42  -23.79           56          0.65           -0.42      60.41       2.99 WPR15_SignalMethod=41; MaxOrders=0; MaxOrdersPerType=15;
+          17  -24.05          116          0.80           -0.21      74.56       3.67 WPR15_SignalMethod=16; MaxOrders=0; MaxOrdersPerType=15;
+          62  -30.51           53          0.54           -0.58      60.48       3.00 WPR15_SignalMethod=61; MaxOrders=0; MaxOrdersPerType=15;
+          58  -30.51           53          0.54           -0.58      60.48       3.00 WPR15_SignalMethod=57; MaxOrders=0; MaxOrdersPerType=15;
+          54  -31.29           63          0.57           -0.50      57.71       2.87 WPR15_SignalMethod=53; MaxOrders=0; MaxOrdersPerType=15;
+          50  -31.29           63          0.57           -0.50      57.71       2.87 WPR15_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=15;
+          61  -33.51           64          0.62           -0.52      72.92       3.60 WPR15_SignalMethod=60; MaxOrders=0; MaxOrdersPerType=15;
+          57  -33.51           64          0.62           -0.52      72.92       3.60 WPR15_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=15;
+          53  -39.93           88          0.61           -0.45      74.40       3.69 WPR15_SignalMethod=52; MaxOrders=0; MaxOrdersPerType=15;
+          49  -41.66           92          0.61           -0.45      74.40       3.69 WPR15_SignalMethod=48; MaxOrders=0; MaxOrdersPerType=15;
