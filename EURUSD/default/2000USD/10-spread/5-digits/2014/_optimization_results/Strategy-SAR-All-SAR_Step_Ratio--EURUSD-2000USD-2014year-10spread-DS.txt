@@ -1,0 +1,19 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             2 245.79          838          1.90            0.29      30.99       1.54 SAR_Step_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=35;
+             5 151.09          830          1.49            0.18      44.09       2.18 SAR_Step_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=35;
+             1 -13.89           50          0.63           -0.28      29.85       1.49 SAR_Step_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=35;
+             3 -16.04           63          0.63           -0.25      22.81       1.14   SAR_Step_Ratio=1; MaxOrders=0; MaxOrdersPerType=35;
+             4 -20.35          144          0.77           -0.14      52.14       2.57 SAR_Step_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=35;
