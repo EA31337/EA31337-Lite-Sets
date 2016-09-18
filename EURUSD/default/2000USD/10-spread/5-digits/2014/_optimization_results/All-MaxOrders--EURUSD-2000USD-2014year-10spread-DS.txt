@@ -1,19 +1,19 @@
 
 
 
-                                           Optimization Report
-                                      EA31337-Lite-Backtest-v1.070
-                                      Tripleafx-FX-Demo (Build 971)
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
 
-     Symbol          EURUSD (Euro vs US Dollar)
-     Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
-     Model           Every tick (the most precise method based on all available least timeframes)
-     Initial deposit 2000.00
-     Spread          10
-                                          [Optimization Graph]
-              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 1 2223.88          207          1.73           10.74     777.50      19.41
-                 4 1529.13          139          2.62           11.00     368.60      14.50
-                 5 1519.67          156          2.04            9.74     336.78      12.81
-                 3 1231.28          131          3.27            9.40     327.99      11.15
-                 2  299.85           76          1.62            3.95     116.73       5.31
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+             Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                1 5471.48          229         16.18           23.89    1652.40      28.58  MaxOrders=0; MaxOrdersPerType=35; LotSize=0;
+                5 3088.62          154         12.02           20.06     685.68      28.58 MaxOrders=20; MaxOrdersPerType=35; LotSize=0;
+                4 2304.09          119         10.70           19.36     605.38      27.02 MaxOrders=15; MaxOrdersPerType=35; LotSize=0;
+                3 1437.80           91          8.36           15.80     524.02      24.01 MaxOrders=10; MaxOrdersPerType=35; LotSize=0;
+                2  713.40           47          7.62           15.18     281.12      13.33  MaxOrders=5; MaxOrdersPerType=35; LotSize=0;
