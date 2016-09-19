@@ -1,19 +1,19 @@
 
 
 
-                                           Optimization Report
-                                      EA31337-Lite-Backtest-v1.070
-                                      Tripleafx-FX-Demo (Build 971)
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
 
-     Symbol          EURUSD (Euro vs US Dollar)
-     Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
-     Model           Every tick (the most precise method based on all available least timeframes)
-     Initial deposit 2000.00
-     Spread          10
-                                          [Optimization Graph]
-              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 1 -21.27           45          0.48           -0.47      26.63       1.33
-                 2 -24.17           46          0.44           -0.53      28.95       1.45
-                 5 -24.21           46          0.44           -0.53      28.13       1.40
-                 4 -24.21           46          0.44           -0.53      28.13       1.40
-                 3 -24.21           46          0.44           -0.53      28.13       1.40
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            4 -14.18           57          0.63           -0.25      22.22       1.11 MACD_Period_Fast=10; MaxOrders=0; MaxOrdersPerType=35;
+            5 -15.56           56          0.60           -0.28      21.53       1.07 MACD_Period_Fast=11; MaxOrders=0; MaxOrdersPerType=35;
+            3 -16.96           58          0.60           -0.29      19.85       0.99  MACD_Period_Fast=9; MaxOrders=0; MaxOrdersPerType=35;
+            2 -17.93           56          0.58           -0.32      22.42       1.12  MACD_Period_Fast=8; MaxOrders=0; MaxOrdersPerType=35;
+            1 -21.06           56          0.52           -0.38      23.30       1.16  MACD_Period_Fast=7; MaxOrders=0; MaxOrdersPerType=35;
