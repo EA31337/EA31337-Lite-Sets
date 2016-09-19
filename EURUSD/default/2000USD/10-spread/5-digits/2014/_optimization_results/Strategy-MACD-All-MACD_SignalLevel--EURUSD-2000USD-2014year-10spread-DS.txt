@@ -1,19 +1,19 @@
 
 
 
-                                           Optimization Report
-                                      EA31337-Lite-Backtest-v1.070
-                                      Tripleafx-FX-Demo (Build 971)
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
 
-     Symbol          EURUSD (Euro vs US Dollar)
-     Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
-     Model           Every tick (the most precise method based on all available least timeframes)
-     Initial deposit 2000.00
-     Spread          10
-                                          [Optimization Graph]
-              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 3  -0.06          790          1.00           -0.00      76.63       3.77
-                 5  -1.38          770          1.00           -0.00      80.56       3.96
-                 2  -2.57          801          1.00           -0.00      78.64       3.87
-                 4  -4.84          783          0.99           -0.01      77.18       3.80
-                 1  -8.76           44          0.69           -0.20      19.17       0.96
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            5 -14.71           54          0.64           -0.27      22.17       1.10 MACD_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=35;
+            4 -15.98           53          0.61           -0.30      19.54       0.98 MACD_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=35;
+            1 -17.06           56          0.59           -0.30      19.90       0.99 MACD_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=35;
+            2 -17.22           55          0.59           -0.31      20.19       1.01 MACD_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=35;
+            3 -18.83           55          0.56           -0.34      21.16       1.06 MACD_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=35;
