@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           9 217.56          837          1.74            0.26      43.53       2.14 MACD_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=35;
+           8 183.27          763          1.67            0.24      41.65       2.05 MACD_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=35;
+           7 160.50          655          1.69            0.25      41.62       2.05 MACD_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=35;
+           2  25.66           97          1.42            0.26      36.28       1.79 MACD_Period_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=35;
+           3  17.78           95          1.28            0.19      41.69       2.06 MACD_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=35;
+           1  -8.31           74          0.85           -0.11      41.71       2.06 MACD_Period_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=35;
+           6 -10.69           47          0.70           -0.23      39.13       1.93   MACD_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=35;
+          11 -16.34           54          0.62           -0.30      44.84       2.21 MACD_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=35;
+           5 -18.06           52          0.58           -0.35      46.50       2.29 MACD_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=35;
+          10 -19.84           63          0.61           -0.31      49.88       2.46 MACD_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=35;
+           4 -21.97          106          0.73           -0.21      46.27       2.29 MACD_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=35;
