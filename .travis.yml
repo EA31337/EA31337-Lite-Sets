@@ -39,7 +39,7 @@ before_install:
 - git config --local include.path "$CWD/.gitconfig"
 - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
 - echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" > ~/.secrets
-- [ "$GITHUB_API_TOKEN" ] && get_gh_asset.sh $OWNER $OWNER-Backtest-Releases $EA_VERSION $EA_MODE-Backtest "$EA_DIR"
+- test "$GITHUB_API_TOKEN" && get_gh_asset.sh $OWNER $OWNER-Backtest-Releases $EA_VERSION $EA_MODE-Backtest "$EA_DIR"
 install:
 - sudo env PATH="$PATH" provision.sh
 - sudo env PATH="$PATH" secur32_fix.sh
@@ -48,7 +48,7 @@ before_script:
 - find "$CWD" -name "*.rules" -exec bash -n "{}" ';'
 - test_rules.sh
 script:
-- [ -z "$GITHUB_API_TOKEN" ] && exit 0
+- test -z "$GITHUB_API_TOKEN" && exit 0
 - run_test.sh "$INI" -E VerboseInfo=0
 after_success:
 - echo "Success."
