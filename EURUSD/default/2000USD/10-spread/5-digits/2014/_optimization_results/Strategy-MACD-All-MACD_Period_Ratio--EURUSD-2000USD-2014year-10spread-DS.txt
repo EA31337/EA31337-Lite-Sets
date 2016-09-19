@@ -12,14 +12,14 @@
                             Spread          10
                                                                  [Optimization Graph]
         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           9 217.56          837          1.74            0.26      43.53       2.14 MACD_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=35;
-           8 183.27          763          1.67            0.24      41.65       2.05 MACD_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=35;
-           7 160.50          655          1.69            0.25      41.62       2.05 MACD_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=35;
-           2  25.66           97          1.42            0.26      36.28       1.79 MACD_Period_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=35;
-           3  17.78           95          1.28            0.19      41.69       2.06 MACD_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=35;
-           1  -8.31           74          0.85           -0.11      41.71       2.06 MACD_Period_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=35;
-           6 -10.69           47          0.70           -0.23      39.13       1.93   MACD_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=35;
-          11 -16.34           54          0.62           -0.30      44.84       2.21 MACD_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=35;
-           5 -18.06           52          0.58           -0.35      46.50       2.29 MACD_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=35;
-          10 -19.84           63          0.61           -0.31      49.88       2.46 MACD_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=35;
-           4 -21.97          106          0.73           -0.21      46.27       2.29 MACD_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=35;
+           6 158.97          630          1.67            0.25      37.02       1.84 MACD_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=35;
+           5 157.16          574          1.71            0.27      36.16       1.80 MACD_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=35;
+           4 143.20          513          1.71            0.28      36.27       1.80 MACD_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=35;
+           3 121.06          439          1.70            0.28      38.44       1.90   MACD_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=35;
+           2 -13.91           51          0.68           -0.27      39.21       1.95 MACD_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=35;
+           1 -21.91           81          0.76           -0.27      39.62       1.97 MACD_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=35;
+           7 -26.96           50          0.46           -0.54      42.52       2.11 MACD_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=35;
+          10 -29.90           47          0.39           -0.64      33.56       1.67 MACD_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=35;
+           9 -30.37           50          0.41           -0.61      39.63       1.97 MACD_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=35;
+           8 -30.74           51          0.42           -0.60      45.84       2.28 MACD_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=35;
+          11 -33.84           47          0.36           -0.72      37.18       1.86 MACD_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=35;
