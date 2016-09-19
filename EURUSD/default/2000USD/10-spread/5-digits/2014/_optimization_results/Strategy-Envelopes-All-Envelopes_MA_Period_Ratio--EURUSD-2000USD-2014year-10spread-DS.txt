@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+    Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      11  44.63          151          1.42            0.30      21.48       1.06 Envelopes_MA_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=35;
+      10  41.24          154          1.38            0.27      24.37       1.21 Envelopes_MA_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=35;
+       1  16.12           21          2.32            0.77       6.38       0.32 Envelopes_MA_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=35;
+       2  10.06           23          1.72            0.44       9.57       0.48 Envelopes_MA_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=35;
+       3   8.56          115          1.11            0.07      19.93       0.99 Envelopes_MA_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=35;
+       7  -5.34           22          0.72           -0.24      16.00       0.80 Envelopes_MA_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=35;
+       6  -5.34           22          0.72           -0.24      16.00       0.80 Envelopes_MA_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=35;
+       9  -5.50           22          0.71           -0.25      16.00       0.80 Envelopes_MA_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=35;
+       8  -5.50           22          0.71           -0.25      16.00       0.80 Envelopes_MA_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=35;
+       4  -5.86           23          0.70           -0.25      16.57       0.83   Envelopes_MA_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=35;
+       5  -7.14           22          0.65           -0.32      16.00       0.80 Envelopes_MA_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=35;
