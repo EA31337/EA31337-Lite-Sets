@@ -1,41 +1,41 @@
 
 
 
-                                           Optimization Report
-                                      EA31337-Lite-Backtest-v1.070
-                                      Tripleafx-FX-Demo (Build 971)
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
 
-     Symbol          EURUSD (Euro vs US Dollar)
-     Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
-     Model           Every tick (the most precise method based on all available least timeframes)
-     Initial deposit 2000.00
-     Spread          10
-                                          [Optimization Graph]
-              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                23 140.46          930          1.21            0.15     130.41       6.07
-                 7 122.38          864          1.20            0.14     104.46       4.95
-                 8  99.52          777          1.15            0.13     128.30       6.08
-                 1  99.52          777          1.15            0.13     128.30       6.08
-                21  61.51          550          1.10            0.11     159.45       7.58
-                 2  60.79          538          1.10            0.11     177.78       8.45
-                13  57.02          538          1.10            0.11     178.76       8.50
-                20  55.45          166          1.36            0.33      37.97       1.85
-                14  48.92          434          1.10            0.11     157.60       7.48
-                17  40.17          434          1.08            0.09     157.50       7.48
-                24  37.80          206          1.18            0.18      40.26       1.97
-                11  35.31          219          1.29            0.16      34.07       1.67
-                18  30.70          436          1.06            0.07     156.04       7.43
-                 9  27.59          524          1.06            0.05     116.15       5.57
-                22  24.22          224          1.11            0.11      54.84       2.66
-                27  -3.20          665          0.99           -0.00      48.61       2.41
-                 6  -5.29          888          0.99           -0.01      56.15       2.78
-                12  -6.77           51          0.78           -0.13      20.19       1.01
-                 5  -7.93           46          0.70           -0.17      20.30       1.01
-                 3  -9.22           55          0.65           -0.17      16.78       0.84
-                15  -9.77           69          0.81           -0.14      29.50       1.47
-                16 -10.46           55          0.77           -0.19      26.20       1.31
-                19 -10.80           64          0.82           -0.17      22.18       1.11
-                10 -13.23           51          0.57           -0.26      19.30       0.96
-                 4 -15.24           47          0.33           -0.32      16.89       0.84
-                26 -19.53          145          0.81           -0.13      29.62       1.47
-                25 -24.31          152          0.77           -0.16      35.26       1.75
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        16 266.03          921          1.65            0.29      33.64       1.66 RSI_TrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=35;
+        11 263.82          862          1.84            0.31      18.42       0.91 RSI_TrailingStopMethod=10; MaxOrders=0; MaxOrdersPerType=35;
+        15 258.98          866          1.82            0.30      19.36       0.96 RSI_TrailingStopMethod=14; MaxOrders=0; MaxOrdersPerType=35;
+        27 225.72          659          1.48            0.34      38.56       1.90 RSI_TrailingStopMethod=27; MaxOrders=0; MaxOrdersPerType=35;
+         7 212.14          694          1.47            0.31      38.21       1.88  RSI_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=35;
+         6 200.47          747          1.82            0.27      19.27       0.96  RSI_TrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=35;
+         9 199.17          775          1.42            0.26      51.49       2.52  RSI_TrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=35;
+         5 184.95          712          1.79            0.26      19.24       0.95  RSI_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=35;
+        22 179.57          701          1.59            0.26      45.77       2.25 RSI_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=35;
+        12 178.25          700          1.63            0.25      27.33       1.36 RSI_TrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=35;
+        19 176.37          698          1.61            0.25      31.53       1.56 RSI_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=35;
+        25 167.87          730          1.61            0.23      20.23       1.01 RSI_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=35;
+        26 165.41          729          1.60            0.23      20.25       1.01 RSI_TrailingStopMethod=26; MaxOrders=0; MaxOrdersPerType=35;
+        10 115.52          496          1.42            0.23      22.72       1.12  RSI_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=35;
+         8  56.13          415          1.14            0.14      58.47       2.87  RSI_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=35;
+         1  56.13          415          1.14            0.14      58.47       2.87  RSI_TrailingStopMethod=0; MaxOrders=0; MaxOrdersPerType=35;
+        14  21.29          211          1.09            0.10      89.56       4.40 RSI_TrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=35;
+        17  19.54          210          1.08            0.09      89.56       4.40 RSI_TrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=35;
+        18  19.31          210          1.08            0.09      89.56       4.40 RSI_TrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=35;
+         2  19.28          210          1.08            0.09      89.56       4.40  RSI_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=35;
+        21  19.17          210          1.08            0.09      89.56       4.40 RSI_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=35;
+        13  18.94          210          1.08            0.09      89.56       4.40 RSI_TrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=35;
+         3  15.85           47          1.78            0.34       9.98       0.50  RSI_TrailingStopMethod=2; MaxOrders=0; MaxOrdersPerType=35;
+         4  15.37           58          1.59            0.26      10.53       0.52  RSI_TrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=35;
+        20  12.63           58          1.24            0.22      37.82       1.86 RSI_TrailingStopMethod=20; MaxOrders=0; MaxOrdersPerType=35;
+        23   9.29           50          1.30            0.19      14.30       0.71 RSI_TrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=35;
+        24   5.43           50          1.17            0.11      17.67       0.88 RSI_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=35;
