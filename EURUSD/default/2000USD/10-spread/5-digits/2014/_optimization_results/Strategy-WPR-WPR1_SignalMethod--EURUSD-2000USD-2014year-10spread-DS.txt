@@ -1,78 +1,78 @@
 
 
 
-                                           Optimization Report
-                                      EA31337-Lite-Backtest-v1.069
-                                      Tripleafx-FX-Demo (Build 971)
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
 
-      Symbol          EURUSD (Euro vs US Dollar)
-      Period          1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
-      Model           Every tick (the most precise method based on all available least timeframes)
-      Initial deposit 2000.00
-      Spread          10
-                                          [Optimization Graph]
-              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                35 914.94          442          1.92            2.07     146.49       6.25
-                43 767.66          385          1.82            1.99     154.72       5.90
-                 6 592.08          526          1.43            1.13     117.77       5.31
-                 2 592.08          526          1.43            1.13     117.77       5.31
-                41 553.48          494          1.41            1.12     174.03       7.23
-                29 446.62          500          1.32            0.89      94.49       4.50
-                25 446.62          500          1.32            0.89      94.49       4.50
-                22 427.75          503          1.31            0.85     161.09       7.23
-                18 427.75          503          1.31            0.85     161.09       7.23
-                48 215.88          194          1.41            1.11      67.87       3.07
-                44 215.88          194          1.41            1.11      67.87       3.07
-                40 215.88          194          1.41            1.11      67.87       3.07
-                36 215.88          194          1.41            1.11      67.87       3.07
-                14  84.95           21          5.27            4.05      21.80       1.05
-                10  84.95           21          5.27            4.05      21.80       1.05
-                30  80.53           26          2.95            3.10      21.80       1.06
-                26  80.53           26          2.95            3.10      21.80       1.06
-                16  46.56          312          1.05            0.15     109.47       5.11
-                12  46.56          312          1.05            0.15     109.47       5.11
-                 8  46.56          312          1.05            0.15     109.47       5.11
-                 4  46.56          312          1.05            0.15     109.47       5.11
-                47  44.15           38          1.34            1.16      98.44       4.82
-                39  44.15           38          1.34            1.16      98.44       4.82
-                21  31.63           17          1.78            1.86      33.08       1.65
-                15  23.82           17          1.60            1.40      36.89       1.84
-                 7  23.82           17          1.60            1.40      36.89       1.84
-                45  16.54           15          1.41            1.10      22.66       1.13
-                17   0.56           16          1.01            0.04      27.03       1.35
-                11   0.20           17          1.00            0.01      54.67       2.73
-                 3  -2.14           17          0.96           -0.13      55.13       2.76
-                38  -9.22           22          0.88           -0.42      39.10       1.93
-                34  -9.22           22          0.88           -0.42      39.10       1.93
-                53 -10.01           21          0.87           -0.48      33.55       1.66
-                37 -10.01           18          0.83           -0.56      39.33       1.95
-                13 -10.46           15          0.81           -0.70      47.03       2.35
-                64 -12.26           20          0.86           -0.61      43.88       2.17
-                63 -12.26           20          0.86           -0.61      43.88       2.17
-                60 -12.26           20          0.86           -0.61      43.88       2.17
-                59 -12.26           20          0.86           -0.61      43.88       2.17
-                56 -12.26           20          0.86           -0.61      43.88       2.17
-                55 -12.26           20          0.86           -0.61      43.88       2.17
-                52 -12.26           20          0.86           -0.61      43.88       2.17
-                51 -12.26           20          0.86           -0.61      43.88       2.17
-                54 -15.03           20          0.79           -0.75      36.08       1.79
-                50 -15.03           20          0.79           -0.75      36.08       1.79
-                49 -20.12           15          0.65           -1.34      36.10       1.80
-                32 -21.26           47          0.87           -0.45      75.20       3.68
-                31 -21.26           47          0.87           -0.45      75.20       3.68
-                28 -21.26           47          0.87           -0.45      75.20       3.68
-                27 -21.26           47          0.87           -0.45      75.20       3.68
-                24 -21.26           47          0.87           -0.45      75.20       3.68
-                23 -21.26           47          0.87           -0.45      75.20       3.68
-                20 -21.26           47          0.87           -0.45      75.20       3.68
-                19 -21.26           47          0.87           -0.45      75.20       3.68
-                 5 -25.65           15          0.60           -1.71      63.04       3.15
-                33 -27.10           41          0.79           -0.66     111.46       5.50
-                61 -33.87           32          0.76           -1.06      61.81       3.05
-                57 -33.87           32          0.76           -1.06      61.81       3.05
-                46 -46.36          133          0.89           -0.35     115.18       5.58
-                42 -46.36          133          0.89           -0.35     115.18       5.58
-                62 -46.95          138          0.89           -0.34     120.87       5.85
-                58 -46.95          138          0.89           -0.34     120.87       5.85
-                 9 -53.41           15          0.31           -3.56      93.37       4.67
-                 1 -66.86           15          0.20           -4.46      95.56       4.78
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 2000.00
+                             Spread          10
+                                                                 [Optimization Graph]
+         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           37  84.07         2715          1.09            0.03      81.63       3.95 WPR1_SignalMethod=36; MaxOrders=0; MaxOrdersPerType=35;
+           53  79.87         1748          1.13            0.05      75.05       3.63 WPR1_SignalMethod=52; MaxOrders=0; MaxOrdersPerType=35;
+           21  54.99         2073          1.08            0.03      88.63       4.33 WPR1_SignalMethod=20; MaxOrders=0; MaxOrdersPerType=35;
+           43  11.57           11          5.65            1.05       6.57       0.33 WPR1_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=35;
+           11  11.57           11          5.65            1.05       6.57       0.33 WPR1_SignalMethod=10; MaxOrders=0; MaxOrdersPerType=35;
+           41  11.41           11          5.58            1.04       6.57       0.33 WPR1_SignalMethod=40; MaxOrders=0; MaxOrdersPerType=35;
+            9  11.41           11          5.58            1.04       6.57       0.33  WPR1_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=35;
+           33   7.79           12          3.10            0.65       4.27       0.21 WPR1_SignalMethod=32; MaxOrders=0; MaxOrdersPerType=35;
+            1   7.79           12          3.10            0.65       4.27       0.21  WPR1_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=35;
+           54  -0.58           12          0.89           -0.05       6.39       0.32 WPR1_SignalMethod=53; MaxOrders=0; MaxOrdersPerType=35;
+           50  -0.58           12          0.89           -0.05       6.39       0.32 WPR1_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=35;
+           47  -0.67           19          0.88           -0.04       7.91       0.39 WPR1_SignalMethod=46; MaxOrders=0; MaxOrdersPerType=35;
+           39  -0.67           19          0.88           -0.04       7.91       0.39 WPR1_SignalMethod=38; MaxOrders=0; MaxOrdersPerType=35;
+           15  -0.67           19          0.88           -0.04       7.91       0.39 WPR1_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=35;
+            7  -0.67           19          0.88           -0.04       7.91       0.39  WPR1_SignalMethod=6; MaxOrders=0; MaxOrdersPerType=35;
+           46  -0.76           13          0.86           -0.06       7.24       0.36 WPR1_SignalMethod=45; MaxOrders=0; MaxOrdersPerType=35;
+           42  -0.76           13          0.86           -0.06       7.24       0.36 WPR1_SignalMethod=41; MaxOrders=0; MaxOrdersPerType=35;
+           45  -0.80           17          0.85           -0.05       7.31       0.36 WPR1_SignalMethod=44; MaxOrders=0; MaxOrdersPerType=35;
+           38  -1.23           14          0.79           -0.09       7.29       0.36 WPR1_SignalMethod=37; MaxOrders=0; MaxOrdersPerType=35;
+           34  -1.23           14          0.79           -0.09       7.29       0.36 WPR1_SignalMethod=33; MaxOrders=0; MaxOrdersPerType=35;
+           64  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=35;
+           63  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=62; MaxOrders=0; MaxOrdersPerType=35;
+           60  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=59; MaxOrders=0; MaxOrdersPerType=35;
+           59  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=58; MaxOrders=0; MaxOrdersPerType=35;
+           56  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=55; MaxOrders=0; MaxOrdersPerType=35;
+           55  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=54; MaxOrders=0; MaxOrdersPerType=35;
+           52  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=51; MaxOrders=0; MaxOrdersPerType=35;
+           51  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=50; MaxOrders=0; MaxOrdersPerType=35;
+           32  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=31; MaxOrders=0; MaxOrdersPerType=35;
+           31  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=30; MaxOrders=0; MaxOrdersPerType=35;
+           28  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=27; MaxOrders=0; MaxOrdersPerType=35;
+           27  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=26; MaxOrders=0; MaxOrdersPerType=35;
+           24  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=23; MaxOrders=0; MaxOrdersPerType=35;
+           23  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=22; MaxOrders=0; MaxOrdersPerType=35;
+           20  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=19; MaxOrders=0; MaxOrdersPerType=35;
+           19  -2.77           11          0.31           -0.25       5.45       0.27 WPR1_SignalMethod=18; MaxOrders=0; MaxOrdersPerType=35;
+           48  -3.46           11          0.20           -0.31       6.10       0.30 WPR1_SignalMethod=47; MaxOrders=0; MaxOrdersPerType=35;
+           44  -3.46           11          0.20           -0.31       6.10       0.30 WPR1_SignalMethod=43; MaxOrders=0; MaxOrdersPerType=35;
+           40  -3.46           11          0.20           -0.31       6.10       0.30 WPR1_SignalMethod=39; MaxOrders=0; MaxOrdersPerType=35;
+           36  -3.46           11          0.20           -0.31       6.10       0.30 WPR1_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=35;
+           16  -3.46           11          0.20           -0.31       6.10       0.30 WPR1_SignalMethod=15; MaxOrders=0; MaxOrdersPerType=35;
+           12  -3.46           11          0.20           -0.31       6.10       0.30 WPR1_SignalMethod=11; MaxOrders=0; MaxOrdersPerType=35;
+            8  -3.46           11          0.20           -0.31       6.10       0.30  WPR1_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=35;
+            4  -3.46           11          0.20           -0.31       6.10       0.30  WPR1_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=35;
+           30  -3.63           70          0.89           -0.05      21.56       1.07 WPR1_SignalMethod=29; MaxOrders=0; MaxOrdersPerType=35;
+           26  -3.63           70          0.89           -0.05      21.56       1.07 WPR1_SignalMethod=25; MaxOrders=0; MaxOrdersPerType=35;
+           17  -4.01          210          0.94           -0.02      25.26       1.25 WPR1_SignalMethod=16; MaxOrders=0; MaxOrdersPerType=35;
+           14  -4.60           72          0.87           -0.06      21.62       1.07 WPR1_SignalMethod=13; MaxOrders=0; MaxOrdersPerType=35;
+           10  -4.60           72          0.87           -0.06      21.62       1.07  WPR1_SignalMethod=9; MaxOrders=0; MaxOrdersPerType=35;
+           22  -6.39           96          0.85           -0.07      23.77       1.18 WPR1_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=35;
+           18  -6.39           96          0.85           -0.07      23.77       1.18 WPR1_SignalMethod=17; MaxOrders=0; MaxOrdersPerType=35;
+           49  -6.65          181          0.90           -0.04      22.67       1.12 WPR1_SignalMethod=48; MaxOrders=0; MaxOrdersPerType=35;
+            6  -7.69           99          0.82           -0.08      24.51       1.22  WPR1_SignalMethod=5; MaxOrders=0; MaxOrdersPerType=35;
+            2  -7.69           99          0.82           -0.08      24.51       1.22  WPR1_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=35;
+           35  -7.81          250          0.90           -0.03      23.66       1.17 WPR1_SignalMethod=34; MaxOrders=0; MaxOrdersPerType=35;
+            3  -7.81          250          0.90           -0.03      23.66       1.17  WPR1_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=35;
+           61  -8.04           66          0.75           -0.12      19.37       0.96 WPR1_SignalMethod=60; MaxOrders=0; MaxOrdersPerType=35;
+           57  -8.04           66          0.75           -0.12      19.37       0.96 WPR1_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=35;
+           62 -10.47           48          0.63           -0.22      20.18       1.00 WPR1_SignalMethod=61; MaxOrders=0; MaxOrdersPerType=35;
+           58 -10.47           48          0.63           -0.22      20.18       1.00 WPR1_SignalMethod=57; MaxOrders=0; MaxOrdersPerType=35;
+           29 -13.11          305          0.90           -0.04      32.31       1.60 WPR1_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=35;
+           25 -13.11          305          0.90           -0.04      32.31       1.60 WPR1_SignalMethod=24; MaxOrders=0; MaxOrdersPerType=35;
+           13 -21.69          640          0.90           -0.03      40.20       1.99 WPR1_SignalMethod=12; MaxOrders=0; MaxOrdersPerType=35;
+            5 -32.79          960          0.90           -0.03      55.29       2.73  WPR1_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=35;
