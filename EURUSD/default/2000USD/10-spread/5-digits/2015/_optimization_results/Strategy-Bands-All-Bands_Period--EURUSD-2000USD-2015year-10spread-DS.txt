@@ -1,20 +1,19 @@
 
 
 
-                                           Optimization Report
-                                      EA31337-Lite-Backtest-v1.068
-                                      Tripleafx-FX-Demo (Build 950)
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
 
-      Symbol          EURUSD (Euro vs US Dollar)
-      Period          1 Minute (M1) 2015.01.01 23:40 - 2015.12.29 23:59 (2015.01.01 - 2015.12.30)
-      Model           Every tick (the most precise method based on all available least timeframes)
-      Initial deposit 2000.00
-      Spread          10
-                                          [Optimization Graph]
-             Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                3 -1049.53          271          0.65           -3.87    2495.85      78.51
-                4 -1061.76          264          0.64           -4.02    2425.17      80.01
-                1 -1198.91          272          0.61           -4.41    2445.47      80.37
-                2 -1215.71          270          0.60           -4.50    2366.41      82.34
-                6 -1403.43          262          0.55           -5.36    2550.48      86.09
-                5 -1459.74          263          0.54           -5.55    2520.09      87.74
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2015.01.06 00:00 - 2015.12.29 23:30 (2015.01.01 - 2015.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              4  115.71          932          1.07            0.12     375.19      15.06 Bands_Period=26; MaxOrders=0; MaxOrdersPerType=35;
+              5  110.26          909          1.07            0.12     354.98      14.48 Bands_Period=28; MaxOrders=0; MaxOrdersPerType=35;
+              1   70.81          873          1.05            0.08     324.97      13.56 Bands_Period=20; MaxOrders=0; MaxOrdersPerType=35;
+              3 -153.50          980          0.92           -0.16     629.14      25.41 Bands_Period=24; MaxOrders=0; MaxOrdersPerType=35;
+              2 -192.23          989          0.91           -0.19     684.58      27.47 Bands_Period=22; MaxOrders=0; MaxOrdersPerType=35;
