@@ -14,3 +14,4 @@
             Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
                2 656.55         2493          1.66            0.26      26.12       1.23 Bands_Shift=1; MaxOrders=0; MaxOrdersPerType=35;
                1  -8.93           35          0.61           -0.26      18.42       0.92 Bands_Shift=0; MaxOrders=0; MaxOrdersPerType=35;
+               3 -11.72           36          0.50           -0.33      16.67       0.83 Bands_Shift=2; MaxOrders=0; MaxOrdersPerType=35;
