@@ -12,10 +12,10 @@
                             Spread          10
                                                                  [Optimization Graph]
          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            7  88.40          257          2.01            0.34      24.32       1.17 RSI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=35;
-            3  79.49          199          2.09            0.40      14.81       0.72 RSI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=35;
-            4  79.42          219          1.93            0.36      19.71       0.95 RSI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=35;
-            5  42.97           24          7.10            1.79      17.21       0.85 RSI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=35;
-            2  38.26           22          7.47            1.74      15.22       0.75 RSI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=35;
-            1  38.26           22          7.47            1.74      15.22       0.75 RSI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=35;
-            6  34.75           25          4.20            1.39      21.78       1.08 RSI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=35;
+            7 168.91          471          2.07            0.36      13.14       0.61 RSI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=35;
+            2 101.78          351          1.70            0.29      17.43       0.84 RSI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=35;
+            1 101.78          351          1.70            0.29      17.43       0.84 RSI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=35;
+            6  22.83           28          2.74            0.82      13.74       0.68 RSI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=35;
+            4  21.96           28          2.85            0.78      11.02       0.55 RSI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=35;
+            3  21.17           31          2.46            0.68      14.18       0.70 RSI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=35;
+            5  16.50           30          2.13            0.55      15.12       0.75 RSI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=35;
