@@ -11,9 +11,9 @@
                             Initial deposit 2000.00
                             Spread          10
                                                                  [Optimization Graph]
-          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1 310.74         1404          1.46            0.22      46.71       2.07 RSI_SignalLevel=10; MaxOrders=0; MaxOrdersPerType=35;
-             2 163.16          732          1.48            0.22      22.50       1.11 RSI_SignalLevel=12; MaxOrders=0; MaxOrdersPerType=35;
-             5  46.63          159          1.64            0.29      24.62       1.22 RSI_SignalLevel=18; MaxOrders=0; MaxOrdersPerType=35;
-             3   9.29           50          1.30            0.19      14.30       0.71 RSI_SignalLevel=14; MaxOrders=0; MaxOrdersPerType=35;
-             4  -9.25           47          0.78           -0.20      25.08       1.25 RSI_SignalLevel=16; MaxOrders=0; MaxOrdersPerType=35;
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            1 1024.71         2880          1.92            0.36      37.67       1.43  RSI_SignalLevel=6; MaxOrders=0; MaxOrdersPerType=35;
+            2  829.80         2333          1.93            0.36      35.22       1.48  RSI_SignalLevel=8; MaxOrders=0; MaxOrdersPerType=35;
+            3  800.41         2101          1.98            0.38      39.47       1.86 RSI_SignalLevel=10; MaxOrders=0; MaxOrdersPerType=35;
+            5  362.70          970          2.00            0.37      18.99       0.94 RSI_SignalLevel=14; MaxOrders=0; MaxOrdersPerType=35;
+            4  193.29          268          2.46            0.72      15.11       0.75 RSI_SignalLevel=12; MaxOrders=0; MaxOrdersPerType=35;
