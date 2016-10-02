@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2015.01.06 00:00 - 2015.12.29 23:30 (2015.01.01 - 2015.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          5 1691.58         3549          1.87            0.48      62.45       2.93 Bands_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=35;
+          6 1668.71         3523          1.87            0.47      75.88       3.54 Bands_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=35;
+         10  369.69           88          5.28            4.20      63.80       2.73 Bands_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=35;
+          9  319.09           87          5.15            3.67      71.02       3.26 Bands_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=35;
+          8  298.23          102          4.39            2.92      61.73       2.85 Bands_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=35;
+          7  285.56           75          4.99            3.81      59.14       2.75   Bands_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=35;
+          1  207.00           77          3.23            2.69     139.51       5.99 Bands_Period_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=35;
+         11  170.96           78          4.14            2.19      47.17       2.20 Bands_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=35;
+          3  136.13           49          6.14            2.78      56.87       2.67 Bands_Period_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=35;
+          4  113.18           38          6.16            2.98      57.63       2.71 Bands_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=35;
+          2   78.50           38          3.76            2.07      81.81       3.79 Bands_Period_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=35;
