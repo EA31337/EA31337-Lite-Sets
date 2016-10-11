@@ -1,21 +1,21 @@
 
 
 
-                                           Optimization Report
-                                      EA31337-Lite-Backtest-v1.070
-                                      Tripleafx-FX-Demo (Build 971)
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
 
-     Symbol          EURUSD (Euro vs US Dollar)
-     Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
-     Model           Every tick (the most precise method based on all available least timeframes)
-     Initial deposit 2000.00
-     Spread          10
-                                          [Optimization Graph]
-              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 4 101.16          245          1.64            0.41      45.20       2.16
-                 6  71.63          317          1.37            0.23      38.35       1.87
-                 7  71.54          303          1.38            0.24      33.83       1.66
-                 1  51.78          150          1.61            0.35      17.00       0.83
-                 2  43.84           30          3.33            1.46      17.53       0.87
-                 3  22.37          223          1.13            0.10      50.54       2.51
-                 5  -5.47           31          0.81           -0.18      14.19       0.71
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            4 175.96          674          1.76            0.26      13.51       0.66 RSI_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=35;
+            5 167.88          672          1.72            0.25      22.71       1.11 RSI_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=35;
+            6 149.07          695          1.61            0.21      18.85       0.92 RSI_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=35;
+            3 139.38          619          1.66            0.23      26.08       1.30 RSI_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=35;
+            7 122.53          692          1.50            0.18      17.45       0.86 RSI_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=35;
+            2 119.95          586          1.59            0.20      20.83       0.99 RSI_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=35;
+            1 119.95          586          1.59            0.20      20.83       0.99 RSI_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=35;

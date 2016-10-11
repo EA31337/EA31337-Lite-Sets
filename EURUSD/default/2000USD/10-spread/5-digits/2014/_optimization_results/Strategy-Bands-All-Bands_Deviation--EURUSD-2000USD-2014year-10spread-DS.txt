@@ -1,19 +1,19 @@
 
 
 
-                                           Optimization Report
-                                      EA31337-Lite-Backtest-v1.070
-                                      Tripleafx-FX-Demo (Build 971)
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
 
-     Symbol          EURUSD (Euro vs US Dollar)
-     Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
-     Model           Every tick (the most precise method based on all available least timeframes)
-     Initial deposit 2000.00
-     Spread          10
-                                          [Optimization Graph]
-              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 3 274.67          470          1.46            0.58      84.88       4.06
-                 4 268.91          465          1.45            0.58      82.39       3.96
-                 5 162.06          208          1.58            0.78      49.22       2.41
-                 1 152.74          351          1.40            0.44      47.66       2.23
-                 2 150.47          343          1.40            0.44      48.73       2.27
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            5 -23.36           81          0.86           -0.29      72.92       3.60 Bands_Deviation=2.9; MaxOrders=0; MaxOrdersPerType=35;
+            4 -32.08          128          0.87           -0.25     104.68       5.05 Bands_Deviation=2.8; MaxOrders=0; MaxOrdersPerType=35;
+            2 -45.34          123          0.83           -0.37     121.18       5.85 Bands_Deviation=2.6; MaxOrders=0; MaxOrdersPerType=35;
+            3 -47.48          132          0.83           -0.36     121.86       5.88 Bands_Deviation=2.7; MaxOrders=0; MaxOrdersPerType=35;
+            1 -48.05          126          0.82           -0.38     125.78       6.07 Bands_Deviation=2.5; MaxOrders=0; MaxOrdersPerType=35;

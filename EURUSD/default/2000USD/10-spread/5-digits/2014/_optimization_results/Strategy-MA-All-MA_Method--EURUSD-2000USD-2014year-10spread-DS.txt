@@ -1,18 +1,18 @@
 
 
 
-                                           Optimization Report
-                                      EA31337-Lite-Backtest-v1.070
-                                      Tripleafx-FX-Demo (Build 971)
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
 
-     Symbol          EURUSD (Euro vs US Dollar)
-     Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
-     Model           Every tick (the most precise method based on all available least timeframes)
-     Initial deposit 2000.00
-     Spread          10
-                                          [Optimization Graph]
-              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 1 -38.78          129          0.83           -0.30      89.58       4.41
-                 3 -52.08          128          0.75           -0.41     154.69       7.62
-                 4 -55.38          115          0.74           -0.48     126.62       6.23
-                 2 -66.70          111          0.66           -0.60     162.44       7.99
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+             Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                2 156.41          644          1.59            0.24      45.88       2.25 MA_Method=1; MaxOrders=0; MaxOrdersPerType=35;
+                4 152.94          723          1.48            0.21      41.31       2.04 MA_Method=3; MaxOrders=0; MaxOrdersPerType=35;
+                3 152.01          660          1.56            0.23      48.87       2.39 MA_Method=2; MaxOrders=0; MaxOrdersPerType=35;
+                1 141.62          689          1.44            0.21      53.49       2.61 MA_Method=0; MaxOrders=0; MaxOrdersPerType=35;
