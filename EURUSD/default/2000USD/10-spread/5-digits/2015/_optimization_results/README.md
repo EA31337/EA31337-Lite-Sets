@@ -1,7 +1,22 @@
 
+### Report: All Account_Conditions_Active  EURUSD 2000USD 2015year 10spread DS test
+
+![All Account_Conditions_Active  EURUSD 2000USD 2015year 10spread DS test.txt](./All-Account_Conditions_Active--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
+### Report: All Action_On_Condition_01  EURUSD 2000USD 2015year 10spread DS test
+
+![All Action_On_Condition_01  EURUSD 2000USD 2015year 10spread DS test.txt](./All-Action_On_Condition_01--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
 ### Report: All Action_On_Condition_02  EURUSD 2000USD 2015year 10spread DS test
 
 ![All Action_On_Condition_02  EURUSD 2000USD 2015year 10spread DS test.txt]()
+
+
+### Report: All CloseOrderAfterXHours  EURUSD 2000USD 2015year 10spread DS test
+
+![All CloseOrderAfterXHours  EURUSD 2000USD 2015year 10spread DS test.txt](./All-CloseOrderAfterXHours--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
 ### Report: All DefaultTrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test
@@ -9,9 +24,29 @@
 ![All DefaultTrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt]()
 
 
+### Report: All MarketSpecificHour  EURUSD 2000USD 2015year 10spread DS test
+
+![All MarketSpecificHour  EURUSD 2000USD 2015year 10spread DS test.txt](./All-MarketSpecificHour--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
+### Report: All MaxOrdersPerType  EURUSD 2000USD 2015year 10spread DS test
+
+![All MaxOrdersPerType  EURUSD 2000USD 2015year 10spread DS test.txt](./All-MaxOrdersPerType--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
 ### Report: All TakeProfit StopLoss  EURUSD 2000USD 2015year 10spread DS test
 
 ![All TakeProfit StopLoss  EURUSD 2000USD 2015year 10spread DS test.txt]()
+
+
+### Report: All TrailingStopAddPerMinute  EURUSD 2000USD 2015year 10spread DS test
+
+![All TrailingStopAddPerMinute  EURUSD 2000USD 2015year 10spread DS test.txt](./All-TrailingStopAddPerMinute--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
+### Report: All TrendMethod  EURUSD 2000USD 2015year 10spread DS test
+
+![All TrendMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./All-TrendMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
 ### Report: Strategy Alligator All Alligator_Applied_Price  EURUSD 2000USD 2015year 10spread DS test

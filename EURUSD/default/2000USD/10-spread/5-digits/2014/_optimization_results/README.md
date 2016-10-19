@@ -11,7 +11,7 @@
 
 ### Report: All Action_On_Condition_01  EURUSD 2000USD 2014year 10spread DS test
 
-![All Action_On_Condition_01  EURUSD 2000USD 2014year 10spread DS test.txt]()
+![All Action_On_Condition_01  EURUSD 2000USD 2014year 10spread DS test.txt](./All-Action_On_Condition_01--EURUSD-2000USD-2014year-10spread-DS-test.gif)
 
 
 ### Report: All Action_On_Condition_02  EURUSD 2000USD 2014year 10spread DS test
@@ -26,7 +26,7 @@
 
 ### Report: All Action_On_Condition_05  EURUSD 2000USD 2014year 10spread DS test
 
-![All Action_On_Condition_05  EURUSD 2000USD 2014year 10spread DS test.txt]()
+![All Action_On_Condition_05  EURUSD 2000USD 2014year 10spread DS test.txt](./All-Action_On_Condition_05--EURUSD-2000USD-2014year-10spread-DS-test.gif)
 
 
 ### Report: All BestDailyStrategyMultiplierFactor  EURUSD 2000USD 2014year 10spread DS test
