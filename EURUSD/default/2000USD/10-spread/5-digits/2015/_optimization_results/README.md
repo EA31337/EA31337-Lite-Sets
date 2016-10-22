@@ -76,12 +76,12 @@
 
 ### Report: Strategy Alligator All Alligator_TrailingProfitMethod  EURUSD 2000USD 2015year 10spread DS test
 
-![Strategy Alligator All Alligator_TrailingProfitMethod  EURUSD 2000USD 2015year 10spread DS test.txt]()
+![Strategy Alligator All Alligator_TrailingProfitMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-Alligator-All-Alligator_TrailingProfitMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
 ### Report: Strategy Alligator All Alligator_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test
 
-![Strategy Alligator All Alligator_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt]()
+![Strategy Alligator All Alligator_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-Alligator-All-Alligator_TrailingStopMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
 ### Report: Strategy Alligator Alligator15_SignalMethod  EURUSD 2000USD 2015year 10spread DS test
@@ -211,12 +211,12 @@
 
 ### Report: Strategy DeMarker All DeMarker_TrailingProfitMethod  EURUSD 2000USD 2015year 10spread DS test
 
-![Strategy DeMarker All DeMarker_TrailingProfitMethod  EURUSD 2000USD 2015year 10spread DS test.txt]()
+![Strategy DeMarker All DeMarker_TrailingProfitMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-DeMarker-All-DeMarker_TrailingProfitMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
 ### Report: Strategy DeMarker All DeMarker_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test
 
-![Strategy DeMarker All DeMarker_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt]()
+![Strategy DeMarker All DeMarker_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-DeMarker-All-DeMarker_TrailingStopMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
 ### Report: Strategy DeMarker DeMarker1_Active  EURUSD 2000USD 2015year 10spread DS test
