@@ -212,6 +212,22 @@
 ![Strategy Fractals Fractals_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-Fractals-Fractals_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
 
 
+### Report: Strategy MA MA15_EURUSD_2000USD_10spread_5digits_2015 DS test
+
+![Strategy MA MA15_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-MA-MA15_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
+
+    Symbol                           EURUSD (Euro vs US Dollar)
+    Period                           15 Minutes (M15) 2015.01.04 23:00 - 2015.12.29 23:45 (2015.01.01 - 2015.12.30)
+    Model                            Every tick (the most precise method based on all available least timeframes)
+    Parameters                       Alligator30_SignalMethod=6; __Bands_Parameters__="-- Settings for the Bollinger Bands indicator --";
+    Bars in test               24710 Ticks modelled                          5877499 Modelling quality                                              89.64%
+    Mismatched charts errors       0
+    Initial deposit          2000.00                                                 Spread                                                             10
+    Total net profit           11.38 Gross profit                              19.57 Gross loss                                                      -8.19
+    Profit factor               2.39 Expected payoff                            0.95
+    Absolute drawdown           4.52 Maximal drawdown                   7.32 (0.36%) Relative drawdown                                        0.36% (7.32)
+    Total trades                  12 Short positions (won %)              8 (62.50%) Long positions (won %)                                     4 (50.00%)
+
 ### Report: Strategy MA MA1_EURUSD_2000USD_10spread_5digits_2015 DS test
 
 ![Strategy MA MA1_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-MA-MA1_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
