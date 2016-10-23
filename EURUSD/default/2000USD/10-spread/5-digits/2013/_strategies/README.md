@@ -119,9 +119,19 @@
 ![Strategy DeMarker DeMarker5_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-DeMarker-DeMarker5_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
 
 
+### Report: Strategy DeMarker DeMarker_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy DeMarker DeMarker_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-DeMarker-DeMarker_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
+
 ### Report: Strategy Envelopes Envelopes15_EURUSD_2000USD_10spread_5digits_2013 DS test
 
 ![Strategy Envelopes Envelopes15_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-Envelopes-Envelopes15_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
+
+### Report: Strategy Envelopes Envelopes30_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy Envelopes Envelopes30_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-Envelopes-Envelopes30_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
 
 
 ### Report: Strategy Envelopes Envelopes5_EURUSD_2000USD_10spread_5digits_2013 DS test
@@ -133,6 +143,27 @@
 
 ![Strategy Envelopes Envelopes_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-Envelopes-Envelopes_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
 
+
+### Report: Strategy Fractals Fractals15_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy Fractals Fractals15_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-Fractals-Fractals15_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
+
+### Report: Strategy Fractals Fractals1_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy Fractals Fractals1_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-Fractals-Fractals1_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
+    Symbol                           EURUSD (Euro vs US Dollar)
+    Period                           1 Minute (M1) 2013.01.01 23:40 - 2013.12.29 23:59 (2013.01.01 - 2013.12.30)
+    Model                            Every tick (the most precise method based on all available least timeframes)
+    Parameters                       Alligator30_SignalMethod=63; __Bands_Parameters__="-- Settings for the Bollinger Bands indicator --";
+    Bars in test              369765 Ticks modelled                         83626545 Modelling quality                                              24.99%
+    Mismatched charts errors       0
+    Initial deposit          2000.00                                                 Spread                                                             10
+    Total net profit           -4.01 Gross profit                              11.25 Gross loss                                                     -15.26
+    Profit factor               0.74 Expected payoff                           -0.14
+    Absolute drawdown           4.47 Maximal drawdown                   9.36 (0.47%) Relative drawdown                                        0.47% (9.36)
+    Total trades                  28 Short positions (won %)             12 (25.00%) Long positions (won %)                                    16 (37.50%)
 
 ### Report: Strategy Fractals Fractals30_EURUSD_2000USD_10spread_5digits_2013 DS test
 
@@ -149,6 +180,11 @@
     Profit factor               0.47 Expected payoff                           -0.31
     Absolute drawdown           3.36 Maximal drawdown                   6.58 (0.33%) Relative drawdown                                        0.33% (6.58)
     Total trades                  11 Short positions (won %)               5 (0.00%) Long positions (won %)                                     6 (50.00%)
+
+### Report: Strategy Fractals Fractals_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy Fractals Fractals_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-Fractals-Fractals_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
 
 ### Report: Strategy MA MA15_EURUSD_2000USD_10spread_5digits_2013 DS test
 
@@ -187,10 +223,42 @@
 ![Strategy MA MA30_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-MA-MA30_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
 
 
+### Report: Strategy MA MA5_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy MA MA5_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-MA-MA5_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
+    Symbol                           EURUSD (Euro vs US Dollar)
+    Period                           5 Minutes (M5) 2013.01.02 06:15 - 2013.12.29 23:55 (2013.01.01 - 2013.12.30)
+    Model                            Every tick (the most precise method based on all available least timeframes)
+    Parameters                       Alligator30_SignalMethod=63; __Bands_Parameters__="-- Settings for the Bollinger Bands indicator --";
+    Bars in test               74139 Ticks modelled                         17662286 Modelling quality                                              89.88%
+    Mismatched charts errors       0
+    Initial deposit          2000.00                                                 Spread                                                             10
+    Total net profit           -2.94 Gross profit                               2.33 Gross loss                                                      -5.27
+    Profit factor               0.44 Expected payoff                           -0.27
+    Absolute drawdown           6.31 Maximal drawdown                   8.71 (0.43%) Relative drawdown                                        0.43% (8.71)
+    Total trades                  11 Short positions (won %)              4 (50.00%) Long positions (won %)                                     7 (42.86%)
+
 ### Report: Strategy MA MA_EURUSD_2000USD_10spread_5digits_2013 DS test
 
 ![Strategy MA MA_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-MA-MA_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
 
+
+### Report: Strategy MACD MACD15_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy MACD MACD15_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-MACD-MACD15_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
+    Symbol                           EURUSD (Euro vs US Dollar)
+    Period                           15 Minutes (M15) 2013.01.02 22:45 - 2013.12.29 23:45 (2013.01.01 - 2013.12.30)
+    Model                            Every tick (the most precise method based on all available least timeframes)
+    Parameters                       Alligator30_SignalMethod=63; __Bands_Parameters__="-- Settings for the Bollinger Bands indicator --";
+    Bars in test               24720 Ticks modelled                          6476958 Modelling quality                                              89.64%
+    Mismatched charts errors       0
+    Initial deposit          2000.00                                                 Spread                                                             10
+    Total net profit           -3.99 Gross profit                               1.35 Gross loss                                                      -5.34
+    Profit factor               0.25 Expected payoff                           -0.36
+    Absolute drawdown           3.99 Maximal drawdown                   3.99 (0.20%) Relative drawdown                                        0.20% (3.99)
+    Total trades                  11 Short positions (won %)               0 (0.00%) Long positions (won %)                                    11 (18.18%)
 
 ### Report: Strategy MACD MACD1_EURUSD_2000USD_10spread_5digits_2013 DS test
 
@@ -212,6 +280,22 @@
 
 ![Strategy MACD MACD30_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-MACD-MACD30_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
 
+
+### Report: Strategy MACD MACD5_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy MACD MACD5_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-MACD-MACD5_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
+    Symbol                           EURUSD (Euro vs US Dollar)
+    Period                           5 Minutes (M5) 2013.01.02 06:15 - 2013.12.29 23:55 (2013.01.01 - 2013.12.30)
+    Model                            Every tick (the most precise method based on all available least timeframes)
+    Parameters                       Alligator30_SignalMethod=63; __Bands_Parameters__="-- Settings for the Bollinger Bands indicator --";
+    Bars in test               74139 Ticks modelled                         17662286 Modelling quality                                              89.88%
+    Mismatched charts errors       0
+    Initial deposit          2000.00                                                 Spread                                                             10
+    Total net profit           12.04 Gross profit                              14.54 Gross loss                                                      -2.50
+    Profit factor               5.82 Expected payoff                            1.00
+    Absolute drawdown           0.59 Maximal drawdown                   2.75 (0.14%) Relative drawdown                                        0.14% (2.75)
+    Total trades                  12 Short positions (won %)              7 (71.43%) Long positions (won %)                                     5 (40.00%)
 
 ### Report: Strategy MACD MACD_EURUSD_2000USD_10spread_5digits_2013 DS test
 
@@ -254,6 +338,11 @@
 ![Strategy RSI RSI_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-RSI-RSI_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
 
 
+### Report: Strategy SAR SAR15_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy SAR SAR15_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-SAR-SAR15_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
+
 ### Report: Strategy SAR SAR1_EURUSD_2000USD_10spread_5digits_2013 DS test
 
 ![Strategy SAR SAR1_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-SAR-SAR1_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
@@ -269,9 +358,19 @@
 ![Strategy SAR SAR5_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-SAR-SAR5_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
 
 
+### Report: Strategy SAR SAR_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy SAR SAR_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-SAR-SAR_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
+
 ### Report: Strategy WPR WPR15_EURUSD_2000USD_10spread_5digits_2013 DS test
 
 ![Strategy WPR WPR15_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-WPR-WPR15_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
+
+### Report: Strategy WPR WPR1_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy WPR WPR1_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-WPR-WPR1_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
 
 
 ### Report: Strategy WPR WPR30_EURUSD_2000USD_10spread_5digits_2013 DS test
