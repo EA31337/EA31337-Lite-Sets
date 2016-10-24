@@ -109,6 +109,11 @@
 ![Strategy DeMarker DeMarker15_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-DeMarker-DeMarker15_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
 
 
+### Report: Strategy DeMarker DeMarker1_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy DeMarker DeMarker1_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-DeMarker-DeMarker1_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
+
 ### Report: Strategy DeMarker DeMarker30_EURUSD_2000USD_10spread_5digits_2013 DS test
 
 ![Strategy DeMarker DeMarker30_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-DeMarker-DeMarker30_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
@@ -127,6 +132,11 @@
 ### Report: Strategy Envelopes Envelopes15_EURUSD_2000USD_10spread_5digits_2013 DS test
 
 ![Strategy Envelopes Envelopes15_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-Envelopes-Envelopes15_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
+
+### Report: Strategy Envelopes Envelopes1_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy Envelopes Envelopes1_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-Envelopes-Envelopes1_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
 
 
 ### Report: Strategy Envelopes Envelopes30_EURUSD_2000USD_10spread_5digits_2013 DS test
@@ -180,6 +190,11 @@
     Profit factor               0.47 Expected payoff                           -0.31
     Absolute drawdown           3.36 Maximal drawdown                   6.58 (0.33%) Relative drawdown                                        0.33% (6.58)
     Total trades                  11 Short positions (won %)               5 (0.00%) Long positions (won %)                                     6 (50.00%)
+
+### Report: Strategy Fractals Fractals5_EURUSD_2000USD_10spread_5digits_2013 DS test
+
+![Strategy Fractals Fractals5_EURUSD_2000USD_10spread_5digits_2013 DS test.txt](./Strategy-Fractals-Fractals5_EURUSD_2000USD_10spread_5digits_2013-DS-test.gif)
+
 
 ### Report: Strategy Fractals Fractals_EURUSD_2000USD_10spread_5digits_2013 DS test
 

@@ -1,7 +1,7 @@
 
 ### Report: EURUSD 1500USD 2014year 10spread DS test
 
-![EURUSD 1500USD 2014year 10spread DS test.txt]()
+![EURUSD 1500USD 2014year 10spread DS test.txt](./EURUSD-1500USD-2014year-10spread-DS-test.gif)
 
     Symbol                    EURUSD (Euro vs US Dollar)
     Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
@@ -18,7 +18,7 @@
 
 ### Report: EURUSD 1500USD 2014year 20spread DS test
 
-![EURUSD 1500USD 2014year 20spread DS test.txt]()
+![EURUSD 1500USD 2014year 20spread DS test.txt](./EURUSD-1500USD-2014year-20spread-DS-test.gif)
 
     Symbol                    EURUSD (Euro vs US Dollar)
     Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
@@ -35,24 +35,12 @@
 
 ### Report: EURUSD 2000USD 2014year 10spread DS test
 
-![EURUSD 2000USD 2014year 10spread DS test.txt]()
+![EURUSD 2000USD 2014year 10spread DS test.txt](./EURUSD-2000USD-2014year-10spread-DS-test.gif)
 
-    Symbol                    EURUSD (Euro vs US Dollar)
-    Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
-    Model                     Every tick (the most precise method based on all available least timeframes)
-    Parameters                Bollinger Bands indicator --"; Bands1_Active=false; Bands5_Active=false;
-    Bars in test       368715 Ticks modelled               74312557 Modelling quality                 24.99%
-    Mismatched charts       0
-    errors
-    Initial deposit   2000.00                                       Spread                                10
-    Total net profit  7643.65 Gross profit                 11035.29 Gross loss                      -3391.65
-    Profit factor        3.25 Expected payoff                 14.34
-    Absolute drawdown  300.39 Maximal drawdown     2748.34 (35.52%) Relative drawdown       35.52% (2748.34)
-    Total trades          533 Short positions (won     396 (52.27%) Long positions (won %)      137 (36.50%)
 
 ### Report: EURUSD 2000USD 2014year 20spread DS test
 
-![EURUSD 2000USD 2014year 20spread DS test.txt]()
+![EURUSD 2000USD 2014year 20spread DS test.txt](./EURUSD-2000USD-2014year-20spread-DS-test.gif)
 
     Symbol                    EURUSD (Euro vs US Dollar)
     Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
