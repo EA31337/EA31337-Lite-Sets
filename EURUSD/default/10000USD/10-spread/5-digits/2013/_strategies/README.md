@@ -79,6 +79,22 @@
 ![Strategy Envelopes Envelopes15_EURUSD_10000USD_10spread_5digits_2013 DS test.txt](./Strategy-Envelopes-Envelopes15_EURUSD_10000USD_10spread_5digits_2013-DS-test.gif)
 
 
+### Report: Strategy Envelopes Envelopes1_EURUSD_10000USD_10spread_5digits_2013 DS test
+
+![Strategy Envelopes Envelopes1_EURUSD_10000USD_10spread_5digits_2013 DS test.txt](./Strategy-Envelopes-Envelopes1_EURUSD_10000USD_10spread_5digits_2013-DS-test.gif)
+
+    Symbol                            EURUSD (Euro vs US Dollar)
+    Period                            1 Minute (M1) 2013.01.01 23:40 - 2013.12.29 23:59 (2013.01.01 - 2013.12.30)
+    Model                             Every tick (the most precise method based on all available least timeframes)
+    Parameters                        Alligator5_SignalMethod=18; Alligator15_SignalMethod=15; Alligator30_SignalMethod=63; __Bands_Parameters__="-
+    Bars in test               369765 Ticks modelled                       83626545 Modelling quality                                              24.99%
+    Mismatched charts errors        0
+    Initial deposit          10000.00                                               Spread                                                             10
+    Total net profit         -1654.59 Gross profit                          1984.47 Gross loss                                                   -3639.06
+    Profit factor                0.55 Expected payoff                       -103.41
+    Absolute drawdown         1702.59 Maximal drawdown             2335.53 (21.97%) Relative drawdown                                    21.97% (2335.53)
+    Total trades                   16 Short positions (won %)             7 (0.00%) Long positions (won %)                                     9 (77.78%)
+
 ### Report: Strategy Envelopes Envelopes30_EURUSD_10000USD_10spread_5digits_2013 DS test
 
 ![Strategy Envelopes Envelopes30_EURUSD_10000USD_10spread_5digits_2013 DS test.txt](./Strategy-Envelopes-Envelopes30_EURUSD_10000USD_10spread_5digits_2013-DS-test.gif)
