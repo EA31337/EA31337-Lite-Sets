@@ -6,7 +6,7 @@
                                                             Tripleafx-FX-Demo (Build 971)
 
   Symbol                           EURUSD (Euro vs US Dollar)
-  Period                           15 Minutes (M15) 2014.01.02 23:00 - 2014.12.29 23:45 (2014.01.01 - 2014.12.30)
+  Period                           15 Minutes (M15) 2014.01.02 23:00 - 2014.12.30 23:45 (2014.01.01 - 2014.12.31)
   Model                            Every tick (the most precise method based on all available least timeframes)
                                    __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.070 --"; __Trade_Parameters__="-- Trade
                                    parameters --"; MaxOrders=0; MaxOrdersPerType=35; LotSize=0; TradeMicroLots=true; TrendMethod=33;
@@ -49,19 +49,19 @@
                                    MA_SignalLevel=1.4; MA1_SignalMethod=120; MA5_SignalMethod=126; MA15_SignalMethod=30; MA30_SignalMethod=51;
                                    __MACD_Parameters__="-- Settings for the Moving Averages Convergence/Divergence indicator --";
                                    MACD1_Active=false; MACD5_Active=false; MACD_Shift=1;
-  Bars in test               24716 Ticks modelled                     5596310 Modelling quality                                              89.64%
+  Bars in test               24812 Ticks modelled                     5609627 Modelling quality                                              89.64%
   Mismatched charts errors       0
   Initial deposit          2000.00                                            Spread                                                             10
-  Total net profit          -44.11 Gross profit                         26.68 Gross loss                                                     -70.79
-  Profit factor               0.38 Expected payoff                      -3.39
-  Absolute drawdown          46.50 Maximal drawdown             69.30 (3.43%) Relative drawdown                                       3.43% (69.30)
+  Total net profit          -42.81 Gross profit                         27.08 Gross loss                                                     -69.89
+  Profit factor               0.39 Expected payoff                      -3.29
+  Absolute drawdown          46.00 Maximal drawdown             69.00 (3.41%) Relative drawdown                                       3.41% (69.00)
   Total trades                  13 Short positions (won %)        12 (25.00%) Long positions (won %)                                    1 (100.00%)
                                    Profit trades (% of total)      4 (30.77%) Loss trades (% of total)                                   9 (69.23%)
-                           Largest profit trade                         11.90 loss trade                                                     -19.97
-                           Average profit trade                          6.67 loss trade                                                      -7.87
-                           Maximum consecutive wins (profit in      2 (15.85) consecutive losses (loss in money)                         5 (-45.69)
+                           Largest profit trade                         12.00 loss trade                                                     -19.87
+                           Average profit trade                          6.77 loss trade                                                      -7.77
+                           Maximum consecutive wins (profit in      2 (16.05) consecutive losses (loss in money)                         5 (-45.19)
                                    money)
-                           Maximal consecutive profit (count of     15.85 (2) consecutive loss (count of losses)                         -45.69 (5)
+                           Maximal consecutive profit (count of     16.05 (2) consecutive loss (count of losses)                         -45.19 (5)
                                    wins)
                            Average consecutive wins                         2 consecutive losses                                                  3
                                                                        [Graph]
