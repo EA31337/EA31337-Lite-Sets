@@ -6,36 +6,36 @@
                                                             Tripleafx-FX-Demo (Build 971)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.30 23:30 (2014.01.01 - 2014.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 2000.00
                             Spread          10
                                                                  [Optimization Graph]
    Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-     14 334.47          138          2.31            2.42     110.87       5.11 Envelopes_TrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=35;
-     13 313.75          142          2.14            2.21     108.57       5.03 Envelopes_TrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=35;
-     17 313.50          142          2.13            2.21     108.89       5.05 Envelopes_TrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=35;
-     21 313.06          138          2.13            2.27     118.00       5.44 Envelopes_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=35;
-     18 307.30          138          2.09            2.23     118.50       5.48 Envelopes_TrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=35;
-      2 295.05          142          2.09            2.08     105.22       4.86  Envelopes_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=35;
-      4  71.20          125          2.65            0.57       6.36       0.32  Envelopes_TrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=35;
-      3  68.87          122          2.21            0.56      11.33       0.57  Envelopes_TrailingStopMethod=2; MaxOrders=0; MaxOrdersPerType=35;
-      6  66.40          118          2.25            0.56       9.22       0.46  Envelopes_TrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=35;
-      5  62.89          121          2.32            0.52       7.47       0.37  Envelopes_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=35;
-     11  60.69          119          2.16            0.51       7.94       0.39 Envelopes_TrailingStopMethod=10; MaxOrders=0; MaxOrdersPerType=35;
-     15  60.35          119          2.10            0.51      11.45       0.57 Envelopes_TrailingStopMethod=14; MaxOrders=0; MaxOrdersPerType=35;
-     27  58.76          118          1.74            0.50      19.59       0.97 Envelopes_TrailingStopMethod=27; MaxOrders=0; MaxOrdersPerType=35;
-     16  48.79          123          1.68            0.40      13.73       0.69 Envelopes_TrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=35;
-     20  37.49          117          1.49            0.32      19.41       0.97 Envelopes_TrailingStopMethod=20; MaxOrders=0; MaxOrdersPerType=35;
-     10  -3.37           24          0.80           -0.14      16.37       0.82  Envelopes_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=35;
-     24  -4.72           34          0.81           -0.14      14.90       0.74 Envelopes_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=35;
-     23  -4.93           33          0.79           -0.15      14.68       0.73 Envelopes_TrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=35;
-     19  -4.99           25          0.71           -0.20      14.63       0.73 Envelopes_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=35;
-     12  -6.63           23          0.67           -0.29      18.07       0.90 Envelopes_TrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=35;
-      7  -6.93           38          0.80           -0.18      16.36       0.82  Envelopes_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=35;
-     26  -7.27           22          0.62           -0.33      16.72       0.84 Envelopes_TrailingStopMethod=26; MaxOrders=0; MaxOrdersPerType=35;
-     25  -7.27           22          0.62           -0.33      16.72       0.84 Envelopes_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=35;
-      9  -7.30           25          0.70           -0.29      20.47       1.02  Envelopes_TrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=35;
-     22  -8.12           33          0.71           -0.25      19.74       0.99 Envelopes_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=35;
-      8  -8.13           28          0.80           -0.29      26.31       1.31  Envelopes_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=35;
-      1  -8.13           28          0.80           -0.29      26.31       1.31  Envelopes_TrailingStopMethod=0; MaxOrders=0; MaxOrdersPerType=35;
+      7 673.13          477          2.16            1.41      75.69       2.93  Envelopes_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=35;
+      8 611.62          433          1.93            1.41     106.11       4.17  Envelopes_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=35;
+      1 611.37          433          1.93            1.41     106.11       4.17  Envelopes_TrailingStopMethod=0; MaxOrders=0; MaxOrdersPerType=35;
+      9 599.26          456          2.07            1.31      71.05       2.87  Envelopes_TrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=35;
+     19 273.67          714          1.72            0.38      48.53       2.11 Envelopes_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=35;
+     16 268.06          704          1.65            0.38      39.83       1.74 Envelopes_TrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=35;
+      4  58.08          381          1.56            0.15       8.50       0.42  Envelopes_TrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=35;
+     20  24.41           74          1.81            0.33       7.93       0.39 Envelopes_TrailingStopMethod=20; MaxOrders=0; MaxOrdersPerType=35;
+     22  14.31           95          1.22            0.15      29.57       1.46 Envelopes_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=35;
+     13  10.28           61          1.12            0.17      57.75       2.79 Envelopes_TrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=35;
+     24  10.27           61          1.12            0.17      57.76       2.79 Envelopes_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=35;
+     23  10.27           61          1.12            0.17      57.76       2.79 Envelopes_TrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=35;
+     21  10.27           61          1.12            0.17      57.76       2.79 Envelopes_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=35;
+     18  10.27           61          1.12            0.17      57.76       2.79 Envelopes_TrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=35;
+     17  10.27           61          1.12            0.17      57.76       2.79 Envelopes_TrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=35;
+     14  10.27           61          1.12            0.17      57.76       2.79 Envelopes_TrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=35;
+      2  10.27           61          1.12            0.17      57.76       2.79  Envelopes_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=35;
+      5   4.45           81          1.15            0.05      10.00       0.50  Envelopes_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=35;
+      6   3.70          186          1.03            0.02      23.79       1.18  Envelopes_TrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=35;
+     15   0.77           82          1.04            0.01       7.95       0.40 Envelopes_TrailingStopMethod=14; MaxOrders=0; MaxOrdersPerType=35;
+     11   0.13           89          1.01            0.00       8.95       0.45 Envelopes_TrailingStopMethod=10; MaxOrders=0; MaxOrdersPerType=35;
+      3  -4.43          133          0.91           -0.03      13.76       0.69  Envelopes_TrailingStopMethod=2; MaxOrders=0; MaxOrdersPerType=35;
+     12  -7.58           53          0.66           -0.14      11.30       0.56 Envelopes_TrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=35;
+     10  -9.72          126          0.84           -0.08      21.68       1.08  Envelopes_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=35;
+     26 -11.60           76          0.80           -0.15      31.54       1.57 Envelopes_TrailingStopMethod=26; MaxOrders=0; MaxOrdersPerType=35;
+     25 -11.60           76          0.80           -0.15      31.54       1.57 Envelopes_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=35;
+     27 -12.48           46          0.48           -0.27      20.10       1.00 Envelopes_TrailingStopMethod=27; MaxOrders=0; MaxOrdersPerType=35;
