@@ -6,7 +6,7 @@
                                                             Tripleafx-FX-Demo (Build 971)
 
 Symbol                           EURUSD (Euro vs US Dollar)
-Period                           5 Minutes (M5) 2014.01.02 06:20 - 2014.12.29 23:55 (2014.01.01 - 2014.12.30)
+Period                           5 Minutes (M5) 2014.01.02 06:20 - 2014.12.30 23:55 (2014.01.01 - 2014.12.31)
 Model                            Every tick (the most precise method based on all available least timeframes)
                                  __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.070 --"; __Trade_Parameters__="-- Trade
                                  parameters --"; MaxOrders=0; MaxOrdersPerType=35; LotSize=0; TradeMicroLots=true; TrendMethod=33; MinVolumeToTrade=2;
@@ -47,7 +47,7 @@ Parameters                       Alligator30_SignalMethod=63; __Bands_Parameters
                                  MA1_SignalMethod=120; MA5_SignalMethod=126; MA15_SignalMethod=30; MA30_SignalMethod=51; __MACD_Parameters__="-
                                  - Settings for the Moving Averages Convergence/Divergence indicator --"; MACD1_Active=false; MACD5_Active=false;
                                  MACD_Shift=1;
-Bars in test               74142 Ticks modelled                         15241592 Modelling quality                                              89.88%
+Bars in test               74430 Ticks modelled                         15276233 Modelling quality                                              89.88%
 Mismatched charts errors       0
 Initial deposit          2000.00                                                 Spread                                                             10
 Total net profit            0.00 Gross profit                               0.00 Gross loss                                                      -0.00
