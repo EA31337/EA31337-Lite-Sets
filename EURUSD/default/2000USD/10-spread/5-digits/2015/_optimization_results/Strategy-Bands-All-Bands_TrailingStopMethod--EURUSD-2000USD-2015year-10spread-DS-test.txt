@@ -1,0 +1,41 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2015.01.06 00:00 - 2015.12.30 23:30 (2015.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        4 1525.99         5451          1.82            0.28      22.32       0.89  Bands_TrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=5;
+       27 1221.21         3709          1.56            0.33      40.78       1.76 Bands_TrailingStopMethod=27; MaxOrders=0; MaxOrdersPerType=5;
+        6  988.64         2981          1.78            0.33      27.75       1.37  Bands_TrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=5;
+       19  918.14         3036          1.76            0.30      25.82       1.27 Bands_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=5;
+       15  844.54         3066          1.49            0.28      55.85       2.11 Bands_TrailingStopMethod=14; MaxOrders=0; MaxOrdersPerType=5;
+       11  817.60         3046          1.47            0.27      58.48       2.21 Bands_TrailingStopMethod=10; MaxOrders=0; MaxOrdersPerType=5;
+        3  798.61         3012          1.69            0.27      21.85       0.95  Bands_TrailingStopMethod=2; MaxOrders=0; MaxOrdersPerType=5;
+       20  671.05         2536          1.52            0.26      53.35       2.48 Bands_TrailingStopMethod=20; MaxOrders=0; MaxOrdersPerType=5;
+       22  604.79         2104          1.48            0.29      54.20       2.70 Bands_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=5;
+       26  522.64         2126          1.38            0.25      54.27       2.69 Bands_TrailingStopMethod=26; MaxOrders=0; MaxOrdersPerType=5;
+       25  522.64         2126          1.38            0.25      54.27       2.69 Bands_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=5;
+        9  375.64         1128          1.30            0.33      87.70       4.28  Bands_TrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=5;
+        8  104.23          750          1.05            0.14     336.73      14.27  Bands_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=5;
+        1  104.23          750          1.05            0.14     336.73      14.27  Bands_TrailingStopMethod=0; MaxOrders=0; MaxOrdersPerType=5;
+        2   74.66          104          1.14            0.72     227.21       9.89  Bands_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=5;
+       17   46.46          269          1.03            0.17     260.12      11.33 Bands_TrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=5;
+       14   46.09          269          1.03            0.17     260.49      11.34 Bands_TrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=5;
+       21   46.03          269          1.03            0.17     260.55      11.35 Bands_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=5;
+       18   38.61          269          1.03            0.14     267.96      11.67 Bands_TrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=5;
+       13   33.36          270          1.02            0.12     273.22      11.90 Bands_TrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=5;
+       23   26.52          270          1.02            0.10     280.05      12.19 Bands_TrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=5;
+       24   25.45          270          1.02            0.09     281.12      12.24 Bands_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=5;
+       12   12.10           80          1.25            0.15      21.81       1.08 Bands_TrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=5;
+       16    7.40           54          1.22            0.14      30.02       1.47 Bands_TrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=5;
+       10    5.93           61          1.11            0.10      33.71       1.68  Bands_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=5;
+        5   -2.26           77          0.97           -0.03      24.65       1.22  Bands_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=5;
+        7 -135.07           69          0.41           -1.96     165.39       8.24  Bands_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=5;
