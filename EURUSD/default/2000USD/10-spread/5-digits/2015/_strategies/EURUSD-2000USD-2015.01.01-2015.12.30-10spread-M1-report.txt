@@ -1,0 +1,79 @@
+Currency pair symbol:                       EURUSD
+Initial deposit:                            2000.00 USD
+Total net profit:                           0.64 USD
+Gross profit:                               5.76 USD
+Gross loss:                                 5.12 USD
+Absolute drawdown:                          1.17 USD
+Maximal drawdown:                           3.7 USD (0.2%)
+Relative drawdown:                          (0.2%) 3.7 USD
+Profit factor:                              1.12
+Expected payoff:                            0.02
+Trades total                                28
+Short positions (won %):                    20 (35.0%)
+Long positions (won %):                     8 (37.5%)
+Profit trades (% of total):                 10 (35.7%)
+Loss trades (% of total):                   18 (64.3%)
+Largest profit trade:                       1.81
+Largest loss trade:                         -0.75
+Average profit trade:                       0.58
+Average loss trade:                         -0.28
+Average consecutive wins:                   3.00
+Average consecutive losses:                 5.00
+Maximum consecutive wins (profit in money): 5 2.80
+Maximum consecutive losses (loss in money): 10 -3.14
+Maximal consecutive profit (count of wins): 2.80 5
+Maximal consecutive loss (count of losses): 3.14 10
+Modelling quality:                          25.00%
+Total bars processed:                       371417
+Total ticks processed:                      79520253
+Bars per hour (avg):                        6190
+Ticks per bar (avg):                        214 (bar=1mins)
+Ticks per min (avg):                        214
+Strategy stats:
+Profit factor: 1.13, Total net profit: 0.66pips (+5.78/-5.12), Total orders: 28 (Won: 35.7% [10] / Loss: 64.3% [18]) - DeMarker M1
+Report log:
+2015.01.01 23:40:01: EA31337 Lite (Backtest) v1.071 by kenorb (https://github.com/EA31337)
+Platform variables: Symbol: EURUSD, Bars: 101, Server: , Login: 16384
+Broker info: Name: , Account type: Backtest on Live, Leverage: 1:100, Currency: USD
+Market predefined variables: Ask: 1.20815, Bid: 1.20805, Volume: 1
+Market constants: Digits: 5, Point: 0.000010, Min Lot: 0.01, Max Lot: 10000, Lot Step: 0.01, Lot Size: 100000, Margin Required: 1208.1, Margin Init: 0, Stop Level: 8pts, Freeze level: 0 pts
+Contract specification for EURUSD: Profit mode: 0, Margin mode: 0, Spread: 10 pts, Tick size: 0.000010, Point value: 0.000010, Digits: 5, Trade stop level: 8 pts, Trade contract size: 100000
+Swap specification for EURUSD: Mode: 0, Long/buy order value: 0.33, Short/sell order value: -1.04
+Calculated variables: Pip size: 0.0001, Lot size: 0.01, Points per pip: 10, Pip digits: 4, Volume digits: 2, Spread in pips: 1.0 (10 pts), Stop Out Level: 0.7, Market gap: 8 pts (0 pips)
+EA params: Risk margin: 1%
+Strategies: Active strategies: 1 of 120, Max orders: 62 (per type: 5)
+Modelling Quality: M1: 25.00%, M5: 86.90%, M15: 76.88%, M30: 80.00%, H1: 55.00%, H4: 25.00%, D1: 25.00%, W1: 25.00%, MN1: 25.00%;
+Timeframes: M1: Active, M5: Active, M15: Not active, M30: Not active, H1: Not active, H4: Not active, D1: Not active, W1: Not active, MN1: Not active;
+Datetime: Hour of day: 23, Day of week: 4, Day of month: 1, Day of year: 1, Month: 1, Year: 2015
+Account Details: Time: 2015.01.01 23:40:01; Account Balance: $2000.00; Account Equity: $2000.00; Used Margin: $0.00; Free Margin: $2000.00; No of Orders: 0 (BUY/SELL: 0/0); Risk Ratio: 1.0
+
+2015.01.04 22:00:03: UpdateStats: Market very big drop of -51.4 pips detected!
+2015.01.22 13:41:00: UpdateStats: Market very big drop of -87.0 pips detected!
+2015.01.22 13:45:00: UpdateStats: Market very big drop of 91.6 pips detected!
+2015.01.25 22:00:05: UpdateStats: Market very big drop of -52.8 pips detected!
+2015.02.06 13:31:00: UpdateStats: Market very big drop of -56.7 pips detected!
+2015.02.18 19:01:00: UpdateStats: Market very big drop of 50.0 pips detected!
+2015.02.20 17:36:00: UpdateStats: Market very big drop of 64.5 pips detected!
+2015.03.06 13:31:48: UpdateStats: Market very big drop of 63.6 pips detected!
+2015.03.06 13:32:00: UpdateStats: Market very big drop of -96.1 pips detected!
+2015.03.12 12:31:00: UpdateStats: Market very big drop of 52.1 pips detected!
+2015.03.18 18:01:00: UpdateStats: Market very big drop of 71.2 pips detected!
+2015.03.18 20:05:00: UpdateStats: Market very big drop of 93.4 pips detected!
+2015.03.18 20:06:00: UpdateStats: Market very big drop of -58.3 pips detected!
+2015.04.03 12:31:00: UpdateStats: Market very big drop of 111.1 pips detected!
+2015.05.22 12:31:00: UpdateStats: Market very big drop of -50.1 pips detected!
+2015.06.05 12:31:00: UpdateStats: Market very big drop of -153.5 pips detected!
+2015.06.14 21:00:02: UpdateStats: Market very big drop of -55.0 pips detected!
+2015.06.18 16:38:00: UpdateStats: Market very big drop of -52.9 pips detected!
+2015.06.28 21:00:35: UpdateStats: Market very big drop of -158.3 pips detected!
+2015.07.05 21:00:37: UpdateStats: Market very big drop of -116.0 pips detected!
+2015.07.12 21:00:01: UpdateStats: Market very big drop of -61.6 pips detected!
+2015.07.31 12:31:00: UpdateStats: Market very big drop of 73.3 pips detected!
+2015.08.07 12:31:00: UpdateStats: Market very big drop of -51.9 pips detected!
+2015.10.02 12:31:00: UpdateStats: Market very big drop of 95.7 pips detected!
+2015.10.28 18:01:00: UpdateStats: Market very big drop of -63.0 pips detected!
+2015.11.06 13:31:00: UpdateStats: Market very big drop of -119.9 pips detected!
+2015.12.03 12:46:00: UpdateStats: Market very big drop of 72.9 pips detected!
+2015.12.03 13:35:00: UpdateStats: Market very big drop of 82.0 pips detected!
+2015.12.03 13:45:00: UpdateStats: Market very big drop of 52.6 pips detected!
+
