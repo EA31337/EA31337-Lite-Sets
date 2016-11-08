@@ -1,22 +1,22 @@
 
-### Report: Strategy Alligator Alligator15_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy Alligator Alligator15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test
 
-![Strategy Alligator Alligator15_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Alligator-Alligator15_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
-
-
-### Report: Strategy Alligator Alligator1_EURUSD_10000USD_10spread_5digits_2012 DS test
-
-![Strategy Alligator Alligator1_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Alligator-Alligator1_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy Alligator Alligator15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-Alligator-Alligator15_EURUSD_10000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
-### Report: Strategy Alligator Alligator30_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy Alligator Alligator1_EURUSD_10000USD_10spread_5digits_2012 M1 DS test
 
-![Strategy Alligator Alligator30_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Alligator-Alligator30_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy Alligator Alligator1_EURUSD_10000USD_10spread_5digits_2012 M1 DS test.txt](./Strategy-Alligator-Alligator1_EURUSD_10000USD_10spread_5digits_2012-M1-DS-test.gif)
 
 
-### Report: Strategy Alligator Alligator5_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy Alligator Alligator30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test
 
-![Strategy Alligator Alligator5_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Alligator-Alligator5_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy Alligator Alligator30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-Alligator-Alligator30_EURUSD_10000USD_10spread_5digits_2012-M30-DS-test.gif)
+
+
+### Report: Strategy Alligator Alligator5_EURUSD_10000USD_10spread_5digits_2012 M5 DS test
+
+![Strategy Alligator Alligator5_EURUSD_10000USD_10spread_5digits_2012 M5 DS test.txt](./Strategy-Alligator-Alligator5_EURUSD_10000USD_10spread_5digits_2012-M5-DS-test.gif)
 
 
 ### Report: Strategy Alligator Alligator_EURUSD_10000USD_10spread_5digits_2012 DS test
@@ -24,19 +24,19 @@
 ![Strategy Alligator Alligator_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Alligator-Alligator_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
 
 
-### Report: Strategy Bands Bands15_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy Bands Bands15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test
 
-![Strategy Bands Bands15_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Bands-Bands15_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
-
-
-### Report: Strategy Bands Bands1_EURUSD_10000USD_10spread_5digits_2012 DS test
-
-![Strategy Bands Bands1_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Bands-Bands1_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy Bands Bands15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-Bands-Bands15_EURUSD_10000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
-### Report: Strategy Bands Bands30_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy Bands Bands1_EURUSD_10000USD_10spread_5digits_2012 M1 DS test
 
-![Strategy Bands Bands30_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Bands-Bands30_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy Bands Bands1_EURUSD_10000USD_10spread_5digits_2012 M1 DS test.txt](./Strategy-Bands-Bands1_EURUSD_10000USD_10spread_5digits_2012-M1-DS-test.gif)
+
+
+### Report: Strategy Bands Bands30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test
+
+![Strategy Bands Bands30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-Bands-Bands30_EURUSD_10000USD_10spread_5digits_2012-M30-DS-test.gif)
 
 
 ### Report: Strategy Bands Bands_EURUSD_10000USD_10spread_5digits_2012 DS test
@@ -44,19 +44,19 @@
 ![Strategy Bands Bands_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Bands-Bands_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
 
 
-### Report: Strategy DeMarker DeMarker15_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy DeMarker DeMarker15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test
 
-![Strategy DeMarker DeMarker15_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-DeMarker-DeMarker15_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
-
-
-### Report: Strategy DeMarker DeMarker1_EURUSD_10000USD_10spread_5digits_2012 DS test
-
-![Strategy DeMarker DeMarker1_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-DeMarker-DeMarker1_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy DeMarker DeMarker15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-DeMarker-DeMarker15_EURUSD_10000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
-### Report: Strategy DeMarker DeMarker30_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy DeMarker DeMarker1_EURUSD_10000USD_10spread_5digits_2012 M1 DS test
 
-![Strategy DeMarker DeMarker30_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-DeMarker-DeMarker30_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy DeMarker DeMarker1_EURUSD_10000USD_10spread_5digits_2012 M1 DS test.txt](./Strategy-DeMarker-DeMarker1_EURUSD_10000USD_10spread_5digits_2012-M1-DS-test.gif)
+
+
+### Report: Strategy DeMarker DeMarker30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test
+
+![Strategy DeMarker DeMarker30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-DeMarker-DeMarker30_EURUSD_10000USD_10spread_5digits_2012-M30-DS-test.gif)
 
 
 ### Report: Strategy DeMarker DeMarker_EURUSD_10000USD_10spread_5digits_2012 DS test
@@ -64,14 +64,14 @@
 ![Strategy DeMarker DeMarker_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-DeMarker-DeMarker_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
 
 
-### Report: Strategy Envelopes Envelopes15_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy Envelopes Envelopes15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test
 
-![Strategy Envelopes Envelopes15_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Envelopes-Envelopes15_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy Envelopes Envelopes15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-Envelopes-Envelopes15_EURUSD_10000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
-### Report: Strategy Envelopes Envelopes30_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy Envelopes Envelopes30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test
 
-![Strategy Envelopes Envelopes30_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Envelopes-Envelopes30_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy Envelopes Envelopes30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-Envelopes-Envelopes30_EURUSD_10000USD_10spread_5digits_2012-M30-DS-test.gif)
 
     Symbol                            EURUSD (Euro vs US Dollar)
     Period                            30 Minutes (M30) 2012.01.04 00:00 - 2012.12.28 21:30 (2012.01.01 - 2012.12.30)
@@ -85,9 +85,9 @@
     Absolute drawdown         4271.93 Maximal drawdown             11049.97 (65.86%) Relative drawdown                                   65.86% (11049.97)
     Total trades                   18 Short positions (won %)            13 (23.08%) Long positions (won %)                                    5 (100.00%)
 
-### Report: Strategy Envelopes Envelopes5_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy Envelopes Envelopes5_EURUSD_10000USD_10spread_5digits_2012 M5 DS test
 
-![Strategy Envelopes Envelopes5_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Envelopes-Envelopes5_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy Envelopes Envelopes5_EURUSD_10000USD_10spread_5digits_2012 M5 DS test.txt](./Strategy-Envelopes-Envelopes5_EURUSD_10000USD_10spread_5digits_2012-M5-DS-test.gif)
 
     Symbol                            EURUSD (Euro vs US Dollar)
     Period                            5 Minutes (M5) 2012.01.02 06:20 - 2012.12.28 21:55 (2012.01.01 - 2012.12.30)
@@ -117,24 +117,24 @@
     Absolute drawdown         6682.34 Maximal drawdown             27052.31 (89.08%) Relative drawdown                                   89.08% (27052.31)
     Total trades                   69 Short positions (won %)            50 (42.00%) Long positions (won %)                                    19 (73.68%)
 
-### Report: Strategy Fractals Fractals15_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy Fractals Fractals15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test
 
-![Strategy Fractals Fractals15_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Fractals-Fractals15_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
-
-
-### Report: Strategy Fractals Fractals1_EURUSD_10000USD_10spread_5digits_2012 DS test
-
-![Strategy Fractals Fractals1_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Fractals-Fractals1_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy Fractals Fractals15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-Fractals-Fractals15_EURUSD_10000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
-### Report: Strategy Fractals Fractals30_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy Fractals Fractals1_EURUSD_10000USD_10spread_5digits_2012 M1 DS test
 
-![Strategy Fractals Fractals30_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Fractals-Fractals30_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy Fractals Fractals1_EURUSD_10000USD_10spread_5digits_2012 M1 DS test.txt](./Strategy-Fractals-Fractals1_EURUSD_10000USD_10spread_5digits_2012-M1-DS-test.gif)
 
 
-### Report: Strategy Fractals Fractals5_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy Fractals Fractals30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test
 
-![Strategy Fractals Fractals5_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Fractals-Fractals5_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy Fractals Fractals30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-Fractals-Fractals30_EURUSD_10000USD_10spread_5digits_2012-M30-DS-test.gif)
+
+
+### Report: Strategy Fractals Fractals5_EURUSD_10000USD_10spread_5digits_2012 M5 DS test
+
+![Strategy Fractals Fractals5_EURUSD_10000USD_10spread_5digits_2012 M5 DS test.txt](./Strategy-Fractals-Fractals5_EURUSD_10000USD_10spread_5digits_2012-M5-DS-test.gif)
 
 
 ### Report: Strategy Fractals Fractals_EURUSD_10000USD_10spread_5digits_2012 DS test
@@ -142,9 +142,9 @@
 ![Strategy Fractals Fractals_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-Fractals-Fractals_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
 
 
-### Report: Strategy MA MA15_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy MA MA15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test
 
-![Strategy MA MA15_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-MA-MA15_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy MA MA15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-MA-MA15_EURUSD_10000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
 ### Report: Strategy MA MA1_EURUSD_10000USD_10spread_5digits_2012 DS test
@@ -152,9 +152,9 @@
 ![Strategy MA MA1_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-MA-MA1_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
 
 
-### Report: Strategy MA MA30_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy MA MA30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test
 
-![Strategy MA MA30_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-MA-MA30_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy MA MA30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-MA-MA30_EURUSD_10000USD_10spread_5digits_2012-M30-DS-test.gif)
 
 
 ### Report: Strategy MA MA5_EURUSD_10000USD_10spread_5digits_2012 DS test
@@ -167,9 +167,9 @@
 ![Strategy MA MA_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-MA-MA_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
 
 
-### Report: Strategy MACD MACD15_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy MACD MACD15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test
 
-![Strategy MACD MACD15_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-MACD-MACD15_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy MACD MACD15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-MACD-MACD15_EURUSD_10000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
 ### Report: Strategy MACD MACD1_EURUSD_10000USD_10spread_5digits_2012 DS test
@@ -177,9 +177,9 @@
 ![Strategy MACD MACD1_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-MACD-MACD1_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
 
 
-### Report: Strategy MACD MACD30_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy MACD MACD30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test
 
-![Strategy MACD MACD30_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-MACD-MACD30_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy MACD MACD30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-MACD-MACD30_EURUSD_10000USD_10spread_5digits_2012-M30-DS-test.gif)
 
 
 ### Report: Strategy MACD MACD5_EURUSD_10000USD_10spread_5digits_2012 DS test
@@ -192,9 +192,9 @@
 ![Strategy MACD MACD_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-MACD-MACD_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
 
 
-### Report: Strategy RSI RSI15_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy RSI RSI15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test
 
-![Strategy RSI RSI15_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-RSI-RSI15_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy RSI RSI15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-RSI-RSI15_EURUSD_10000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
 ### Report: Strategy RSI RSI1_EURUSD_10000USD_10spread_5digits_2012 DS test
@@ -202,9 +202,9 @@
 ![Strategy RSI RSI1_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-RSI-RSI1_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
 
 
-### Report: Strategy RSI RSI30_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy RSI RSI30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test
 
-![Strategy RSI RSI30_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-RSI-RSI30_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy RSI RSI30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-RSI-RSI30_EURUSD_10000USD_10spread_5digits_2012-M30-DS-test.gif)
 
 
 ### Report: Strategy RSI RSI5_EURUSD_10000USD_10spread_5digits_2012 DS test
@@ -217,9 +217,9 @@
 ![Strategy RSI RSI_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-RSI-RSI_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
 
 
-### Report: Strategy SAR SAR15_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy SAR SAR15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test
 
-![Strategy SAR SAR15_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-SAR-SAR15_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy SAR SAR15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-SAR-SAR15_EURUSD_10000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
 ### Report: Strategy SAR SAR1_EURUSD_10000USD_10spread_5digits_2012 DS test
@@ -227,9 +227,9 @@
 ![Strategy SAR SAR1_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-SAR-SAR1_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
 
 
-### Report: Strategy SAR SAR30_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy SAR SAR30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test
 
-![Strategy SAR SAR30_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-SAR-SAR30_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy SAR SAR30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-SAR-SAR30_EURUSD_10000USD_10spread_5digits_2012-M30-DS-test.gif)
 
 
 ### Report: Strategy SAR SAR5_EURUSD_10000USD_10spread_5digits_2012 DS test
@@ -253,9 +253,9 @@
     Absolute drawdown         8758.22 Maximal drawdown             19353.88 (93.97%) Relative drawdown                                   93.97% (19353.88)
     Total trades                   76 Short positions (won %)            57 (45.61%) Long positions (won %)                                    19 (47.37%)
 
-### Report: Strategy WPR WPR15_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy WPR WPR15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test
 
-![Strategy WPR WPR15_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-WPR-WPR15_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy WPR WPR15_EURUSD_10000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-WPR-WPR15_EURUSD_10000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
 ### Report: Strategy WPR WPR1_EURUSD_10000USD_10spread_5digits_2012 DS test
@@ -263,9 +263,9 @@
 ![Strategy WPR WPR1_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-WPR-WPR1_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
 
 
-### Report: Strategy WPR WPR30_EURUSD_10000USD_10spread_5digits_2012 DS test
+### Report: Strategy WPR WPR30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test
 
-![Strategy WPR WPR30_EURUSD_10000USD_10spread_5digits_2012 DS test.txt](./Strategy-WPR-WPR30_EURUSD_10000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy WPR WPR30_EURUSD_10000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-WPR-WPR30_EURUSD_10000USD_10spread_5digits_2012-M30-DS-test.gif)
 
 
 ### Report: Strategy WPR WPR5_EURUSD_10000USD_10spread_5digits_2012 DS test

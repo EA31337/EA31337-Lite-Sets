@@ -1,7 +1,7 @@
 
-### Report: Strategy Alligator Alligator15_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Alligator Alligator15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test
 
-![Strategy Alligator Alligator15_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Alligator-Alligator15_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Alligator Alligator15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test.txt](./Strategy-Alligator-Alligator15_EURUSD_2000USD_10spread_5digits_2014-M15-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           15 Minutes (M15) 2014.01.02 23:00 - 2014.12.29 23:45 (2014.01.01 - 2014.12.30)
@@ -15,9 +15,9 @@
     Absolute drawdown           1.13 Maximal drawdown                   4.83 (0.24%) Relative drawdown                                        0.24% (4.83)
     Total trades                  15 Short positions (won %)              8 (37.50%) Long positions (won %)                                     7 (42.86%)
 
-### Report: Strategy Alligator Alligator1_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Alligator Alligator1_EURUSD_2000USD_10spread_5digits_2014 M1 DS test
 
-![Strategy Alligator Alligator1_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Alligator-Alligator1_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Alligator Alligator1_EURUSD_2000USD_10spread_5digits_2014 M1 DS test.txt](./Strategy-Alligator-Alligator1_EURUSD_2000USD_10spread_5digits_2014-M1-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
@@ -31,9 +31,9 @@
     Absolute drawdown           3.32 Maximal drawdown                   3.33 (0.17%) Relative drawdown                                        0.17% (3.33)
     Total trades                  12 Short positions (won %)              7 (42.86%) Long positions (won %)                                     5 (20.00%)
 
-### Report: Strategy Alligator Alligator30_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Alligator Alligator30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test
 
-![Strategy Alligator Alligator30_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Alligator-Alligator30_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Alligator Alligator30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test.txt](./Strategy-Alligator-Alligator30_EURUSD_2000USD_10spread_5digits_2014-M30-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
@@ -47,9 +47,9 @@
     Absolute drawdown           2.66 Maximal drawdown                   3.20 (0.16%) Relative drawdown                                        0.16% (3.20)
     Total trades                  11 Short positions (won %)             10 (50.00%) Long positions (won %)                                      1 (0.00%)
 
-### Report: Strategy Alligator Alligator5_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Alligator Alligator5_EURUSD_2000USD_10spread_5digits_2014 M5 DS test
 
-![Strategy Alligator Alligator5_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Alligator-Alligator5_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Alligator Alligator5_EURUSD_2000USD_10spread_5digits_2014 M5 DS test.txt](./Strategy-Alligator-Alligator5_EURUSD_2000USD_10spread_5digits_2014-M5-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           5 Minutes (M5) 2014.01.02 06:20 - 2014.12.29 23:55 (2014.01.01 - 2014.12.30)
@@ -68,14 +68,14 @@
 ![Strategy Alligator Alligator_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Alligator-Alligator_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
 
 
-### Report: Strategy Bands Bands15_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Bands Bands15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test
 
-![Strategy Bands Bands15_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Bands-Bands15_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Bands Bands15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test.txt](./Strategy-Bands-Bands15_EURUSD_2000USD_10spread_5digits_2014-M15-DS-test.gif)
 
 
-### Report: Strategy Bands Bands1_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Bands Bands1_EURUSD_2000USD_10spread_5digits_2014 M1 DS test
 
-![Strategy Bands Bands1_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Bands-Bands1_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Bands Bands1_EURUSD_2000USD_10spread_5digits_2014 M1 DS test.txt](./Strategy-Bands-Bands1_EURUSD_2000USD_10spread_5digits_2014-M1-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
@@ -89,9 +89,9 @@
     Absolute drawdown           7.39 Maximal drawdown                   8.10 (0.40%) Relative drawdown                                        0.40% (8.10)
     Total trades                  12 Short positions (won %)              3 (33.33%) Long positions (won %)                                     9 (55.56%)
 
-### Report: Strategy Bands Bands30_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Bands Bands30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test
 
-![Strategy Bands Bands30_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Bands-Bands30_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Bands Bands30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test.txt](./Strategy-Bands-Bands30_EURUSD_2000USD_10spread_5digits_2014-M30-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
@@ -105,9 +105,9 @@
     Absolute drawdown           1.75 Maximal drawdown                   6.34 (0.32%) Relative drawdown                                        0.32% (6.34)
     Total trades                  15 Short positions (won %)              5 (40.00%) Long positions (won %)                                    10 (70.00%)
 
-### Report: Strategy Bands Bands5_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Bands Bands5_EURUSD_2000USD_10spread_5digits_2014 M5 DS test
 
-![Strategy Bands Bands5_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Bands-Bands5_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Bands Bands5_EURUSD_2000USD_10spread_5digits_2014 M5 DS test.txt](./Strategy-Bands-Bands5_EURUSD_2000USD_10spread_5digits_2014-M5-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           5 Minutes (M5) 2014.01.02 06:20 - 2014.12.29 23:55 (2014.01.01 - 2014.12.30)
@@ -126,9 +126,9 @@
 ![Strategy Bands Bands_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Bands-Bands_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
 
 
-### Report: Strategy DeMarker DeMarker15_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy DeMarker DeMarker15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test
 
-![Strategy DeMarker DeMarker15_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-DeMarker-DeMarker15_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy DeMarker DeMarker15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test.txt](./Strategy-DeMarker-DeMarker15_EURUSD_2000USD_10spread_5digits_2014-M15-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           15 Minutes (M15) 2014.01.02 23:00 - 2014.12.29 23:45 (2014.01.01 - 2014.12.30)
@@ -142,9 +142,9 @@
     Absolute drawdown           0.93 Maximal drawdown                   9.49 (0.47%) Relative drawdown                                        0.47% (9.49)
     Total trades                 276 Short positions (won %)            254 (45.67%) Long positions (won %)                                    22 (50.00%)
 
-### Report: Strategy DeMarker DeMarker1_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy DeMarker DeMarker1_EURUSD_2000USD_10spread_5digits_2014 M1 DS test
 
-![Strategy DeMarker DeMarker1_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-DeMarker-DeMarker1_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy DeMarker DeMarker1_EURUSD_2000USD_10spread_5digits_2014 M1 DS test.txt](./Strategy-DeMarker-DeMarker1_EURUSD_2000USD_10spread_5digits_2014-M1-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
@@ -158,14 +158,14 @@
     Absolute drawdown           5.53 Maximal drawdown                   5.64 (0.28%) Relative drawdown                                        0.28% (5.64)
     Total trades                  14 Short positions (won %)              4 (25.00%) Long positions (won %)                                    10 (10.00%)
 
-### Report: Strategy DeMarker DeMarker30_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy DeMarker DeMarker30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test
 
-![Strategy DeMarker DeMarker30_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-DeMarker-DeMarker30_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy DeMarker DeMarker30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test.txt](./Strategy-DeMarker-DeMarker30_EURUSD_2000USD_10spread_5digits_2014-M30-DS-test.gif)
 
 
-### Report: Strategy DeMarker DeMarker5_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy DeMarker DeMarker5_EURUSD_2000USD_10spread_5digits_2014 M5 DS test
 
-![Strategy DeMarker DeMarker5_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-DeMarker-DeMarker5_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy DeMarker DeMarker5_EURUSD_2000USD_10spread_5digits_2014 M5 DS test.txt](./Strategy-DeMarker-DeMarker5_EURUSD_2000USD_10spread_5digits_2014-M5-DS-test.gif)
 
 
 ### Report: Strategy DeMarker DeMarker_EURUSD_2000USD_10spread_5digits_2014 DS test
@@ -173,19 +173,19 @@
 ![Strategy DeMarker DeMarker_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-DeMarker-DeMarker_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
 
 
-### Report: Strategy Envelopes Envelopes15_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Envelopes Envelopes15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test
 
-![Strategy Envelopes Envelopes15_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Envelopes-Envelopes15_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
-
-
-### Report: Strategy Envelopes Envelopes30_EURUSD_2000USD_10spread_5digits_2014 DS test
-
-![Strategy Envelopes Envelopes30_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Envelopes-Envelopes30_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Envelopes Envelopes15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test.txt](./Strategy-Envelopes-Envelopes15_EURUSD_2000USD_10spread_5digits_2014-M15-DS-test.gif)
 
 
-### Report: Strategy Envelopes Envelopes5_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Envelopes Envelopes30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test
 
-![Strategy Envelopes Envelopes5_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Envelopes-Envelopes5_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Envelopes Envelopes30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test.txt](./Strategy-Envelopes-Envelopes30_EURUSD_2000USD_10spread_5digits_2014-M30-DS-test.gif)
+
+
+### Report: Strategy Envelopes Envelopes5_EURUSD_2000USD_10spread_5digits_2014 M5 DS test
+
+![Strategy Envelopes Envelopes5_EURUSD_2000USD_10spread_5digits_2014 M5 DS test.txt](./Strategy-Envelopes-Envelopes5_EURUSD_2000USD_10spread_5digits_2014-M5-DS-test.gif)
 
 
 ### Report: Strategy Envelopes Envelopes_EURUSD_2000USD_10spread_5digits_2014 DS test
@@ -193,14 +193,14 @@
 ![Strategy Envelopes Envelopes_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Envelopes-Envelopes_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
 
 
-### Report: Strategy Fractals Fractals15_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Fractals Fractals15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test
 
-![Strategy Fractals Fractals15_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Fractals-Fractals15_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Fractals Fractals15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test.txt](./Strategy-Fractals-Fractals15_EURUSD_2000USD_10spread_5digits_2014-M15-DS-test.gif)
 
 
-### Report: Strategy Fractals Fractals1_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Fractals Fractals1_EURUSD_2000USD_10spread_5digits_2014 M1 DS test
 
-![Strategy Fractals Fractals1_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Fractals-Fractals1_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Fractals Fractals1_EURUSD_2000USD_10spread_5digits_2014 M1 DS test.txt](./Strategy-Fractals-Fractals1_EURUSD_2000USD_10spread_5digits_2014-M1-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
@@ -214,9 +214,9 @@
     Absolute drawdown           1.44 Maximal drawdown                   3.60 (0.18%) Relative drawdown                                        0.18% (3.60)
     Total trades                  14 Short positions (won %)              8 (50.00%) Long positions (won %)                                     6 (33.33%)
 
-### Report: Strategy Fractals Fractals30_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Fractals Fractals30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test
 
-![Strategy Fractals Fractals30_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Fractals-Fractals30_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Fractals Fractals30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test.txt](./Strategy-Fractals-Fractals30_EURUSD_2000USD_10spread_5digits_2014-M30-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
@@ -230,9 +230,9 @@
     Absolute drawdown           6.11 Maximal drawdown                   6.53 (0.33%) Relative drawdown                                        0.33% (6.53)
     Total trades                  12 Short positions (won %)              6 (33.33%) Long positions (won %)                                     6 (50.00%)
 
-### Report: Strategy Fractals Fractals5_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy Fractals Fractals5_EURUSD_2000USD_10spread_5digits_2014 M5 DS test
 
-![Strategy Fractals Fractals5_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Fractals-Fractals5_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy Fractals Fractals5_EURUSD_2000USD_10spread_5digits_2014 M5 DS test.txt](./Strategy-Fractals-Fractals5_EURUSD_2000USD_10spread_5digits_2014-M5-DS-test.gif)
 
 
 ### Report: Strategy Fractals Fractals_EURUSD_2000USD_10spread_5digits_2014 DS test
@@ -240,9 +240,9 @@
 ![Strategy Fractals Fractals_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-Fractals-Fractals_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
 
 
-### Report: Strategy MA MA15_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy MA MA15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test
 
-![Strategy MA MA15_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-MA-MA15_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy MA MA15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test.txt](./Strategy-MA-MA15_EURUSD_2000USD_10spread_5digits_2014-M15-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           15 Minutes (M15) 2014.01.02 23:00 - 2014.12.29 23:45 (2014.01.01 - 2014.12.30)
@@ -272,9 +272,9 @@
     Absolute drawdown           3.09 Maximal drawdown                   3.83 (0.19%) Relative drawdown                                        0.19% (3.83)
     Total trades                  11 Short positions (won %)              7 (28.57%) Long positions (won %)                                     4 (50.00%)
 
-### Report: Strategy MA MA30_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy MA MA30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test
 
-![Strategy MA MA30_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-MA-MA30_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy MA MA30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test.txt](./Strategy-MA-MA30_EURUSD_2000USD_10spread_5digits_2014-M30-DS-test.gif)
 
 
 ### Report: Strategy MA MA5_EURUSD_2000USD_10spread_5digits_2014 DS test
@@ -298,9 +298,9 @@
 ![Strategy MA MA_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-MA-MA_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
 
 
-### Report: Strategy MACD MACD15_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy MACD MACD15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test
 
-![Strategy MACD MACD15_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-MACD-MACD15_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy MACD MACD15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test.txt](./Strategy-MACD-MACD15_EURUSD_2000USD_10spread_5digits_2014-M15-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           15 Minutes (M15) 2014.01.02 23:00 - 2014.12.29 23:45 (2014.01.01 - 2014.12.30)
@@ -330,9 +330,9 @@
     Absolute drawdown           3.22 Maximal drawdown                   3.36 (0.17%) Relative drawdown                                        0.17% (3.36)
     Total trades                  12 Short positions (won %)              6 (50.00%) Long positions (won %)                                     6 (16.67%)
 
-### Report: Strategy MACD MACD30_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy MACD MACD30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test
 
-![Strategy MACD MACD30_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-MACD-MACD30_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy MACD MACD30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test.txt](./Strategy-MACD-MACD30_EURUSD_2000USD_10spread_5digits_2014-M30-DS-test.gif)
 
 
 ### Report: Strategy MACD MACD5_EURUSD_2000USD_10spread_5digits_2014 DS test
@@ -356,9 +356,9 @@
     Absolute drawdown           8.10 Maximal drawdown                   9.15 (0.46%) Relative drawdown                                        0.46% (9.15)
     Total trades                  50 Short positions (won %)             23 (39.13%) Long positions (won %)                                    27 (14.81%)
 
-### Report: Strategy RSI RSI15_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy RSI RSI15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test
 
-![Strategy RSI RSI15_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-RSI-RSI15_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy RSI RSI15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test.txt](./Strategy-RSI-RSI15_EURUSD_2000USD_10spread_5digits_2014-M15-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           15 Minutes (M15) 2014.01.02 23:00 - 2014.12.29 23:45 (2014.01.01 - 2014.12.30)
@@ -388,9 +388,9 @@
     Absolute drawdown           7.62 Maximal drawdown                   7.87 (0.39%) Relative drawdown                                        0.39% (7.87)
     Total trades                  12 Short positions (won %)              5 (60.00%) Long positions (won %)                                     7 (14.29%)
 
-### Report: Strategy RSI RSI30_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy RSI RSI30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test
 
-![Strategy RSI RSI30_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-RSI-RSI30_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy RSI RSI30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test.txt](./Strategy-RSI-RSI30_EURUSD_2000USD_10spread_5digits_2014-M30-DS-test.gif)
 
 
 ### Report: Strategy RSI RSI5_EURUSD_2000USD_10spread_5digits_2014 DS test
@@ -414,9 +414,9 @@
 ![Strategy RSI RSI_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-RSI-RSI_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
 
 
-### Report: Strategy SAR SAR15_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy SAR SAR15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test
 
-![Strategy SAR SAR15_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-SAR-SAR15_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy SAR SAR15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test.txt](./Strategy-SAR-SAR15_EURUSD_2000USD_10spread_5digits_2014-M15-DS-test.gif)
 
 
 ### Report: Strategy SAR SAR1_EURUSD_2000USD_10spread_5digits_2014 DS test
@@ -424,9 +424,9 @@
 ![Strategy SAR SAR1_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-SAR-SAR1_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
 
 
-### Report: Strategy SAR SAR30_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy SAR SAR30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test
 
-![Strategy SAR SAR30_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-SAR-SAR30_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy SAR SAR30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test.txt](./Strategy-SAR-SAR30_EURUSD_2000USD_10spread_5digits_2014-M30-DS-test.gif)
 
 
 ### Report: Strategy SAR SAR5_EURUSD_2000USD_10spread_5digits_2014 DS test
@@ -439,9 +439,9 @@
 ![Strategy SAR SAR_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-SAR-SAR_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
 
 
-### Report: Strategy WPR WPR15_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy WPR WPR15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test
 
-![Strategy WPR WPR15_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-WPR-WPR15_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy WPR WPR15_EURUSD_2000USD_10spread_5digits_2014 M15 DS test.txt](./Strategy-WPR-WPR15_EURUSD_2000USD_10spread_5digits_2014-M15-DS-test.gif)
 
 
 ### Report: Strategy WPR WPR1_EURUSD_2000USD_10spread_5digits_2014 DS test
@@ -460,9 +460,9 @@
     Absolute drawdown           7.83 Maximal drawdown                   9.30 (0.46%) Relative drawdown                                        0.46% (9.30)
     Total trades                  11 Short positions (won %)              8 (75.00%) Long positions (won %)                                     3 (33.33%)
 
-### Report: Strategy WPR WPR30_EURUSD_2000USD_10spread_5digits_2014 DS test
+### Report: Strategy WPR WPR30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test
 
-![Strategy WPR WPR30_EURUSD_2000USD_10spread_5digits_2014 DS test.txt](./Strategy-WPR-WPR30_EURUSD_2000USD_10spread_5digits_2014-DS-test.gif)
+![Strategy WPR WPR30_EURUSD_2000USD_10spread_5digits_2014 M30 DS test.txt](./Strategy-WPR-WPR30_EURUSD_2000USD_10spread_5digits_2014-M30-DS-test.gif)
 
 
 ### Report: Strategy WPR WPR5_EURUSD_2000USD_10spread_5digits_2014 DS test
