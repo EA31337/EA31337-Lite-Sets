@@ -1,0 +1,56 @@
+Currency pair symbol:                       EURUSD
+Initial deposit:                            2000.00 USD
+Total net profit:                           -471.71 USD
+Gross profit:                               188.74 USD
+Gross loss:                                 660.46 USD
+Absolute drawdown:                          536.36 USD
+Maximal drawdown:                           536.4 USD (26.8%)
+Relative drawdown:                          (26.8%) 536.4 USD
+Profit factor:                              0.29
+Expected payoff:                            -26.21
+Trades total                                18
+Short positions (won %):                    15 (20.0%)
+Long positions (won %):                     3 (100.0%)
+Profit trades (% of total):                 6 (33.3%)
+Loss trades (% of total):                   12 (66.7%)
+Largest profit trade:                       56.95
+Largest loss trade:                         -112.37
+Average profit trade:                       31.46
+Average loss trade:                         -55.04
+Average consecutive wins:                   2.00
+Average consecutive losses:                 3.00
+Maximum consecutive wins (profit in money): 3 36.56
+Maximum consecutive losses (loss in money): 6 -536.36
+Maximal consecutive profit (count of wins): 95.23 2
+Maximal consecutive loss (count of losses): 536.36 6
+Modelling quality:                          89.98%
+Total bars processed:                       74786
+Total ticks processed:                      17977428
+Bars per hour (avg):                        1246
+Ticks per bar (avg):                        240 (bar=5mins)
+Ticks per min (avg):                        48
+Strategy stats:
+Report log:
+2012.01.02 06:20:11: EA31337 Lite (Backtest) v1.071 by kenorb (https://github.com/EA31337)
+Platform variables: Symbol: EURUSD, Bars: 101, Server: , Login: 16384
+Broker info: Name: , Account type: Backtest on Live, Leverage: 1:100, Currency: USD
+Market predefined variables: Ask: 1.29302, Bid: 1.29292, Volume: 1
+Market constants: Digits: 5, Point: 0.000010, Min Lot: 0.01, Max Lot: 10000, Lot Step: 0.01, Lot Size: 100000, Margin Required: 1292.97, Margin Init: 0, Stop Level: 8pts, Freeze level: 0 pts
+Contract specification for EURUSD: Profit mode: 0, Margin mode: 0, Spread: 10 pts, Tick size: 0.000010, Point value: 0.000010, Digits: 5, Trade stop level: 8 pts, Trade contract size: 100000
+Swap specification for EURUSD: Mode: 0, Long/buy order value: 0.33, Short/sell order value: -1.04
+Calculated variables: Pip size: 0.0001, Lot size: 0.01, Points per pip: 10, Pip digits: 4, Volume digits: 2, Spread in pips: 1.0 (10 pts), Stop Out Level: 0.7, Market gap: 8 pts (0 pips)
+EA params: Risk margin: 1%
+Strategies: Active strategies: 1 of 120, Max orders: 59 (per type: 35)
+Modelling Quality: M1: 25.00%, M5: 89.36%, M15: 88.09%, M30: 87.65%, H1: 77.00%, H4: 68.33%, D1: 25.00%, W1: 25.00%, MN1: 25.00%;
+Timeframes: M1: Active, M5: Active, M15: Active, M30: Not active, H1: Not active, H4: Not active, D1: Not active, W1: Not active, MN1: Not active;
+Datetime: Hour of day: 6, Day of week: 1, Day of month: 2, Day of year: 2, Month: 1, Year: 2012
+Account Details: Time: 2012.01.02 06:20:11; Account Balance: $2000.00; Account Equity: $2000.00; Used Margin: $0.00; Free Margin: $2000.00; No of Orders: 0 (BUY/SELL: 0/0); Risk Ratio: 1.0
+
+2012.01.22 22:00:00: UpdateStats: Market very big drop of -57.6 pips detected!
+2012.02.21 02:55:00: UpdateStats: Market very big drop of 50.3 pips detected!
+2012.05.06 21:00:00: UpdateStats: Market very big drop of -72.4 pips detected!
+2012.05.27 21:00:01: UpdateStats: Market very big drop of 59.0 pips detected!
+2012.06.10 21:00:01: UpdateStats: Market very big drop of 123.7 pips detected!
+2012.06.29 03:05:00: UpdateStats: Market very big drop of 64.4 pips detected!
+2012.08.02 12:40:00: UpdateStats: Market very big drop of -51.0 pips detected!
+
