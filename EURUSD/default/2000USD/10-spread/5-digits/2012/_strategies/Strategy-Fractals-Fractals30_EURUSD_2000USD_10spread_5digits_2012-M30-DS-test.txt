@@ -6,7 +6,7 @@
                                                             Tripleafx-FX-Demo (Build 971)
 
   Symbol                           EURUSD (Euro vs US Dollar)
-  Period                           30 Minutes (M30) 2012.01.04 00:00 - 2012.12.28 21:30 (2012.01.01 - 2012.12.30)
+  Period                           30 Minutes (M30) 2012.01.04 00:00 - 2012.12.30 23:30 (2012.01.01 - 2012.12.31)
   Model                            Every tick (the most precise method based on all available least timeframes)
                                    __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.070 --"; __Trade_Parameters__="-- Trade
                                    parameters --"; MaxOrders=0; MaxOrdersPerType=35; LotSize=0; TradeMicroLots=true; TrendMethod=33;
@@ -49,19 +49,19 @@
                                    MA_SignalLevel=1.4; MA1_SignalMethod=120; MA5_SignalMethod=126; MA15_SignalMethod=30; MA30_SignalMethod=51;
                                    __MACD_Parameters__="-- Settings for the Moving Averages Convergence/Divergence indicator --";
                                    MACD1_Active=false; MACD5_Active=false; MACD_Shift=1;
-  Bars in test               12479 Ticks modelled                     3389220 Modelling quality                                              89.28%
+  Bars in test               12484 Ticks modelled                     3389530 Modelling quality                                              89.28%
   Mismatched charts errors       0
   Initial deposit          2000.00                                            Spread                                                             10
-  Total net profit          129.35 Gross profit                        704.80 Gross loss                                                    -575.45
-  Profit factor               1.22 Expected payoff                       0.18
-  Absolute drawdown           1.42 Maximal drawdown             51.07 (2.35%) Relative drawdown                                       2.35% (51.07)
-  Total trades                 735 Short positions (won %)       543 (42.17%) Long positions (won %)                                   192 (47.92%)
-                                   Profit trades (% of total)    321 (43.67%) Loss trades (% of total)                                 414 (56.33%)
-                           Largest profit trade                         16.28 loss trade                                                      -8.52
-                           Average profit trade                          2.20 loss trade                                                      -1.39
-                           Maximum consecutive wins (profit in       7 (6.87) consecutive losses (loss in money)                        15 (-16.43)
+  Total net profit          127.93 Gross profit                        680.17 Gross loss                                                    -552.23
+  Profit factor               1.23 Expected payoff                       0.16
+  Absolute drawdown           1.42 Maximal drawdown             30.62 (1.43%) Relative drawdown                                       1.43% (30.62)
+  Total trades                 815 Short positions (won %)       599 (42.90%) Long positions (won %)                                   216 (43.98%)
+                                   Profit trades (% of total)    352 (43.19%) Loss trades (% of total)                                 463 (56.81%)
+                           Largest profit trade                         16.38 loss trade                                                      -8.42
+                           Average profit trade                          1.93 loss trade                                                      -1.19
+                           Maximum consecutive wins (profit in      7 (21.71) consecutive losses (loss in money)                        14 (-14.59)
                                    money)
-                           Maximal consecutive profit (count of     18.82 (4) consecutive loss (count of losses)                         -18.26 (7)
+                           Maximal consecutive profit (count of     21.71 (7) consecutive loss (count of losses)                         -18.38 (8)
                                    wins)
                            Average consecutive wins                         2 consecutive losses                                                  2
                                                                        [Graph]
