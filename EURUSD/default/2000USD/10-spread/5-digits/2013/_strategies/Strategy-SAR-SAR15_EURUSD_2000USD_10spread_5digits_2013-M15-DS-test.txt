@@ -6,7 +6,7 @@
                                                             Tripleafx-FX-Demo (Build 971)
 
  Symbol                           EURUSD (Euro vs US Dollar)
- Period                           15 Minutes (M15) 2013.01.02 22:45 - 2013.12.29 23:45 (2013.01.01 - 2013.12.30)
+ Period                           15 Minutes (M15) 2013.01.02 22:45 - 2013.12.30 23:45 (2013.01.01 - 2013.12.31)
  Model                            Every tick (the most precise method based on all available least timeframes)
                                   __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.070 --"; __Trade_Parameters__="-- Trade
                                   parameters --"; MaxOrders=0; MaxOrdersPerType=35; LotSize=0; TradeMicroLots=true; TrendMethod=33;
@@ -48,19 +48,19 @@
                                   MA_SignalLevel=1.4; MA1_SignalMethod=120; MA5_SignalMethod=126; MA15_SignalMethod=30; MA30_SignalMethod=51;
                                   __MACD_Parameters__="-- Settings for the Moving Averages Convergence/Divergence indicator --"; MACD1_Active=false;
                                   MACD5_Active=false; MACD_Shift=1;
- Bars in test               24720 Ticks modelled                       6476958 Modelling quality                                              89.64%
+ Bars in test               24816 Ticks modelled                       6495978 Modelling quality                                              89.64%
  Mismatched charts errors       0
  Initial deposit          2000.00                                              Spread                                                             10
- Total net profit         -102.88 Gross profit                           59.95 Gross loss                                                    -162.83
- Profit factor               0.37 Expected payoff                        -7.35
+ Total net profit         -101.48 Gross profit                           60.45 Gross loss                                                    -161.93
+ Profit factor               0.37 Expected payoff                        -7.25
  Absolute drawdown         237.44 Maximal drawdown             252.16 (12.52%) Relative drawdown                                     12.52% (252.16)
  Total trades                  14 Short positions (won %)          10 (50.00%) Long positions (won %)                                      4 (0.00%)
                                   Profit trades (% of total)        5 (35.71%) Loss trades (% of total)                                   9 (64.29%)
-                          Largest profit trade                           24.17 loss trade                                                     -39.17
-                          Average profit trade                           11.99 loss trade                                                     -18.09
-                          Maximum consecutive wins (profit in        3 (41.53) consecutive losses (loss in money)                         4 (-89.64)
+                          Largest profit trade                           24.27 loss trade                                                     -39.07
+                          Average profit trade                           12.09 loss trade                                                     -17.99
+                          Maximum consecutive wins (profit in        3 (41.83) consecutive losses (loss in money)                         4 (-89.24)
                                   money)
-                          Maximal consecutive profit (count of       41.53 (3) consecutive loss (count of losses)                         -89.64 (4)
+                          Maximal consecutive profit (count of       41.83 (3) consecutive loss (count of losses)                         -89.24 (4)
                                   wins)
                           Average consecutive wins                           3 consecutive losses                                                  3
                                                                        [Graph]
