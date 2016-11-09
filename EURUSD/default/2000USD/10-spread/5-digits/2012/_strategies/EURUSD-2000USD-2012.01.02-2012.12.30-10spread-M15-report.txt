@@ -1,28 +1,28 @@
 Currency pair symbol:                       EURUSD
 Initial deposit:                            2000.00 USD
-Total net profit:                           -852.91 USD
-Gross profit:                               72.71 USD
-Gross loss:                                 925.62 USD
-Absolute drawdown:                          852.91 USD
-Maximal drawdown:                           852.9 USD (42.6%)
-Relative drawdown:                          (42.6%) 852.9 USD
-Profit factor:                              0.08
-Expected payoff:                            -42.65
-Trades total                                20
-Short positions (won %):                    15 (0.0%)
-Long positions (won %):                     5 (40.0%)
-Profit trades (% of total):                 2 (10.0%)
-Loss trades (% of total):                   18 (90.0%)
-Largest profit trade:                       39.75
-Largest loss trade:                         -114.46
-Average profit trade:                       36.36
-Average loss trade:                         -51.42
-Average consecutive wins:                   1.00
-Average consecutive losses:                 6.00
-Maximum consecutive wins (profit in money): 1 39.75
-Maximum consecutive losses (loss in money): 14 -732.30
-Maximal consecutive profit (count of wins): 39.75 1
-Maximal consecutive loss (count of losses): 732.30 14
+Total net profit:                           537.76 USD
+Gross profit:                               2261.93 USD
+Gross loss:                                 1724.17 USD
+Absolute drawdown:                          2.73 USD
+Maximal drawdown:                           42.5 USD (1.7%)
+Relative drawdown:                          (1.8%) 37.1 USD
+Profit factor:                              1.31
+Expected payoff:                            0.15
+Trades total                                3501
+Short positions (won %):                    2510 (38.2%)
+Long positions (won %):                     991 (35.0%)
+Profit trades (% of total):                 1305 (37.3%)
+Loss trades (% of total):                   2196 (62.7%)
+Largest profit trade:                       18.18
+Largest loss trade:                         -9.37
+Average profit trade:                       1.73
+Average loss trade:                         -0.79
+Average consecutive wins:                   2.00
+Average consecutive losses:                 3.00
+Maximum consecutive wins (profit in money): 8 37.57
+Maximum consecutive losses (loss in money): 18 -13.96
+Maximal consecutive profit (count of wins): 37.57 8
+Maximal consecutive loss (count of losses): 20.68 9
 Modelling quality:                          89.98%
 Total bars processed:                       24865
 Total ticks processed:                      6384927
@@ -30,6 +30,10 @@ Bars per hour (avg):                        414
 Ticks per bar (avg):                        256 (bar=15mins)
 Ticks per min (avg):                        17
 Strategy stats:
+Profit factor: 0.18, Total net profit: -5.21pips (+1.13/-6.34), Total orders: 11 (Won: 27.3% [3] / Loss: 72.7% [8]) - MACD M1
+Profit factor: 1.29, Total net profit: 375.16pips (+1667.37/-1292.22), Total orders: 2546 (Won: 36.9% [939] / Loss: 63.1% [1607]) - MACD M5
+Profit factor: 0.08, Total net profit: -5.90pips (+0.50/-6.40), Total orders: 11 (Won: 9.1% [1] / Loss: 90.9% [10]) - MACD M15
+Profit factor: 1.43, Total net profit: 180.18pips (+595.92/-415.74), Total orders: 931 (Won: 37.6% [350] / Loss: 62.4% [581]) - MACD M30
 Report log:
 2012.01.02 23:00:00: EA31337 Lite (Backtest) v1.071 by kenorb (https://github.com/EA31337)
 Platform variables: Symbol: EURUSD, Bars: 101, Server: , Login: 16384
@@ -40,7 +44,7 @@ Contract specification for EURUSD: Profit mode: 0, Margin mode: 0, Spread: 10 pt
 Swap specification for EURUSD: Mode: 0, Long/buy order value: 0.33, Short/sell order value: -1.04
 Calculated variables: Pip size: 0.0001, Lot size: 0.01, Points per pip: 10, Pip digits: 4, Volume digits: 2, Spread in pips: 1.0 (10 pts), Stop Out Level: 0.7, Market gap: 8 pts (0 pips)
 EA params: Risk margin: 1%
-Strategies: Active strategies: 1 of 120, Max orders: 59 (per type: 35)
+Strategies: Active strategies: 4 of 120, Max orders: 59 (per type: 35)
 Modelling Quality: M1: 25.00%, M5: 89.78%, M15: 89.36%, M30: 88.73%, H1: 87.50%, H4: 80.71%, D1: 46.67%, W1: 25.00%, MN1: 25.00%;
 Timeframes: M1: Active, M5: Active, M15: Active, M30: Active, H1: Active, H4: Not active, D1: Not active, W1: Not active, MN1: Not active;
 Datetime: Hour of day: 23, Day of week: 1, Day of month: 2, Day of year: 2, Month: 1, Year: 2012
