@@ -1,28 +1,28 @@
 Currency pair symbol:                       EURUSD
 Initial deposit:                            2000.00 USD
-Total net profit:                           136.34 USD
-Gross profit:                               508.67 USD
-Gross loss:                                 372.33 USD
-Absolute drawdown:                          5.26 USD
-Maximal drawdown:                           29.6 USD (1.4%)
-Relative drawdown:                          (1.4%) 29.6 USD
-Profit factor:                              1.37
-Expected payoff:                            0.15
-Trades total                                930
-Short positions (won %):                    716 (39.0%)
-Long positions (won %):                     214 (31.3%)
-Profit trades (% of total):                 346 (37.2%)
-Loss trades (% of total):                   584 (62.8%)
-Largest profit trade:                       25.64
-Largest loss trade:                         -8.72
-Average profit trade:                       1.47
-Average loss trade:                         -0.64
+Total net profit:                           110.39 USD
+Gross profit:                               348.55 USD
+Gross loss:                                 238.16 USD
+Absolute drawdown:                          1.96 USD
+Maximal drawdown:                           25.3 USD (1.2%)
+Relative drawdown:                          (1.2%) 25.3 USD
+Profit factor:                              1.46
+Expected payoff:                            0.23
+Trades total                                484
+Short positions (won %):                    386 (52.3%)
+Long positions (won %):                     98 (53.1%)
+Profit trades (% of total):                 254 (52.5%)
+Loss trades (% of total):                   230 (47.5%)
+Largest profit trade:                       16.74
+Largest loss trade:                         -6.30
+Average profit trade:                       1.37
+Average loss trade:                         -1.04
 Average consecutive wins:                   2.00
-Average consecutive losses:                 3.00
-Maximum consecutive wins (profit in money): 5 4.96
-Maximum consecutive losses (loss in money): 12 -4.80
-Maximal consecutive profit (count of wins): 30.68 3
-Maximal consecutive loss (count of losses): 18.76 8
+Average consecutive losses:                 2.00
+Maximum consecutive wins (profit in money): 7 39.93
+Maximum consecutive losses (loss in money): 8 -9.50
+Maximal consecutive profit (count of wins): 39.93 7
+Maximal consecutive loss (count of losses): 11.69 7
 Modelling quality:                          89.88%
 Total bars processed:                       24715
 Total ticks processed:                      6495878
@@ -30,10 +30,10 @@ Bars per hour (avg):                        411
 Ticks per bar (avg):                        262 (bar=15mins)
 Ticks per min (avg):                        17
 Strategy stats:
-Profit factor: 1.40, Total net profit: 143.45pips (+501.40/-357.95), Total orders: 895 (Won: 37.4% [335] / Loss: 62.6% [560]) - MACD M1
-Profit factor: 0.86, Total net profit: -0.71pips (+4.38/-5.09), Total orders: 13 (Won: 15.4% [2] / Loss: 84.6% [11]) - MACD M5
-Profit factor: 0.34, Total net profit: -2.91pips (+1.53/-4.44), Total orders: 11 (Won: 18.2% [2] / Loss: 81.8% [9]) - MACD M15
-Profit factor: 0.47, Total net profit: -2.11pips (+1.90/-4.01), Total orders: 11 (Won: 36.4% [4] / Loss: 63.6% [7]) - MACD M30
+Profit factor: 1.49, Total net profit: 87.92pips (+267.39/-179.47), Total orders: 400 (Won: 51.3% [205] / Loss: 48.8% [195]) - RSI M1
+Profit factor: 1.00, Total net profit: 0.00pips (+0.00/0.00), Total orders: 1 (Won: 0.0% [0] / Loss: 100.0% [1]) - RSI M5
+Profit factor: 1.29, Total net profit: 15.48pips (+69.78/-54.30), Total orders: 76 (Won: 55.3% [42] / Loss: 44.7% [34]) - RSI M15
+Profit factor: 1.00, Total net profit: 8.34pips (+12.22/-3.89), Total orders: 7 (Won: 57.1% [4] / Loss: 42.9% [3]) - RSI M30
 Report log:
 2013.01.02 22:45:02: EA31337 Lite (Backtest) v1.071 by kenorb (https://github.com/EA31337)
 Platform variables: Symbol: EURUSD, Bars: 101, Server: , Login: 16384
