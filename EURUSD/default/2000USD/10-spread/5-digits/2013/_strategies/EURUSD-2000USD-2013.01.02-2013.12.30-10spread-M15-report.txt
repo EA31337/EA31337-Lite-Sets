@@ -1,28 +1,28 @@
 Currency pair symbol:                       EURUSD
 Initial deposit:                            2000.00 USD
-Total net profit:                           -689.13 USD
-Gross profit:                               1176.24 USD
-Gross loss:                                 1865.38 USD
-Absolute drawdown:                          904.80 USD
-Maximal drawdown:                           904.8 USD (45.2%)
-Relative drawdown:                          (45.2%) 904.8 USD
-Profit factor:                              0.63
-Expected payoff:                            -14.06
-Trades total                                49
-Short positions (won %):                    30 (0.0%)
-Long positions (won %):                     19 (100.0%)
-Profit trades (% of total):                 19 (38.8%)
-Loss trades (% of total):                   30 (61.2%)
-Largest profit trade:                       89.27
-Largest loss trade:                         -106.82
-Average profit trade:                       61.91
-Average loss trade:                         -62.18
-Average consecutive wins:                   2.00
-Average consecutive losses:                 3.00
-Maximum consecutive wins (profit in money): 7 554.95
-Maximum consecutive losses (loss in money): 9 -904.80
-Maximal consecutive profit (count of wins): 554.95 7
-Maximal consecutive loss (count of losses): 904.80 9
+Total net profit:                           760.33 USD
+Gross profit:                               1682.17 USD
+Gross loss:                                 921.84 USD
+Absolute drawdown:                          45.14 USD
+Maximal drawdown:                           467.4 USD (19.3%)
+Relative drawdown:                          (19.3%) 467.4 USD
+Profit factor:                              1.82
+Expected payoff:                            15.84
+Trades total                                48
+Short positions (won %):                    18 (0.0%)
+Long positions (won %):                     30 (100.0%)
+Profit trades (% of total):                 30 (62.5%)
+Loss trades (% of total):                   18 (37.5%)
+Largest profit trade:                       98.38
+Largest loss trade:                         -103.63
+Average profit trade:                       56.07
+Average loss trade:                         -51.21
+Average consecutive wins:                   3.00
+Average consecutive losses:                 2.00
+Maximum consecutive wins (profit in money): 6 420.88
+Maximum consecutive losses (loss in money): 5 -467.38
+Maximal consecutive profit (count of wins): 420.88 6
+Maximal consecutive loss (count of losses): 467.38 5
 Modelling quality:                          89.88%
 Total bars processed:                       24715
 Total ticks processed:                      6495878
