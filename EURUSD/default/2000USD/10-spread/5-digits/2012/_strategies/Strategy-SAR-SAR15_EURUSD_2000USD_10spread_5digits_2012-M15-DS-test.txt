@@ -6,7 +6,7 @@
                                                             Tripleafx-FX-Demo (Build 971)
 
  Symbol                           EURUSD (Euro vs US Dollar)
- Period                           15 Minutes (M15) 2012.01.02 23:00 - 2012.12.28 21:45 (2012.01.01 - 2012.12.30)
+ Period                           15 Minutes (M15) 2012.01.02 23:00 - 2012.12.30 23:45 (2012.01.01 - 2012.12.31)
  Model                            Every tick (the most precise method based on all available least timeframes)
                                   __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.070 --"; __Trade_Parameters__="-- Trade
                                   parameters --"; MaxOrders=0; MaxOrdersPerType=35; LotSize=0; TradeMicroLots=true; TrendMethod=33;
@@ -48,19 +48,19 @@
                                   MA_SignalLevel=1.4; MA1_SignalMethod=120; MA5_SignalMethod=126; MA15_SignalMethod=30; MA30_SignalMethod=51;
                                   __MACD_Parameters__="-- Settings for the Moving Averages Convergence/Divergence indicator --"; MACD1_Active=false;
                                   MACD5_Active=false; MACD_Shift=1;
- Bars in test               24957 Ticks modelled                       6384541 Modelling quality                                              89.64%
+ Bars in test               24966 Ticks modelled                       6385027 Modelling quality                                              89.64%
  Mismatched charts errors       0
  Initial deposit          2000.00                                              Spread                                                             10
- Total net profit          521.33 Gross profit                          581.28 Gross loss                                                     -59.95
- Profit factor               9.70 Expected payoff                        32.58
- Absolute drawdown          33.80 Maximal drawdown             374.17 (12.92%) Relative drawdown                                     12.92% (374.17)
+ Total net profit          522.93 Gross profit                          582.48 Gross loss                                                     -59.55
+ Profit factor               9.78 Expected payoff                        32.68
+ Absolute drawdown          33.80 Maximal drawdown             373.00 (12.88%) Relative drawdown                                     12.88% (373.00)
  Total trades                  16 Short positions (won %)          13 (69.23%) Long positions (won %)                                    3 (100.00%)
                                   Profit trades (% of total)       12 (75.00%) Loss trades (% of total)                                   4 (25.00%)
-                          Largest profit trade                           83.42 loss trade                                                     -25.79
-                          Average profit trade                           48.44 loss trade                                                     -14.99
-                          Maximum consecutive wins (profit in      12 (581.28) consecutive losses (loss in money)                         4 (-59.95)
+                          Largest profit trade                           83.52 loss trade                                                     -25.69
+                          Average profit trade                           48.54 loss trade                                                     -14.89
+                          Maximum consecutive wins (profit in      12 (582.48) consecutive losses (loss in money)                         4 (-59.55)
                                   money)
-                          Maximal consecutive profit (count of     581.28 (12) consecutive loss (count of losses)                         -59.95 (4)
+                          Maximal consecutive profit (count of     582.48 (12) consecutive loss (count of losses)                         -59.55 (4)
                                   wins)
                           Average consecutive wins                          12 consecutive losses                                                  4
                                                                        [Graph]
