@@ -1,28 +1,28 @@
 Currency pair symbol:                       EURUSD
 Initial deposit:                            2000.00 USD
-Total net profit:                           0.00 USD
-Gross profit:                               0.00 USD
-Gross loss:                                 0.00 USD
+Total net profit:                           1949.98 USD
+Gross profit:                               2007.41 USD
+Gross loss:                                 57.43 USD
 Absolute drawdown:                          0.00 USD
-Maximal drawdown:                           0.0 USD (0.0%)
-Relative drawdown:                          (0.0%) 0.0 USD
-Profit factor:                              0.00
-Expected payoff:                            0.00
-Trades total                                0
-Short positions (won %):                    0 (0.0%)
-Long positions (won %):                     0 (0.0%)
-Profit trades (% of total):                 0 (0.0%)
-Loss trades (% of total):                   0 (0.0%)
-Largest profit trade:                       0.00
-Largest loss trade:                         -0.00
-Average profit trade:                       0.00
-Average loss trade:                         0.00
-Average consecutive wins:                   0.00
-Average consecutive losses:                 0.00
-Maximum consecutive wins (profit in money): 0 0.00
-Maximum consecutive losses (loss in money): 0 -0.00
-Maximal consecutive profit (count of wins): 0.00 0
-Maximal consecutive loss (count of losses): 0.00 0
+Maximal drawdown:                           33.1 USD (0.8%)
+Relative drawdown:                          (0.8%) 33.1 USD
+Profit factor:                              34.95
+Expected payoff:                            84.78
+Trades total                                23
+Short positions (won %):                    19 (100.0%)
+Long positions (won %):                     4 (25.0%)
+Profit trades (% of total):                 20 (87.0%)
+Loss trades (% of total):                   3 (13.0%)
+Largest profit trade:                       188.66
+Largest loss trade:                         -33.10
+Average profit trade:                       100.37
+Average loss trade:                         -19.14
+Average consecutive wins:                   10.00
+Average consecutive losses:                 2.00
+Maximum consecutive wins (profit in money): 19 1968.39
+Maximum consecutive losses (loss in money): 2 -24.33
+Maximal consecutive profit (count of wins): 1968.39 19
+Maximal consecutive loss (count of losses): 33.10 1
 Modelling quality:                          90.00%
 Total bars processed:                       71660
 Total ticks processed:                      18638112
