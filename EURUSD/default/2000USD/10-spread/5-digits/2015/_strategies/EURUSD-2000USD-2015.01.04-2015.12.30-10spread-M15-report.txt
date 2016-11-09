@@ -1,28 +1,28 @@
 Currency pair symbol:                       EURUSD
 Initial deposit:                            2000.00 USD
-Total net profit:                           112.86 USD
-Gross profit:                               2934.71 USD
-Gross loss:                                 2821.85 USD
-Absolute drawdown:                          195.00 USD
-Maximal drawdown:                           425.3 USD (16.8%)
-Relative drawdown:                          (16.8%) 425.3 USD
-Profit factor:                              1.04
-Expected payoff:                            0.23
-Trades total                                492
-Short positions (won %):                    308 (46.1%)
-Long positions (won %):                     184 (36.4%)
-Profit trades (% of total):                 209 (42.5%)
-Loss trades (% of total):                   283 (57.5%)
-Largest profit trade:                       98.24
-Largest loss trade:                         -96.25
-Average profit trade:                       14.04
-Average loss trade:                         -9.97
+Total net profit:                           1394.59 USD
+Gross profit:                               4651.89 USD
+Gross loss:                                 3257.30 USD
+Absolute drawdown:                          3.04 USD
+Maximal drawdown:                           48.7 USD (1.8%)
+Relative drawdown:                          (1.8%) 48.7 USD
+Profit factor:                              1.43
+Expected payoff:                            0.21
+Trades total                                6669
+Short positions (won %):                    4708 (38.6%)
+Long positions (won %):                     1961 (37.2%)
+Profit trades (% of total):                 2549 (38.2%)
+Loss trades (% of total):                   4120 (61.8%)
+Largest profit trade:                       28.38
+Largest loss trade:                         -16.62
+Average profit trade:                       1.82
+Average loss trade:                         -0.79
 Average consecutive wins:                   2.00
-Average consecutive losses:                 2.00
-Maximum consecutive wins (profit in money): 6 124.98
-Maximum consecutive losses (loss in money): 8 -182.26
-Maximal consecutive profit (count of wins): 218.15 4
-Maximal consecutive loss (count of losses): 182.26 8
+Average consecutive losses:                 3.00
+Maximum consecutive wins (profit in money): 10 8.84
+Maximum consecutive losses (loss in money): 17 -22.15
+Maximal consecutive profit (count of wins): 64.74 7
+Maximal consecutive loss (count of losses): 22.15 17
 Modelling quality:                          89.93%
 Total bars processed:                       24705
 Total ticks processed:                      5893797
@@ -30,9 +30,10 @@ Bars per hour (avg):                        411
 Ticks per bar (avg):                        238 (bar=15mins)
 Ticks per min (avg):                        15
 Strategy stats:
-Profit factor: 1.12, Total net profit: 309.55pips (+2799.26/-2489.71), Total orders: 465 (Won: 42.4% [197] / Loss: 57.6% [268]) - Bands M1
-Profit factor: 0.60, Total net profit: -53.12pips (+80.84/-133.96), Total orders: 14 (Won: 42.9% [6] / Loss: 57.1% [8]) - Bands M15
-Profit factor: 0.30, Total net profit: -135.12pips (+59.01/-194.13), Total orders: 12 (Won: 41.7% [5] / Loss: 58.3% [7]) - Bands M30
+Profit factor: 1.57, Total net profit: 871.80pips (+2411.02/-1539.21), Total orders: 4512 (Won: 37.5% [1694] / Loss: 62.5% [2818]) - DeMarker M1
+Profit factor: 0.82, Total net profit: -0.89pips (+4.10/-4.99), Total orders: 14 (Won: 28.6% [4] / Loss: 71.4% [10]) - DeMarker M5
+Profit factor: 0.68, Total net profit: -3.45pips (+7.22/-10.67), Total orders: 17 (Won: 23.5% [4] / Loss: 76.5% [13]) - DeMarker M15
+Profit factor: 1.32, Total net profit: 537.48pips (+2234.88/-1697.39), Total orders: 2124 (Won: 39.2% [832] / Loss: 60.8% [1292]) - DeMarker M30
 Report log:
 2015.01.04 23:00:00: EA31337 Lite (Backtest) v1.071 by kenorb (https://github.com/EA31337)
 Platform variables: Symbol: EURUSD, Bars: 101, Server: , Login: 16384
