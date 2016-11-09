@@ -1,28 +1,28 @@
 Currency pair symbol:                       EURUSD
 Initial deposit:                            2000.00 USD
-Total net profit:                           -8.07 USD
-Gross profit:                               38.66 USD
-Gross loss:                                 46.73 USD
-Absolute drawdown:                          9.91 USD
-Maximal drawdown:                           14.6 USD (0.7%)
-Relative drawdown:                          (0.7%) 14.6 USD
-Profit factor:                              0.83
-Expected payoff:                            -0.06
-Trades total                                131
-Short positions (won %):                    88 (31.8%)
-Long positions (won %):                     43 (44.2%)
-Profit trades (% of total):                 47 (35.9%)
-Loss trades (% of total):                   84 (64.1%)
-Largest profit trade:                       4.16
-Largest loss trade:                         -4.14
-Average profit trade:                       0.82
-Average loss trade:                         -0.56
-Average consecutive wins:                   2.00
-Average consecutive losses:                 3.00
-Maximum consecutive wins (profit in money): 5 2.72
-Maximum consecutive losses (loss in money): 7 -6.64
-Maximal consecutive profit (count of wins): 4.16 1
-Maximal consecutive loss (count of losses): 6.64 7
+Total net profit:                           -27.34 USD
+Gross profit:                               110.77 USD
+Gross loss:                                 138.10 USD
+Absolute drawdown:                          27.34 USD
+Maximal drawdown:                           43.5 USD (2.2%)
+Relative drawdown:                          (2.2%) 43.5 USD
+Profit factor:                              0.80
+Expected payoff:                            -0.15
+Trades total                                177
+Short positions (won %):                    113 (61.1%)
+Long positions (won %):                     64 (50.0%)
+Profit trades (% of total):                 101 (57.1%)
+Loss trades (% of total):                   76 (42.9%)
+Largest profit trade:                       6.23
+Largest loss trade:                         -11.40
+Average profit trade:                       1.10
+Average loss trade:                         -1.82
+Average consecutive wins:                   3.00
+Average consecutive losses:                 2.00
+Maximum consecutive wins (profit in money): 11 21.00
+Maximum consecutive losses (loss in money): 6 -25.81
+Maximal consecutive profit (count of wins): 21.00 11
+Maximal consecutive loss (count of losses): 25.81 6
 Modelling quality:                          89.78%
 Total bars processed:                       24711
 Total ticks processed:                      5609527
@@ -30,10 +30,10 @@ Bars per hour (avg):                        411
 Ticks per bar (avg):                        227 (bar=15mins)
 Ticks per min (avg):                        15
 Strategy stats:
-Profit factor: 0.07, Total net profit: -3.25pips (+0.25/-3.50), Total orders: 11 (Won: 18.2% [2] / Loss: 81.8% [9]) - Alligator M1
-Profit factor: 0.93, Total net profit: -2.47pips (+31.72/-34.19), Total orders: 90 (Won: 36.7% [33] / Loss: 63.3% [57]) - Alligator M5
-Profit factor: 0.85, Total net profit: -0.82pips (+4.75/-5.57), Total orders: 19 (Won: 36.8% [7] / Loss: 63.2% [12]) - Alligator M15
-Profit factor: 0.59, Total net profit: -1.41pips (+2.04/-3.45), Total orders: 11 (Won: 27.3% [3] / Loss: 72.7% [8]) - Alligator M30
+Profit factor: 0.63, Total net profit: -0.72pips (+1.26/-1.98), Total orders: 11 (Won: 54.5% [6] / Loss: 45.5% [5]) - Bands M1
+Profit factor: 1.00, Total net profit: -0.62pips (+0.00/-0.62), Total orders: 1 (Won: 0.0% [0] / Loss: 100.0% [1]) - Bands M5
+Profit factor: 0.18, Total net profit: -12.06pips (+2.64/-14.70), Total orders: 11 (Won: 27.3% [3] / Loss: 72.7% [8]) - Bands M15
+Profit factor: 0.89, Total net profit: -13.18pips (+107.26/-120.44), Total orders: 154 (Won: 59.1% [91] / Loss: 40.9% [63]) - Bands M30
 Report log:
 2014.01.02 23:00:00: EA31337 Lite (Backtest) v1.071 by kenorb (https://github.com/EA31337)
 Platform variables: Symbol: EURUSD, Bars: 101, Server: , Login: 16384
