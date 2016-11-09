@@ -1,28 +1,28 @@
 Currency pair symbol:                       EURUSD
 Initial deposit:                            2000.00 USD
-Total net profit:                           -503.28 USD
-Gross profit:                               199.08 USD
-Gross loss:                                 702.36 USD
-Absolute drawdown:                          503.28 USD
-Maximal drawdown:                           631.3 USD (29.7%)
-Relative drawdown:                          (29.7%) 631.3 USD
-Profit factor:                              0.28
-Expected payoff:                            -27.96
-Trades total                                18
-Short positions (won %):                    14 (14.3%)
-Long positions (won %):                     4 (75.0%)
-Profit trades (% of total):                 5 (27.8%)
-Loss trades (% of total):                   13 (72.2%)
-Largest profit trade:                       88.19
-Largest loss trade:                         -115.55
-Average profit trade:                       39.82
-Average loss trade:                         -54.03
-Average consecutive wins:                   1.00
-Average consecutive losses:                 3.00
-Maximum consecutive wins (profit in money): 2 127.98
-Maximum consecutive losses (loss in money): 6 -537.59
-Maximal consecutive profit (count of wins): 127.98 2
-Maximal consecutive loss (count of losses): 537.59 6
+Total net profit:                           -72.46 USD
+Gross profit:                               14.90 USD
+Gross loss:                                 87.36 USD
+Absolute drawdown:                          77.71 USD
+Maximal drawdown:                           77.7 USD (3.9%)
+Relative drawdown:                          (3.9%) 77.7 USD
+Profit factor:                              0.17
+Expected payoff:                            -6.59
+Trades total                                11
+Short positions (won %):                    7 (42.9%)
+Long positions (won %):                     4 (25.0%)
+Profit trades (% of total):                 4 (36.4%)
+Loss trades (% of total):                   7 (63.6%)
+Largest profit trade:                       6.61
+Largest loss trade:                         -28.06
+Average profit trade:                       3.72
+Average loss trade:                         -12.48
+Average consecutive wins:                   2.00
+Average consecutive losses:                 2.00
+Maximum consecutive wins (profit in money): 2 7.84
+Maximum consecutive losses (loss in money): 4 -37.70
+Maximal consecutive profit (count of wins): 7.84 2
+Maximal consecutive loss (count of losses): 47.85 2
 Modelling quality:                          89.98%
 Total bars processed:                       12383
 Total ticks processed:                      3389430
@@ -30,6 +30,7 @@ Bars per hour (avg):                        206
 Ticks per bar (avg):                        273 (bar=30mins)
 Ticks per min (avg):                        9
 Strategy stats:
+Profit factor: 0.17, Total net profit: -72.16pips (+15.02/-87.18), Total orders: 11 (Won: 36.4% [4] / Loss: 63.6% [7]) - WPR M30
 Report log:
 2012.01.04 00:00:00: EA31337 Lite (Backtest) v1.071 by kenorb (https://github.com/EA31337)
 Platform variables: Symbol: EURUSD, Bars: 101, Server: , Login: 16384
