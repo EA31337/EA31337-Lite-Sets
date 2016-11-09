@@ -1,28 +1,28 @@
 Currency pair symbol:                       EURUSD
 Initial deposit:                            2000.00 USD
-Total net profit:                           608.74 USD
-Gross profit:                               4185.84 USD
-Gross loss:                                 3577.10 USD
-Absolute drawdown:                          45.96 USD
-Maximal drawdown:                           731.5 USD (23.9%)
-Relative drawdown:                          (23.9%) 731.5 USD
-Profit factor:                              1.17
-Expected payoff:                            1.28
-Trades total                                476
-Short positions (won %):                    308 (52.3%)
-Long positions (won %):                     168 (42.3%)
-Profit trades (% of total):                 232 (48.7%)
-Loss trades (% of total):                   244 (51.3%)
-Largest profit trade:                       95.75
-Largest loss trade:                         -79.93
-Average profit trade:                       18.04
-Average loss trade:                         -14.66
-Average consecutive wins:                   3.00
+Total net profit:                           -4.26 USD
+Gross profit:                               36.48 USD
+Gross loss:                                 40.74 USD
+Absolute drawdown:                          17.46 USD
+Maximal drawdown:                           20.7 USD (1.0%)
+Relative drawdown:                          (1.0%) 20.7 USD
+Profit factor:                              0.90
+Expected payoff:                            -0.15
+Trades total                                28
+Short positions (won %):                    24 (37.5%)
+Long positions (won %):                     4 (75.0%)
+Profit trades (% of total):                 12 (42.9%)
+Loss trades (% of total):                   16 (57.1%)
+Largest profit trade:                       7.77
+Largest loss trade:                         -10.65
+Average profit trade:                       3.04
+Average loss trade:                         -2.55
+Average consecutive wins:                   2.00
 Average consecutive losses:                 3.00
-Maximum consecutive wins (profit in money): 11 544.07
-Maximum consecutive losses (loss in money): 14 -153.83
-Maximal consecutive profit (count of wins): 544.07 11
-Maximal consecutive loss (count of losses): 407.49 13
+Maximum consecutive wins (profit in money): 6 24.24
+Maximum consecutive losses (loss in money): 5 -2.79
+Maximal consecutive profit (count of wins): 24.24 6
+Maximal consecutive loss (count of losses): 15.76 4
 Modelling quality:                          89.93%
 Total bars processed:                       24705
 Total ticks processed:                      5893797
@@ -30,10 +30,10 @@ Bars per hour (avg):                        411
 Ticks per bar (avg):                        238 (bar=15mins)
 Ticks per min (avg):                        15
 Strategy stats:
-Profit factor: 0.89, Total net profit: -129.91pips (+1011.84/-1141.75), Total orders: 143 (Won: 45.5% [65] / Loss: 54.5% [78]) - Envelopes M1
-Profit factor: 1.13, Total net profit: 182.67pips (+1576.16/-1393.49), Total orders: 174 (Won: 48.3% [84] / Loss: 51.7% [90]) - Envelopes M5
-Profit factor: 1.70, Total net profit: 656.20pips (+1596.86/-940.66), Total orders: 146 (Won: 55.5% [81] / Loss: 44.5% [65]) - Envelopes M15
-Profit factor: 0.19, Total net profit: -66.06pips (+15.99/-82.06), Total orders: 11 (Won: 27.3% [3] / Loss: 72.7% [8]) - Envelopes M30
+Profit factor: 0.66, Total net profit: -2.83pips (+5.58/-8.41), Total orders: 11 (Won: 27.3% [3] / Loss: 72.7% [8]) - RSI M1
+Profit factor: 1.00, Total net profit: 0.36pips (+0.36/0.00), Total orders: 2 (Won: 100.0% [2] / Loss: 0.0% [0]) - RSI M5
+Profit factor: 0.78, Total net profit: -4.69pips (+16.48/-21.17), Total orders: 11 (Won: 45.5% [5] / Loss: 54.5% [6]) - RSI M15
+Profit factor: 1.00, Total net profit: 3.07pips (+14.10/-11.02), Total orders: 4 (Won: 50.0% [2] / Loss: 50.0% [2]) - RSI M30
 Report log:
 2015.01.04 23:00:00: EA31337 Lite (Backtest) v1.071 by kenorb (https://github.com/EA31337)
 Platform variables: Symbol: EURUSD, Bars: 101, Server: , Login: 16384
