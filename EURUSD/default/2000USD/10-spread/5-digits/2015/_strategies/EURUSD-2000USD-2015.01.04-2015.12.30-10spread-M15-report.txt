@@ -1,28 +1,28 @@
 Currency pair symbol:                       EURUSD
 Initial deposit:                            2000.00 USD
-Total net profit:                           1394.59 USD
-Gross profit:                               4651.89 USD
-Gross loss:                                 3257.30 USD
-Absolute drawdown:                          3.04 USD
-Maximal drawdown:                           48.7 USD (1.8%)
-Relative drawdown:                          (1.8%) 48.7 USD
-Profit factor:                              1.43
-Expected payoff:                            0.21
-Trades total                                6669
-Short positions (won %):                    4708 (38.6%)
-Long positions (won %):                     1961 (37.2%)
-Profit trades (% of total):                 2549 (38.2%)
-Loss trades (% of total):                   4120 (61.8%)
-Largest profit trade:                       28.38
-Largest loss trade:                         -16.62
-Average profit trade:                       1.82
-Average loss trade:                         -0.79
-Average consecutive wins:                   2.00
+Total net profit:                           608.74 USD
+Gross profit:                               4185.84 USD
+Gross loss:                                 3577.10 USD
+Absolute drawdown:                          45.96 USD
+Maximal drawdown:                           731.5 USD (23.9%)
+Relative drawdown:                          (23.9%) 731.5 USD
+Profit factor:                              1.17
+Expected payoff:                            1.28
+Trades total                                476
+Short positions (won %):                    308 (52.3%)
+Long positions (won %):                     168 (42.3%)
+Profit trades (% of total):                 232 (48.7%)
+Loss trades (% of total):                   244 (51.3%)
+Largest profit trade:                       95.75
+Largest loss trade:                         -79.93
+Average profit trade:                       18.04
+Average loss trade:                         -14.66
+Average consecutive wins:                   3.00
 Average consecutive losses:                 3.00
-Maximum consecutive wins (profit in money): 10 8.84
-Maximum consecutive losses (loss in money): 17 -22.15
-Maximal consecutive profit (count of wins): 64.74 7
-Maximal consecutive loss (count of losses): 22.15 17
+Maximum consecutive wins (profit in money): 11 544.07
+Maximum consecutive losses (loss in money): 14 -153.83
+Maximal consecutive profit (count of wins): 544.07 11
+Maximal consecutive loss (count of losses): 407.49 13
 Modelling quality:                          89.93%
 Total bars processed:                       24705
 Total ticks processed:                      5893797
@@ -30,10 +30,10 @@ Bars per hour (avg):                        411
 Ticks per bar (avg):                        238 (bar=15mins)
 Ticks per min (avg):                        15
 Strategy stats:
-Profit factor: 1.57, Total net profit: 871.80pips (+2411.02/-1539.21), Total orders: 4512 (Won: 37.5% [1694] / Loss: 62.5% [2818]) - DeMarker M1
-Profit factor: 0.82, Total net profit: -0.89pips (+4.10/-4.99), Total orders: 14 (Won: 28.6% [4] / Loss: 71.4% [10]) - DeMarker M5
-Profit factor: 0.68, Total net profit: -3.45pips (+7.22/-10.67), Total orders: 17 (Won: 23.5% [4] / Loss: 76.5% [13]) - DeMarker M15
-Profit factor: 1.32, Total net profit: 537.48pips (+2234.88/-1697.39), Total orders: 2124 (Won: 39.2% [832] / Loss: 60.8% [1292]) - DeMarker M30
+Profit factor: 0.89, Total net profit: -129.91pips (+1011.84/-1141.75), Total orders: 143 (Won: 45.5% [65] / Loss: 54.5% [78]) - Envelopes M1
+Profit factor: 1.13, Total net profit: 182.67pips (+1576.16/-1393.49), Total orders: 174 (Won: 48.3% [84] / Loss: 51.7% [90]) - Envelopes M5
+Profit factor: 1.70, Total net profit: 656.20pips (+1596.86/-940.66), Total orders: 146 (Won: 55.5% [81] / Loss: 44.5% [65]) - Envelopes M15
+Profit factor: 0.19, Total net profit: -66.06pips (+15.99/-82.06), Total orders: 11 (Won: 27.3% [3] / Loss: 72.7% [8]) - Envelopes M30
 Report log:
 2015.01.04 23:00:00: EA31337 Lite (Backtest) v1.071 by kenorb (https://github.com/EA31337)
 Platform variables: Symbol: EURUSD, Bars: 101, Server: , Login: 16384
