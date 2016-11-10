@@ -151,9 +151,9 @@
 ![Strategy MA MA15_EURUSD_10000USD_10spread_5digits_2013 M15 DS test.txt](./Strategy-MA-MA15_EURUSD_10000USD_10spread_5digits_2013-M15-DS-test.gif)
 
 
-### Report: Strategy MA MA1_EURUSD_10000USD_10spread_5digits_2013 DS test
+### Report: Strategy MA MA1_EURUSD_10000USD_10spread_5digits_2013 M1 DS test
 
-![Strategy MA MA1_EURUSD_10000USD_10spread_5digits_2013 DS test.txt](./Strategy-MA-MA1_EURUSD_10000USD_10spread_5digits_2013-DS-test.gif)
+![Strategy MA MA1_EURUSD_10000USD_10spread_5digits_2013 M1 DS test.txt](./Strategy-MA-MA1_EURUSD_10000USD_10spread_5digits_2013-M1-DS-test.gif)
 
 
 ### Report: Strategy MA MA30_EURUSD_10000USD_10spread_5digits_2013 M30 DS test
@@ -161,9 +161,9 @@
 ![Strategy MA MA30_EURUSD_10000USD_10spread_5digits_2013 M30 DS test.txt](./Strategy-MA-MA30_EURUSD_10000USD_10spread_5digits_2013-M30-DS-test.gif)
 
 
-### Report: Strategy MA MA5_EURUSD_10000USD_10spread_5digits_2013 DS test
+### Report: Strategy MA MA5_EURUSD_10000USD_10spread_5digits_2013 M5 DS test
 
-![Strategy MA MA5_EURUSD_10000USD_10spread_5digits_2013 DS test.txt](./Strategy-MA-MA5_EURUSD_10000USD_10spread_5digits_2013-DS-test.gif)
+![Strategy MA MA5_EURUSD_10000USD_10spread_5digits_2013 M5 DS test.txt](./Strategy-MA-MA5_EURUSD_10000USD_10spread_5digits_2013-M5-DS-test.gif)
 
 
 ### Report: Strategy MA MA_EURUSD_10000USD_10spread_5digits_2013 DS test
@@ -176,9 +176,9 @@
 ![Strategy MACD MACD15_EURUSD_10000USD_10spread_5digits_2013 M15 DS test.txt](./Strategy-MACD-MACD15_EURUSD_10000USD_10spread_5digits_2013-M15-DS-test.gif)
 
 
-### Report: Strategy MACD MACD1_EURUSD_10000USD_10spread_5digits_2013 DS test
+### Report: Strategy MACD MACD1_EURUSD_10000USD_10spread_5digits_2013 M1 DS test
 
-![Strategy MACD MACD1_EURUSD_10000USD_10spread_5digits_2013 DS test.txt](./Strategy-MACD-MACD1_EURUSD_10000USD_10spread_5digits_2013-DS-test.gif)
+![Strategy MACD MACD1_EURUSD_10000USD_10spread_5digits_2013 M1 DS test.txt](./Strategy-MACD-MACD1_EURUSD_10000USD_10spread_5digits_2013-M1-DS-test.gif)
 
 
 ### Report: Strategy MACD MACD30_EURUSD_10000USD_10spread_5digits_2013 M30 DS test
@@ -186,9 +186,9 @@
 ![Strategy MACD MACD30_EURUSD_10000USD_10spread_5digits_2013 M30 DS test.txt](./Strategy-MACD-MACD30_EURUSD_10000USD_10spread_5digits_2013-M30-DS-test.gif)
 
 
-### Report: Strategy MACD MACD5_EURUSD_10000USD_10spread_5digits_2013 DS test
+### Report: Strategy MACD MACD5_EURUSD_10000USD_10spread_5digits_2013 M5 DS test
 
-![Strategy MACD MACD5_EURUSD_10000USD_10spread_5digits_2013 DS test.txt](./Strategy-MACD-MACD5_EURUSD_10000USD_10spread_5digits_2013-DS-test.gif)
+![Strategy MACD MACD5_EURUSD_10000USD_10spread_5digits_2013 M5 DS test.txt](./Strategy-MACD-MACD5_EURUSD_10000USD_10spread_5digits_2013-M5-DS-test.gif)
 
 
 ### Report: Strategy MACD MACD_EURUSD_10000USD_10spread_5digits_2013 DS test
@@ -201,9 +201,9 @@
 ![Strategy RSI RSI15_EURUSD_10000USD_10spread_5digits_2013 M15 DS test.txt](./Strategy-RSI-RSI15_EURUSD_10000USD_10spread_5digits_2013-M15-DS-test.gif)
 
 
-### Report: Strategy RSI RSI1_EURUSD_10000USD_10spread_5digits_2013 DS test
+### Report: Strategy RSI RSI1_EURUSD_10000USD_10spread_5digits_2013 M1 DS test
 
-![Strategy RSI RSI1_EURUSD_10000USD_10spread_5digits_2013 DS test.txt](./Strategy-RSI-RSI1_EURUSD_10000USD_10spread_5digits_2013-DS-test.gif)
+![Strategy RSI RSI1_EURUSD_10000USD_10spread_5digits_2013 M1 DS test.txt](./Strategy-RSI-RSI1_EURUSD_10000USD_10spread_5digits_2013-M1-DS-test.gif)
 
 
 ### Report: Strategy RSI RSI30_EURUSD_10000USD_10spread_5digits_2013 M30 DS test
@@ -211,9 +211,9 @@
 ![Strategy RSI RSI30_EURUSD_10000USD_10spread_5digits_2013 M30 DS test.txt](./Strategy-RSI-RSI30_EURUSD_10000USD_10spread_5digits_2013-M30-DS-test.gif)
 
 
-### Report: Strategy RSI RSI5_EURUSD_10000USD_10spread_5digits_2013 DS test
+### Report: Strategy RSI RSI5_EURUSD_10000USD_10spread_5digits_2013 M5 DS test
 
-![Strategy RSI RSI5_EURUSD_10000USD_10spread_5digits_2013 DS test.txt](./Strategy-RSI-RSI5_EURUSD_10000USD_10spread_5digits_2013-DS-test.gif)
+![Strategy RSI RSI5_EURUSD_10000USD_10spread_5digits_2013 M5 DS test.txt](./Strategy-RSI-RSI5_EURUSD_10000USD_10spread_5digits_2013-M5-DS-test.gif)
 
 
 ### Report: Strategy RSI RSI_EURUSD_10000USD_10spread_5digits_2013 DS test
@@ -226,9 +226,9 @@
 ![Strategy SAR SAR15_EURUSD_10000USD_10spread_5digits_2013 M15 DS test.txt](./Strategy-SAR-SAR15_EURUSD_10000USD_10spread_5digits_2013-M15-DS-test.gif)
 
 
-### Report: Strategy SAR SAR1_EURUSD_10000USD_10spread_5digits_2013 DS test
+### Report: Strategy SAR SAR1_EURUSD_10000USD_10spread_5digits_2013 M1 DS test
 
-![Strategy SAR SAR1_EURUSD_10000USD_10spread_5digits_2013 DS test.txt](./Strategy-SAR-SAR1_EURUSD_10000USD_10spread_5digits_2013-DS-test.gif)
+![Strategy SAR SAR1_EURUSD_10000USD_10spread_5digits_2013 M1 DS test.txt](./Strategy-SAR-SAR1_EURUSD_10000USD_10spread_5digits_2013-M1-DS-test.gif)
 
 
 ### Report: Strategy SAR SAR30_EURUSD_10000USD_10spread_5digits_2013 M30 DS test
@@ -236,9 +236,9 @@
 ![Strategy SAR SAR30_EURUSD_10000USD_10spread_5digits_2013 M30 DS test.txt](./Strategy-SAR-SAR30_EURUSD_10000USD_10spread_5digits_2013-M30-DS-test.gif)
 
 
-### Report: Strategy SAR SAR5_EURUSD_10000USD_10spread_5digits_2013 DS test
+### Report: Strategy SAR SAR5_EURUSD_10000USD_10spread_5digits_2013 M5 DS test
 
-![Strategy SAR SAR5_EURUSD_10000USD_10spread_5digits_2013 DS test.txt](./Strategy-SAR-SAR5_EURUSD_10000USD_10spread_5digits_2013-DS-test.gif)
+![Strategy SAR SAR5_EURUSD_10000USD_10spread_5digits_2013 M5 DS test.txt](./Strategy-SAR-SAR5_EURUSD_10000USD_10spread_5digits_2013-M5-DS-test.gif)
 
 
 ### Report: Strategy SAR SAR_EURUSD_10000USD_10spread_5digits_2013 DS test
@@ -251,9 +251,9 @@
 ![Strategy WPR WPR15_EURUSD_10000USD_10spread_5digits_2013 M15 DS test.txt](./Strategy-WPR-WPR15_EURUSD_10000USD_10spread_5digits_2013-M15-DS-test.gif)
 
 
-### Report: Strategy WPR WPR1_EURUSD_10000USD_10spread_5digits_2013 DS test
+### Report: Strategy WPR WPR1_EURUSD_10000USD_10spread_5digits_2013 M1 DS test
 
-![Strategy WPR WPR1_EURUSD_10000USD_10spread_5digits_2013 DS test.txt](./Strategy-WPR-WPR1_EURUSD_10000USD_10spread_5digits_2013-DS-test.gif)
+![Strategy WPR WPR1_EURUSD_10000USD_10spread_5digits_2013 M1 DS test.txt](./Strategy-WPR-WPR1_EURUSD_10000USD_10spread_5digits_2013-M1-DS-test.gif)
 
 
 ### Report: Strategy WPR WPR30_EURUSD_10000USD_10spread_5digits_2013 M30 DS test
@@ -261,9 +261,9 @@
 ![Strategy WPR WPR30_EURUSD_10000USD_10spread_5digits_2013 M30 DS test.txt](./Strategy-WPR-WPR30_EURUSD_10000USD_10spread_5digits_2013-M30-DS-test.gif)
 
 
-### Report: Strategy WPR WPR5_EURUSD_10000USD_10spread_5digits_2013 DS test
+### Report: Strategy WPR WPR5_EURUSD_10000USD_10spread_5digits_2013 M5 DS test
 
-![Strategy WPR WPR5_EURUSD_10000USD_10spread_5digits_2013 DS test.txt](./Strategy-WPR-WPR5_EURUSD_10000USD_10spread_5digits_2013-DS-test.gif)
+![Strategy WPR WPR5_EURUSD_10000USD_10spread_5digits_2013 M5 DS test.txt](./Strategy-WPR-WPR5_EURUSD_10000USD_10spread_5digits_2013-M5-DS-test.gif)
 
 
 ### Report: Strategy WPR WPR_EURUSD_10000USD_10spread_5digits_2013 DS test

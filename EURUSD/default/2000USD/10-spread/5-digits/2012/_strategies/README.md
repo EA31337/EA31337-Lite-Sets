@@ -4,16 +4,16 @@
 ![Strategy Alligator Alligator15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-Alligator-Alligator15_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
-    Period                           15 Minutes (M15) 2012.01.02 23:00 - 2012.12.28 21:45 (2012.01.01 - 2012.12.30)
+    Period                           15 Minutes (M15) 2012.01.02 23:00 - 2012.12.30 23:45 (2012.01.01 - 2012.12.31)
     Model                            Every tick (the most precise method based on all available least timeframes)
     Parameters                       Alligator30_SignalMethod=63; __Bands_Parameters__="-- Settings for the Bollinger Bands indicator --";
-    Bars in test               24957 Ticks modelled                          6384541 Modelling quality                                              89.64%
+    Bars in test               24966 Ticks modelled                          6385027 Modelling quality                                              89.64%
     Mismatched charts errors       0
     Initial deposit          2000.00                                                 Spread                                                             10
-    Total net profit           -1.08 Gross profit                               5.12 Gross loss                                                      -6.20
-    Profit factor               0.83 Expected payoff                           -0.07
-    Absolute drawdown           1.94 Maximal drawdown                   5.58 (0.28%) Relative drawdown                                        0.28% (5.58)
-    Total trades                  15 Short positions (won %)             12 (58.33%) Long positions (won %)                                     3 (66.67%)
+    Total net profit           -2.48 Gross profit                               2.94 Gross loss                                                      -5.42
+    Profit factor               0.54 Expected payoff                           -0.23
+    Absolute drawdown           2.63 Maximal drawdown                   4.22 (0.21%) Relative drawdown                                        0.21% (4.22)
+    Total trades                  11 Short positions (won %)              9 (33.33%) Long positions (won %)                                     2 (50.00%)
 
 ### Report: Strategy Alligator Alligator1_EURUSD_2000USD_10spread_5digits_2012 M1 DS test
 
@@ -68,6 +68,11 @@
 ![Strategy Alligator Alligator_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-Alligator-Alligator_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
 
 
+### Report: Strategy Alligator Alligator_EURUSD_2000USD_10spread_5digits_2012 M15 DS test
+
+![Strategy Alligator Alligator_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-Alligator-Alligator_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
+
+
 ### Report: Strategy Bands Bands15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test
 
 ![Strategy Bands Bands15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-Bands-Bands15_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
@@ -88,10 +93,10 @@
 ![Strategy Bands Bands5_EURUSD_2000USD_10spread_5digits_2012 M5 DS test.txt](./Strategy-Bands-Bands5_EURUSD_2000USD_10spread_5digits_2012-M5-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
-    Period                           5 Minutes (M5) 2012.01.02 06:20 - 2012.12.28 21:55 (2012.01.01 - 2012.12.30)
+    Period                           5 Minutes (M5) 2012.01.02 06:20 - 2012.12.30 23:55 (2012.01.01 - 2012.12.31)
     Model                            Every tick (the most precise method based on all available least timeframes)
     Parameters                       Alligator30_SignalMethod=63; __Bands_Parameters__="-- Settings for the Bollinger Bands indicator --";
-    Bars in test               74862 Ticks modelled                         17976238 Modelling quality                                              89.88%
+    Bars in test               74887 Ticks modelled                         17977528 Modelling quality                                              89.88%
     Mismatched charts errors       0
     Initial deposit          2000.00                                                 Spread                                                             10
     Total net profit            0.00 Gross profit                               0.00 Gross loss                                                      -0.00
@@ -102,6 +107,11 @@
 ### Report: Strategy Bands Bands_EURUSD_2000USD_10spread_5digits_2012 DS test
 
 ![Strategy Bands Bands_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-Bands-Bands_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
+
+
+### Report: Strategy Bands Bands_EURUSD_2000USD_10spread_5digits_2012 M15 DS test
+
+![Strategy Bands Bands_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-Bands-Bands_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
 ### Report: Strategy DeMarker DeMarker15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test
@@ -124,6 +134,11 @@
 ![Strategy DeMarker DeMarker_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-DeMarker-DeMarker_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
 
 
+### Report: Strategy DeMarker DeMarker_EURUSD_2000USD_10spread_5digits_2012 M15 DS test
+
+![Strategy DeMarker DeMarker_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-DeMarker-DeMarker_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
+
+
 ### Report: Strategy Envelopes Envelopes15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test
 
 ![Strategy Envelopes Envelopes15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-Envelopes-Envelopes15_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
@@ -142,6 +157,11 @@
 ### Report: Strategy Envelopes Envelopes_EURUSD_2000USD_10spread_5digits_2012 DS test
 
 ![Strategy Envelopes Envelopes_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-Envelopes-Envelopes_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
+
+
+### Report: Strategy Envelopes Envelopes_EURUSD_2000USD_10spread_5digits_2012 M15 DS test
+
+![Strategy Envelopes Envelopes_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-Envelopes-Envelopes_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
 ### Report: Strategy Fractals Fractals15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test
@@ -175,16 +195,16 @@
 ![Strategy Fractals Fractals5_EURUSD_2000USD_10spread_5digits_2012 M5 DS test.txt](./Strategy-Fractals-Fractals5_EURUSD_2000USD_10spread_5digits_2012-M5-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
-    Period                           5 Minutes (M5) 2012.01.02 06:20 - 2012.12.28 21:55 (2012.01.01 - 2012.12.30)
+    Period                           5 Minutes (M5) 2012.01.02 06:20 - 2012.12.30 23:55 (2012.01.01 - 2012.12.31)
     Model                            Every tick (the most precise method based on all available least timeframes)
     Parameters                       Alligator30_SignalMethod=63; __Bands_Parameters__="-- Settings for the Bollinger Bands indicator --";
-    Bars in test               74862 Ticks modelled                         17976238 Modelling quality                                              89.88%
+    Bars in test               74887 Ticks modelled                         17977528 Modelling quality                                              89.88%
     Mismatched charts errors       0
     Initial deposit          2000.00                                                 Spread                                                             10
-    Total net profit           -1.47 Gross profit                               5.11 Gross loss                                                      -6.58
-    Profit factor               0.78 Expected payoff                           -0.11
-    Absolute drawdown           2.73 Maximal drawdown                   5.58 (0.28%) Relative drawdown                                        0.28% (5.58)
-    Total trades                  13 Short positions (won %)               6 (0.00%) Long positions (won %)                                     7 (57.14%)
+    Total net profit           -1.59 Gross profit                               7.35 Gross loss                                                      -8.94
+    Profit factor               0.82 Expected payoff                           -0.08
+    Absolute drawdown           2.33 Maximal drawdown                   5.15 (0.26%) Relative drawdown                                        0.26% (5.15)
+    Total trades                  19 Short positions (won %)              8 (12.50%) Long positions (won %)                                    11 (45.45%)
 
 ### Report: Strategy Fractals Fractals_EURUSD_2000USD_10spread_5digits_2012 DS test
 
@@ -196,9 +216,9 @@
 ![Strategy MA MA15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-MA-MA15_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
-### Report: Strategy MA MA1_EURUSD_2000USD_10spread_5digits_2012 DS test
+### Report: Strategy MA MA1_EURUSD_2000USD_10spread_5digits_2012 M1 DS test
 
-![Strategy MA MA1_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-MA-MA1_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy MA MA1_EURUSD_2000USD_10spread_5digits_2012 M1 DS test.txt](./Strategy-MA-MA1_EURUSD_2000USD_10spread_5digits_2012-M1-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           1 Minute (M1) 2012.01.01 23:40 - 2012.12.28 21:59 (2012.01.01 - 2012.12.30)
@@ -217,9 +237,9 @@
 ![Strategy MA MA30_EURUSD_2000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-MA-MA30_EURUSD_2000USD_10spread_5digits_2012-M30-DS-test.gif)
 
 
-### Report: Strategy MA MA5_EURUSD_2000USD_10spread_5digits_2012 DS test
+### Report: Strategy MA MA5_EURUSD_2000USD_10spread_5digits_2012 M5 DS test
 
-![Strategy MA MA5_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-MA-MA5_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy MA MA5_EURUSD_2000USD_10spread_5digits_2012 M5 DS test.txt](./Strategy-MA-MA5_EURUSD_2000USD_10spread_5digits_2012-M5-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           5 Minutes (M5) 2012.01.02 06:20 - 2012.12.28 21:55 (2012.01.01 - 2012.12.30)
@@ -243,9 +263,9 @@
 ![Strategy MACD MACD15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-MACD-MACD15_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
-### Report: Strategy MACD MACD1_EURUSD_2000USD_10spread_5digits_2012 DS test
+### Report: Strategy MACD MACD1_EURUSD_2000USD_10spread_5digits_2012 M1 DS test
 
-![Strategy MACD MACD1_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-MACD-MACD1_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy MACD MACD1_EURUSD_2000USD_10spread_5digits_2012 M1 DS test.txt](./Strategy-MACD-MACD1_EURUSD_2000USD_10spread_5digits_2012-M1-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           1 Minute (M1) 2012.01.01 23:40 - 2012.12.28 21:59 (2012.01.01 - 2012.12.30)
@@ -264,9 +284,9 @@
 ![Strategy MACD MACD30_EURUSD_2000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-MACD-MACD30_EURUSD_2000USD_10spread_5digits_2012-M30-DS-test.gif)
 
 
-### Report: Strategy MACD MACD5_EURUSD_2000USD_10spread_5digits_2012 DS test
+### Report: Strategy MACD MACD5_EURUSD_2000USD_10spread_5digits_2012 M5 DS test
 
-![Strategy MACD MACD5_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-MACD-MACD5_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy MACD MACD5_EURUSD_2000USD_10spread_5digits_2012 M5 DS test.txt](./Strategy-MACD-MACD5_EURUSD_2000USD_10spread_5digits_2012-M5-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           5 Minutes (M5) 2012.01.02 06:20 - 2012.12.28 21:55 (2012.01.01 - 2012.12.30)
@@ -285,14 +305,19 @@
 ![Strategy MACD MACD_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-MACD-MACD_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
 
 
+### Report: Strategy MACD MACD_EURUSD_2000USD_10spread_5digits_2012 M15 DS test
+
+![Strategy MACD MACD_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-MACD-MACD_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
+
+
 ### Report: Strategy RSI RSI15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test
 
 ![Strategy RSI RSI15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-RSI-RSI15_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
-### Report: Strategy RSI RSI1_EURUSD_2000USD_10spread_5digits_2012 DS test
+### Report: Strategy RSI RSI1_EURUSD_2000USD_10spread_5digits_2012 M1 DS test
 
-![Strategy RSI RSI1_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-RSI-RSI1_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy RSI RSI1_EURUSD_2000USD_10spread_5digits_2012 M1 DS test.txt](./Strategy-RSI-RSI1_EURUSD_2000USD_10spread_5digits_2012-M1-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           1 Minute (M1) 2012.01.01 23:40 - 2012.12.28 21:59 (2012.01.01 - 2012.12.30)
@@ -322,9 +347,9 @@
     Absolute drawdown           2.33 Maximal drawdown                   7.24 (0.36%) Relative drawdown                                        0.36% (7.24)
     Total trades                   5 Short positions (won %)              3 (66.67%) Long positions (won %)                                     2 (50.00%)
 
-### Report: Strategy RSI RSI5_EURUSD_2000USD_10spread_5digits_2012 DS test
+### Report: Strategy RSI RSI5_EURUSD_2000USD_10spread_5digits_2012 M5 DS test
 
-![Strategy RSI RSI5_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-RSI-RSI5_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy RSI RSI5_EURUSD_2000USD_10spread_5digits_2012 M5 DS test.txt](./Strategy-RSI-RSI5_EURUSD_2000USD_10spread_5digits_2012-M5-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           5 Minutes (M5) 2012.01.02 06:20 - 2012.12.28 21:55 (2012.01.01 - 2012.12.30)
@@ -343,14 +368,19 @@
 ![Strategy RSI RSI_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-RSI-RSI_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
 
 
+### Report: Strategy RSI RSI_EURUSD_2000USD_10spread_5digits_2012 M15 DS test
+
+![Strategy RSI RSI_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-RSI-RSI_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
+
+
 ### Report: Strategy SAR SAR15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test
 
 ![Strategy SAR SAR15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-SAR-SAR15_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
-### Report: Strategy SAR SAR1_EURUSD_2000USD_10spread_5digits_2012 DS test
+### Report: Strategy SAR SAR1_EURUSD_2000USD_10spread_5digits_2012 M1 DS test
 
-![Strategy SAR SAR1_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-SAR-SAR1_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy SAR SAR1_EURUSD_2000USD_10spread_5digits_2012 M1 DS test.txt](./Strategy-SAR-SAR1_EURUSD_2000USD_10spread_5digits_2012-M1-DS-test.gif)
 
 
 ### Report: Strategy SAR SAR30_EURUSD_2000USD_10spread_5digits_2012 M30 DS test
@@ -358,9 +388,9 @@
 ![Strategy SAR SAR30_EURUSD_2000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-SAR-SAR30_EURUSD_2000USD_10spread_5digits_2012-M30-DS-test.gif)
 
 
-### Report: Strategy SAR SAR5_EURUSD_2000USD_10spread_5digits_2012 DS test
+### Report: Strategy SAR SAR5_EURUSD_2000USD_10spread_5digits_2012 M5 DS test
 
-![Strategy SAR SAR5_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-SAR-SAR5_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy SAR SAR5_EURUSD_2000USD_10spread_5digits_2012 M5 DS test.txt](./Strategy-SAR-SAR5_EURUSD_2000USD_10spread_5digits_2012-M5-DS-test.gif)
 
 
 ### Report: Strategy SAR SAR_EURUSD_2000USD_10spread_5digits_2012 DS test
@@ -373,9 +403,9 @@
 ![Strategy WPR WPR15_EURUSD_2000USD_10spread_5digits_2012 M15 DS test.txt](./Strategy-WPR-WPR15_EURUSD_2000USD_10spread_5digits_2012-M15-DS-test.gif)
 
 
-### Report: Strategy WPR WPR1_EURUSD_2000USD_10spread_5digits_2012 DS test
+### Report: Strategy WPR WPR1_EURUSD_2000USD_10spread_5digits_2012 M1 DS test
 
-![Strategy WPR WPR1_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-WPR-WPR1_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy WPR WPR1_EURUSD_2000USD_10spread_5digits_2012 M1 DS test.txt](./Strategy-WPR-WPR1_EURUSD_2000USD_10spread_5digits_2012-M1-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           1 Minute (M1) 2012.01.01 23:40 - 2012.12.28 21:59 (2012.01.01 - 2012.12.30)
@@ -394,9 +424,9 @@
 ![Strategy WPR WPR30_EURUSD_2000USD_10spread_5digits_2012 M30 DS test.txt](./Strategy-WPR-WPR30_EURUSD_2000USD_10spread_5digits_2012-M30-DS-test.gif)
 
 
-### Report: Strategy WPR WPR5_EURUSD_2000USD_10spread_5digits_2012 DS test
+### Report: Strategy WPR WPR5_EURUSD_2000USD_10spread_5digits_2012 M5 DS test
 
-![Strategy WPR WPR5_EURUSD_2000USD_10spread_5digits_2012 DS test.txt](./Strategy-WPR-WPR5_EURUSD_2000USD_10spread_5digits_2012-DS-test.gif)
+![Strategy WPR WPR5_EURUSD_2000USD_10spread_5digits_2012 M5 DS test.txt](./Strategy-WPR-WPR5_EURUSD_2000USD_10spread_5digits_2012-M5-DS-test.gif)
 
 
 ### Report: Strategy WPR WPR_EURUSD_2000USD_10spread_5digits_2012 DS test

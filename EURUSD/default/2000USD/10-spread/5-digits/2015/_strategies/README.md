@@ -46,6 +46,11 @@
 ![Strategy Alligator Alligator_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-Alligator-Alligator_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
 
 
+### Report: Strategy Alligator Alligator_EURUSD_2000USD_10spread_5digits_2015 M15 DS test
+
+![Strategy Alligator Alligator_EURUSD_2000USD_10spread_5digits_2015 M15 DS test.txt](./Strategy-Alligator-Alligator_EURUSD_2000USD_10spread_5digits_2015-M15-DS-test.gif)
+
+
 ### Report: Strategy Bands Bands15_EURUSD_2000USD_10spread_5digits_2015 M15 DS test
 
 ![Strategy Bands Bands15_EURUSD_2000USD_10spread_5digits_2015 M15 DS test.txt](./Strategy-Bands-Bands15_EURUSD_2000USD_10spread_5digits_2015-M15-DS-test.gif)
@@ -80,6 +85,11 @@
 ### Report: Strategy Bands Bands_EURUSD_2000USD_10spread_5digits_2015 DS test
 
 ![Strategy Bands Bands_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-Bands-Bands_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
+
+
+### Report: Strategy Bands Bands_EURUSD_2000USD_10spread_5digits_2015 M15 DS test
+
+![Strategy Bands Bands_EURUSD_2000USD_10spread_5digits_2015 M15 DS test.txt](./Strategy-Bands-Bands_EURUSD_2000USD_10spread_5digits_2015-M15-DS-test.gif)
 
 
 ### Report: Strategy DeMarker DeMarker15_EURUSD_2000USD_10spread_5digits_2015 M15 DS test
@@ -129,6 +139,11 @@
 ![Strategy DeMarker DeMarker_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-DeMarker-DeMarker_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
 
 
+### Report: Strategy DeMarker DeMarker_EURUSD_2000USD_10spread_5digits_2015 M15 DS test
+
+![Strategy DeMarker DeMarker_EURUSD_2000USD_10spread_5digits_2015 M15 DS test.txt](./Strategy-DeMarker-DeMarker_EURUSD_2000USD_10spread_5digits_2015-M15-DS-test.gif)
+
+
 ### Report: Strategy Envelopes Envelopes15_EURUSD_2000USD_10spread_5digits_2015 M15 DS test
 
 ![Strategy Envelopes Envelopes15_EURUSD_2000USD_10spread_5digits_2015 M15 DS test.txt](./Strategy-Envelopes-Envelopes15_EURUSD_2000USD_10spread_5digits_2015-M15-DS-test.gif)
@@ -152,6 +167,11 @@
 ### Report: Strategy Envelopes Envelopes_EURUSD_2000USD_10spread_5digits_2015 DS test
 
 ![Strategy Envelopes Envelopes_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-Envelopes-Envelopes_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
+
+
+### Report: Strategy Envelopes Envelopes_EURUSD_2000USD_10spread_5digits_2015 M15 DS test
+
+![Strategy Envelopes Envelopes_EURUSD_2000USD_10spread_5digits_2015 M15 DS test.txt](./Strategy-Envelopes-Envelopes_EURUSD_2000USD_10spread_5digits_2015-M15-DS-test.gif)
 
 
 ### Report: Strategy Fractals Fractals15_EURUSD_2000USD_10spread_5digits_2015 M15 DS test
@@ -228,9 +248,9 @@
     Absolute drawdown           4.52 Maximal drawdown                   7.32 (0.36%) Relative drawdown                                        0.36% (7.32)
     Total trades                  12 Short positions (won %)              8 (62.50%) Long positions (won %)                                     4 (50.00%)
 
-### Report: Strategy MA MA1_EURUSD_2000USD_10spread_5digits_2015 DS test
+### Report: Strategy MA MA1_EURUSD_2000USD_10spread_5digits_2015 M1 DS test
 
-![Strategy MA MA1_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-MA-MA1_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
+![Strategy MA MA1_EURUSD_2000USD_10spread_5digits_2015 M1 DS test.txt](./Strategy-MA-MA1_EURUSD_2000USD_10spread_5digits_2015-M1-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           1 Minute (M1) 2015.01.01 23:40 - 2015.12.29 23:59 (2015.01.01 - 2015.12.30)
@@ -249,9 +269,9 @@
 ![Strategy MA MA30_EURUSD_2000USD_10spread_5digits_2015 M30 DS test.txt](./Strategy-MA-MA30_EURUSD_2000USD_10spread_5digits_2015-M30-DS-test.gif)
 
 
-### Report: Strategy MA MA5_EURUSD_2000USD_10spread_5digits_2015 DS test
+### Report: Strategy MA MA5_EURUSD_2000USD_10spread_5digits_2015 M5 DS test
 
-![Strategy MA MA5_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-MA-MA5_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
+![Strategy MA MA5_EURUSD_2000USD_10spread_5digits_2015 M5 DS test.txt](./Strategy-MA-MA5_EURUSD_2000USD_10spread_5digits_2015-M5-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           5 Minutes (M5) 2015.01.02 06:20 - 2015.12.29 23:55 (2015.01.01 - 2015.12.30)
@@ -286,9 +306,9 @@
     Absolute drawdown           2.20 Maximal drawdown                   3.46 (0.17%) Relative drawdown                                        0.17% (3.46)
     Total trades                  11 Short positions (won %)              2 (50.00%) Long positions (won %)                                     9 (44.44%)
 
-### Report: Strategy MACD MACD1_EURUSD_2000USD_10spread_5digits_2015 DS test
+### Report: Strategy MACD MACD1_EURUSD_2000USD_10spread_5digits_2015 M1 DS test
 
-![Strategy MACD MACD1_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-MACD-MACD1_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
+![Strategy MACD MACD1_EURUSD_2000USD_10spread_5digits_2015 M1 DS test.txt](./Strategy-MACD-MACD1_EURUSD_2000USD_10spread_5digits_2015-M1-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           1 Minute (M1) 2015.01.01 23:40 - 2015.12.29 23:59 (2015.01.01 - 2015.12.30)
@@ -318,9 +338,9 @@
     Absolute drawdown           6.19 Maximal drawdown                   9.11 (0.45%) Relative drawdown                                        0.45% (9.11)
     Total trades                  11 Short positions (won %)               1 (0.00%) Long positions (won %)                                    10 (10.00%)
 
-### Report: Strategy MACD MACD5_EURUSD_2000USD_10spread_5digits_2015 DS test
+### Report: Strategy MACD MACD5_EURUSD_2000USD_10spread_5digits_2015 M5 DS test
 
-![Strategy MACD MACD5_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-MACD-MACD5_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
+![Strategy MACD MACD5_EURUSD_2000USD_10spread_5digits_2015 M5 DS test.txt](./Strategy-MACD-MACD5_EURUSD_2000USD_10spread_5digits_2015-M5-DS-test.gif)
 
 
 ### Report: Strategy MACD MACD_EURUSD_2000USD_10spread_5digits_2015 DS test
@@ -333,9 +353,9 @@
 ![Strategy RSI RSI15_EURUSD_2000USD_10spread_5digits_2015 M15 DS test.txt](./Strategy-RSI-RSI15_EURUSD_2000USD_10spread_5digits_2015-M15-DS-test.gif)
 
 
-### Report: Strategy RSI RSI1_EURUSD_2000USD_10spread_5digits_2015 DS test
+### Report: Strategy RSI RSI1_EURUSD_2000USD_10spread_5digits_2015 M1 DS test
 
-![Strategy RSI RSI1_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-RSI-RSI1_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
+![Strategy RSI RSI1_EURUSD_2000USD_10spread_5digits_2015 M1 DS test.txt](./Strategy-RSI-RSI1_EURUSD_2000USD_10spread_5digits_2015-M1-DS-test.gif)
 
     Symbol                           EURUSD (Euro vs US Dollar)
     Period                           1 Minute (M1) 2015.01.01 23:40 - 2015.12.29 23:59 (2015.01.01 - 2015.12.30)
@@ -354,9 +374,9 @@
 ![Strategy RSI RSI30_EURUSD_2000USD_10spread_5digits_2015 M30 DS test.txt](./Strategy-RSI-RSI30_EURUSD_2000USD_10spread_5digits_2015-M30-DS-test.gif)
 
 
-### Report: Strategy RSI RSI5_EURUSD_2000USD_10spread_5digits_2015 DS test
+### Report: Strategy RSI RSI5_EURUSD_2000USD_10spread_5digits_2015 M5 DS test
 
-![Strategy RSI RSI5_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-RSI-RSI5_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
+![Strategy RSI RSI5_EURUSD_2000USD_10spread_5digits_2015 M5 DS test.txt](./Strategy-RSI-RSI5_EURUSD_2000USD_10spread_5digits_2015-M5-DS-test.gif)
 
 
 ### Report: Strategy RSI RSI_EURUSD_2000USD_10spread_5digits_2015 DS test
@@ -364,14 +384,19 @@
 ![Strategy RSI RSI_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-RSI-RSI_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
 
 
+### Report: Strategy RSI RSI_EURUSD_2000USD_10spread_5digits_2015 M15 DS test
+
+![Strategy RSI RSI_EURUSD_2000USD_10spread_5digits_2015 M15 DS test.txt](./Strategy-RSI-RSI_EURUSD_2000USD_10spread_5digits_2015-M15-DS-test.gif)
+
+
 ### Report: Strategy SAR SAR15_EURUSD_2000USD_10spread_5digits_2015 M15 DS test
 
 ![Strategy SAR SAR15_EURUSD_2000USD_10spread_5digits_2015 M15 DS test.txt](./Strategy-SAR-SAR15_EURUSD_2000USD_10spread_5digits_2015-M15-DS-test.gif)
 
 
-### Report: Strategy SAR SAR1_EURUSD_2000USD_10spread_5digits_2015 DS test
+### Report: Strategy SAR SAR1_EURUSD_2000USD_10spread_5digits_2015 M1 DS test
 
-![Strategy SAR SAR1_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-SAR-SAR1_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
+![Strategy SAR SAR1_EURUSD_2000USD_10spread_5digits_2015 M1 DS test.txt](./Strategy-SAR-SAR1_EURUSD_2000USD_10spread_5digits_2015-M1-DS-test.gif)
 
 
 ### Report: Strategy SAR SAR30_EURUSD_2000USD_10spread_5digits_2015 M30 DS test
@@ -379,9 +404,9 @@
 ![Strategy SAR SAR30_EURUSD_2000USD_10spread_5digits_2015 M30 DS test.txt](./Strategy-SAR-SAR30_EURUSD_2000USD_10spread_5digits_2015-M30-DS-test.gif)
 
 
-### Report: Strategy SAR SAR5_EURUSD_2000USD_10spread_5digits_2015 DS test
+### Report: Strategy SAR SAR5_EURUSD_2000USD_10spread_5digits_2015 M5 DS test
 
-![Strategy SAR SAR5_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-SAR-SAR5_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
+![Strategy SAR SAR5_EURUSD_2000USD_10spread_5digits_2015 M5 DS test.txt](./Strategy-SAR-SAR5_EURUSD_2000USD_10spread_5digits_2015-M5-DS-test.gif)
 
 
 ### Report: Strategy SAR SAR_EURUSD_2000USD_10spread_5digits_2015 DS test
@@ -394,9 +419,9 @@
 ![Strategy WPR WPR15_EURUSD_2000USD_10spread_5digits_2015 M15 DS test.txt](./Strategy-WPR-WPR15_EURUSD_2000USD_10spread_5digits_2015-M15-DS-test.gif)
 
 
-### Report: Strategy WPR WPR1_EURUSD_2000USD_10spread_5digits_2015 DS test
+### Report: Strategy WPR WPR1_EURUSD_2000USD_10spread_5digits_2015 M1 DS test
 
-![Strategy WPR WPR1_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-WPR-WPR1_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
+![Strategy WPR WPR1_EURUSD_2000USD_10spread_5digits_2015 M1 DS test.txt](./Strategy-WPR-WPR1_EURUSD_2000USD_10spread_5digits_2015-M1-DS-test.gif)
 
 
 ### Report: Strategy WPR WPR30_EURUSD_2000USD_10spread_5digits_2015 M30 DS test
@@ -404,9 +429,9 @@
 ![Strategy WPR WPR30_EURUSD_2000USD_10spread_5digits_2015 M30 DS test.txt](./Strategy-WPR-WPR30_EURUSD_2000USD_10spread_5digits_2015-M30-DS-test.gif)
 
 
-### Report: Strategy WPR WPR5_EURUSD_2000USD_10spread_5digits_2015 DS test
+### Report: Strategy WPR WPR5_EURUSD_2000USD_10spread_5digits_2015 M5 DS test
 
-![Strategy WPR WPR5_EURUSD_2000USD_10spread_5digits_2015 DS test.txt](./Strategy-WPR-WPR5_EURUSD_2000USD_10spread_5digits_2015-DS-test.gif)
+![Strategy WPR WPR5_EURUSD_2000USD_10spread_5digits_2015 M5 DS test.txt](./Strategy-WPR-WPR5_EURUSD_2000USD_10spread_5digits_2015-M5-DS-test.gif)
 
 
 ### Report: Strategy WPR WPR_EURUSD_2000USD_10spread_5digits_2015 DS test

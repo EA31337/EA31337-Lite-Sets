@@ -14,6 +14,11 @@
 ![All Action_On_Condition_02  EURUSD 2000USD 2015year 10spread DS test.txt](./All-Action_On_Condition_02--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
+### Report: All Boosting_Enabled  EURUSD 2000USD 2015year 10spread DS test
+
+![All Boosting_Enabled  EURUSD 2000USD 2015year 10spread DS test.txt](./All-Boosting_Enabled--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
 ### Report: All CloseOrderAfterXHours  EURUSD 2000USD 2015year 10spread DS test
 
 ![All CloseOrderAfterXHours  EURUSD 2000USD 2015year 10spread DS test.txt](./All-CloseOrderAfterXHours--EURUSD-2000USD-2015year-10spread-DS-test.gif)
@@ -39,9 +44,19 @@
 ![All TakeProfit StopLoss  EURUSD 2000USD 2015year 10spread DS test.txt](./All-TakeProfit-StopLoss--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
+### Report: All TrailingStop  EURUSD 2000USD 2015year 10spread DS test
+
+![All TrailingStop  EURUSD 2000USD 2015year 10spread DS test.txt](./All-TrailingStop--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
 ### Report: All TrailingStopAddPerMinute  EURUSD 2000USD 2015year 10spread DS test
 
 ![All TrailingStopAddPerMinute  EURUSD 2000USD 2015year 10spread DS test.txt](./All-TrailingStopAddPerMinute--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
+### Report: All TrailingStopOneWay  EURUSD 2000USD 2015year 10spread DS test
+
+![All TrailingStopOneWay  EURUSD 2000USD 2015year 10spread DS test.txt](./All-TrailingStopOneWay--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
 ### Report: All TrendMethod  EURUSD 2000USD 2015year 10spread DS test
@@ -152,6 +167,11 @@
 ### Report: Strategy Bands All Bands_TrailingProfitMethod  EURUSD 2000USD 2015year 10spread DS test
 
 ![Strategy Bands All Bands_TrailingProfitMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-Bands-All-Bands_TrailingProfitMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
+### Report: Strategy Bands All Bands_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test
+
+![Strategy Bands All Bands_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-Bands-All-Bands_TrailingStopMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
 ### Report: Strategy Bands Bands15_SignalMethod  EURUSD 2000USD 2015year 10spread DS test
@@ -284,6 +304,11 @@
 ![Strategy Envelopes_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-Envelopes_TrailingStopMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
+### Report: Strategy Fractals All Fractals_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test
+
+![Strategy Fractals All Fractals_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-Fractals-All-Fractals_TrailingStopMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
 ### Report: Strategy Fractals Fractals15_SignalMethod  EURUSD 2000USD 2015year 10spread DS test
 
 ![Strategy Fractals Fractals15_SignalMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-Fractals-Fractals15_SignalMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
@@ -304,6 +329,11 @@
 ![Strategy Fractals_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-Fractals_TrailingStopMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
+### Report: Strategy MA All MA_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test
+
+![Strategy MA All MA_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-MA-All-MA_TrailingStopMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
 ### Report: Strategy MA MA15_SignalMethod  EURUSD 2000USD 2015year 10spread DS test
 
 ![Strategy MA MA15_SignalMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-MA-MA15_SignalMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
@@ -312,6 +342,11 @@
 ### Report: Strategy MA MA1_SignalMethod  EURUSD 2000USD 2015year 10spread DS test
 
 ![Strategy MA MA1_SignalMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-MA-MA1_SignalMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
+### Report: Strategy MACD All MACD_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test
+
+![Strategy MACD All MACD_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-MACD-All-MACD_TrailingStopMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
 ### Report: Strategy MACD MACD1_Active  EURUSD 2000USD 2015year 10spread DS test
@@ -339,6 +374,11 @@
 ![Strategy RSI All RSI_Period_Ratio  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-RSI-All-RSI_Period_Ratio--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
+### Report: Strategy RSI All RSI_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test
+
+![Strategy RSI All RSI_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-RSI-All-RSI_TrailingStopMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
 ### Report: Strategy RSI RSI1_Active  EURUSD 2000USD 2015year 10spread DS test
 
 ![Strategy RSI RSI1_Active  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-RSI-RSI1_Active--EURUSD-2000USD-2015year-10spread-DS-test.gif)
@@ -357,6 +397,11 @@
 ### Report: Strategy RSI_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test
 
 ![Strategy RSI_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-RSI_TrailingStopMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
+### Report: Strategy SAR All SAR_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test
+
+![Strategy SAR All SAR_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-SAR-All-SAR_TrailingStopMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
 ### Report: Strategy SAR SAR1_Active  EURUSD 2000USD 2015year 10spread DS test
@@ -382,6 +427,11 @@
 ### Report: Strategy WPR All WPR_SignalLevel  EURUSD 2000USD 2015year 10spread DS test
 
 ![Strategy WPR All WPR_SignalLevel  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-WPR-All-WPR_SignalLevel--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
+### Report: Strategy WPR All WPR_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test
+
+![Strategy WPR All WPR_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-WPR-All-WPR_TrailingStopMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
 ### Report: Strategy WPR WPR1_Active  EURUSD 2000USD 2015year 10spread DS test
