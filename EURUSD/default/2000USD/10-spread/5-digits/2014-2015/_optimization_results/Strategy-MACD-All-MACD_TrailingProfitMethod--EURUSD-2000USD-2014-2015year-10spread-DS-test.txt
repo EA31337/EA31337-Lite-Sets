@@ -1,0 +1,41 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      14 3268.01        12897          1.74            0.25      54.42       1.47 MACD_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=35;
+      24 3267.48        12897          1.74            0.25      54.42       1.47 MACD_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=35;
+      21 3267.50        12896          1.74            0.25      54.42       1.47 MACD_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=35;
+      18 3265.09        12897          1.74            0.25      54.42       1.47 MACD_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=35;
+       2 3265.88        12895          1.74            0.25      54.42       1.47  MACD_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=35;
+       1 3263.12        12899          1.74            0.25      54.42       1.47  MACD_TrailingProfitMethod=0; MaxOrders=0; MaxOrdersPerType=35;
+      13 3263.85        12898          1.74            0.25      54.42       1.47 MACD_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=35;
+      17 3262.82        12900          1.74            0.25      54.42       1.47 MACD_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=35;
+      23 3262.89        12898          1.74            0.25      55.98       1.47 MACD_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=35;
+       8 3068.91        12835          1.69            0.24      54.14       1.40  MACD_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=35;
+       9 2859.36        12996          1.64            0.22      55.87       1.53  MACD_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=35;
+       7 2854.32        13002          1.64            0.22      55.68       1.51  MACD_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=35;
+      22 2063.06        13832          1.44            0.15      63.34       2.39 MACD_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=35;
+       6 1884.67        13985          1.40            0.13      62.35       1.98  MACD_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=35;
+      25 1505.64        14662          1.31            0.10      65.38       2.05 MACD_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=35;
+      26 1505.79        14662          1.31            0.10      65.38       2.05 MACD_TrailingProfitMethod=26; MaxOrders=0; MaxOrdersPerType=35;
+      20 1504.66        14546          1.31            0.10      80.59       2.91 MACD_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=35;
+       5  844.16         8687          1.27            0.10      62.81       2.32  MACD_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=35;
+      16  815.26         8886          1.26            0.09      71.47       2.66 MACD_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=35;
+      19  706.94         8965          1.22            0.08      73.70       2.84 MACD_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=35;
+      12  602.13         9068          1.19            0.07      86.51       3.42 MACD_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=35;
+      15  288.73         9477          1.09            0.03     113.05       4.87 MACD_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=35;
+      11  257.72         4247          1.16            0.06      42.08       1.88 MACD_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=35;
+      10  185.23         6551          1.10            0.03      56.02       2.80  MACD_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=35;
+      27  139.84         2012          1.22            0.07      62.03       2.86 MACD_TrailingProfitMethod=27; MaxOrders=0; MaxOrdersPerType=35;
+       3   -6.13           59          0.62           -0.10       6.13       0.31  MACD_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=35;
+       4   -7.39           74          0.61           -0.10       7.39       0.37  MACD_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=35;
