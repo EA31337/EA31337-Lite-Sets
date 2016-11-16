@@ -1,0 +1,41 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+  Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+     1 1697.64         7632          1.58            0.22      49.85       1.57  Alligator_TrailingProfitMethod=0; MaxOrders=0; MaxOrdersPerType=35;
+    17 1695.14         7631          1.58            0.22      49.85       1.58 Alligator_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=35;
+    21 1692.56         7632          1.58            0.22      49.85       1.58 Alligator_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=35;
+    18 1692.99         7632          1.58            0.22      49.85       1.58 Alligator_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=35;
+    24 1691.19         7631          1.58            0.22      49.85       1.58 Alligator_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=35;
+    23 1690.18         7632          1.58            0.22      49.85       1.58 Alligator_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=35;
+    14 1690.66         7632          1.58            0.22      49.85       1.58 Alligator_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=35;
+    13 1689.99         7632          1.58            0.22      49.85       1.58 Alligator_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=35;
+     2 1688.04         7635          1.58            0.22      49.85       1.58  Alligator_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=35;
+     8 1274.36         7775          1.43            0.16      57.75       2.00  Alligator_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=35;
+     7  851.23         8149          1.27            0.10      69.40       2.66  Alligator_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=35;
+     9  829.24         8121          1.27            0.10      55.65       2.12  Alligator_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=35;
+    22   17.66         3517          1.01            0.01      95.37       4.63 Alligator_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=35;
+     3  -11.34           50          0.44           -0.23      11.34       0.57  Alligator_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=35;
+     4  -12.84           45          0.37           -0.29      14.40       0.72  Alligator_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=35;
+    16  -13.97           45          0.35           -0.31      14.59       0.73 Alligator_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=35;
+    11  -13.15           57          0.46           -0.23      13.15       0.66 Alligator_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=35;
+    15  -13.03           71          0.53           -0.18      13.79       0.69 Alligator_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=35;
+    12  -15.49           69          0.48           -0.22      15.80       0.79 Alligator_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=35;
+    20  -16.88           45          0.36           -0.38      16.88       0.84 Alligator_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=35;
+    10  -16.50           47          0.30           -0.35      18.27       0.91  Alligator_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=35;
+     5  -17.03           69          0.52           -0.25      17.34       0.87  Alligator_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=35;
+    19  -23.91          144          0.56           -0.17      23.98       1.20 Alligator_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=35;
+    25  -24.15          168          0.60           -0.14      24.15       1.21 Alligator_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=35;
+    26  -24.15          168          0.60           -0.14      24.15       1.21 Alligator_TrailingProfitMethod=26; MaxOrders=0; MaxOrdersPerType=35;
+    27 -149.22         1616          0.78           -0.09     167.32       8.32 Alligator_TrailingProfitMethod=27; MaxOrders=0; MaxOrdersPerType=35;
+     6 -184.37         3758          0.89           -0.05     185.60       9.28  Alligator_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=35;
