@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         4 508.57         1420          1.33            0.36     179.37       6.89 Alligator_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=35;
+         5 442.14         1443          1.28            0.31     214.81       8.26 Alligator_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=35;
+         2 372.79         1033          1.32            0.36     183.70       7.36 Alligator_Period_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=35;
+         1 361.92          998          1.31            0.36     196.50       7.86 Alligator_Period_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=35;
+         3 322.20         1080          1.25            0.30     176.67       7.22 Alligator_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=35;
+        11 210.66          257          1.77            0.82      38.56       1.81 Alligator_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=35;
+        10 -25.15           59          0.43           -0.43      34.46       1.72 Alligator_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=35;
+         9 -26.94           56          0.42           -0.48      33.34       1.66 Alligator_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=35;
+         6 -26.61           82          0.52           -0.32      38.03       1.89   Alligator_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=35;
+         7 -27.94           85          0.53           -0.33      41.28       2.05 Alligator_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=35;
+         8 -32.19           69          0.42           -0.47      32.19       1.61 Alligator_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=35;
