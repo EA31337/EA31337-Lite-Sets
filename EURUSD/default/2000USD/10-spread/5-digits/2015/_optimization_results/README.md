@@ -14,6 +14,17 @@
 ![All Action_On_Condition_02  EURUSD 2000USD 2015year 10spread DS test.txt](./All-Action_On_Condition_02--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
+### Report: All BestMonthlyStrategyMultiplierFactor  EURUSD 2000USD 2015year 10spread DS test
+
+![All BestMonthlyStrategyMultiplierFactor  EURUSD 2000USD 2015year 10spread DS test.txt](./All-BestMonthlyStrategyMultiplierFactor--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+
+### Report: All BoostTrendFactor  EURUSD 2000USD 2015year 10spread DS test
+
+![All BoostTrendFactor  EURUSD 2000USD 2015year 10spread DS test.txt](./All-BoostTrendFactor--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
 ### Report: All Boosting_Enabled  EURUSD 2000USD 2015year 10spread DS test
 
 ![All Boosting_Enabled  EURUSD 2000USD 2015year 10spread DS test.txt](./All-Boosting_Enabled--EURUSD-2000USD-2015year-10spread-DS-test.gif)
@@ -34,14 +45,49 @@
 ![All MarketSpecificHour  EURUSD 2000USD 2015year 10spread DS test.txt](./All-MarketSpecificHour--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
+### Report: All MarketSuddenDropSize  EURUSD 2000USD 2015year 10spread DS test
+
+![All MarketSuddenDropSize  EURUSD 2000USD 2015year 10spread DS test.txt](./All-MarketSuddenDropSize--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
 ### Report: All MaxOrdersPerType  EURUSD 2000USD 2015year 10spread DS test
 
 ![All MaxOrdersPerType  EURUSD 2000USD 2015year 10spread DS test.txt](./All-MaxOrdersPerType--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
+### Report: All MinPipGap  EURUSD 2000USD 2015year 10spread DS test
+
+![All MinPipGap  EURUSD 2000USD 2015year 10spread DS test.txt](./All-MinPipGap--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
+### Report: All ProfitFactorMaxToTrade  EURUSD 2000USD 2015year 10spread DS test
+
+![All ProfitFactorMaxToTrade  EURUSD 2000USD 2015year 10spread DS test.txt](./All-ProfitFactorMaxToTrade--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
+### Report: All ProfitFactorMinToTrade  EURUSD 2000USD 2015year 10spread DS test
+
+![All ProfitFactorMinToTrade  EURUSD 2000USD 2015year 10spread DS test.txt](./All-ProfitFactorMinToTrade--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
+### Report: All RiskMargin  EURUSD 2000USD 2015year 10spread DS test
+
+![All RiskMargin  EURUSD 2000USD 2015year 10spread DS test.txt](./All-RiskMargin--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
+### Report: All TakeProfit  EURUSD 2000USD 2015year 10spread DS test
+
+![All TakeProfit  EURUSD 2000USD 2015year 10spread DS test.txt](./All-TakeProfit--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
 ### Report: All TakeProfit StopLoss  EURUSD 2000USD 2015year 10spread DS test
 
 ![All TakeProfit StopLoss  EURUSD 2000USD 2015year 10spread DS test.txt](./All-TakeProfit-StopLoss--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
+### Report: All TradeWithTrend  EURUSD 2000USD 2015year 10spread DS test
+
+![All TradeWithTrend  EURUSD 2000USD 2015year 10spread DS test.txt](./All-TradeWithTrend--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
 ### Report: All TrailingStop  EURUSD 2000USD 2015year 10spread DS test
@@ -259,6 +305,11 @@
 ![Strategy DeMarker_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-DeMarker_TrailingStopMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
+### Report: Strategy Envelopes All Envelopes_Deviation  EURUSD 2000USD 2015year 10spread DS test
+
+![Strategy Envelopes All Envelopes_Deviation  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-Envelopes-All-Envelopes_Deviation--EURUSD-2000USD-2015year-10spread-DS-test.gif)
+
+
 ### Report: Strategy Envelopes All Envelopes_MA_Method  EURUSD 2000USD 2015year 10spread DS test
 
 ![Strategy Envelopes All Envelopes_MA_Method  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-Envelopes-All-Envelopes_MA_Method--EURUSD-2000USD-2015year-10spread-DS-test.gif)
@@ -292,11 +343,6 @@
 ### Report: Strategy Envelopes Envelopes5_SignalMethod  EURUSD 2000USD 2015year 10spread DS test
 
 ![Strategy Envelopes Envelopes5_SignalMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-Envelopes-Envelopes5_SignalMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
-
-
-### Report: Strategy Envelopes Envelopes_Deviation  EURUSD 2000USD 2015year 10spread DS test
-
-![Strategy Envelopes Envelopes_Deviation  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-Envelopes-Envelopes_Deviation--EURUSD-2000USD-2015year-10spread-DS-test.gif)
 
 
 ### Report: Strategy Envelopes_TrailingStopMethod  EURUSD 2000USD 2015year 10spread DS test

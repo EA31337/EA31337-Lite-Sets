@@ -459,6 +459,11 @@
 ![Strategy Envelopes All Envelopes_Applied_Price  EURUSD 2000USD 2014year 10spread DS test.txt](./Strategy-Envelopes-All-Envelopes_Applied_Price--EURUSD-2000USD-2014year-10spread-DS-test.gif)
 
 
+### Report: Strategy Envelopes All Envelopes_Deviation  EURUSD 2000USD 2014year 10spread DS test
+
+![Strategy Envelopes All Envelopes_Deviation  EURUSD 2000USD 2014year 10spread DS test.txt](./Strategy-Envelopes-All-Envelopes_Deviation--EURUSD-2000USD-2014year-10spread-DS-test.gif)
+
+
 ### Report: Strategy Envelopes All Envelopes_Deviation_Ratio  EURUSD 2000USD 2014year 10spread DS test
 
 ![Strategy Envelopes All Envelopes_Deviation_Ratio  EURUSD 2000USD 2014year 10spread DS test.txt](./Strategy-Envelopes-All-Envelopes_Deviation_Ratio--EURUSD-2000USD-2014year-10spread-DS-test.gif)
@@ -557,11 +562,6 @@
 ### Report: Strategy Envelopes Envelopes5_SignalMethod  EURUSD 2000USD 2015year 10spread DS test
 
 ![Strategy Envelopes Envelopes5_SignalMethod  EURUSD 2000USD 2015year 10spread DS test.txt](./Strategy-Envelopes-Envelopes5_SignalMethod--EURUSD-2000USD-2015year-10spread-DS-test.gif)
-
-
-### Report: Strategy Envelopes Envelopes_Deviation  EURUSD 2000USD 2014year 10spread DS test
-
-![Strategy Envelopes Envelopes_Deviation  EURUSD 2000USD 2014year 10spread DS test.txt](./Strategy-Envelopes-Envelopes_Deviation--EURUSD-2000USD-2014year-10spread-DS-test.gif)
 
 
 ### Report: Strategy Fractals All Fractals_TrailingProfitMethod  EURUSD 2000USD 2014year 10spread DS test
