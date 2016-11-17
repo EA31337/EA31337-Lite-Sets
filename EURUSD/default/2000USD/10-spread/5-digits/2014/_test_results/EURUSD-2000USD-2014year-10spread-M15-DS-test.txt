@@ -9,7 +9,7 @@
  Period                           15 Minutes (M15) 2014.01.02 23:00 - 2014.12.30 23:45 (2014.01.01 - 2014.12.31)
  Model                            Every tick (the most precise method based on all available least timeframes)
                                   __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.070 --"; __Trade_Parameters__="-- Trade
-                                  parameters --"; MaxOrders=0; MaxOrdersPerType=35; LotSize=0; TradeMicroLots=true; TrendMethod=33;
+                                  parameters --"; MaxOrders=0; MaxOrdersPerType=35; LotSize=0; TradeMicroLots=true; TrendMethod=80;
                                   MinVolumeToTrade=2; MaxOrderPriceSlippage=5; MaxTries=5; MinPipChangeToTrade=1; MinPipGap=60;
                                   __EA_Order_Parameters__="-- Profit and loss parameters --"; TakeProfit=140; StopLoss=140;
                                   __EA_Trailing_Parameters__="-- Profit and loss trailing parameters --"; TrailingStopOneWay=false; TrailingStop=80;
@@ -30,7 +30,7 @@
  Parameters                       Alligator5_SignalMethod=18; Alligator15_SignalMethod=15; Alligator30_SignalMethod=63; __Bands_Parameters__="-
                                   - Settings for the Bollinger Bands indicator --"; Bands1_Active=false; Bands5_Active=false; Bands15_Active=false;
                                   Bands30_Active=false; Bands_Period=24; Bands_Period_Ratio=1; Bands_Deviation=2.9; Bands_Deviation_Ratio=0.6;
-                                  Bands_Shift=1; Bands_Shift_Far=0; Bands1_SignalMethod=0; Bands5_SignalMethod=28; Bands15_SignalMethod=182;
+                                  Bands_Shift=1; Bands_Shift_Far=0; Bands1_SignalMethod=0; Bands5_SignalMethod=35; Bands15_SignalMethod=210;
                                   Bands30_SignalMethod=0; __DeMarker_Parameters__="-- Settings for the DeMarker indicator --";
                                   DeMarker1_Active=true; DeMarker5_Active=true; DeMarker15_Active=true; DeMarker30_Active=true; DeMarker_Period=21;
                                   DeMarker_Period_Ratio=1.2; DeMarker_Shift=1; DeMarker_SignalLevel=0.1; DeMarker1_SignalMethod=3;
@@ -50,16 +50,16 @@
  Bars in test               24812 Ticks modelled                       5609627 Modelling quality                                              89.64%
  Mismatched charts errors       0
  Initial deposit          2000.00                                              Spread                                                             10
- Total net profit          504.70 Gross profit                          858.05 Gross loss                                                    -353.35
- Profit factor               2.43 Expected payoff                         5.20
- Absolute drawdown          63.88 Maximal drawdown             246.54 (10.12%) Relative drawdown                                     10.12% (246.54)
- Total trades                  97 Short positions (won %)          62 (59.68%) Long positions (won %)                                    35 (34.29%)
-                                  Profit trades (% of total)       49 (50.52%) Loss trades (% of total)                                  48 (49.48%)
-                          Largest profit trade                          157.30 loss trade                                                    -174.16
-                          Average profit trade                           17.51 loss trade                                                      -7.36
-                          Maximum consecutive wins (profit in       9 (392.69) consecutive losses (loss in money)                          5 (-3.86)
+ Total net profit         1232.63 Gross profit                         1794.30 Gross loss                                                    -561.67
+ Profit factor               3.19 Expected payoff                         0.90
+ Absolute drawdown         136.70 Maximal drawdown             324.51 (10.40%) Relative drawdown                                     10.40% (324.51)
+ Total trades                1373 Short positions (won %)         868 (39.52%) Long positions (won %)                                   505 (31.88%)
+                                  Profit trades (% of total)      504 (36.71%) Loss trades (% of total)                                 869 (63.29%)
+                          Largest profit trade                          169.54 loss trade                                                     -43.94
+                          Average profit trade                            3.56 loss trade                                                      -0.65
+                          Maximum consecutive wins (profit in       7 (922.04) consecutive losses (loss in money)                         12 (-3.60)
                                   money)
-                          Maximal consecutive profit (count of      436.19 (3) consecutive loss (count of losses)                        -174.16 (1)
+                          Maximal consecutive profit (count of      922.04 (7) consecutive loss (count of losses)                         -43.94 (1)
                                   wins)
-                          Average consecutive wins                           2 consecutive losses                                                  2
+                          Average consecutive wins                           2 consecutive losses                                                  3
                                                                        [Graph]
