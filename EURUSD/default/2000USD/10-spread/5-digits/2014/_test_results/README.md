@@ -1,7 +1,7 @@
 
 ### Report: EURUSD 1500USD 2014year 10spread DS test
 
-![EURUSD 1500USD 2014year 10spread DS test.txt](./EURUSD-1500USD-2014year-10spread-DS-test.gif)
+![EURUSD 1500USD 2014year 10spread DS test.txt]()
 
     Symbol                    EURUSD (Euro vs US Dollar)
     Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
@@ -18,7 +18,7 @@
 
 ### Report: EURUSD 1500USD 2014year 20spread DS test
 
-![EURUSD 1500USD 2014year 20spread DS test.txt](./EURUSD-1500USD-2014year-20spread-DS-test.gif)
+![EURUSD 1500USD 2014year 20spread DS test.txt]()
 
     Symbol                    EURUSD (Euro vs US Dollar)
     Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
@@ -50,7 +50,7 @@
 
 ### Report: EURUSD 2000USD 2014year 20spread DS test
 
-![EURUSD 2000USD 2014year 20spread DS test.txt](./EURUSD-2000USD-2014year-20spread-DS-test.gif)
+![EURUSD 2000USD 2014year 20spread DS test.txt]()
 
     Symbol                    EURUSD (Euro vs US Dollar)
     Period                    1 Minute (M1) 2014.01.01 23:41 - 2014.12.29 23:59 (2014.01.01 - 2014.12.30)
