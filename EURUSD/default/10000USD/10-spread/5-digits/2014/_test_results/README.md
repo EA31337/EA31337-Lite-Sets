@@ -14,3 +14,8 @@
     Profit factor                6.54 Expected payoff                          76.87
     Absolute drawdown         1332.42 Maximal drawdown             16175.39 (32.95%) Relative drawdown                                   37.27% (13841.93)
     Total trades                  575 Short positions (won %)           518 (46.33%) Long positions (won %)                                    57 (31.58%)
+
+### Report: EURUSD 10000USD 2014year 10spread M30 DS test
+
+![EURUSD 10000USD 2014year 10spread M30 DS test.txt](./EURUSD-10000USD-2014year-10spread-M30-DS-test.gif)
+

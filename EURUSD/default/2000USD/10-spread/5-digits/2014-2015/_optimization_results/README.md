@@ -369,6 +369,11 @@
 ![Strategy WPR WPR15_SignalMethod  EURUSD 2000USD 2014 2015year 10spread DS test.txt](./Strategy-WPR-WPR15_SignalMethod--EURUSD-2000USD-2014-2015year-10spread-DS-test.gif)
 
 
+### Report: Strategy WPR WPR1_SignalMethod  EURUSD 2000USD 2014 2015year 10spread DS test
+
+![Strategy WPR WPR1_SignalMethod  EURUSD 2000USD 2014 2015year 10spread DS test.txt](./Strategy-WPR-WPR1_SignalMethod--EURUSD-2000USD-2014-2015year-10spread-DS-test.gif)
+
+
 ### Report: Strategy WPR WPR30_SignalMethod  EURUSD 2000USD 2014 2015year 10spread DS test
 
 ![Strategy WPR WPR30_SignalMethod  EURUSD 2000USD 2014 2015year 10spread DS test.txt](./Strategy-WPR-WPR30_SignalMethod--EURUSD-2000USD-2014-2015year-10spread-DS-test.gif)
