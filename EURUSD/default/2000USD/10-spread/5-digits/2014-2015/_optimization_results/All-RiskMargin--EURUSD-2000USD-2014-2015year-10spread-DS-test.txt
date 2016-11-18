@@ -1,0 +1,23 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+         Pass      Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            9 15768242.22         7783          1.73         2025.99 3063344.12      21.79   RiskMargin=3; MaxOrders=0; MaxOrdersPerType=35;
+            8  3540410.52         7775          1.73          455.36  631664.89      19.53 RiskMargin=2.5; MaxOrders=0; MaxOrdersPerType=35;
+            7   563965.13         7783          1.74           72.46   89869.40      17.04   RiskMargin=2; MaxOrders=0; MaxOrdersPerType=35;
+            6    55016.50         7783          1.77            7.07    7553.59      13.88 RiskMargin=1.5; MaxOrders=0; MaxOrdersPerType=35;
+            3     5290.92         7783          1.77            0.68     757.59      10.38   RiskMargin=0; MaxOrders=0; MaxOrdersPerType=35;
+            5     5290.92         7783          1.77            0.68     757.59      10.38   RiskMargin=1; MaxOrders=0; MaxOrdersPerType=35;
+            2     2978.57         7783          1.82            0.38     300.35       6.72
+            4     2978.57         7783          1.82            0.38     300.35       6.72 RiskMargin=0.5; MaxOrders=0; MaxOrdersPerType=35;
+            1     2978.87         7782          1.82            0.38     300.35       6.71
