@@ -1,0 +1,38 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+      Pass      Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         4 46107340.37        38689          1.77         1191.74 2201064.67      11.64  MarketSpecificHour=3; MaxOrders=0; MaxOrdersPerType=0;
+         3 44553507.99        38772          1.81         1149.12 2111405.88       9.83  MarketSpecificHour=2; MaxOrders=0; MaxOrdersPerType=0;
+        22 44020094.74        35547          1.84         1238.36 1665927.91      10.02 MarketSpecificHour=21; MaxOrders=0; MaxOrdersPerType=0;
+        21 43531966.80        35556          1.83         1224.32 1483749.59      10.81 MarketSpecificHour=20; MaxOrders=0; MaxOrdersPerType=0;
+        23 33396861.92        35691          1.79          935.72 1737423.03      10.39 MarketSpecificHour=22; MaxOrders=0; MaxOrdersPerType=0;
+        20 30060664.88        35422          1.84          848.64  967720.98      10.09 MarketSpecificHour=19; MaxOrders=0; MaxOrdersPerType=0;
+        17 20444686.70        34168          1.78          598.36  752269.38       9.73 MarketSpecificHour=16; MaxOrders=0; MaxOrdersPerType=0;
+        18 18152433.96        34297          1.81          529.27  580593.96       9.25 MarketSpecificHour=17; MaxOrders=0; MaxOrdersPerType=0;
+        19 17910290.45        34353          1.81          521.36  645461.66       9.78 MarketSpecificHour=18; MaxOrders=0; MaxOrdersPerType=0;
+        24 15869038.11        32542          1.80          487.65  783429.19       8.21 MarketSpecificHour=23; MaxOrders=0; MaxOrdersPerType=0;
+         1 12896692.69        32592          1.84          395.70  415781.72       8.36  MarketSpecificHour=0; MaxOrders=0; MaxOrdersPerType=0;
+         9 12285370.09        35485          1.75          346.21  470020.97      10.53  MarketSpecificHour=8; MaxOrders=0; MaxOrdersPerType=0;
+        11 11895675.25        36338          1.74          327.36  423857.32       8.70 MarketSpecificHour=10; MaxOrders=0; MaxOrdersPerType=0;
+        16 11461279.56        32398          1.81          353.77  350152.82       9.18 MarketSpecificHour=15; MaxOrders=0; MaxOrdersPerType=0;
+        14 11065665.88        34898          1.76          317.09  460689.59      10.05 MarketSpecificHour=13; MaxOrders=0; MaxOrdersPerType=0;
+         6 10415176.82        32423          1.83          321.23  487284.50       8.69  MarketSpecificHour=5; MaxOrders=0; MaxOrdersPerType=0;
+        10  9136388.27        32436          1.73          281.67  530740.13      10.65  MarketSpecificHour=9; MaxOrders=0; MaxOrdersPerType=0;
+        13  8286222.01        34992          1.69          236.80  317836.74      10.20 MarketSpecificHour=12; MaxOrders=0; MaxOrdersPerType=0;
+         8  7762709.28        33935          1.69          228.75  341566.02      10.15  MarketSpecificHour=7; MaxOrders=0; MaxOrdersPerType=0;
+         7  6442756.50        32052          1.77          201.01  219660.52       7.85  MarketSpecificHour=6; MaxOrders=0; MaxOrdersPerType=0;
+         5  5884044.55        30714          1.82          191.58  198215.99       8.36  MarketSpecificHour=4; MaxOrders=0; MaxOrdersPerType=0;
+        12  4691482.84        31098          1.76          150.86  150908.64       9.13 MarketSpecificHour=11; MaxOrders=0; MaxOrdersPerType=0;
+         2  4295328.72        29001          1.80          148.11  222647.63       8.25  MarketSpecificHour=1; MaxOrders=0; MaxOrdersPerType=0;
+        15  1218071.68        24999          1.78           48.72   39868.70       9.87 MarketSpecificHour=14; MaxOrders=0; MaxOrdersPerType=0;
