@@ -11,9 +11,9 @@
                             Initial deposit 2000.00
                             Spread          10
                                                                  [Optimization Graph]
-    Pass       Profit Total trades Profit factor Expected Payoff  Drawdown $ Drawdown %
-       1 218043419.69        21972          1.67         9923.69 50405117.51      37.08 MinPipChangeToTrade=0.6; MaxOrders=0; MaxOrdersPerType=35;
-       4  85143511.99        18565          1.75         4586.24 20124976.45      38.30 MinPipChangeToTrade=0.9; MaxOrders=0; MaxOrdersPerType=35;
-       5  80105268.31        18323          1.76         4371.84 18706855.42      37.71   MinPipChangeToTrade=1; MaxOrders=0; MaxOrdersPerType=35;
-       2  79193232.98        18965          1.70         4175.76 19001479.59      35.91 MinPipChangeToTrade=0.7; MaxOrders=0; MaxOrdersPerType=35;
-       3  71317864.77        18643          1.68         3825.45 18553939.69      37.71 MinPipChangeToTrade=0.8; MaxOrders=0; MaxOrdersPerType=35;
+     Pass      Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        1 91748345.41        37299          1.87         2459.81 4871004.17       9.82 MinPipChangeToTrade=0.4; MaxOrders=0; MaxOrdersPerType=0;
+        5 87409077.07        35853          1.86         2437.99 5430800.52      12.00 MinPipChangeToTrade=0.8; MaxOrders=0; MaxOrdersPerType=0;
+        3 37905617.17        34333          1.87         1104.06 1291258.85       9.86 MinPipChangeToTrade=0.6; MaxOrders=0; MaxOrdersPerType=0;
+        4 37440615.42        34257          1.88         1092.93 1267202.86       9.86 MinPipChangeToTrade=0.7; MaxOrders=0; MaxOrdersPerType=0;
+        2 37014510.12        34716          1.86         1066.21 1307462.56       9.81 MinPipChangeToTrade=0.5; MaxOrders=0; MaxOrdersPerType=0;
