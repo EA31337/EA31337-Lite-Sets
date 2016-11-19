@@ -1,0 +1,205 @@
+Currency pair symbol:                       EURUSD
+Initial deposit:                            2000.00 USD
+Total net profit:                           1734894.74 USD
+Gross profit:                               3872621.51 USD
+Gross loss:                                 2137726.77 USD
+Absolute drawdown:                          4.04 USD
+Maximal drawdown:                           104317.4 USD (8.9%)
+Relative drawdown:                          (12.3%) 39795.3 USD
+Profit factor:                              1.81
+Expected payoff:                            88.57
+Trades total                                19588
+Short positions (won %):                    11838 (39.8%)
+Long positions (won %):                     7750 (41.3%)
+Profit trades (% of total):                 7911 (40.4%)
+Loss trades (% of total):                   11677 (59.6%)
+Largest profit trade:                       21486.66
+Largest loss trade:                         -30219.47
+Average profit trade:                       489.52
+Average loss trade:                         -183.07
+Average consecutive wins:                   3.00
+Average consecutive losses:                 4.00
+Maximum consecutive wins (profit in money): 26 1169.33
+Maximum consecutive losses (loss in money): 44 -4602.17
+Maximal consecutive profit (count of wins): 93707.40 9
+Maximal consecutive loss (count of losses): 71409.46 9
+Modelling quality:                          89.93%
+Total bars processed:                       12303
+Total ticks processed:                      3186717
+Bars per hour (avg):                        205
+Ticks per bar (avg):                        259 (bar=30mins)
+Ticks per min (avg):                        8
+Strategy stats:
+Profit factor: 1.81, Total net profit: 149304.12pips (+333911.87/-184607.75), Total orders: 2043 (Won: 41.5% [847] / Loss: 58.5% [1196]) - Alligator M5
+Profit factor: 1.86, Total net profit: 177309.02pips (+383692.18/-206383.17), Total orders: 1404 (Won: 39.4% [553] / Loss: 60.6% [851]) - Alligator M30
+Profit factor: 0.49, Total net profit: -2.02pips (+1.97/-3.99), Total orders: 13 (Won: 7.7% [1] / Loss: 92.3% [12]) - DeMarker M1
+Profit factor: 1.91, Total net profit: 325597.63pips (+683411.04/-357813.40), Total orders: 3602 (Won: 40.9% [1474] / Loss: 59.1% [2128]) - DeMarker M5
+Profit factor: 1.68, Total net profit: 105246.87pips (+260854.06/-155607.19), Total orders: 1719 (Won: 43.6% [750] / Loss: 56.4% [969]) - DeMarker M15
+Profit factor: 1.72, Total net profit: 265651.71pips (+632110.94/-366459.23), Total orders: 2774 (Won: 39.3% [1089] / Loss: 60.7% [1685]) - DeMarker M30
+Profit factor: 1.00, Total net profit: -16.99pips (+0.00/-16.99), Total orders: 2 (Won: 0.0% [0] / Loss: 100.0% [2]) - MA M1
+Profit factor: 1.00, Total net profit: 10117.52pips (+10117.52/0.00), Total orders: 3 (Won: 100.0% [3] / Loss: 0.0% [0]) - MA M15
+Profit factor: 0.40, Total net profit: -23.98pips (+16.28/-40.27), Total orders: 15 (Won: 26.7% [4] / Loss: 73.3% [11]) - MA M30
+Profit factor: 1.72, Total net profit: 178308.17pips (+426853.39/-248545.22), Total orders: 2378 (Won: 36.4% [866] / Loss: 63.6% [1512]) - MACD M5
+Profit factor: 1.99, Total net profit: 174450.92pips (+350326.78/-175875.85), Total orders: 1586 (Won: 39.5% [626] / Loss: 60.5% [960]) - MACD M30
+Profit factor: 1.55, Total net profit: 98408.10pips (+278050.57/-179642.47), Total orders: 1493 (Won: 43.5% [650] / Loss: 56.5% [843]) - RSI M15
+Profit factor: 6.65, Total net profit: 23.49pips (+27.65/-4.16), Total orders: 19 (Won: 47.4% [9] / Loss: 52.6% [10]) - RSI M30
+Profit factor: 0.41, Total net profit: -31.70pips (+22.13/-53.83), Total orders: 15 (Won: 26.7% [4] / Loss: 73.3% [11]) - SAR M1
+Profit factor: 5.58, Total net profit: 13.45pips (+16.39/-2.94), Total orders: 17 (Won: 47.1% [8] / Loss: 52.9% [9]) - SAR M5
+Profit factor: 1.92, Total net profit: 97970.01pips (+204571.30/-106601.28), Total orders: 1042 (Won: 43.2% [450] / Loss: 56.8% [592]) - WPR M15
+Profit factor: 2.05, Total net profit: 158432.58pips (+309309.43/-150876.85), Total orders: 1453 (Won: 36.6% [532] / Loss: 63.4% [921]) - WPR M30
+Report log:
+2015.01.06 00:00:01: EA31337 Lite (Backtest) v1.071 by kenorb (https://github.com/EA31337)
+Platform variables: Symbol: EURUSD, Bars: 101, Server: , Login: 16384
+Broker info: Name: , Account type: Backtest on Live, Leverage: 1:100, Currency: USD
+Market predefined variables: Ask: 1.19384, Bid: 1.19374, Volume: 1
+Market constants: Digits: 5, Point: 0.000010, Min Lot: 0.01, Max Lot: 10000, Lot Step: 0.01, Lot Size: 100000, Margin Required: 1193.79, Margin Init: 0, Stop Level: 8pts, Freeze level: 0 pts
+Contract specification for EURUSD: Profit mode: 0, Margin mode: 0, Spread: 10 pts, Tick size: 0.000010, Point value: 0.000010, Digits: 5, Trade stop level: 8 pts, Trade contract size: 100000
+Swap specification for EURUSD: Mode: 0, Long/buy order value: 0.33, Short/sell order value: -1.04
+Calculated variables: Pip size: 0.0001, Lot size: 0.01, Points per pip: 10, Pip digits: 4, Volume digits: 2, Spread in pips: 1.0 (10 pts), Stop Out Level: 0.7, Market gap: 8 pts (0 pips)
+EA params: Risk margin: 1%
+Strategies: Active strategies: 17 of 120, Max orders: 63 (per type: 6)
+Modelling Quality: M1: 25.00%, M5: 89.78%, M15: 89.48%, M30: 88.96%, H1: 87.94%, H4: 77.00%, D1: 46.67%, W1: 25.00%, MN1: 25.00%;
+Timeframes: M1: Active, M5: Active, M15: Active, M30: Active, H1: Active, H4: Not active, D1: Not active, W1: Not active, MN1: Not active;
+Datetime: Hour of day: 0, Day of week: 2, Day of month: 6, Day of year: 6, Month: 1, Year: 2015
+Account Details: Time: 2015.01.06 00:00:01; Account Balance: $2000.00; Account Equity: $2000.00; Used Margin: $0.00; Free Margin: $2000.00; No of Orders: 0 (BUY/SELL: 0/0); Risk Ratio: 1.0
+
+2015.01.14 14:00:00: UpdateStats: Market very big drop of 50.9 pips detected!
+2015.01.15 13:00:00: UpdateStats: Market very big drop of 48.1 pips detected!
+2015.01.15 16:00:00: UpdateStats: Market very big drop of -40.5 pips detected!
+2015.01.16 20:00:00: UpdateStats: Market very big drop of 47.3 pips detected!
+2015.01.22 14:00:00: UpdateStats: Market very big drop of -54.1 pips detected!
+2015.01.22 14:30:00: UpdateStats: Market very big drop of -82.0 pips detected!
+2015.01.23 09:00:00: UpdateStats: Market very big drop of -66.8 pips detected!
+2015.01.23 10:00:00: UpdateStats: Market very big drop of -41.5 pips detected!
+2015.01.23 12:00:00: UpdateStats: Market very big drop of -48.7 pips detected!
+2015.01.23 14:00:00: UpdateStats: Market very big drop of 62.6 pips detected!
+2015.01.25 22:00:05: UpdateStats: Market very big drop of -57.7 pips detected!
+2015.01.27 09:00:00: UpdateStats: Market very big drop of 49.9 pips detected!
+2015.02.03 14:00:00: UpdateStats: Market very big drop of 57.9 pips detected!
+2015.02.03 18:30:00: UpdateStats: Market very big drop of 55.5 pips detected!
+2015.02.03 19:00:00: UpdateStats: Market very big drop of -44.0 pips detected!
+2015.02.04 21:30:02: UpdateStats: Market very big drop of -47.7 pips detected!
+2015.02.06 14:00:00: UpdateStats: Market very big drop of -51.9 pips detected!
+2015.02.06 14:30:00: UpdateStats: Market very big drop of -55.5 pips detected!
+2015.02.11 22:00:00: UpdateStats: Market very big drop of 41.0 pips detected!
+2015.02.18 19:30:00: UpdateStats: Market very big drop of 55.7 pips detected!
+2015.02.19 10:00:00: UpdateStats: Market very big drop of -41.2 pips detected!
+2015.02.20 15:30:00: UpdateStats: Market very big drop of 41.0 pips detected!
+2015.02.26 14:00:00: UpdateStats: Market very big drop of -57.9 pips detected!
+2015.03.06 14:00:00: UpdateStats: Market very big drop of -85.7 pips detected!
+2015.03.13 16:00:00: UpdateStats: Market very big drop of 40.6 pips detected!
+2015.03.13 17:30:00: UpdateStats: Market very big drop of -42.1 pips detected!
+2015.03.18 18:30:01: UpdateStats: Market very big drop of 97.3 pips detected!
+2015.03.18 19:30:00: UpdateStats: Market very big drop of 55.3 pips detected!
+2015.03.18 20:00:00: UpdateStats: Market very big drop of 43.3 pips detected!
+2015.03.18 20:30:00: UpdateStats: Market very big drop of 77.3 pips detected!
+2015.03.18 21:00:00: UpdateStats: Market very big drop of -52.6 pips detected!
+2015.03.19 00:30:00: UpdateStats: Market very big drop of 59.9 pips detected!
+2015.03.19 01:30:00: UpdateStats: Market very big drop of -48.9 pips detected!
+2015.03.19 03:00:01: UpdateStats: Market very big drop of -42.1 pips detected!
+2015.03.19 07:30:00: UpdateStats: Market very big drop of -67.8 pips detected!
+2015.03.19 08:30:00: UpdateStats: Market very big drop of -57.6 pips detected!
+2015.03.19 16:00:00: UpdateStats: Market very big drop of -44.0 pips detected!
+2015.03.20 13:30:00: UpdateStats: Market very big drop of 47.3 pips detected!
+2015.03.23 10:30:00: UpdateStats: Market very big drop of 53.0 pips detected!
+2015.03.26 14:30:00: UpdateStats: Market very big drop of -42.0 pips detected!
+2015.04.03 13:00:00: UpdateStats: Market very big drop of 129.4 pips detected!
+2015.04.06 19:30:00: UpdateStats: Market very big drop of -55.9 pips detected!
+2015.04.07 08:30:00: UpdateStats: Market very big drop of -50.4 pips detected!
+2015.04.08 15:00:00: UpdateStats: Market very big drop of -42.5 pips detected!
+2015.04.13 08:00:00: UpdateStats: Market very big drop of -42.1 pips detected!
+2015.04.14 13:00:00: UpdateStats: Market very big drop of 73.1 pips detected!
+2015.04.15 13:30:00: UpdateStats: Market very big drop of 57.5 pips detected!
+2015.04.15 17:30:00: UpdateStats: Market very big drop of 63.9 pips detected!
+2015.04.16 00:30:00: UpdateStats: Market very big drop of 55.1 pips detected!
+2015.04.17 07:30:00: UpdateStats: Market very big drop of 46.5 pips detected!
+2015.04.17 13:00:00: UpdateStats: Market very big drop of -63.3 pips detected!
+2015.04.24 14:00:00: UpdateStats: Market very big drop of -40.1 pips detected!
+2015.04.24 15:00:00: UpdateStats: Market very big drop of 42.0 pips detected!
+2015.04.29 14:30:00: UpdateStats: Market very big drop of 69.7 pips detected!
+2015.04.29 18:30:00: UpdateStats: Market very big drop of -47.4 pips detected!
+2015.04.30 08:00:00: UpdateStats: Market very big drop of 71.7 pips detected!
+2015.04.30 14:30:00: UpdateStats: Market very big drop of 41.2 pips detected!
+2015.04.30 19:00:00: UpdateStats: Market very big drop of 52.0 pips detected!
+2015.05.01 14:30:00: UpdateStats: Market very big drop of -53.6 pips detected!
+2015.05.06 12:30:00: UpdateStats: Market very big drop of 52.2 pips detected!
+2015.05.06 14:00:00: UpdateStats: Market very big drop of 52.7 pips detected!
+2015.05.08 12:30:00: UpdateStats: Market very big drop of 58.6 pips detected!
+2015.05.13 13:00:00: UpdateStats: Market very big drop of 79.2 pips detected!
+2015.05.15 14:30:00: UpdateStats: Market very big drop of 77.9 pips detected!
+2015.05.19 07:30:00: UpdateStats: Market very big drop of -111.6 pips detected!
+2015.05.19 13:00:00: UpdateStats: Market very big drop of -57.4 pips detected!
+2015.05.22 13:00:00: UpdateStats: Market very big drop of -94.0 pips detected!
+2015.05.22 13:30:00: UpdateStats: Market very big drop of -41.1 pips detected!
+2015.06.01 14:30:00: UpdateStats: Market very big drop of -68.2 pips detected!
+2015.06.02 10:30:00: UpdateStats: Market very big drop of 41.8 pips detected!
+2015.06.02 13:30:00: UpdateStats: Market very big drop of 52.0 pips detected!
+2015.06.03 13:30:00: UpdateStats: Market very big drop of 50.1 pips detected!
+2015.06.03 14:00:00: UpdateStats: Market very big drop of 43.5 pips detected!
+2015.06.04 08:30:00: UpdateStats: Market very big drop of 67.9 pips detected!
+2015.06.04 13:30:00: UpdateStats: Market very big drop of -40.6 pips detected!
+2015.06.05 12:30:00: UpdateStats: Market very big drop of 41.8 pips detected!
+2015.06.05 13:00:00: UpdateStats: Market very big drop of -173.3 pips detected!
+2015.06.05 14:30:00: UpdateStats: Market very big drop of 40.4 pips detected!
+2015.06.10 07:30:00: UpdateStats: Market very big drop of 57.5 pips detected!
+2015.06.12 09:00:00: UpdateStats: Market very big drop of -46.8 pips detected!
+2015.06.12 15:00:00: UpdateStats: Market very big drop of 41.1 pips detected!
+2015.06.14 21:00:02: UpdateStats: Market very big drop of -51.8 pips detected!
+2015.06.16 07:00:00: UpdateStats: Market very big drop of 50.6 pips detected!
+2015.06.17 19:00:00: UpdateStats: Market very big drop of 44.9 pips detected!
+2015.06.22 08:00:00: UpdateStats: Market very big drop of -49.4 pips detected!
+2015.06.23 03:00:00: UpdateStats: Market very big drop of -43.6 pips detected!
+2015.06.26 15:00:00: UpdateStats: Market very big drop of -49.3 pips detected!
+2015.06.28 21:00:35: UpdateStats: Market very big drop of -156.5 pips detected!
+2015.06.29 00:30:00: UpdateStats: Market very big drop of 50.7 pips detected!
+2015.06.29 06:30:00: UpdateStats: Market very big drop of 62.2 pips detected!
+2015.06.29 14:30:00: UpdateStats: Market very big drop of 42.2 pips detected!
+2015.06.29 15:30:00: UpdateStats: Market very big drop of 41.3 pips detected!
+2015.06.30 15:00:00: UpdateStats: Market very big drop of -43.1 pips detected!
+2015.07.02 13:00:00: UpdateStats: Market very big drop of 44.3 pips detected!
+2015.07.05 21:00:37: UpdateStats: Market very big drop of -112.5 pips detected!
+2015.07.07 19:30:00: UpdateStats: Market very big drop of 60.9 pips detected!
+2015.07.10 09:30:00: UpdateStats: Market very big drop of 44.1 pips detected!
+2015.07.12 21:00:01: UpdateStats: Market very big drop of -60.6 pips detected!
+2015.07.13 07:00:00: UpdateStats: Market very big drop of 51.0 pips detected!
+2015.07.13 08:00:00: UpdateStats: Market very big drop of -61.8 pips detected!
+2015.07.23 13:00:00: UpdateStats: Market very big drop of -52.8 pips detected!
+2015.07.27 07:30:00: UpdateStats: Market very big drop of 43.7 pips detected!
+2015.07.31 13:00:00: UpdateStats: Market very big drop of 82.7 pips detected!
+2015.07.31 13:30:00: UpdateStats: Market very big drop of 44.6 pips detected!
+2015.08.07 13:00:00: UpdateStats: Market very big drop of -91.4 pips detected!
+2015.08.07 15:00:00: UpdateStats: Market very big drop of 53.6 pips detected!
+2015.08.11 07:30:00: UpdateStats: Market very big drop of 51.8 pips detected!
+2015.08.13 02:00:00: UpdateStats: Market very big drop of -50.6 pips detected!
+2015.08.19 18:00:00: UpdateStats: Market very big drop of 52.4 pips detected!
+2015.08.24 01:30:00: UpdateStats: Market very big drop of 47.1 pips detected!
+2015.08.24 13:30:00: UpdateStats: Market very big drop of 125.9 pips detected!
+2015.08.24 14:30:00: UpdateStats: Market very big drop of -80.7 pips detected!
+2015.08.24 15:30:00: UpdateStats: Market very big drop of 41.9 pips detected!
+2015.08.25 02:00:00: UpdateStats: Market very big drop of -41.3 pips detected!
+2015.08.25 10:30:00: UpdateStats: Market very big drop of -41.0 pips detected!
+2015.08.25 15:00:00: UpdateStats: Market very big drop of -45.7 pips detected!
+2015.08.26 11:00:00: UpdateStats: Market very big drop of -42.9 pips detected!
+2015.08.27 13:00:00: UpdateStats: Market very big drop of -42.2 pips detected!
+2015.08.28 16:00:00: UpdateStats: Market very big drop of -59.4 pips detected!
+2015.09.03 13:00:00: UpdateStats: Market very big drop of -108.3 pips detected!
+2015.09.10 15:30:00: UpdateStats: Market very big drop of 62.3 pips detected!
+2015.09.18 19:30:00: UpdateStats: Market very big drop of -47.4 pips detected!
+2015.09.24 21:30:00: UpdateStats: Market very big drop of -51.0 pips detected!
+2015.10.02 13:00:00: UpdateStats: Market very big drop of 136.1 pips detected!
+2015.10.08 07:30:00: UpdateStats: Market very big drop of 42.7 pips detected!
+2015.10.15 13:00:00: UpdateStats: Market very big drop of -59.4 pips detected!
+2015.10.22 12:30:00: UpdateStats: Market very big drop of -77.4 pips detected!
+2015.10.22 13:00:00: UpdateStats: Market very big drop of -45.1 pips detected!
+2015.10.23 12:30:00: UpdateStats: Market very big drop of -44.8 pips detected!
+2015.10.28 18:30:00: UpdateStats: Market very big drop of -130.3 pips detected!
+2015.11.06 14:00:00: UpdateStats: Market very big drop of -100.3 pips detected!
+2015.11.12 15:00:00: UpdateStats: Market very big drop of 42.1 pips detected!
+2015.12.03 13:00:00: UpdateStats: Market very big drop of 119.8 pips detected!
+2015.12.03 14:00:00: UpdateStats: Market very big drop of 157.3 pips detected!
+2015.12.03 16:30:00: UpdateStats: Market very big drop of 43.8 pips detected!
+2015.12.04 13:30:00: UpdateStats: Market very big drop of 41.0 pips detected!
+2015.12.04 16:00:00: UpdateStats: Market very big drop of -41.4 pips detected!
+2015.12.16 20:30:00: UpdateStats: Market very big drop of -78.3 pips detected!
+2015.12.18 08:30:00: UpdateStats: Market very big drop of -51.8 pips detected!
+
