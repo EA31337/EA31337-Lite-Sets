@@ -1,0 +1,24 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+        Pass       Profit Total trades Profit factor Expected Payoff  Drawdown $ Drawdown %
+           1 106509515.33        19470          1.54         5470.44 16883403.61      22.02 WorseDailyStrategyDividerFactor=0.6; MaxOrders=0;
+                                                                                                                         MaxOrdersPerType=35;
+           3  71317864.77        18643          1.68         3825.45 18553939.69      37.71 WorseDailyStrategyDividerFactor=0.8; MaxOrders=0;
+                                                                                                                         MaxOrdersPerType=35;
+           5  62562346.52        18602          1.63         3363.21 18748126.29      38.98   WorseDailyStrategyDividerFactor=1; MaxOrders=0;
+                                                                                                                         MaxOrdersPerType=35;
+           4  56261530.93        18669          1.69         3013.63 15139269.85      38.48 WorseDailyStrategyDividerFactor=0.9; MaxOrders=0;
+                                                                                                                         MaxOrdersPerType=35;
+           2  30955901.61        16856          1.65         1836.49  9938359.80      47.78 WorseDailyStrategyDividerFactor=0.7; MaxOrders=0;
+                                                                                                                         MaxOrdersPerType=35;
