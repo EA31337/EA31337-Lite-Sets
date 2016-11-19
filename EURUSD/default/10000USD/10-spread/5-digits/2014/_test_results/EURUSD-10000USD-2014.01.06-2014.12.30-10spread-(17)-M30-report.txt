@@ -1,0 +1,105 @@
+Currency pair symbol:                       EURUSD
+Initial deposit:                            10000.00 USD
+Total net profit:                           1069322.24 USD
+Gross profit:                               2085316.34 USD
+Gross loss:                                 1015994.11 USD
+Absolute drawdown:                          46.89 USD
+Maximal drawdown:                           29993.3 USD (3.0%)
+Relative drawdown:                          (5.6%) 12406.7 USD
+Profit factor:                              2.05
+Expected payoff:                            59.63
+Trades total                                17932
+Short positions (won %):                    11551 (42.5%)
+Long positions (won %):                     6381 (41.5%)
+Profit trades (% of total):                 7559 (42.2%)
+Loss trades (% of total):                   10373 (57.8%)
+Largest profit trade:                       15513.60
+Largest loss trade:                         -5941.36
+Average profit trade:                       275.87
+Average loss trade:                         -97.95
+Average consecutive wins:                   3.00
+Average consecutive losses:                 4.00
+Maximum consecutive wins (profit in money): 21 47161.53
+Maximum consecutive losses (loss in money): 34 -17425.40
+Maximal consecutive profit (count of wins): 73392.60 18
+Maximal consecutive loss (count of losses): 21556.04 31
+Modelling quality:                          89.77%
+Total bars processed:                       12307
+Total ticks processed:                      3098945
+Bars per hour (avg):                        205
+Ticks per bar (avg):                        251 (bar=30mins)
+Ticks per min (avg):                        8
+Strategy stats:
+Profit factor: 1.80, Total net profit: 66644.33pips (+149463.05/-82818.72), Total orders: 1922 (Won: 37.2% [715] / Loss: 62.8% [1207]) - Alligator M5
+Profit factor: 2.02, Total net profit: 79456.07pips (+156999.37/-77543.30), Total orders: 1293 (Won: 38.1% [492] / Loss: 61.9% [801]) - Alligator M30
+Profit factor: 1.91, Total net profit: 81320.81pips (+170305.56/-88984.75), Total orders: 1875 (Won: 44.3% [831] / Loss: 55.7% [1044]) - DeMarker M1
+Profit factor: 2.04, Total net profit: 144252.42pips (+283411.26/-139158.84), Total orders: 2674 (Won: 43.6% [1166] / Loss: 56.4% [1508]) - DeMarker M5
+Profit factor: 2.23, Total net profit: 76213.69pips (+138253.16/-62039.47), Total orders: 1388 (Won: 43.7% [607] / Loss: 56.3% [781]) - DeMarker M15
+Profit factor: 2.20, Total net profit: 202341.54pips (+370436.00/-168094.46), Total orders: 2063 (Won: 42.4% [875] / Loss: 57.6% [1188]) - DeMarker M30
+Profit factor: 1.27, Total net profit: 10000.87pips (+46990.50/-36989.63), Total orders: 49 (Won: 42.9% [21] / Loss: 57.1% [28]) - MA M30
+Profit factor: 1.94, Total net profit: 91473.26pips (+188987.80/-97514.54), Total orders: 1822 (Won: 38.0% [693] / Loss: 62.0% [1129]) - MACD M5
+Profit factor: 2.18, Total net profit: 96092.84pips (+177270.25/-81177.41), Total orders: 1232 (Won: 41.2% [507] / Loss: 58.8% [725]) - MACD M30
+Profit factor: 2.26, Total net profit: 72631.55pips (+130274.84/-57643.30), Total orders: 1083 (Won: 46.9% [508] / Loss: 53.1% [575]) - RSI M15
+Profit factor: 2.30, Total net profit: 69978.16pips (+123882.68/-53904.52), Total orders: 1148 (Won: 40.8% [468] / Loss: 59.2% [680]) - RSI M30
+Profit factor: 0.45, Total net profit: -84.76pips (+68.14/-152.90), Total orders: 16 (Won: 50.0% [8] / Loss: 50.0% [8]) - SAR M1
+Profit factor: 2.07, Total net profit: 20456.48pips (+39646.05/-19189.57), Total orders: 482 (Won: 45.6% [220] / Loss: 54.4% [262]) - SAR M5
+Profit factor: 2.40, Total net profit: 65250.36pips (+111795.02/-46544.67), Total orders: 866 (Won: 48.5% [420] / Loss: 51.5% [446]) - WPR M15
+Profit factor: 4.87, Total net profit: 33.65pips (+42.35/-8.70), Total orders: 12 (Won: 33.3% [4] / Loss: 66.7% [8]) - WPR M30
+Report log:
+2014.01.06 00:00:00: EA31337 Lite (Backtest) v1.071 by kenorb (https://github.com/EA31337)
+Platform variables: Symbol: EURUSD, Bars: 101, Server: , Login: 16384
+Broker info: Name: , Account type: Backtest on Live, Leverage: 1:100, Currency: USD
+Market predefined variables: Ask: 1.35967, Bid: 1.35957, Volume: 1
+Market constants: Digits: 5, Point: 0.000010, Min Lot: 0.01, Max Lot: 10000, Lot Step: 0.01, Lot Size: 100000, Margin Required: 1359.62, Margin Init: 0, Stop Level: 8pts, Freeze level: 0 pts
+Contract specification for EURUSD: Profit mode: 0, Margin mode: 0, Spread: 10 pts, Tick size: 0.000010, Point value: 0.000010, Digits: 5, Trade stop level: 8 pts, Trade contract size: 100000
+Swap specification for EURUSD: Mode: 0, Long/buy order value: 0.33, Short/sell order value: -1.04
+Calculated variables: Pip size: 0.0001, Lot size: 0.03, Points per pip: 10, Pip digits: 4, Volume digits: 2, Spread in pips: 1.0 (10 pts), Stop Out Level: 0.7, Market gap: 8 pts (0 pips)
+EA params: Risk margin: 1%
+Strategies: Active strategies: 17 of 120, Max orders: 90 (per type: 10)
+Modelling Quality: M1: 25.00%, M5: 89.67%, M15: 89.48%, M30: 88.96%, H1: 87.94%, H4: 77.00%, D1: 51.00%, W1: 25.00%, MN1: 25.00%;
+Timeframes: M1: Active, M5: Active, M15: Active, M30: Active, H1: Active, H4: Not active, D1: Not active, W1: Not active, MN1: Not active;
+Datetime: Hour of day: 0, Day of week: 1, Day of month: 6, Day of year: 6, Month: 1, Year: 2014
+Account Details: Time: 2014.01.06 00:00:00; Account Balance: $10000.00; Account Equity: $10000.00; Used Margin: $0.00; Free Margin: $10000.00; No of Orders: 0 (BUY/SELL: 0/0); Risk Ratio: 1.0
+
+2014.01.09 14:00:00: UpdateStats: Market very big drop of -59.7 pips detected!
+2014.01.10 14:00:00: UpdateStats: Market very big drop of 61.9 pips detected!
+2014.01.24 11:30:00: UpdateStats: Market very big drop of 55.9 pips detected!
+2014.02.06 14:00:00: UpdateStats: Market very big drop of 99.8 pips detected!
+2014.02.12 12:00:00: UpdateStats: Market very big drop of -62.1 pips detected!
+2014.02.28 10:30:00: UpdateStats: Market very big drop of 78.7 pips detected!
+2014.03.02 22:00:01: UpdateStats: Market very big drop of -47.3 pips detected!
+2014.03.06 14:00:00: UpdateStats: Market very big drop of 68.3 pips detected!
+2014.03.07 14:00:00: UpdateStats: Market very big drop of -45.0 pips detected!
+2014.03.13 18:00:00: UpdateStats: Market very big drop of -47.8 pips detected!
+2014.03.19 18:30:00: UpdateStats: Market very big drop of -59.8 pips detected!
+2014.03.24 18:00:00: UpdateStats: Market very big drop of 71.4 pips detected!
+2014.04.09 18:30:00: UpdateStats: Market very big drop of 43.3 pips detected!
+2014.04.13 21:00:01: UpdateStats: Market very big drop of -41.1 pips detected!
+2014.04.29 12:30:00: UpdateStats: Market very big drop of -45.8 pips detected!
+2014.07.03 13:00:00: UpdateStats: Market very big drop of -41.8 pips detected!
+2014.08.13 13:00:00: UpdateStats: Market very big drop of 47.1 pips detected!
+2014.08.24 21:00:01: UpdateStats: Market very big drop of -49.3 pips detected!
+2014.09.04 12:00:00: UpdateStats: Market very big drop of -78.4 pips detected!
+2014.09.04 16:00:00: UpdateStats: Market very big drop of -44.7 pips detected!
+2014.09.30 09:30:00: UpdateStats: Market very big drop of -51.3 pips detected!
+2014.10.03 13:00:00: UpdateStats: Market very big drop of -60.2 pips detected!
+2014.10.08 18:30:00: UpdateStats: Market very big drop of 74.9 pips detected!
+2014.10.13 20:30:01: UpdateStats: Market very big drop of 43.2 pips detected!
+2014.10.15 13:00:00: UpdateStats: Market very big drop of 69.3 pips detected!
+2014.10.15 13:30:00: UpdateStats: Market very big drop of 50.2 pips detected!
+2014.10.16 10:00:00: UpdateStats: Market very big drop of -46.4 pips detected!
+2014.10.17 09:00:00: UpdateStats: Market very big drop of 42.7 pips detected!
+2014.10.21 10:00:00: UpdateStats: Market very big drop of -51.1 pips detected!
+2014.10.29 18:30:00: UpdateStats: Market very big drop of -83.1 pips detected!
+2014.10.31 13:00:00: UpdateStats: Market very big drop of -48.8 pips detected!
+2014.11.03 01:00:00: UpdateStats: Market very big drop of -43.7 pips detected!
+2014.11.06 14:00:00: UpdateStats: Market very big drop of -102.1 pips detected!
+2014.11.14 15:30:00: UpdateStats: Market very big drop of 46.8 pips detected!
+2014.11.20 09:00:00: UpdateStats: Market very big drop of -47.7 pips detected!
+2014.11.21 09:00:00: UpdateStats: Market very big drop of -69.1 pips detected!
+2014.12.04 14:00:00: UpdateStats: Market very big drop of 81.5 pips detected!
+2014.12.04 18:00:00: UpdateStats: Market very big drop of -44.2 pips detected!
+2014.12.05 14:00:00: UpdateStats: Market very big drop of -64.0 pips detected!
+2014.12.15 16:30:00: UpdateStats: Market very big drop of 43.7 pips detected!
+2014.12.17 20:00:00: UpdateStats: Market very big drop of -116.6 pips detected!
+
