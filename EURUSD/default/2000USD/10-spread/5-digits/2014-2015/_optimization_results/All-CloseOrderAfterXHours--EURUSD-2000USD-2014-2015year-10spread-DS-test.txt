@@ -11,10 +11,10 @@
                             Initial deposit 2000.00
                             Spread          10
                                                                  [Optimization Graph]
-   Pass       Profit Total trades Profit factor Expected Payoff  Drawdown $ Drawdown %
-      3 968441214.28        24163          1.74        40079.51 70020000.00      19.84  CloseOrderAfterXHours=48; MaxOrders=0; MaxOrdersPerType=35;
-      4 896559510.53        24072          1.73        37244.91 70020000.00      20.06  CloseOrderAfterXHours=72; MaxOrders=0; MaxOrdersPerType=35;
-      6 681629232.82        22308          1.68        30555.37 70020000.00      19.22 CloseOrderAfterXHours=120; MaxOrders=0; MaxOrdersPerType=35;
-      5 511703194.71        20498          1.67        24963.57 58110189.99      19.65  CloseOrderAfterXHours=96; MaxOrders=0; MaxOrdersPerType=35;
-      2 511644433.96        20579          1.68        24862.45 57687193.69      19.42  CloseOrderAfterXHours=24; MaxOrders=0; MaxOrdersPerType=35;
-      1 135710742.07        21438          1.60         6330.38 36699496.23      36.70   CloseOrderAfterXHours=0; MaxOrders=0; MaxOrdersPerType=35;
+    Pass      Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       4 58781951.75        34189          1.86         1719.32 2068859.32       9.82  CloseOrderAfterXHours=72; MaxOrders=0; MaxOrdersPerType=0;
+       6 50528328.68        33192          1.84         1522.30 1853009.86       9.76 CloseOrderAfterXHours=120; MaxOrders=0; MaxOrdersPerType=0;
+       5 41669669.92        33242          1.84         1253.52 1528155.69       9.76  CloseOrderAfterXHours=96; MaxOrders=0; MaxOrdersPerType=0;
+       2 39615794.26        34344          1.87         1153.50 1349422.10       9.85  CloseOrderAfterXHours=24; MaxOrders=0; MaxOrdersPerType=0;
+       3 37905617.17        34333          1.87         1104.06 1291258.85       9.86  CloseOrderAfterXHours=48; MaxOrders=0; MaxOrdersPerType=0;
+       1  3978947.30        30231          1.86          131.62  131431.56      19.51   CloseOrderAfterXHours=0; MaxOrders=0; MaxOrdersPerType=0;
