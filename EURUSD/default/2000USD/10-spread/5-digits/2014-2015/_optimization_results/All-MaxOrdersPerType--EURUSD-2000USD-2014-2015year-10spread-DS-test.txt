@@ -1,0 +1,26 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+          Pass        Profit Total trades Profit factor Expected Payoff  Drawdown $ Drawdown %
+             1 1323524534.76        27513          1.74        48105.42 82183663.47      21.43  MaxOrdersPerType=0; MaxOrders=0; LotSize=0;
+             4  934267614.52        24027          1.73        38884.07 75267056.47      20.25 MaxOrdersPerType=15; MaxOrders=0; LotSize=0;
+             3  914502402.67        24027          1.73        38061.45 75077699.34      20.24 MaxOrdersPerType=10; MaxOrders=0; LotSize=0;
+             6  892630697.24        23839          1.74        37444.13 73787518.45      22.03 MaxOrdersPerType=25; MaxOrders=0; LotSize=0;
+             5  882471493.93        24010          1.72        36754.33 74931639.64      22.03 MaxOrdersPerType=20; MaxOrders=0; LotSize=0;
+             2  830052770.49        24024          1.71        34550.98 74391251.28      20.23  MaxOrdersPerType=5; MaxOrders=0; LotSize=0;
+             7  568393659.82        22565          1.68        25189.17 63214158.26      22.03 MaxOrdersPerType=30; MaxOrders=0; LotSize=0;
+             8   71317864.77        18643          1.68         3825.45 18553939.69      37.71 MaxOrdersPerType=35; MaxOrders=0; LotSize=0;
+             9   71317864.77        18643          1.68         3825.45 18553939.69      37.71 MaxOrdersPerType=40; MaxOrders=0; LotSize=0;
+            10   71317864.77        18643          1.68         3825.45 18553939.69      37.71 MaxOrdersPerType=45; MaxOrders=0; LotSize=0;
+            11   71317864.77        18643          1.68         3825.45 18553939.69      37.71 MaxOrdersPerType=50; MaxOrders=0; LotSize=0;
+            12   71317864.77        18643          1.68         3825.45 18553939.69      37.71 MaxOrdersPerType=55; MaxOrders=0; LotSize=0;
