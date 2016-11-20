@@ -1,0 +1,157 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                           Symbol          EURUSD (Euro vs US Dollar)
+                           Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:59 (2014.01.01 - 2015.12.31)
+                           Model           Open prices only (only for Expert Advisors that explicitly control bar opening)
+                           Initial deposit 2000.00
+                           Spread          10
+                                                                 [Optimization Graph]
+  Pass       Profit Total trades Profit factor Expected Payoff   Drawdown $ Drawdown %
+   142 914557244.30        25334          1.75        36099.99  53661850.75      34.52 Market_Condition_2=13; Action_On_Condition_2=10; MaxOrders=0;
+   131 909081762.50        25323          1.75        35899.45  53661850.75      35.08  Market_Condition_2=2; Action_On_Condition_2=10; MaxOrders=0;
+   116 904180579.88        25332          1.74        35693.22  53661850.75      35.75  Market_Condition_2=13; Action_On_Condition_2=8; MaxOrders=0;
+   136 903876918.24        25319          1.74        35699.55  53661850.75      35.81  Market_Condition_2=7; Action_On_Condition_2=10; MaxOrders=0;
+   135 902326597.06        25300          1.74        35665.08  53661850.75      35.12  Market_Condition_2=6; Action_On_Condition_2=10; MaxOrders=0;
+    77 894262349.08        25323          1.74        35314.23  52408401.95      32.12  Market_Condition_2=13; Action_On_Condition_2=5; MaxOrders=0;
+   103 891950754.25        25332          1.74        35210.44  51582934.05      32.07  Market_Condition_2=13; Action_On_Condition_2=7; MaxOrders=0;
+   129 891950754.25        25332          1.74        35210.44  51582934.05      32.07  Market_Condition_2=13; Action_On_Condition_2=9; MaxOrders=0;
+    65 890426590.41        25222          1.72        35303.57 164337070.38      40.06  Market_Condition_2=14; Action_On_Condition_2=4; MaxOrders=0;
+    66 887524155.73        25313          1.73        35061.99  52375076.92      32.88   Market_Condition_2=2; Action_On_Condition_2=5; MaxOrders=0;
+    92 885458362.42        25321          1.74        34969.33  51582934.05      32.87   Market_Condition_2=2; Action_On_Condition_2=7; MaxOrders=0;
+   118 885458362.42        25321          1.74        34969.33  51582934.05      32.87   Market_Condition_2=2; Action_On_Condition_2=9; MaxOrders=0;
+    71 882157116.93        25308          1.73        34856.85  52375076.92      33.73   Market_Condition_2=7; Action_On_Condition_2=5; MaxOrders=0;
+    97 879560576.88        25317          1.73        34741.90  51582934.05      33.72   Market_Condition_2=7; Action_On_Condition_2=7; MaxOrders=0;
+   123 879560576.88        25317          1.73        34741.90  51582934.05      33.72   Market_Condition_2=7; Action_On_Condition_2=9; MaxOrders=0;
+    70 879211658.17        25289          1.73        34766.56  52375076.92      33.66   Market_Condition_2=6; Action_On_Condition_2=5; MaxOrders=0;
+    96 875901421.96        25298          1.73        34623.35  51582934.05      33.66   Market_Condition_2=6; Action_On_Condition_2=7; MaxOrders=0;
+   122 875901421.96        25298          1.73        34623.35  51582934.05      33.66   Market_Condition_2=6; Action_On_Condition_2=9; MaxOrders=0;
+   117 872282680.91        25286          1.73        34496.67  53661850.75      40.06  Market_Condition_2=14; Action_On_Condition_2=8; MaxOrders=0;
+   143 866439580.92        25290          1.73        34260.17  53661850.75      40.06 Market_Condition_2=14; Action_On_Condition_2=10; MaxOrders=0;
+    57 864928681.82        25242          1.71        34265.46 177708474.97      45.27   Market_Condition_2=6; Action_On_Condition_2=4; MaxOrders=0;
+   109 859775892.63        25280          1.73        34010.12  53661850.75      42.18   Market_Condition_2=6; Action_On_Condition_2=8; MaxOrders=0;
+   105 859378168.09        25281          1.73        33993.04  53661850.75      42.62   Market_Condition_2=2; Action_On_Condition_2=8; MaxOrders=0;
+   132 858289396.35        25235          1.73        34011.86  53661850.75      40.06  Market_Condition_2=3; Action_On_Condition_2=10; MaxOrders=0;
+   139 858051256.25        25250          1.73        33982.23  53661850.75      40.06 Market_Condition_2=10; Action_On_Condition_2=10; MaxOrders=0;
+   138 857219883.51        25222          1.73        33986.99  53661850.75      40.06  Market_Condition_2=9; Action_On_Condition_2=10; MaxOrders=0;
+   119 856536268.75        25210          1.73        33976.05  53661850.75      40.06   Market_Condition_2=3; Action_On_Condition_2=9; MaxOrders=0;
+    53 853273353.78        25256          1.71        33784.98 176126835.78      47.02   Market_Condition_2=2; Action_On_Condition_2=4; MaxOrders=0;
+   110 852139797.51        25236          1.73        33766.83  53661850.75      42.81   Market_Condition_2=7; Action_On_Condition_2=8; MaxOrders=0;
+   137 848806164.27        25243          1.72        33625.41  53661850.75      40.06  Market_Condition_2=8; Action_On_Condition_2=10; MaxOrders=0;
+   134 843922967.98        25198          1.73        33491.66  53661850.75      40.06  Market_Condition_2=5; Action_On_Condition_2=10; MaxOrders=0;
+   111 843605836.69        25210          1.73        33463.14  53661850.75      40.06   Market_Condition_2=8; Action_On_Condition_2=8; MaxOrders=0;
+    61 841548007.90        25188          1.71        33410.67 159329344.59      40.06  Market_Condition_2=10; Action_On_Condition_2=4; MaxOrders=0;
+   107 840473207.99        25204          1.72        33346.82  53661850.75      40.06   Market_Condition_2=4; Action_On_Condition_2=8; MaxOrders=0;
+    64 840104699.23        25272          1.70        33242.51 174252454.12      47.50  Market_Condition_2=13; Action_On_Condition_2=4; MaxOrders=0;
+   133 838018296.38        25204          1.72        33249.42  53661850.75      40.06  Market_Condition_2=4; Action_On_Condition_2=10; MaxOrders=0;
+    78 837655157.63        25273          1.71        33144.27  52375076.92      40.13  Market_Condition_2=14; Action_On_Condition_2=5; MaxOrders=0;
+    58 836630156.57        25245          1.70        33140.43 173773943.00      47.08   Market_Condition_2=7; Action_On_Condition_2=4; MaxOrders=0;
+    54 834797397.27        25200          1.70        33126.88 173521683.64      40.06   Market_Condition_2=3; Action_On_Condition_2=4; MaxOrders=0;
+    60 832305087.76        25165          1.71        33073.92 177682892.20      40.06   Market_Condition_2=9; Action_On_Condition_2=4; MaxOrders=0;
+   112 830961799.45        25198          1.72        32977.29  53661850.75      40.06   Market_Condition_2=9; Action_On_Condition_2=8; MaxOrders=0;
+   108 830029864.72        25194          1.72        32945.54  53661850.75      40.06   Market_Condition_2=5; Action_On_Condition_2=8; MaxOrders=0;
+   104 828739726.12        25286          1.71        32774.65  51582934.05      40.14  Market_Condition_2=14; Action_On_Condition_2=7; MaxOrders=0;
+   130 828739726.12        25286          1.71        32774.65  51582934.05      40.14  Market_Condition_2=14; Action_On_Condition_2=9; MaxOrders=0;
+    67 828545796.47        25227          1.71        32843.61  52375076.92      40.06   Market_Condition_2=3; Action_On_Condition_2=5; MaxOrders=0;
+    73 828109485.09        25214          1.72        32843.24  52375076.92      40.06   Market_Condition_2=9; Action_On_Condition_2=5; MaxOrders=0;
+    93 827307142.44        25233          1.72        32786.71  51582934.05      40.06   Market_Condition_2=3; Action_On_Condition_2=7; MaxOrders=0;
+   106 827307142.44        25233          1.72        32786.71  51582934.05      40.06   Market_Condition_2=3; Action_On_Condition_2=8; MaxOrders=0;
+    99 826879145.75        25220          1.72        32786.64  51582934.05      40.06   Market_Condition_2=9; Action_On_Condition_2=7; MaxOrders=0;
+   125 826879145.75        25220          1.72        32786.64  51582934.05      40.06   Market_Condition_2=9; Action_On_Condition_2=9; MaxOrders=0;
+    74 826450181.50        25242          1.71        32741.07  52375076.92      40.06  Market_Condition_2=10; Action_On_Condition_2=5; MaxOrders=0;
+   100 825202251.54        25248          1.71        32683.87  51582934.05      40.06  Market_Condition_2=10; Action_On_Condition_2=7; MaxOrders=0;
+   113 825202251.54        25248          1.71        32683.87  51582934.05      40.06  Market_Condition_2=10; Action_On_Condition_2=8; MaxOrders=0;
+    14 824098063.62        25185          1.70        32721.78 172016619.73      42.28   Market_Condition_2=2; Action_On_Condition_2=1; MaxOrders=0;
+    27 824098063.62        25185          1.70        32721.78 172016619.73      42.28   Market_Condition_2=2; Action_On_Condition_2=2; MaxOrders=0;
+    59 823208147.66        25180          1.70        32692.94 159090054.92      40.06   Market_Condition_2=8; Action_On_Condition_2=4; MaxOrders=0;
+    25 816484931.32        25182          1.70        32423.36 170520675.38      42.88  Market_Condition_2=13; Action_On_Condition_2=1; MaxOrders=0;
+    38 816484931.32        25182          1.70        32423.36 170520675.38      42.88  Market_Condition_2=13; Action_On_Condition_2=2; MaxOrders=0;
+    72 816480805.55        25234          1.71        32356.38  52375076.92      40.06   Market_Condition_2=8; Action_On_Condition_2=5; MaxOrders=0;
+    98 816182402.82        25241          1.71        32335.58  51582934.05      40.06   Market_Condition_2=8; Action_On_Condition_2=7; MaxOrders=0;
+   124 816182402.82        25241          1.71        32335.58  51582934.05      40.06   Market_Condition_2=8; Action_On_Condition_2=9; MaxOrders=0;
+    69 813749371.29        25189          1.71        32305.74  52375076.92      40.06   Market_Condition_2=5; Action_On_Condition_2=5; MaxOrders=0;
+    95 813508061.40        25196          1.71        32287.19  51582934.05      40.06   Market_Condition_2=5; Action_On_Condition_2=7; MaxOrders=0;
+   121 813508061.40        25196          1.71        32287.19  51582934.05      40.06   Market_Condition_2=5; Action_On_Condition_2=9; MaxOrders=0;
+    19 808527289.50        25150          1.70        32148.20 166896970.79      42.19   Market_Condition_2=7; Action_On_Condition_2=1; MaxOrders=0;
+    32 808527289.50        25150          1.70        32148.20 166896970.79      42.19   Market_Condition_2=7; Action_On_Condition_2=2; MaxOrders=0;
+    94 807999143.02        25202          1.71        32060.91  51582934.05      40.06   Market_Condition_2=4; Action_On_Condition_2=7; MaxOrders=0;
+   120 807999143.02        25202          1.71        32060.91  51582934.05      40.06   Market_Condition_2=4; Action_On_Condition_2=9; MaxOrders=0;
+    68 807880174.54        25194          1.71        32066.37  52375076.92      40.06   Market_Condition_2=4; Action_On_Condition_2=5; MaxOrders=0;
+    56 807453881.92        25144          1.69        32113.18 156290448.83      40.06   Market_Condition_2=5; Action_On_Condition_2=4; MaxOrders=0;
+    55 807320278.37        25147          1.69        32104.04 156263331.43      40.06   Market_Condition_2=4; Action_On_Condition_2=4; MaxOrders=0;
+    18 801305412.95        25143          1.70        31869.92 165352002.81      41.58   Market_Condition_2=6; Action_On_Condition_2=1; MaxOrders=0;
+    31 801305412.95        25143          1.70        31869.92 165352002.81      41.58   Market_Condition_2=6; Action_On_Condition_2=2; MaxOrders=0;
+    15 779687837.93        25081          1.69        31086.79 161972349.70      40.06   Market_Condition_2=3; Action_On_Condition_2=1; MaxOrders=0;
+    28 779687837.93        25081          1.69        31086.79 161972349.70      40.06   Market_Condition_2=3; Action_On_Condition_2=2; MaxOrders=0;
+    16 659033860.21        24696          1.66        26685.85 150690789.29      40.06   Market_Condition_2=4; Action_On_Condition_2=1; MaxOrders=0;
+    29 659033860.21        24696          1.66        26685.85 150690789.29      40.06   Market_Condition_2=4; Action_On_Condition_2=2; MaxOrders=0;
+    21 658956735.85        24696          1.66        26682.73 150674055.04      40.06   Market_Condition_2=9; Action_On_Condition_2=1; MaxOrders=0;
+    34 658956735.85        24696          1.66        26682.73 150674055.04      40.06   Market_Condition_2=9; Action_On_Condition_2=2; MaxOrders=0;
+    91 635026367.80        24555          1.67        25861.39 153149920.97      40.06  Market_Condition_2=14; Action_On_Condition_2=6; MaxOrders=0;
+    87 631788123.50        24546          1.67        25738.94 152582478.18      40.06  Market_Condition_2=10; Action_On_Condition_2=6; MaxOrders=0;
+   126 631788123.50        24546          1.67        25738.94 152582478.18      40.06  Market_Condition_2=10; Action_On_Condition_2=9; MaxOrders=0;
+    85 631582090.98        24546          1.67        25730.55 152548127.52      40.06   Market_Condition_2=8; Action_On_Condition_2=6; MaxOrders=0;
+    86 624497983.94        24538          1.66        25450.24 151350138.92      40.06   Market_Condition_2=9; Action_On_Condition_2=6; MaxOrders=0;
+    80 623365542.75        24539          1.66        25403.05 151162148.79      40.06   Market_Condition_2=3; Action_On_Condition_2=6; MaxOrders=0;
+    79 613574277.65        24529          1.66        25014.24 142506234.06      42.62   Market_Condition_2=2; Action_On_Condition_2=6; MaxOrders=0;
+    81 613186470.58        24525          1.66        25002.51 142444508.03      40.06   Market_Condition_2=4; Action_On_Condition_2=6; MaxOrders=0;
+    82 613141949.04        24525          1.66        25000.69 142436113.96      40.06   Market_Condition_2=5; Action_On_Condition_2=6; MaxOrders=0;
+    83 612093843.04        24528          1.66        24954.90 142269554.53      42.18   Market_Condition_2=6; Action_On_Condition_2=6; MaxOrders=0;
+    84 602473618.58        24514          1.65        24576.72 140905090.57      42.81   Market_Condition_2=7; Action_On_Condition_2=6; MaxOrders=0;
+    90 599885850.02        24514          1.65        24471.15 140613294.21      43.61  Market_Condition_2=13; Action_On_Condition_2=6; MaxOrders=0;
+    17 569263160.45        23965          1.75        23753.94 127403450.26      40.06   Market_Condition_2=5; Action_On_Condition_2=1; MaxOrders=0;
+    30 569263160.45        23965          1.75        23753.94 127403450.26      40.06   Market_Condition_2=5; Action_On_Condition_2=2; MaxOrders=0;
+    20 563106109.76        24146          1.69        23320.89 145293994.03      40.06   Market_Condition_2=8; Action_On_Condition_2=1; MaxOrders=0;
+    33 563106109.76        24146          1.69        23320.89 145293994.03      40.06   Market_Condition_2=8; Action_On_Condition_2=2; MaxOrders=0;
+    62 470934220.93        24122          1.61        19523.02 106843376.09      40.06  Market_Condition_2=11; Action_On_Condition_2=4; MaxOrders=0;
+    63 470934220.93        24122          1.61        19523.02 106843376.09      40.06  Market_Condition_2=12; Action_On_Condition_2=4; MaxOrders=0;
+   140 442078901.76        24178          1.60        18284.35  37191524.84      40.06 Market_Condition_2=11; Action_On_Condition_2=10; MaxOrders=0;
+   141 442078901.76        24178          1.60        18284.35  37191524.84      40.06 Market_Condition_2=12; Action_On_Condition_2=10; MaxOrders=0;
+   101 424973097.61        24177          1.59        17577.58  33732835.39      40.06  Market_Condition_2=11; Action_On_Condition_2=7; MaxOrders=0;
+   102 424973097.61        24177          1.59        17577.58  33732835.39      40.06  Market_Condition_2=12; Action_On_Condition_2=7; MaxOrders=0;
+   127 424973097.61        24177          1.59        17577.58  33732835.39      40.06  Market_Condition_2=11; Action_On_Condition_2=9; MaxOrders=0;
+   128 424973097.61        24177          1.59        17577.58  33732835.39      40.06  Market_Condition_2=12; Action_On_Condition_2=9; MaxOrders=0;
+    75 421111139.02        24172          1.59        17421.44  34239745.38      40.06  Market_Condition_2=11; Action_On_Condition_2=5; MaxOrders=0;
+    76 421111139.02        24172          1.59        17421.44  34239745.38      40.06  Market_Condition_2=12; Action_On_Condition_2=5; MaxOrders=0;
+   114 378449054.05        24034          1.57        15746.40  32931973.50      40.06  Market_Condition_2=11; Action_On_Condition_2=8; MaxOrders=0;
+    88 352473360.90        23548          1.59        14968.29  91024810.79      40.06  Market_Condition_2=11; Action_On_Condition_2=6; MaxOrders=0;
+    89 352473360.90        23548          1.59        14968.29  91024810.79      40.06  Market_Condition_2=12; Action_On_Condition_2=6; MaxOrders=0;
+   115 352473360.90        23548          1.59        14968.29  91024810.79      40.06  Market_Condition_2=12; Action_On_Condition_2=8; MaxOrders=0;
+    22 340298290.94        23262          1.65        14628.94  82949528.70      40.06  Market_Condition_2=10; Action_On_Condition_2=1; MaxOrders=0;
+    35 340298290.94        23262          1.65        14628.94  82949528.70      40.06  Market_Condition_2=10; Action_On_Condition_2=2; MaxOrders=0;
+    23 209768786.25        22236          1.60         9433.75  56337984.56      40.06  Market_Condition_2=11; Action_On_Condition_2=1; MaxOrders=0;
+    36 209768786.25        22236          1.60         9433.75  56337984.56      40.06  Market_Condition_2=11; Action_On_Condition_2=2; MaxOrders=0;
+    24 207146335.39        22353          1.58         9267.05  54454005.60      40.06  Market_Condition_2=12; Action_On_Condition_2=1; MaxOrders=0;
+    37 207146335.39        22353          1.58         9267.05  54454005.60      40.06  Market_Condition_2=12; Action_On_Condition_2=2; MaxOrders=0;
+    26 194087799.81        21918          1.65         8855.18  47238507.54      40.06  Market_Condition_2=14; Action_On_Condition_2=1; MaxOrders=0;
+    39 194087799.81        21918          1.65         8855.18  47238507.54      40.06  Market_Condition_2=14; Action_On_Condition_2=2; MaxOrders=0;
+    42 156818257.50        21982          1.54         7133.94  32931973.50      40.06   Market_Condition_2=4; Action_On_Condition_2=3; MaxOrders=0;
+    43 156437225.01        21959          1.54         7124.06  32931973.50      40.06   Market_Condition_2=5; Action_On_Condition_2=3; MaxOrders=0;
+    47 155272426.61        21889          1.55         7093.63  32931973.50      40.06   Market_Condition_2=9; Action_On_Condition_2=3; MaxOrders=0;
+    46 154313261.62        21891          1.55         7049.16  32931973.50      40.06   Market_Condition_2=8; Action_On_Condition_2=3; MaxOrders=0;
+    48 154221570.02        21891          1.55         7044.98  32931973.50      40.06  Market_Condition_2=10; Action_On_Condition_2=3; MaxOrders=0;
+    49 153541291.19        21847          1.55         7028.03  32931973.50      40.06  Market_Condition_2=11; Action_On_Condition_2=3; MaxOrders=0;
+    50 153541291.19        21847          1.55         7028.03  32931973.50      40.06  Market_Condition_2=12; Action_On_Condition_2=3; MaxOrders=0;
+    51 152746380.38        22116          1.50         6906.60  29935087.58      36.42  Market_Condition_2=13; Action_On_Condition_2=3; MaxOrders=0;
+    44 152700705.27        22118          1.50         6903.91  30823512.06      37.50   Market_Condition_2=6; Action_On_Condition_2=3; MaxOrders=0;
+    41 151719461.38        22116          1.50         6860.17  32931973.50      40.06   Market_Condition_2=3; Action_On_Condition_2=3; MaxOrders=0;
+    52 146649166.93        22045          1.50         6652.26  32931973.50      40.06  Market_Condition_2=14; Action_On_Condition_2=3; MaxOrders=0;
+     1 146586105.13        21340          1.66         6869.08  32931973.50      40.06   Market_Condition_2=2; Action_On_Condition_2=0; MaxOrders=0;
+     2 146586105.13        21340          1.66         6869.08  32931973.50      40.06   Market_Condition_2=3; Action_On_Condition_2=0; MaxOrders=0;
+     3 146586105.13        21340          1.66         6869.08  32931973.50      40.06   Market_Condition_2=4; Action_On_Condition_2=0; MaxOrders=0;
+     4 146586105.13        21340          1.66         6869.08  32931973.50      40.06   Market_Condition_2=5; Action_On_Condition_2=0; MaxOrders=0;
+     5 146586105.13        21340          1.66         6869.08  32931973.50      40.06   Market_Condition_2=6; Action_On_Condition_2=0; MaxOrders=0;
+     6 146586105.13        21340          1.66         6869.08  32931973.50      40.06   Market_Condition_2=7; Action_On_Condition_2=0; MaxOrders=0;
+     7 146586105.13        21340          1.66         6869.08  32931973.50      40.06   Market_Condition_2=8; Action_On_Condition_2=0; MaxOrders=0;
+     8 146586105.13        21340          1.66         6869.08  32931973.50      40.06   Market_Condition_2=9; Action_On_Condition_2=0; MaxOrders=0;
+     9 146586105.13        21340          1.66         6869.08  32931973.50      40.06  Market_Condition_2=10; Action_On_Condition_2=0; MaxOrders=0;
+    10 146586105.13        21340          1.66         6869.08  32931973.50      40.06  Market_Condition_2=11; Action_On_Condition_2=0; MaxOrders=0;
+    11 146586105.13        21340          1.66         6869.08  32931973.50      40.06  Market_Condition_2=12; Action_On_Condition_2=0; MaxOrders=0;
+    12 146586105.13        21340          1.66         6869.08  32931973.50      40.06  Market_Condition_2=13; Action_On_Condition_2=0; MaxOrders=0;
+    13 146586105.13        21340          1.66         6869.08  32931973.50      40.06  Market_Condition_2=14; Action_On_Condition_2=0; MaxOrders=0;
+    45 145631400.17        22036          1.50         6608.79  30335992.22      36.90   Market_Condition_2=7; Action_On_Condition_2=3; MaxOrders=0;
+    40 144345784.78        22057          1.49         6544.22  30213493.58      36.75   Market_Condition_2=2; Action_On_Condition_2=3; MaxOrders=0;
