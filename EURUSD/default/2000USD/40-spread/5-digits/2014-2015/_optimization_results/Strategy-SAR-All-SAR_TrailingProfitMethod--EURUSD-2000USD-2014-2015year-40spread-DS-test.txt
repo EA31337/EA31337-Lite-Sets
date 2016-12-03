@@ -1,0 +1,29 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        2 -138.30           45          0.25           -3.07     158.00       7.90  SAR_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+        7 -179.90           68          0.46           -2.65     179.90       8.99 SAR_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+       10 -187.10           69          0.45           -2.71     187.10       9.35 SAR_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+        1 -193.33           66          0.36           -2.93     196.53       9.83  SAR_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+        3 -225.67           75          0.44           -3.01     227.47      11.37  SAR_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+        5 -227.50           94          0.47           -2.42     244.40      12.12  SAR_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+       15 -241.50           83          0.39           -2.91     311.50      15.05 SAR_TrailingProfitMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+       13 -321.10          139          0.49           -2.31     322.30      16.11 SAR_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+       14 -321.10          139          0.49           -2.31     322.30      16.11 SAR_TrailingProfitMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+       11 -362.40          153          0.50           -2.37     405.30      19.94 SAR_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+        8 -366.14          149          0.49           -2.46     389.94      19.27 SAR_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+        4 -368.34          119          0.45           -3.10     370.44      18.52  SAR_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+       12 -413.54          161          0.47           -2.57     460.04      22.48 SAR_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+        6 -420.14          170          0.49           -2.47     459.14      22.52 SAR_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+        9 -434.24          176          0.49           -2.47     473.94      23.24 SAR_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
