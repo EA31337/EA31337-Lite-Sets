@@ -1,18 +1,19 @@
 
 
 
-                                           Optimization Report
-                                      EA31337-Lite-Backtest-v1.070
-                                      Tripleafx-FX-Demo (Build 971)
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
 
-     Symbol          EURUSD (Euro vs US Dollar)
-     Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.29 23:30 (2014.01.01 - 2014.12.30)
-     Model           Every tick (the most precise method based on all available least timeframes)
-     Initial deposit 2000.00
-     Spread          10
-                                          [Optimization Graph]
-              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 4  -7.67           66          0.90           -0.12      30.83       1.53
-                 3 -18.91           84          0.78           -0.23      40.81       2.03
-                 2 -20.80           94          0.80           -0.22      54.24       2.69
-                 1 -37.40          172          0.80           -0.22      64.64       3.20
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2014.12.30 23:30 (2014.01.01 - 2014.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             5 9535.92         6027          1.35            1.58    1615.20      38.78  DeMarker_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+             4 9424.54         6031          1.35            1.56    1590.90      40.50  DeMarker_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+             2 8841.39         6118          1.32            1.45    1571.90      34.49  DeMarker_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+             3 7546.67         3664          1.37            2.06    1391.20      31.41  DeMarker_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+             1 -269.00         1097          0.96           -0.25    1040.89      40.39 DeMarker_Shift=-1; MaxOrders=0; MaxOrdersPerType=0;
