@@ -12,10 +12,10 @@
                             Spread          40
                                                                  [Optimization Graph]
          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            3 -351.91           95          0.47           -3.70     592.87      26.46 MACD_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-            5 -354.14           91          0.45           -3.89     578.21      26.00 MACD_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-            4 -365.25           98          0.48           -3.73     585.51      26.37 MACD_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-            6 -368.08           98          0.46           -3.76     593.04      26.65 MACD_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-            7 -370.48           98          0.46           -3.78     595.44      26.76 MACD_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-            1 -398.51          110          0.48           -3.62     623.47      28.02 MACD_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-            2 -398.51          110          0.48           -3.62     623.47      28.02 MACD_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            4 -270.27           73          0.42           -3.70     499.90      22.46 MACD_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+            5 -297.71           75          0.40           -3.97     527.04      23.64 MACD_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+            3 -298.71           82          0.42           -3.64     522.64      23.50 MACD_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+            1 -310.74           82          0.41           -3.79     540.97      24.26 MACD_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+            2 -310.74           82          0.41           -3.79     540.97      24.26 MACD_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            7 -310.74           82          0.41           -3.79     540.97      24.26 MACD_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+            6 -320.64           82          0.41           -3.91     550.87      24.70 MACD_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
