@@ -1,0 +1,38 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+            Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+               5 13295.19         2970          1.27            4.48    7143.83      44.14
+              10 13295.19         2970          1.27            4.48    7143.83      44.14
+              15 13295.19         2970          1.27            4.48    7143.83      44.14
+              20 13295.19         2970          1.27            4.48    7143.83      44.14
+               7  -168.84           33          0.44           -5.12     278.34      13.19
+              11  -173.20           33          0.43           -5.25     285.20      13.52 Bands_Shift=0; Bands_Shift_Far=0; MaxOrders=0;
+               2  -173.07           33          0.45           -5.24     302.97      14.36
+              23  -181.07           34          0.45           -5.33     347.57      16.44 Bands_Shift=2; Bands_Shift_Far=2; MaxOrders=0;
+               6  -195.14           33          0.40           -5.91     304.64      14.44
+               3  -199.04           33          0.40           -6.03     311.04      14.74
+               8  -199.04           33          0.40           -6.03     311.04      14.74
+              12  -199.04           33          0.40           -6.03     311.04      14.74 Bands_Shift=1; Bands_Shift_Far=0; MaxOrders=0;
+               4  -207.84           33          0.39           -6.30     317.34      15.04
+              16  -208.10           33          0.39           -6.31     317.60      15.06 Bands_Shift=0; Bands_Shift_Far=1; MaxOrders=0;
+              21  -210.10           33          0.39           -6.37     319.60      15.15 Bands_Shift=0; Bands_Shift_Far=2; MaxOrders=0;
+              19  -227.77           34          0.33           -6.70     341.87      16.17 Bands_Shift=3; Bands_Shift_Far=1; MaxOrders=0;
+              13  -251.50           34          0.32           -7.40     380.34      18.03 Bands_Shift=2; Bands_Shift_Far=0; MaxOrders=0;
+              17  -251.50           34          0.32           -7.40     380.34      18.03 Bands_Shift=1; Bands_Shift_Far=1; MaxOrders=0;
+              18  -251.50           34          0.32           -7.40     380.34      18.03 Bands_Shift=2; Bands_Shift_Far=1; MaxOrders=0;
+              22  -251.50           34          0.32           -7.40     380.34      18.03 Bands_Shift=1; Bands_Shift_Far=2; MaxOrders=0;
+               1  -257.70           60          0.48           -4.30     417.80      19.36
+               9  -260.30           34          0.31           -7.66     380.34      18.03
+              14  -261.40           34          0.31           -7.69     381.44      18.08 Bands_Shift=3; Bands_Shift_Far=0; MaxOrders=0;
+              24  -308.80           60          0.36           -5.15     407.40      19.42 Bands_Shift=3; Bands_Shift_Far=2; MaxOrders=0;
