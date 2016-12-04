@@ -12,24 +12,19 @@
                             Spread          40
                                                                  [Optimization Graph]
         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          19 16499.91         3001          1.36            5.50    7328.79      37.27 WPR_Period_Ratio=2.1; MaxOrders=0; MaxOrdersPerType=0;
-          16 16339.14         3057          1.36            5.34    7231.12      36.97 WPR_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
-          20 16026.46         2981          1.35            5.38    7261.59      37.66 WPR_Period_Ratio=2.2; MaxOrders=0; MaxOrdersPerType=0;
-          21 15968.74         2974          1.35            5.37    7318.74      37.89 WPR_Period_Ratio=2.3; MaxOrders=0; MaxOrdersPerType=0;
-           3 15150.83         2398          1.38            6.32    6825.52      38.06 WPR_Period_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=0;
-           4 15150.83         2398          1.38            6.32    6825.52      38.06 WPR_Period_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=0;
-          18 15007.35         2402          1.37            6.25    6825.52      38.36   WPR_Period_Ratio=2; MaxOrders=0; MaxOrdersPerType=0;
-          10 15000.83         2402          1.37            6.25    6825.52      38.38 WPR_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
-           1 14992.13         2400          1.37            6.25    6825.52      38.40 WPR_Period_Ratio=0.3; MaxOrders=0; MaxOrdersPerType=0;
-          12 14990.02         2405          1.37            6.23    6825.52      38.40 WPR_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
-          15 14990.32         2404          1.37            6.24    6825.52      38.40 WPR_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
-           2 14988.55         2399          1.37            6.25    6825.52      38.41 WPR_Period_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=0;
-           5 14981.67         2412          1.37            6.21    6825.52      38.42 WPR_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
-          17 14487.30         2398          1.36            6.04    6825.52      39.52 WPR_Period_Ratio=1.9; MaxOrders=0; MaxOrdersPerType=0;
-          14 14486.40         2395          1.36            6.05    6825.52      39.52 WPR_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
-           6 14485.99         2409          1.36            6.01    6825.52      39.52 WPR_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
-          13 14430.20         2394          1.36            6.03    6825.52      39.65 WPR_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
-           8 14429.79         2411          1.36            5.98    6825.52      39.65   WPR_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
-           9 14429.89         2411          1.36            5.99    6825.52      39.65 WPR_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
-           7 14172.68         2398          1.35            5.91    6825.52      40.25 WPR_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
-          11 14172.79         2389          1.35            5.93    6825.52      40.25 WPR_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
+          15 13836.30         3929          1.34            3.52    3785.51      37.10 WPR_Period_Ratio=2.5; MaxOrders=0; MaxOrdersPerType=0;
+           8 13741.21         4066          1.33            3.38    3760.32      35.69 WPR_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
+          14 13705.68         3947          1.34            3.47    3848.82      36.55 WPR_Period_Ratio=2.4; MaxOrders=0; MaxOrdersPerType=0;
+           6 13482.15         4089          1.33            3.30    3706.52      37.56 WPR_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
+           7 13312.35         4083          1.32            3.26    3798.12      36.53 WPR_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
+           4 13169.20         3413          1.36            3.86    3677.00      36.90 WPR_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
+           9 13160.88         3425          1.35            3.84    3677.00      37.99 WPR_Period_Ratio=1.9; MaxOrders=0; MaxOrdersPerType=0;
+           5 13153.88         3421          1.35            3.85    3677.00      38.13 WPR_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
+          10 13146.32         3410          1.36            3.86    3677.00      36.21   WPR_Period_Ratio=2; MaxOrders=0; MaxOrdersPerType=0;
+           3 13044.73         4152          1.31            3.14    3852.15      41.31 WPR_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
+          16 12252.00         3438          1.33            3.56    3677.00      43.81 WPR_Period_Ratio=2.6; MaxOrders=0; MaxOrdersPerType=0;
+           1 12247.67         3444          1.33            3.56    3677.00      45.94 WPR_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
+           2 12198.80         3416          1.33            3.57    3677.00      41.34 WPR_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
+          13   565.00          629          1.16            0.90     335.11      13.81 WPR_Period_Ratio=2.3; MaxOrders=0; MaxOrdersPerType=0;
+          11   534.27          668          1.14            0.80     322.30      15.32 WPR_Period_Ratio=2.1; MaxOrders=0; MaxOrdersPerType=0;
+          12   447.47          645          1.12            0.69     297.68      14.20 WPR_Period_Ratio=2.2; MaxOrders=0; MaxOrdersPerType=0;
