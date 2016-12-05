@@ -12,8 +12,8 @@
                             Spread          40
                                                                  [Optimization Graph]
              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                3 4295.34          938          1.21            4.58    5429.09      31.16 MinPipGap=20; MaxOrders=0; MaxOrdersPerType=0;
-                4 2806.13          549          1.53            5.11     674.43       5.31 MinPipGap=30; MaxOrders=0; MaxOrdersPerType=0;
-                5 2651.77          532          1.51            4.98     655.76       5.21 MinPipGap=40; MaxOrders=0; MaxOrdersPerType=0;
-                2  -73.65           47          0.87           -1.57     431.01       4.25 MinPipGap=10; MaxOrders=0; MaxOrdersPerType=0;
-                1 -105.63           58          0.82           -1.82     948.80       9.33  MinPipGap=0; MaxOrders=0; MaxOrdersPerType=0;
+                2 5787.50          919          1.32            6.30    2376.74      13.70 MinPipGap=10; MaxOrders=0; MaxOrdersPerType=0;
+                3 4080.87          664          1.32            6.15    1872.66      12.29 MinPipGap=20; MaxOrders=0; MaxOrdersPerType=0;
+                4 4043.90          580          1.40            6.97    1239.67       8.50 MinPipGap=30; MaxOrders=0; MaxOrdersPerType=0;
+                5 4002.94          544          1.42            7.36    1203.33       8.30 MinPipGap=40; MaxOrders=0; MaxOrdersPerType=0;
+                1 -742.08           65          0.30          -11.42    1444.50      13.68  MinPipGap=0; MaxOrders=0; MaxOrdersPerType=0;
