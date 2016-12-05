@@ -1,0 +1,19 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             2 -165.50           47          0.19           -3.52     177.40       1.77 DeMarker_Period=13; MaxOrders=0; MaxOrdersPerType=0;
+             3 -169.73           44          0.13           -3.86     181.63       1.82 DeMarker_Period=15; MaxOrders=0; MaxOrdersPerType=0;
+             4 -178.80           46          0.22           -3.89     201.50       2.02 DeMarker_Period=17; MaxOrders=0; MaxOrdersPerType=0;
+             5 -194.77           45          0.21           -4.33     210.67       2.11 DeMarker_Period=19; MaxOrders=0; MaxOrdersPerType=0;
+             1 -206.30           46          0.07           -4.48     218.20       2.18 DeMarker_Period=11; MaxOrders=0; MaxOrdersPerType=0;
