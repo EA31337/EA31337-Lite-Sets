@@ -11,31 +11,31 @@
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       19  -153.20           48          0.47           -3.19     230.90       2.29 SAR_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
-       16  -161.97           51          0.48           -3.18     279.67       2.77 SAR_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
-       22  -161.74           45          0.43           -3.59     205.03       2.04 SAR_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
-        4  -166.03           47          0.32           -3.53     182.93       1.83  SAR_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-       20  -168.13           47          0.44           -3.58     200.43       2.00 SAR_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=0;
-       11  -172.94           47          0.43           -3.68     214.23       2.13 SAR_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
-       15  -177.70           47          0.39           -3.78     225.70       2.25 SAR_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-        5  -178.00           54          0.47           -3.30     191.10       1.91  SAR_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
-       12  -180.50           47          0.40           -3.84     224.60       2.24 SAR_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
-       25  -192.10           51          0.46           -3.77     216.90       2.16 SAR_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
-       27  -198.00           54          0.41           -3.67     286.50       2.85 SAR_TrailingProfitMethod=27; MaxOrders=0; MaxOrdersPerType=0;
-        3  -209.43           46          0.25           -4.55     215.03       2.15  SAR_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-       10  -223.40           60          0.44           -3.72     284.50       2.83  SAR_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
-        7  -237.10           52          0.34           -4.56     351.60       3.48  SAR_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
-        8  -278.67           67          0.40           -4.16     456.67       4.49  SAR_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-        1  -286.47           72          0.40           -3.98     447.37       4.40  SAR_TrailingProfitMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-        2  -286.47           72          0.40           -3.98     447.37       4.40  SAR_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-       13  -286.47           72          0.40           -3.98     447.37       4.40 SAR_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
-       14  -286.47           72          0.40           -3.98     447.37       4.40 SAR_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
-       17  -286.47           72          0.40           -3.98     447.37       4.40 SAR_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
-       18  -286.47           72          0.40           -3.98     447.37       4.40 SAR_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
-       21  -286.47           72          0.40           -3.98     447.37       4.40 SAR_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-       24  -286.47           72          0.40           -3.98     447.37       4.40 SAR_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
-       23  -288.37           72          0.40           -4.01     449.27       4.42 SAR_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
-       26  -295.07           73          0.48           -4.04     367.77       3.65 SAR_TrailingProfitMethod=26; MaxOrders=0; MaxOrdersPerType=0;
-        6  -441.37          136          0.45           -3.25     524.87       5.21  SAR_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
-        9 -3969.74         4907          0.88           -0.81    4272.36      42.17  SAR_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       10 -175.47           47          0.39           -3.73     175.47       1.75  SAR_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+       15 -180.80           50          0.42           -3.62     191.00       1.91 SAR_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+       22 -186.74           56          0.46           -3.33     241.74       2.40 SAR_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+        5 -202.67           54          0.43           -3.75     205.90       2.06  SAR_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+        3 -202.60           46          0.26           -4.40     207.50       2.08  SAR_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+        6 -204.80           64          0.50           -3.20     296.90       2.95  SAR_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+       19 -204.44           56          0.43           -3.65     241.94       2.41 SAR_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+       20 -210.30           55          0.43           -3.82     233.60       2.34 SAR_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+        4 -217.27           46          0.20           -4.72     217.27       2.17  SAR_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+       27 -220.27           52          0.41           -4.24     238.77       2.38 SAR_TrailingProfitMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+       11 -222.80           57          0.41           -3.91     227.60       2.27 SAR_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+       26 -222.10           57          0.45           -3.90     343.70       3.40 SAR_TrailingProfitMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+       12 -225.50           54          0.39           -4.18     234.10       2.34 SAR_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+        8 -227.97           63          0.49           -3.62     410.77       4.03  SAR_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+        7 -229.70           58          0.44           -3.96     353.10       3.49  SAR_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+       16 -233.10           63          0.42           -3.70     308.70       3.06 SAR_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+        9 -235.07           62          0.46           -3.79     391.07       3.85  SAR_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+        1 -242.07           68          0.48           -3.56     403.27       3.97  SAR_TrailingProfitMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+        2 -242.07           68          0.48           -3.56     403.27       3.97  SAR_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+       13 -242.07           68          0.48           -3.56     403.27       3.97 SAR_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+       14 -242.07           68          0.48           -3.56     403.27       3.97 SAR_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+       17 -242.07           68          0.48           -3.56     403.27       3.97 SAR_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+       18 -242.07           68          0.48           -3.56     403.27       3.97 SAR_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+       21 -242.07           68          0.48           -3.56     403.27       3.97 SAR_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+       23 -242.07           68          0.48           -3.56     403.27       3.97 SAR_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+       24 -242.07           68          0.48           -3.56     403.27       3.97 SAR_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+       25 -296.34           67          0.41           -4.42     308.94       3.09 SAR_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
