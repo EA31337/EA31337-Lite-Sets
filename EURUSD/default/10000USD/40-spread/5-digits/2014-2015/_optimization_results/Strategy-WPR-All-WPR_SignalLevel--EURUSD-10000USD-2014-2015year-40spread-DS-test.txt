@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             9 5282.92         2131          1.29            2.48    1823.92      11.44 WPR_SignalLevel=37; MaxOrders=0; MaxOrdersPerType=0;
+            10 5269.16         2097          1.29            2.51    1823.92      11.56 WPR_SignalLevel=38; MaxOrders=0; MaxOrdersPerType=0;
+             8 5196.19         2169          1.28            2.40    1823.92      11.55 WPR_SignalLevel=36; MaxOrders=0; MaxOrdersPerType=0;
+            11 5172.95         2036          1.30            2.54    1775.50      11.34 WPR_SignalLevel=39; MaxOrders=0; MaxOrdersPerType=0;
+             6 5135.14         2243          1.27            2.29    1871.12      11.78 WPR_SignalLevel=34; MaxOrders=0; MaxOrdersPerType=0;
+             7 5111.35         2212          1.27            2.31    1809.02      11.45 WPR_SignalLevel=35; MaxOrders=0; MaxOrdersPerType=0;
+             1 4869.44         1887          1.29            2.58    1868.72      12.07 WPR_SignalLevel=29; MaxOrders=0; MaxOrdersPerType=0;
+             2 4838.16         1847          1.29            2.62    1846.72      11.98 WPR_SignalLevel=30; MaxOrders=0; MaxOrdersPerType=0;
+             3 4825.57         1833          1.29            2.63    1846.72      11.99 WPR_SignalLevel=31; MaxOrders=0; MaxOrdersPerType=0;
+             4 4700.70         1816          1.29            2.59    1846.72      12.06 WPR_SignalLevel=32; MaxOrders=0; MaxOrdersPerType=0;
+             5 4591.93         1802          1.28            2.55    1846.72      12.09 WPR_SignalLevel=33; MaxOrders=0; MaxOrdersPerType=0;
