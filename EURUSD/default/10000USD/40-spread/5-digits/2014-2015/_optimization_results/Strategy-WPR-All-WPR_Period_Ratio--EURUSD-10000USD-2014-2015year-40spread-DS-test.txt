@@ -1,0 +1,35 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            1 6693.23         2335          1.35            2.87    2036.33      12.20 WPR_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
+            2 6644.19         2260          1.35            2.94    1917.93      11.50 WPR_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
+            4 6626.73         2138          1.37            3.10    1982.84      11.97 WPR_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
+            3 6477.33         2201          1.35            2.94    1974.44      11.92 WPR_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
+            5 5991.25         2639          1.28            2.27    2156.35      12.98 WPR_Period_Ratio=1.9; MaxOrders=0; MaxOrdersPerType=0;
+            7 5170.52         2004          1.29            2.58    1985.31      12.84 WPR_Period_Ratio=2.1; MaxOrders=0; MaxOrdersPerType=0;
+           11 5135.14         2243          1.27            2.29    1871.12      11.78 WPR_Period_Ratio=2.5; MaxOrders=0; MaxOrdersPerType=0;
+           13 5082.07         2203          1.27            2.31    1862.92      11.55 WPR_Period_Ratio=2.7; MaxOrders=0; MaxOrdersPerType=0;
+            6 5072.29         2004          1.29            2.53    2018.42      13.01   WPR_Period_Ratio=2; MaxOrders=0; MaxOrdersPerType=0;
+           12 4922.22         2232          1.26            2.21    1863.52      11.86 WPR_Period_Ratio=2.6; MaxOrders=0; MaxOrdersPerType=0;
+           10 4785.52         1840          1.29            2.60    1820.82      11.67 WPR_Period_Ratio=2.4; MaxOrders=0; MaxOrdersPerType=0;
+            8 4695.46         1953          1.27            2.40    1911.70      12.75 WPR_Period_Ratio=2.2; MaxOrders=0; MaxOrdersPerType=0;
+            9 4613.29         1896          1.27            2.43    1817.70      11.99 WPR_Period_Ratio=2.3; MaxOrders=0; MaxOrdersPerType=0;
+           15 4446.84         2144          1.24            2.07    1909.32      12.44 WPR_Period_Ratio=2.9; MaxOrders=0; MaxOrdersPerType=0;
+           17 4185.61         2072          1.23            2.02    1862.02      12.32 WPR_Period_Ratio=3.1; MaxOrders=0; MaxOrdersPerType=0;
+           16 4150.74         1704          1.27            2.44    1854.42      12.44   WPR_Period_Ratio=3; MaxOrders=0; MaxOrdersPerType=0;
+           20 3759.40         1988          1.21            1.89    1866.12      12.79 WPR_Period_Ratio=3.4; MaxOrders=0; MaxOrdersPerType=0;
+           18 3557.89         2032          1.20            1.75    1869.22      13.08 WPR_Period_Ratio=3.2; MaxOrders=0; MaxOrdersPerType=0;
+           21 3422.46         1621          1.25            2.11    1421.21      10.08 WPR_Period_Ratio=3.5; MaxOrders=0; MaxOrdersPerType=0;
+           19 2695.11         1662          1.19            1.62    1435.61      10.74 WPR_Period_Ratio=3.3; MaxOrders=0; MaxOrdersPerType=0;
+           14  948.32          915          1.15            1.04     521.91       4.76 WPR_Period_Ratio=2.8; MaxOrders=0; MaxOrdersPerType=0;
