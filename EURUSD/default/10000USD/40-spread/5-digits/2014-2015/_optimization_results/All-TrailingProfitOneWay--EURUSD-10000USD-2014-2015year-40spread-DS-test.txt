@@ -12,5 +12,5 @@
                             Spread          40
                                                                  [Optimization Graph]
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1 4295.34          938          1.21            4.58    5429.09      31.16 TrailingProfitOneWay=0; MaxOrders=0; MaxOrdersPerType=0;
-           2 3901.05          940          1.19            4.15    5418.88      31.74 TrailingProfitOneWay=1; MaxOrders=0; MaxOrdersPerType=0;
+           1 4080.87          664          1.32            6.15    1872.66      12.29 TrailingProfitOneWay=0; MaxOrders=0; MaxOrdersPerType=0;
+           2 4050.60          664          1.32            6.10    1877.96      12.33 TrailingProfitOneWay=1; MaxOrders=0; MaxOrdersPerType=0;
