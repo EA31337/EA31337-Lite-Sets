@@ -1,0 +1,18 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          5 Minutes (M5) 2014.01.02 06:20 - 2015.12.30 23:55 (2014.01.01 - 2015.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 10000.00
+                             Spread          40
+                                                                 [Optimization Graph]
+       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          3 -50.80           11          0.00           -4.62      53.50       0.53 Fractals5_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+          4 -54.60           11          0.00           -4.96      55.40       0.55 Fractals5_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+          1 -60.30           11          0.00           -5.48      63.20       0.63 Fractals5_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+          2 -75.30           12          0.00           -6.27      75.30       0.75 Fractals5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
