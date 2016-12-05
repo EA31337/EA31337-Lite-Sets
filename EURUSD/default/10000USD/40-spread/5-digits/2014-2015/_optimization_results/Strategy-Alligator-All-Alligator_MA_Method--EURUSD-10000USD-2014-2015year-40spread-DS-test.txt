@@ -12,7 +12,7 @@
                             Spread          40
                                                                  [Optimization Graph]
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           4 -270.47           46          0.29           -5.88     374.77       3.71 Alligator_MA_Method=3; MaxOrders=0; MaxOrdersPerType=0;
-           1 -303.97           53          0.35           -5.74     466.27       4.59 Alligator_MA_Method=0; MaxOrders=0; MaxOrdersPerType=0;
-           3 -318.10           45          0.25           -7.07     375.84       3.74 Alligator_MA_Method=2; MaxOrders=0; MaxOrdersPerType=0;
-           2 -374.14           53          0.24           -7.06     438.14       4.35 Alligator_MA_Method=1; MaxOrders=0; MaxOrdersPerType=0;
+           4 -262.11           56          0.41           -4.68     430.90       4.24 Alligator_MA_Method=3; MaxOrders=0; MaxOrdersPerType=0;
+           3 -297.60           46          0.30           -6.47     366.07       3.65 Alligator_MA_Method=2; MaxOrders=0; MaxOrdersPerType=0;
+           2 -306.97           54          0.33           -5.68     363.14       3.62 Alligator_MA_Method=1; MaxOrders=0; MaxOrdersPerType=0;
+           1 -498.68          120          0.45           -4.16     736.85       7.21 Alligator_MA_Method=0; MaxOrders=0; MaxOrdersPerType=0;
