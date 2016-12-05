@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             6 6152.51         1848          1.34            3.33    2015.21      12.88  RSI_SignalLevel=6; MaxOrders=0; MaxOrdersPerType=0;
+             5 6040.33         2162          1.29            2.79    2141.68      13.63  RSI_SignalLevel=5; MaxOrders=0; MaxOrdersPerType=0;
+             7 5940.99         1610          1.36            3.69    2007.21      12.65  RSI_SignalLevel=7; MaxOrders=0; MaxOrdersPerType=0;
+             4 5657.54         2441          1.25            2.32    2196.77      14.28  RSI_SignalLevel=4; MaxOrders=0; MaxOrdersPerType=0;
+            10 5127.63         1069          1.42            4.80    1934.86      12.34 RSI_SignalLevel=10; MaxOrders=0; MaxOrdersPerType=0;
+            11 4653.43          922          1.44            5.05    2006.91      13.14 RSI_SignalLevel=11; MaxOrders=0; MaxOrdersPerType=0;
+             3 1565.86         1024          1.20            1.53     579.99       4.89  RSI_SignalLevel=3; MaxOrders=0; MaxOrdersPerType=0;
+             8 1482.14          585          1.29            2.53     487.95       4.14  RSI_SignalLevel=8; MaxOrders=0; MaxOrdersPerType=0;
+             9 1426.99          504          1.31            2.83     443.23       4.16  RSI_SignalLevel=9; MaxOrders=0; MaxOrdersPerType=0;
+             1  478.12         1502          1.05            0.32    1214.46      11.91  RSI_SignalLevel=1; MaxOrders=0; MaxOrdersPerType=0;
+             2 -479.01          101          0.44           -4.74     587.14       5.81  RSI_SignalLevel=2; MaxOrders=0; MaxOrdersPerType=0;
