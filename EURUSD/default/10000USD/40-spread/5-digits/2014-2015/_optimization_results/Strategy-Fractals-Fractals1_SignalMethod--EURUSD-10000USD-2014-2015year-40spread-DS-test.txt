@@ -11,8 +11,8 @@
                              Initial deposit 10000.00
                              Spread          40
                                                                  [Optimization Graph]
-       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          2 -36.40           13          0.17           -2.80      37.10       0.37 Fractals1_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-          3 -38.70           13          0.14           -2.98      44.60       0.45 Fractals1_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-          1 -48.70           13          0.09           -3.75      55.60       0.56 Fractals1_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-          4 -55.30           11          0.04           -5.03      57.30       0.57 Fractals1_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         2  -405.39           42          0.59           -9.65     451.39       4.51 Fractals1_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+         4  -466.40           17          0.02          -27.44     523.97       5.24 Fractals1_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+         3 -1106.77           22          0.03          -50.31    1226.00      12.23 Fractals1_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+         1 -2889.17          116          0.23          -24.91    3075.94      30.76 Fractals1_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
