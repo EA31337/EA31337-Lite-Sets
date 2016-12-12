@@ -12,8 +12,7 @@
                             Spread          40
                                                                  [Optimization Graph]
         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           3 28293.45         2008          1.50           14.09   11351.58      31.03 BoostTrendFactor=1.6; MaxOrders=0; MaxOrdersPerType=0;
-           4 28293.45         2008          1.50           14.09   11351.58      31.03 BoostTrendFactor=1.7; MaxOrders=0; MaxOrdersPerType=0;
-           5 28293.45         2008          1.50           14.09   11351.58      31.03 BoostTrendFactor=1.8; MaxOrders=0; MaxOrdersPerType=0;
-           1 23896.51         2009          1.44           11.89   10635.50      29.68 BoostTrendFactor=1.4; MaxOrders=0; MaxOrdersPerType=0;
-           2 23896.51         2009          1.44           11.89   10635.50      29.68 BoostTrendFactor=1.5; MaxOrders=0; MaxOrdersPerType=0;
+           3 21062.25        15700          1.04            1.34   17638.15      53.29 BoostTrendFactor=1.7; MaxOrders=0; MaxOrdersPerType=0;
+           4 21062.25        15700          1.04            1.34   17638.15      53.29 BoostTrendFactor=1.8; MaxOrders=0; MaxOrdersPerType=0;
+           1 -3073.48         3938          0.98           -0.78    7782.21      57.81 BoostTrendFactor=1.4; MaxOrders=0; MaxOrdersPerType=0;
+           2 -3073.48         3938          0.98           -0.78    7782.21      57.81 BoostTrendFactor=1.5; MaxOrders=0; MaxOrdersPerType=0;
