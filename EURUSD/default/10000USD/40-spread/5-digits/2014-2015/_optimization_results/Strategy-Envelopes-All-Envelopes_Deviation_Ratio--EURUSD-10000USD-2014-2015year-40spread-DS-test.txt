@@ -1,0 +1,35 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      19 6626.50         3369          1.19            1.97    4041.75      20.90  Envelopes_Deviation_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
+      20 6140.70         3005          1.20            2.04    3654.14      20.05    Envelopes_Deviation_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
+      16 5986.48         3174          1.18            1.89    4054.19      21.74  Envelopes_Deviation_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=0;
+      11 5893.76         2964          1.19            1.99    3896.01      21.24  Envelopes_Deviation_Ratio=0.1; MaxOrders=0; MaxOrdersPerType=0;
+      10 5718.39         2946          1.18            1.94    4111.31      22.39    Envelopes_Deviation_Ratio=0; MaxOrders=0; MaxOrdersPerType=0;
+      12 5697.90         3012          1.18            1.89    3997.91      21.90  Envelopes_Deviation_Ratio=0.2; MaxOrders=0; MaxOrdersPerType=0;
+      15 5508.78         3125          1.17            1.76    4267.03      23.19  Envelopes_Deviation_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=0;
+       8 5470.22         2892          1.18            1.89    4243.10      23.28 Envelopes_Deviation_Ratio=-0.2; MaxOrders=0; MaxOrdersPerType=0;
+      14 5435.92         3078          1.17            1.77    4259.03      23.25  Envelopes_Deviation_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=0;
+       9 5279.49         2914          1.17            1.81    4256.61      23.54 Envelopes_Deviation_Ratio=-0.1; MaxOrders=0; MaxOrdersPerType=0;
+      13 5278.06         3045          1.16            1.73    4235.02      23.35  Envelopes_Deviation_Ratio=0.3; MaxOrders=0; MaxOrdersPerType=0;
+       7 5004.43         2874          1.16            1.74    4056.19      22.97 Envelopes_Deviation_Ratio=-0.3; MaxOrders=0; MaxOrdersPerType=0;
+      17 4863.87         3683          1.13            1.32    4328.65      24.24  Envelopes_Deviation_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
+       6 4668.16         2855          1.15            1.64    3983.99      23.17 Envelopes_Deviation_Ratio=-0.4; MaxOrders=0; MaxOrdersPerType=0;
+      18 4538.06         3827          1.12            1.19    4600.94      25.77  Envelopes_Deviation_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
+       5 4375.41         2838          1.14            1.54    3998.57      23.50 Envelopes_Deviation_Ratio=-0.5; MaxOrders=0; MaxOrdersPerType=0;
+       4 4277.19         2826          1.14            1.51    3904.77      23.14 Envelopes_Deviation_Ratio=-0.6; MaxOrders=0; MaxOrdersPerType=0;
+       3 4062.38         2806          1.14            1.45    4201.05      24.76 Envelopes_Deviation_Ratio=-0.7; MaxOrders=0; MaxOrdersPerType=0;
+       2 4017.39         2788          1.14            1.44    4361.99      25.56 Envelopes_Deviation_Ratio=-0.8; MaxOrders=0; MaxOrdersPerType=0;
+       1 3874.03         2776          1.13            1.40    4596.76      26.81 Envelopes_Deviation_Ratio=-0.9; MaxOrders=0; MaxOrdersPerType=0;
+      21 2452.42         2217          1.12            1.11    2195.55      15.77  Envelopes_Deviation_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;

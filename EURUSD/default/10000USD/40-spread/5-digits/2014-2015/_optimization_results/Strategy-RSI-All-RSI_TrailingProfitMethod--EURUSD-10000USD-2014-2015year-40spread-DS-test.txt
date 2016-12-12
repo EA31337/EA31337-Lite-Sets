@@ -1,0 +1,36 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        8 13496.09         4990          1.31            2.70    5809.50      26.94  RSI_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+        7 10752.11         5008          1.25            2.15    5816.72      30.29  RSI_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+        9 10709.45         5015          1.25            2.14    5637.60      29.52  RSI_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+       19 10433.45         3598          1.35            2.90    4715.60      24.54 RSI_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+       18 10413.65         3599          1.35            2.89    4715.50      24.55 RSI_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+       16 10372.65         3599          1.34            2.88    4715.50      24.62 RSI_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+       12 10354.45         3599          1.34            2.88    4715.50      24.62 RSI_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+       14 10343.75         3599          1.34            2.87    4715.50      24.63 RSI_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+       11 10336.56         3599          1.34            2.87    4715.30      24.65 RSI_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+       15 10315.96         3599          1.34            2.87    4715.50      24.65 RSI_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+        1  9940.75         3599          1.33            2.76    4673.40      24.96  RSI_TrailingProfitMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+        2  9940.75         3599          1.33            2.76    4673.40      24.96  RSI_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+       20  3194.95         2425          1.13            1.32    5954.78      41.18 RSI_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+       17  2952.09         2430          1.11            1.21    5860.74      41.79 RSI_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+       21  1314.38         4115          1.04            0.32    2518.07      20.81 RSI_TrailingProfitMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+        3  -172.30           45          0.30           -3.83     194.80       1.95  RSI_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+        4  -179.90           47          0.25           -3.83     205.90       2.06  RSI_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+       10  -211.67           60          0.33           -3.53     277.57       2.78  RSI_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+        6  -230.28           90          0.65           -2.56     293.47       2.92  RSI_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+        5  -631.08          139          0.46           -4.54     646.38       6.46  RSI_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+       22 -2034.75         4132          0.93           -0.49    3581.31      34.11 RSI_TrailingProfitMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+       13 -2923.40         1101          0.78           -2.66    4100.65      40.25 RSI_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;

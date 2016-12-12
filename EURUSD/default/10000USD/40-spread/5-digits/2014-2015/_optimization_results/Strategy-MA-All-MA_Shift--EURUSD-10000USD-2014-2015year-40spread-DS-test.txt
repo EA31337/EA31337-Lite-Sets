@@ -1,0 +1,33 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+           Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              1 12706.54         9849          1.14            1.29    7489.99      41.03 MA_Shift=2; MA_Shift_Fast=-1; MA_Shift_Medium=0;
+              5 11923.52         9892          1.13            1.21    6903.81      41.43  MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=0;
+             12 11907.10         9826          1.13            1.21    7897.50      42.07 MA_Shift=2; MA_Shift_Fast=-1; MA_Shift_Medium=1;
+             11 11837.19         9931          1.13            1.19    8041.33      37.05  MA_Shift=2; MA_Shift_Fast=1; MA_Shift_Medium=1;
+             17 11780.74         9895          1.13            1.19    7436.33      39.94  MA_Shift=2; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              3 11426.03         9929          1.13            1.15    8048.74      39.01  MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=1;
+             10 11314.91         9876          1.13            1.15    6970.11      43.51 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=-1;
+              8 11250.63         9902          1.13            1.14    6850.35      41.68  MA_Shift=1; MA_Shift_Fast=1; MA_Shift_Medium=0;
+              4 11250.63         9902          1.13            1.14    6850.35      41.68 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=-1;
+             16 11229.99         9912          1.13            1.13    7391.39      44.21  MA_Shift=2; MA_Shift_Fast=1; MA_Shift_Medium=0;
+             13 11154.84         9940          1.13            1.12    7893.32      40.51 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=-1;
+              6 11154.84         9940          1.13            1.12    7893.32      40.51  MA_Shift=1; MA_Shift_Fast=1; MA_Shift_Medium=0;
+             19 11149.09         9891          1.13            1.13    7095.40      44.41 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=-1;
+              7 11099.28         9887          1.12            1.12    7545.53      46.56  MA_Shift=2; MA_Shift_Fast=1; MA_Shift_Medium=0;
+              2 10989.73         9876          1.12            1.11    7342.49      44.81 MA_Shift=2; MA_Shift_Fast=1; MA_Shift_Medium=-1;
+             14 10901.23         9880          1.12            1.10    7516.87      45.07  MA_Shift=2; MA_Shift_Fast=1; MA_Shift_Medium=0;
+             18 10898.07         9919          1.12            1.10    8342.23      39.13  MA_Shift=2; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              9  7831.72        11585          1.07            0.68   10155.70      47.54 MA_Shift=2; MA_Shift_Fast=1; MA_Shift_Medium=-1;
+             15  7782.34        11606          1.07            0.67    9955.08      47.21 MA_Shift=2; MA_Shift_Fast=1; MA_Shift_Medium=-1;

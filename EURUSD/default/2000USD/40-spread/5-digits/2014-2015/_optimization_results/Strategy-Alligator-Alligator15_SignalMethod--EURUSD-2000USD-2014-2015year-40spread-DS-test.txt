@@ -1,0 +1,36 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          15 Minutes (M15) 2014.01.02 23:00 - 2015.12.30 23:45 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        5  -56.64           11          0.43           -5.15     109.27       5.32 Alligator15_SignalMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+        6  -56.64           11          0.43           -5.15     109.27       5.32 Alligator15_SignalMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+       11  -67.86           12          0.30           -5.66     139.67       6.91 Alligator15_SignalMethod=30; MaxOrders=0; MaxOrdersPerType=0;
+       16  -73.27           15          0.46           -4.88     147.57       7.17 Alligator15_SignalMethod=45; MaxOrders=0; MaxOrdersPerType=0;
+       21 -100.76           12          0.23           -8.40     129.67       6.48 Alligator15_SignalMethod=60; MaxOrders=0; MaxOrdersPerType=0;
+       22 -100.76           12          0.23           -8.40     129.67       6.48 Alligator15_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=0;
+       14 -106.91           11          0.28           -9.72     164.13       7.98 Alligator15_SignalMethod=39; MaxOrders=0; MaxOrdersPerType=0;
+        8 -113.14           11          0.08          -10.29     133.37       6.60 Alligator15_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+        3 -114.61           11          0.27          -10.42     188.93       9.12  Alligator15_SignalMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+        9 -125.54           11          0.08          -11.41     130.97       6.54 Alligator15_SignalMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+       10 -125.54           11          0.08          -11.41     130.97       6.54 Alligator15_SignalMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+       13 -130.61           12          0.24          -10.88     203.33       9.81 Alligator15_SignalMethod=36; MaxOrders=0; MaxOrdersPerType=0;
+       15 -134.04           11          0.11          -12.19     144.98       7.24 Alligator15_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=0;
+        4 -149.84           11          0.07          -13.62     151.28       7.56  Alligator15_SignalMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+       19 -153.91           11          0.06          -13.99     155.24       7.76 Alligator15_SignalMethod=54; MaxOrders=0; MaxOrdersPerType=0;
+        7 -169.60           12          0.06          -14.13     174.14       8.70 Alligator15_SignalMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+        2 -178.11           11          0.05          -16.19     179.44       8.97  Alligator15_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+       20 -179.64           12          0.08          -14.97     180.97       9.04 Alligator15_SignalMethod=57; MaxOrders=0; MaxOrdersPerType=0;
+        1 -180.41           11          0.05          -16.40     182.54       9.12  Alligator15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+       18 -200.54           13          0.04          -15.43     201.87      10.09 Alligator15_SignalMethod=51; MaxOrders=0; MaxOrdersPerType=0;
+       17 -203.21           11          0.01          -18.47     207.74      10.38 Alligator15_SignalMethod=48; MaxOrders=0; MaxOrdersPerType=0;
+       12 -216.01           12          0.01          -18.00     220.55      11.02 Alligator15_SignalMethod=33; MaxOrders=0; MaxOrdersPerType=0;

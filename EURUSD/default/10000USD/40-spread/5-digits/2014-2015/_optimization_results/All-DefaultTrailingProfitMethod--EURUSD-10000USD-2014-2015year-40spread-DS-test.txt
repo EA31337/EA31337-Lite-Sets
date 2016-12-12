@@ -1,0 +1,27 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+   Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      5 17685.79         7252          1.13            2.44    6360.77      40.28  DefaultTrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+      8 17306.28         6645          1.18            2.60    2870.81      26.92 DefaultTrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+     10 16183.16         6529          1.17            2.48    3156.34      30.40 DefaultTrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+      7 15779.10         6528          1.17            2.42    3014.46      29.03 DefaultTrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+      9 15364.11         6528          1.16            2.35    3041.46      29.29 DefaultTrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+      6 15291.22         6530          1.16            2.34    3060.02      29.47 DefaultTrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+      1 13940.55         6528          1.15            2.14    3138.20      30.22  DefaultTrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+      4 10812.27         9619          1.08            1.12    5165.80      47.71  DefaultTrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+      3  8069.23         6165          1.09            1.31    3685.38      35.55  DefaultTrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+     12  4095.57         5528          1.05            0.74    4083.35      38.20 DefaultTrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+     13  4095.57         5528          1.05            0.74    4083.35      38.20 DefaultTrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+      2   578.36         5899          1.01            0.10    4524.99      44.09  DefaultTrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+     11   -99.85          917          0.99           -0.11    1769.91      17.57 DefaultTrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;

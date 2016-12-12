@@ -1,0 +1,24 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           4  4563.48         5123          1.06            0.89    5874.38      36.97 MarketSpecificHour=11; MaxOrders=0; MaxOrdersPerType=0;
+           3  4159.29         4759          1.06            0.87    3958.66      32.57 MarketSpecificHour=10; MaxOrders=0; MaxOrdersPerType=0;
+           7  2734.82         4840          1.03            0.57    8474.58      45.89 MarketSpecificHour=17; MaxOrders=0; MaxOrdersPerType=0;
+           8  2025.11         2353          1.06            0.86    5651.64      34.67 MarketSpecificHour=18; MaxOrders=0; MaxOrdersPerType=0;
+           9  1458.51         2373          1.04            0.61    5226.75      34.09 MarketSpecificHour=19; MaxOrders=0; MaxOrdersPerType=0;
+           5  1387.10         2601          1.04            0.53    4305.98      31.92 MarketSpecificHour=12; MaxOrders=0; MaxOrdersPerType=0;
+           6   515.99         3251          1.01            0.16    6357.85      45.57 MarketSpecificHour=13; MaxOrders=0; MaxOrdersPerType=0;
+           1   146.56         1425          1.01            0.10    2659.45      20.92  MarketSpecificHour=1; MaxOrders=0; MaxOrdersPerType=0;
+          10 -1339.26         3303          0.98           -0.41    7769.22      48.36 MarketSpecificHour=20; MaxOrders=0; MaxOrdersPerType=0;
+           2 -2515.30         3938          0.96           -0.64    5363.34      43.66  MarketSpecificHour=5; MaxOrders=0; MaxOrdersPerType=0;

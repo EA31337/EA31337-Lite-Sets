@@ -1,0 +1,41 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+   Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      5 -133.27           46          0.32           -2.90     138.60       1.39  Fractals_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+     22 -167.87           53          0.32           -3.17     171.07       1.71 Fractals_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+      6 -167.14           53          0.36           -3.15     168.93       1.69  Fractals_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+      4 -168.80           45          0.16           -3.75     168.80       1.69  Fractals_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+      8 -169.63           59          0.46           -2.88     225.73       2.25  Fractals_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+     26 -171.04           61          0.46           -2.80     221.93       2.21 Fractals_TrailingProfitMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+     16 -177.00           59          0.34           -3.00     186.50       1.86 Fractals_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+      3 -178.43           44          0.18           -4.06     178.43       1.78  Fractals_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+     10 -180.70           72          0.44           -2.51     220.60       2.20  Fractals_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+     25 -180.00           64          0.44           -2.81     236.30       2.35 Fractals_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+      9 -197.40           78          0.45           -2.53     247.90       2.47  Fractals_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+     12 -201.63           70          0.32           -2.88     201.64       2.02 Fractals_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+     11 -215.50           76          0.39           -2.84     239.90       2.39 Fractals_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+      7 -217.00           83          0.43           -2.61     256.20       2.55  Fractals_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+     15 -226.47           83          0.39           -2.73     239.87       2.40 Fractals_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+     19 -233.87           85          0.39           -2.75     249.47       2.49 Fractals_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+     27 -237.20           75          0.42           -3.16     264.20       2.63 Fractals_TrailingProfitMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+      1 -244.87           86          0.46           -2.85     310.57       3.09  Fractals_TrailingProfitMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+      2 -244.87           86          0.46           -2.85     310.57       3.09  Fractals_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+     13 -244.87           86          0.46           -2.85     310.57       3.09 Fractals_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+     14 -244.87           86          0.46           -2.85     310.57       3.09 Fractals_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+     17 -244.87           86          0.46           -2.85     310.57       3.09 Fractals_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+     18 -244.87           86          0.46           -2.85     310.57       3.09 Fractals_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+     21 -244.87           86          0.46           -2.85     310.57       3.09 Fractals_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+     23 -244.87           86          0.46           -2.85     310.57       3.09 Fractals_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+     24 -244.87           86          0.46           -2.85     310.57       3.09 Fractals_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+     20 -256.87           86          0.38           -2.99     278.67       2.78 Fractals_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=0;
