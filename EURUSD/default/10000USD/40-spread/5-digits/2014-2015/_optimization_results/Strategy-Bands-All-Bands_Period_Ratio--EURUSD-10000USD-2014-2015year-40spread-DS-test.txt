@@ -6,30 +6,30 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           6 2238.29          650          1.28            3.44    1009.81       8.37   Bands_Period_Ratio=2; MaxOrders=0; MaxOrdersPerType=0;
-           9 1801.07         1368          1.11            1.32    2735.62      20.30 Bands_Period_Ratio=2.3; MaxOrders=0; MaxOrdersPerType=0;
-          13 1732.69         1261          1.11            1.37    2979.16      21.75 Bands_Period_Ratio=2.7; MaxOrders=0; MaxOrdersPerType=0;
-           5 1702.50          669          1.20            2.54    1351.43      10.92 Bands_Period_Ratio=1.9; MaxOrders=0; MaxOrdersPerType=0;
-          12 1700.83         1264          1.11            1.35    2962.86      21.67 Bands_Period_Ratio=2.6; MaxOrders=0; MaxOrdersPerType=0;
-           3 1645.38          730          1.18            2.25    1640.52      13.04 Bands_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
-          15 1625.63         1256          1.11            1.29    3313.19      23.61 Bands_Period_Ratio=2.9; MaxOrders=0; MaxOrdersPerType=0;
-          10 1552.45         1319          1.10            1.18    2678.13      20.21 Bands_Period_Ratio=2.4; MaxOrders=0; MaxOrdersPerType=0;
-          16 1549.25         1235          1.10            1.25    3140.89      22.66   Bands_Period_Ratio=3; MaxOrders=0; MaxOrdersPerType=0;
-          14 1488.69         1257          1.10            1.18    3232.42      23.71 Bands_Period_Ratio=2.8; MaxOrders=0; MaxOrdersPerType=0;
-          11 1465.41         1285          1.10            1.14    2952.53      21.99 Bands_Period_Ratio=2.5; MaxOrders=0; MaxOrdersPerType=0;
-           4 1455.72          695          1.16            2.09    1513.45      12.32 Bands_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
-           7 1436.47         1437          1.08            1.00    2616.76      19.97 Bands_Period_Ratio=2.1; MaxOrders=0; MaxOrdersPerType=0;
-           8 1063.56         1397          1.06            0.76    2836.57      21.87 Bands_Period_Ratio=2.2; MaxOrders=0; MaxOrdersPerType=0;
-          18 1000.84         1212          1.06            0.83    3515.32      25.32 Bands_Period_Ratio=3.2; MaxOrders=0; MaxOrdersPerType=0;
-           2  520.57          766          1.05            0.68    1989.59      16.86 Bands_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
-          17  342.95          533          1.05            0.64    1818.39      15.47 Bands_Period_Ratio=3.1; MaxOrders=0; MaxOrdersPerType=0;
-          19  264.52          744          1.03            0.36    1492.86      12.94 Bands_Period_Ratio=3.3; MaxOrders=0; MaxOrdersPerType=0;
-          20  137.40          736          1.02            0.19    1485.12      13.03 Bands_Period_Ratio=3.4; MaxOrders=0; MaxOrdersPerType=0;
-          21   22.82          709          1.00            0.03    1493.96      13.23 Bands_Period_Ratio=3.5; MaxOrders=0; MaxOrdersPerType=0;
-           1 -287.27           65          0.43           -4.42     352.67       3.50 Bands_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
+           5 -409.97           89          0.38           -4.61     700.37       6.81 Bands_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
+           3 -420.27          103          0.41           -4.08     707.57       6.89 Bands_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
+           4 -428.47           92          0.38           -4.66     705.00       6.86 Bands_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
+           8 -431.97           81          0.32           -5.33     649.70       6.36 Bands_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
+           9 -432.07           89          0.36           -4.85     669.07       6.54 Bands_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
+           6 -433.07           93          0.36           -4.66     692.87       6.75 Bands_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
+           7 -435.94           81          0.32           -5.38     658.33       6.44 Bands_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
+          10 -458.80           82          0.32           -5.60     674.30       6.60 Bands_Period_Ratio=1.9; MaxOrders=0; MaxOrdersPerType=0;
+           2 -462.87          113          0.40           -4.10     719.67       7.02 Bands_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
+          16 -467.57          113          0.45           -4.14     775.97       7.53 Bands_Period_Ratio=2.5; MaxOrders=0; MaxOrdersPerType=0;
+          18 -473.77          116          0.45           -4.08     779.17       7.56 Bands_Period_Ratio=2.7; MaxOrders=0; MaxOrdersPerType=0;
+           1 -473.27          120          0.39           -3.94     618.27       6.09   Bands_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
+          15 -474.87          113          0.44           -4.20     783.27       7.61 Bands_Period_Ratio=2.4; MaxOrders=0; MaxOrdersPerType=0;
+          17 -475.77          114          0.45           -4.17     768.37       7.47 Bands_Period_Ratio=2.6; MaxOrders=0; MaxOrdersPerType=0;
+          14 -479.04          112          0.44           -4.28     774.84       7.53 Bands_Period_Ratio=2.3; MaxOrders=0; MaxOrdersPerType=0;
+          19 -483.24          117          0.44           -4.13     784.04       7.62 Bands_Period_Ratio=2.8; MaxOrders=0; MaxOrdersPerType=0;
+          13 -504.70           93          0.34           -5.43     665.80       6.55 Bands_Period_Ratio=2.2; MaxOrders=0; MaxOrdersPerType=0;
+          11 -505.47          100          0.35           -5.05     802.27       7.79   Bands_Period_Ratio=2; MaxOrders=0; MaxOrdersPerType=0;
+          12 -521.60           99          0.34           -5.27     735.70       7.20 Bands_Period_Ratio=2.1; MaxOrders=0; MaxOrdersPerType=0;
+          20 -552.87          121          0.41           -4.57     850.07       8.26 Bands_Period_Ratio=2.9; MaxOrders=0; MaxOrdersPerType=0;
+          21 -558.77          122          0.41           -4.58     862.77       8.38   Bands_Period_Ratio=3; MaxOrders=0; MaxOrdersPerType=0;
