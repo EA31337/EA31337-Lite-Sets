@@ -6,13 +6,13 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Period          15 Minutes (M15) 2014.01.02 23:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
                             Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         4  122.00           36          1.34            3.39    1308.68      11.89 Fractals15_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-         1  -29.18           42          0.91           -0.69    1101.60      10.60 Fractals15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-         3  -93.94           40          0.68           -2.35    1272.03      11.75 Fractals15_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-         2 -193.99           38          0.49           -5.10    1218.90      12.00 Fractals15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         4  -339.17           31          0.62          -10.94     940.47       9.40 Fractals15_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+         2  -570.35           60          0.56           -9.51    1551.41      15.17 Fractals15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+         1  -920.88           55          0.51          -16.74    2054.90      20.55 Fractals15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         3 -1087.21           44          0.43          -24.71    1684.41      16.83 Fractals15_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
