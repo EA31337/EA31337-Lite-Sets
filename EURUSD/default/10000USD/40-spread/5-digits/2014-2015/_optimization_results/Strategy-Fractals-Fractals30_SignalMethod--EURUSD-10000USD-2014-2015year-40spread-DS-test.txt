@@ -6,13 +6,13 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         1  502.22           57          4.93            8.81     282.30       2.79 Fractals30_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-         2  403.81           39          7.64           10.35     365.70       3.57 Fractals30_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-         3 -120.81           11          0.35          -10.98     210.97       2.10 Fractals30_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-         4 -126.64           13          0.43           -9.74     163.34       1.63 Fractals30_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+         2  949.10           53         10.60           17.91    2544.33      24.92 Fractals30_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+         1  630.82           64          2.02            9.86     573.22       5.71 Fractals30_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         3  598.89           44         16.83           13.61    1632.80      16.09 Fractals30_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+         4 -793.89           38          0.10          -20.89    1615.00      15.92 Fractals30_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
