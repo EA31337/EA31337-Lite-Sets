@@ -1,0 +1,90 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      46  3995.44           78         29.92           51.22    1312.20      10.54  Envelopes15_SignalMethod=65; MaxOrders=0; MaxOrdersPerType=0;
+      50  3995.44           78         29.92           51.22    1312.20      10.54  Envelopes15_SignalMethod=73; MaxOrders=0; MaxOrdersPerType=0;
+      54  3995.44           78         29.92           51.22    1312.20      10.54  Envelopes15_SignalMethod=81; MaxOrders=0; MaxOrdersPerType=0;
+      58  3995.44           78         29.92           51.22    1312.20      10.54  Envelopes15_SignalMethod=89; MaxOrders=0; MaxOrdersPerType=0;
+      62  3995.44           78         29.92           51.22    1312.20      10.54  Envelopes15_SignalMethod=97; MaxOrders=0; MaxOrdersPerType=0;
+      66  3995.44           78         29.92           51.22    1312.20      10.54 Envelopes15_SignalMethod=105; MaxOrders=0; MaxOrdersPerType=0;
+      70  3995.44           78         29.92           51.22    1312.20      10.54 Envelopes15_SignalMethod=113; MaxOrders=0; MaxOrdersPerType=0;
+      74  3995.44           78         29.92           51.22    1312.20      10.54 Envelopes15_SignalMethod=121; MaxOrders=0; MaxOrdersPerType=0;
+       5  3824.62           53       9467.87           72.16    2488.30      21.00   Envelopes15_SignalMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+      16  3824.62           53       9467.87           72.16    2488.30      21.00  Envelopes15_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+      27  3824.62           53       9467.87           72.16    2488.30      21.00  Envelopes15_SignalMethod=37; MaxOrders=0; MaxOrdersPerType=0;
+      38  3824.62           53       9467.87           72.16    2488.30      21.00  Envelopes15_SignalMethod=53; MaxOrders=0; MaxOrdersPerType=0;
+      45  3544.20           84         18.37           42.19    1288.00      11.85  Envelopes15_SignalMethod=64; MaxOrders=0; MaxOrdersPerType=0;
+      49  3544.20           84         18.37           42.19    1288.00      11.85  Envelopes15_SignalMethod=72; MaxOrders=0; MaxOrdersPerType=0;
+      53  3544.20           84         18.37           42.19    1288.00      11.85  Envelopes15_SignalMethod=80; MaxOrders=0; MaxOrdersPerType=0;
+      57  3544.20           84         18.37           42.19    1288.00      11.85  Envelopes15_SignalMethod=88; MaxOrders=0; MaxOrdersPerType=0;
+      61  3544.20           84         18.37           42.19    1288.00      11.85  Envelopes15_SignalMethod=96; MaxOrders=0; MaxOrdersPerType=0;
+      65  3544.20           84         18.37           42.19    1288.00      11.85 Envelopes15_SignalMethod=104; MaxOrders=0; MaxOrdersPerType=0;
+      69  3544.20           84         18.37           42.19    1288.00      11.85 Envelopes15_SignalMethod=112; MaxOrders=0; MaxOrdersPerType=0;
+      73  3544.20           84         18.37           42.19    1288.00      11.85 Envelopes15_SignalMethod=120; MaxOrders=0; MaxOrdersPerType=0;
+      47  3450.20           56         50.12           61.61    2380.00      20.06  Envelopes15_SignalMethod=66; MaxOrders=0; MaxOrdersPerType=0;
+      51  3450.20           56         50.12           61.61    2380.00      20.06  Envelopes15_SignalMethod=74; MaxOrders=0; MaxOrdersPerType=0;
+      55  3450.20           56         50.12           61.61    2380.00      20.06  Envelopes15_SignalMethod=82; MaxOrders=0; MaxOrdersPerType=0;
+      59  3450.20           56         50.12           61.61    2380.00      20.06  Envelopes15_SignalMethod=90; MaxOrders=0; MaxOrdersPerType=0;
+      63  3450.20           56         50.12           61.61    2380.00      20.06  Envelopes15_SignalMethod=98; MaxOrders=0; MaxOrdersPerType=0;
+      67  3450.20           56         50.12           61.61    2380.00      20.06 Envelopes15_SignalMethod=106; MaxOrders=0; MaxOrdersPerType=0;
+      71  3450.20           56         50.12           61.61    2380.00      20.06 Envelopes15_SignalMethod=114; MaxOrders=0; MaxOrdersPerType=0;
+      75  3450.20           56         50.12           61.61    2380.00      20.06 Envelopes15_SignalMethod=122; MaxOrders=0; MaxOrdersPerType=0;
+       3  3353.82           57         23.82           58.84    2040.00      17.24   Envelopes15_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+       8  3353.82           57         23.82           58.84    2040.00      17.24  Envelopes15_SignalMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+      14  3353.82           57         23.82           58.84    2040.00      17.24  Envelopes15_SignalMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+      19  3353.82           57         23.82           58.84    2040.00      17.24  Envelopes15_SignalMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+      25  3353.82           57         23.82           58.84    2040.00      17.24  Envelopes15_SignalMethod=34; MaxOrders=0; MaxOrdersPerType=0;
+      30  3353.82           57         23.82           58.84    2040.00      17.24  Envelopes15_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=0;
+      36  3353.82           57         23.82           58.84    2040.00      17.24  Envelopes15_SignalMethod=50; MaxOrders=0; MaxOrdersPerType=0;
+      41  3353.82           57         23.82           58.84    2040.00      17.24  Envelopes15_SignalMethod=58; MaxOrders=0; MaxOrdersPerType=0;
+       6  3280.13           54       8120.13           60.74    2465.00      20.80   Envelopes15_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+      10  3280.13           54       8120.13           60.74    2465.00      20.80  Envelopes15_SignalMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+      11  3280.13           54       8120.13           60.74    2465.00      20.80  Envelopes15_SignalMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+      17  3280.13           54       8120.13           60.74    2465.00      20.80  Envelopes15_SignalMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+      21  3280.13           54       8120.13           60.74    2465.00      20.80  Envelopes15_SignalMethod=29; MaxOrders=0; MaxOrdersPerType=0;
+      22  3280.13           54       8120.13           60.74    2465.00      20.80  Envelopes15_SignalMethod=31; MaxOrders=0; MaxOrdersPerType=0;
+      28  3280.13           54       8120.13           60.74    2465.00      20.80  Envelopes15_SignalMethod=39; MaxOrders=0; MaxOrdersPerType=0;
+      32  3280.13           54       8120.13           60.74    2465.00      20.80  Envelopes15_SignalMethod=45; MaxOrders=0; MaxOrdersPerType=0;
+      33  3280.13           54       8120.13           60.74    2465.00      20.80  Envelopes15_SignalMethod=47; MaxOrders=0; MaxOrdersPerType=0;
+      39  3280.13           54       8120.13           60.74    2465.00      20.80  Envelopes15_SignalMethod=55; MaxOrders=0; MaxOrdersPerType=0;
+      43  3280.13           54       8120.13           60.74    2465.00      20.80  Envelopes15_SignalMethod=61; MaxOrders=0; MaxOrdersPerType=0;
+      44  3280.13           54       8120.13           60.74    2465.00      20.80  Envelopes15_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=0;
+      48  3254.22           51         47.33           63.81    2380.00      20.06  Envelopes15_SignalMethod=67; MaxOrders=0; MaxOrdersPerType=0;
+      52  3254.22           51         47.33           63.81    2380.00      20.06  Envelopes15_SignalMethod=75; MaxOrders=0; MaxOrdersPerType=0;
+      56  3254.22           51         47.33           63.81    2380.00      20.06  Envelopes15_SignalMethod=83; MaxOrders=0; MaxOrdersPerType=0;
+      60  3254.22           51         47.33           63.81    2380.00      20.06  Envelopes15_SignalMethod=91; MaxOrders=0; MaxOrdersPerType=0;
+      64  3254.22           51         47.33           63.81    2380.00      20.06  Envelopes15_SignalMethod=99; MaxOrders=0; MaxOrdersPerType=0;
+      68  3254.22           51         47.33           63.81    2380.00      20.06 Envelopes15_SignalMethod=107; MaxOrders=0; MaxOrdersPerType=0;
+      72  3254.22           51         47.33           63.81    2380.00      20.06 Envelopes15_SignalMethod=115; MaxOrders=0; MaxOrdersPerType=0;
+      76  3254.22           51         47.33           63.81    2380.00      20.06 Envelopes15_SignalMethod=123; MaxOrders=0; MaxOrdersPerType=0;
+       4  3191.92           56         22.66           57.00    2040.00      17.24   Envelopes15_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+       9  3191.92           56         22.66           57.00    2040.00      17.24  Envelopes15_SignalMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+      15  3191.92           56         22.66           57.00    2040.00      17.24  Envelopes15_SignalMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+      20  3191.92           56         22.66           57.00    2040.00      17.24  Envelopes15_SignalMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+      26  3191.92           56         22.66           57.00    2040.00      17.24  Envelopes15_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
+      31  3191.92           56         22.66           57.00    2040.00      17.24  Envelopes15_SignalMethod=43; MaxOrders=0; MaxOrdersPerType=0;
+      37  3191.92           56         22.66           57.00    2040.00      17.24  Envelopes15_SignalMethod=51; MaxOrders=0; MaxOrdersPerType=0;
+      42  3191.92           56         22.66           57.00    2040.00      17.24  Envelopes15_SignalMethod=59; MaxOrders=0; MaxOrdersPerType=0;
+       1  1995.98          108          4.82           18.48    4720.90      32.77   Envelopes15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+       7  1995.98          108          4.82           18.48    4720.90      32.77   Envelopes15_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+      12  1995.98          108          4.82           18.48    4720.90      32.77  Envelopes15_SignalMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+      18  1995.98          108          4.82           18.48    4720.90      32.77  Envelopes15_SignalMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+      23  1995.98          108          4.82           18.48    4720.90      32.77  Envelopes15_SignalMethod=32; MaxOrders=0; MaxOrdersPerType=0;
+      29  1995.98          108          4.82           18.48    4720.90      32.77  Envelopes15_SignalMethod=40; MaxOrders=0; MaxOrdersPerType=0;
+      34  1995.98          108          4.82           18.48    4720.90      32.77  Envelopes15_SignalMethod=48; MaxOrders=0; MaxOrdersPerType=0;
+      40  1995.98          108          4.82           18.48    4720.90      32.77  Envelopes15_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=0;
+       2 -2283.16          128          0.46          -17.84    6396.50      47.69   Envelopes15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+      13 -2283.16          128          0.46          -17.84    6396.50      47.69  Envelopes15_SignalMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+      24 -2283.16          128          0.46          -17.84    6396.50      47.69  Envelopes15_SignalMethod=33; MaxOrders=0; MaxOrdersPerType=0;
+      35 -2283.16          128          0.46          -17.84    6396.50      47.69  Envelopes15_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
