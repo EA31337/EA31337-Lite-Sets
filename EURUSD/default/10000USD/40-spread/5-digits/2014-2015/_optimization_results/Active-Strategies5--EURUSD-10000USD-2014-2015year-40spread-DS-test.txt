@@ -1,0 +1,57 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         25   619.24         1369          1.02            0.45    5528.46      40.03 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=0;
+         24   216.20         1539          1.01            0.14    4170.28      40.51 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=1;
+         38  -594.12         1466          0.98           -0.41    3886.93      31.00 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=0;
+          1  -594.12         1466          0.98           -0.41    3886.93      31.00 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=0;
+         39  -894.31         1108          0.97           -0.81    3461.73      33.69 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=0;
+         36  -908.47         1370          0.97           -0.66    3985.19      38.39 Alligator5_Active=0; Bands5_Active=1; DeMarker5_Active=1;
+          5  -914.74         1469          0.97           -0.62    3951.77      38.39 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=1;
+         37  -942.76         1326          0.97           -0.71    3332.32      32.35 Alligator5_Active=0; Bands5_Active=1; DeMarker5_Active=0;
+         42  -959.00         2046          0.97           -0.47    3960.15      38.42 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=0;
+          3  -979.23         1413          0.97           -0.69    3198.86      31.19 Alligator5_Active=0; Bands5_Active=1; DeMarker5_Active=0;
+         11  -984.64         1192          0.97           -0.83    3409.74      33.15 Alligator5_Active=1; Bands5_Active=1; DeMarker5_Active=0;
+         21 -1015.18         1314          0.97           -0.77    4157.09      40.57 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=0;
+          8 -1111.02         1493          0.96           -0.74    3409.74      32.76 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=1;
+         28 -1179.86         1819          0.97           -0.65    4483.18      44.06 Alligator5_Active=1; Bands5_Active=1; DeMarker5_Active=0;
+         20 -1189.24         1768          0.97           -0.67    5094.32      42.21 Alligator5_Active=1; Bands5_Active=1; DeMarker5_Active=0;
+         34 -1214.69         1262          0.96           -0.96    3725.58      34.66 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=0;
+         27 -1235.04         1544          0.96           -0.80    3636.62      35.22 Alligator5_Active=0; Bands5_Active=1; DeMarker5_Active=1;
+         10 -1237.04          847          0.95           -1.46    3504.66      33.90 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=1;
+         17 -1250.83         1425          0.96           -0.88    4444.54      42.15 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=1;
+         32 -1304.03         1433          0.96           -0.91    4464.48      42.69 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=0;
+          7 -1338.57         1477          0.97           -0.91    5113.51      49.29 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=1;
+         43 -1339.07         1329          0.96           -1.01    3684.41      34.21 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=0;
+         40 -1343.60         1175          0.95           -1.14    3945.52      36.73 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=0;
+         19 -1386.07          846          0.94           -1.64    3531.58      34.16 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=1;
+         16 -1415.71         1529          0.96           -0.93    4736.25      43.40 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=1;
+         41 -1447.34          896          0.94           -1.62    3633.18      35.21 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=0;
+          2 -1450.04         1639          0.96           -0.88    4464.48      42.93 Alligator5_Active=0; Bands5_Active=1; DeMarker5_Active=0;
+          6 -1471.50          940          0.94           -1.57    3650.74      35.40 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=0;
+         31 -1475.36         1497          0.96           -0.99    4444.54      42.92 Alligator5_Active=0; Bands5_Active=1; DeMarker5_Active=1;
+         29 -1509.10          884          0.94           -1.71    3821.20      36.81 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=1;
+         33 -1547.41          796          0.93           -1.94    3591.66      35.29 Alligator5_Active=0; Bands5_Active=1; DeMarker5_Active=0;
+         26 -1555.91          881          0.93           -1.77    3625.35      35.54 Alligator5_Active=1; Bands5_Active=1; DeMarker5_Active=1;
+         35 -1566.39          889          0.93           -1.76    3796.83      36.64 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=1;
+         12 -1585.55          941          0.93           -1.68    3815.99      36.82 Alligator5_Active=1; Bands5_Active=1; DeMarker5_Active=1;
+         22 -1650.31         1509          0.95           -1.09    3842.07      37.33 Alligator5_Active=1; Bands5_Active=1; DeMarker5_Active=1;
+          4 -1763.19          893          0.92           -1.97    3703.64      36.77 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=0;
+         23 -2163.15         1331          0.93           -1.63    3409.74      33.23 Alligator5_Active=0; Bands5_Active=1; DeMarker5_Active=0;
+         30 -2181.86         1288          0.93           -1.69    3984.29      38.38 Alligator5_Active=0; Bands5_Active=0; DeMarker5_Active=1;
+         14 -2436.60          909          0.91           -2.68    4329.38      42.25 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=0;
+         18 -2524.54          858          0.91           -2.94    4494.61      43.53 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=0;
+          9 -2734.54          870          0.90           -3.14    4606.82      45.05 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=0;
+         13 -2854.39         1005          0.89           -2.84    4969.63      48.50 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=0;
+         15 -3462.08          789          0.85           -4.39    3789.19      36.95 Alligator5_Active=1; Bands5_Active=0; DeMarker5_Active=0;
