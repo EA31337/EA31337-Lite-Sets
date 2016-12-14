@@ -6,14 +6,13 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         4  4957.44          989          1.18            5.01    7517.51      35.93  CloseOrderAfterXHours=96; MaxOrders=0; MaxOrdersPerType=0;
-         3  4080.87          664          1.32            6.15    1872.66      12.29  CloseOrderAfterXHours=72; MaxOrders=0; MaxOrdersPerType=0;
-         1  2280.42          706          1.20            3.23    1484.51      11.72  CloseOrderAfterXHours=24; MaxOrders=0; MaxOrdersPerType=0;
-         2  -631.39           59          0.35          -10.70     748.92       7.43  CloseOrderAfterXHours=48; MaxOrders=0; MaxOrdersPerType=0;
-         5 -1316.26          358          0.92           -3.68    7688.55      47.22 CloseOrderAfterXHours=120; MaxOrders=0; MaxOrdersPerType=0;
+         3  -158.72          141          0.92           -1.13    3939.54      34.14 CloseOrderAfterXHours=72; MaxOrders=0; MaxOrdersPerType=0;
+         1  -421.94           82          0.36           -5.15     986.00       9.82 CloseOrderAfterXHours=24; MaxOrders=0; MaxOrdersPerType=0;
+         4 -1128.18          124          0.52           -9.10    3544.13      30.72 CloseOrderAfterXHours=96; MaxOrders=0; MaxOrdersPerType=0;
+         2 -1502.72          128          0.43          -11.74    3185.30      27.61 CloseOrderAfterXHours=48; MaxOrders=0; MaxOrdersPerType=0;
