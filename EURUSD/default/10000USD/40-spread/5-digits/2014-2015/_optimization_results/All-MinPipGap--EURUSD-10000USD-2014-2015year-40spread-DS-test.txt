@@ -6,13 +6,13 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-            Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-               1 50826.32         4212          1.39           12.07   29238.09      35.63  MinPipGap=0; MaxOrders=0; MaxOrdersPerType=0;
-               2 24071.06         3931          1.21            6.12   22553.08      45.60 MinPipGap=20; MaxOrders=0; MaxOrdersPerType=0;
-               4 23821.79         2561          1.32            9.30   13420.96      32.21 MinPipGap=40; MaxOrders=0; MaxOrdersPerType=0;
-               3 22083.36         3151          1.25            7.01   17682.93      40.49 MinPipGap=30; MaxOrders=0; MaxOrdersPerType=0;
+             Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                3 1015.27          831          1.04            1.22    6889.85      43.15 MinPipGap=30; MaxOrders=0; MaxOrdersPerType=0;
+                2  353.56          570          1.02            0.62    4200.63      31.13 MinPipGap=20; MaxOrders=0; MaxOrdersPerType=0;
+                4  -20.19          409          1.00           -0.05    2810.77      22.96 MinPipGap=40; MaxOrders=0; MaxOrdersPerType=0;
+                1 -773.13          329          0.76           -2.35    2786.59      23.71  MinPipGap=0; MaxOrders=0; MaxOrdersPerType=0;

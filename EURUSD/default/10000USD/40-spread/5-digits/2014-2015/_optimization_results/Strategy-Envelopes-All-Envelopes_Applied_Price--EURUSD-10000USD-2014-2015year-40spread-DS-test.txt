@@ -6,16 +6,16 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         7 6090.02         3867          1.16            1.57    4107.55      21.91 Envelopes_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-         1 6011.89         3874          1.16            1.55    4151.75      22.20 Envelopes_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-         2 6011.89         3874          1.16            1.55    4151.75      22.20 Envelopes_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-         3 5991.95         3722          1.16            1.61    4107.85      22.11 Envelopes_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-         4 5893.76         2964          1.19            1.99    3896.01      21.24 Envelopes_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-         6 5879.43         3866          1.16            1.52    4201.24      22.55 Envelopes_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-         5 5810.47         3856          1.16            1.51    4183.48      22.56 Envelopes_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+         1 1708.11           89          1.50           19.19    2233.07      18.84 Envelopes_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+         2 1651.59           36          4.36           45.88     927.11       8.81 Envelopes_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+         5  801.42           96          1.18            8.35    3193.07      26.95 Envelopes_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+         6  707.82           96          1.16            7.37    3193.07      27.17 Envelopes_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+         7  707.82           96          1.16            7.37    3193.07      27.17 Envelopes_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+         3  320.98           40          1.18            8.02    1850.37      17.02 Envelopes_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+         4    9.92           94          1.00            0.11    2873.10      26.45 Envelopes_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;

@@ -6,30 +6,29 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-      11 6090.02         3867          1.16            1.57    4107.55      21.91 Envelopes_MA_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
-      10 6014.79         3857          1.16            1.56    4160.41      22.27 Envelopes_MA_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
-       9 5625.58         3829          1.15            1.47    4515.71      24.27 Envelopes_MA_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
-      12 5425.13         3910          1.14            1.39    4267.32      23.31 Envelopes_MA_Period_Ratio=1.9; MaxOrders=0; MaxOrdersPerType=0;
-      13 5344.10         3927          1.14            1.36    4285.02      23.44   Envelopes_MA_Period_Ratio=2; MaxOrders=0; MaxOrdersPerType=0;
-      15 5239.79         3930          1.14            1.33    4215.28      23.32 Envelopes_MA_Period_Ratio=2.2; MaxOrders=0; MaxOrdersPerType=0;
-      14 5219.89         3930          1.14            1.33    4272.22      23.55 Envelopes_MA_Period_Ratio=2.1; MaxOrders=0; MaxOrdersPerType=0;
-      16 5216.43         3929          1.14            1.33    4275.72      23.64 Envelopes_MA_Period_Ratio=2.3; MaxOrders=0; MaxOrdersPerType=0;
-      17 5102.09         3937          1.13            1.30    4283.38      23.74 Envelopes_MA_Period_Ratio=2.4; MaxOrders=0; MaxOrdersPerType=0;
-      18 4982.70         3938          1.13            1.27    4287.01      23.89 Envelopes_MA_Period_Ratio=2.5; MaxOrders=0; MaxOrdersPerType=0;
-       8 4847.67         3799          1.13            1.28    4726.08      26.08 Envelopes_MA_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
-      20 4536.37         3944          1.12            1.15    4191.45      24.05 Envelopes_MA_Period_Ratio=2.7; MaxOrders=0; MaxOrdersPerType=0;
-      21 4468.13         3942          1.12            1.13    4150.55      23.98 Envelopes_MA_Period_Ratio=2.8; MaxOrders=0; MaxOrdersPerType=0;
-      19 4466.40         3942          1.12            1.13    4263.81      24.45 Envelopes_MA_Period_Ratio=2.6; MaxOrders=0; MaxOrdersPerType=0;
-       7 4143.12         3765          1.11            1.10    4960.86      28.10 Envelopes_MA_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
-       6 4065.67         3690          1.11            1.10    4825.44      27.81 Envelopes_MA_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
-       4 3647.80         3610          1.11            1.01    3799.31      23.01 Envelopes_MA_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
-       3 3538.90         3633          1.10            0.97    2911.10      18.78   Envelopes_MA_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
-       5 3457.79         3655          1.10            0.95    4850.59      28.78 Envelopes_MA_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
-       1 2524.11         3387          1.08            0.75    2425.24      18.29 Envelopes_MA_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
-       2 2286.68         3179          1.08            0.72    2284.58      16.52 Envelopes_MA_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
+    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       4  2214.26           68          2.53           32.56    1210.40      11.05 Envelopes_MA_Period_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=0;
+       8  2170.59           33         24.29           65.78     927.11       8.40   Envelopes_MA_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
+       5  1941.92           64          2.39           30.34    1210.40      11.00 Envelopes_MA_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
+       6  1541.61           49          3.09           31.46     927.11       8.90 Envelopes_MA_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
+       9   750.22           96          1.17            7.81    3193.07      27.17 Envelopes_MA_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
+      10   707.82           96          1.16            7.37    3193.07      27.17 Envelopes_MA_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
+       2   435.49          189          1.05            2.30    4855.84      42.26 Envelopes_MA_Period_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=0;
+      19   361.04          121          1.07            2.98    2583.86      24.16 Envelopes_MA_Period_Ratio=2.1; MaxOrders=0; MaxOrdersPerType=0;
+      20   361.04          121          1.07            2.98    2583.86      24.16 Envelopes_MA_Period_Ratio=2.2; MaxOrders=0; MaxOrdersPerType=0;
+       3   356.37          172          1.05            2.07    4267.20      38.05 Envelopes_MA_Period_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=0;
+       7   310.96           93          1.10            3.34    1799.51      16.76 Envelopes_MA_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
+      11    63.25          119          1.01            0.53    2873.07      26.48 Envelopes_MA_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
+      12   -32.74           63          0.99           -0.52    2075.85      19.32 Envelopes_MA_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
+      13   -32.74           63          0.99           -0.52    2075.85      19.32 Envelopes_MA_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
+      14   -32.74           63          0.99           -0.52    2075.85      19.32 Envelopes_MA_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
+      15  -662.59           97          0.85           -6.83    2684.15      25.04 Envelopes_MA_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
+      16  -662.59           97          0.85           -6.83    2684.15      25.04 Envelopes_MA_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
+      17  -980.28           94          0.77          -10.43    2977.43      27.84 Envelopes_MA_Period_Ratio=1.9; MaxOrders=0; MaxOrdersPerType=0;
+      18  -980.28           94          0.77          -10.43    2977.43      27.84   Envelopes_MA_Period_Ratio=2; MaxOrders=0; MaxOrdersPerType=0;
+       1 -1441.76           59          0.46          -24.44    2326.87      22.12 Envelopes_MA_Period_Ratio=0.2; MaxOrders=0; MaxOrdersPerType=0;

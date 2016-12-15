@@ -6,16 +6,16 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         3 -249.01           55          0.41           -4.53     400.41       3.94 Alligator_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-         6 -262.11           56          0.41           -4.68     430.90       4.24 Alligator_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-         7 -350.71           78          0.42           -4.50     516.71       5.08 Alligator_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-         1 -352.27           77          0.42           -4.57     524.17       5.15 Alligator_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-         2 -352.27           77          0.42           -4.57     524.17       5.15 Alligator_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-         4 -372.64           85          0.42           -4.38     636.54       6.20 Alligator_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-         5 -397.41           82          0.42           -4.85     607.81       5.95 Alligator_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         2  -972.32           81          0.63          -12.00    2649.20      23.96 Alligator_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+         4 -1155.06          107          0.68          -10.79    2388.71      21.55 Alligator_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+         3 -1576.15          106          0.58          -14.87    2939.50      26.22 Alligator_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+         1 -1609.68          116          0.60          -13.88    2740.77      24.93 Alligator_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+         6 -1620.94          120          0.60          -13.51    3145.37      27.66 Alligator_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+         7 -1667.72          119          0.59          -14.01    3096.57      27.42 Alligator_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+         5 -2337.25          151          0.58          -15.48    3757.32      33.47 Alligator_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;

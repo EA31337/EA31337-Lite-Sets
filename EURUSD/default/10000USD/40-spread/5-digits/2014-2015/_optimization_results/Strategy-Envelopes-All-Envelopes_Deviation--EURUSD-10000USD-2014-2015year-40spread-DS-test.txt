@@ -6,12 +6,15 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          1 1273.11         4223          1.03            0.30    3002.54      27.72 Envelopes_Deviation=0.15; MaxOrders=0; MaxOrdersPerType=0;
-          3  277.44          947          1.03            0.29    1541.85      15.27  Envelopes_Deviation=0.3; MaxOrders=0; MaxOrdersPerType=0;
-          2  178.99         1336          1.01            0.13    1769.85      17.38 Envelopes_Deviation=0.25; MaxOrders=0; MaxOrdersPerType=0;
+          1 1766.79           31          4.17           56.99    1560.30      12.80 Envelopes_Deviation=0.25; MaxOrders=0; MaxOrdersPerType=0;
+          2 1164.44           11          0.00          105.86     500.06       4.57  Envelopes_Deviation=0.3; MaxOrders=0; MaxOrdersPerType=0;
+          3 1058.44           10          0.00          105.84     500.06       4.62 Envelopes_Deviation=0.35; MaxOrders=0; MaxOrdersPerType=0;
+          4    0.00            0          0.00            0.00       0.00       0.00  Envelopes_Deviation=0.4; MaxOrders=0; MaxOrdersPerType=0;
+          5    0.00            0          0.00            0.00       0.00       0.00 Envelopes_Deviation=0.45; MaxOrders=0; MaxOrdersPerType=0;
+          6    0.00            0          0.00            0.00       0.00       0.00  Envelopes_Deviation=0.5; MaxOrders=0; MaxOrdersPerType=0;

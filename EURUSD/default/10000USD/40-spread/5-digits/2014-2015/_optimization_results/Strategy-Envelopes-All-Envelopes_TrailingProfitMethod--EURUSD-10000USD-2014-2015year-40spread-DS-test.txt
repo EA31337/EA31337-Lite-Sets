@@ -6,25 +6,36 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-  Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-     7 11807.37         7413          1.15            1.59    2782.49      18.98  Envelopes_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
-     9 11543.51         7909          1.15            1.46    2113.62      16.60 Envelopes_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
-    13 11498.65         7664          1.15            1.50    2649.51      19.56 Envelopes_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
-    14 11498.65         7664          1.15            1.50    2649.51      19.56 Envelopes_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
-    11 11209.46         7936          1.14            1.41    2161.85      16.42 Envelopes_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
-    12 11209.75         7962          1.15            1.41    1959.34      16.22 Envelopes_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-    10 11036.59         7936          1.14            1.39    2087.05      16.61 Envelopes_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
-     8 10534.15         7935          1.14            1.33    2101.35      16.78 Envelopes_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
-     1 10523.95         8043          1.14            1.31    1911.28      16.14  Envelopes_TrailingProfitMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-     2 10523.95         8043          1.14            1.31    1911.28      16.14  Envelopes_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-     5  8468.12         7563          1.11            1.12    2109.73      16.07  Envelopes_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-     6  5172.76         7593          1.06            0.68    2825.60      26.17  Envelopes_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
-     4  4812.84         7585          1.06            0.63    2557.81      22.99  Envelopes_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
-    16  2604.11         7743          1.03            0.34    3208.07      29.66 Envelopes_TrailingProfitMethod=26; MaxOrders=0; MaxOrdersPerType=0;
-    15   680.92         7796          1.01            0.09    3643.12      33.89 Envelopes_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
-     3 -2377.41         7669          0.97           -0.31    4000.06      38.46  Envelopes_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+  Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+    20 3537.99          102          1.96           34.69    5378.08      33.49 Envelopes_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+     4 3103.64           40          4.38           77.59    1197.10      10.37  Envelopes_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+     3 1710.01           49          2.07           34.90    1870.80      16.21  Envelopes_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+    16 1697.06           40          2.89           42.43    2689.04      19.30 Envelopes_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+    12 1670.96           41          2.85           40.76    2689.04      19.34 Envelopes_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+     5 1651.01           40          2.80           41.28    2151.23      16.01  Envelopes_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+    14 1590.80           40          2.73           39.77    2689.04      19.45 Envelopes_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+     9 1567.40           40          2.71           39.18    2689.04      19.48  Envelopes_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+    19 1565.77           40          2.75           39.14    2689.04      19.48 Envelopes_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+    25 1530.90           40          2.67           38.27    2689.04      19.53 Envelopes_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+    26 1520.80           40          2.66           38.02    2689.04      19.55 Envelopes_TrailingProfitMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+     1 1464.10           40          2.49           36.60    2689.04      19.63  Envelopes_TrailingProfitMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+     6 1464.10           40          2.49           36.60    2689.04      19.63  Envelopes_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+     7 1464.10           40          2.49           36.60    2689.04      19.63  Envelopes_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+     8 1464.10           40          2.49           36.60    2689.04      19.63  Envelopes_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+    18 1464.10           40          2.49           36.60    2689.04      19.63 Envelopes_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+    21 1464.10           40          2.49           36.60    2689.04      19.63 Envelopes_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+    23 1464.10           40          2.49           36.60    2689.04      19.63 Envelopes_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+    24 1464.10           40          2.49           36.60    2689.04      19.63 Envelopes_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+    27 1464.10           40          2.49           36.60    2689.04      19.63 Envelopes_TrailingProfitMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+    17  707.82           96          1.16            7.37    3193.07      27.17 Envelopes_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+    22  707.82           96          1.16            7.37    3193.07      27.17 Envelopes_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+    11  635.55           43          1.39           14.78    2727.97      22.88 Envelopes_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+    13  635.55           43          1.39           14.78    2727.97      22.88 Envelopes_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+    15  635.55           43          1.39           14.78    2727.97      22.88 Envelopes_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+    10  297.32           66          1.09            4.50    4840.27      32.00  Envelopes_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+     2 -102.12           44          0.95           -2.32    2727.97      23.19  Envelopes_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
