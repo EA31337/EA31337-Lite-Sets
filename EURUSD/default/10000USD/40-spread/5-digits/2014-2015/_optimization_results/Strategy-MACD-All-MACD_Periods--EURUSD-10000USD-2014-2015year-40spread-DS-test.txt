@@ -11,28 +11,28 @@
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-      10  940.44           34          3.55           27.66     834.78       8.11 MACD_Period_Fast=19; MACD_Period_Slow=29; MACD_Period_Signal=10;
-      12  940.44           34          3.55           27.66     834.78       8.11 MACD_Period_Fast=19; MACD_Period_Slow=30; MACD_Period_Signal=10;
-      24  940.44           34          3.55           27.66     834.78       8.11 MACD_Period_Fast=18; MACD_Period_Slow=26; MACD_Period_Signal=12;
-      20  939.14           34          3.55           27.62     834.78       8.11 MACD_Period_Fast=19; MACD_Period_Slow=29; MACD_Period_Signal=11;
-      22  939.14           34          3.55           27.62     834.78       8.11 MACD_Period_Fast=19; MACD_Period_Slow=30; MACD_Period_Signal=11;
-       1  924.71           35          3.42           26.42     900.54       8.72 MACD_Period_Fast=16; MACD_Period_Slow=26; MACD_Period_Signal=10;
-       5  920.91           35          3.41           26.31     900.54       8.72 MACD_Period_Fast=16; MACD_Period_Slow=27; MACD_Period_Signal=10;
-       7  920.91           35          3.41           26.31     900.54       8.72 MACD_Period_Fast=16; MACD_Period_Slow=28; MACD_Period_Signal=10;
-       9  920.91           35          3.41           26.31     900.54       8.72 MACD_Period_Fast=16; MACD_Period_Slow=29; MACD_Period_Signal=10;
-      11  920.91           35          3.41           26.31     900.54       8.72 MACD_Period_Fast=16; MACD_Period_Slow=30; MACD_Period_Signal=10;
-      14  920.91           35          3.41           26.31     900.54       8.72 MACD_Period_Fast=16; MACD_Period_Slow=26; MACD_Period_Signal=11;
-      16  920.91           35          3.41           26.31     900.54       8.72 MACD_Period_Fast=16; MACD_Period_Slow=27; MACD_Period_Signal=11;
-      17  920.91           35          3.41           26.31     900.54       8.72 MACD_Period_Fast=16; MACD_Period_Slow=28; MACD_Period_Signal=11;
-      19  920.91           35          3.41           26.31     900.54       8.72 MACD_Period_Fast=16; MACD_Period_Slow=29; MACD_Period_Signal=11;
-      21  920.91           35          3.41           26.31     900.54       8.72 MACD_Period_Fast=16; MACD_Period_Slow=30; MACD_Period_Signal=11;
-      23  920.91           35          3.41           26.31     900.54       8.72 MACD_Period_Fast=16; MACD_Period_Slow=26; MACD_Period_Signal=12;
-       2  852.91           33          3.28           25.85     788.38       7.66 MACD_Period_Fast=17; MACD_Period_Slow=26; MACD_Period_Signal=10;
-       8  835.85           33          3.27           25.33     834.78       8.11 MACD_Period_Fast=19; MACD_Period_Slow=28; MACD_Period_Signal=10;
-      13  835.85           33          3.27           25.33     834.78       8.11 MACD_Period_Fast=20; MACD_Period_Slow=30; MACD_Period_Signal=10;
-      18  835.85           33          3.27           25.33     834.78       8.11 MACD_Period_Fast=19; MACD_Period_Slow=28; MACD_Period_Signal=11;
-       3 -125.13           17          0.74           -7.36     704.73       6.90 MACD_Period_Fast=19; MACD_Period_Slow=26; MACD_Period_Signal=10;
-       6 -126.03           17          0.74           -7.41     705.63       6.91 MACD_Period_Fast=20; MACD_Period_Slow=27; MACD_Period_Signal=10;
-      15 -126.03           17          0.74           -7.41     705.63       6.91 MACD_Period_Fast=20; MACD_Period_Slow=26; MACD_Period_Signal=11;
-       4 -133.43           17          0.72           -7.85     713.03       6.98 MACD_Period_Fast=20; MACD_Period_Slow=26; MACD_Period_Signal=10;
+    Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      16 932.19           19          5.36           49.06     878.34       8.51 MACD_Period_Fast=19; MACD_Period_Slow=29; MACD_Period_Signal=12;
+      19 932.19           19          5.36           49.06     878.34       8.51 MACD_Period_Fast=19; MACD_Period_Slow=30; MACD_Period_Signal=12;
+      20 932.19           19          5.36           49.06     878.34       8.51 MACD_Period_Fast=20; MACD_Period_Slow=30; MACD_Period_Signal=12;
+      23 932.19           19          5.36           49.06     878.34       8.51 MACD_Period_Fast=19; MACD_Period_Slow=31; MACD_Period_Signal=12;
+      24 932.19           19          5.36           49.06     878.34       8.51 MACD_Period_Fast=20; MACD_Period_Slow=31; MACD_Period_Signal=12;
+       7 886.71           18          4.92           49.26     878.34       8.51 MACD_Period_Fast=17; MACD_Period_Slow=30; MACD_Period_Signal=11;
+       8 886.71           18          4.92           49.26     878.34       8.51 MACD_Period_Fast=18; MACD_Period_Slow=30; MACD_Period_Signal=11;
+       9 886.71           18          4.92           49.26     878.34       8.51 MACD_Period_Fast=19; MACD_Period_Slow=30; MACD_Period_Signal=11;
+      10 886.71           18          4.92           49.26     878.34       8.51 MACD_Period_Fast=17; MACD_Period_Slow=31; MACD_Period_Signal=11;
+      11 886.71           18          4.92           49.26     878.34       8.51 MACD_Period_Fast=18; MACD_Period_Slow=31; MACD_Period_Signal=11;
+      12 886.71           18          4.92           49.26     878.34       8.51 MACD_Period_Fast=19; MACD_Period_Slow=31; MACD_Period_Signal=11;
+      14 886.71           18          4.92           49.26     878.34       8.51 MACD_Period_Fast=17; MACD_Period_Slow=29; MACD_Period_Signal=12;
+      15 886.71           18          4.92           49.26     878.34       8.51 MACD_Period_Fast=18; MACD_Period_Slow=29; MACD_Period_Signal=12;
+      17 886.71           18          4.92           49.26     878.34       8.51 MACD_Period_Fast=17; MACD_Period_Slow=30; MACD_Period_Signal=12;
+      18 886.71           18          4.92           49.26     878.34       8.51 MACD_Period_Fast=18; MACD_Period_Slow=30; MACD_Period_Signal=12;
+      21 886.71           18          4.92           49.26     878.34       8.51 MACD_Period_Fast=17; MACD_Period_Slow=31; MACD_Period_Signal=12;
+      22 886.71           18          4.92           49.26     878.34       8.51 MACD_Period_Fast=18; MACD_Period_Slow=31; MACD_Period_Signal=12;
+       2 769.71           17          3.76           45.28     662.89       6.46 MACD_Period_Fast=17; MACD_Period_Slow=30; MACD_Period_Signal=10;
+       3 769.71           17          3.76           45.28     662.89       6.46 MACD_Period_Fast=18; MACD_Period_Slow=30; MACD_Period_Signal=10;
+       4 769.71           17          3.76           45.28     662.89       6.46 MACD_Period_Fast=17; MACD_Period_Slow=31; MACD_Period_Signal=10;
+       5 769.71           17          3.76           45.28     662.89       6.46 MACD_Period_Fast=18; MACD_Period_Slow=31; MACD_Period_Signal=10;
+       1 500.94           21          2.47           23.85     637.92       6.27 MACD_Period_Fast=21; MACD_Period_Slow=27; MACD_Period_Signal=10;
+       6 500.94           21          2.47           23.85     637.92       6.27 MACD_Period_Fast=21; MACD_Period_Slow=27; MACD_Period_Signal=11;
+      13 500.94           21          2.47           23.85     637.92       6.27 MACD_Period_Fast=21; MACD_Period_Slow=27; MACD_Period_Signal=12;
