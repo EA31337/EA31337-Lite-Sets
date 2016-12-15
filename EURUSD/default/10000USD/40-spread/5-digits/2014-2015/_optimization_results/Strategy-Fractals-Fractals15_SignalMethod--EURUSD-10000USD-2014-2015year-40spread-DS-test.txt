@@ -12,7 +12,7 @@
                             Spread          40
                                                                  [Optimization Graph]
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         2 -136.56           35          0.88           -3.90     378.50       3.73 Fractals15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-         4 -234.97           20          0.69          -11.75     544.77       5.39 Fractals15_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-         3 -375.62           17          0.44          -22.10     496.33       4.91 Fractals15_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-         1 -512.11           17          0.36          -30.12     534.96       5.35 Fractals15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         2  -40.98           12          0.65           -3.41     108.11       1.08 Fractals15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+         3  -83.72           13          0.51           -6.44     120.62       1.21 Fractals15_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+         1  -87.49           17          0.61           -5.15     178.00       1.76 Fractals15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         4 -117.68           14          0.32           -8.41     117.68       1.18 Fractals15_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
