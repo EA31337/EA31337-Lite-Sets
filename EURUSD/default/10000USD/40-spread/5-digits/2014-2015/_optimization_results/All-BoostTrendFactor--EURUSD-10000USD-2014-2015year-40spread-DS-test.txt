@@ -11,9 +11,9 @@
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            3  334.48          178          1.17            1.88    1156.90      11.27 BoostTrendFactor=1.7; MaxOrders=0; MaxOrdersPerType=0;
-            4  334.48          178          1.17            1.88    1156.90      11.27 BoostTrendFactor=1.8; MaxOrders=0; MaxOrdersPerType=0;
-            1  295.05          178          1.16            1.66     998.44       9.77 BoostTrendFactor=1.5; MaxOrders=0; MaxOrdersPerType=0;
-            5  -28.21          411          0.99           -0.07    1296.86      12.35 BoostTrendFactor=1.9; MaxOrders=0; MaxOrdersPerType=0;
-            2 -162.60          179          0.94           -0.91    1274.44      12.42 BoostTrendFactor=1.6; MaxOrders=0; MaxOrdersPerType=0;
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1 -1501.03          140          0.30          -10.72    1581.60      15.82 BoostTrendFactor=1.5; MaxOrders=0; MaxOrdersPerType=0;
+           2 -1580.63          140          0.29          -11.29    1667.40      16.67 BoostTrendFactor=1.6; MaxOrders=0; MaxOrdersPerType=0;
+           3 -1659.43          140          0.28          -11.85    1752.40      17.52 BoostTrendFactor=1.7; MaxOrders=0; MaxOrdersPerType=0;
+           4 -1849.37          140          0.26          -13.21    1948.54      19.49 BoostTrendFactor=1.8; MaxOrders=0; MaxOrdersPerType=0;
+           5 -1849.37          140          0.26          -13.21    1948.54      19.49 BoostTrendFactor=1.9; MaxOrders=0; MaxOrdersPerType=0;
