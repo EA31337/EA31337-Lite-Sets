@@ -6,13 +6,13 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
              Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                4 -1677.41          221          0.57           -7.59    2729.18      25.52 MA_Method=3; MaxOrders=0; MaxOrdersPerType=0;
-                2 -1714.60         1650          0.92           -1.04    3355.12      28.83 MA_Method=1; MaxOrders=0; MaxOrdersPerType=0;
-                1 -1796.48          107          0.40          -16.79    2805.10      26.12 MA_Method=0; MaxOrders=0; MaxOrdersPerType=0;
-                3 -2057.06          166          0.43          -12.39    2710.35      25.45 MA_Method=2; MaxOrders=0; MaxOrdersPerType=0;
+                3 -2759.61          619          0.58           -4.46    3883.08      34.94 MA_Method=2; MaxOrders=0; MaxOrdersPerType=0;
+                4 -3097.96          400          0.54           -7.74    3855.52      35.84 MA_Method=3; MaxOrders=0; MaxOrdersPerType=0;
+                2 -3235.92          388          0.51           -8.34    4022.16      37.31 MA_Method=1; MaxOrders=0; MaxOrdersPerType=0;
+                1 -3306.19          445          0.52           -7.43    4228.43      38.83 MA_Method=0; MaxOrders=0; MaxOrdersPerType=0;
