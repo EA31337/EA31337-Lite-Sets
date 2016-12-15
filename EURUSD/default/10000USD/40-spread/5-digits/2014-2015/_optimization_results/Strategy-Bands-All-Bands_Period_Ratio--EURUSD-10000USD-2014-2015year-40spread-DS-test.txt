@@ -11,25 +11,25 @@
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           5 -409.97           89          0.38           -4.61     700.37       6.81 Bands_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
-           3 -420.27          103          0.41           -4.08     707.57       6.89 Bands_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
-           4 -428.47           92          0.38           -4.66     705.00       6.86 Bands_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
-           8 -431.97           81          0.32           -5.33     649.70       6.36 Bands_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
-           9 -432.07           89          0.36           -4.85     669.07       6.54 Bands_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
-           6 -433.07           93          0.36           -4.66     692.87       6.75 Bands_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
-           7 -435.94           81          0.32           -5.38     658.33       6.44 Bands_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
-          10 -458.80           82          0.32           -5.60     674.30       6.60 Bands_Period_Ratio=1.9; MaxOrders=0; MaxOrdersPerType=0;
-           2 -462.87          113          0.40           -4.10     719.67       7.02 Bands_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
-          16 -467.57          113          0.45           -4.14     775.97       7.53 Bands_Period_Ratio=2.5; MaxOrders=0; MaxOrdersPerType=0;
-          18 -473.77          116          0.45           -4.08     779.17       7.56 Bands_Period_Ratio=2.7; MaxOrders=0; MaxOrdersPerType=0;
-           1 -473.27          120          0.39           -3.94     618.27       6.09   Bands_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
-          15 -474.87          113          0.44           -4.20     783.27       7.61 Bands_Period_Ratio=2.4; MaxOrders=0; MaxOrdersPerType=0;
-          17 -475.77          114          0.45           -4.17     768.37       7.47 Bands_Period_Ratio=2.6; MaxOrders=0; MaxOrdersPerType=0;
-          14 -479.04          112          0.44           -4.28     774.84       7.53 Bands_Period_Ratio=2.3; MaxOrders=0; MaxOrdersPerType=0;
-          19 -483.24          117          0.44           -4.13     784.04       7.62 Bands_Period_Ratio=2.8; MaxOrders=0; MaxOrdersPerType=0;
-          13 -504.70           93          0.34           -5.43     665.80       6.55 Bands_Period_Ratio=2.2; MaxOrders=0; MaxOrdersPerType=0;
-          11 -505.47          100          0.35           -5.05     802.27       7.79   Bands_Period_Ratio=2; MaxOrders=0; MaxOrdersPerType=0;
-          12 -521.60           99          0.34           -5.27     735.70       7.20 Bands_Period_Ratio=2.1; MaxOrders=0; MaxOrdersPerType=0;
-          20 -552.87          121          0.41           -4.57     850.07       8.26 Bands_Period_Ratio=2.9; MaxOrders=0; MaxOrdersPerType=0;
-          21 -558.77          122          0.41           -4.58     862.77       8.38   Bands_Period_Ratio=3; MaxOrders=0; MaxOrdersPerType=0;
+       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         15 -1223.01           72          0.46          -16.99    2627.37      24.09 Bands_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
+         16 -1223.01           72          0.46          -16.99    2627.37      24.09 Bands_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
+          8 -1325.30           68          0.48          -19.49    2790.60      25.30 Bands_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
+         10 -1440.17           69          0.44          -20.87    2879.93      26.21 Bands_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
+          1 -1464.41           76          0.42          -19.27    2895.97      26.52   Bands_Period_Ratio=0; MaxOrders=0; MaxOrdersPerType=0;
+          2 -1464.41           76          0.42          -19.27    2895.97      26.52 Bands_Period_Ratio=0.1; MaxOrders=0; MaxOrdersPerType=0;
+          5 -1486.66           85          0.50          -17.49    3173.04      29.10 Bands_Period_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=0;
+         14 -1525.61           71          0.41          -21.49    2878.60      26.41 Bands_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
+          6 -1543.69           86          0.47          -17.95    2914.41      26.71 Bands_Period_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=0;
+         11 -1554.77           72          0.42          -21.59    3050.17      27.74   Bands_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
+          9 -1558.57           68          0.41          -22.92    2943.20      26.90 Bands_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
+         12 -1604.34           71          0.40          -22.60    3033.23      27.68 Bands_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
+         13 -1635.17           72          0.39          -22.71    3050.47      27.88 Bands_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
+         17 -1674.78           77          0.39          -21.75    3067.24      28.03 Bands_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
+          7 -1694.89           88          0.46          -19.26    3160.21      28.89 Bands_Period_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=0;
+         19 -1903.48           75          0.40          -25.38    3202.37      29.31 Bands_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
+         20 -1903.48           75          0.40          -25.38    3202.37      29.31 Bands_Period_Ratio=1.9; MaxOrders=0; MaxOrdersPerType=0;
+          3 -1919.22           76          0.38          -25.25    3210.67      29.36 Bands_Period_Ratio=0.2; MaxOrders=0; MaxOrdersPerType=0;
+         18 -1919.15           76          0.40          -25.25    3224.84      29.50 Bands_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
+         21 -1951.78           75          0.39          -26.02    3228.47      29.55   Bands_Period_Ratio=2; MaxOrders=0; MaxOrdersPerType=0;
+          4 -3115.78          209          0.56          -14.91    4084.27      37.48 Bands_Period_Ratio=0.3; MaxOrders=0; MaxOrdersPerType=0;
