@@ -6,16 +6,16 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1 -1796.48          107          0.40          -16.79    2805.10      26.12 MA_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-            2 -1796.48          107          0.40          -16.79    2805.10      26.12 MA_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-            4 -1855.05          107          0.38          -17.34    2842.07      26.47 MA_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-            3 -1888.78          108          0.38          -17.49    2893.17      26.94 MA_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-            7 -1891.72          108          0.39          -17.52    2915.13      27.15 MA_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-            5 -1908.65          108          0.38          -17.67    2906.57      27.07 MA_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-            6 -1943.62          108          0.37          -18.00    2941.73      27.40 MA_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+            6 -2464.85          378          0.58           -6.52    3274.12      30.29 MA_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+            7 -2634.72          371          0.56           -7.10    3446.18      31.88 MA_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+            5 -2634.51          371          0.56           -7.10    3445.97      31.88 MA_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+            3 -2813.60          436          0.58           -6.45    3608.52      33.43 MA_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+            1 -3097.96          400          0.54           -7.74    3855.52      35.84 MA_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+            2 -3181.63          375          0.53           -8.48    4035.45      37.19 MA_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            4 -3270.07          410          0.53           -7.98    4061.64      37.65 MA_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;

@@ -12,20 +12,29 @@
                             Spread          40
                                                                  [Optimization Graph]
     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-      14  -139.90          124          0.88           -1.13    1167.17      10.68 DefaultTrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=0;
-       1  -168.10           96          0.60           -1.75     194.30       1.94  DefaultTrailingStopMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-      10  -215.00           72          0.45           -2.99     385.90       3.85 DefaultTrailingStopMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-       7  -268.20           95          0.40           -2.82     459.80       4.52  DefaultTrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=0;
-       2  -271.17           87          0.44           -3.12     390.57       3.90  DefaultTrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-       8  -293.80           77          0.33           -3.82     464.70       4.64 DefaultTrailingStopMethod=10; MaxOrders=0; MaxOrdersPerType=0;
-       9  -304.10           73          0.31           -4.17     459.10       4.59 DefaultTrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=0;
-      11  -323.60           76          0.30           -4.26     478.60       4.79 DefaultTrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=0;
-       3  -384.30          125          0.59           -3.07     563.70       5.54  DefaultTrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=0;
-       4  -508.51           83          0.48           -6.13    1454.41      13.48  DefaultTrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=0;
-      16  -649.78           88          0.41           -7.38    1763.35      16.14 DefaultTrailingStopMethod=26; MaxOrders=0; MaxOrdersPerType=0;
-      15  -652.08           92          0.40           -7.09    1616.45      15.00 DefaultTrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=0;
-      17  -988.98           75          0.19          -13.19    1614.97      15.42 DefaultTrailingStopMethod=27; MaxOrders=0; MaxOrdersPerType=0;
-      13 -1073.88          124          0.30           -8.66    1183.88      11.71 DefaultTrailingStopMethod=20; MaxOrders=0; MaxOrdersPerType=0;
-      12 -1134.42          142          0.35           -7.99    1383.07      13.58 DefaultTrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=0;
-       6 -1708.62         1226          0.94           -1.39    4822.20      41.77  DefaultTrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=0;
-       5 -3470.84          555          0.66           -6.25    4592.69      41.33  DefaultTrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+      24  2055.91          658          1.21            3.12    3081.52      27.33 DefaultTrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+      11  1222.20          779          1.21            1.57    1051.97      10.08 DefaultTrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+      14   791.51         1156          1.12            0.68    1433.50      13.58 DefaultTrailingStopMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+      25   450.20          752          1.06            0.60    3140.32      27.84 DefaultTrailingStopMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+       2   442.49          654          1.09            0.68    1201.70      11.05  DefaultTrailingStopMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+      10   339.81          506          1.02            0.67    5047.84      35.31 DefaultTrailingStopMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+      12   339.81          506          1.02            0.67    5047.84      35.31 DefaultTrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+      21   339.81          506          1.02            0.67    5047.84      35.31 DefaultTrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+       9    85.43          192          1.06            0.44     851.83       8.28  DefaultTrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+      18  -270.09          160          0.72           -1.69     394.40       3.91 DefaultTrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+       4  -389.79          568          0.87           -0.69    1150.12      11.43  DefaultTrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+      15  -442.35          648          0.93           -0.68    1689.15      16.04 DefaultTrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+      19  -884.93          660          0.70           -1.34    1256.33      12.11 DefaultTrailingStopMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+       5 -1020.04          504          0.67           -2.02    1567.04      14.86  DefaultTrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+       8 -1135.05          162          0.58           -7.01    2032.64      18.65  DefaultTrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+      16 -1228.61          175          0.71           -7.02    2832.25      24.93 DefaultTrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+      13 -1330.80          172          0.67           -7.74    2957.04      26.03 DefaultTrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+       6 -1354.70          221          0.64           -6.13    2411.95      22.14  DefaultTrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+       3 -1500.62          805          0.62           -1.86    1625.02      16.07  DefaultTrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+       7 -1523.48          204          0.66           -7.47    3177.31      27.97  DefaultTrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+      17 -1653.80          175          0.61           -9.45    3307.64      29.12 DefaultTrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+      22 -1719.55          212          0.66           -8.11    3345.99      29.45 DefaultTrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+      26 -1843.87          204          0.62           -9.04    3277.38      29.52 DefaultTrailingStopMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+       1 -2124.67          295          0.68           -7.20    4354.20      36.57  DefaultTrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+      23 -2175.40          238          0.61           -9.14    4137.73      35.55 DefaultTrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+      20 -2275.39          221          0.59          -10.30    3888.65      34.23 DefaultTrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=0;
