@@ -11,29 +11,19 @@
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                 3 -115.54           46          0.63           -2.51     391.54       3.82 MACD_Shift=3; MACD_Shift_Far=5; MaxOrders=0;
-                 8 -115.54           46          0.63           -2.51     391.54       3.82 MACD_Shift=3; MACD_Shift_Far=6; MaxOrders=0;
-                13 -115.54           46          0.63           -2.51     391.54       3.82 MACD_Shift=3; MACD_Shift_Far=7; MaxOrders=0;
-                18 -115.54           46          0.63           -2.51     391.54       3.82 MACD_Shift=3; MACD_Shift_Far=8; MaxOrders=0;
-                23 -115.54           46          0.63           -2.51     391.54       3.82 MACD_Shift=3; MACD_Shift_Far=9; MaxOrders=0;
-                 2 -143.64           44          0.54           -3.26     451.34       4.38 MACD_Shift=2; MACD_Shift_Far=5; MaxOrders=0;
-                 7 -143.64           44          0.54           -3.26     451.34       4.38 MACD_Shift=2; MACD_Shift_Far=6; MaxOrders=0;
-                12 -143.64           44          0.54           -3.26     451.34       4.38 MACD_Shift=2; MACD_Shift_Far=7; MaxOrders=0;
-                17 -143.64           44          0.54           -3.26     451.34       4.38 MACD_Shift=2; MACD_Shift_Far=8; MaxOrders=0;
-                22 -143.64           44          0.54           -3.26     451.34       4.38 MACD_Shift=2; MACD_Shift_Far=9; MaxOrders=0;
-                 4 -174.67           61          0.65           -2.86     552.67       5.33 MACD_Shift=4; MACD_Shift_Far=5; MaxOrders=0;
-                 9 -174.67           61          0.65           -2.86     552.67       5.33 MACD_Shift=4; MACD_Shift_Far=6; MaxOrders=0;
-                14 -174.67           61          0.65           -2.86     552.67       5.33 MACD_Shift=4; MACD_Shift_Far=7; MaxOrders=0;
-                19 -174.67           61          0.65           -2.86     552.67       5.33 MACD_Shift=4; MACD_Shift_Far=8; MaxOrders=0;
-                24 -174.67           61          0.65           -2.86     552.67       5.33 MACD_Shift=4; MACD_Shift_Far=9; MaxOrders=0;
-                 5 -247.77           72          0.59           -3.44     574.57       5.56 MACD_Shift=5; MACD_Shift_Far=5; MaxOrders=0;
-                10 -247.77           72          0.59           -3.44     574.57       5.56 MACD_Shift=5; MACD_Shift_Far=6; MaxOrders=0;
-                15 -247.77           72          0.59           -3.44     574.57       5.56 MACD_Shift=5; MACD_Shift_Far=7; MaxOrders=0;
-                20 -247.77           72          0.59           -3.44     574.57       5.56 MACD_Shift=5; MACD_Shift_Far=8; MaxOrders=0;
-                25 -247.77           72          0.59           -3.44     574.57       5.56 MACD_Shift=5; MACD_Shift_Far=9; MaxOrders=0;
-                 1 -271.34           48          0.40           -5.65     543.94       5.30 MACD_Shift=1; MACD_Shift_Far=5; MaxOrders=0;
-                 6 -271.34           48          0.40           -5.65     543.94       5.30 MACD_Shift=1; MACD_Shift_Far=6; MaxOrders=0;
-                11 -271.34           48          0.40           -5.65     543.94       5.30 MACD_Shift=1; MACD_Shift_Far=7; MaxOrders=0;
-                16 -271.34           48          0.40           -5.65     543.94       5.30 MACD_Shift=1; MACD_Shift_Far=8; MaxOrders=0;
-                21 -271.34           48          0.40           -5.65     543.94       5.30 MACD_Shift=1; MACD_Shift_Far=9; MaxOrders=0;
+             Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                3  -725.96           43          0.52          -16.88    1292.84      12.58 MACD_Shift=3; MACD_Shift_Far=3; MaxOrders=0;
+                6  -725.96           43          0.52          -16.88    1292.84      12.58 MACD_Shift=3; MACD_Shift_Far=4; MaxOrders=0;
+                9  -725.96           43          0.52          -16.88    1292.84      12.58 MACD_Shift=3; MACD_Shift_Far=5; MaxOrders=0;
+               12  -725.96           43          0.52          -16.88    1292.84      12.58 MACD_Shift=3; MACD_Shift_Far=6; MaxOrders=0;
+               15  -725.96           43          0.52          -16.88    1292.84      12.58 MACD_Shift=3; MACD_Shift_Far=7; MaxOrders=0;
+                2 -1238.96           61          0.41          -20.31    1801.79      17.35 MACD_Shift=2; MACD_Shift_Far=3; MaxOrders=0;
+                5 -1238.96           61          0.41          -20.31    1801.79      17.35 MACD_Shift=2; MACD_Shift_Far=4; MaxOrders=0;
+                8 -1238.96           61          0.41          -20.31    1801.79      17.35 MACD_Shift=2; MACD_Shift_Far=5; MaxOrders=0;
+               11 -1238.96           61          0.41          -20.31    1801.79      17.35 MACD_Shift=2; MACD_Shift_Far=6; MaxOrders=0;
+               14 -1238.96           61          0.41          -20.31    1801.79      17.35 MACD_Shift=2; MACD_Shift_Far=7; MaxOrders=0;
+                1 -1892.50          154          0.63          -12.29    2477.78      23.88 MACD_Shift=1; MACD_Shift_Far=3; MaxOrders=0;
+                4 -1892.50          154          0.63          -12.29    2477.78      23.88 MACD_Shift=1; MACD_Shift_Far=4; MaxOrders=0;
+                7 -1892.50          154          0.63          -12.29    2477.78      23.88 MACD_Shift=1; MACD_Shift_Far=5; MaxOrders=0;
+               10 -1892.50          154          0.63          -12.29    2477.78      23.88 MACD_Shift=1; MACD_Shift_Far=6; MaxOrders=0;
+               13 -1892.50          154          0.63          -12.29    2477.78      23.88 MACD_Shift=1; MACD_Shift_Far=7; MaxOrders=0;
