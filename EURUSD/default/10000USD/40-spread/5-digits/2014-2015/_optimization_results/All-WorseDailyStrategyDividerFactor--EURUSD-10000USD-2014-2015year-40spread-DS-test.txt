@@ -11,15 +11,25 @@
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
- Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-    2  1988.35          174          1.25           11.43    5366.23      30.96 WorseDailyStrategyDividerFactor=0.1; MaxOrders=0; MaxOrdersPerType=0;
-    5 -2416.12          332          0.58           -7.28    4035.12      34.73 WorseDailyStrategyDividerFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
-    4 -2455.56          324          0.59           -7.58    4074.56      35.07 WorseDailyStrategyDividerFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
-    3 -2564.20          364          0.61           -7.04    4286.80      36.71 WorseDailyStrategyDividerFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
-    1 -3100.54          240          0.45          -12.92    4569.58      39.92   WorseDailyStrategyDividerFactor=0; MaxOrders=0; MaxOrdersPerType=0;
-    7 -3100.54          240          0.45          -12.92    4569.58      39.92 WorseDailyStrategyDividerFactor=0.9; MaxOrders=0; MaxOrdersPerType=0;
-    8 -3100.54          240          0.45          -12.92    4569.58      39.92   WorseDailyStrategyDividerFactor=1; MaxOrders=0; MaxOrdersPerType=0;
-    9 -3100.54          240          0.45          -12.92    4569.58      39.92 WorseDailyStrategyDividerFactor=1.1; MaxOrders=0; MaxOrdersPerType=0;
-   10 -3100.54          240          0.45          -12.92    4569.58      39.92 WorseDailyStrategyDividerFactor=1.2; MaxOrders=0; MaxOrdersPerType=0;
-   11 -3100.54          240          0.45          -12.92    4569.58      39.92 WorseDailyStrategyDividerFactor=1.3; MaxOrders=0; MaxOrdersPerType=0;
-    6 -3253.92          604          0.61           -5.39    4956.33      42.66 WorseDailyStrategyDividerFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
+Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+  19 -1063.63          171          0.46           -6.22    1280.93      12.78  WorseDailyStrategyDividerFactor=1.1; MaxOrders=0; MaxOrdersPerType=0;
+  20 -1063.63          171          0.46           -6.22    1280.93      12.78  WorseDailyStrategyDividerFactor=1.2; MaxOrders=0; MaxOrdersPerType=0;
+  21 -1063.63          171          0.46           -6.22    1280.93      12.78  WorseDailyStrategyDividerFactor=1.3; MaxOrders=0; MaxOrdersPerType=0;
+  16 -1130.62          167          0.48           -6.77    1324.51      13.24  WorseDailyStrategyDividerFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
+   1 -1206.95          156          0.36           -7.74    1251.38      12.51 WorseDailyStrategyDividerFactor=-0.7; MaxOrders=0; MaxOrdersPerType=0;
+   2 -1206.95          156          0.36           -7.74    1251.38      12.51 WorseDailyStrategyDividerFactor=-0.6; MaxOrders=0; MaxOrdersPerType=0;
+   3 -1206.95          156          0.36           -7.74    1251.38      12.51 WorseDailyStrategyDividerFactor=-0.5; MaxOrders=0; MaxOrdersPerType=0;
+   4 -1206.95          156          0.36           -7.74    1251.38      12.51 WorseDailyStrategyDividerFactor=-0.4; MaxOrders=0; MaxOrdersPerType=0;
+   5 -1206.95          156          0.36           -7.74    1251.38      12.51 WorseDailyStrategyDividerFactor=-0.3; MaxOrders=0; MaxOrdersPerType=0;
+   6 -1206.95          156          0.36           -7.74    1251.38      12.51 WorseDailyStrategyDividerFactor=-0.2; MaxOrders=0; MaxOrdersPerType=0;
+   7 -1206.95          156          0.36           -7.74    1251.38      12.51 WorseDailyStrategyDividerFactor=-0.1; MaxOrders=0; MaxOrdersPerType=0;
+   9 -1237.64          156          0.77           -7.93    3197.52      27.32  WorseDailyStrategyDividerFactor=0.1; MaxOrders=0; MaxOrdersPerType=0;
+  15 -1332.76          167          0.44           -7.98    1526.65      15.26  WorseDailyStrategyDividerFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
+  14 -1381.86          167          0.43           -8.27    1575.75      15.75  WorseDailyStrategyDividerFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
+   8 -1911.54          228          0.50           -8.38    2128.83      21.24    WorseDailyStrategyDividerFactor=0; MaxOrders=0; MaxOrdersPerType=0;
+  18 -1911.54          228          0.50           -8.38    2128.83      21.24    WorseDailyStrategyDividerFactor=1; MaxOrders=0; MaxOrdersPerType=0;
+  17 -1923.78          228          0.50           -8.44    2141.07      21.36  WorseDailyStrategyDividerFactor=0.9; MaxOrders=0; MaxOrdersPerType=0;
+  13 -2034.66          173          0.42          -11.76    2228.56      22.28  WorseDailyStrategyDividerFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
+  12 -2660.98          173          0.44          -15.38    2892.59      28.81  WorseDailyStrategyDividerFactor=0.4; MaxOrders=0; MaxOrdersPerType=0;
+  11 -4353.90          176          0.39          -24.74    4672.98      46.14  WorseDailyStrategyDividerFactor=0.3; MaxOrders=0; MaxOrdersPerType=0;
+  10 -6194.24          158          0.28          -39.20    7808.23      68.75  WorseDailyStrategyDividerFactor=0.2; MaxOrders=0; MaxOrdersPerType=0;
