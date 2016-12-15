@@ -11,8 +11,7 @@
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           4 -219.38           49          0.40           -4.48     238.88       2.39 Alligator_MA_Method=3; MaxOrders=0; MaxOrdersPerType=0;
-           1 -299.15           55          0.36           -5.44     315.25       3.15 Alligator_MA_Method=0; MaxOrders=0; MaxOrdersPerType=0;
-           3 -314.90           42          0.17           -7.50     352.60       3.52 Alligator_MA_Method=2; MaxOrders=0; MaxOrdersPerType=0;
-           2 -321.20           40          0.11           -8.03     336.20       3.36 Alligator_MA_Method=1; MaxOrders=0; MaxOrdersPerType=0;
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1 -1271.09          103          0.63          -12.34    2221.78      20.54 Alligator_MA_Method=0; MaxOrders=0; MaxOrdersPerType=0;
+           3 -1609.68          116          0.60          -13.88    2740.77      24.93 Alligator_MA_Method=3; MaxOrders=0; MaxOrdersPerType=0;
+           2 -2775.33          148          0.52          -18.75    3870.74      35.25 Alligator_MA_Method=1; MaxOrders=0; MaxOrdersPerType=0;
