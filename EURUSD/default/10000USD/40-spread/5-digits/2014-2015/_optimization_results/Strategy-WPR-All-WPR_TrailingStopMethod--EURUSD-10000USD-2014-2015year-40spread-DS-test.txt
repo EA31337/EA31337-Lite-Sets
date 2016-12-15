@@ -11,31 +11,31 @@
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        15   -50.00           37          0.68           -1.35     144.40       1.44 WPR_TrailingStopMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-        19   -72.93           36          0.56           -2.03     126.80       1.27 WPR_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=0;
-        22   -90.97           42          0.55           -2.17     198.40       1.97 WPR_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=0;
-         3   -98.67           53          0.58           -1.86     151.90       1.52  WPR_TrailingStopMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-        20   -99.93           43          0.48           -2.32     143.50       1.43 WPR_TrailingStopMethod=20; MaxOrders=0; MaxOrdersPerType=0;
-        11  -101.50           37          0.40           -2.74     161.80       1.62 WPR_TrailingStopMethod=10; MaxOrders=0; MaxOrdersPerType=0;
-        12  -112.90           37          0.28           -3.05     151.90       1.52 WPR_TrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=0;
-        16  -118.80           37          0.30           -3.21     159.60       1.60 WPR_TrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=0;
-         4  -122.97           41          0.35           -3.00     154.90       1.55  WPR_TrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-        26  -145.64           38          0.42           -3.83     245.67       2.44 WPR_TrailingStopMethod=26; MaxOrders=0; MaxOrdersPerType=0;
-         1  -150.70           41          0.32           -3.68     335.40       3.29  WPR_TrailingStopMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-        10  -150.70           41          0.32           -3.68     335.40       3.29  WPR_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=0;
-         5  -151.87           47          0.51           -3.23     261.60       2.60  WPR_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=0;
-         6  -152.97           47          0.65           -3.25     534.21       5.18  WPR_TrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=0;
-        25  -185.74           39          0.26           -4.76     243.07       2.43 WPR_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=0;
-        27  -270.44           47          0.32           -5.75     513.14       5.01 WPR_TrailingStopMethod=27; MaxOrders=0; MaxOrdersPerType=0;
-         7  -910.85           94          0.61           -9.69    1455.13      13.96  WPR_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=0;
-        23 -2022.42          178          0.63          -11.36    3798.98      33.92 WPR_TrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=0;
-        18 -2035.28          175          0.63          -11.63    3685.76      32.91 WPR_TrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=0;
-        21 -2045.07          173          0.63          -11.82    3695.56      32.99 WPR_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-        14 -2084.70          175          0.63          -11.91    3817.39      34.08 WPR_TrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=0;
-        13 -2143.85          171          0.61          -12.54    3876.54      34.61 WPR_TrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=0;
-         2 -2143.75          171          0.61          -12.54    3876.54      34.61  WPR_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-        24 -2148.78          173          0.61          -12.42    3881.47      34.65 WPR_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=0;
-        17 -2195.15          172          0.61          -12.76    3927.84      35.07 WPR_TrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=0;
-         8 -3503.57          410          0.68           -8.55    5064.05      43.91  WPR_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-         9 -3554.17          440          0.64           -8.08    4857.14      43.06  WPR_TrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        18 3943.77         1584          1.11            2.49    3660.72      22.45 WPR_TrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+        19  -61.33           40          0.69           -1.53     137.70       1.38 WPR_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+        25  -80.04           41          0.63           -1.95     233.13       2.30 WPR_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+        16  -82.70           38          0.56           -2.18     150.20       1.50 WPR_TrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+         3  -86.47           47          0.58           -1.84     151.30       1.51  WPR_TrailingStopMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+         5  -93.27           39          0.54           -2.39     138.30       1.38  WPR_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+        26 -106.90           41          0.54           -2.61     274.33       2.70 WPR_TrailingStopMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+        20 -107.83           36          0.49           -3.00     124.13       1.24 WPR_TrailingStopMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+        12 -110.00           39          0.43           -2.82     152.20       1.52 WPR_TrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+        10 -113.27           35          0.36           -3.24     161.30       1.61  WPR_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+         4 -118.80           35          0.21           -3.39     148.00       1.48  WPR_TrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+         6 -161.90           51          0.58           -3.17     345.10       3.39  WPR_TrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+        24 -178.99           39          0.84           -4.59     996.85       9.61 WPR_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+         8 -295.48           40          0.68           -7.39     758.97       7.41  WPR_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+        27 -312.47           41          0.25           -7.62     550.37       5.38 WPR_TrailingStopMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+        21 -331.33           40          0.71           -8.28    1085.51      10.42 WPR_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+         9 -351.78           49          0.54           -7.18     617.14       6.03  WPR_TrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+         2 -409.83           47          0.59           -8.72    1044.71       9.98  WPR_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+         7 -455.09           68          0.62           -6.69     768.97       7.49  WPR_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+        23 -543.39           40          0.53          -13.58     874.38       8.46 WPR_TrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+        14 -660.67          106          0.75           -6.23    1246.98      11.97 WPR_TrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+         1 -873.09           91          0.69           -9.59    1716.08      15.96  WPR_TrailingStopMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+        11 -873.09           91          0.69           -9.59    1716.08      15.96 WPR_TrailingStopMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+        13 -873.09           91          0.69           -9.59    1716.08      15.96 WPR_TrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+        15 -873.09           91          0.69           -9.59    1716.08      15.96 WPR_TrailingStopMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+        17 -873.09           91          0.69           -9.59    1716.08      15.96 WPR_TrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+        22 -873.09           91          0.69           -9.59    1716.08      15.96 WPR_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=0;
