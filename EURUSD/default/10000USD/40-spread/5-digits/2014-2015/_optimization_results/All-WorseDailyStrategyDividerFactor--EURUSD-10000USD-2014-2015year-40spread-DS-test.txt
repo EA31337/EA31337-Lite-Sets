@@ -6,13 +6,20 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
- Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-    1 9363.94         1140          1.30            8.21    8592.35      49.41 WorseDailyStrategyDividerFactor=0.3; MaxOrders=0; MaxOrdersPerType=0;
-    2 7120.02         1644          1.31            4.33    5448.43      38.49 WorseDailyStrategyDividerFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
-    3 5875.84         1645          1.26            3.57    5472.80      38.66 WorseDailyStrategyDividerFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
-    4 4006.82         1677          1.18            2.39    4983.03      35.18 WorseDailyStrategyDividerFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
+ Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+    2  1988.35          174          1.25           11.43    5366.23      30.96 WorseDailyStrategyDividerFactor=0.1; MaxOrders=0; MaxOrdersPerType=0;
+    5 -2416.12          332          0.58           -7.28    4035.12      34.73 WorseDailyStrategyDividerFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
+    4 -2455.56          324          0.59           -7.58    4074.56      35.07 WorseDailyStrategyDividerFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
+    3 -2564.20          364          0.61           -7.04    4286.80      36.71 WorseDailyStrategyDividerFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
+    1 -3100.54          240          0.45          -12.92    4569.58      39.92   WorseDailyStrategyDividerFactor=0; MaxOrders=0; MaxOrdersPerType=0;
+    7 -3100.54          240          0.45          -12.92    4569.58      39.92 WorseDailyStrategyDividerFactor=0.9; MaxOrders=0; MaxOrdersPerType=0;
+    8 -3100.54          240          0.45          -12.92    4569.58      39.92   WorseDailyStrategyDividerFactor=1; MaxOrders=0; MaxOrdersPerType=0;
+    9 -3100.54          240          0.45          -12.92    4569.58      39.92 WorseDailyStrategyDividerFactor=1.1; MaxOrders=0; MaxOrdersPerType=0;
+   10 -3100.54          240          0.45          -12.92    4569.58      39.92 WorseDailyStrategyDividerFactor=1.2; MaxOrders=0; MaxOrdersPerType=0;
+   11 -3100.54          240          0.45          -12.92    4569.58      39.92 WorseDailyStrategyDividerFactor=1.3; MaxOrders=0; MaxOrdersPerType=0;
+    6 -3253.92          604          0.61           -5.39    4956.33      42.66 WorseDailyStrategyDividerFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
