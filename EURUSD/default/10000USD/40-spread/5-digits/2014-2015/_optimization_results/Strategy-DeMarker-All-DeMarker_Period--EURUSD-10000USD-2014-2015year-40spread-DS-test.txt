@@ -6,14 +6,20 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             2 3388.55         3892          1.14            0.87    1566.39      15.31 DeMarker_Period=11; MaxOrders=0; MaxOrdersPerType=0;
-             1 2374.49          705          1.37            3.37     531.36       4.79  DeMarker_Period=9; MaxOrders=0; MaxOrdersPerType=0;
-             3 1162.77          525          1.31            2.21     538.97       5.37 DeMarker_Period=13; MaxOrders=0; MaxOrdersPerType=0;
-             4 -149.65          654          0.96           -0.23     593.10       5.91 DeMarker_Period=15; MaxOrders=0; MaxOrdersPerType=0;
-             5 -320.47           63          0.35           -5.09     335.07       3.35 DeMarker_Period=17; MaxOrders=0; MaxOrdersPerType=0;
+             9  -10.54           28          0.94           -0.38     353.74       3.46 DeMarker_Period=29; MaxOrders=0; MaxOrdersPerType=0;
+            11  -20.90           27          0.88           -0.77     421.00       4.11 DeMarker_Period=31; MaxOrders=0; MaxOrdersPerType=0;
+             7  -31.04           30          0.86           -1.03     374.24       3.66 DeMarker_Period=27; MaxOrders=0; MaxOrdersPerType=0;
+             6  -35.04           36          0.85           -0.97     378.24       3.70 DeMarker_Period=26; MaxOrders=0; MaxOrdersPerType=0;
+             5  -50.97           31          0.77           -1.64     339.97       3.32 DeMarker_Period=25; MaxOrders=0; MaxOrdersPerType=0;
+            10  -64.94           25          0.69           -2.60     353.94       3.46 DeMarker_Period=30; MaxOrders=0; MaxOrdersPerType=0;
+             2 -173.22           59          0.64           -2.94     416.92       4.08 DeMarker_Period=22; MaxOrders=0; MaxOrdersPerType=0;
+             8 -185.24           38          0.60           -4.87     430.53       4.21 DeMarker_Period=28; MaxOrders=0; MaxOrdersPerType=0;
+             3 -213.43           58          0.60           -3.68     458.73       4.48 DeMarker_Period=23; MaxOrders=0; MaxOrdersPerType=0;
+             1 -214.15           48          0.48           -4.46     443.65       4.34 DeMarker_Period=21; MaxOrders=0; MaxOrdersPerType=0;
+             4 -239.37           55          0.54           -4.35     484.67       4.74 DeMarker_Period=24; MaxOrders=0; MaxOrdersPerType=0;
