@@ -12,8 +12,8 @@
                             Spread          40
                                                                  [Optimization Graph]
      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        5 -1264.72          363          0.49           -3.48    1733.12      17.33   ProfitFactorMaxToTrade=5; MaxOrders=0; MaxOrdersPerType=0;
-        4 -1286.15          361          0.48           -3.56    1733.12      17.33 ProfitFactorMaxToTrade=4.8; MaxOrders=0; MaxOrdersPerType=0;
-        3 -1330.58          357          0.46           -3.73    1733.12      17.33 ProfitFactorMaxToTrade=4.6; MaxOrders=0; MaxOrdersPerType=0;
-        1 -1413.45          353          0.42           -4.00    1733.12      17.33 ProfitFactorMaxToTrade=4.2; MaxOrders=0; MaxOrdersPerType=0;
-        2 -1413.45          353          0.42           -4.00    1733.12      17.33 ProfitFactorMaxToTrade=4.4; MaxOrders=0; MaxOrdersPerType=0;
+        1 -1571.98          334          0.66           -4.71    2906.46      25.93 ProfitFactorMaxToTrade=4.6; MaxOrders=0; MaxOrdersPerType=0;
+        2 -1571.98          334          0.66           -4.71    2906.46      25.93 ProfitFactorMaxToTrade=4.8; MaxOrders=0; MaxOrdersPerType=0;
+        3 -1571.98          334          0.66           -4.71    2906.46      25.93   ProfitFactorMaxToTrade=5; MaxOrders=0; MaxOrdersPerType=0;
+        4 -1571.98          334          0.66           -4.71    2906.46      25.93 ProfitFactorMaxToTrade=5.2; MaxOrders=0; MaxOrdersPerType=0;
+        5 -1571.98          334          0.66           -4.71    2906.46      25.93 ProfitFactorMaxToTrade=5.4; MaxOrders=0; MaxOrdersPerType=0;
