@@ -6,34 +6,36 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-      16  9314.33         1413          1.47            6.59    6146.70      28.08 Bands_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
-       1  9314.53         1413          1.47            6.59    6146.70      28.08  Bands_TrailingProfitMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-       2  9314.53         1413          1.47            6.59    6146.70      28.08  Bands_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-      12  9314.53         1413          1.47            6.59    6146.70      28.08 Bands_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
-      13  9314.53         1413          1.47            6.59    6146.70      28.08 Bands_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
-      17  9314.53         1413          1.47            6.59    6146.70      28.08 Bands_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
-      19  9314.53         1413          1.47            6.59    6146.70      28.08 Bands_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-      21  8396.01         1413          1.41            5.94    7364.27      33.41 Bands_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
-      22  8396.01         1413          1.41            5.94    7364.27      33.41 Bands_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
-       9  6549.67         1303          1.34            5.03    6173.94      31.92  Bands_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
-       7  5064.84         1381          1.25            3.67    6670.67      36.23  Bands_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
-      23  4565.64         1370          1.26            3.33    4472.91      27.67 Bands_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
-      24  3917.67         1434          1.20            2.73    5991.50      35.27 Bands_TrailingProfitMethod=26; MaxOrders=0; MaxOrdersPerType=0;
-      25  2897.96         1467          1.14            1.98    5265.71      32.42 Bands_TrailingProfitMethod=27; MaxOrders=0; MaxOrdersPerType=0;
-      20   487.73           74          2.81            6.59     483.70       4.67 Bands_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
-       8   -15.58           68          0.96           -0.23     914.28       8.39  Bands_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-       4  -226.90           52          0.17           -4.36     232.60       2.33  Bands_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-       5  -332.37          100          0.53           -3.32     538.00       5.29  Bands_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
-       3  -346.50           77          0.34           -4.50     346.50       3.46  Bands_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-      18  -532.37         1318          0.97           -0.40    4870.95      36.76 Bands_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
-      11  -648.14          128          0.46           -5.06     759.60       7.52 Bands_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
-      14  -709.74          131          0.42           -5.42     842.21       8.32 Bands_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
-      15  -738.51          130          0.43           -5.68     815.40       8.10 Bands_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
-      10  -973.71         1470          0.92           -0.66    3240.13      29.82  Bands_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
-       6 -3359.85         1535          0.82           -2.19    4398.56      42.81  Bands_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       5 -295.97           39          0.55           -7.59     504.24       4.95  Bands_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+      25 -329.12           39          0.45           -8.44     651.64       6.40 Bands_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+      26 -342.62           39          0.45           -8.79     670.54       6.59 Bands_TrailingProfitMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+       8 -361.20           39          0.47           -9.26     615.74       6.05  Bands_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+      24 -364.54           40          0.48           -9.11     668.84       6.55 Bands_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+      17 -364.07           40          0.48           -9.10     656.14       6.42 Bands_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+       4 -372.52           39          0.48           -9.55     592.84       5.84  Bands_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+       9 -373.64           38          0.44           -9.83     673.51       6.61  Bands_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+      22 -380.92           38          0.42          -10.02     592.51       5.83 Bands_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+      21 -383.94           39          0.45           -9.84     653.54       6.40 Bands_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+      12 -383.36           39          0.38           -9.83     578.14       5.68 Bands_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+      14 -387.04           39          0.44           -9.92     654.94       6.41 Bands_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+      18 -387.04           39          0.44           -9.92     654.94       6.41 Bands_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+       1 -388.37           38          0.42          -10.22     653.54       6.40  Bands_TrailingProfitMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+      23 -388.37           38          0.42          -10.22     653.54       6.40 Bands_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+       6 -392.80           38          0.38          -10.34     631.40       6.21  Bands_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+       7 -392.50           38          0.41          -10.33     618.04       6.07  Bands_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+      16 -395.36           39          0.37          -10.14     590.34       5.80 Bands_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+      27 -400.86           41          0.44           -9.78     556.05       5.48 Bands_TrailingProfitMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+       2 -400.14           39          0.42          -10.26     663.64       6.50  Bands_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+      19 -402.26           40          0.36          -10.06     590.84       5.81 Bands_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+       3 -410.02           39          0.36          -10.51     603.14       5.92  Bands_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+      13 -411.64           38          0.41          -10.83     675.14       6.61 Bands_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+      10 -415.84           42          0.50           -9.90     754.50       7.39  Bands_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+      20 -416.95           41          0.34          -10.17     592.30       5.82 Bands_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+      15 -431.03           38          0.34          -11.34     636.64       6.25 Bands_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+      11 -466.33           37          0.29          -12.60     670.24       6.58 Bands_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
