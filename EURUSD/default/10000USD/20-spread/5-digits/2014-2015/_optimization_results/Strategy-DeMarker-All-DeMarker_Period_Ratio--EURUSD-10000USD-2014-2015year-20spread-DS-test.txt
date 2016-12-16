@@ -1,0 +1,33 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         2  -979.52           73          0.74          -13.42    4925.68      39.48 DeMarker_Period_Ratio=0.3; MaxOrders=0; MaxOrdersPerType=0;
+         3 -1072.68           72          0.71          -14.90    5061.88      40.25 DeMarker_Period_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=0;
+         7 -1105.93           71          0.70          -15.58    5128.15      40.35 DeMarker_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
+         8 -1105.93           71          0.70          -15.58    5128.15      40.35 DeMarker_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
+         9 -1105.93           71          0.70          -15.58    5128.15      40.35   DeMarker_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
+        10 -1105.93           71          0.70          -15.58    5128.15      40.35 DeMarker_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
+        11 -1105.93           71          0.70          -15.58    5128.15      40.35 DeMarker_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
+        12 -1105.93           71          0.70          -15.58    5128.15      40.35 DeMarker_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
+        13 -1105.93           71          0.70          -15.58    5128.15      40.35 DeMarker_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
+        14 -1105.93           71          0.70          -15.58    5128.15      40.35 DeMarker_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
+        15 -1105.93           71          0.70          -15.58    5128.15      40.35 DeMarker_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
+        16 -1105.93           71          0.70          -15.58    5128.15      40.35 DeMarker_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
+        17 -1105.93           71          0.70          -15.58    5128.15      40.35 DeMarker_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
+        18 -1105.93           71          0.70          -15.58    5128.15      40.35 DeMarker_Period_Ratio=1.9; MaxOrders=0; MaxOrdersPerType=0;
+        19 -1105.93           71          0.70          -15.58    5128.15      40.35   DeMarker_Period_Ratio=2; MaxOrders=0; MaxOrdersPerType=0;
+         4 -1654.48           68          0.57          -24.33    5210.41      41.06 DeMarker_Period_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=0;
+         5 -1654.48           68          0.57          -24.33    5210.41      41.06 DeMarker_Period_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=0;
+         6 -1654.48           68          0.57          -24.33    5210.41      41.06 DeMarker_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
+         1 -2289.98           99          0.61          -23.13    4783.55      38.90 DeMarker_Period_Ratio=0.2; MaxOrders=0; MaxOrdersPerType=0;
