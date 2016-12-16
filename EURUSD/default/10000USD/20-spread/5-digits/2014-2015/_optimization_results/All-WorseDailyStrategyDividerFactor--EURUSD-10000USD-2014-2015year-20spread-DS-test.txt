@@ -1,0 +1,29 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+ Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+    1  4538.24         1286          1.18            3.53    4551.17      40.21 WorseDailyStrategyDividerFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
+   13 -1623.49          131          0.33          -12.39    1988.39      19.71 WorseDailyStrategyDividerFactor=1.9; MaxOrders=0; MaxOrdersPerType=0;
+   14 -1623.49          131          0.33          -12.39    1988.39      19.71   WorseDailyStrategyDividerFactor=2; MaxOrders=0; MaxOrdersPerType=0;
+   15 -1623.49          131          0.33          -12.39    1988.39      19.71 WorseDailyStrategyDividerFactor=2.1; MaxOrders=0; MaxOrdersPerType=0;
+   11 -1627.59          131          0.33          -12.42    1992.49      19.75 WorseDailyStrategyDividerFactor=1.7; MaxOrders=0; MaxOrdersPerType=0;
+   12 -1627.59          131          0.33          -12.42    1992.49      19.75 WorseDailyStrategyDividerFactor=1.8; MaxOrders=0; MaxOrdersPerType=0;
+   10 -1631.69          131          0.33          -12.46    1996.59      19.79 WorseDailyStrategyDividerFactor=1.6; MaxOrders=0; MaxOrdersPerType=0;
+    8 -1635.79          131          0.33          -12.49    2000.69      19.84 WorseDailyStrategyDividerFactor=1.4; MaxOrders=0; MaxOrdersPerType=0;
+    9 -1635.79          131          0.33          -12.49    2000.69      19.84 WorseDailyStrategyDividerFactor=1.5; MaxOrders=0; MaxOrdersPerType=0;
+    6 -1639.89          131          0.33          -12.52    2004.79      19.88 WorseDailyStrategyDividerFactor=1.2; MaxOrders=0; MaxOrdersPerType=0;
+    7 -1639.89          131          0.33          -12.52    2004.79      19.88 WorseDailyStrategyDividerFactor=1.3; MaxOrders=0; MaxOrdersPerType=0;
+    5 -1643.99          131          0.32          -12.55    2008.89      19.92 WorseDailyStrategyDividerFactor=1.1; MaxOrders=0; MaxOrdersPerType=0;
+    4 -1652.19          131          0.32          -12.61    2017.09      20.00   WorseDailyStrategyDividerFactor=1; MaxOrders=0; MaxOrdersPerType=0;
+    3 -1656.29          131          0.32          -12.64    2021.19      20.04 WorseDailyStrategyDividerFactor=0.9; MaxOrders=0; MaxOrdersPerType=0;
+    2 -1703.93          131          0.32          -13.01    2068.83      20.51 WorseDailyStrategyDividerFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
