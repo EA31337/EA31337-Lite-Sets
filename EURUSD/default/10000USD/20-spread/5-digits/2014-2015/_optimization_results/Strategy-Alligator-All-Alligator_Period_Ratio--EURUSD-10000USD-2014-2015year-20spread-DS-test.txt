@@ -12,23 +12,19 @@
                             Spread          20
                                                                  [Optimization Graph]
      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        6  -566.56           68          0.82           -8.33    4515.14      36.43 Alligator_Period_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=0;
-        3  -746.99           69          0.77          -10.83    4639.71      37.47 Alligator_Period_Ratio=0.3; MaxOrders=0; MaxOrdersPerType=0;
-        1  -766.72           67          0.76          -11.44    4572.24      37.00 Alligator_Period_Ratio=0.1; MaxOrders=0; MaxOrdersPerType=0;
-       13  -830.93           97          0.82           -8.57    4684.71      36.93 Alligator_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
-       19  -832.72           68          0.76          -12.25    4870.64      37.70 Alligator_Period_Ratio=1.9; MaxOrders=0; MaxOrdersPerType=0;
-        9  -924.53           98          0.80           -9.43    4814.08      37.50 Alligator_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
-       12 -1028.56           98          0.78          -10.50    4864.45      37.90 Alligator_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
-        7 -1048.87          100          0.78          -10.49    4714.21      36.79 Alligator_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
-       17 -1082.06           95          0.78          -11.39    4950.55      38.44 Alligator_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
-       15 -1149.29           95          0.76          -12.10    4822.64      37.83 Alligator_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
-       20 -1205.29           98          0.75          -12.30    4761.48      36.78   Alligator_Period_Ratio=2; MaxOrders=0; MaxOrdersPerType=0;
-        5 -1211.39           66          0.65          -18.35    4824.24      38.83 Alligator_Period_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=0;
-        8 -1336.60          120          0.77          -11.14    5520.25      42.83 Alligator_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
-       16 -1351.82           93          0.72          -14.54    4919.91      38.31 Alligator_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
-       10 -1390.26          119          0.77          -11.68    5364.55      41.76   Alligator_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
-       18 -1414.22           94          0.72          -15.04    5026.22      38.40 Alligator_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
-       11 -1483.49           91          0.68          -16.30    4848.44      38.13 Alligator_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
-       14 -1515.06          117          0.75          -12.95    5310.95      41.18 Alligator_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
-        4 -1806.51          109          0.68          -16.57    5268.97      41.96 Alligator_Period_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=0;
-        2 -2625.12          114          0.57          -23.03    5652.85      44.99 Alligator_Period_Ratio=0.2; MaxOrders=0; MaxOrdersPerType=0;
+       15   625.33           78          1.21            8.02    4561.91      35.69 Alligator_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
+        3  -166.49           73          0.95           -2.28    4542.84      36.29 Alligator_Period_Ratio=0.3; MaxOrders=0; MaxOrdersPerType=0;
+        9  -294.53           73          0.91           -4.03    4828.58      37.54 Alligator_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
+       11  -472.13           73          0.87           -6.47    5011.58      38.94 Alligator_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
+        6  -507.59           70          0.85           -7.25    4704.41      37.67 Alligator_Period_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=0;
+       10  -516.33           73          0.85           -7.07    4979.31      38.67   Alligator_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
+        1  -555.96           69          0.83           -8.06    4581.14      37.20 Alligator_Period_Ratio=0.1; MaxOrders=0; MaxOrdersPerType=0;
+       13  -668.57          102          0.86           -6.55    4928.98      37.83 Alligator_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
+        2  -713.12           68          0.77          -10.49    4514.04      36.53 Alligator_Period_Ratio=0.2; MaxOrders=0; MaxOrdersPerType=0;
+        5  -856.55           67          0.74          -12.78    4634.21      37.51 Alligator_Period_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=0;
+        4  -978.25           67          0.70          -14.60    4616.81      37.41 Alligator_Period_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=0;
+       16 -1016.66          125          0.83           -8.13    5060.92      39.55 Alligator_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
+       12 -1045.26           98          0.79          -10.67    5148.98      39.32 Alligator_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
+        7 -1391.66          121          0.77          -11.50    5359.86      41.43 Alligator_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
+       14 -1672.12          117          0.72          -14.29    5449.42      41.81 Alligator_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
+        8 -1694.18           88          0.65          -19.25    5029.45      39.18 Alligator_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
