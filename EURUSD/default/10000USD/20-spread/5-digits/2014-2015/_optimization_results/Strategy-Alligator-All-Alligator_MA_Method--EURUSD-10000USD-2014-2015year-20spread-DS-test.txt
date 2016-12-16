@@ -1,0 +1,18 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           3  -408.59           65          0.87           -6.29    4595.21      36.14 Alligator_MA_Method=2; MaxOrders=0; MaxOrdersPerType=0;
+           1  -507.59           70          0.85           -7.25    4704.41      37.67 Alligator_MA_Method=0; MaxOrders=0; MaxOrdersPerType=0;
+           2 -1256.52           87          0.72          -14.44    4690.18      37.01 Alligator_MA_Method=1; MaxOrders=0; MaxOrdersPerType=0;
+           4 -1318.92           90          0.70          -14.65    4413.71      35.57 Alligator_MA_Method=3; MaxOrders=0; MaxOrdersPerType=0;
