@@ -12,21 +12,21 @@
                             Spread          20
                                                                  [Optimization Graph]
        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          4 16411.39          764          1.58           21.48    7783.16      30.34 WPR30_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
-         64 16411.39          764          1.58           21.48    7783.16      30.34   WPR30_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-          8 14766.38          646          1.64           22.86    6759.43      28.23 WPR30_SignalMethod=-56; MaxOrders=0; MaxOrdersPerType=0;
-         12 14766.38          646          1.64           22.86    6759.43      28.23 WPR30_SignalMethod=-52; MaxOrders=0; MaxOrdersPerType=0;
-         16 14060.18          752          1.50           18.70    7866.16      32.32 WPR30_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
-         20 14060.18          752          1.50           18.70    7866.16      32.32 WPR30_SignalMethod=-44; MaxOrders=0; MaxOrdersPerType=0;
-         24 13102.64          629          1.58           20.83    7110.12      31.04 WPR30_SignalMethod=-40; MaxOrders=0; MaxOrdersPerType=0;
-         28 13102.64          629          1.58           20.83    7110.12      31.04 WPR30_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
-         68  7930.88          332          1.70           23.89    5036.69      26.51   WPR30_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=0;
-         80  7067.84          327          1.63           21.61    5087.06      27.68  WPR30_SignalMethod=16; MaxOrders=0; MaxOrdersPerType=0;
-         84  7067.84          327          1.63           21.61    5087.06      27.68  WPR30_SignalMethod=20; MaxOrders=0; MaxOrdersPerType=0;
-         72  6302.20          276          1.64           22.83    4628.66      26.22   WPR30_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=0;
-         76  6302.20          276          1.64           22.83    4628.66      26.22  WPR30_SignalMethod=12; MaxOrders=0; MaxOrdersPerType=0;
-         88  5483.73          264          1.58           20.77    4607.54      27.21  WPR30_SignalMethod=24; MaxOrders=0; MaxOrdersPerType=0;
-         92  5483.73          264          1.58           20.77    4607.54      27.21  WPR30_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
+          4 15881.66          788          1.56           20.15    8040.94      31.41 WPR30_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
+         64 15881.66          788          1.56           20.15    8040.94      31.41   WPR30_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+          8 15511.22          670          1.69           23.15    6603.09      26.89 WPR30_SignalMethod=-56; MaxOrders=0; MaxOrdersPerType=0;
+         12 15511.22          670          1.69           23.15    6603.09      26.89 WPR30_SignalMethod=-52; MaxOrders=0; MaxOrdersPerType=0;
+         16 13760.40          780          1.49           17.64    8493.35      34.75 WPR30_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+         20 13760.40          780          1.49           17.64    8493.35      34.75 WPR30_SignalMethod=-44; MaxOrders=0; MaxOrdersPerType=0;
+         24 13673.33          656          1.62           20.84    7335.40      31.39 WPR30_SignalMethod=-40; MaxOrders=0; MaxOrdersPerType=0;
+         28 13673.33          656          1.62           20.84    7335.40      31.39 WPR30_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
+         68  7754.11          342          1.70           22.67    4967.78      26.36   WPR30_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+         80  7605.64          335          1.70           22.70    4826.96      26.09  WPR30_SignalMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+         84  7605.64          335          1.70           22.70    4826.96      26.09  WPR30_SignalMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+         72  6601.72          278          1.71           23.75    4508.46      25.16   WPR30_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+         76  6601.72          278          1.71           23.75    4508.46      25.16  WPR30_SignalMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+         88  6187.18          270          1.68           22.92    4451.85      25.86  WPR30_SignalMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+         92  6187.18          270          1.68           22.92    4451.85      25.86  WPR30_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
           1     0.00            0          0.00            0.00       0.00       0.00 WPR30_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
           2     0.00            0          0.00            0.00       0.00       0.00 WPR30_SignalMethod=-62; MaxOrders=0; MaxOrdersPerType=0;
           3     0.00            0          0.00            0.00       0.00       0.00 WPR30_SignalMethod=-61; MaxOrders=0; MaxOrdersPerType=0;
