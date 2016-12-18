@@ -11,59 +11,9 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-     Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       26 926460.19         2279          1.63          406.52  274086.40      46.54 Alligator30_Active=1; Bands30_Active=1; DeMarker30_Active=0;
-       38 465547.83         2321          1.69          200.58  100390.40      44.67 Alligator30_Active=1; Bands30_Active=1; DeMarker30_Active=1;
-        8 260241.19         1714          1.57          151.83   78016.00      32.52 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=0;
-       48 205485.15         1469          1.57          139.88   61235.20      33.49 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=0;
-       46 205312.40         1455          1.57          141.11   61235.20      33.67 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=0;
-       51 205144.65         1475          1.57          139.08   61235.20      33.86 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=1;
-       17 205130.64         1599          1.57          128.29   61235.20      33.87 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=0;
-        1 205130.64         1599          1.57          128.29   61235.20      33.87 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=1;
-       47 198855.17         1565          1.57          127.06   61235.20      34.30 Alligator30_Active=0; Bands30_Active=1; DeMarker30_Active=0;
-        6 198093.09         1931          1.57          102.59   61235.20      35.18 Alligator30_Active=0; Bands30_Active=1; DeMarker30_Active=1;
-       50 167082.35         1655          1.58          100.96   50048.00      39.69 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=0;
-        5 154735.47         2014          1.56           76.83   44748.80      30.40 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=1;
-       29 140833.52         1675          1.59           84.08   39155.20      41.26 Alligator30_Active=1; Bands30_Active=1; DeMarker30_Active=1;
-       34 124481.39         1831          1.55           67.99   33267.20      37.33 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=0;
-       20  58773.76         3735          1.68           15.74   23350.60      30.74 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=0;
-        9  45916.65         2640          1.36           17.39   11462.33      41.30 Alligator30_Active=1; Bands30_Active=1; DeMarker30_Active=0;
-       15  44185.17         1616          1.50           27.34   10985.30      25.13 Alligator30_Active=0; Bands30_Active=1; DeMarker30_Active=1;
-       52  42326.84         1586          1.51           26.69   10985.30      22.61 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=0;
-       16  37254.26         1611          1.41           23.12   10892.80      48.92 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=1;
-       40  35775.06         1973          1.54           18.13    6476.80      18.86 Alligator30_Active=1; Bands30_Active=1; DeMarker30_Active=0;
-        4  32825.30         2138          1.43           15.35    6587.46      23.92 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=1;
-       24  28591.21         2286          1.45           12.51    5129.99      43.04 Alligator30_Active=1; Bands30_Active=1; DeMarker30_Active=0;
-       37  28475.74         2299          1.45           12.39    5547.25      45.40 Alligator30_Active=1; Bands30_Active=1; DeMarker30_Active=0;
-       36  28358.09         3524          1.35            8.05    8151.68      30.56 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=1;
-       28  27617.87         3814          1.32            7.24    8151.68      31.43 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=1;
-       43  24146.83         2322          1.48           10.40    4614.19      42.26 Alligator30_Active=0; Bands30_Active=1; DeMarker30_Active=1;
-       44  19582.90         5065          1.23            3.87    7341.86      26.80 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=1;
-       39  18947.66         6787          1.16            2.79    7327.63      36.00 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=1;
-       21  16931.43         5065          1.19            3.34    7341.86      29.67 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=0;
-       13  16736.18         5200          1.18            3.22    7341.86      35.60 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=0;
-        7  16252.27         4840          1.19            3.36    6425.17      22.76 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=0;
-       42  14473.61         4913          1.16            2.95    6425.17      28.91 Alligator30_Active=1; Bands30_Active=1; DeMarker30_Active=0;
-       27  14421.65         4951          1.16            2.91    6425.17      40.21 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=0;
-        3  12861.50         2999          1.21            4.29   11793.79      44.32 Alligator30_Active=0; Bands30_Active=1; DeMarker30_Active=0;
-       19  12359.16         5141          1.14            2.40    5101.70      27.27 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=0;
-       23   9976.66        10781          1.10            0.93    5218.20      30.99 Alligator30_Active=0; Bands30_Active=1; DeMarker30_Active=1;
-       25   6845.64         9691          1.06            0.71    6050.45      47.14 Alligator30_Active=0; Bands30_Active=1; DeMarker30_Active=0;
-       49   4840.18          617          1.37            7.84    2689.86      20.54 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=0;
-       55   3929.29          718          1.27            5.47    3683.50      28.71 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=1;
-       31   1467.62          370          1.25            3.97    1320.22      11.83 Alligator30_Active=1; Bands30_Active=1; DeMarker30_Active=1;
-       22   1336.60          643          1.15            2.08    2676.91      20.27 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=0;
-       14   1205.36          633          1.18            1.90     958.52       8.94 Alligator30_Active=0; Bands30_Active=1; DeMarker30_Active=1;
-       10    208.82          768          1.02            0.27    3853.75      31.75 Alligator30_Active=0; Bands30_Active=1; DeMarker30_Active=0;
-       33   -435.33          277          0.87           -1.57    1236.14      12.18 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=1;
-       53   -505.97          155          0.75           -3.26     887.93       8.74 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=0;
-       41   -905.46          267          0.82           -3.39    2082.81      19.79 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=1;
-       54   -987.47          175          0.62           -5.64    1077.37      10.68 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=0;
-       32  -1111.45          260          0.82           -4.27    3389.17      33.07 Alligator30_Active=0; Bands30_Active=1; DeMarker30_Active=1;
-       30  -1195.33          212          0.66           -5.64    1561.05      15.15 Alligator30_Active=1; Bands30_Active=1; DeMarker30_Active=0;
-       45  -1351.10          292          0.70           -4.63    2056.06      19.96 Alligator30_Active=0; Bands30_Active=1; DeMarker30_Active=0;
-       12  -1615.86          608          0.80           -2.66    2524.07      24.61 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=1;
-       11  -1948.20          518          0.65           -3.76    2211.50      21.55 Alligator30_Active=0; Bands30_Active=1; DeMarker30_Active=0;
-        2  -2556.72          238          0.63          -10.74    4172.76      36.80 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=0;
-       35  -2604.38          379          0.70           -6.87    4360.44      39.53 Alligator30_Active=1; Bands30_Active=1; DeMarker30_Active=1;
-       18  -3460.53          416          0.64           -8.32    4646.51      44.10 Alligator30_Active=0; Bands30_Active=1; DeMarker30_Active=1;
+     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        3 42720.32        15274          1.13            2.80   21973.13      46.76 Alligator30_Active=1; Bands30_Active=0; DeMarker30_Active=1;
+        1 29629.00        11865          1.11            2.50   22233.18      48.42 Alligator30_Active=1; Bands30_Active=1; DeMarker30_Active=0;
+        2 16548.92        10631          1.10            1.56   11079.81      43.99 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=1;
+        5  7524.91         8058          1.06            0.93   10720.03      49.81 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=0;
+        4  7407.62         7746          1.06            0.96   10459.59      49.47 Alligator30_Active=0; Bands30_Active=0; DeMarker30_Active=0;
