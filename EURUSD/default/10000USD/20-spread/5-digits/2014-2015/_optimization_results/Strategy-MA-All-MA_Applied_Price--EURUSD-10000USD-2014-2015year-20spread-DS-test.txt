@@ -12,10 +12,10 @@
                             Spread          20
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            7 20038.92          518          1.92           38.69    9528.34      38.88 MA_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-            6 20013.53          513          1.92           39.01    9858.61      36.61 MA_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-            5 19105.81          501          1.90           38.14   10188.88      36.71 MA_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-            3 18863.40          518          1.80           36.42    7863.81      32.48 MA_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-            1 18334.92          518          1.80           35.40    9042.48      34.88 MA_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-            4 17363.52          514          1.80           33.78   11538.21      41.67 MA_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-            2 16162.62          501          1.73           32.26   10629.74      43.70 MA_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            3 19911.21          468          1.97           42.55    5658.68      33.05 MA_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+            1 18175.41          474          1.84           38.34    6343.27      38.53 MA_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+            5 17890.58          471          1.85           37.98    7325.38      39.51 MA_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+            7 17451.22          477          1.81           36.59    7188.97      42.30 MA_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+            6 17436.62          474          1.82           36.79    7182.77      40.22 MA_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+            2 16378.98          460          1.75           35.61    5908.68      42.30 MA_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            4 14438.86          481          1.63           30.02   11486.85      42.24 MA_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
