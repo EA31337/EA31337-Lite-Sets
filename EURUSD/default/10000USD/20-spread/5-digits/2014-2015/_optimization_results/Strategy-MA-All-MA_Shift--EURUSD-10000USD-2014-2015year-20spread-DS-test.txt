@@ -1,0 +1,135 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+            Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             117 19711.84          555          1.78           35.52    7438.21      31.74 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+             114 19711.84          555          1.78           35.52    7438.21      31.74 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+             113 19711.84          555          1.78           35.52    7438.21      31.74 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+             110 19711.84          555          1.78           35.52    7438.21      31.74 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              33 19711.84          555          1.78           35.52    7438.21      31.74 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              78 19463.07          601          1.66           32.38    8712.70      38.11 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              64 19463.07          601          1.66           32.38    8712.70      38.11 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              51 19463.07          601          1.66           32.38    8712.70      38.11 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              37 19463.07          601          1.66           32.38    8712.70      38.11 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              31 19463.07          601          1.66           32.38    8712.70      38.11 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+             120 18863.40          518          1.80           36.42    7863.81      32.48 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              80 18863.40          518          1.80           36.42    7863.81      32.48 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              61 18863.40          518          1.80           36.42    7863.81      32.48 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+             107 18120.60          496          1.79           36.53    7863.81      34.93 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              99 18120.60          496          1.79           36.53    7863.81      34.93 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              94 18050.11          480          1.83           37.60    7863.81      37.74 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              27 18050.11          480          1.83           37.60    7863.81      37.74 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              20 18050.11          480          1.83           37.60    7863.81      37.74 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              17 18050.11          480          1.83           37.60    7863.81      37.74 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              14 18050.11          480          1.83           37.60    7863.81      37.74 MA_Shift=0; MA_Shift_Fast=0; MA_Shift_Medium=0;
+             112 17405.14          659          1.53           26.41    9717.01      35.77 MA_Shift=0; MA_Shift_Fast=1; MA_Shift_Medium=1;
+             109 17405.14          659          1.53           26.41    9717.01      35.77 MA_Shift=0; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              49 17405.14          659          1.53           26.41    9717.01      35.77 MA_Shift=0; MA_Shift_Fast=1; MA_Shift_Medium=1;
+             106 16641.17          646          1.54           25.76   10120.71      41.98 MA_Shift=1; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              87 16641.17          646          1.54           25.76   10120.71      41.98 MA_Shift=1; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              48 16641.17          646          1.54           25.76   10120.71      41.98 MA_Shift=1; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              98 16298.95          515          1.67           31.65    9306.31      34.04 MA_Shift=0; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              40 16298.95          515          1.67           31.65    9306.31      34.04 MA_Shift=0; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              19 16298.95          515          1.67           31.65    9306.31      34.04 MA_Shift=0; MA_Shift_Fast=1; MA_Shift_Medium=1;
+             119 16177.26          550          1.62           29.41    8886.38      33.28 MA_Shift=1; MA_Shift_Fast=0; MA_Shift_Medium=0;
+             108 16177.26          550          1.62           29.41    8886.38      33.28 MA_Shift=1; MA_Shift_Fast=0; MA_Shift_Medium=0;
+             105 16177.26          550          1.62           29.41    8886.38      33.28 MA_Shift=0; MA_Shift_Fast=1; MA_Shift_Medium=1;
+             104 16177.26          550          1.62           29.41    8886.38      33.28 MA_Shift=0; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              90 16177.26          550          1.62           29.41    8886.38      33.28 MA_Shift=0; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              47 16177.26          550          1.62           29.41    8886.38      33.28 MA_Shift=1; MA_Shift_Fast=0; MA_Shift_Medium=0;
+               5 16177.26          550          1.62           29.41    8886.38      33.28 MA_Shift=0; MA_Shift_Fast=1; MA_Shift_Medium=1;
+             101 16015.92          584          1.56           27.42    9444.11      35.97 MA_Shift=0; MA_Shift_Fast=1; MA_Shift_Medium=1;
+             100 16015.92          584          1.56           27.42    9444.11      35.97 MA_Shift=1; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              65 16015.92          584          1.56           27.42    9444.11      35.97 MA_Shift=0; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              54 16015.92          584          1.56           27.42    9444.11      35.97 MA_Shift=1; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              41 16015.92          584          1.56           27.42    9444.11      35.97 MA_Shift=1; MA_Shift_Fast=0; MA_Shift_Medium=0;
+               9 16015.92          584          1.56           27.42    9444.11      35.97 MA_Shift=0; MA_Shift_Fast=1; MA_Shift_Medium=1;
+               4 16015.92          584          1.56           27.42    9444.11      35.97 MA_Shift=1; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              97 15818.40          542          1.63           29.19   10533.81      49.88 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              95 15818.40          542          1.63           29.19   10533.81      49.88 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              82 15818.40          542          1.63           29.19   10533.81      49.88 MA_Shift=1; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              81 15818.40          542          1.63           29.19   10533.81      49.88 MA_Shift=0; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              76 15818.40          542          1.63           29.19   10533.81      49.88 MA_Shift=1; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              75 15818.40          542          1.63           29.19   10533.81      49.88 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              38 15818.40          542          1.63           29.19   10533.81      49.88 MA_Shift=0; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              29 15818.40          542          1.63           29.19   10533.81      49.88 MA_Shift=0; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              18 15818.40          542          1.63           29.19   10533.81      49.88 MA_Shift=0; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              85 15597.32          482          1.67           32.36    9743.29      39.67 MA_Shift=1; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              83 15597.32          482          1.67           32.36    9743.29      39.67 MA_Shift=1; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              36 15597.32          482          1.67           32.36    9743.29      39.67 MA_Shift=1; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              35 15597.32          482          1.67           32.36    9743.29      39.67 MA_Shift=1; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              10 15597.32          482          1.67           32.36    9743.29      39.67 MA_Shift=1; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              93 15110.60          503          1.65           30.04   10750.21      49.80 MA_Shift=1; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              30 15110.60          503          1.65           30.04   10750.21      49.80 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              21 15110.60          503          1.65           30.04   10750.21      49.80 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              88 15046.23          581          1.53           25.90   10120.71      45.74 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              84 15046.23          581          1.53           25.90   10120.71      45.74 MA_Shift=1; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              39 15046.23          581          1.53           25.90   10120.71      45.74 MA_Shift=1; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              34 15046.23          581          1.53           25.90   10120.71      45.74 MA_Shift=1; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              26 15046.23          581          1.53           25.90   10120.71      45.74 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              25 15046.23          581          1.53           25.90   10120.71      45.74 MA_Shift=1; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              13 15046.23          581          1.53           25.90   10120.71      45.74 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              11 14689.92          476          1.66           30.86   10750.21      51.22 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=0;
+             118 14685.37          466          1.68           31.51   10750.21      51.17 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=0;
+             102 14685.37          466          1.68           31.51   10750.21      51.17 MA_Shift=2; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              92 14552.73          640          1.46           22.74   10389.61      40.37 MA_Shift=1; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              67 14552.73          640          1.46           22.74   10389.61      40.37 MA_Shift=1; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              43 14552.73          640          1.46           22.74   10389.61      40.37 MA_Shift=1; MA_Shift_Fast=2; MA_Shift_Medium=2;
+               7 14552.73          640          1.46           22.74   10389.61      40.37 MA_Shift=1; MA_Shift_Fast=2; MA_Shift_Medium=2;
+             116 14488.38          528          1.58           27.44   10588.31      38.35 MA_Shift=3; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              68 14488.38          528          1.58           27.44   10588.31      38.35 MA_Shift=3; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              96 14276.60          529          1.58           26.99   10737.72      38.50 MA_Shift=2; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              74 14276.60          529          1.58           26.99   10737.72      38.50 MA_Shift=2; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              91 14268.78          506          1.60           28.20   11006.41      39.63 MA_Shift=2; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              89 14268.78          506          1.60           28.20   11006.41      39.63 MA_Shift=1; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              86 14268.78          506          1.60           28.20   11006.41      39.63 MA_Shift=3; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              52 14268.78          506          1.60           28.20   11006.41      39.63 MA_Shift=1; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              22 14268.78          506          1.60           28.20   11006.41      39.63 MA_Shift=3; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              79 13741.18          501          1.58           27.43   11123.35      36.94 MA_Shift=3; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              70 13741.18          501          1.58           27.43   11123.35      36.94 MA_Shift=3; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              59 13741.18          501          1.58           27.43   11123.35      36.94 MA_Shift=4; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              32 13741.18          501          1.58           27.43   11123.35      36.94 MA_Shift=3; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              28 13741.18          501          1.58           27.43   11123.35      36.94 MA_Shift=3; MA_Shift_Fast=1; MA_Shift_Medium=1;
+               8 13741.18          501          1.58           27.43   11123.35      36.94 MA_Shift=3; MA_Shift_Fast=1; MA_Shift_Medium=1;
+             111 13410.19          579          1.49           23.16   11224.35      40.41 MA_Shift=3; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              60 13410.19          579          1.49           23.16   11224.35      40.41 MA_Shift=3; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              62 13265.38          474          1.59           27.99   11153.43      41.15 MA_Shift=3; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              53 13265.38          474          1.59           27.99   11153.43      41.15 MA_Shift=3; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              42 13265.38          474          1.59           27.99   11153.43      41.15 MA_Shift=4; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              16 13265.38          474          1.59           27.99   11153.43      41.15 MA_Shift=3; MA_Shift_Fast=1; MA_Shift_Medium=1;
+               3 13265.38          474          1.59           27.99   11153.43      41.15 MA_Shift=4; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              66 12783.83          478          1.55           26.74   11215.41      44.86 MA_Shift=3; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              57 12783.83          478          1.55           26.74   11215.41      44.86 MA_Shift=2; MA_Shift_Fast=1; MA_Shift_Medium=1;
+              50 12783.83          478          1.55           26.74   11215.41      44.86 MA_Shift=3; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              44 12783.83          478          1.55           26.74   11215.41      44.86 MA_Shift=3; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              73 12769.66          464          1.58           27.52   11215.41      45.27 MA_Shift=3; MA_Shift_Fast=0; MA_Shift_Medium=0;
+             103 12595.60          740          1.33           17.02   11171.77      38.37 MA_Shift=0; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              72 12595.60          740          1.33           17.02   11171.77      38.37 MA_Shift=0; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              12 12595.60          740          1.33           17.02   11171.77      38.37 MA_Shift=0; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              56 12535.38          638          1.39           19.65   11855.07      41.92 MA_Shift=2; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              45 12535.38          638          1.39           19.65   11855.07      41.92 MA_Shift=2; MA_Shift_Fast=2; MA_Shift_Medium=2;
+             121 12326.17          569          1.44           21.66   12784.74      44.66 MA_Shift=4; MA_Shift_Fast=0; MA_Shift_Medium=0;
+             115 12326.17          569          1.44           21.66   12784.74      44.66 MA_Shift=4; MA_Shift_Fast=0; MA_Shift_Medium=0;
+              55 12032.83          719          1.33           16.74   10719.88      36.11 MA_Shift=1; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              15 12032.83          719          1.33           16.74   10719.88      36.11 MA_Shift=1; MA_Shift_Fast=2; MA_Shift_Medium=2;
+               6 11977.54          643          1.37           18.63   11188.42      50.23 MA_Shift=3; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              69 11703.82          728          1.31           16.08   10945.32      36.36 MA_Shift=2; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              71 11576.60          501          1.48           23.11   11991.69      50.01 MA_Shift=3; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              63 11576.60          501          1.48           23.11   11991.69      50.01 MA_Shift=3; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              24 11576.60          501          1.48           23.11   11991.69      50.01 MA_Shift=3; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              46 10625.43          714          1.29           14.88   11270.10      43.10 MA_Shift=3; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              23 10625.43          714          1.29           14.88   11270.10      43.10 MA_Shift=3; MA_Shift_Fast=2; MA_Shift_Medium=2;
+              77  8626.99          537          1.32           16.07   11750.06      48.27 MA_Shift=4; MA_Shift_Fast=2; MA_Shift_Medium=2;
+               2  8626.99          537          1.32           16.07   11750.06      48.27 MA_Shift=4; MA_Shift_Fast=2; MA_Shift_Medium=2;
+               1   564.11         1729          1.01            0.33   24076.16      76.03 MA_Shift=4; MA_Shift_Fast=2; MA_Shift_Medium=1;
+              58  -840.06         1837          0.99           -0.46   24167.27      79.99 MA_Shift=4; MA_Shift_Fast=2; MA_Shift_Medium=1;
