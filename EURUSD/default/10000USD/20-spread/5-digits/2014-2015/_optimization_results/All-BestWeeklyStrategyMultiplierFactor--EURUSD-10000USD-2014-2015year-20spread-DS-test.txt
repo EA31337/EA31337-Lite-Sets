@@ -6,42 +6,9 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
-                            Model           Control points (a very crude method, the results must not be considered)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-  10 96470.82         3460          1.76           27.88   34348.94      37.62 BestWeeklyStrategyMultiplierFactor=1; MaxOrders=0; MaxOrdersPerType=0;
-  17 85928.18         3457          1.85           24.86   31933.68      49.52                   BestWeeklyStrategyMultiplierFactor=1.7; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-  16 81703.80         3457          1.84           23.63   27786.54      43.25                   BestWeeklyStrategyMultiplierFactor=1.6; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-  15 77568.65         3457          1.83           22.44   26706.54      41.67                   BestWeeklyStrategyMultiplierFactor=1.5; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-   9 73524.85         3460          1.75           21.25   18570.32      30.73                   BestWeeklyStrategyMultiplierFactor=0.9; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-  13 72973.73         3457          1.82           21.11   22557.50      35.78                   BestWeeklyStrategyMultiplierFactor=1.3; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-   5 72940.53         3460          1.76           21.08   15564.75      30.26                   BestWeeklyStrategyMultiplierFactor=0.5; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-  14 72768.55         3457          1.81           21.05   25624.64      40.64                   BestWeeklyStrategyMultiplierFactor=1.4; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-   1 71916.04         3460          1.74           20.78   16778.06      32.09                   BestWeeklyStrategyMultiplierFactor=0.1; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-   2 71916.04         3460          1.74           20.78   16778.06      32.09                   BestWeeklyStrategyMultiplierFactor=0.2; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-   3 71916.04         3460          1.74           20.78   16778.06      32.09                   BestWeeklyStrategyMultiplierFactor=0.3; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-   4 71754.73         3460          1.75           20.74   15564.75      30.26                   BestWeeklyStrategyMultiplierFactor=0.4; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-   6 71694.43         3460          1.75           20.72   15573.36      30.26                   BestWeeklyStrategyMultiplierFactor=0.6; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-   7 71631.76         3460          1.74           20.70   17488.42      30.26                   BestWeeklyStrategyMultiplierFactor=0.7; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-   8 71177.52         3460          1.73           20.57   17490.32      30.79                   BestWeeklyStrategyMultiplierFactor=0.8; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-  12 70660.21         3457          1.80           20.44   21477.50      34.18                   BestWeeklyStrategyMultiplierFactor=1.2; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
-  11 59964.98         3457          1.72           17.35   20397.50      32.91                   BestWeeklyStrategyMultiplierFactor=1.1; MaxOrders=0;
-                                                                                                                                  MaxOrdersPerType=0;
+                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
