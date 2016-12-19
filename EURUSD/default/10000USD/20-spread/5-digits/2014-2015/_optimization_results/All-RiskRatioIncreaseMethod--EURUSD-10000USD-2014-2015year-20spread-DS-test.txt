@@ -1,0 +1,39 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       25 32780.34         6907          1.19            4.75   28370.10      48.86  RiskRatioIncreaseMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+       11 32780.34         6907          1.19            4.75   28370.10      48.86  RiskRatioIncreaseMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+       18 30445.14         6907          1.21            4.41   28370.10      49.90  RiskRatioIncreaseMethod=36; MaxOrders=0; MaxOrdersPerType=0;
+       15 30445.14         6907          1.21            4.41   28370.10      49.90   RiskRatioIncreaseMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+       12 30445.14         6907          1.21            4.41   28370.10      49.90   RiskRatioIncreaseMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+        9 30445.14         6907          1.21            4.41   28370.10      49.90   RiskRatioIncreaseMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+        7 30445.14         6907          1.21            4.41   28370.10      49.90  RiskRatioIncreaseMethod=68; MaxOrders=0; MaxOrdersPerType=0;
+        3 30445.14         6907          1.21            4.41   28370.10      49.90  RiskRatioIncreaseMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+        2 30445.14         6907          1.21            4.41   28370.10      49.90  RiskRatioIncreaseMethod=52; MaxOrders=0; MaxOrdersPerType=0;
+        1 30445.14         6907          1.21            4.41   28370.10      49.90  RiskRatioIncreaseMethod=82; MaxOrders=0; MaxOrdersPerType=0;
+       23 28554.55         6907          1.25            4.13   14936.36      36.66   RiskRatioIncreaseMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+       24 28378.61         6907          1.21            4.11   18158.20      38.35 RiskRatioIncreaseMethod=128; MaxOrders=0; MaxOrdersPerType=0;
+       14 23057.33         6907          1.18            3.34   17597.97      40.12  RiskRatioIncreaseMethod=28; MaxOrders=0; MaxOrdersPerType=0;
+       10 23057.33         6907          1.18            3.34   17597.97      40.12  RiskRatioIncreaseMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+        8 23057.33         6907          1.18            3.34   17597.97      40.12  RiskRatioIncreaseMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+        5 23057.33         6907          1.18            3.34   17597.97      40.12   RiskRatioIncreaseMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+        4 21943.24         6907          1.13            3.18   19489.91      45.46  RiskRatioIncreaseMethod=88; MaxOrders=0; MaxOrdersPerType=0;
+       22 21748.55         6907          1.15            3.15   20312.76      47.38 RiskRatioIncreaseMethod=180; MaxOrders=0; MaxOrdersPerType=0;
+       20 21748.55         6907          1.15            3.15   20312.76      47.38 RiskRatioIncreaseMethod=164; MaxOrders=0; MaxOrdersPerType=0;
+       17 21748.55         6907          1.15            3.15   20312.76      47.38 RiskRatioIncreaseMethod=162; MaxOrders=0; MaxOrdersPerType=0;
+       19 19902.56         6907          1.12            2.88   19753.88      46.08 RiskRatioIncreaseMethod=153; MaxOrders=0; MaxOrdersPerType=0;
+       16 19902.56         6907          1.12            2.88   19753.88      46.08 RiskRatioIncreaseMethod=139; MaxOrders=0; MaxOrdersPerType=0;
+       13 19902.56         6907          1.12            2.88   19753.88      46.08 RiskRatioIncreaseMethod=216; MaxOrders=0; MaxOrdersPerType=0;
+       21 19612.28         6907          1.13            2.84   20691.23      48.27 RiskRatioIncreaseMethod=212; MaxOrders=0; MaxOrdersPerType=0;
+        6 19612.28         6907          1.13            2.84   20691.23      48.27 RiskRatioIncreaseMethod=210; MaxOrders=0; MaxOrdersPerType=0;
