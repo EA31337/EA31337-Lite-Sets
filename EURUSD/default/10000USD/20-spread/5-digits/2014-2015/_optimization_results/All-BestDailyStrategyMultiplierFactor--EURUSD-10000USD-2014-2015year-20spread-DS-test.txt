@@ -6,20 +6,10 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
-                            Model           Control points (a very crude method, the results must not be considered)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
 Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-   6 91182.27         3460          1.81           26.35   17942.04      30.26 BestDailyStrategyMultiplierFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
-   8 90140.03         3460          1.74           26.05   22570.04      30.34 BestDailyStrategyMultiplierFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
-   9 89081.70         3460          1.72           25.75   18401.20      30.34 BestDailyStrategyMultiplierFactor=0.9; MaxOrders=0; MaxOrdersPerType=0;
-   7 88879.92         3460          1.79           25.69   18160.00      30.26 BestDailyStrategyMultiplierFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
-  10 84386.95         3466          1.65           24.35   19697.40      32.17 BestDailyStrategyMultiplierFactor=1.1; MaxOrders=0; MaxOrdersPerType=0;
-  11 80131.40         3466          1.62           23.12   20701.00      32.19 BestDailyStrategyMultiplierFactor=1.2; MaxOrders=0; MaxOrdersPerType=0;
-   5 71441.61         3460          1.69           20.65   16726.60      30.38 BestDailyStrategyMultiplierFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
-   1 71290.07         3460          1.73           20.60   17490.32      30.79 BestDailyStrategyMultiplierFactor=0.1; MaxOrders=0; MaxOrdersPerType=0;
-   2 71177.52         3460          1.73           20.57   17490.32      30.79 BestDailyStrategyMultiplierFactor=0.2; MaxOrders=0; MaxOrdersPerType=0;
-   3 71003.62         3460          1.72           20.52   17235.75      30.79 BestDailyStrategyMultiplierFactor=0.3; MaxOrders=0; MaxOrdersPerType=0;
-   4 69855.71         3460          1.68           20.19   16981.17      30.30 BestDailyStrategyMultiplierFactor=0.4; MaxOrders=0; MaxOrdersPerType=0;
+   1 19398.95         2854          1.21            6.80    6533.21      28.90 BestDailyStrategyMultiplierFactor=1.5; MaxOrders=0; MaxOrdersPerType=0;
