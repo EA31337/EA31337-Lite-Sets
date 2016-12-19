@@ -6,26 +6,14 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
-                            Model           Control points (a very crude method, the results must not be considered)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-   2 221380.25         3460          1.61           63.98   87623.00      45.11 WorseWeeklyStrategyDividerFactor=0.3; MaxOrders=0; MaxOrdersPerType=0;
-   3 162545.94         3460          1.68           46.98   58977.57      42.20 WorseWeeklyStrategyDividerFactor=0.4; MaxOrders=0; MaxOrdersPerType=0;
-   4 145400.21         3460          1.71           42.02   51448.32      44.90 WorseWeeklyStrategyDividerFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
-   6 119672.15         3460          1.74           34.59   43641.71      38.80 WorseWeeklyStrategyDividerFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
-   7 115854.83         3460          1.73           33.48   43641.71      40.07 WorseWeeklyStrategyDividerFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
-   9 114000.69         3460          1.74           32.95   36607.52      36.87   WorseWeeklyStrategyDividerFactor=1; MaxOrders=0; MaxOrdersPerType=0;
-   5 112720.49         3460          1.76           32.58   36607.52      38.59 WorseWeeklyStrategyDividerFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
-  16  26862.11         2151          1.34           12.49   20903.20      49.64 WorseWeeklyStrategyDividerFactor=1.7; MaxOrders=0; MaxOrdersPerType=0;
-  17  26862.11         2151          1.34           12.49   20903.20      49.64 WorseWeeklyStrategyDividerFactor=1.8; MaxOrders=0; MaxOrdersPerType=0;
-   8  26845.10         2151          1.34           12.48   20903.20      49.66 WorseWeeklyStrategyDividerFactor=0.9; MaxOrders=0; MaxOrdersPerType=0;
-  10  26799.49         2151          1.34           12.46   20903.20      49.72 WorseWeeklyStrategyDividerFactor=1.1; MaxOrders=0; MaxOrdersPerType=0;
-  11  26799.49         2151          1.34           12.46   20903.20      49.72 WorseWeeklyStrategyDividerFactor=1.2; MaxOrders=0; MaxOrdersPerType=0;
-  12  26799.49         2151          1.34           12.46   20903.20      49.72 WorseWeeklyStrategyDividerFactor=1.3; MaxOrders=0; MaxOrdersPerType=0;
-  13  26799.49         2151          1.34           12.46   20903.20      49.72 WorseWeeklyStrategyDividerFactor=1.4; MaxOrders=0; MaxOrdersPerType=0;
-  14  26799.49         2151          1.34           12.46   20903.20      49.72 WorseWeeklyStrategyDividerFactor=1.5; MaxOrders=0; MaxOrdersPerType=0;
-  15  26799.49         2151          1.34           12.46   20903.20      49.72 WorseWeeklyStrategyDividerFactor=1.6; MaxOrders=0; MaxOrdersPerType=0;
-   1   6131.67          771          1.70            7.95    2453.10      16.70 WorseWeeklyStrategyDividerFactor=0.1; MaxOrders=0; MaxOrdersPerType=0;
+Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+   3 19900.34         7258          1.13            2.74   16031.92      47.97 WorseWeeklyStrategyDividerFactor=1.1; MaxOrders=0; MaxOrdersPerType=0;
+   4 19900.34         7258          1.13            2.74   16031.92      47.97 WorseWeeklyStrategyDividerFactor=1.2; MaxOrders=0; MaxOrdersPerType=0;
+   5 19900.34         7258          1.13            2.74   16031.92      47.97 WorseWeeklyStrategyDividerFactor=1.3; MaxOrders=0; MaxOrdersPerType=0;
+   1 19778.11         7260          1.13            2.72   16117.13      46.95 WorseWeeklyStrategyDividerFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
+   2 17985.87         7259          1.12            2.48   16072.32      47.97 WorseWeeklyStrategyDividerFactor=0.9; MaxOrders=0; MaxOrdersPerType=0;
