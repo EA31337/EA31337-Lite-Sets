@@ -11,6 +11,4 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-             Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                1   0.00            0          0.00            0.00       0.00       0.00 SAR_Shift=-4; MaxOrders=0; MaxOrdersPerType=0;
-                2   0.00            0          0.00            0.00       0.00       0.00 SAR_Shift=-3; MaxOrders=0; MaxOrdersPerType=0;
+                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
