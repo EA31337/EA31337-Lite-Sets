@@ -6,49 +6,9 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
-                            Model           Control points (a very crude method, the results must not be considered)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-   3 98427.46         3460          1.92           28.45   20598.81      36.48 BestMonthlyStrategyMultiplierFactor=1; MaxOrders=0; MaxOrdersPerType=0;
-  10 72023.99         3460          1.75           20.82   17490.32      29.68                   BestMonthlyStrategyMultiplierFactor=1.7; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-   8 71958.52         3460          1.75           20.80   17490.32      29.73                   BestMonthlyStrategyMultiplierFactor=1.5; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-   9 71958.52         3460          1.75           20.80   17490.32      29.73                   BestMonthlyStrategyMultiplierFactor=1.6; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-   1 71799.63         3460          1.77           20.75   17490.32      30.33                   BestMonthlyStrategyMultiplierFactor=0.8; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-   2 71795.83         3460          1.77           20.75   17490.32      30.33                   BestMonthlyStrategyMultiplierFactor=0.9; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-  15 71736.21         3460          1.72           20.73   17490.32      36.49                   BestMonthlyStrategyMultiplierFactor=2.2; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-   4 71679.61         3460          1.76           20.72   17490.32      30.25                   BestMonthlyStrategyMultiplierFactor=1.1; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-  14 71551.73         3460          1.72           20.68   17490.32      36.48                   BestMonthlyStrategyMultiplierFactor=2.1; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-  13 71482.45         3460          1.72           20.66   17490.32      36.48 BestMonthlyStrategyMultiplierFactor=2; MaxOrders=0; MaxOrdersPerType=0;
-   5 71293.42         3460          1.76           20.61   17490.32      30.54                   BestMonthlyStrategyMultiplierFactor=1.2; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-  12 71246.79         3460          1.73           20.59   17490.32      30.75                   BestMonthlyStrategyMultiplierFactor=1.9; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-  11 71177.52         3460          1.73           20.57   17490.32      30.79                   BestMonthlyStrategyMultiplierFactor=1.8; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-   6 71017.20         3460          1.75           20.53   17490.32      30.54                   BestMonthlyStrategyMultiplierFactor=1.3; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-   7 71017.20         3460          1.75           20.53   17490.32      30.54                   BestMonthlyStrategyMultiplierFactor=1.4; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-  16 70616.38         3458          1.70           20.42   17490.32      42.17                   BestMonthlyStrategyMultiplierFactor=2.3; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-  17 70266.75         3458          1.70           20.32   17490.32      42.17                   BestMonthlyStrategyMultiplierFactor=2.4; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-  20 70106.84         3457          1.68           20.28   17490.32      49.39                   BestMonthlyStrategyMultiplierFactor=2.7; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-  21 69834.42         3457          1.67           20.20   17490.32      49.39                   BestMonthlyStrategyMultiplierFactor=2.8; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-  19 69818.99         3458          1.69           20.19   17490.32      46.52                   BestMonthlyStrategyMultiplierFactor=2.6; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-  18 69749.71         3458          1.68           20.17   17490.32      46.52                   BestMonthlyStrategyMultiplierFactor=2.5; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
+                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
