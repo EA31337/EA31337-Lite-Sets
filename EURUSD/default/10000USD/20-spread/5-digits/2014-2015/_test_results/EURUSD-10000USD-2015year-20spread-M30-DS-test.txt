@@ -17,10 +17,10 @@ Model                             Every tick (the most precise method based on a
                                   CloseOrderAfterXHours=96; RiskRatio=0; RiskRatioIncreaseMethod=15; RiskRatioDecreaseMethod=216;
                                   __Strategy_Parameters__="-- Per strategy parameters (0 to disable) --"; ProfitFactorMinToTrade=0.6;
                                   ProfitFactorMaxToTrade=4.4; __Strategy_Boosting_Parameters__="-- Strategy boosting parameters (set 1.0 for default)
-                                  --"; Boosting_Enabled=true; BoostTrendFactor=1.5; BestDailyStrategyMultiplierFactor=1.4;
+                                  --"; Boosting_Enabled=true; BoostTrendFactor=1.6; BestDailyStrategyMultiplierFactor=1;
                                   BestWeeklyStrategyMultiplierFactor=1; BestMonthlyStrategyMultiplierFactor=1; WorseDailyStrategyDividerFactor=0.8;
-                                  WorseWeeklyStrategyDividerFactor=1.1; WorseMonthlyStrategyDividerFactor=1; ConWinsIncreaseFactor=0.4;
-                                  ConLossesIncreaseFactor=1.2; ConFactorOrdersLimit=200; __EA_Account_Conditions__="-- Account conditions --";
+                                  WorseWeeklyStrategyDividerFactor=0.2; WorseMonthlyStrategyDividerFactor=1; ConWinsIncreaseFactor=0.4;
+                                  ConLossesIncreaseFactor=1.2; ConFactorOrdersLimit=500; __EA_Account_Conditions__="-- Account conditions --";
                                   Account_Conditions_Active=false; Account_Condition_MinProfitCloseOrder=20; __EA_Account_Conditions_Params__="-
                                   - Account conditions parameters --"; MarketSuddenDropSize=20; MarketBigDropSize=40; MarketSpecificHour=10;
                                   __Alligator_Parameters__="-- Settings for the Alligator indicator --"; Alligator1_Active=false;
@@ -50,16 +50,16 @@ Parameters                        Alligator_SignalLevel=-0.11; Alligator1_Signal
 Bars in test                12404 Ticks modelled                       80271172 Modelling quality                                              89.28%
 Mismatched charts errors        1
 Initial deposit          10000.00                                               Spread                                                             20
-Total net profit          1947.03 Gross profit                          8381.87 Gross loss                                                   -6434.84
-Profit factor                1.30 Expected payoff                          2.08
-Absolute drawdown          923.59 Maximal drawdown             2942.48 (20.55%) Relative drawdown                                    20.55% (2942.48)
-Total trades                  935 Short positions (won %)          827 (37.36%) Long positions (won %)                                   108 (33.33%)
-                                  Profit trades (% of total)       345 (36.90%) Loss trades (% of total)                                 590 (63.10%)
-                          Largest profit trade                           355.09 loss trade                                                    -151.61
-                          Average profit trade                            24.30 loss trade                                                     -10.91
-                          Maximum consecutive wins (profit in      14 (2153.66) consecutive losses (loss in money)                        17 (-82.70)
+Total net profit         14472.66 Gross profit                         22883.92 Gross loss                                                   -8411.26
+Profit factor                2.72 Expected payoff                         58.59
+Absolute drawdown          942.73 Maximal drawdown             8586.81 (31.48%) Relative drawdown                                    31.48% (8586.81)
+Total trades                  247 Short positions (won %)          124 (46.77%) Long positions (won %)                                   123 (34.15%)
+                                  Profit trades (% of total)       100 (40.49%) Loss trades (% of total)                                 147 (59.51%)
+                          Largest profit trade                          5597.61 loss trade                                                   -1080.00
+                          Average profit trade                           228.84 loss trade                                                     -57.22
+                          Maximum consecutive wins (profit in      11 (9104.16) consecutive losses (loss in money)                       11 (-324.40)
                                   money)
-                          Maximal consecutive profit (count of     2153.66 (14) consecutive loss (count of losses)                        -491.35 (7)
+                          Maximal consecutive profit (count of     9104.16 (11) consecutive loss (count of losses)                       -3247.20 (4)
                                   wins)
                           Average consecutive wins                            2 consecutive losses                                                  3
                                                                        [Graph]
