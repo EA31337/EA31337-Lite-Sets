@@ -6,14 +6,13 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
-             Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                3 5761.20         2324          1.25            2.48    2317.34      13.22  WPR_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
-                1 3627.84        12089          1.04            0.30    8120.00      37.37 WPR_Shift=-2; MaxOrders=0; MaxOrdersPerType=0;
-                2 3627.84        12089          1.04            0.30    8120.00      37.37 WPR_Shift=-1; MaxOrders=0; MaxOrdersPerType=0;
-                5 -211.27           46          0.33           -4.59     311.07       3.08  WPR_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
-                4 -339.37           65          0.37           -5.22     443.57       4.39  WPR_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+            Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+               1  -803.63           38          0.36          -21.15    2261.05      20.70 WPR_Shift=-2; MaxOrders=0; MaxOrdersPerType=0;
+               2 -1225.64           54          0.33          -22.70    3282.08      29.02 WPR_Shift=-1; MaxOrders=0; MaxOrdersPerType=0;
+               3 -1913.05          159          0.66          -12.03    3072.42      28.12  WPR_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+               4 -2498.16          150          0.56          -16.65    3533.07      32.41  WPR_Shift=2; MaxOrders=0; MaxOrdersPerType=0;

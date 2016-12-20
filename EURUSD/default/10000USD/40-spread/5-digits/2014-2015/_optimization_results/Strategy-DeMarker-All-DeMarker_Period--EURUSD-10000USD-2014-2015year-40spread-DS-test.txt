@@ -6,14 +6,12 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             2 3388.55         3892          1.14            0.87    1566.39      15.31 DeMarker_Period=11; MaxOrders=0; MaxOrdersPerType=0;
-             1 2374.49          705          1.37            3.37     531.36       4.79  DeMarker_Period=9; MaxOrders=0; MaxOrdersPerType=0;
-             3 1162.77          525          1.31            2.21     538.97       5.37 DeMarker_Period=13; MaxOrders=0; MaxOrdersPerType=0;
-             4 -149.65          654          0.96           -0.23     593.10       5.91 DeMarker_Period=15; MaxOrders=0; MaxOrdersPerType=0;
-             5 -320.47           63          0.35           -5.09     335.07       3.35 DeMarker_Period=17; MaxOrders=0; MaxOrdersPerType=0;
+             2 -219.25           35          0.77           -6.26     999.44       9.58 DeMarker_Period=17; MaxOrders=0; MaxOrdersPerType=0;
+             3 -241.90           35          0.76           -6.91    1099.79      10.46 DeMarker_Period=22; MaxOrders=0; MaxOrdersPerType=0;
+             1 -373.28           35          0.64          -10.67    1170.08      11.19 DeMarker_Period=16; MaxOrders=0; MaxOrdersPerType=0;

@@ -6,16 +6,11 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          40
                                                                  [Optimization Graph]
          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            1 -374.51           80          0.46           -4.68     684.01       6.63 MACD_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-            2 -374.51           80          0.46           -4.68     684.01       6.63 MACD_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-            7 -378.91           80          0.46           -4.74     688.41       6.68 MACD_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-            3 -379.31           77          0.45           -4.93     679.91       6.60 MACD_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-            5 -382.11           81          0.46           -4.72     682.71       6.63 MACD_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-            6 -386.01           81          0.45           -4.77     686.61       6.67 MACD_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-            4 -402.31           83          0.44           -4.85     682.41       6.64 MACD_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+            1   42.56           91          1.01            0.47    2435.25      20.44 MACD_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+            2 -881.18          124          0.82           -7.11    3043.38      25.68 MACD_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;

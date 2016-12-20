@@ -1,0 +1,26 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         5 5174.77         3257          1.10            1.59    5981.10      38.46  ConFactorOrdersLimit=500; MaxOrders=0; MaxOrdersPerType=0;
+         6 5009.99         3257          1.10            1.54    5981.10      38.15  ConFactorOrdersLimit=600; MaxOrders=0; MaxOrdersPerType=0;
+         4 4803.19         3257          1.09            1.47    5981.10      38.86  ConFactorOrdersLimit=400; MaxOrders=0; MaxOrdersPerType=0;
+         3 4781.92         3257          1.09            1.47    5981.10      39.04  ConFactorOrdersLimit=300; MaxOrders=0; MaxOrdersPerType=0;
+         7 4206.47         3257          1.08            1.29    6287.09      38.38  ConFactorOrdersLimit=700; MaxOrders=0; MaxOrdersPerType=0;
+        10 3572.41         3257          1.06            1.10    6880.87      38.48 ConFactorOrdersLimit=1000; MaxOrders=0; MaxOrdersPerType=0;
+         2 3542.19         3257          1.07            1.09    5324.62      30.67  ConFactorOrdersLimit=200; MaxOrders=0; MaxOrdersPerType=0;
+         8 3521.63         3257          1.06            1.08    6926.46      38.49  ConFactorOrdersLimit=800; MaxOrders=0; MaxOrdersPerType=0;
+        12 3471.51         3257          1.06            1.07    6981.77      38.48 ConFactorOrdersLimit=1200; MaxOrders=0; MaxOrdersPerType=0;
+         9 3455.18         3257          1.06            1.06    7051.20      38.35  ConFactorOrdersLimit=900; MaxOrders=0; MaxOrdersPerType=0;
+        11 3305.05         3257          1.06            1.01    7148.22      38.48 ConFactorOrdersLimit=1100; MaxOrders=0; MaxOrdersPerType=0;
+         1 3169.58         3257          1.06            0.97    5324.62      31.09  ConFactorOrdersLimit=100; MaxOrders=0; MaxOrdersPerType=0;

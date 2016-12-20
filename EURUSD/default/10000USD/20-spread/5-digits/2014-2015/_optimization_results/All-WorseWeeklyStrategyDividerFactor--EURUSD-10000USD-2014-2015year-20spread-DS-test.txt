@@ -1,0 +1,30 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+   1 22656.47         2578          1.23            8.79   18725.17      49.58 WorseWeeklyStrategyDividerFactor=0.2; MaxOrders=0; MaxOrdersPerType=0;
+   2  4345.64         3249          1.08            1.34    4810.39      29.81 WorseWeeklyStrategyDividerFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
+   3  4129.85         3257          1.08            1.27    4799.13      30.31 WorseWeeklyStrategyDividerFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
+   4  3814.00         3257          1.08            1.17    5079.21      30.38 WorseWeeklyStrategyDividerFactor=0.9; MaxOrders=0; MaxOrdersPerType=0;
+   5  3709.06         3257          1.07            1.14    4978.97      30.80   WorseWeeklyStrategyDividerFactor=1; MaxOrders=0; MaxOrdersPerType=0;
+   6  3542.19         3257          1.07            1.09    5324.62      30.67 WorseWeeklyStrategyDividerFactor=1.1; MaxOrders=0; MaxOrdersPerType=0;
+   7  3542.19         3257          1.07            1.09    5324.62      30.67 WorseWeeklyStrategyDividerFactor=1.2; MaxOrders=0; MaxOrdersPerType=0;
+   8  3542.19         3257          1.07            1.09    5324.62      30.67 WorseWeeklyStrategyDividerFactor=1.3; MaxOrders=0; MaxOrdersPerType=0;
+   9  3542.19         3257          1.07            1.09    5324.62      30.67 WorseWeeklyStrategyDividerFactor=1.4; MaxOrders=0; MaxOrdersPerType=0;
+  10  3542.19         3257          1.07            1.09    5324.62      30.67 WorseWeeklyStrategyDividerFactor=1.5; MaxOrders=0; MaxOrdersPerType=0;
+  11  3542.19         3257          1.07            1.09    5324.62      30.67 WorseWeeklyStrategyDividerFactor=1.6; MaxOrders=0; MaxOrdersPerType=0;
+  12  3542.19         3257          1.07            1.09    5324.62      30.67 WorseWeeklyStrategyDividerFactor=1.7; MaxOrders=0; MaxOrdersPerType=0;
+  13  3542.19         3257          1.07            1.09    5324.62      30.67 WorseWeeklyStrategyDividerFactor=1.8; MaxOrders=0; MaxOrdersPerType=0;
+  14  3542.19         3257          1.07            1.09    5324.62      30.67 WorseWeeklyStrategyDividerFactor=1.9; MaxOrders=0; MaxOrdersPerType=0;
+  15  3542.19         3257          1.07            1.09    5324.62      30.67   WorseWeeklyStrategyDividerFactor=2; MaxOrders=0; MaxOrdersPerType=0;
+  16  3542.19         3257          1.07            1.09    5324.62      30.67 WorseWeeklyStrategyDividerFactor=2.1; MaxOrders=0; MaxOrdersPerType=0;

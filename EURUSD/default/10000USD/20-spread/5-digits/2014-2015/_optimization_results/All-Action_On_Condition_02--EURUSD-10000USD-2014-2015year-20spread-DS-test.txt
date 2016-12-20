@@ -1,0 +1,87 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+  63 118232.15         3460          1.74           34.17   43641.71      40.07  Account_Condition_2=7; Market_Condition_2=2; Action_On_Condition_2=1;
+  42 118232.15         3460          1.74           34.17   43641.71      40.07  Account_Condition_2=7; Market_Condition_2=3; Action_On_Condition_2=1;
+  64 117683.33         3461          1.75           34.00   43641.71      40.07  Account_Condition_2=7; Market_Condition_2=2; Action_On_Condition_2=7;
+  33 117478.64         3461          1.74           33.94   43641.71      40.07 Account_Condition_2=8; Market_Condition_2=13; Action_On_Condition_2=8;
+  35 116227.63         3461          1.73           33.58   43641.71      40.07  Account_Condition_2=8; Market_Condition_2=9; Action_On_Condition_2=6;
+  32 116227.63         3461          1.73           33.58   43641.71      40.07  Account_Condition_2=8; Market_Condition_2=9; Action_On_Condition_2=8;
+  65 116061.63         3460          1.73           33.54   43641.71      40.07  Account_Condition_2=7; Market_Condition_2=5; Action_On_Condition_2=8;
+  21 115912.52         3466          1.73           33.44   43641.71      40.07  Account_Condition_2=7; Market_Condition_2=7; Action_On_Condition_2=6;
+  69 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=7; Market_Condition_2=19; Action_On_Condition_2=0;
+  68 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=8; Market_Condition_2=2; Action_On_Condition_2=6;
+  67 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=7; Market_Condition_2=9; Action_On_Condition_2=0;
+  62 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=7; Market_Condition_2=17; Action_On_Condition_2=0;
+  59 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=7; Market_Condition_2=5; Action_On_Condition_2=0;
+  58 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=7; Market_Condition_2=18; Action_On_Condition_2=0;
+  57 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=7; Market_Condition_2=3; Action_On_Condition_2=0;
+  56 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=7; Market_Condition_2=2; Action_On_Condition_2=0;
+  55 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=9; Market_Condition_2=18; Action_On_Condition_2=6;
+  54 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=8; Market_Condition_2=12; Action_On_Condition_2=4;
+  53 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=9; Market_Condition_2=3; Action_On_Condition_2=2;
+  51 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=9; Market_Condition_2=4; Action_On_Condition_2=2;
+  49 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=9; Market_Condition_2=19; Action_On_Condition_2=0;
+  48 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=9; Market_Condition_2=3; Action_On_Condition_2=3;
+  47 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=9; Market_Condition_2=16; Action_On_Condition_2=0;
+  46 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=9; Market_Condition_2=3; Action_On_Condition_2=10;
+  45 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=9; Market_Condition_2=12; Action_On_Condition_2=6;
+  44 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=8; Market_Condition_2=3; Action_On_Condition_2=1;
+  43 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=9; Market_Condition_2=8; Action_On_Condition_2=10;
+  40 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=7; Market_Condition_2=19; Action_On_Condition_2=6;
+  39 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=7; Market_Condition_2=6; Action_On_Condition_2=0;
+  38 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=7; Market_Condition_2=11; Action_On_Condition_2=1;
+  34 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=9; Market_Condition_2=11; Action_On_Condition_2=7;
+  26 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=9; Market_Condition_2=9; Action_On_Condition_2=8;
+  25 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=9; Market_Condition_2=2; Action_On_Condition_2=1;
+  23 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=8; Market_Condition_2=2; Action_On_Condition_2=8;
+  18 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=7; Market_Condition_2=8; Action_On_Condition_2=0;
+  17 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=9; Market_Condition_2=6; Action_On_Condition_2=2;
+  16 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=8; Market_Condition_2=3; Action_On_Condition_2=4;
+  12 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=8; Market_Condition_2=3; Action_On_Condition_2=2;
+  11 115854.83         3460          1.73           33.48   43641.71      40.07  Account_Condition_2=8; Market_Condition_2=2; Action_On_Condition_2=0;
+  10 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=9; Market_Condition_2=15; Action_On_Condition_2=2;
+   9 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=9; Market_Condition_2=14; Action_On_Condition_2=9;
+   8 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=9; Market_Condition_2=11; Action_On_Condition_2=0;
+   7 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=7; Market_Condition_2=13; Action_On_Condition_2=0;
+   5 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=9; Market_Condition_2=10; Action_On_Condition_2=7;
+   3 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=9; Market_Condition_2=16; Action_On_Condition_2=1;
+   1 115854.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=9; Market_Condition_2=15; Action_On_Condition_2=8;
+  71 115842.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=7; Market_Condition_2=17; Action_On_Condition_2=8;
+  66 115842.83         3460          1.73           33.48   43641.71      40.07 Account_Condition_2=7; Market_Condition_2=18; Action_On_Condition_2=8;
+  60 115828.13         3461          1.73           33.47   43641.71      40.07  Account_Condition_2=7; Market_Condition_2=2; Action_On_Condition_2=8;
+  50 114490.24         3460          1.72           33.09   43641.71      40.07 Account_Condition_2=7; Market_Condition_2=14; Action_On_Condition_2=2;
+   2 111428.39         3461          1.71           32.20   43641.71      40.07 Account_Condition_2=7; Market_Condition_2=14; Action_On_Condition_2=4;
+  20 111235.45         3473          1.80           32.03   36607.52      40.07  Account_Condition_2=8; Market_Condition_2=9; Action_On_Condition_2=2;
+  27 111206.05         3475          1.78           32.00   36607.52      38.43 Account_Condition_2=7; Market_Condition_2=15; Action_On_Condition_2=2;
+  70 110970.38         3460          1.76           32.07   36607.52      40.07 Account_Condition_2=7; Market_Condition_2=18; Action_On_Condition_2=1;
+   6 109586.58         3460          1.77           31.67   36607.52      40.07  Account_Condition_2=8; Market_Condition_2=5; Action_On_Condition_2=2;
+  22 109556.92         3467          1.79           31.60   36607.52      40.07 Account_Condition_2=8; Market_Condition_2=16; Action_On_Condition_2=4;
+  37 108505.10         3460          1.75           31.36   36607.52      40.65 Account_Condition_2=7; Market_Condition_2=12; Action_On_Condition_2=3;
+  29 104386.95         3479          1.75           30.00   35527.52      39.86  Account_Condition_2=7; Market_Condition_2=4; Action_On_Condition_2=4;
+  41 101205.00         3492          1.79           28.98   35527.52      40.07  Account_Condition_2=7; Market_Condition_2=7; Action_On_Condition_2=4;
+  14  96609.90         3470          1.65           27.84   31593.92      32.30 Account_Condition_2=7; Market_Condition_2=14; Action_On_Condition_2=5;
+  30  94070.99         3460          1.73           27.19   35527.52      40.07 Account_Condition_2=7; Market_Condition_2=10; Action_On_Condition_2=4;
+  15  94070.99         3460          1.73           27.19   35527.52      40.07 Account_Condition_2=7; Market_Condition_2=17; Action_On_Condition_2=4;
+  24  82239.51         3461          1.58           23.76   28461.84      40.07                          Account_Condition_2=8; Market_Condition_2=11;
+                                                                                                                             Action_On_Condition_2=10;
+  31  78298.09         3473          1.57           22.54   28461.84      40.88 Account_Condition_2=7; Market_Condition_2=17; Action_On_Condition_2=7;
+  61  78107.89         3463          1.57           22.55   27998.28      40.07  Account_Condition_2=7; Market_Condition_2=5; Action_On_Condition_2=7;
+  19  78107.89         3463          1.57           22.55   27998.28      40.07  Account_Condition_2=7; Market_Condition_2=5; Action_On_Condition_2=9;
+   4  75157.87         3462          1.53           21.71   27998.28      40.07 Account_Condition_2=8; Market_Condition_2=15; Action_On_Condition_2=9;
+  28  66922.18         3469          1.57           19.29   23674.78      40.07  Account_Condition_2=7; Market_Condition_2=9; Action_On_Condition_2=7;
+  52  51183.23         3490          1.40           14.67   27819.86      47.13 Account_Condition_2=7; Market_Condition_2=16; Action_On_Condition_2=5;
+  13  50695.23         3466          1.43           14.63   28149.08      49.70 Account_Condition_2=7; Market_Condition_2=15; Action_On_Condition_2=3;
+  36   6814.44         2749          1.19            2.48    5617.80      47.13                          Account_Condition_2=7; Market_Condition_2=15;
+                                                                                                                             Action_On_Condition_2=10;
