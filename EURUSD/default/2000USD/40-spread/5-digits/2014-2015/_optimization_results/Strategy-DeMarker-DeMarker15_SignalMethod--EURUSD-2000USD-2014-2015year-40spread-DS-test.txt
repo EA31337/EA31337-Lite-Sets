@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          15 Minutes (M15) 2014.01.02 23:00 - 2015.12.30 23:45 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         5 -30.47           11          0.33           -2.77      44.60       2.22 DeMarker15_SignalMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+         1 -33.57           11          0.20           -3.05      35.70       1.78  DeMarker15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         2 -40.37           11          0.13           -3.67      49.30       2.45  DeMarker15_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+         7 -40.37           11          0.13           -3.67      49.30       2.45 DeMarker15_SignalMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+         3 -48.20           11          0.11           -4.38      49.60       2.48  DeMarker15_SignalMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+         8 -51.57           12          0.06           -4.30      55.60       2.77 DeMarker15_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+         6 -52.00           11          0.06           -4.73      57.60       2.87 DeMarker15_SignalMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+        11 -52.00           11          0.06           -4.73      57.60       2.87 DeMarker15_SignalMethod=30; MaxOrders=0; MaxOrdersPerType=0;
+        10 -54.07           11          0.10           -4.92      64.30       3.20 DeMarker15_SignalMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+         4 -57.07           12          0.09           -4.76      66.50       3.31  DeMarker15_SignalMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+         9 -57.07           12          0.09           -4.76      66.50       3.31 DeMarker15_SignalMethod=24; MaxOrders=0; MaxOrdersPerType=0;

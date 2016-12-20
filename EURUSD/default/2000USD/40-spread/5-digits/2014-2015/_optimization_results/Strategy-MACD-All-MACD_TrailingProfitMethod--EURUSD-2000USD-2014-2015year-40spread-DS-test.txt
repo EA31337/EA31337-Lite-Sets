@@ -1,0 +1,27 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        2 -174.47           45          0.26           -3.88     176.80       8.84  MACD_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+        1 -182.83           46          0.35           -3.97     193.63       9.68  MACD_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+        9 -245.54           55          0.41           -4.46     354.94      17.34 MACD_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+        8 -268.64           50          0.36           -5.37     384.64      18.73 MACD_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+        5 -270.74           49          0.27           -5.53     360.23      17.62  MACD_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+       10 -272.37           51          0.37           -5.34     410.10      19.84 MACD_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+        6 -284.51           63          0.46           -4.52     324.61      15.93 MACD_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+       12 -288.07           50          0.39           -5.76     450.40      21.58 MACD_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+        7 -305.64           56          0.38           -5.46     408.43      20.13 MACD_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+       11 -314.91           52          0.27           -6.06     424.10      20.70 MACD_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+        3 -320.34           48          0.29           -6.67     358.54      17.89  MACD_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+       13 -347.64           58          0.32           -5.99     473.84      22.90 MACD_TrailingProfitMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+        4 -588.05          116          0.46           -5.07     640.25      31.42  MACD_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
