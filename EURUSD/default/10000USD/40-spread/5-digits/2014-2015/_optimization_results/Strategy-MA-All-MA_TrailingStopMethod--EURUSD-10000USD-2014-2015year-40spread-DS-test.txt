@@ -1,0 +1,40 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        14  -202.00           60          0.29           -3.37     222.00       2.22 MA_TrailingStopMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+         2  -270.40           62          0.25           -4.36     272.40       2.72  MA_TrailingStopMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+        11  -284.00           69          0.29           -4.12     300.80       3.01 MA_TrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+        19  -329.20           62          0.30           -5.31     351.10       3.51 MA_TrailingStopMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+        15  -331.30           69          0.22           -4.80     331.60       3.32 MA_TrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+         9  -339.80           61          0.17           -5.57     352.10       3.52  MA_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+         3  -350.00           65          0.21           -5.38     355.60       3.56  MA_TrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+        18  -353.50           74          0.29           -4.78     355.90       3.56 MA_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+         4  -374.90           67          0.22           -5.60     377.10       3.77  MA_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+         5  -399.20           64          0.29           -6.24     405.70       4.06  MA_TrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+        25 -1088.62           74          0.51          -14.71    2234.54      21.68 MA_TrailingStopMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+        23 -1096.31          167          0.75           -6.56    2269.74      21.69 MA_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+         6 -1143.08           87          0.28          -13.14    1182.58      11.79  MA_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+        17 -1148.36          353          0.70           -3.25    2733.18      25.97 MA_TrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+         8 -1310.45           70          0.10          -18.72    1556.02      15.19  MA_TrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+        22 -1467.71          184          0.70           -7.98    2570.44      23.15 MA_TrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+        20 -1530.54           83          0.36          -18.44    2078.80      20.11 MA_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+         1 -1663.37           80          0.13          -20.79    1955.34      19.00  MA_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+        13 -1692.31           67          0.08          -25.26    2168.17      20.94 MA_TrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+        26 -1730.46          279          0.51           -6.20    1892.02      18.73 MA_TrailingStopMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+         7 -1765.37          192          0.68           -9.19    3303.09      28.63  MA_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+        16 -1876.66           75          0.17          -25.02    2375.52      23.16 MA_TrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+        24 -2117.91           90          0.46          -23.53    2770.54      26.38 MA_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+        10 -3097.96          400          0.54           -7.74    3855.52      35.84 MA_TrailingStopMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+        12 -3097.96          400          0.54           -7.74    3855.52      35.84 MA_TrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+        21 -3097.96          400          0.54           -7.74    3855.52      35.84 MA_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=0;

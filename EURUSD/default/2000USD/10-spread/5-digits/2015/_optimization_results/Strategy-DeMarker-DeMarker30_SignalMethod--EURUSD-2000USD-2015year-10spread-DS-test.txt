@@ -1,0 +1,46 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.071
+                                                            Tripleafx-FX-Demo (Build 971)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2015.01.06 00:00 - 2015.12.29 23:30 (2015.01.01 - 2015.12.30)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        20 236.34          149          1.38            1.59     198.12       8.86 DeMarker30_SignalMethod=19; MaxOrders=0; MaxOrdersPerType=35;
+        19 236.34          149          1.38            1.59     198.12       8.86 DeMarker30_SignalMethod=18; MaxOrders=0; MaxOrdersPerType=35;
+        28 196.95          143          1.32            1.38     197.40       9.18 DeMarker30_SignalMethod=27; MaxOrders=0; MaxOrdersPerType=35;
+        27 196.95          143          1.32            1.38     197.40       9.18 DeMarker30_SignalMethod=26; MaxOrders=0; MaxOrdersPerType=35;
+        13 146.43           22          5.76            6.66      45.02       2.15 DeMarker30_SignalMethod=12; MaxOrders=0; MaxOrdersPerType=35;
+         5 144.28           24          5.41            6.01      48.82       2.34  DeMarker30_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=35;
+        12 134.21           23          5.25            5.84      46.67       2.24 DeMarker30_SignalMethod=11; MaxOrders=0; MaxOrdersPerType=35;
+        11 134.21           23          5.25            5.84      46.67       2.24 DeMarker30_SignalMethod=10; MaxOrders=0; MaxOrdersPerType=35;
+         6 108.31           12          6.60            9.03      43.11       2.06  DeMarker30_SignalMethod=5; MaxOrders=0; MaxOrdersPerType=35;
+         7 102.85           20          5.24            5.14      55.29       2.68  DeMarker30_SignalMethod=6; MaxOrders=0; MaxOrdersPerType=35;
+        30 102.84           14          5.49            7.35      38.26       1.86 DeMarker30_SignalMethod=29; MaxOrders=0; MaxOrdersPerType=35;
+        29 102.84           14          5.49            7.35      38.26       1.86 DeMarker30_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=35;
+        14  99.68           11          5.86            9.06      44.59       2.11 DeMarker30_SignalMethod=13; MaxOrders=0; MaxOrdersPerType=35;
+         3  98.29           14          5.93            7.02      55.29       2.63  DeMarker30_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=35;
+        22  95.04           16          5.74            5.94      38.26       1.85 DeMarker30_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=35;
+        21  95.04           16          5.74            5.94      38.26       1.85 DeMarker30_SignalMethod=20; MaxOrders=0; MaxOrdersPerType=35;
+        10  92.02           13          5.70            7.08      42.89       2.06  DeMarker30_SignalMethod=9; MaxOrders=0; MaxOrdersPerType=35;
+         2  92.02           13          5.70            7.08      42.89       2.06  DeMarker30_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=35;
+         4  91.06           13          5.57            7.00      42.39       2.02  DeMarker30_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=35;
+         9  88.08           15          5.04            5.87      56.32       2.69  DeMarker30_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=35;
+        32  86.04           13          5.13            6.62      38.26       1.87 DeMarker30_SignalMethod=31; MaxOrders=0; MaxOrdersPerType=35;
+        31  86.04           13          5.13            6.62      38.26       1.87 DeMarker30_SignalMethod=30; MaxOrders=0; MaxOrdersPerType=35;
+        26  84.11           12          5.17            7.01      42.88       2.05 DeMarker30_SignalMethod=25; MaxOrders=0; MaxOrdersPerType=35;
+        25  84.11           12          5.17            7.01      42.88       2.05 DeMarker30_SignalMethod=24; MaxOrders=0; MaxOrdersPerType=35;
+        18  84.11           12          5.17            7.01      42.88       2.05 DeMarker30_SignalMethod=17; MaxOrders=0; MaxOrdersPerType=35;
+        17  84.11           12          5.17            7.01      42.88       2.05 DeMarker30_SignalMethod=16; MaxOrders=0; MaxOrdersPerType=35;
+        24  78.24           15          5.35            5.22      38.26       1.87 DeMarker30_SignalMethod=23; MaxOrders=0; MaxOrdersPerType=35;
+        23  78.24           15          5.35            5.22      38.26       1.87 DeMarker30_SignalMethod=22; MaxOrders=0; MaxOrdersPerType=35;
+         1  62.75           12          4.21            5.23      25.61       1.24  DeMarker30_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=35;
+         8  61.41           11          4.89            5.58      42.39       2.06  DeMarker30_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=35;
+        16  50.52          119          1.09            0.42     226.71      10.61 DeMarker30_SignalMethod=15; MaxOrders=0; MaxOrdersPerType=35;
+        15  50.52          119          1.09            0.42     226.71      10.61 DeMarker30_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=35;

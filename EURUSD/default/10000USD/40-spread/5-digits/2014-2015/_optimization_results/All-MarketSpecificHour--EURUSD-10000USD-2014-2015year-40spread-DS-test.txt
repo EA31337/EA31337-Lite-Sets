@@ -1,0 +1,35 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          11  -645.64          229          0.78           -2.82    1822.24      18.22 MarketSpecificHour=10; MaxOrders=0; MaxOrdersPerType=0;
+           1 -1368.91          177          0.42           -7.73    1459.91      14.60  MarketSpecificHour=0; MaxOrders=0; MaxOrdersPerType=0;
+          14 -1594.81          203          0.39           -7.86    1646.91      16.47 MarketSpecificHour=13; MaxOrders=0; MaxOrdersPerType=0;
+          13 -1715.07          204          0.43           -8.41    1765.47      17.65 MarketSpecificHour=12; MaxOrders=0; MaxOrdersPerType=0;
+          16 -2137.81          252          0.41           -8.48    2156.01      21.56 MarketSpecificHour=15; MaxOrders=0; MaxOrdersPerType=0;
+           6 -2516.29          241          0.51          -10.44    2919.69      29.20  MarketSpecificHour=5; MaxOrders=0; MaxOrdersPerType=0;
+           5 -2673.15          238          0.46          -11.23    3044.95      30.45  MarketSpecificHour=4; MaxOrders=0; MaxOrdersPerType=0;
+           2 -2749.32          222          0.42          -12.38    2973.60      29.74  MarketSpecificHour=1; MaxOrders=0; MaxOrdersPerType=0;
+           7 -2776.89          226          0.44          -12.29    3642.04      36.42  MarketSpecificHour=6; MaxOrders=0; MaxOrdersPerType=0;
+           4 -2799.05          342          0.48           -8.18    2819.68      28.20  MarketSpecificHour=3; MaxOrders=0; MaxOrdersPerType=0;
+          10 -2968.81          219          0.26          -13.56    3027.31      30.27  MarketSpecificHour=9; MaxOrders=0; MaxOrdersPerType=0;
+          19 -3005.75          244          0.43          -12.32    4736.65      47.37 MarketSpecificHour=19; MaxOrders=0; MaxOrdersPerType=0;
+          20 -3227.44          239          0.38          -13.50    4809.64      48.10 MarketSpecificHour=20; MaxOrders=0; MaxOrdersPerType=0;
+          12 -3229.76          246          0.39          -13.13    3294.16      32.94 MarketSpecificHour=11; MaxOrders=0; MaxOrdersPerType=0;
+          21 -3370.77          226          0.35          -14.91    4778.37      47.78 MarketSpecificHour=23; MaxOrders=0; MaxOrdersPerType=0;
+          18 -3821.11          245          0.30          -15.60    4236.91      42.37 MarketSpecificHour=17; MaxOrders=0; MaxOrdersPerType=0;
+          15 -3988.18          157          0.20          -25.40    4182.18      41.82 MarketSpecificHour=14; MaxOrders=0; MaxOrdersPerType=0;
+           8 -4126.43          272          0.35          -15.17    4366.93      43.67  MarketSpecificHour=7; MaxOrders=0; MaxOrdersPerType=0;
+           3 -4295.77          253          0.46          -16.98    4831.73      48.32  MarketSpecificHour=2; MaxOrders=0; MaxOrdersPerType=0;
+           9 -4684.31          229          0.17          -20.46    4734.61      47.35  MarketSpecificHour=8; MaxOrders=0; MaxOrdersPerType=0;
+          17 -4740.34          288          0.28          -16.46    4823.94      48.24 MarketSpecificHour=16; MaxOrders=0; MaxOrdersPerType=0;

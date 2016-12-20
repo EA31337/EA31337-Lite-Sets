@@ -1,0 +1,35 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.30 23:30 (2014.01.01 - 2015.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 2000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           2   30.95          172          1.02            0.18     328.86      14.00 MACD_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
+           1    1.34          126          1.00            0.01     227.91      10.72 MACD_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
+          19 -249.24           75          0.46           -3.32     478.74      21.55 MACD_Period_Ratio=2.9; MaxOrders=0; MaxOrdersPerType=0;
+          16 -264.41           80          0.46           -3.31     499.21      22.42 MACD_Period_Ratio=2.6; MaxOrders=0; MaxOrdersPerType=0;
+          15 -281.51           80          0.44           -3.52     508.41      22.83 MACD_Period_Ratio=2.5; MaxOrders=0; MaxOrdersPerType=0;
+          18 -288.88           81          0.44           -3.57     519.31      23.32 MACD_Period_Ratio=2.8; MaxOrders=0; MaxOrdersPerType=0;
+          10 -289.84           83          0.43           -3.49     521.67      23.46   MACD_Period_Ratio=2; MaxOrders=0; MaxOrdersPerType=0;
+          12 -292.94           82          0.44           -3.57     497.04      22.63 MACD_Period_Ratio=2.2; MaxOrders=0; MaxOrdersPerType=0;
+          11 -298.71           82          0.42           -3.64     522.64      23.50 MACD_Period_Ratio=2.1; MaxOrders=0; MaxOrdersPerType=0;
+          14 -301.48           78          0.42           -3.87     497.68      22.66 MACD_Period_Ratio=2.4; MaxOrders=0; MaxOrdersPerType=0;
+           5 -308.87           64          0.34           -4.83     452.40      21.11 MACD_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
+           9 -310.77           81          0.41           -3.84     519.00      23.50 MACD_Period_Ratio=1.9; MaxOrders=0; MaxOrdersPerType=0;
+          13 -310.11           83          0.42           -3.74     509.84      23.21 MACD_Period_Ratio=2.3; MaxOrders=0; MaxOrdersPerType=0;
+           8 -346.21           82          0.38           -4.22     547.40      24.87 MACD_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
+           7 -358.77           77          0.35           -4.66     527.77      24.33 MACD_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
+           4 -364.17           67          0.30           -5.44     526.40      24.35 MACD_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
+           6 -367.11           85          0.34           -4.32     498.47      23.39 MACD_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
+          17 -404.01           90          0.41           -4.49     630.91      28.33 MACD_Period_Ratio=2.7; MaxOrders=0; MaxOrdersPerType=0;
+          20 -418.04           85          0.38           -4.92     639.64      28.79   MACD_Period_Ratio=3; MaxOrders=0; MaxOrdersPerType=0;
+          21 -421.81           84          0.38           -5.02     643.41      28.96 MACD_Period_Ratio=3.1; MaxOrders=0; MaxOrdersPerType=0;
+           3 -530.26           86          0.40           -6.17     651.09      30.70 MACD_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;

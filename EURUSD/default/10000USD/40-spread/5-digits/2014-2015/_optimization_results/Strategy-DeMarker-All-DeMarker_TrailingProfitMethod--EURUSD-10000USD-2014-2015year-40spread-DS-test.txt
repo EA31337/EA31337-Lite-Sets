@@ -1,0 +1,41 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+  Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+     4  4005.55         4172          1.04            0.96   11912.47      48.35  DeMarker_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+    17  1815.56         1167          1.06            1.56    3840.66      25.69 DeMarker_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+    22  1815.56         1167          1.06            1.56    3840.66      25.69 DeMarker_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+    11  1784.59         1166          1.05            1.53    3840.66      25.75 DeMarker_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+    13  1784.59         1166          1.05            1.53    3840.66      25.75 DeMarker_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+    15  1784.59         1166          1.05            1.53    3840.66      25.75 DeMarker_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+     3  1658.62         3698          1.03            0.45    5552.36      36.35  DeMarker_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+     5  1342.89         1242          1.04            1.08    5504.08      33.50  DeMarker_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+    25   119.32         1349          1.00            0.09    3447.31      26.87 DeMarker_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+    27  -249.24         1309          0.99           -0.19    3714.51      28.62 DeMarker_TrailingProfitMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+    20  -595.82           57          0.53          -10.45     946.27       9.17 DeMarker_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+    12  -718.06           56          0.53          -12.82    1093.22      10.59 DeMarker_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+    26  -724.73         1329          0.98           -0.55    4085.88      32.49 DeMarker_TrailingProfitMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+     6  -737.07         1270          0.98           -0.58    5222.51      37.17  DeMarker_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+    19  -779.82           58          0.47          -13.45    1092.79      10.60 DeMarker_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+    14  -781.73           51          0.57          -15.33    1307.68      12.56 DeMarker_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+    18  -781.73           51          0.57          -15.33    1307.68      12.56 DeMarker_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+     9  -792.29           67          0.58          -11.83    1353.68      12.96  DeMarker_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+    24  -804.00           51          0.54          -15.76    1323.35      12.65 DeMarker_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+    16  -811.93           55          0.50          -14.76    1187.79      11.51 DeMarker_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+     1  -842.36           52          0.53          -16.20    1400.81      13.41  DeMarker_TrailingProfitMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+    23  -842.36           52          0.53          -16.20    1400.81      13.41 DeMarker_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+    10  -845.88           61          0.59          -13.87    1677.02      16.08  DeMarker_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+     8  -846.40           57          0.54          -14.85    1348.75      12.98  DeMarker_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+     2 -1014.44          104          0.68           -9.75    1789.06      17.13  DeMarker_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+    21 -1032.61          106          0.68           -9.74    1812.72      17.35 DeMarker_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+     7 -1442.88          191          0.70           -7.55    2292.90      21.97  DeMarker_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;

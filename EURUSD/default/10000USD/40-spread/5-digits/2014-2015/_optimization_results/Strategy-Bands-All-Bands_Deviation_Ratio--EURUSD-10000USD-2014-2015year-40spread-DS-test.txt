@@ -1,0 +1,26 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.072
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2015.12.31 00:00 (2014.01.01 - 2015.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          40
+                                                                 [Optimization Graph]
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         5    8.30           42          1.03            0.20     242.80       2.43 Bands_Deviation_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=0;
+         3 -198.14           39          0.56           -5.08     361.63       3.56 Bands_Deviation_Ratio=0.3; MaxOrders=0; MaxOrdersPerType=0;
+         9 -204.04           44          0.42           -4.64     371.93       3.72 Bands_Deviation_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
+        12 -220.27           38          0.28           -5.80     255.27       2.55 Bands_Deviation_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
+         8 -220.14           42          0.41           -5.24     376.84       3.77 Bands_Deviation_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
+        10 -241.00           37          0.15           -6.51     252.90       2.53   Bands_Deviation_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
+         7 -246.80           43          0.25           -5.74     340.97       3.41 Bands_Deviation_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
+         6 -251.47           37          0.21           -6.80     301.00       3.01 Bands_Deviation_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=0;
+        11 -270.17           35          0.17           -7.72     289.17       2.89 Bands_Deviation_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
+         4 -344.35           77          0.63           -4.47     605.24       5.96 Bands_Deviation_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=0;
+         2 -347.74           35          0.29           -9.94     353.74       3.54 Bands_Deviation_Ratio=0.2; MaxOrders=0; MaxOrdersPerType=0;
+         1 -876.59          136          0.56           -6.45    1601.62      15.28 Bands_Deviation_Ratio=0.1; MaxOrders=0; MaxOrdersPerType=0;
