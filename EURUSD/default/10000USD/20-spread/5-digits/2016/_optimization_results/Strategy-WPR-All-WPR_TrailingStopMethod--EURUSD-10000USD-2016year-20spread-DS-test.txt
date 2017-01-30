@@ -1,0 +1,34 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.073
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2016.01.06 03:00 - 2016.12.30 21:30 (2016.01.01 - 2016.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         4  5302.68         7584          1.11            0.70    3832.64      37.55  WPR_TrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+         5  3784.52         4215          1.09            0.90    5905.23      41.31 WPR_TrailingStopMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
+         3  2895.14         9433          1.06            0.31    4396.67      43.16 WPR_TrailingStopMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
+         8   202.66         1116          1.01            0.18    4838.17      47.41  WPR_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+         9   106.66         1684          1.00            0.06    4473.64      43.84  WPR_TrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+         1   -24.50         1509          1.00           -0.02    4381.50      42.93  WPR_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+         2  -100.40        13968          1.00           -0.01    4067.96      40.04  WPR_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+         6  -226.08         1714          0.99           -0.13    4712.31      46.17  WPR_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+        15  -238.86         1081          0.99           -0.22    4669.74      45.76 WPR_TrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+        12  -351.68         1010          0.99           -0.35    4731.05      46.36 WPR_TrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+        10  -418.80         2977          0.99           -0.14    4852.19      47.59  WPR_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+        14  -482.42         1074          0.98           -0.45    4896.78      47.98 WPR_TrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+        17  -490.82         1141          0.98           -0.43    4856.74      47.59 WPR_TrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+        16  -500.09         1030          0.98           -0.49    4706.86      46.12 WPR_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+        18  -712.54         1069          0.97           -0.67    4843.92      47.46 WPR_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+        20  -716.80         1353          0.97           -0.53    4946.22      48.47 WPR_TrailingStopMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+        13  -736.67         1057          0.97           -0.70    4834.62      47.37 WPR_TrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+        19  -802.40         1400          0.97           -0.57    4842.54      47.45 WPR_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+         7 -1551.08          671          0.93           -2.31    5907.94      46.14 WPR_TrailingStopMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+        11 -2199.29         1494          0.89           -1.47    5052.13      49.55 WPR_TrailingStopMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
