@@ -1,0 +1,77 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.073
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2016.01.06 03:00 - 2016.12.30 21:30 (2016.01.01 - 2016.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          40  210.25            4          3.99           52.56     203.14       2.01  MA30_SignalMethod=-46; MaxOrders=0; MaxOrdersPerType=0;
+          59   42.40            1          0.00           42.40     125.03       1.24  MA30_SignalMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+          44   42.40            1          0.00           42.40     125.03       1.24  MA30_SignalMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+          42   42.40            1          0.00           42.40     125.03       1.24  MA30_SignalMethod=-32; MaxOrders=0; MaxOrdersPerType=0;
+          10   20.78            2         14.74           10.39     319.22       3.10  MA30_SignalMethod=-59; MaxOrders=0; MaxOrdersPerType=0;
+           1   20.78            2         14.74           10.39     319.22       3.10  MA30_SignalMethod=-58; MaxOrders=0; MaxOrdersPerType=0;
+          63    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=61; MaxOrders=0; MaxOrdersPerType=0;
+          62    0.00            0          0.00            0.00       0.00       0.00    MA30_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+          61    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
+          60    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
+          58    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=81; MaxOrders=0; MaxOrdersPerType=0;
+          57    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=113; MaxOrders=0; MaxOrdersPerType=0;
+          56    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=97; MaxOrders=0; MaxOrdersPerType=0;
+          55    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=48; MaxOrders=0; MaxOrdersPerType=0;
+          54    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+          53    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-92; MaxOrders=0; MaxOrdersPerType=0;
+          52    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=87; MaxOrders=0; MaxOrdersPerType=0;
+          51    0.00            0          0.00            0.00       0.00       0.00    MA30_SignalMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+          50    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+          49    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=69; MaxOrders=0; MaxOrdersPerType=0;
+          48    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=53; MaxOrders=0; MaxOrdersPerType=0;
+          47    0.00            0          0.00            0.00       0.00       0.00 MA30_SignalMethod=-104; MaxOrders=0; MaxOrdersPerType=0;
+          46    0.00            0          0.00            0.00       0.00       0.00 MA30_SignalMethod=-105; MaxOrders=0; MaxOrdersPerType=0;
+          45    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-85; MaxOrders=0; MaxOrdersPerType=0;
+          43    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-70; MaxOrders=0; MaxOrdersPerType=0;
+          39    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=65; MaxOrders=0; MaxOrdersPerType=0;
+          38    0.00            0          0.00            0.00       0.00       0.00 MA30_SignalMethod=-107; MaxOrders=0; MaxOrdersPerType=0;
+          37    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-81; MaxOrders=0; MaxOrdersPerType=0;
+          36    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-74; MaxOrders=0; MaxOrdersPerType=0;
+          35    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-82; MaxOrders=0; MaxOrdersPerType=0;
+          34    0.00            0          0.00            0.00       0.00       0.00    MA30_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+          33    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=70; MaxOrders=0; MaxOrdersPerType=0;
+          31    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=119; MaxOrders=0; MaxOrdersPerType=0;
+          30    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=89; MaxOrders=0; MaxOrdersPerType=0;
+          29    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
+          27    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=40; MaxOrders=0; MaxOrdersPerType=0;
+          25    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-71; MaxOrders=0; MaxOrdersPerType=0;
+          24    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=57; MaxOrders=0; MaxOrdersPerType=0;
+          23    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-49; MaxOrders=0; MaxOrdersPerType=0;
+          21    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=39; MaxOrders=0; MaxOrdersPerType=0;
+          20    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+          19    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=37; MaxOrders=0; MaxOrdersPerType=0;
+          18    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=94; MaxOrders=0; MaxOrdersPerType=0;
+          17    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+          16    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=78; MaxOrders=0; MaxOrdersPerType=0;
+          15    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
+          13    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=102; MaxOrders=0; MaxOrdersPerType=0;
+          12    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+          11    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=75; MaxOrders=0; MaxOrdersPerType=0;
+           9    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
+           8    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-83; MaxOrders=0; MaxOrdersPerType=0;
+           7    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-40; MaxOrders=0; MaxOrdersPerType=0;
+           6    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=38; MaxOrders=0; MaxOrdersPerType=0;
+           5    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+           4    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-86; MaxOrders=0; MaxOrdersPerType=0;
+           3    0.00            0          0.00            0.00       0.00       0.00  MA30_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
+           2    0.00            0          0.00            0.00       0.00       0.00   MA30_SignalMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+          22  -44.13            3          0.34          -14.71     319.22       3.12 MA30_SignalMethod=-124; MaxOrders=0; MaxOrdersPerType=0;
+          41  -64.90            1          0.00          -64.90     135.30       1.34 MA30_SignalMethod=-117; MaxOrders=0; MaxOrdersPerType=0;
+          32  -64.90            1          0.00          -64.90     135.30       1.34 MA30_SignalMethod=-116; MaxOrders=0; MaxOrdersPerType=0;
+          28  -64.90            1          0.00          -64.90     135.30       1.34 MA30_SignalMethod=-119; MaxOrders=0; MaxOrdersPerType=0;
+          26 -455.16           15          0.50          -30.34     979.53       9.62  MA30_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
+          14 -455.16           15          0.50          -30.34     979.53       9.62  MA30_SignalMethod=-64; MaxOrders=0; MaxOrdersPerType=0;
