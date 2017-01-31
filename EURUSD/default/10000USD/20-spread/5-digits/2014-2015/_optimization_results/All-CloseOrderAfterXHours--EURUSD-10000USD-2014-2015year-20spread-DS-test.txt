@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Backtest-v1.072
+                                                             EA31337-Lite-Backtest-v1.073
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -11,9 +11,10 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-     Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        4 115854.83         3460          1.73           33.48   43641.71      40.07  CloseOrderAfterXHours=96; MaxOrders=0; MaxOrdersPerType=0;
-        2   9176.70         2665          1.32            3.44    2139.78      15.89  CloseOrderAfterXHours=24; MaxOrders=0; MaxOrdersPerType=0;
-        3   8586.56         2730          1.29            3.15    2536.61      23.55  CloseOrderAfterXHours=48; MaxOrders=0; MaxOrdersPerType=0;
-        5   8530.81         2699          1.29            3.16    2100.28      18.48 CloseOrderAfterXHours=120; MaxOrders=0; MaxOrdersPerType=0;
-        1   7933.32         2661          1.27            2.98    4687.87      43.53   CloseOrderAfterXHours=0; MaxOrders=0; MaxOrdersPerType=0;
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         4 9408.88          686          1.42           13.72    3571.71      18.40  CloseOrderAfterXHours=72; MaxOrders=0; MaxOrdersPerType=0;
+         6 9290.39          412          1.53           22.55    3689.36      19.17 CloseOrderAfterXHours=120; MaxOrders=0; MaxOrdersPerType=0;
+         2 6850.25         1441          1.21            4.75    4699.68      25.42  CloseOrderAfterXHours=24; MaxOrders=0; MaxOrdersPerType=0;
+         5 6618.17          453          1.39           14.61    3553.58      21.38  CloseOrderAfterXHours=96; MaxOrders=0; MaxOrdersPerType=0;
+         1 4946.05           27          5.66          183.19    1586.53      15.02   CloseOrderAfterXHours=0; MaxOrders=0; MaxOrdersPerType=0;
+         3 -712.06           58          0.61          -12.28    1021.31      10.03  CloseOrderAfterXHours=48; MaxOrders=0; MaxOrdersPerType=0;
