@@ -1,0 +1,116 @@
+Currency pair symbol:                       EURUSD
+Initial deposit:                            10000.00 USD
+Total net profit:                           5120.60 USD
+Gross profit:                               34884.92 USD
+Gross loss:                                 29764.32 USD
+Absolute drawdown:                          16.90 USD
+Maximal drawdown:                           3265.6 USD (17.8%)
+Relative drawdown:                          (17.8%) 3265.6 USD
+Profit factor:                              1.17
+Expected payoff:                            4.17
+Trades total                                1228
+Short positions (won %):                    442 (60.6%)
+Long positions (won %):                     786 (54.5%)
+Profit trades (% of total):                 696 (56.7%)
+Loss trades (% of total):                   532 (43.3%)
+Largest profit trade:                       932.16
+Largest loss trade:                         -522.65
+Average profit trade:                       50.12
+Average loss trade:                         -55.95
+Average consecutive wins:                   4.00
+Average consecutive losses:                 3.00
+Maximum consecutive wins (profit in money): 27 (1205.02)
+Maximum consecutive losses (loss in money): 14 (-1680.84)
+Maximal consecutive profit (count of wins): 2051.70 (18)
+Maximal consecutive loss (count of losses): 1680.84 (14)
+Modelling quality:                          89.95%
+Total bars processed:                       11857
+Total ticks processed:                      289605
+Bars per hour (avg):                        197
+Ticks per bar (avg):                        24 (bar=30mins)
+Ticks per min (avg):                        0
+Strategy stats:
+Profit factor: 0.70, Total net profit: -401.66pips (+946.14/-1347.79), Total orders: 143 (Won: 53.1% [76] / Loss: 46.9% [67]) - Alligator M15
+Profit factor: 1.28, Total net profit: 779.37pips (+3586.58/-2807.21), Total orders: 82 (Won: 46.3% [38] / Loss: 53.7% [44]) - DeMarker M1
+Profit factor: 1.32, Total net profit: 530.53pips (+2209.87/-1679.34), Total orders: 75 (Won: 45.3% [34] / Loss: 54.7% [41]) - DeMarker M5
+Profit factor: 1.44, Total net profit: 521.24pips (+1699.00/-1177.77), Total orders: 55 (Won: 47.3% [26] / Loss: 52.7% [29]) - DeMarker M15
+Profit factor: 1.56, Total net profit: 783.79pips (+2185.40/-1401.61), Total orders: 57 (Won: 47.4% [27] / Loss: 52.6% [30]) - DeMarker M30
+Profit factor: 1.00, Total net profit: -2.10pips (+260.70/-262.80), Total orders: 19 (Won: 47.4% [9] / Loss: 52.6% [10]) - Envelopes M5
+Profit factor: 1.46, Total net profit: 959.09pips (+3061.55/-2102.45), Total orders: 72 (Won: 65.3% [47] / Loss: 34.7% [25]) - Fractals M5
+Profit factor: 1.09, Total net profit: 149.93pips (+1890.53/-1740.60), Total orders: 97 (Won: 70.1% [68] / Loss: 29.9% [29]) - Fractals M30
+Profit factor: 1.19, Total net profit: 393.43pips (+2451.20/-2057.77), Total orders: 97 (Won: 60.8% [59] / Loss: 39.2% [38]) - MACD M1
+Profit factor: 1.31, Total net profit: 884.51pips (+3700.79/-2816.28), Total orders: 95 (Won: 60.0% [57] / Loss: 40.0% [38]) - MACD M5
+Profit factor: 0.25, Total net profit: -647.54pips (+215.12/-862.66), Total orders: 21 (Won: 42.9% [9] / Loss: 57.1% [12]) - MACD M15
+Profit factor: 1.07, Total net profit: 155.30pips (+2270.07/-2114.77), Total orders: 43 (Won: 48.8% [21] / Loss: 51.2% [22]) - RSI M1
+Profit factor: 0.85, Total net profit: -517.17pips (+2848.04/-3365.20), Total orders: 120 (Won: 61.7% [74] / Loss: 38.3% [46]) - RSI M15
+Profit factor: 1.58, Total net profit: 905.62pips (+2470.22/-1564.59), Total orders: 63 (Won: 30.2% [19] / Loss: 69.8% [44]) - RSI M30
+Profit factor: 0.15, Total net profit: -811.04pips (+141.59/-952.63), Total orders: 22 (Won: 54.5% [12] / Loss: 45.5% [10]) - SAR M5
+Profit factor: 1.47, Total net profit: 302.48pips (+943.66/-641.18), Total orders: 60 (Won: 78.3% [47] / Loss: 21.7% [13]) - SAR M15
+Profit factor: 1.44, Total net profit: 1233.20pips (+4056.24/-2823.04), Total orders: 107 (Won: 69.2% [74] / Loss: 30.8% [33]) - SAR M30
+Report log:
+2016.01.06 03:00:00: EA31337 Lite (Backtest) v1.073 by kenorb (https://github.com/EA31337)
+ACCOUNT: Type: Off-line, Server/Company/Name: //, Currency: USD, Balance: 10000, Credit: 0, Equity: 10000, Orders limit: 0: Leverage: 1:100, StopOut Level: 0 (Mode: 0)
+SYMBOL: Symbol: EURUSD, Ask/Bid: 1.07656/1.07636, Session Volume: 0, Point size: 1e-05, Pip size: 0.0001, Tick size: 1e-05 (1e-05 pts), Tick value: 1 (0/0), Digits: 5, Spread: 20 pts, Trade stops level: 8, Lot step: 0.1 pts, Trade contract size: 100000, Min lot: 0.1, Max lot: 100, Freeze level: 0, Margin init: 0
+MARKET: Pip digits: 4, Spread: 20 pts (2 pips; 0.0185777%), Pts/pip: 10, Trade distance: 8 pts (0.0000 pips), Lot step: 0.1 pips, Volume digits: 1, Margin required: 1076.46/lot, Delta: 100000
+CHART: OHLC: 1.07636/1.07636/1.07636/1.07636
+Swap specification for EURUSD: Mode: 0, Long/buy order value: 0.33, Short/sell order value: -1.04
+Calculated variables: Pip size: 0.0001, EA lot size: 0.1, Points per pip: 10, Pip digits: 4, Volume digits: 1, Spread in pips: 2.0 (20 pts), Stop Out Level: 0.3, Market gap: 8 pts (0 pips)
+EA params: Risk ratio: 0.1, Risk margin per order: 1%, Risk margin in total: 15%
+Strategies: Active strategies: 20 of 120, Max orders: 9 (per type: 2)
+
+Timeframes: M1; M2; M3; M4; M5; M6; M10; M12; M15; M20; M30; H1; H2; H3; H4; H6; H8; H12; D1; W1; MN1; 
+Datetime: Hour of day: 3, Day of week: 3, Day of month: 6, Day of year: 6, Month: 1, Year: 2016
+Account Details: Time: 2016.01.06 03:00:00; Account Balance: $10000.00; Account Equity: $10000.00; Account Credit: $0.00; Used Margin: $0.00; Free Margin: $10000.00; No of Orders: 0 (BUY/SELL: 0/0); Risk Ratio: 0.1
+
+2016.01.21 13:35:00: UpdateStats: Market very big drop of 51.5 pips detected!
+2016.01.21 13:37:30: UpdateStats: Market very big drop of 51.5 pips detected!
+2016.01.21 13:40:00: UpdateStats: Market very big drop of 64.4 pips detected!
+2016.02.05 13:40:00: UpdateStats: Market very big drop of 40.7 pips detected!
+2016.03.04 14:01:15: UpdateStats: Market very big drop of 41.0 pips detected!
+2016.03.10 12:50:00: UpdateStats: Market very big drop of 47.9 pips detected!
+2016.03.10 12:52:30: UpdateStats: Market very big drop of 47.9 pips detected!
+2016.03.10 12:55:00: UpdateStats: Market very big drop of 59.9 pips detected!
+2016.03.10 12:59:59: UpdateStats: Market very big drop of 45.7 pips detected!
+2016.03.10 13:50:00: UpdateStats: Market very big drop of 57.4 pips detected!
+2016.03.10 13:52:30: UpdateStats: Market very big drop of 45.9 pips detected!
+2016.03.10 13:55:00: UpdateStats: Market very big drop of 45.9 pips detected!
+2016.03.10 14:05:00: UpdateStats: Market very big drop of 93.3 pips detected!
+2016.03.10 14:07:30: UpdateStats: Market very big drop of 74.6 pips detected!
+2016.03.10 14:10:00: UpdateStats: Market very big drop of 74.7 pips detected!
+2016.03.10 14:13:45: UpdateStats: Market very big drop of 56.0 pips detected!
+2016.03.10 15:05:00: UpdateStats: Market very big drop of 43.2 pips detected!
+2016.03.16 18:01:40: UpdateStats: Market very big drop of 44.5 pips detected!
+2016.04.27 18:10:00: UpdateStats: Market very big drop of 40.7 pips detected!
+2016.06.03 12:35:00: UpdateStats: Market very big drop of 52.5 pips detected!
+2016.06.03 12:37:30: UpdateStats: Market very big drop of 42.1 pips detected!
+2016.06.03 12:40:00: UpdateStats: Market very big drop of 42.0 pips detected!
+2016.06.23 23:25:00: UpdateStats: Market very big drop of 45.2 pips detected!
+2016.06.24 01:00:00: UpdateStats: Market very big drop of 56.7 pips detected!
+2016.06.24 01:05:00: UpdateStats: Market very big drop of 40.7 pips detected!
+2016.06.24 01:07:30: UpdateStats: Market very big drop of 40.6 pips detected!
+2016.06.24 01:10:00: UpdateStats: Market very big drop of 50.8 pips detected!
+2016.06.24 02:25:00: UpdateStats: Market very big drop of 42.0 pips detected!
+2016.06.24 02:35:00: UpdateStats: Market very big drop of 56.1 pips detected!
+2016.06.24 02:37:30: UpdateStats: Market very big drop of 56.2 pips detected!
+2016.06.24 02:40:00: UpdateStats: Market very big drop of 70.2 pips detected!
+2016.06.24 02:43:45: UpdateStats: Market very big drop of 42.1 pips detected!
+2016.06.24 02:46:15: UpdateStats: Market very big drop of 72.0 pips detected!
+2016.06.24 02:50:00: UpdateStats: Market very big drop of 41.3 pips detected!
+2016.06.24 02:52:30: UpdateStats: Market very big drop of 41.4 pips detected!
+2016.06.24 02:55:00: UpdateStats: Market very big drop of 51.7 pips detected!
+2016.06.24 03:40:00: UpdateStats: Market very big drop of 47.5 pips detected!
+2016.06.24 03:50:00: UpdateStats: Market very big drop of 52.9 pips detected!
+2016.06.24 03:52:30: UpdateStats: Market very big drop of 42.4 pips detected!
+2016.06.24 03:55:00: UpdateStats: Market very big drop of 42.3 pips detected!
+2016.07.08 13:05:00: UpdateStats: Market very big drop of 44.6 pips detected!
+2016.08.26 14:01:15: UpdateStats: Market very big drop of 55.2 pips detected!
+2016.08.26 14:05:00: UpdateStats: Market very big drop of 42.1 pips detected!
+2016.11.09 07:55:00: UpdateStats: Market very big drop of 41.1 pips detected!
+2016.12.08 12:46:15: UpdateStats: Market very big drop of 64.1 pips detected!
+2016.12.08 12:50:00: UpdateStats: Market very big drop of 47.0 pips detected!
+2016.12.08 12:52:30: UpdateStats: Market very big drop of 47.0 pips detected!
+2016.12.08 12:55:00: UpdateStats: Market very big drop of 58.7 pips detected!
+2016.12.29 23:35:00: UpdateStats: Market very big drop of 63.9 pips detected!
+2016.12.29 23:37:30: UpdateStats: Market very big drop of 51.2 pips detected!
+2016.12.29 23:40:00: UpdateStats: Market very big drop of 51.1 pips detected!
+2016.12.29 23:46:15: UpdateStats: Market very big drop of 54.5 pips detected!
