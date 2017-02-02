@@ -12,14 +12,5 @@
                             Spread          20
                                                                  [Optimization Graph]
    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-      1  2771.28          639          1.09            4.34    5763.15      34.44   DeMarker_TrailingStopMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-     11  1756.58         1478          1.05            1.19    3507.98      25.78 DeMarker_TrailingStopMethod=-26; MaxOrders=0; MaxOrdersPerType=0;
-     10   821.86         1464          1.02            0.56    4030.88      29.66 DeMarker_TrailingStopMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
-      7 -1172.64          836          0.96           -1.40    5641.97      43.54 DeMarker_TrailingStopMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
-      2 -1256.61          846          0.95           -1.49    6091.26      45.66  DeMarker_TrailingStopMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-      9 -1418.10          861          0.95           -1.65    6347.20      46.85 DeMarker_TrailingStopMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
-      5 -1573.16          866          0.94           -1.82    6287.93      47.24 DeMarker_TrailingStopMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
-      4 -1626.96          859          0.94           -1.89    6109.79      46.57 DeMarker_TrailingStopMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
-      8 -1628.10          875          0.94           -1.86    6171.95      46.81 DeMarker_TrailingStopMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
-      3 -1642.76          808          0.94           -2.03    6394.23      47.59 DeMarker_TrailingStopMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
-      6 -1793.22          837          0.93           -2.14    6193.33      47.31 DeMarker_TrailingStopMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
+      1  -461.22         4372          0.99           -0.11    3604.17      31.65  DeMarker_TrailingStopMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+      2 -1319.94         4724          0.96           -0.28    3824.63      35.30 DeMarker_TrailingStopMethod=-1; MaxOrders=0; MaxOrdersPerType=0;

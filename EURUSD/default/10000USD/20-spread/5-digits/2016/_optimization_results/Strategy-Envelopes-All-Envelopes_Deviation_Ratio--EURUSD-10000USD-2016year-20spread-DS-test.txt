@@ -11,20 +11,17 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-      12  1474.21         4178          1.03            0.35    3842.79      26.20 Envelopes_Deviation_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
-      11  1285.51         4095          1.03            0.31    3323.54      24.42 Envelopes_Deviation_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
-      10   988.80         3692          1.02            0.27    3510.70      25.96   Envelopes_Deviation_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
-       4   936.40         1601          1.05            0.58    3024.75      26.54 Envelopes_Deviation_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=0;
-       9   395.24         3506          1.01            0.11    2307.24      19.50 Envelopes_Deviation_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
-       2   352.44          470          1.05            0.75    2154.77      20.22 Envelopes_Deviation_Ratio=0.2; MaxOrders=0; MaxOrdersPerType=0;
-       1   240.08          279          1.02            0.86    1821.57      18.11 Envelopes_Deviation_Ratio=0.1; MaxOrders=0; MaxOrdersPerType=0;
-      13  -107.47         4328          1.00           -0.02    4697.84      33.08 Envelopes_Deviation_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
-       6  -333.62         2816          0.99           -0.12    3247.05      25.71 Envelopes_Deviation_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=0;
-       5  -508.68         2216          0.98           -0.23    3210.36      27.19 Envelopes_Deviation_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=0;
-       8 -1191.08         3314          0.97           -0.36    3493.08      28.65 Envelopes_Deviation_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
-       7 -1348.68         3158          0.96           -0.43    3341.74      28.93 Envelopes_Deviation_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
-       3 -1406.39         1001          0.90           -1.40    2722.73      25.93 Envelopes_Deviation_Ratio=0.3; MaxOrders=0; MaxOrdersPerType=0;
-      14 -1434.13         4390          0.97           -0.33    5007.14      38.04 Envelopes_Deviation_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
-      16 -2310.94         4565          0.95           -0.51    5189.10      41.64 Envelopes_Deviation_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
-      15 -2426.98         4383          0.95           -0.55    5315.44      41.63 Envelopes_Deviation_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
+    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       3  549.09           22          3.47           24.96     361.00       3.47 Envelopes_Deviation_Ratio=0.3; MaxOrders=0; MaxOrdersPerType=0;
+       4   -0.80            1          0.00           -0.80      14.00       0.14 Envelopes_Deviation_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=0;
+      12   -0.70            1          0.00           -0.70      39.60       0.40 Envelopes_Deviation_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
+      13   -1.70            1          0.00           -1.70      39.60       0.40 Envelopes_Deviation_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
+       7   -2.11            2          0.00           -1.06      32.30       0.32 Envelopes_Deviation_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
+       8   -2.11            2          0.00           -1.06      32.30       0.32 Envelopes_Deviation_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
+       9  -13.31            3          0.00           -4.44      38.30       0.38 Envelopes_Deviation_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
+      10  -13.31            3          0.00           -4.44      38.30       0.38   Envelopes_Deviation_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
+      11  -15.71            3          0.00           -5.24      38.30       0.38 Envelopes_Deviation_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
+       6  -15.40            6          0.60           -2.57      79.60       0.79 Envelopes_Deviation_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=0;
+       5  -25.50            3          0.31           -8.50      53.30       0.53 Envelopes_Deviation_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=0;
+       1  -82.60            2          0.00          -41.30     213.70       2.11 Envelopes_Deviation_Ratio=0.1; MaxOrders=0; MaxOrdersPerType=0;
+       2 -313.90            6          0.07          -52.32     427.40       4.25 Envelopes_Deviation_Ratio=0.2; MaxOrders=0; MaxOrdersPerType=0;
