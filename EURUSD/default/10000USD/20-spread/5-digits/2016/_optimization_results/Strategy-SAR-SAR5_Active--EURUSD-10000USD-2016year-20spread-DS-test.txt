@@ -12,5 +12,5 @@
                             Spread          20
                                                                  [Optimization Graph]
              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                2 401.93           22         18.58           18.27     218.77       2.11 SAR5_Active=1; MaxOrders=0; MaxOrdersPerType=0;
+                2 545.02         2163          1.05            0.25    1229.67      11.67 SAR5_Active=1; MaxOrders=0; MaxOrdersPerType=0;
                 1   0.00            0          0.00            0.00       0.00       0.00 SAR5_Active=0; MaxOrders=0; MaxOrdersPerType=0;
