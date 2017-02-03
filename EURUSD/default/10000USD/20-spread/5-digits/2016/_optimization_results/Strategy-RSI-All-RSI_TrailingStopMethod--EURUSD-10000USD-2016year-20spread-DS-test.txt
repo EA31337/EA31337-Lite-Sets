@@ -11,44 +11,39 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       39 -3365.66          828          0.88           -4.06   10863.78      64.47 RSI_TrailingStopMethod=-26; MaxOrders=0; MaxOrdersPerType=0;
-       37 -3488.58          863          0.88           -4.04   11284.30      65.62 RSI_TrailingStopMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
-        8 -3849.82         6198          0.93           -0.62   10731.68      65.86  RSI_TrailingStopMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
-        2 -3898.88          309          0.81          -12.62   11412.85      67.48   RSI_TrailingStopMethod=0; MaxOrders=0; MaxOrdersPerType=0;
-        6 -3993.62        19470          0.95           -0.21    9974.35      65.55  RSI_TrailingStopMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
-       10 -4020.19         3094          0.92           -1.30   13485.03      72.38  RSI_TrailingStopMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
-       11 -4082.44         1973          0.88           -2.07    8789.47      62.42   RSI_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=0;
-       14 -4360.39         2030          0.87           -2.15    8676.87      63.49   RSI_TrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=0;
-       31 -4360.04         5840          0.92           -0.75   12423.29      71.03 RSI_TrailingStopMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
-        9 -4386.52         6283          0.92           -0.70    7915.50      61.02   RSI_TrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=0;
-       29 -4470.89          349          0.79          -12.81   11292.52      69.61 RSI_TrailingStopMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
-       35 -4662.96          349          0.79          -13.36   11692.92      70.52 RSI_TrailingStopMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
-        4 -4663.56          347          0.79          -13.44   11692.92      70.53  RSI_TrailingStopMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-       19 -4663.56          347          0.79          -13.44   11692.92      70.53 RSI_TrailingStopMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
-       33 -4664.36          348          0.79          -13.40   11692.92      70.53 RSI_TrailingStopMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
-       25 -4712.26          349          0.79          -13.50   11890.13      71.08 RSI_TrailingStopMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
-        3 -4719.47         2266          0.88           -2.08    8151.75      62.96   RSI_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-       27 -4812.76          348          0.78          -13.83   11916.73      71.55 RSI_TrailingStopMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
-       21 -4813.26          348          0.78          -13.83   11916.73      71.56 RSI_TrailingStopMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
-       16 -4993.98          962          0.83           -5.19   10798.77      70.45   RSI_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=0;
-       26 -5077.75         1604          0.84           -3.17    8995.83      66.92  RSI_TrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=0;
-       30 -5174.49         7723          0.91           -0.67   12010.46      73.17  RSI_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=0;
-       34 -5187.81         1887          0.85           -2.75    9107.16      67.76  RSI_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=0;
-       20 -5219.08         1681          0.84           -3.10    9144.15      68.02  RSI_TrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=0;
-       12 -5222.89         1658          0.84           -3.15    9183.79      68.12   RSI_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=0;
-       24 -5230.38         1777          0.84           -2.94    9322.49      68.43  RSI_TrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=0;
-       28 -5240.79         1679          0.84           -3.12    9400.70      68.73  RSI_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=0;
-        7 -5305.43        10686          0.92           -0.50    8730.55      66.99   RSI_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=0;
-       32 -5312.53         2138          0.86           -2.48    8912.07      67.92  RSI_TrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=0;
-       36 -5344.66         2089          0.85           -2.56    8909.87      68.02  RSI_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=0;
-        1 -5367.57         1524          0.86           -3.52    9868.45      70.31 RSI_TrailingStopMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
-       18 -5368.47         1735          0.84           -3.09    9817.81      70.28  RSI_TrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=0;
-       40 -5446.38         2092          0.87           -2.60    9544.61      70.01  RSI_TrailingStopMethod=27; MaxOrders=0; MaxOrdersPerType=0;
-       38 -5484.34         1998          0.84           -2.74    9380.96      69.83  RSI_TrailingStopMethod=26; MaxOrders=0; MaxOrdersPerType=0;
-       13 -5689.46          800          0.82           -7.11   13209.27      77.55  RSI_TrailingStopMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
-       15 -5803.39          652          0.76           -8.90   10816.88      74.46  RSI_TrailingStopMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
-       17 -5934.20         1249          0.75           -4.75   10595.91      74.24  RSI_TrailingStopMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
-        5 -5985.55        24599          0.93           -0.24    9122.72      70.99   RSI_TrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-       23 -6476.97        10348          0.88           -0.63    9292.46      74.10 RSI_TrailingStopMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
-       22 -6743.91        11292          0.89           -0.60    9370.88      75.83  RSI_TrailingStopMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        13 11057.73          682          1.54           16.21    6163.21      41.92
+         4  7814.64          387          1.53           20.19    6716.84      49.45
+        15  7715.02          813          1.34            9.49    4787.21      32.84 RSI_TrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+        14  6998.83         1312          1.29            5.33    4053.03      30.40  RSI_TrailingStopMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+        26  6876.37          799          1.31            8.61    4733.90      34.12 RSI_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+        21  6466.88          798          1.29            8.10    5044.77      35.95 RSI_TrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+         8  6300.84         3449          1.25            1.83    6094.40      41.59
+        33  6229.48          848          1.27            7.35    4983.45      35.93 RSI_TrailingStopMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+        11  6156.03          800          1.28            7.70    5180.44      37.11  RSI_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+        17  6132.03          782          1.28            7.84    5320.80      38.07 RSI_TrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+        31  6063.94          857          1.26            7.08    5190.80      37.24 RSI_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+        28  6036.27         2838          1.24            2.13    6359.18      46.04
+        35  5808.25          781          1.26            7.44    4733.90      34.91 RSI_TrailingStopMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+        12  5796.21         1107          1.24            5.24    5599.51      43.31  RSI_TrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+        20  5639.27          814          1.25            6.93    5546.94      38.96 RSI_TrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+        16  5562.33          346          1.39           16.08    6767.04      49.79
+         9  5557.63         3330          1.19            1.67    5520.58      38.62  RSI_TrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+         1  5500.85          695          1.25            7.91    6261.11      45.29
+        23  5485.55         5269          1.23            1.04    6935.97      46.62
+        30  5379.23          779          1.24            6.91    5110.13      36.18 RSI_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+        10  5317.84         1123          1.23            4.74    4703.60      36.43  RSI_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+        25  5138.47         4877          1.22            1.05    6796.34      46.00
+        29  5124.35          783          1.23            6.54    5032.97      35.72 RSI_TrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+         2  4946.32          243          1.46           20.36    4160.01      32.74  RSI_TrailingStopMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+        32  4922.04          612          1.29            8.04    5914.64      41.29
+        34  4868.47          570          1.30            8.54    5820.80      41.76
+         3  4848.52         1230          1.21            3.94    3556.45      23.14  RSI_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+         7  4519.52         5356          1.14            0.84    5840.46      43.24  RSI_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+        19  4510.81         4624          1.15            0.98    6090.97      45.18
+        27  4113.82         3873          1.13            1.06    5581.73      42.20 RSI_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+         6  3906.40         9140          1.11            0.43    5894.83      39.53
+        18  3194.05         5237          1.10            0.61    6097.21      45.18 RSI_TrailingStopMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+         5  3102.22        11235          1.08            0.28    5760.08      40.75  RSI_TrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+        22  1343.86         8913          1.03            0.15    5360.39      40.01 RSI_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+        24   880.80         8801          1.02            0.10    5494.41      40.93 RSI_TrailingStopMethod=20; MaxOrders=0; MaxOrdersPerType=0;
