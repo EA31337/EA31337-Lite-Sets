@@ -11,5 +11,19 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        1 5379.26         3113          1.07            1.73    8069.82      46.20 ConLossesIncreaseFactor=1.4; MaxOrders=0; MaxOrdersPerType=0;
+     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       10 11619.21          480          1.44           24.21    7131.15      44.51 ConLossesIncreaseFactor=1.3; MaxOrders=0; MaxOrdersPerType=0;
+        4  9684.79          503          1.38           19.25    7234.04      42.25 ConLossesIncreaseFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
+       12  8660.45          466          1.26           18.58    8945.62      48.74 ConLossesIncreaseFactor=1.9; MaxOrders=0; MaxOrdersPerType=0;
+       14  8464.21          456          1.25           18.56    9568.32      49.53 ConLossesIncreaseFactor=2.3; MaxOrders=0; MaxOrdersPerType=0;
+       13  8144.99          456          1.24           17.86    9548.32      49.43 ConLossesIncreaseFactor=2.2; MaxOrders=0; MaxOrdersPerType=0;
+       15  7958.58          456          1.23           17.45    9555.02      49.46 ConLossesIncreaseFactor=2.4; MaxOrders=0; MaxOrdersPerType=0;
+       11  7648.90          458          1.23           16.70    8919.29      48.60 ConLossesIncreaseFactor=1.8; MaxOrders=0; MaxOrdersPerType=0;
+        3  7320.47          480          1.31           15.25    6720.49      40.77 ConLossesIncreaseFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
+        7  4847.30          478          1.19           10.14    8104.11      46.95   ConLossesIncreaseFactor=1; MaxOrders=0; MaxOrdersPerType=0;
+        5  4518.55          489          1.17            9.24    7821.27      45.68 ConLossesIncreaseFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
+        6  4518.55          489          1.17            9.24    7821.27      45.68 ConLossesIncreaseFactor=0.9; MaxOrders=0; MaxOrdersPerType=0;
+        2  4480.12          475          1.18            9.43    7401.86      45.45 ConLossesIncreaseFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
+        1  4368.44          461          1.19            9.48    6181.41      41.80 ConLossesIncreaseFactor=0.4; MaxOrders=0; MaxOrdersPerType=0;
+        8  3130.83          450          1.12            6.96    6870.82      42.02 ConLossesIncreaseFactor=1.1; MaxOrders=0; MaxOrdersPerType=0;
+        9  3049.17          449          1.11            6.79    6928.86      42.41 ConLossesIncreaseFactor=1.2; MaxOrders=0; MaxOrdersPerType=0;
