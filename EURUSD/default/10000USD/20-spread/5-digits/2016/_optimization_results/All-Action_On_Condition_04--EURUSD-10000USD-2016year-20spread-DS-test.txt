@@ -1,0 +1,31 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.073
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2016.01.06 03:00 - 2016.12.30 21:30 (2016.01.01 - 2016.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+   6 13281.04          504          1.54           26.35    7757.38      44.53 Account_Condition_4=19; Market_Condition_4=19; Action_On_Condition_4=1;
+   5 11349.74          351          1.49           32.34    7164.38      30.11 Account_Condition_4=19; Market_Condition_4=13; Action_On_Condition_4=3;
+  11 10551.86          536          1.40           19.69    7061.23      45.46 Account_Condition_4=20; Market_Condition_4=7; Action_On_Condition_4=10;
+   8  9962.16          433          1.35           23.01    7501.62      36.97 Account_Condition_4=17; Market_Condition_4=18; Action_On_Condition_4=3;
+   9  7397.26          497          1.30           14.88    7043.44      41.61 Account_Condition_4=19; Market_Condition_4=11; Action_On_Condition_4=5;
+   2  7375.75          568          1.29           12.99    5246.53      36.56 Account_Condition_4=17; Market_Condition_4=17; Action_On_Condition_4=2;
+   3  5713.73          499          1.21           11.45    6709.46      46.52 Account_Condition_4=19; Market_Condition_4=11; Action_On_Condition_4=3;
+  14  5316.64          482          1.18           11.03    7178.32      46.21  Account_Condition_4=20; Market_Condition_4=4; Action_On_Condition_4=5;
+   1  4866.61          563          1.15            8.64    8595.67      47.98 Account_Condition_4=16; Market_Condition_4=14; Action_On_Condition_4=5;
+  16  3646.67         1078          1.12            3.38    9093.47      49.12 Account_Condition_4=16; Market_Condition_4=16; Action_On_Condition_4=3;
+  15  3243.93          493          1.13            6.58    7667.78      49.36 Account_Condition_4=17; Market_Condition_4=14; Action_On_Condition_4=4;
+   7  3096.31          862          1.12            3.59    6976.84      44.85 Account_Condition_4=16; Market_Condition_4=16; Action_On_Condition_4=6;
+   4  2609.28          427          1.10            6.11    7687.92      49.49 Account_Condition_4=17; Market_Condition_4=14; Action_On_Condition_4=2;
+  10  2456.85          914          1.13            2.69    6505.38      47.03  Account_Condition_4=19; Market_Condition_4=8; Action_On_Condition_4=1;
+  13  1746.83          428          1.07            4.08    7721.66      49.71  Account_Condition_4=20; Market_Condition_4=5; Action_On_Condition_4=1;
+  12  1137.54         1377          1.04            0.83    6551.58      48.67  Account_Condition_4=16; Market_Condition_4=4; Action_On_Condition_4=4;
+  17 -3969.75          478          0.41           -8.30    5337.32      47.43 Account_Condition_4=15; Market_Condition_4=2; Action_On_Condition_4=10;
