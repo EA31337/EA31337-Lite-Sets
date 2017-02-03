@@ -1,0 +1,84 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.073
+                                                                     (Build 1010)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          5 Minutes (M5) 2016.01.04 07:20 - 2016.12.30 21:55 (2016.01.01 - 2016.12.31)
+                             Model           Control points (a very crude method, the results must not be considered)
+                             Initial deposit 10000.00
+                             Spread          20
+                                                                 [Optimization Graph]
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          65   558.80           35          1.76           15.97     330.58       3.20  MA5_SignalMethod=-96; MaxOrders=0; MaxOrdersPerType=0;
+          62   526.40           36          1.69           14.62     330.58       3.21  MA5_SignalMethod=-80; MaxOrders=0; MaxOrdersPerType=0;
+          51   526.40           36          1.69           14.62     330.58       3.21  MA5_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+          21   526.40           36          1.69           14.62     330.58       3.21 MA5_SignalMethod=-112; MaxOrders=0; MaxOrdersPerType=0;
+          59   319.62           16          1.84           19.98     240.97       2.32   MA5_SignalMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+          69    95.13            2          0.00           47.57      84.77       0.84  MA5_SignalMethod=-64; MaxOrders=0; MaxOrdersPerType=0;
+          60  -493.44          137          0.87           -3.60    1857.70      17.51   MA5_SignalMethod=72; MaxOrders=0; MaxOrdersPerType=0;
+          48  -493.44          137          0.87           -3.60    1857.70      17.51    MA5_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+          28  -493.44          137          0.87           -3.60    1857.70      17.51  MA5_SignalMethod=104; MaxOrders=0; MaxOrdersPerType=0;
+          43  -575.61          145          0.86           -3.97    1779.30      16.98   MA5_SignalMethod=60; MaxOrders=0; MaxOrdersPerType=0;
+          37  -575.61          145          0.86           -3.97    1779.30      16.98   MA5_SignalMethod=76; MaxOrders=0; MaxOrdersPerType=0;
+          29  -575.61          145          0.86           -3.97    1779.30      16.98    MA5_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+          68  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
+          66  -652.01          147          0.84           -4.44    1812.50      17.30    MA5_SignalMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+          61  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+          58  -652.01          147          0.84           -4.44    1812.50      17.30    MA5_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+          57  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=38; MaxOrders=0; MaxOrdersPerType=0;
+          56  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=95; MaxOrders=0; MaxOrdersPerType=0;
+          55  -652.01          147          0.84           -4.44    1812.50      17.30  MA5_SignalMethod=119; MaxOrders=0; MaxOrdersPerType=0;
+          54  -652.01          147          0.84           -4.44    1812.50      17.30  MA5_SignalMethod=123; MaxOrders=0; MaxOrdersPerType=0;
+          50  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=54; MaxOrders=0; MaxOrdersPerType=0;
+          49  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=41; MaxOrders=0; MaxOrdersPerType=0;
+          42  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+          40  -652.01          147          0.84           -4.44    1812.50      17.30    MA5_SignalMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+          35  -652.01          147          0.84           -4.44    1812.50      17.30  MA5_SignalMethod=107; MaxOrders=0; MaxOrdersPerType=0;
+          27  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=0;
+          25  -652.01          147          0.84           -4.44    1812.50      17.30  MA5_SignalMethod=127; MaxOrders=0; MaxOrdersPerType=0;
+          23  -652.01          147          0.84           -4.44    1812.50      17.30  MA5_SignalMethod=113; MaxOrders=0; MaxOrdersPerType=0;
+          22  -652.01          147          0.84           -4.44    1812.50      17.30    MA5_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+          19  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
+          13  -652.01          147          0.84           -4.44    1812.50      17.30  MA5_SignalMethod=122; MaxOrders=0; MaxOrdersPerType=0;
+          12  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=65; MaxOrders=0; MaxOrdersPerType=0;
+          11  -652.01          147          0.84           -4.44    1812.50      17.30  MA5_SignalMethod=105; MaxOrders=0; MaxOrdersPerType=0;
+          10  -652.01          147          0.84           -4.44    1812.50      17.30  MA5_SignalMethod=106; MaxOrders=0; MaxOrdersPerType=0;
+           9  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=98; MaxOrders=0; MaxOrdersPerType=0;
+           8  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+           7  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=81; MaxOrders=0; MaxOrdersPerType=0;
+           3  -652.01          147          0.84           -4.44    1812.50      17.30   MA5_SignalMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+          63 -2942.19          293          0.62          -10.04    3277.93      31.73   MA5_SignalMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
+          53 -2942.19          293          0.62          -10.04    3277.93      31.73  MA5_SignalMethod=-40; MaxOrders=0; MaxOrdersPerType=0;
+          67 -2989.99          308          0.63           -9.71    3189.57      31.29  MA5_SignalMethod=-76; MaxOrders=0; MaxOrdersPerType=0;
+          52 -2989.99          308          0.63           -9.71    3189.57      31.29  MA5_SignalMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
+          70 -3170.09          314          0.61          -10.10    3369.67      33.05 MA5_SignalMethod=-115; MaxOrders=0; MaxOrdersPerType=0;
+          64 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
+          47 -3170.09          314          0.61          -10.10    3369.67      33.05 MA5_SignalMethod=-110; MaxOrders=0; MaxOrdersPerType=0;
+          46 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-47; MaxOrders=0; MaxOrdersPerType=0;
+          45 -3170.09          314          0.61          -10.10    3369.67      33.05 MA5_SignalMethod=-127; MaxOrders=0; MaxOrdersPerType=0;
+          44 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-50; MaxOrders=0; MaxOrdersPerType=0;
+          41 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-91; MaxOrders=0; MaxOrdersPerType=0;
+          39 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
+          38 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-69; MaxOrders=0; MaxOrdersPerType=0;
+          36 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-59; MaxOrders=0; MaxOrdersPerType=0;
+          34 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
+          33 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-89; MaxOrders=0; MaxOrdersPerType=0;
+          32 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+          31 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-66; MaxOrders=0; MaxOrdersPerType=0;
+          30 -3170.09          314          0.61          -10.10    3369.67      33.05   MA5_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+          26 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-73; MaxOrders=0; MaxOrdersPerType=0;
+          24 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+          20 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-81; MaxOrders=0; MaxOrdersPerType=0;
+          18 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-93; MaxOrders=0; MaxOrdersPerType=0;
+          17 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
+          16 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-86; MaxOrders=0; MaxOrdersPerType=0;
+          15 -3170.09          314          0.61          -10.10    3369.67      33.05 MA5_SignalMethod=-111; MaxOrders=0; MaxOrdersPerType=0;
+          14 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-65; MaxOrders=0; MaxOrdersPerType=0;
+           6 -3170.09          314          0.61          -10.10    3369.67      33.05 MA5_SignalMethod=-103; MaxOrders=0; MaxOrdersPerType=0;
+           5 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-83; MaxOrders=0; MaxOrdersPerType=0;
+           4 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-77; MaxOrders=0; MaxOrdersPerType=0;
+           2 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+           1 -3170.09          314          0.61          -10.10    3369.67      33.05  MA5_SignalMethod=-29; MaxOrders=0; MaxOrdersPerType=0;
