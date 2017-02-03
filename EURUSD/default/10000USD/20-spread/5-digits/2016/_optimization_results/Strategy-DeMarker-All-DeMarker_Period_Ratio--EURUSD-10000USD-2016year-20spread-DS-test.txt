@@ -11,4 +11,15 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         7 3602.66         1424          1.17            2.53    3156.10      23.80 DeMarker_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
+        11 3139.04         1105          1.17            2.84    3277.79      23.56 DeMarker_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
+         6 2769.59         1585          1.12            1.75    3384.90      25.82 DeMarker_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
+        10 2331.97         1147          1.12            2.03    3222.79      23.79 DeMarker_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
+         9 1760.18         1182          1.09            1.49    2887.42      22.65   DeMarker_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
+         8 1701.07         1236          1.09            1.38    2517.09      20.86 DeMarker_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
+         3 1283.85         2182          1.05            0.59    3829.41      34.28 DeMarker_Period_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=0;
+         2  499.09         2552          1.02            0.20    3574.96      30.96 DeMarker_Period_Ratio=0.3; MaxOrders=0; MaxOrdersPerType=0;
+         1   -2.67         3223          1.00           -0.00    4461.88      34.24 DeMarker_Period_Ratio=0.2; MaxOrders=0; MaxOrdersPerType=0;
+         5 -503.58         1668          0.98           -0.30    4713.23      38.81 DeMarker_Period_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=0;
+         4 -947.91         1839          0.96           -0.52    3992.24      36.82 DeMarker_Period_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=0;
