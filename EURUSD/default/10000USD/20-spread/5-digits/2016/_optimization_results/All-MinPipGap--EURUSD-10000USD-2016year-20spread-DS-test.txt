@@ -7,12 +7,12 @@
 
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2016.01.06 03:00 - 2016.12.30 21:30 (2016.01.01 - 2016.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Model           Control points (a very crude method, the results must not be considered)
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
             Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-               4  3389.10         2336          1.10            1.45    4024.33      31.10 MinPipGap=50; MaxOrders=0; MaxOrdersPerType=0;
-               1     1.47         3308          1.00            0.00    7724.56      49.99 MinPipGap=10; MaxOrders=0; MaxOrdersPerType=0;
-               3  -203.97         2426          0.99           -0.08    4984.81      38.67 MinPipGap=40; MaxOrders=0; MaxOrdersPerType=0;
-               2 -1276.62         2514          0.97           -0.51    6073.57      46.12 MinPipGap=30; MaxOrders=0; MaxOrdersPerType=0;
+               4   -39.41         2281          1.00           -0.02   10376.15      68.39 MinPipGap=70; MaxOrders=0; MaxOrdersPerType=0;
+               3 -1161.63         2618          0.98           -0.44   11527.45      76.45 MinPipGap=60; MaxOrders=0; MaxOrdersPerType=0;
+               2 -1582.61         2359          0.97           -0.67   11851.59      77.20 MinPipGap=50; MaxOrders=0; MaxOrdersPerType=0;
+               1 -2010.97         2776          0.97           -0.72   12925.53      79.36 MinPipGap=40; MaxOrders=0; MaxOrdersPerType=0;
