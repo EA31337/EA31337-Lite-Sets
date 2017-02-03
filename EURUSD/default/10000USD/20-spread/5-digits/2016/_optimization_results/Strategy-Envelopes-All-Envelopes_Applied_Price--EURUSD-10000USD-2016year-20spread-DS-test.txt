@@ -12,10 +12,9 @@
                             Spread          20
                                                                  [Optimization Graph]
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         1 3257.98          167          1.46           19.51    3119.81      30.71 Envelopes_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-         3 2855.57          159          1.43           17.96    3306.03      32.75 Envelopes_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-         7 1937.48          166          1.26           11.67    3373.33      33.22 Envelopes_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-         6 1894.40          165          1.26           11.48    3377.73      33.27 Envelopes_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-         5 1878.82          164          1.25           11.46    3332.63      32.86 Envelopes_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
-         2 1307.51          154          1.18            8.49    3614.12      35.71 Envelopes_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-         4  246.58          152          1.03            1.62    3631.42      36.07 Envelopes_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+         5 1431.77          191          2.16            7.50     165.00       1.47 Envelopes_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+         6 1389.97          189          2.13            7.35     164.30       1.47 Envelopes_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+         4 1345.57          192          2.03            7.01     173.50       1.56 Envelopes_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+         1 1015.17          178          1.64            5.70     164.10       1.52 Envelopes_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
+         2  760.50          219          1.39            3.47     311.50       2.99 Envelopes_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+         3  319.33          187          1.16            1.71     390.21       3.89 Envelopes_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
