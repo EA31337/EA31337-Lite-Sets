@@ -12,10 +12,10 @@
                             Spread          20
                                                                  [Optimization Graph]
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         5 1200.57          133          1.22            9.03    2445.97      22.93  Fractals15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
-         7 1200.57          133          1.22            9.03    2445.97      22.93  Fractals15_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
-         6  943.83          127          1.18            7.43    2216.41      20.61  Fractals15_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
-         1  215.59          566          1.03            0.38    1780.63      16.81 Fractals15_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
-         3  215.59          566          1.03            0.38    1780.63      16.81 Fractals15_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
-         2 -342.74          361          0.95           -0.95    1352.84      12.85 Fractals15_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
-         4 -342.74          361          0.95           -0.95    1352.84      12.85  Fractals15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         5  954.37           65          1.34           14.68    1011.43       9.46  Fractals15_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+         7  954.37           65          1.34           14.68    1011.43       9.46  Fractals15_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+         6  606.16           64          1.21            9.47     998.03       9.35  Fractals15_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+         2  -19.33          275          1.00           -0.07    1136.09      10.36 Fractals15_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+         4  -19.33          275          1.00           -0.07    1136.09      10.36  Fractals15_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+         1 -178.32          404          0.97           -0.44    1425.98      13.52 Fractals15_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
+         3 -178.32          404          0.97           -0.44    1425.98      13.52 Fractals15_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
