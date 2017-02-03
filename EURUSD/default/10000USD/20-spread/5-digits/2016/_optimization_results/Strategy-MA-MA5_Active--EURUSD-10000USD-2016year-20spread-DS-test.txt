@@ -13,4 +13,4 @@
                                                                  [Optimization Graph]
             Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
                1     0.00            0          0.00            0.00       0.00       0.00 MA5_Active=0; MaxOrders=0; MaxOrdersPerType=0;
-               2 -1443.28          613          0.70           -2.35    1754.90      17.02 MA5_Active=1; MaxOrders=0; MaxOrdersPerType=0;
+               2 -1105.25          122          0.75           -9.06    2236.83      20.87 MA5_Active=1; MaxOrders=0; MaxOrdersPerType=0;
