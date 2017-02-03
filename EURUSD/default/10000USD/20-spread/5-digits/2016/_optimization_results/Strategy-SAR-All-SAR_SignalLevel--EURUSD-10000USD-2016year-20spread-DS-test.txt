@@ -12,14 +12,14 @@
                             Spread          20
                                                                  [Optimization Graph]
         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1 -3085.42         5686          0.90           -0.54    4285.89      40.77 SAR_SignalLevel=-0.5; MaxOrders=0; MaxOrdersPerType=0;
-           7 -3136.61         5445          0.89           -0.58    4156.42      38.92  SAR_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
-          11 -3409.10         5367          0.88           -0.64    4229.36      39.67  SAR_SignalLevel=0.5; MaxOrders=0; MaxOrdersPerType=0;
-           2 -3691.87         5520          0.88           -0.67    4414.90      41.95 SAR_SignalLevel=-0.4; MaxOrders=0; MaxOrdersPerType=0;
-          10 -3806.05         5329          0.87           -0.71    4492.78      42.15  SAR_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
-           6 -3822.37         5427          0.87           -0.70    4503.89      42.25    SAR_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
-           3 -4054.11         5633          0.87           -0.72    4893.05      46.02 SAR_SignalLevel=-0.3; MaxOrders=0; MaxOrdersPerType=0;
-           4 -4091.39         5595          0.87           -0.73    4976.43      46.65 SAR_SignalLevel=-0.2; MaxOrders=0; MaxOrdersPerType=0;
-           5 -4150.02         5592          0.87           -0.74    4951.76      46.40 SAR_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
-           9 -4382.64         5392          0.86           -0.81    5104.98      47.72  SAR_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
-           8 -4424.58         5396          0.86           -0.82    5152.92      48.15  SAR_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
+           1 -2550.44         5790          0.91           -0.44    4094.32      38.80   SAR_SignalLevel=-1; MaxOrders=0; MaxOrdersPerType=0;
+           6 -3085.42         5686          0.90           -0.54    4285.89      40.77 SAR_SignalLevel=-0.5; MaxOrders=0; MaxOrdersPerType=0;
+           2 -3182.90         5762          0.89           -0.55    3967.01      37.54 SAR_SignalLevel=-0.9; MaxOrders=0; MaxOrdersPerType=0;
+           5 -3365.39         5720          0.89           -0.59    4841.67      46.04 SAR_SignalLevel=-0.6; MaxOrders=0; MaxOrdersPerType=0;
+           3 -3504.15         5789          0.89           -0.61    5001.33      47.57 SAR_SignalLevel=-0.8; MaxOrders=0; MaxOrdersPerType=0;
+           4 -3520.46         5781          0.89           -0.61    5036.17      47.86 SAR_SignalLevel=-0.7; MaxOrders=0; MaxOrdersPerType=0;
+           7 -3691.87         5520          0.88           -0.67    4414.90      41.95 SAR_SignalLevel=-0.4; MaxOrders=0; MaxOrdersPerType=0;
+          11 -3822.37         5427          0.87           -0.70    4503.89      42.25    SAR_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+           8 -4054.11         5633          0.87           -0.72    4893.05      46.02 SAR_SignalLevel=-0.3; MaxOrders=0; MaxOrdersPerType=0;
+           9 -4091.39         5595          0.87           -0.73    4976.43      46.65 SAR_SignalLevel=-0.2; MaxOrders=0; MaxOrdersPerType=0;
+          10 -4150.02         5592          0.87           -0.74    4951.76      46.40 SAR_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
