@@ -11,8 +11,14 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        2 15546.54         2318          1.18            6.71   14595.79      79.56 ConWinsIncreaseFactor=-0.2; MaxOrders=0; MaxOrdersPerType=0;
-        4 13121.03         2907          1.13            4.51   19176.23      76.98  ConWinsIncreaseFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
-        1  6582.27         1933          1.08            3.41   17239.61      86.17 ConWinsIncreaseFactor=-0.3; MaxOrders=0; MaxOrdersPerType=0;
-        3  3049.64         1964          1.04            1.55   15493.40      84.66 ConWinsIncreaseFactor=-0.1; MaxOrders=0; MaxOrdersPerType=0;
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         1 9811.83          503          1.39           19.51    7234.04      42.25 ConWinsIncreaseFactor=-1.2; MaxOrders=0; MaxOrdersPerType=0;
+        10 9656.36          471          1.29           20.50    8945.62      48.74  ConWinsIncreaseFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
+         9 8359.68          500          1.29           16.72    7674.06      45.75 ConWinsIncreaseFactor=-0.4; MaxOrders=0; MaxOrdersPerType=0;
+         2 4534.91          482          1.18            9.41    7657.50      44.24 ConWinsIncreaseFactor=-1.1; MaxOrders=0; MaxOrdersPerType=0;
+         6 3185.03          450          1.12            7.08    6870.82      42.02 ConWinsIncreaseFactor=-0.7; MaxOrders=0; MaxOrdersPerType=0;
+         7 3130.83          450          1.12            6.96    6870.82      42.02 ConWinsIncreaseFactor=-0.6; MaxOrders=0; MaxOrdersPerType=0;
+         8 3090.49          450          1.12            6.87    6930.16      42.38 ConWinsIncreaseFactor=-0.5; MaxOrders=0; MaxOrdersPerType=0;
+         5 2632.76          493          1.10            5.34    7797.09      45.05 ConWinsIncreaseFactor=-0.8; MaxOrders=0; MaxOrdersPerType=0;
+         3 2397.64          490          1.09            4.89    8217.03      47.48   ConWinsIncreaseFactor=-1; MaxOrders=0; MaxOrdersPerType=0;
+         4 2397.64          490          1.09            4.89    8217.03      47.48 ConWinsIncreaseFactor=-0.9; MaxOrders=0; MaxOrdersPerType=0;
