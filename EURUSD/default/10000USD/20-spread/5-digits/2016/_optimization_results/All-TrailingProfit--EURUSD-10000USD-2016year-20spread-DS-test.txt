@@ -11,9 +11,5 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             5  190.35          205          1.02            0.93    2429.64      22.81 TrailingProfit=50; MaxOrders=0; MaxOrdersPerType=0;
-             1   97.94          184          1.01            0.53    2671.50      24.97 TrailingProfit=10; MaxOrders=0; MaxOrdersPerType=0;
-             2 -364.25          191          0.96           -1.91    2651.50      24.74 TrailingProfit=20; MaxOrders=0; MaxOrdersPerType=0;
-             3 -371.68          185          0.96           -2.01    2590.20      24.34 TrailingProfit=30; MaxOrders=0; MaxOrdersPerType=0;
-             4 -421.60          182          0.95           -2.32    2429.64      22.83 TrailingProfit=40; MaxOrders=0; MaxOrdersPerType=0;
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1 -4070.58         2701          0.94           -1.51   15690.55      88.66 TrailingProfit=70; MaxOrders=0; MaxOrdersPerType=0;
