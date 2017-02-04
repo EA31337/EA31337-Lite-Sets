@@ -11,15 +11,4 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           2 -3235.78         5625          0.89           -0.58    4398.00      41.43 SAR_SignalLevel=-1.4; MaxOrders=0; MaxOrdersPerType=0;
-           1 -3327.87         5588          0.89           -0.60    4483.18      42.27 SAR_SignalLevel=-1.5; MaxOrders=0; MaxOrdersPerType=0;
-           7 -3462.72         5480          0.88           -0.63    4792.46      44.91 SAR_SignalLevel=-0.9; MaxOrders=0; MaxOrdersPerType=0;
-           3 -3510.77         5487          0.88           -0.64    4512.53      42.57 SAR_SignalLevel=-1.3; MaxOrders=0; MaxOrdersPerType=0;
-           6 -3654.63         5451          0.88           -0.67    4603.16      43.22   SAR_SignalLevel=-1; MaxOrders=0; MaxOrdersPerType=0;
-          11 -3729.53         5466          0.87           -0.68    4344.00      41.01 SAR_SignalLevel=-0.5; MaxOrders=0; MaxOrdersPerType=0;
-           4 -3800.55         5451          0.87           -0.70    4669.11      44.09 SAR_SignalLevel=-1.2; MaxOrders=0; MaxOrdersPerType=0;
-          10 -3858.36         5410          0.87           -0.71    4474.53      42.23 SAR_SignalLevel=-0.6; MaxOrders=0; MaxOrdersPerType=0;
-           9 -4052.19         5417          0.86           -0.75    4700.26      44.23 SAR_SignalLevel=-0.7; MaxOrders=0; MaxOrdersPerType=0;
-           8 -4066.19         5448          0.86           -0.75    4710.55      44.34 SAR_SignalLevel=-0.8; MaxOrders=0; MaxOrdersPerType=0;
-           5 -4067.74         5488          0.86           -0.74    4688.45      44.23 SAR_SignalLevel=-1.1; MaxOrders=0; MaxOrdersPerType=0;
+                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
