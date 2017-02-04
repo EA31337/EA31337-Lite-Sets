@@ -12,20 +12,24 @@
                             Spread          20
                                                                  [Optimization Graph]
       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        16  3352.43          826          1.23            4.06    2250.01      17.78 DeMarker_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
-        11  2244.39          957          1.14            2.35    2564.81      20.35 DeMarker_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
-        10  1807.92          992          1.11            1.82    2304.80      19.08 DeMarker_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
-         9  1639.85         1033          1.09            1.59    2704.24      22.67   DeMarker_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
-         8  1630.98         1123          1.09            1.45    3479.95      28.04 DeMarker_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
-         3  1479.61         1952          1.07            0.76    2705.40      25.62 DeMarker_Period_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=0;
-        17  1375.39          776          1.09            1.77    2456.37      21.42 DeMarker_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
-        15  1363.07          852          1.08            1.60    2919.13      23.85 DeMarker_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
-         6  1354.09         1337          1.07            1.01    3161.39      25.72 DeMarker_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
-        14  1284.48          853          1.08            1.51    2934.93      23.68 DeMarker_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
-         5   937.28         1474          1.05            0.64    3484.57      28.34 DeMarker_Period_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=0;
-         4   865.59         1660          1.04            0.52    3346.69      30.55 DeMarker_Period_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=0;
-         7   828.12         1193          1.04            0.69    3250.39      26.59 DeMarker_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
-        12   187.03          894          1.01            0.21    3789.09      30.83 DeMarker_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
-        13   -35.56          852          1.00           -0.04    2966.95      27.10 DeMarker_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
-         2  -704.70         2270          0.97           -0.31    3332.76      31.17 DeMarker_Period_Ratio=0.3; MaxOrders=0; MaxOrdersPerType=0;
-         1 -2457.96         2646          0.90           -0.93    4647.59      41.91 DeMarker_Period_Ratio=0.2; MaxOrders=0; MaxOrdersPerType=0;
+        14  3032.26         1481          1.11            2.05    1954.45      16.48   DeMarker_Period_Ratio=2; MaxOrders=0; MaxOrdersPerType=0;
+        13  3015.71         1516          1.11            1.99    1775.38      15.04 DeMarker_Period_Ratio=1.9; MaxOrders=0; MaxOrdersPerType=0;
+        15  2812.48         1447          1.11            1.94    1662.14      14.08 DeMarker_Period_Ratio=2.1; MaxOrders=0; MaxOrdersPerType=0;
+        18  2674.92         1342          1.11            1.99    2423.31      19.39 DeMarker_Period_Ratio=2.4; MaxOrders=0; MaxOrdersPerType=0;
+        19  2564.94         1324          1.11            1.94    2160.89      17.41 DeMarker_Period_Ratio=2.5; MaxOrders=0; MaxOrdersPerType=0;
+        11  2559.71         1613          1.09            1.59    2337.20      18.41 DeMarker_Period_Ratio=1.7; MaxOrders=0; MaxOrdersPerType=0;
+        12  2435.51         1564          1.09            1.56    2225.43      18.71 DeMarker_Period_Ratio=1.8; MaxOrders=0; MaxOrdersPerType=0;
+        20  2343.35         1290          1.10            1.82    2228.60      18.15 DeMarker_Period_Ratio=2.6; MaxOrders=0; MaxOrdersPerType=0;
+         2  1878.85         2513          1.05            0.75    3229.14      25.05 DeMarker_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
+        17  1792.50         1390          1.07            1.29    2454.15      20.76 DeMarker_Period_Ratio=2.3; MaxOrders=0; MaxOrdersPerType=0;
+        16  1757.78         1422          1.07            1.24    2042.57      17.30 DeMarker_Period_Ratio=2.2; MaxOrders=0; MaxOrdersPerType=0;
+        10  1614.71         1662          1.06            0.97    3626.48      27.62 DeMarker_Period_Ratio=1.6; MaxOrders=0; MaxOrdersPerType=0;
+         1  1410.48         2790          1.03            0.51    2947.85      24.42 DeMarker_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
+         4  1014.90         2167          1.03            0.47    3317.06      27.15   DeMarker_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
+         3   983.61         2320          1.03            0.42    3202.21      25.88 DeMarker_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
+         9   748.21         1725          1.02            0.43    3922.61      31.24 DeMarker_Period_Ratio=1.5; MaxOrders=0; MaxOrdersPerType=0;
+        21   622.40         1266          1.03            0.49    1915.41      17.66 DeMarker_Period_Ratio=2.7; MaxOrders=0; MaxOrdersPerType=0;
+         8 -1093.22         1790          0.97           -0.61    4698.01      38.63 DeMarker_Period_Ratio=1.4; MaxOrders=0; MaxOrdersPerType=0;
+         5 -1433.35         2074          0.96           -0.69    4465.89      39.00 DeMarker_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
+         6 -1735.28         1967          0.95           -0.88    4505.67      38.76 DeMarker_Period_Ratio=1.2; MaxOrders=0; MaxOrdersPerType=0;
+         7 -2213.83         1857          0.93           -1.19    4982.31      42.52 DeMarker_Period_Ratio=1.3; MaxOrders=0; MaxOrdersPerType=0;
