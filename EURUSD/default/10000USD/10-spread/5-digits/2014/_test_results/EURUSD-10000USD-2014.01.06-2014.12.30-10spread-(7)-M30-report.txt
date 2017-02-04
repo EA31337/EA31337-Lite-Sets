@@ -1,0 +1,56 @@
+Currency pair symbol:                       EURUSD
+Initial deposit:                            10000.00 USD
+Total net profit:                           4974.68 USD
+Gross profit:                               16711.43 USD
+Gross loss:                                 11736.74 USD
+Absolute drawdown:                          763.76 USD
+Maximal drawdown:                           2247.0 USD (14.5%)
+Relative drawdown:                          (14.5%) 2247.0 USD
+Profit factor:                              1.42
+Expected payoff:                            15.59
+Trades total                                319
+Short positions (won %):                    200 (40.0%)
+Long positions (won %):                     119 (37.8%)
+Profit trades (% of total):                 125 (39.2%)
+Loss trades (% of total):                   194 (60.8%)
+Largest profit trade:                       3781.50
+Largest loss trade:                         -1009.52
+Average profit trade:                       133.69
+Average loss trade:                         -60.50
+Average consecutive wins:                   2.00
+Average consecutive losses:                 4.00
+Maximum consecutive wins (profit in money): 12 (75.03)
+Maximum consecutive losses (loss in money): 15 (-762.25)
+Maximal consecutive profit (count of wins): 5085.04 (5)
+Maximal consecutive loss (count of losses): 1676.69 (8)
+Modelling quality:                          89.77%
+Total bars processed:                       12307
+Total ticks processed:                      73487172
+Bars per hour (avg):                        205
+Ticks per bar (avg):                        5971 (bar=30mins)
+Ticks per min (avg):                        199
+Strategy stats:
+Profit factor: 0.47, Total net profit: -663.00pips (+594.91/-1257.91), Total orders: 36 (Won: 22.2% [8] / Loss: 77.8% [28]) - DeMarker M5
+Profit factor: 1.41, Total net profit: 1775.02pips (+6084.95/-4309.93), Total orders: 114 (Won: 40.4% [46] / Loss: 59.6% [68]) - DeMarker M15
+Profit factor: 1.00, Total net profit: 319.20pips (+502.39/-183.19), Total orders: 15 (Won: 66.7% [10] / Loss: 33.3% [5]) - MA M30
+Profit factor: 1.63, Total net profit: 3209.78pips (+8312.83/-5103.05), Total orders: 106 (Won: 30.2% [32] / Loss: 69.8% [74]) - RSI M5
+Profit factor: 0.43, Total net profit: -454.38pips (+349.47/-803.85), Total orders: 21 (Won: 28.6% [6] / Loss: 71.4% [15]) - RSI M30
+Profit factor: 7.48, Total net profit: 138.68pips (+160.07/-21.40), Total orders: 22 (Won: 90.9% [20] / Loss: 9.1% [2]) - WPR M30
+Report log:
+2014.01.06 00:00:00: EA31337 Lite (Backtest) v1.073 by kenorb (https://github.com/EA31337)
+ACCOUNT: Type: Off-line, Server/Company/Name: //, Currency: USD, Balance: 10000, Credit: 0, Equity: 10000, Orders limit: 0: Leverage: 1:100, StopOut Level: 0 (Mode: 0)
+SYMBOL: Symbol: EURUSD, Ask/Bid: 1.35967/1.35957, Session Volume: 0, Point size: 1e-05, Pip size: 0.0001, Tick size: 1e-05 (1e-05 pts), Tick value: 1 (0/0), Digits: 5, Spread: 10 pts, Trade stops level: 8, Lot step: 0.1 pts, Trade contract size: 100000, Min lot: 0.1, Max lot: 100, Freeze level: 0, Margin init: 0
+MARKET: Pip digits: 4, Spread: 10 pts (1 pips; 0.0074%), Pts/pip: 10, Trade distance: 8 pts (0.0000 pips), Lot step: 0.1 pips, Volume digits: 1, Margin required: 1359.62/lot, Delta: 100000
+CHART: OHLC: 1.35957/1.35957/1.35957/1.35957
+Swap specification for EURUSD: Mode: 0, Long/buy order value: 0.33, Short/sell order value: -1.04
+Calculated variables: Pip size: 0.0001, EA lot size: 0.1, Points per pip: 10, Pip digits: 4, Volume digits: 1, Spread in pips: 1.0 (10 pts), Stop Out Level: 0.3, Market gap: 8 pts (0 pips)
+EA params: Risk ratio: 1, Risk margin per order: 1%, Risk margin in total: 15%
+Strategies: Active strategies: 7 of 120, Max orders: 41 (per type: 10)
+
+Timeframes: M1; M2; M3; M4; M5; M6; M10; M12; M15; M20; M30; H1; H2; H3; H4; H6; H8; H12; D1; W1; MN1; 
+Datetime: Hour of day: 0, Day of week: 1, Day of month: 6, Day of year: 6, Month: 1, Year: 2014
+Account Details: Time: 2014.01.06 00:00:00; Account Balance: $10000.00; Account Equity: $10000.00; Account Credit: $0.00; Used Margin: $0.00; Free Margin: $10000.00; No of Orders: 0 (BUY/SELL: 0/0); Risk Ratio: 1.0
+
+2014.03.02 22:00:01: UpdateStats: Market very big drop of 40.7 pips detected!
+2014.04.13 21:00:01: UpdateStats: Market very big drop of 41.0 pips detected!
+2014.08.24 21:00:01: UpdateStats: Market very big drop of 44.4 pips detected!
