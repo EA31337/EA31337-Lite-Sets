@@ -11,19 +11,16 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            2  1459.73          130          2.69           11.23     291.60       2.65 Envelopes_MA_Shift=1; Envelopes_Shift=0; MaxOrders=0;
-            6  1459.73          130          2.69           11.23     291.60       2.65 Envelopes_MA_Shift=0; Envelopes_Shift=1; MaxOrders=0;
-            3   820.63          130          1.78            6.31     384.00       3.55 Envelopes_MA_Shift=2; Envelopes_Shift=0; MaxOrders=0;
-            7   820.63          130          1.78            6.31     384.00       3.55 Envelopes_MA_Shift=1; Envelopes_Shift=1; MaxOrders=0;
-           11   820.63          130          1.78            6.31     384.00       3.55 Envelopes_MA_Shift=0; Envelopes_Shift=2; MaxOrders=0;
-            5   757.93          135          1.60            5.61     413.40       3.94 Envelopes_MA_Shift=4; Envelopes_Shift=0; MaxOrders=0;
-            9   757.93          135          1.60            5.61     413.40       3.94 Envelopes_MA_Shift=3; Envelopes_Shift=1; MaxOrders=0;
-           13   757.93          135          1.60            5.61     413.40       3.94 Envelopes_MA_Shift=2; Envelopes_Shift=2; MaxOrders=0;
-            4   660.03          136          1.55            4.85     337.90       3.22 Envelopes_MA_Shift=3; Envelopes_Shift=0; MaxOrders=0;
-            8   660.03          136          1.55            4.85     337.90       3.22 Envelopes_MA_Shift=2; Envelopes_Shift=1; MaxOrders=0;
-           12   660.03          136          1.55            4.85     337.90       3.22 Envelopes_MA_Shift=1; Envelopes_Shift=2; MaxOrders=0;
-           10   624.70          142          1.49            4.40     432.20       4.23 Envelopes_MA_Shift=4; Envelopes_Shift=1; MaxOrders=0;
-           14   624.70          142          1.49            4.40     432.20       4.23 Envelopes_MA_Shift=3; Envelopes_Shift=2; MaxOrders=0;
-           15   565.63          163          1.38            3.47     649.50       6.31 Envelopes_MA_Shift=4; Envelopes_Shift=2; MaxOrders=0;
-            1 -3803.91        12789          0.90           -0.30    4168.84      41.54 Envelopes_MA_Shift=0; Envelopes_Shift=0; MaxOrders=0;
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            8 4754.64         2418          1.26            1.97     923.30       6.85 Envelopes_MA_Shift=3; Envelopes_Shift=1; MaxOrders=0;
+           11 4754.64         2418          1.26            1.97     923.30       6.85 Envelopes_MA_Shift=2; Envelopes_Shift=2; MaxOrders=0;
+           12 3768.82         2535          1.20            1.49    1115.09       7.87 Envelopes_MA_Shift=3; Envelopes_Shift=2; MaxOrders=0;
+            4 1693.10         2162          1.09            0.78    1365.44      10.72 Envelopes_MA_Shift=3; Envelopes_Shift=0; MaxOrders=0;
+            7 1693.10         2162          1.09            0.78    1365.44      10.72 Envelopes_MA_Shift=2; Envelopes_Shift=1; MaxOrders=0;
+           10 1693.10         2162          1.09            0.78    1365.44      10.72 Envelopes_MA_Shift=1; Envelopes_Shift=2; MaxOrders=0;
+            3 1449.62         1783          1.09            0.81     967.81       8.55 Envelopes_MA_Shift=2; Envelopes_Shift=0; MaxOrders=0;
+            6 1449.62         1783          1.09            0.81     967.81       8.55 Envelopes_MA_Shift=1; Envelopes_Shift=1; MaxOrders=0;
+            9 1449.62         1783          1.09            0.81     967.81       8.55 Envelopes_MA_Shift=0; Envelopes_Shift=2; MaxOrders=0;
+            2  993.94         1190          1.07            0.84    1155.09      11.01 Envelopes_MA_Shift=1; Envelopes_Shift=0; MaxOrders=0;
+            5  993.94         1190          1.07            0.84    1155.09      11.01 Envelopes_MA_Shift=0; Envelopes_Shift=1; MaxOrders=0;
+            1  110.95         1196          1.01            0.09    1684.78      16.59 Envelopes_MA_Shift=0; Envelopes_Shift=0; MaxOrders=0;
