@@ -1,0 +1,64 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.073
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2016.12.30 21:30 (2014.01.01 - 2016.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       11 10941.63         9685          1.20            1.13     471.29       4.40   WPR_TrailingStopMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+       30 10379.72         9236          1.19            1.12     743.76       6.95  WPR_TrailingStopMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+        9 10299.89        15296          1.14            0.67    1093.14      10.08   WPR_TrailingStopMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+       44 10270.17         9208          1.19            1.12     777.55       7.31  WPR_TrailingStopMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+       42 10193.82         9215          1.19            1.11     759.85       7.14  WPR_TrailingStopMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+       38 10180.28         9209          1.19            1.11     790.15       7.43  WPR_TrailingStopMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+       13 10178.28         9241          1.19            1.10     673.26       6.32   WPR_TrailingStopMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+       50 10173.48         9556          1.19            1.06     801.85       7.54  WPR_TrailingStopMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+       23 10159.88         9217          1.19            1.10     788.95       7.42  WPR_TrailingStopMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+       32 10158.18         9218          1.19            1.10     772.95       7.27  WPR_TrailingStopMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+        3  9698.21         9195          1.18            1.05     781.75       7.35   WPR_TrailingStopMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+       21  9698.21         9195          1.18            1.05     781.75       7.35  WPR_TrailingStopMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+       15  9691.20         9492          1.17            1.02     980.27       9.35   WPR_TrailingStopMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+       10  9549.44         9168          1.21            1.04    1662.61       7.98  WPR_TrailingStopMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
+        8  9234.52        14532          1.15            0.64    1816.54      17.11  WPR_TrailingStopMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
+       48  9177.87        12087          1.14            0.76    1166.48      11.08  WPR_TrailingStopMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+        6  9020.45        28781          1.09            0.31    2656.33      26.05  WPR_TrailingStopMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
+        7  8861.76        20807          1.10            0.43    1851.88      17.36   WPR_TrailingStopMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+       46  8840.47        13081          1.13            0.68    1245.42      12.02  WPR_TrailingStopMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+        5  8086.41        32941          1.08            0.25    3134.05      30.91   WPR_TrailingStopMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+       40  7240.94        15234          1.10            0.48    1668.45      16.13  WPR_TrailingStopMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+        2  7219.53         8369          1.14            0.86     831.26       6.19   WPR_TrailingStopMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+        1  5638.61         5076          1.18            1.11    1444.70      10.39 WPR_TrailingStopMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
+       49  5587.30         6897          1.14            0.81     920.79       8.69 WPR_TrailingStopMethod=-26; MaxOrders=0; MaxOrdersPerType=0;
+       12  5212.16         4698          1.18            1.11    2073.79      14.70  WPR_TrailingStopMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+       37  5113.69        14904          1.10            0.34    1503.82      10.46 WPR_TrailingStopMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
+       36  4911.82        24753          1.05            0.20    2826.92      27.90  WPR_TrailingStopMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+       47  4737.09         7561          1.11            0.63    1046.76       8.89 WPR_TrailingStopMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+       14  4681.47         4386          1.16            1.07    1967.75      14.46  WPR_TrailingStopMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
+       31  4339.99         4405          1.15            0.99    2125.19      16.33 WPR_TrailingStopMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
+       16  4268.74         4612          1.14            0.93    1863.52      13.80  WPR_TrailingStopMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
+       41  4118.34        10284          1.08            0.40    1613.49      12.06 WPR_TrailingStopMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
+       45  4107.94         4389          1.14            0.94    2250.92      17.09 WPR_TrailingStopMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
+       43  3912.57         4348          1.13            0.90    2125.19      16.52 WPR_TrailingStopMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
+       20  3826.50        17953          1.06            0.21    2266.27      22.58 WPR_TrailingStopMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+       27  3815.58        17320          1.07            0.22    2022.96      19.81 WPR_TrailingStopMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+       33  3743.74         4310          1.13            0.87    2148.72      16.68 WPR_TrailingStopMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
+        4  3695.14         4319          1.13            0.86    2204.75      16.68  WPR_TrailingStopMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+       22  3695.14         4319          1.13            0.86    2204.75      16.68 WPR_TrailingStopMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
+       39  3658.33         4342          1.13            0.84    2145.32      16.71 WPR_TrailingStopMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+       24  3600.75         4307          1.12            0.84    2146.82      16.65 WPR_TrailingStopMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+       34  3495.78        27260          1.04            0.13    3238.35      32.26  WPR_TrailingStopMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+       35  3435.87        16453          1.06            0.21    1805.51      17.73 WPR_TrailingStopMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+       29  3286.30        14365          1.05            0.23    1791.14      17.55 WPR_TrailingStopMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
+       28  2938.79        18754          1.04            0.16    2891.28      28.41  WPR_TrailingStopMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+       25  2361.25        20377          1.04            0.12    2890.92      28.81 WPR_TrailingStopMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
+       18  2304.11        20777          1.03            0.11    2784.81      27.78 WPR_TrailingStopMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
+       26   905.74        28414          1.01            0.03    4197.88      41.86  WPR_TrailingStopMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+       19   -67.76        29365          1.00           -0.00    4596.39      45.87  WPR_TrailingStopMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+       17 -2942.97        30080          0.97           -0.10    4735.28      47.23  WPR_TrailingStopMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
