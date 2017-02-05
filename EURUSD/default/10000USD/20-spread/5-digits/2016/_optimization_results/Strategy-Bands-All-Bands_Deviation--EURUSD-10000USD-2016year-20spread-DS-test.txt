@@ -12,10 +12,10 @@
                             Spread          20
                                                                  [Optimization Graph]
          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            4 1514.09         1575          1.12            0.96    1041.87       9.50 Bands_Deviation=4.3; MaxOrders=0; MaxOrdersPerType=0;
-            5 1492.14         1476          1.13            1.01     886.57       8.10 Bands_Deviation=4.4; MaxOrders=0; MaxOrdersPerType=0;
-            7 1341.63         1362          1.12            0.99     861.05       7.60 Bands_Deviation=4.6; MaxOrders=0; MaxOrdersPerType=0;
-            6 1310.52         1433          1.11            0.91     955.64       8.57 Bands_Deviation=4.5; MaxOrders=0; MaxOrdersPerType=0;
-            3 1303.72         1670          1.10            0.78    1057.99       9.53 Bands_Deviation=4.2; MaxOrders=0; MaxOrdersPerType=0;
-            2 1045.12         1759          1.08            0.59    1188.65      10.82 Bands_Deviation=4.1; MaxOrders=0; MaxOrdersPerType=0;
-            1  925.65         1857          1.07            0.50    1197.99      10.73   Bands_Deviation=4; MaxOrders=0; MaxOrdersPerType=0;
+            5   36.90           63          1.09            0.59     245.20       2.39 Bands_Deviation=4.6; MaxOrders=0; MaxOrdersPerType=0;
+            3   15.63           77          1.04            0.20     225.77       2.21 Bands_Deviation=4.4; MaxOrders=0; MaxOrdersPerType=0;
+            2    8.23           86          1.02            0.10     223.37       2.19 Bands_Deviation=4.3; MaxOrders=0; MaxOrdersPerType=0;
+            4    7.13           69          1.02            0.10     233.90       2.29 Bands_Deviation=4.5; MaxOrders=0; MaxOrdersPerType=0;
+            1  -18.77           95          0.96           -0.20     237.44       2.33 Bands_Deviation=4.2; MaxOrders=0; MaxOrdersPerType=0;
+            6  -54.30           64          0.86           -0.85     252.40       2.48 Bands_Deviation=4.7; MaxOrders=0; MaxOrdersPerType=0;
+            7 -102.07           59          0.73           -1.73     252.80       2.49 Bands_Deviation=4.8; MaxOrders=0; MaxOrdersPerType=0;
