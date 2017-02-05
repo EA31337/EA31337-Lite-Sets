@@ -11,10 +11,10 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          6 2256.98          694          1.23            3.25     935.02       8.85  Envelopes_Deviation=0.9; MaxOrders=0; MaxOrdersPerType=0;
-          3 1702.88         1051          1.14            1.62    1117.13       9.93 Envelopes_Deviation=0.75; MaxOrders=0; MaxOrdersPerType=0;
-          2  993.94         1190          1.07            0.84    1155.09      11.01  Envelopes_Deviation=0.7; MaxOrders=0; MaxOrdersPerType=0;
-          5  982.63          809          1.09            1.21    1096.48      10.56 Envelopes_Deviation=0.85; MaxOrders=0; MaxOrdersPerType=0;
-          4  799.61          935          1.07            0.86    1371.44      12.63  Envelopes_Deviation=0.8; MaxOrders=0; MaxOrdersPerType=0;
-          1  704.08         1729          1.03            0.41    1384.28      13.28 Envelopes_Deviation=0.65; MaxOrders=0; MaxOrdersPerType=0;
+       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          3 245.20            5          2.95           49.04     183.80       1.83 Envelopes_Deviation=0.95; MaxOrders=0; MaxOrdersPerType=0;
+          1 158.00            2          4.76           79.00      88.90       0.89 Envelopes_Deviation=0.85; MaxOrders=0; MaxOrdersPerType=0;
+          2 116.00            3          2.38           38.67     156.10       1.56  Envelopes_Deviation=0.9; MaxOrders=0; MaxOrdersPerType=0;
+          5 116.00            3          2.38           38.67     192.60       1.90 Envelopes_Deviation=1.05; MaxOrders=0; MaxOrdersPerType=0;
+          6 116.00            3          2.38           38.67     192.60       1.90  Envelopes_Deviation=1.1; MaxOrders=0; MaxOrdersPerType=0;
+          4  74.00            4          1.59           18.50     192.60       1.91    Envelopes_Deviation=1; MaxOrders=0; MaxOrdersPerType=0;
