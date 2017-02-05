@@ -12,7 +12,12 @@
                             Spread          20
                                                                  [Optimization Graph]
              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                4 1733.17         2158          1.11            0.80    1110.62       9.65 Bands_Shift=1; Bands_Shift_Far=1; MaxOrders=0;
-                2 1270.95         2079          1.09            0.61    1060.36       9.66 Bands_Shift=1; Bands_Shift_Far=0; MaxOrders=0;
-                3 1088.96         1838          1.07            0.59    1444.98      12.82 Bands_Shift=0; Bands_Shift_Far=1; MaxOrders=0;
-                1 1045.12         1759          1.08            0.59    1188.65      10.82 Bands_Shift=0; Bands_Shift_Far=0; MaxOrders=0;
+                4   25.43           15          1.29            1.70      80.00       0.79 Bands_Shift=0; Bands_Shift_Far=1; MaxOrders=0;
+                5    8.23           86          1.02            0.10     223.37       2.19 Bands_Shift=1; Bands_Shift_Far=1; MaxOrders=0;
+                7   -0.77           12          0.99           -0.06      87.60       0.87 Bands_Shift=0; Bands_Shift_Far=2; MaxOrders=0;
+                6  -23.41          148          0.97           -0.16     320.80       3.12 Bands_Shift=2; Bands_Shift_Far=1; MaxOrders=0;
+                1  -34.70           13          0.66           -2.67      84.00       0.84 Bands_Shift=0; Bands_Shift_Far=0; MaxOrders=0;
+                3  -79.21          150          0.91           -0.53     354.00       3.45 Bands_Shift=2; Bands_Shift_Far=0; MaxOrders=0;
+                2  -90.90           96          0.82           -0.95     273.94       2.70 Bands_Shift=1; Bands_Shift_Far=0; MaxOrders=0;
+                8 -110.41           88          0.80           -1.25     323.57       3.17 Bands_Shift=1; Bands_Shift_Far=2; MaxOrders=0;
+                9 -143.54          142          0.85           -1.01     413.54       4.03 Bands_Shift=2; Bands_Shift_Far=2; MaxOrders=0;
