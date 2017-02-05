@@ -12,8 +12,8 @@
                             Spread          20
                                                                  [Optimization Graph]
      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        1 2699.26         3707          1.10            0.73    4800.18      32.02 Alligator_SignalLevel=-0.11; MaxOrders=0; MaxOrdersPerType=0;
-        2 2242.70         3652          1.08            0.61    5219.66      34.87 Alligator_SignalLevel=-0.01; MaxOrders=0; MaxOrdersPerType=0;
-        3 1999.67         3619          1.07            0.55    5265.65      35.82  Alligator_SignalLevel=0.09; MaxOrders=0; MaxOrdersPerType=0;
-        4 1933.94         3556          1.07            0.54    5483.12      37.22  Alligator_SignalLevel=0.19; MaxOrders=0; MaxOrdersPerType=0;
-        5 1838.91         3501          1.07            0.53    5330.30      36.80  Alligator_SignalLevel=0.29; MaxOrders=0; MaxOrdersPerType=0;
+        3 1372.19         2739          1.13            0.50     692.82       5.99 Alligator_SignalLevel=-0.11; MaxOrders=0; MaxOrdersPerType=0;
+        5 1334.80         2599          1.13            0.51     725.70       6.27  Alligator_SignalLevel=0.09; MaxOrders=0; MaxOrdersPerType=0;
+        4 1307.29         2673          1.12            0.49     745.86       6.46 Alligator_SignalLevel=-0.01; MaxOrders=0; MaxOrdersPerType=0;
+        2 1148.19         2829          1.10            0.41     801.36       7.01 Alligator_SignalLevel=-0.21; MaxOrders=0; MaxOrdersPerType=0;
+        1  990.29         2891          1.09            0.34     815.09       7.18 Alligator_SignalLevel=-0.31; MaxOrders=0; MaxOrdersPerType=0;
