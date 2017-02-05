@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.073
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2016.12.30 21:30 (2014.01.01 - 2016.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           10 4113.53          330          1.33           12.47    2087.31      15.74 SAR_SignalLevel=-1.2; MaxOrders=0; MaxOrdersPerType=0;
+            9 4085.62          330          1.33           12.38    2087.31      15.75 SAR_SignalLevel=-1.3; MaxOrders=0; MaxOrdersPerType=0;
+            8 3968.87          334          1.32           11.88    2089.21      15.74 SAR_SignalLevel=-1.4; MaxOrders=0; MaxOrdersPerType=0;
+           11 3921.21          330          1.32           11.88    2087.31      15.96 SAR_SignalLevel=-1.1; MaxOrders=0; MaxOrdersPerType=0;
+            7 3856.91          333          1.31           11.58    2089.21      15.93 SAR_SignalLevel=-1.5; MaxOrders=0; MaxOrdersPerType=0;
+            6 3819.51          335          1.30           11.40    2089.21      15.88 SAR_SignalLevel=-1.6; MaxOrders=0; MaxOrdersPerType=0;
+            4 3623.03          335          1.28           10.82    2076.61      15.63 SAR_SignalLevel=-1.8; MaxOrders=0; MaxOrdersPerType=0;
+            5 3595.47          335          1.28           10.73    2089.21      15.73 SAR_SignalLevel=-1.7; MaxOrders=0; MaxOrdersPerType=0;
+            3 3516.86          336          1.27           10.47    2076.61      15.69 SAR_SignalLevel=-1.9; MaxOrders=0; MaxOrdersPerType=0;
+            1 3513.92          342          1.26           10.27    2086.41      15.71 SAR_SignalLevel=-2.1; MaxOrders=0; MaxOrdersPerType=0;
+            2 3273.75          336          1.25            9.74    2077.21      15.76   SAR_SignalLevel=-2; MaxOrders=0; MaxOrdersPerType=0;
