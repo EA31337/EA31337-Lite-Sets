@@ -1,0 +1,62 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.073
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2016.12.30 21:30 (2014.01.01 - 2016.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+   1  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=2;
+   2  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=2;
+   7  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=3; Alligator_Shift_Lips=3;
+   8  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=3; Alligator_Shift_Lips=3;
+  15  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=4;
+  16  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=4;
+  17  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=2;
+  18  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=2;
+  23  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=3; Alligator_Shift_Lips=3;
+  24  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=3; Alligator_Shift_Lips=3;
+  31  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=4;
+  32  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=4;
+  33  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=2;
+  34  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=2;
+  39  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=3; Alligator_Shift_Lips=3;
+  40  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=3; Alligator_Shift_Lips=3;
+  47  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=4;
+  48  4019.06        14328          1.07            0.28    2366.55      22.39 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=4;
+  11 -1051.40         9990          0.97           -0.11    2804.15      27.58 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=4;
+  12 -1051.40         9990          0.97           -0.11    2804.15      27.58 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=4;
+  27 -1051.40         9990          0.97           -0.11    2804.15      27.58 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=4;
+  28 -1051.40         9990          0.97           -0.11    2804.15      27.58 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=4;
+  43 -1051.40         9990          0.97           -0.11    2804.15      27.58 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=4;
+  44 -1051.40         9990          0.97           -0.11    2804.15      27.58 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=4;
+   5 -1531.03        10556          0.97           -0.15    3273.88      32.25 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=3;
+   6 -1531.03        10556          0.97           -0.15    3273.88      32.25 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=3;
+  21 -1531.03        10556          0.97           -0.15    3273.88      32.25 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=3;
+  22 -1531.03        10556          0.97           -0.15    3273.88      32.25 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=3;
+  37 -1531.03        10556          0.97           -0.15    3273.88      32.25 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=3;
+  38 -1531.03        10556          0.97           -0.15    3273.88      32.25 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=3;
+  13 -2140.31        10238          0.95           -0.21    3440.38      33.81 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=3; Alligator_Shift_Lips=4;
+  14 -2140.31        10238          0.95           -0.21    3440.38      33.81 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=3; Alligator_Shift_Lips=4;
+  29 -2140.31        10238          0.95           -0.21    3440.38      33.81 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=3; Alligator_Shift_Lips=4;
+  30 -2140.31        10238          0.95           -0.21    3440.38      33.81 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=3; Alligator_Shift_Lips=4;
+  45 -2140.31        10238          0.95           -0.21    3440.38      33.81 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=3; Alligator_Shift_Lips=4;
+  46 -2140.31        10238          0.95           -0.21    3440.38      33.81 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=3; Alligator_Shift_Lips=4;
+   9 -4017.34         9103          0.90           -0.44    4416.37      43.85 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=3;
+  10 -4017.34         9103          0.90           -0.44    4416.37      43.85 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=3;
+  25 -4017.34         9103          0.90           -0.44    4416.37      43.85 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=3;
+  26 -4017.34         9103          0.90           -0.44    4416.37      43.85 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=3;
+  41 -4017.34         9103          0.90           -0.44    4416.37      43.85 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=3;
+  42 -4017.34         9103          0.90           -0.44    4416.37      43.85 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=3;
+   3 -4176.15         8517          0.89           -0.49    4484.40      44.64 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=2;
+   4 -4176.15         8517          0.89           -0.49    4484.40      44.64 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=2;
+  19 -4176.15         8517          0.89           -0.49    4484.40      44.64 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=2;
+  20 -4176.15         8517          0.89           -0.49    4484.40      44.64 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=2;
+  35 -4176.15         8517          0.89           -0.49    4484.40      44.64 Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=2;
+  36 -4176.15         8517          0.89           -0.49    4484.40      44.64 Alligator_Shift_Jaw=1; Alligator_Shift_Teeth=4; Alligator_Shift_Lips=2;
