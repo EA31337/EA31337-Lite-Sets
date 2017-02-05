@@ -11,9 +11,11 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             3  1373.59         3350          1.05            0.41    3726.84      28.98 DeMarker_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
-             2   241.83         3550          1.01            0.07    3460.12      28.94 DeMarker_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
-             4  -398.81         3246          0.99           -0.12    3510.71      31.45 DeMarker_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
-             1 -1093.65         3622          0.96           -0.30    3662.02      33.39 DeMarker_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
-             5 -1383.02         3063          0.95           -0.45    4132.66      38.15 DeMarker_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              2 1749.38          187          1.37            9.35     840.36       7.50 DeMarker_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+              1 1641.21          189          1.33            8.68     927.47       8.25 DeMarker_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+              6 1355.33          191          1.27            7.10     881.79       8.34 DeMarker_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
+              3 1281.24          189          1.27            6.78     815.86       7.47 DeMarker_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+              5 1231.56          200          1.23            6.16     888.20       8.39 DeMarker_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+              7 1161.02          199          1.23            5.83    1091.88      10.42 DeMarker_Shift=6; MaxOrders=0; MaxOrdersPerType=0;
+              4 1144.79          190          1.22            6.03     754.18       7.08 DeMarker_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
