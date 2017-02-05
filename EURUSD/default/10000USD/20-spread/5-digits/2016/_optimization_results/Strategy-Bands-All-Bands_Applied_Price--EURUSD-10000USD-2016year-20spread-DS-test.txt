@@ -12,10 +12,10 @@
                             Spread          20
                                                                  [Optimization Graph]
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           3 1587.46         1549          1.13            1.02    1015.20       8.56 Bands_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
-           7 1488.50         1722          1.12            0.86    1117.63       9.97 Bands_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
-           2 1381.22         1653          1.11            0.84    1407.60      12.19 Bands_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
-           6 1322.04         1772          1.10            0.75    1147.44      10.36 Bands_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
-           4 1284.33         1876          1.10            0.68     910.23       8.44 Bands_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
-           1 1140.32         1371          1.10            0.83     999.34       8.88 Bands_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
-           5 1045.12         1759          1.08            0.59    1188.65      10.82 Bands_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+           5   54.37           16          1.54            3.40     135.50       1.33 Bands_Applied_Price=4; MaxOrders=0; MaxOrdersPerType=0;
+           3    8.23           86          1.02            0.10     223.37       2.19 Bands_Applied_Price=2; MaxOrders=0; MaxOrdersPerType=0;
+           6    3.20            1          0.00            3.20      40.00       0.40 Bands_Applied_Price=5; MaxOrders=0; MaxOrdersPerType=0;
+           1    0.00            0          0.00            0.00       0.00       0.00 Bands_Applied_Price=0; MaxOrders=0; MaxOrdersPerType=0;
+           4    0.00            0          0.00            0.00       0.00       0.00 Bands_Applied_Price=3; MaxOrders=0; MaxOrdersPerType=0;
+           7    0.00            0          0.00            0.00       0.00       0.00 Bands_Applied_Price=6; MaxOrders=0; MaxOrdersPerType=0;
+           2 -256.20           43          0.28           -5.96     268.80       2.69 Bands_Applied_Price=1; MaxOrders=0; MaxOrdersPerType=0;
