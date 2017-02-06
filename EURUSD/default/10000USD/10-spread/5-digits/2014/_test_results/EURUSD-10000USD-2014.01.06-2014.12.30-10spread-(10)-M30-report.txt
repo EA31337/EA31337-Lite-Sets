@@ -1,28 +1,28 @@
 Currency pair symbol:                       EURUSD
 Initial deposit:                            10000.00 USD
-Total net profit:                           9863.06 USD
-Gross profit:                               30586.93 USD
-Gross loss:                                 20723.88 USD
-Absolute drawdown:                          2266.98 USD
-Maximal drawdown:                           2757.3 USD (12.8%)
-Relative drawdown:                          (25.8%) 2686.8 USD
-Profit factor:                              1.48
-Expected payoff:                            5.41
-Trades total                                1823
-Short positions (won %):                    910 (76.2%)
-Long positions (won %):                     913 (73.6%)
-Profit trades (% of total):                 1365 (74.9%)
-Loss trades (% of total):                   458 (25.1%)
-Largest profit trade:                       741.33
-Largest loss trade:                         -310.11
-Average profit trade:                       22.41
-Average loss trade:                         -45.25
+Total net profit:                           10095.14 USD
+Gross profit:                               43278.92 USD
+Gross loss:                                 33183.78 USD
+Absolute drawdown:                          3265.70 USD
+Maximal drawdown:                           4340.1 USD (39.2%)
+Relative drawdown:                          (39.2%) 4340.1 USD
+Profit factor:                              1.30
+Expected payoff:                            3.65
+Trades total                                2764
+Short positions (won %):                    1263 (75.6%)
+Long positions (won %):                     1501 (73.2%)
+Profit trades (% of total):                 2053 (74.3%)
+Loss trades (% of total):                   711 (25.7%)
+Largest profit trade:                       6759.85
+Largest loss trade:                         -475.27
+Average profit trade:                       21.08
+Average loss trade:                         -46.67
 Average consecutive wins:                   6.00
 Average consecutive losses:                 2.00
-Maximum consecutive wins (profit in money): 31 (11251.03)
-Maximum consecutive losses (loss in money): 11 (-1568.86)
-Maximal consecutive profit (count of wins): 11251.03 (31)
-Maximal consecutive loss (count of losses): 1568.86 (11)
+Maximum consecutive wins (profit in money): 36 (361.05)
+Maximum consecutive losses (loss in money): 19 (-313.84)
+Maximal consecutive profit (count of wins): 12908.59 (20)
+Maximal consecutive loss (count of losses): 1577.76 (9)
 Modelling quality:                          89.77%
 Total bars processed:                       12307
 Total ticks processed:                      73487172
@@ -30,15 +30,16 @@ Bars per hour (avg):                        205
 Ticks per bar (avg):                        5971 (bar=30mins)
 Ticks per min (avg):                        199
 Strategy stats:
-Profit factor: 0.48, Total net profit: -575.63pips (+530.48/-1106.11), Total orders: 35 (Won: 22.9% [8] / Loss: 77.1% [27]) - DeMarker M5
-Profit factor: 0.47, Total net profit: -324.92pips (+286.84/-611.76), Total orders: 24 (Won: 37.5% [9] / Loss: 62.5% [15]) - DeMarker M15
-Profit factor: 1.55, Total net profit: 1527.65pips (+4312.79/-2785.14), Total orders: 61 (Won: 41.0% [25] / Loss: 59.0% [36]) - Fractals M5
-Profit factor: 2.06, Total net profit: 2161.50pips (+4201.47/-2039.98), Total orders: 49 (Won: 44.9% [22] / Loss: 55.1% [27]) - Fractals M15
-Profit factor: 1.88, Total net profit: 1517.26pips (+3234.60/-1717.34), Total orders: 32 (Won: 40.6% [13] / Loss: 59.4% [19]) - Fractals M30
-Profit factor: 1.00, Total net profit: 170.72pips (+297.39/-126.67), Total orders: 15 (Won: 53.3% [8] / Loss: 46.7% [7]) - MA M30
-Profit factor: 4.92, Total net profit: 3079.95pips (+3864.86/-784.91), Total orders: 24 (Won: 54.2% [13] / Loss: 45.8% [11]) - RSI M5
-Profit factor: 4.23, Total net profit: 2330.87pips (+3053.42/-722.55), Total orders: 22 (Won: 54.5% [12] / Loss: 45.5% [10]) - RSI M30
-Profit factor: 0.98, Total net profit: -190.50pips (+10590.12/-10780.62), Total orders: 1553 (Won: 80.1% [1244] / Loss: 19.9% [309]) - WPR M30
+Profit factor: 1.12, Total net profit: 725.88pips (+6806.65/-6080.77), Total orders: 418 (Won: 67.7% [283] / Loss: 32.3% [135]) - DeMarker M5
+Profit factor: 0.31, Total net profit: -370.07pips (+169.51/-539.58), Total orders: 22 (Won: 22.7% [5] / Loss: 77.3% [17]) - DeMarker M15
+Profit factor: 0.72, Total net profit: -229.09pips (+590.93/-820.02), Total orders: 22 (Won: 18.2% [4] / Loss: 81.8% [18]) - Envelopes M15
+Profit factor: 17.70, Total net profit: 8764.49pips (+9289.30/-524.81), Total orders: 22 (Won: 77.3% [17] / Loss: 22.7% [5]) - Fractals M5
+Profit factor: 1.55, Total net profit: 1079.27pips (+3053.23/-1973.97), Total orders: 40 (Won: 47.5% [19] / Loss: 52.5% [21]) - Fractals M15
+Profit factor: 1.38, Total net profit: 918.46pips (+3305.38/-2386.92), Total orders: 30 (Won: 46.7% [14] / Loss: 53.3% [16]) - Fractals M30
+Profit factor: 0.14, Total net profit: -976.47pips (+155.30/-1131.77), Total orders: 21 (Won: 23.8% [5] / Loss: 76.2% [16]) - MA M30
+Profit factor: 5.21, Total net profit: 2384.20pips (+2950.31/-566.11), Total orders: 21 (Won: 71.4% [15] / Loss: 28.6% [6]) - RSI M5
+Profit factor: 0.45, Total net profit: -275.82pips (+222.14/-497.96), Total orders: 26 (Won: 26.9% [7] / Loss: 73.1% [19]) - RSI M30
+Profit factor: 0.92, Total net profit: -1557.49pips (+16870.22/-18427.71), Total orders: 2134 (Won: 77.2% [1648] / Loss: 22.8% [486]) - WPR M30
 Report log:
 2014.01.06 00:00:00: EA31337 Lite (Backtest) v1.073 by kenorb (https://github.com/EA31337)
 ACCOUNT: Type: Off-line, Server/Company/Name: //, Currency: USD, Balance: 10000, Credit: 0, Equity: 10000, Orders limit: 0: Leverage: 1:100, StopOut Level: 0 (Mode: 0)
