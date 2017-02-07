@@ -1,0 +1,18 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.073
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2016.01.06 03:00 - 2016.12.30 21:30 (2016.01.01 - 2016.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+             Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                4  176.90           35          1.42            5.05     150.50       1.50 MA_Method=3; MaxOrders=0; MaxOrdersPerType=0;
+                3  -44.41           14          0.88           -3.17     294.70       2.88 MA_Method=2; MaxOrders=0; MaxOrdersPerType=0;
+                2  -68.84           11          0.69           -6.26     213.17       2.13 MA_Method=1; MaxOrders=0; MaxOrdersPerType=0;
+                1 -305.23           65          0.64           -4.70     541.33       5.29 MA_Method=0; MaxOrders=0; MaxOrdersPerType=0;

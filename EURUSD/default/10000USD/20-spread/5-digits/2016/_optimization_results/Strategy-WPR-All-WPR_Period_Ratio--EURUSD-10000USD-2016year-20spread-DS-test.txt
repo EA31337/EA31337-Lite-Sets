@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.073
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2016.01.06 03:00 - 2016.12.30 21:30 (2016.01.01 - 2016.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           3 14351.43        19317          1.21            0.74    1151.85       6.28 WPR_Period_Ratio=0.3; MaxOrders=0; MaxOrdersPerType=0;
+           7 13738.76        17048          1.21            0.81    1174.64       5.84 WPR_Period_Ratio=0.7; MaxOrders=0; MaxOrdersPerType=0;
+          11 13385.90        15576          1.20            0.86    1477.80       6.92 WPR_Period_Ratio=1.1; MaxOrders=0; MaxOrdersPerType=0;
+          10 13303.09        15791          1.20            0.84    1484.59       6.69   WPR_Period_Ratio=1; MaxOrders=0; MaxOrdersPerType=0;
+           6 13215.58        17618          1.20            0.75    1320.27       6.69 WPR_Period_Ratio=0.6; MaxOrders=0; MaxOrdersPerType=0;
+           8 13069.15        16616          1.20            0.79    1248.79       6.83 WPR_Period_Ratio=0.8; MaxOrders=0; MaxOrdersPerType=0;
+           9 12649.58        16141          1.19            0.78    1379.54       6.76 WPR_Period_Ratio=0.9; MaxOrders=0; MaxOrdersPerType=0;
+           5 12131.55        17793          1.18            0.68    1284.87       6.39 WPR_Period_Ratio=0.5; MaxOrders=0; MaxOrdersPerType=0;
+           2 12090.63        20066          1.18            0.60    1362.81       7.69 WPR_Period_Ratio=0.2; MaxOrders=0; MaxOrdersPerType=0;
+           4 11575.84        18723          1.17            0.62    1034.16       5.82 WPR_Period_Ratio=0.4; MaxOrders=0; MaxOrdersPerType=0;
+           1  8063.03        16716          1.15            0.48    1590.11       8.88 WPR_Period_Ratio=0.1; MaxOrders=0; MaxOrdersPerType=0;

@@ -1,0 +1,23 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.073
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2016.12.30 21:30 (2014.01.01 - 2016.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+             Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                1    33.94         2121          1.00            0.02    3087.40      24.34 SAR_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+                4  -929.23         2079          0.94           -0.45    2543.43      22.62 SAR_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+                9 -1124.92         2086          0.92           -0.54    2723.16      23.61 SAR_Shift=9; MaxOrders=0; MaxOrdersPerType=0;
+                7 -1153.54         2167          0.92           -0.53    2769.23      24.40 SAR_Shift=7; MaxOrders=0; MaxOrdersPerType=0;
+                2 -1327.92         2071          0.91           -0.64    3601.37      30.36 SAR_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+                8 -1496.54         2188          0.90           -0.68    2840.97      25.78 SAR_Shift=8; MaxOrders=0; MaxOrdersPerType=0;
+                5 -1568.86         2175          0.89           -0.72    3211.55      28.56 SAR_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
+                3 -1655.79         2185          0.89           -0.76    3229.49      28.62 SAR_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+                6 -1758.37         2177          0.88           -0.81    3215.30      28.67 SAR_Shift=6; MaxOrders=0; MaxOrdersPerType=0;

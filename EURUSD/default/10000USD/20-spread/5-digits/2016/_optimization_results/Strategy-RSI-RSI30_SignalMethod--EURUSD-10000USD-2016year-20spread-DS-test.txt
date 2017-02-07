@@ -1,0 +1,141 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.073
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2016.01.06 03:00 - 2016.12.30 21:30 (2016.01.01 - 2016.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          64 3704.69          140          1.95           26.46     933.04       8.41   RSI30_SignalMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+          65 3071.19          130          1.84           23.62    1102.95       9.51   RSI30_SignalMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+          67 3071.19          130          1.84           23.62    1102.95       9.51   RSI30_SignalMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+          69 3071.19          130          1.84           23.62    1102.95       9.51   RSI30_SignalMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+          71 3071.19          130          1.84           23.62    1102.95       9.51   RSI30_SignalMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+          73 3071.19          130          1.84           23.62    1102.95       9.51   RSI30_SignalMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+          75 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+          77 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+          79 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+          81 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+          83 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+          85 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+          87 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+          89 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+          91 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+          93 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=29; MaxOrders=0; MaxOrdersPerType=0;
+          95 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=31; MaxOrders=0; MaxOrdersPerType=0;
+          97 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=33; MaxOrders=0; MaxOrdersPerType=0;
+          99 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=35; MaxOrders=0; MaxOrdersPerType=0;
+         101 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=37; MaxOrders=0; MaxOrdersPerType=0;
+         103 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=39; MaxOrders=0; MaxOrdersPerType=0;
+         105 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=41; MaxOrders=0; MaxOrdersPerType=0;
+         107 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=43; MaxOrders=0; MaxOrdersPerType=0;
+         109 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=45; MaxOrders=0; MaxOrdersPerType=0;
+         111 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=47; MaxOrders=0; MaxOrdersPerType=0;
+         113 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=49; MaxOrders=0; MaxOrdersPerType=0;
+         115 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=51; MaxOrders=0; MaxOrdersPerType=0;
+         117 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=53; MaxOrders=0; MaxOrdersPerType=0;
+         119 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=55; MaxOrders=0; MaxOrdersPerType=0;
+         121 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=57; MaxOrders=0; MaxOrdersPerType=0;
+         123 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=59; MaxOrders=0; MaxOrdersPerType=0;
+         125 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=61; MaxOrders=0; MaxOrdersPerType=0;
+         127 3071.19          130          1.84           23.62    1102.95       9.51  RSI30_SignalMethod=63; MaxOrders=0; MaxOrdersPerType=0;
+          66 2787.87          121          1.83           23.04     931.24       8.57   RSI30_SignalMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+          70 2787.87          121          1.83           23.04     931.24       8.57   RSI30_SignalMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+          74 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+          78 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+          82 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+          86 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+          90 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+          94 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=30; MaxOrders=0; MaxOrdersPerType=0;
+          98 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=34; MaxOrders=0; MaxOrdersPerType=0;
+         102 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=38; MaxOrders=0; MaxOrdersPerType=0;
+         106 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=42; MaxOrders=0; MaxOrdersPerType=0;
+         110 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=46; MaxOrders=0; MaxOrdersPerType=0;
+         114 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=50; MaxOrders=0; MaxOrdersPerType=0;
+         118 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=54; MaxOrders=0; MaxOrdersPerType=0;
+         122 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=58; MaxOrders=0; MaxOrdersPerType=0;
+         126 2787.87          121          1.83           23.04     931.24       8.57  RSI30_SignalMethod=62; MaxOrders=0; MaxOrdersPerType=0;
+          68 2282.64          107          1.76           21.33     818.48       7.62   RSI30_SignalMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+          76 2282.64          107          1.76           21.33     818.48       7.62  RSI30_SignalMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+          84 2282.64          107          1.76           21.33     818.48       7.62  RSI30_SignalMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+          92 2282.64          107          1.76           21.33     818.48       7.62  RSI30_SignalMethod=28; MaxOrders=0; MaxOrdersPerType=0;
+         100 2282.64          107          1.76           21.33     818.48       7.62  RSI30_SignalMethod=36; MaxOrders=0; MaxOrdersPerType=0;
+         108 2282.64          107          1.76           21.33     818.48       7.62  RSI30_SignalMethod=44; MaxOrders=0; MaxOrdersPerType=0;
+         116 2282.64          107          1.76           21.33     818.48       7.62  RSI30_SignalMethod=52; MaxOrders=0; MaxOrdersPerType=0;
+         124 2282.64          107          1.76           21.33     818.48       7.62  RSI30_SignalMethod=60; MaxOrders=0; MaxOrdersPerType=0;
+           1 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-63; MaxOrders=0; MaxOrdersPerType=0;
+           3 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-61; MaxOrders=0; MaxOrdersPerType=0;
+           5 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-59; MaxOrders=0; MaxOrdersPerType=0;
+           7 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-57; MaxOrders=0; MaxOrdersPerType=0;
+           9 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-55; MaxOrders=0; MaxOrdersPerType=0;
+          11 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-53; MaxOrders=0; MaxOrdersPerType=0;
+          13 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-51; MaxOrders=0; MaxOrdersPerType=0;
+          15 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-49; MaxOrders=0; MaxOrdersPerType=0;
+          17 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-47; MaxOrders=0; MaxOrdersPerType=0;
+          19 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-45; MaxOrders=0; MaxOrdersPerType=0;
+          21 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-43; MaxOrders=0; MaxOrdersPerType=0;
+          23 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-41; MaxOrders=0; MaxOrdersPerType=0;
+          25 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-39; MaxOrders=0; MaxOrdersPerType=0;
+          27 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-37; MaxOrders=0; MaxOrdersPerType=0;
+          29 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-35; MaxOrders=0; MaxOrdersPerType=0;
+          31 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-33; MaxOrders=0; MaxOrdersPerType=0;
+          33 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-31; MaxOrders=0; MaxOrdersPerType=0;
+          35 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-29; MaxOrders=0; MaxOrdersPerType=0;
+          37 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
+          39 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+          41 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
+          43 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+          45 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+          47 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
+          49 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+          51 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+          53 1800.36          450          1.25            4.00     945.97       9.20 RSI30_SignalMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+          55 1800.36          450          1.25            4.00     945.97       9.20  RSI30_SignalMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
+          57 1800.36          450          1.25            4.00     945.97       9.20  RSI30_SignalMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
+          59 1800.36          450          1.25            4.00     945.97       9.20  RSI30_SignalMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
+          61 1800.36          450          1.25            4.00     945.97       9.20  RSI30_SignalMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
+          63 1800.36          450          1.25            4.00     945.97       9.20  RSI30_SignalMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+           4 1615.86          350          1.24            4.62    1082.80      10.78 RSI30_SignalMethod=-60; MaxOrders=0; MaxOrdersPerType=0;
+          12 1615.86          350          1.24            4.62    1082.80      10.78 RSI30_SignalMethod=-52; MaxOrders=0; MaxOrdersPerType=0;
+          20 1615.86          350          1.24            4.62    1082.80      10.78 RSI30_SignalMethod=-44; MaxOrders=0; MaxOrdersPerType=0;
+          28 1615.86          350          1.24            4.62    1082.80      10.78 RSI30_SignalMethod=-36; MaxOrders=0; MaxOrdersPerType=0;
+          36 1615.86          350          1.24            4.62    1082.80      10.78 RSI30_SignalMethod=-28; MaxOrders=0; MaxOrdersPerType=0;
+          44 1615.86          350          1.24            4.62    1082.80      10.78 RSI30_SignalMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
+          52 1615.86          350          1.24            4.62    1082.80      10.78 RSI30_SignalMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
+          60 1615.86          350          1.24            4.62    1082.80      10.78  RSI30_SignalMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
+          72 1581.78           93          1.56           17.01     799.21       7.56   RSI30_SignalMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+          88 1581.78           93          1.56           17.01     799.21       7.56  RSI30_SignalMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+         104 1581.78           93          1.56           17.01     799.21       7.56  RSI30_SignalMethod=40; MaxOrders=0; MaxOrdersPerType=0;
+         120 1581.78           93          1.56           17.01     799.21       7.56  RSI30_SignalMethod=56; MaxOrders=0; MaxOrdersPerType=0;
+          80 1452.54           90          1.51           16.14    1092.13      10.06  RSI30_SignalMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+         112 1452.54           90          1.51           16.14    1092.13      10.06  RSI30_SignalMethod=48; MaxOrders=0; MaxOrdersPerType=0;
+           8 1288.28          281          1.21            4.58    1012.22       9.94 RSI30_SignalMethod=-56; MaxOrders=0; MaxOrdersPerType=0;
+          24 1288.28          281          1.21            4.58    1012.22       9.94 RSI30_SignalMethod=-40; MaxOrders=0; MaxOrdersPerType=0;
+          40 1288.28          281          1.21            4.58    1012.22       9.94 RSI30_SignalMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
+          56 1288.28          281          1.21            4.58    1012.22       9.94  RSI30_SignalMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
+           2  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-62; MaxOrders=0; MaxOrdersPerType=0;
+           6  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-58; MaxOrders=0; MaxOrdersPerType=0;
+          10  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-54; MaxOrders=0; MaxOrdersPerType=0;
+          14  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-50; MaxOrders=0; MaxOrdersPerType=0;
+          18  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-46; MaxOrders=0; MaxOrdersPerType=0;
+          22  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-42; MaxOrders=0; MaxOrdersPerType=0;
+          26  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-38; MaxOrders=0; MaxOrdersPerType=0;
+          30  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-34; MaxOrders=0; MaxOrdersPerType=0;
+          34  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-30; MaxOrders=0; MaxOrdersPerType=0;
+          38  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-26; MaxOrders=0; MaxOrdersPerType=0;
+          42  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
+          46  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
+          50  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
+          54  795.24          410          1.11            1.94    1196.47      11.51 RSI30_SignalMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
+          58  795.24          410          1.11            1.94    1196.47      11.51  RSI30_SignalMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+          62  795.24          410          1.11            1.94    1196.47      11.51  RSI30_SignalMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+          16  200.25          239          1.03            0.84    1672.70      16.35 RSI30_SignalMethod=-48; MaxOrders=0; MaxOrdersPerType=0;
+          48  200.25          239          1.03            0.84    1672.70      16.35 RSI30_SignalMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
+          32    0.00            0          0.00            0.00       0.00       0.00 RSI30_SignalMethod=-32; MaxOrders=0; MaxOrdersPerType=0;
+          96    0.00            0          0.00            0.00       0.00       0.00  RSI30_SignalMethod=32; MaxOrders=0; MaxOrdersPerType=0;

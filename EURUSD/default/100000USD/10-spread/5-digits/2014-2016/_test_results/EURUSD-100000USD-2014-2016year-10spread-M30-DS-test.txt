@@ -1,0 +1,67 @@
+
+
+
+                                                                Strategy Tester Report
+                                                             EA31337-Lite-Backtest-v1.073
+                                                                     (Build 1010)
+
+  Symbol                             EURUSD (Euro vs US Dollar)
+  Period                             30 Minutes (M30) 2014.01.06 00:00 - 2016.12.30 21:30 (2014.01.01 - 2016.12.31)
+  Model                              Every tick (the most precise method based on all available least timeframes)
+                                     __EA_Parameters__="-- Input EA parameters for EA31337 Lite (Backtest) v1.073 --"; __Trade_Parameters__="-
+                                     - Trade parameters --"; MaxOrders=0; MaxOrdersPerType=0; LotSize=0; TradeMicroLots=true; TrendMethod=192;
+                                     MinVolumeToTrade=2; MaxOrderPriceSlippage=5; MaxTries=5; MinPipChangeToTrade=0.5; MinPipGap=80;
+                                     TickIgnoreMethod=0; __EA_Order_Parameters__="-- Profit and loss parameters --"; TakeProfitMax=200;
+                                     StopLossMax=40; __EA_Trailing_Parameters__="-- Profit and loss trailing parameters --"; TrailingStop=60;
+                                     TrailingProfit=50; TrailingStopAddPerMinute=0.3; __EA_Risk_Parameters__="-- Risk management parameters --";
+                                     RiskMarginPerOrder=1; RiskMarginTotal=15; CloseOrderAfterXHours=0; RiskRatio=0; RiskRatioIncreaseMethod=0;
+                                     RiskRatioDecreaseMethod=0; __Strategy_Parameters__="-- Per strategy parameters (0 to disable) --";
+                                     ProfitFactorMinToTrade=0.5; ProfitFactorMaxToTrade=4.4; __Strategy_Boosting_Parameters__="-- Strategy boosting
+                                     parameters (set 1.0 for default) --"; Boosting_Enabled=true; BoostTrendFactor=1.5;
+                                     BestDailyStrategyMultiplierFactor=2.1; BestWeeklyStrategyMultiplierFactor=1.7;
+                                     BestMonthlyStrategyMultiplierFactor=3.1; WorseDailyStrategyMultiplierFactor=0.8;
+                                     WorseWeeklyStrategyMultiplierFactor=0.7; WorseMonthlyStrategyMultiplierFactor=1; ConWinsIncreaseFactor=-1.2;
+                                     ConLossesIncreaseFactor=1.3; ConFactorOrdersLimit=200; __EA_Account_Conditions__="-- Account conditions --";
+                                     Account_Conditions_Active=false; Account_Condition_MinProfitCloseOrder=20; __EA_Account_Conditions_Params__="-
+                                     - Account conditions parameters --"; MarketSuddenDropSize=20; MarketBigDropSize=40; MarketSpecificHour=10;
+                                     CloseConditionOnlyProfitable=true; __Alligator_Parameters__="-- Settings for the Alligator indicator --";
+                                     Alligator1_Active=false; Alligator5_Active=false; Alligator15_Active=false; Alligator30_Active=false;
+                                     Alligator_Period_Jaw=6; Alligator_Period_Teeth=4; Alligator_Period_Lips=4; Alligator_Period_Ratio=2;
+                                     Alligator_Shift_Jaw=0; Alligator_Shift_Teeth=2; Alligator_Shift_Lips=2; Alligator_Shift=-2;
+  Parameters                         Alligator_Shift_Far=6; Alligator_SignalLevel=-0.11; Alligator1_SignalMethod=24; Alligator5_SignalMethod=0;
+                                     Alligator15_SignalMethod=-63; Alligator30_SignalMethod=0; __Bands_Parameters__="-- Settings for the Bollinger
+                                     Bands indicator --"; Bands1_Active=false; Bands5_Active=false; Bands15_Active=false; Bands30_Active=false;
+                                     Bands_Period=14; Bands_Period_Ratio=0.5; Bands_Deviation=4.6; Bands_Deviation_Ratio=1; Bands_Shift=0;
+                                     Bands_Shift_Far=1; Bands1_SignalMethod=0; Bands5_SignalMethod=152; Bands15_SignalMethod=230;
+                                     Bands30_SignalMethod=-20; __DeMarker_Parameters__="-- Settings for the DeMarker indicator --";
+                                     DeMarker1_Active=false; DeMarker5_Active=true; DeMarker15_Active=true; DeMarker30_Active=false;
+                                     DeMarker_Period=10; DeMarker_Period_Ratio=2.6; DeMarker_Shift=2; DeMarker_SignalLevel=0;
+                                     DeMarker1_SignalMethod=4; DeMarker5_SignalMethod=-16; DeMarker15_SignalMethod=2; DeMarker30_SignalMethod=1;
+                                     __Envelopes_Parameters__="-- Settings for the Envelopes indicator --"; Envelopes1_Active=false;
+                                     Envelopes5_Active=false; Envelopes15_Active=true; Envelopes30_Active=false; Envelopes_MA_Period=26;
+                                     Envelopes_MA_Period_Ratio=1.1; Envelopes_MA_Shift=6; Envelopes_Deviation=0.9; Envelopes_Deviation_Ratio=0.8;
+                                     Envelopes_Shift=0; Envelopes1_SignalMethod=113; Envelopes5_SignalMethod=-95; Envelopes15_SignalMethod=81;
+                                     Envelopes30_SignalMethod=-62; __Fractals_Parameters__="-- Settings for the Fractals indicator --";
+                                     Fractals1_Active=false; Fractals5_Active=true; Fractals15_Active=true; Fractals30_Active=true;
+                                     Fractals1_SignalMethod=1; Fractals5_SignalMethod=1; Fractals15_SignalMethod=1; Fractals30_SignalMethod=1;
+                                     __MA_Parameters__="-- Settings for the Moving Average indicator --"; MA1_Active=false; MA5_Active=false;
+                                     MA15_Active=false; MA30_Active=true; MA_Period_Fast=15; MA_Period_Medium=21; MA_Period_Slow=52;
+                                     MA_Period_Ratio=1; MA_Shift=4; MA_Shift_Fast=0; MA_Shift_Medium=3; MA_Shift_Slow=0; MA_Shift_Far=6;
+                                     MA_SignalLevel=1.6; MA1_SignalMethod=56; MA5_SignalMethod=-96; MA15_SignalMethod=-64; MA30_SignalMethod=80;
+                                     MACD1_Active=false;
+  Bars in test                 36856 Ticks modelled                        358224900 Modelling quality                                       89.76%
+  Mismatched charts errors         1
+  Initial deposit          100000.00                                                 Spread                                                      10
+  Total net profit         206506.15 Gross profit                         2665200.25 Gross loss                                         -2458694.10
+  Profit factor                 1.08 Expected payoff                           20.91
+  Absolute drawdown         25330.04 Maximal drawdown             183043.04 (50.53%) Relative drawdown                           50.53% (183043.04)
+  Total trades                  9878 Short positions (won %)           5200 (68.60%) Long positions (won %)                           4678 (72.10%)
+                                     Profit trades (% of total)        6940 (70.26%) Loss trades (% of total)                         2938 (29.74%)
+                             Largest profit trade                           37982.89 loss trade                                           -14879.17
+                             Average profit trade                             384.03 loss trade                                             -836.86
+                             Maximum consecutive wins (profit in        27 (4329.68) consecutive losses (loss in                      18 (-1982.39)
+                                     money)                                          money)
+                             Maximal consecutive profit (count of      59028.05 (23) consecutive loss (count of                      -27935.50 (15)
+                                     wins)                                           losses)
+                             Average consecutive wins                              4 consecutive losses                                           2
+                                                                       [Graph]
