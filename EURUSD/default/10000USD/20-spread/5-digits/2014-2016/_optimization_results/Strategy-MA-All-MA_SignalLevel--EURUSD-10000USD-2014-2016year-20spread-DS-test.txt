@@ -7,13 +7,13 @@
 
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2014.01.06 00:00 - 2016.12.30 21:30 (2014.01.01 - 2016.12.31)
-                            Model           Control points (a very crude method, the results must not be considered)
+                            Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            5 -1735.55          955          0.70           -1.82    2001.17      19.89 MA_SignalLevel=1.8; MaxOrders=0; MaxOrdersPerType=0;
-            4 -1747.75          958          0.70           -1.82    2013.37      20.02 MA_SignalLevel=1.7; MaxOrders=0; MaxOrdersPerType=0;
-            2 -1767.22          954          0.70           -1.85    2032.84      20.21 MA_SignalLevel=1.5; MaxOrders=0; MaxOrdersPerType=0;
-            1 -1770.52          956          0.69           -1.85    2036.14      20.24 MA_SignalLevel=1.4; MaxOrders=0; MaxOrdersPerType=0;
-            3 -1807.11          953          0.69           -1.90    2072.74      20.61 MA_SignalLevel=1.6; MaxOrders=0; MaxOrdersPerType=0;
+            5 -2026.28          783          0.67           -2.59    2194.02      21.81   MA_SignalLevel=2; MaxOrders=0; MaxOrdersPerType=0;
+            4 -2058.18          786          0.67           -2.62    2225.92      22.13 MA_SignalLevel=1.9; MaxOrders=0; MaxOrdersPerType=0;
+            3 -2083.59          788          0.67           -2.64    2251.32      22.38 MA_SignalLevel=1.8; MaxOrders=0; MaxOrdersPerType=0;
+            1 -2102.85          789          0.67           -2.67    2270.59      22.57 MA_SignalLevel=1.6; MaxOrders=0; MaxOrdersPerType=0;
+            2 -2102.09          790          0.66           -2.66    2269.82      22.56 MA_SignalLevel=1.7; MaxOrders=0; MaxOrdersPerType=0;
