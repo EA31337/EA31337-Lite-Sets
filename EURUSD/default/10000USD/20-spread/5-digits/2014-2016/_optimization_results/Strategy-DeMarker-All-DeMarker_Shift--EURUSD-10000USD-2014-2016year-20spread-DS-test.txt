@@ -7,14 +7,15 @@
 
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2014.01.06 00:00 - 2016.12.30 21:30 (2014.01.01 - 2016.12.31)
-                            Model           Control points (a very crude method, the results must not be considered)
+                            Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
            Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              3 4629.72          371          1.31           12.48    2720.16      19.29 DeMarker_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
-              6 4600.79          379          1.31           12.14    2509.36      17.65 DeMarker_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
-              5 4409.69          383          1.29           11.51    2473.16      17.43 DeMarker_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
-              1 4166.46          398          1.27           10.47    2759.63      19.36 DeMarker_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
-              2 4093.84          389          1.27           10.52    2843.06      19.87 DeMarker_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
-              4 3954.64          378          1.25           10.46    2707.07      19.56 DeMarker_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+              3  599.36         2368          1.04            0.25    1678.20      14.67 DeMarker_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+              5  223.69         2295          1.02            0.10    1914.87      17.13 DeMarker_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+              6  209.43         2332          1.01            0.09    2201.50      19.22 DeMarker_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
+              2  -61.67         2496          1.00           -0.02    2064.16      18.68 DeMarker_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+              7 -207.63         2379          0.99           -0.09    2535.40      22.26 DeMarker_Shift=6; MaxOrders=0; MaxOrdersPerType=0;
+              4 -417.11         2366          0.97           -0.18    2171.18      20.05 DeMarker_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+              1 -559.45         2798          0.97           -0.20    2630.39      23.45 DeMarker_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
