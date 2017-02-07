@@ -7,19 +7,19 @@
 
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2014.01.06 00:00 - 2016.12.30 21:30 (2014.01.01 - 2016.12.31)
-                            Model           Control points (a very crude method, the results must not be considered)
+                            Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1 4460.25         9674          1.14            0.46    1667.13      11.22 RSI_SignalLevel=-9; MaxOrders=0; MaxOrdersPerType=0;
-             3 4411.03         9322          1.14            0.47    1435.52       9.76 RSI_SignalLevel=-7; MaxOrders=0; MaxOrdersPerType=0;
-             2 4284.60         9488          1.13            0.45    1530.83      10.44 RSI_SignalLevel=-8; MaxOrders=0; MaxOrdersPerType=0;
-             4 4188.63         9258          1.13            0.45    1490.01      10.24 RSI_SignalLevel=-6; MaxOrders=0; MaxOrdersPerType=0;
-             5 4173.93         9081          1.13            0.46    1600.01      10.92 RSI_SignalLevel=-5; MaxOrders=0; MaxOrdersPerType=0;
-             6 3636.51         8852          1.12            0.41    1599.35      11.34 RSI_SignalLevel=-4; MaxOrders=0; MaxOrdersPerType=0;
-             7 3524.79         8696          1.12            0.41    1419.04      10.28 RSI_SignalLevel=-3; MaxOrders=0; MaxOrdersPerType=0;
-             8 3428.88         8435          1.12            0.41    1533.08      11.10 RSI_SignalLevel=-2; MaxOrders=0; MaxOrdersPerType=0;
-             9 3369.09         8189          1.12            0.41    1498.38      10.93 RSI_SignalLevel=-1; MaxOrders=0; MaxOrdersPerType=0;
-            10 3362.45         7917          1.12            0.42    1388.28      10.35  RSI_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
-            11 3230.46         7693          1.12            0.42    1311.68       9.96  RSI_SignalLevel=1; MaxOrders=0; MaxOrdersPerType=0;
+         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           10   270.05          191          1.19            1.41     398.13       3.77 RSI_SignalLevel=34; MaxOrders=0; MaxOrdersPerType=0;
+           11   216.39          137          1.19            1.58     341.46       3.27 RSI_SignalLevel=35; MaxOrders=0; MaxOrdersPerType=0;
+            8   203.20          301          1.10            0.68     498.77       4.71 RSI_SignalLevel=32; MaxOrders=0; MaxOrdersPerType=0;
+            9   169.48          247          1.09            0.69     397.48       3.80 RSI_SignalLevel=33; MaxOrders=0; MaxOrdersPerType=0;
+            7   136.47          400          1.05            0.34     578.88       5.50 RSI_SignalLevel=31; MaxOrders=0; MaxOrdersPerType=0;
+            6    54.39          500          1.02            0.11     679.49       6.45 RSI_SignalLevel=30; MaxOrders=0; MaxOrdersPerType=0;
+            5  -294.99          642          0.92           -0.46     910.06       8.70 RSI_SignalLevel=29; MaxOrders=0; MaxOrdersPerType=0;
+            1  -540.06         1281          0.92           -0.42    1495.08      13.90 RSI_SignalLevel=25; MaxOrders=0; MaxOrdersPerType=0;
+            4  -907.14          780          0.80           -1.16    1208.42      11.86 RSI_SignalLevel=28; MaxOrders=0; MaxOrdersPerType=0;
+            3 -1272.46          923          0.77           -1.38    1493.07      14.71 RSI_SignalLevel=27; MaxOrders=0; MaxOrdersPerType=0;
+            2 -1501.90         1064          0.75           -1.41    1861.90      18.23 RSI_SignalLevel=26; MaxOrders=0; MaxOrdersPerType=0;
