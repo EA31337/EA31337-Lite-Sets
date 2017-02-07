@@ -7,23 +7,23 @@
 
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2014.01.06 00:00 - 2016.12.30 21:30 (2014.01.01 - 2016.12.31)
-                            Model           Control points (a very crude method, the results must not be considered)
+                            Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            4 2233.70          163          1.49           13.70    1029.39       9.27 Envelopes_MA_Shift=6; Envelopes_Shift=0; MaxOrders=0;
-            8 2233.70          163          1.49           13.70    1029.39       9.27 Envelopes_MA_Shift=5; Envelopes_Shift=1; MaxOrders=0;
-           12 2233.70          163          1.49           13.70    1029.39       9.27 Envelopes_MA_Shift=4; Envelopes_Shift=2; MaxOrders=0;
-           15 1920.21          167          1.41           11.50    1152.30      10.46 Envelopes_MA_Shift=7; Envelopes_Shift=2; MaxOrders=0;
-            2 1915.04          157          1.43           12.20    1164.31      10.56 Envelopes_MA_Shift=4; Envelopes_Shift=0; MaxOrders=0;
-            6 1915.04          157          1.43           12.20    1164.31      10.56 Envelopes_MA_Shift=3; Envelopes_Shift=1; MaxOrders=0;
-            5 1801.52          161          1.39           11.19    1068.59       9.53 Envelopes_MA_Shift=7; Envelopes_Shift=0; MaxOrders=0;
-            9 1801.52          161          1.39           11.19    1068.59       9.53 Envelopes_MA_Shift=6; Envelopes_Shift=1; MaxOrders=0;
-           13 1801.52          161          1.39           11.19    1068.59       9.53 Envelopes_MA_Shift=5; Envelopes_Shift=2; MaxOrders=0;
-           10 1688.16          162          1.36           10.42    1105.50      10.11 Envelopes_MA_Shift=7; Envelopes_Shift=1; MaxOrders=0;
-           14 1688.16          162          1.36           10.42    1105.50      10.11 Envelopes_MA_Shift=6; Envelopes_Shift=2; MaxOrders=0;
-            3 1615.81          163          1.35            9.91    1215.43      10.93 Envelopes_MA_Shift=5; Envelopes_Shift=0; MaxOrders=0;
-            7 1615.81          163          1.35            9.91    1215.43      10.93 Envelopes_MA_Shift=4; Envelopes_Shift=1; MaxOrders=0;
-           11 1615.81          163          1.35            9.91    1215.43      10.93 Envelopes_MA_Shift=3; Envelopes_Shift=2; MaxOrders=0;
-            1 1514.16          152          1.35            9.96    1060.36       9.62 Envelopes_MA_Shift=3; Envelopes_Shift=0; MaxOrders=0;
+            5  556.45          230          1.23            2.42     491.03       4.72 Envelopes_MA_Shift=8; Envelopes_Shift=0; MaxOrders=0;
+            9  556.45          230          1.23            2.42     491.03       4.72 Envelopes_MA_Shift=7; Envelopes_Shift=1; MaxOrders=0;
+           13  556.45          230          1.23            2.42     491.03       4.72 Envelopes_MA_Shift=6; Envelopes_Shift=2; MaxOrders=0;
+            4  503.70          237          1.20            2.13     530.57       5.04 Envelopes_MA_Shift=7; Envelopes_Shift=0; MaxOrders=0;
+            8  503.70          237          1.20            2.13     530.57       5.04 Envelopes_MA_Shift=6; Envelopes_Shift=1; MaxOrders=0;
+           12  503.70          237          1.20            2.13     530.57       5.04 Envelopes_MA_Shift=5; Envelopes_Shift=2; MaxOrders=0;
+           15  468.68          274          1.18            1.71     550.23       5.33 Envelopes_MA_Shift=8; Envelopes_Shift=2; MaxOrders=0;
+           10  459.41          254          1.18            1.81     463.38       4.47 Envelopes_MA_Shift=8; Envelopes_Shift=1; MaxOrders=0;
+           14  459.41          254          1.18            1.81     463.38       4.47 Envelopes_MA_Shift=7; Envelopes_Shift=2; MaxOrders=0;
+            3  235.01          230          1.10            1.02     707.39       6.77 Envelopes_MA_Shift=6; Envelopes_Shift=0; MaxOrders=0;
+            7  235.01          230          1.10            1.02     707.39       6.77 Envelopes_MA_Shift=5; Envelopes_Shift=1; MaxOrders=0;
+           11  235.01          230          1.10            1.02     707.39       6.77 Envelopes_MA_Shift=4; Envelopes_Shift=2; MaxOrders=0;
+            1 -154.45          239          0.93           -0.65     713.55       7.00 Envelopes_MA_Shift=4; Envelopes_Shift=0; MaxOrders=0;
+            2 -280.85          244          0.89           -1.15     865.59       8.39 Envelopes_MA_Shift=5; Envelopes_Shift=0; MaxOrders=0;
+            6 -280.85          244          0.89           -1.15     865.59       8.39 Envelopes_MA_Shift=4; Envelopes_Shift=1; MaxOrders=0;
