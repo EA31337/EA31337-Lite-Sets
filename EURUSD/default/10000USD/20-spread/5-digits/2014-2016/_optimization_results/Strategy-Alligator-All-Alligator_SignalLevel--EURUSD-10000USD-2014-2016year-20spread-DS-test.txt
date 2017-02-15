@@ -11,9 +11,9 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         3  -806.52          767          0.80           -1.05    1638.89      16.12 Alligator_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
-         2  -875.65          796          0.78           -1.10    1708.79      16.80 Alligator_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
-         4  -978.06          737          0.75           -1.33    1612.32      15.86 Alligator_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
-         1  -994.39          815          0.76           -1.22    1747.92      17.19   Alligator_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
-         5 -1162.84          723          0.69           -1.61    1588.59      15.62 Alligator_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
+       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          4 362.66           59          1.30            6.15     549.60       5.18 Alligator_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
+          2 240.96           62          1.18            3.89     589.60       5.60 Alligator_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
+          3 240.96           62          1.18            3.89     589.60       5.60 Alligator_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
+          1 200.36           63          1.15            3.18     589.60       5.62   Alligator_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+          5   0.16           54          1.00            0.00     723.07       6.97 Alligator_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
