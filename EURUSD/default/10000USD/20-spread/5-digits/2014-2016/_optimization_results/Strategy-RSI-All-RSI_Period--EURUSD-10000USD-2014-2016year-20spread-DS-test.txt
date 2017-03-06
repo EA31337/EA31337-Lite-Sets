@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Backtest-v1.073
+                                                             EA31337-Lite-Backtest-v1.074
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -11,9 +11,9 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-            Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-               5  153.10          243          1.08            0.63     375.69       3.61 RSI_Period=19; MaxOrders=0; MaxOrdersPerType=0;
-               4  100.13          336          1.04            0.30     574.26       5.44 RSI_Period=17; MaxOrders=0; MaxOrdersPerType=0;
-               3   54.39          500          1.02            0.11     679.49       6.45 RSI_Period=15; MaxOrders=0; MaxOrdersPerType=0;
-               2 -630.52          743          0.85           -0.85    1031.34      10.02 RSI_Period=13; MaxOrders=0; MaxOrdersPerType=0;
-               1 -641.71         1053          0.90           -0.61    1500.09      14.01 RSI_Period=11; MaxOrders=0; MaxOrdersPerType=0;
+             Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                3 142.13           33          2.37            4.31      93.90       0.93 RSI_Period=19; MaxOrders=0; MaxOrdersPerType=0;
+                2  17.83           68          1.08            0.26     196.90       1.95 RSI_Period=17; MaxOrders=0; MaxOrdersPerType=0;
+                5 -10.30            3          0.00           -3.43      12.60       0.13 RSI_Period=23; MaxOrders=0; MaxOrdersPerType=0;
+                1 -61.67           80          0.80           -0.77     261.30       2.59 RSI_Period=15; MaxOrders=0; MaxOrdersPerType=0;
+                4 -80.90           14          0.28           -5.78      98.00       0.98 RSI_Period=21; MaxOrders=0; MaxOrdersPerType=0;
