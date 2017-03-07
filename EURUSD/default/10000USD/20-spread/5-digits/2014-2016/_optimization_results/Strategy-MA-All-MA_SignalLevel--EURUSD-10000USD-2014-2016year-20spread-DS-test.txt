@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Backtest-v1.073
+                                                             EA31337-Lite-Backtest-v1.074
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -12,8 +12,8 @@
                             Spread          20
                                                                  [Optimization Graph]
          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            5 -2026.28          783          0.67           -2.59    2194.02      21.81   MA_SignalLevel=2; MaxOrders=0; MaxOrdersPerType=0;
-            4 -2058.18          786          0.67           -2.62    2225.92      22.13 MA_SignalLevel=1.9; MaxOrders=0; MaxOrdersPerType=0;
-            3 -2083.59          788          0.67           -2.64    2251.32      22.38 MA_SignalLevel=1.8; MaxOrders=0; MaxOrdersPerType=0;
-            1 -2102.85          789          0.67           -2.67    2270.59      22.57 MA_SignalLevel=1.6; MaxOrders=0; MaxOrdersPerType=0;
-            2 -2102.09          790          0.66           -2.66    2269.82      22.56 MA_SignalLevel=1.7; MaxOrders=0; MaxOrdersPerType=0;
+            4 -1520.12          823          0.86           -1.85    1623.44      16.20 MA_SignalLevel=2.1; MaxOrders=0; MaxOrdersPerType=0;
+            1 -1545.05          827          0.86           -1.87    1665.14      16.59 MA_SignalLevel=1.8; MaxOrders=0; MaxOrdersPerType=0;
+            3 -1559.02          825          0.85           -1.89    1662.34      16.59   MA_SignalLevel=2; MaxOrders=0; MaxOrdersPerType=0;
+            2 -1561.82          826          0.85           -1.89    1665.14      16.62 MA_SignalLevel=1.9; MaxOrders=0; MaxOrdersPerType=0;
+            5 -1604.65          820          0.85           -1.96    1707.98      17.04 MA_SignalLevel=2.2; MaxOrders=0; MaxOrdersPerType=0;
