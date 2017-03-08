@@ -12,8 +12,8 @@
                             Spread          20
                                                                  [Optimization Graph]
              Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                3 142.13           33          2.37            4.31      93.90       0.93 RSI_Period=19; MaxOrders=0; MaxOrdersPerType=0;
-                2  17.83           68          1.08            0.26     196.90       1.95 RSI_Period=17; MaxOrders=0; MaxOrdersPerType=0;
-                5 -10.30            3          0.00           -3.43      12.60       0.13 RSI_Period=23; MaxOrders=0; MaxOrdersPerType=0;
-                1 -61.67           80          0.80           -0.77     261.30       2.59 RSI_Period=15; MaxOrders=0; MaxOrdersPerType=0;
-                4 -80.90           14          0.28           -5.78      98.00       0.98 RSI_Period=21; MaxOrders=0; MaxOrdersPerType=0;
+                2 297.78          192          1.33            1.55     260.71       2.53 RSI_Period=17; MaxOrders=0; MaxOrdersPerType=0;
+                3 295.43          142          1.42            2.08     262.60       2.54 RSI_Period=19; MaxOrders=0; MaxOrdersPerType=0;
+                4 146.97          119          1.26            1.24     267.10       2.57 RSI_Period=21; MaxOrders=0; MaxOrdersPerType=0;
+                1 116.31          241          1.09            0.48     364.61       3.57 RSI_Period=15; MaxOrders=0; MaxOrdersPerType=0;
+                5  57.33           79          1.15            0.73     253.10       2.50 RSI_Period=23; MaxOrders=0; MaxOrdersPerType=0;
