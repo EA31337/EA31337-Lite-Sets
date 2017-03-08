@@ -12,8 +12,8 @@
                             Spread          20
                                                                  [Optimization Graph]
         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           5 -1017.10         1525          0.95           -0.67    2579.99      22.56  MACD_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
-           4 -1801.86         1586          0.91           -1.14    3418.20      29.93  MACD_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
-           3 -2082.15         1650          0.90           -1.26    3445.70      31.16    MACD_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
-           1 -3107.97         1738          0.86           -1.79    4591.69      40.88 MACD_SignalLevel=-0.2; MaxOrders=0; MaxOrdersPerType=0;
-           2 -3221.77         1684          0.85           -1.91    4365.73      40.25 MACD_SignalLevel=-0.1; MaxOrders=0; MaxOrdersPerType=0;
+           1   344.19         1575          1.02            0.22    1983.84      16.40   MACD_SignalLevel=0; MaxOrders=0; MaxOrdersPerType=0;
+           2  -460.83         1511          0.98           -0.30    2224.67      19.30 MACD_SignalLevel=0.1; MaxOrders=0; MaxOrdersPerType=0;
+           3  -486.33         1463          0.97           -0.33    1949.62      17.57 MACD_SignalLevel=0.2; MaxOrders=0; MaxOrdersPerType=0;
+           4  -999.10         1417          0.95           -0.71    2743.61      24.15 MACD_SignalLevel=0.3; MaxOrders=0; MaxOrdersPerType=0;
+           5 -1125.23         1347          0.94           -0.84    2598.11      23.51 MACD_SignalLevel=0.4; MaxOrders=0; MaxOrdersPerType=0;
