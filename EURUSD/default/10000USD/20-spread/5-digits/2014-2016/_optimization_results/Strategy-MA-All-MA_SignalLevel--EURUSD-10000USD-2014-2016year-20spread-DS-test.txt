@@ -11,9 +11,9 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-            4 -1520.12          823          0.86           -1.85    1623.44      16.20 MA_SignalLevel=2.1; MaxOrders=0; MaxOrdersPerType=0;
-            1 -1545.05          827          0.86           -1.87    1665.14      16.59 MA_SignalLevel=1.8; MaxOrders=0; MaxOrdersPerType=0;
-            3 -1559.02          825          0.85           -1.89    1662.34      16.59   MA_SignalLevel=2; MaxOrders=0; MaxOrdersPerType=0;
-            2 -1561.82          826          0.85           -1.89    1665.14      16.62 MA_SignalLevel=1.9; MaxOrders=0; MaxOrdersPerType=0;
-            5 -1604.65          820          0.85           -1.96    1707.98      17.04 MA_SignalLevel=2.2; MaxOrders=0; MaxOrdersPerType=0;
+          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             4 -628.71         1028          0.93           -0.61    2050.21      18.25 MA_SignalLevel=2.2; MaxOrders=0; MaxOrdersPerType=0;
+             1 -651.54         1030          0.93           -0.63    2073.04      18.45 MA_SignalLevel=1.9; MaxOrders=0; MaxOrdersPerType=0;
+             2 -651.54         1030          0.93           -0.63    2073.04      18.45   MA_SignalLevel=2; MaxOrders=0; MaxOrdersPerType=0;
+             3 -651.54         1030          0.93           -0.63    2073.04      18.45 MA_SignalLevel=2.1; MaxOrders=0; MaxOrdersPerType=0;
+             5 -678.30         1027          0.93           -0.66    2085.01      18.59 MA_SignalLevel=2.3; MaxOrders=0; MaxOrdersPerType=0;
