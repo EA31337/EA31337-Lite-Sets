@@ -2,18 +2,18 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Backtest-v1.073
+                                                             EA31337-Lite-Backtest-v1.074
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2014.01.06 00:00 - 2016.12.30 21:30 (2014.01.01 - 2016.12.31)
-                            Model           Control points (a very crude method, the results must not be considered)
+                            Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             3 44058.94        16029          1.58            2.75    5225.84      41.42 TakeProfitMax=200; MaxOrders=0; MaxOrdersPerType=0;
-             2 44044.65        16049          1.58            2.74    5225.84      41.42 TakeProfitMax=180; MaxOrders=0; MaxOrdersPerType=0;
-             5 43997.22        16020          1.58            2.75    5225.84      41.41 TakeProfitMax=240; MaxOrders=0; MaxOrdersPerType=0;
-             4 43965.34        16024          1.58            2.74    5225.84      41.41 TakeProfitMax=220; MaxOrders=0; MaxOrdersPerType=0;
-             1 43910.80        16051          1.58            2.74    5225.84      41.43 TakeProfitMax=160; MaxOrders=0; MaxOrdersPerType=0;
+          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             1 1062.91          868          1.21            1.22     823.00       7.54 TakeProfitMax=200; MaxOrders=0; MaxOrdersPerType=0;
+             5  456.67          869          1.09            0.53     846.08       7.97 TakeProfitMax=280; MaxOrders=0; MaxOrdersPerType=0;
+             4  447.17          869          1.09            0.51     845.98       7.97 TakeProfitMax=260; MaxOrders=0; MaxOrdersPerType=0;
+             3  420.07          869          1.08            0.48     845.68       7.99 TakeProfitMax=240; MaxOrders=0; MaxOrdersPerType=0;
+             2  340.44          869          1.07            0.39     844.98       8.02 TakeProfitMax=220; MaxOrders=0; MaxOrdersPerType=0;
