@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Backtest-v1.073
+                                                             EA31337-Lite-Backtest-v1.074
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -11,9 +11,9 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             4 952.34         2157          1.07            0.44    1518.91      13.19 DeMarker_Period=16; MaxOrders=0; MaxOrdersPerType=0;
-             2 619.41         2517          1.04            0.25    1819.18      15.97 DeMarker_Period=12; MaxOrders=0; MaxOrdersPerType=0;
-             3 599.36         2368          1.04            0.25    1678.20      14.67 DeMarker_Period=14; MaxOrders=0; MaxOrdersPerType=0;
-             1 389.32         2689          1.02            0.14    1949.47      17.07 DeMarker_Period=10; MaxOrders=0; MaxOrdersPerType=0;
-             5  88.75         2121          1.01            0.04    1707.19      15.36 DeMarker_Period=18; MaxOrders=0; MaxOrdersPerType=0;
+          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             5 2534.67          905          1.31            2.80     669.35       5.83 DeMarker_Period=24; MaxOrders=0; MaxOrdersPerType=0;
+             4 1687.90         1005          1.19            1.68     996.22       8.92 DeMarker_Period=22; MaxOrders=0; MaxOrdersPerType=0;
+             2 1550.09         1111          1.15            1.40     885.32       8.12 DeMarker_Period=18; MaxOrders=0; MaxOrdersPerType=0;
+             1 1227.86         1152          1.11            1.07     810.42       7.48 DeMarker_Period=16; MaxOrders=0; MaxOrdersPerType=0;
+             3  782.51         1065          1.08            0.73    1302.48      12.09 DeMarker_Period=20; MaxOrders=0; MaxOrdersPerType=0;

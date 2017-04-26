@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Backtest-v1.073
+                                                             EA31337-Lite-Backtest-v1.074
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
@@ -11,4 +11,24 @@
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
-                                     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+                5   428.53          772          1.06            0.56    1103.79       9.94 MACD_Shift=6; MACD_Shift_Far=0; MaxOrders=0;
+                4   290.50          818          1.04            0.36    1234.65      11.54 MACD_Shift=5; MACD_Shift_Far=0; MaxOrders=0;
+                8  -301.79         1024          0.97           -0.29    1739.63      16.58 MACD_Shift=4; MACD_Shift_Far=1; MaxOrders=0;
+                9  -373.31          939          0.96           -0.40    1454.10      13.71 MACD_Shift=5; MACD_Shift_Far=1; MaxOrders=0;
+               12  -396.63         1227          0.96           -0.32    1687.02      15.95 MACD_Shift=3; MACD_Shift_Far=2; MaxOrders=0;
+                3  -419.50          866          0.95           -0.48    1711.43      16.67 MACD_Shift=4; MACD_Shift_Far=0; MaxOrders=0;
+               10  -484.56          962          0.95           -0.50    1648.58      15.24 MACD_Shift=6; MACD_Shift_Far=1; MaxOrders=0;
+               15  -506.15         1103          0.95           -0.46    1653.47      15.27 MACD_Shift=6; MACD_Shift_Far=2; MaxOrders=0;
+               13  -757.06         1125          0.93           -0.67    1479.17      14.44 MACD_Shift=4; MACD_Shift_Far=2; MaxOrders=0;
+               17  -796.17         1307          0.93           -0.61    1725.49      16.34 MACD_Shift=3; MACD_Shift_Far=3; MaxOrders=0;
+               14  -898.32         1103          0.91           -0.81    1803.81      17.76 MACD_Shift=5; MACD_Shift_Far=2; MaxOrders=0;
+               18  -944.28         1270          0.92           -0.74    1741.40      17.01 MACD_Shift=4; MACD_Shift_Far=3; MaxOrders=0;
+               20  -963.11         1263          0.91           -0.76    1716.90      16.52 MACD_Shift=6; MACD_Shift_Far=3; MaxOrders=0;
+                2 -1017.59          903          0.88           -1.13    1592.80      15.91 MACD_Shift=3; MACD_Shift_Far=0; MaxOrders=0;
+                7 -1024.33         1079          0.90           -0.95    1825.29      18.00 MACD_Shift=3; MACD_Shift_Far=1; MaxOrders=0;
+                1 -1128.16          891          0.87           -1.27    1954.57      19.30 MACD_Shift=2; MACD_Shift_Far=0; MaxOrders=0;
+               19 -1145.63         1210          0.90           -0.95    1881.33      18.56 MACD_Shift=5; MACD_Shift_Far=3; MaxOrders=0;
+               11 -1454.63         1218          0.88           -1.19    2411.10      23.80 MACD_Shift=2; MACD_Shift_Far=2; MaxOrders=0;
+               16 -1456.66         1320          0.88           -1.10    2291.23      22.58 MACD_Shift=2; MACD_Shift_Far=3; MaxOrders=0;
+                6 -1569.51         1087          0.85           -1.44    2375.74      23.46 MACD_Shift=2; MACD_Shift_Far=1; MaxOrders=0;

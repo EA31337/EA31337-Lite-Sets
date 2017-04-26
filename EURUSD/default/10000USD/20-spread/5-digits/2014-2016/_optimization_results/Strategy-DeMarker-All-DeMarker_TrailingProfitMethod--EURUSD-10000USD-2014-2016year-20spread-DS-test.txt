@@ -1,0 +1,69 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.074
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2016.12.30 21:30 (2014.01.01 - 2016.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+  Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+    47   942.69          532          1.16            1.77     971.45       9.49  DeMarker_TrailingProfitMethod=23; MaxOrders=0; MaxOrdersPerType=0;
+    35   758.54          525          1.13            1.44     920.85       9.02  DeMarker_TrailingProfitMethod=17; MaxOrders=0; MaxOrdersPerType=0;
+    43   757.99          523          1.13            1.45     920.85       8.97  DeMarker_TrailingProfitMethod=21; MaxOrders=0; MaxOrdersPerType=0;
+    25   750.32          534          1.13            1.41     975.15       9.52  DeMarker_TrailingProfitMethod=12; MaxOrders=0; MaxOrdersPerType=0;
+    49   663.43          525          1.12            1.26     920.85       8.97  DeMarker_TrailingProfitMethod=24; MaxOrders=0; MaxOrdersPerType=0;
+    27   647.12          525          1.11            1.23     920.85       9.01  DeMarker_TrailingProfitMethod=13; MaxOrders=0; MaxOrdersPerType=0;
+    17   632.51          547          1.11            1.16     659.04       6.48   DeMarker_TrailingProfitMethod=8; MaxOrders=0; MaxOrdersPerType=0;
+    44   578.56          524          1.10            1.10     920.85       8.97 DeMarker_TrailingProfitMethod=-21; MaxOrders=0; MaxOrdersPerType=0;
+    48   549.98          529          1.09            1.04     971.45       9.49 DeMarker_TrailingProfitMethod=-23; MaxOrders=0; MaxOrdersPerType=0;
+     3   476.01          554          1.08            0.86     744.51       7.27   DeMarker_TrailingProfitMethod=1; MaxOrders=0; MaxOrdersPerType=0;
+    36   433.80          524          1.08            0.83     920.85       9.02 DeMarker_TrailingProfitMethod=-17; MaxOrders=0; MaxOrdersPerType=0;
+    26   393.28          528          1.07            0.74     975.15       9.52 DeMarker_TrailingProfitMethod=-12; MaxOrders=0; MaxOrdersPerType=0;
+    37   350.30          521          1.06            0.67     920.85       9.01  DeMarker_TrailingProfitMethod=18; MaxOrders=0; MaxOrdersPerType=0;
+    28   347.08          524          1.06            0.66     920.85       9.01 DeMarker_TrailingProfitMethod=-13; MaxOrders=0; MaxOrdersPerType=0;
+    13   347.64          534          1.06            0.65     915.07       9.04   DeMarker_TrailingProfitMethod=6; MaxOrders=0; MaxOrdersPerType=0;
+    50   302.03          524          1.05            0.58     972.57       9.27 DeMarker_TrailingProfitMethod=-24; MaxOrders=0; MaxOrdersPerType=0;
+     1   293.80          521          1.05            0.56     962.46       9.48 DeMarker_TrailingProfitMethod=-27; MaxOrders=0; MaxOrdersPerType=0;
+    55   218.67          520          1.04            0.42     962.46       9.48  DeMarker_TrailingProfitMethod=27; MaxOrders=0; MaxOrdersPerType=0;
+    45   190.87          568          1.03            0.34     731.82       7.05  DeMarker_TrailingProfitMethod=22; MaxOrders=0; MaxOrdersPerType=0;
+    46   182.51          566          1.03            0.32     736.75       7.15 DeMarker_TrailingProfitMethod=-22; MaxOrders=0; MaxOrdersPerType=0;
+    18   169.40          544          1.03            0.31     968.00       9.31  DeMarker_TrailingProfitMethod=-8; MaxOrders=0; MaxOrdersPerType=0;
+    30   163.39          568          1.03            0.29     626.44       6.22 DeMarker_TrailingProfitMethod=-14; MaxOrders=0; MaxOrdersPerType=0;
+     4   163.84          543          1.03            0.30     899.74       8.68  DeMarker_TrailingProfitMethod=-1; MaxOrders=0; MaxOrdersPerType=0;
+    38   143.73          522          1.03            0.28     987.16       9.57 DeMarker_TrailingProfitMethod=-18; MaxOrders=0; MaxOrdersPerType=0;
+    15   135.20          523          1.02            0.26     937.38       9.03   DeMarker_TrailingProfitMethod=7; MaxOrders=0; MaxOrdersPerType=0;
+    29   121.94          568          1.02            0.21     626.44       6.21  DeMarker_TrailingProfitMethod=14; MaxOrders=0; MaxOrdersPerType=0;
+    23   110.44          566          1.02            0.20     679.46       6.64  DeMarker_TrailingProfitMethod=11; MaxOrders=0; MaxOrdersPerType=0;
+    24    72.90          565          1.01            0.13     640.44       6.31 DeMarker_TrailingProfitMethod=-11; MaxOrders=0; MaxOrdersPerType=0;
+    40    59.44          564          1.01            0.11     652.93       6.45 DeMarker_TrailingProfitMethod=-19; MaxOrders=0; MaxOrdersPerType=0;
+    42    48.17          563          1.01            0.09     656.44       6.47 DeMarker_TrailingProfitMethod=-20; MaxOrders=0; MaxOrdersPerType=0;
+    41    -1.53          564          1.00           -0.00     693.55       6.78  DeMarker_TrailingProfitMethod=20; MaxOrders=0; MaxOrdersPerType=0;
+    11   -35.55          573          0.99           -0.06     617.94       6.12   DeMarker_TrailingProfitMethod=5; MaxOrders=0; MaxOrdersPerType=0;
+    51   -56.35          562          0.99           -0.10     797.99       7.72  DeMarker_TrailingProfitMethod=25; MaxOrders=0; MaxOrdersPerType=0;
+    16   -88.90          522          0.98           -0.17    1226.95      11.82  DeMarker_TrailingProfitMethod=-7; MaxOrders=0; MaxOrdersPerType=0;
+    52  -126.81          563          0.98           -0.23     790.29       7.66 DeMarker_TrailingProfitMethod=-25; MaxOrders=0; MaxOrdersPerType=0;
+    39  -149.38          565          0.97           -0.26     822.74       8.11  DeMarker_TrailingProfitMethod=19; MaxOrders=0; MaxOrdersPerType=0;
+    32  -155.25          560          0.97           -0.28     794.30       7.78 DeMarker_TrailingProfitMethod=-15; MaxOrders=0; MaxOrdersPerType=0;
+    14  -159.87          531          0.97           -0.30    1070.74      10.56  DeMarker_TrailingProfitMethod=-6; MaxOrders=0; MaxOrdersPerType=0;
+    31  -170.09          563          0.97           -0.30     776.40       7.62  DeMarker_TrailingProfitMethod=15; MaxOrders=0; MaxOrdersPerType=0;
+    19  -182.88          669          0.97           -0.27     989.96       9.60   DeMarker_TrailingProfitMethod=9; MaxOrders=0; MaxOrdersPerType=0;
+    20  -182.88          669          0.97           -0.27     989.96       9.60  DeMarker_TrailingProfitMethod=-9; MaxOrders=0; MaxOrdersPerType=0;
+    33  -260.19          581          0.95           -0.45     884.80       8.66  DeMarker_TrailingProfitMethod=16; MaxOrders=0; MaxOrdersPerType=0;
+    34  -263.42          580          0.95           -0.45     810.47       8.02 DeMarker_TrailingProfitMethod=-16; MaxOrders=0; MaxOrdersPerType=0;
+    21  -313.69          630          0.94           -0.50     704.68       6.99  DeMarker_TrailingProfitMethod=10; MaxOrders=0; MaxOrdersPerType=0;
+    12  -343.59          569          0.94           -0.60     617.94       6.12  DeMarker_TrailingProfitMethod=-5; MaxOrders=0; MaxOrdersPerType=0;
+     2  -472.24          268          0.93           -1.76    1630.47      15.15   DeMarker_TrailingProfitMethod=0; MaxOrders=0; MaxOrdersPerType=0;
+     9  -530.86          628          0.90           -0.85     663.04       6.62   DeMarker_TrailingProfitMethod=4; MaxOrders=0; MaxOrdersPerType=0;
+    10  -553.55          618          0.89           -0.90     699.53       6.99  DeMarker_TrailingProfitMethod=-4; MaxOrders=0; MaxOrdersPerType=0;
+    22  -572.38          619          0.89           -0.92     665.86       6.60 DeMarker_TrailingProfitMethod=-10; MaxOrders=0; MaxOrdersPerType=0;
+     7  -822.18          753          0.83           -1.09     838.36       8.37   DeMarker_TrailingProfitMethod=3; MaxOrders=0; MaxOrdersPerType=0;
+     8  -889.37          755          0.82           -1.18     918.45       9.17  DeMarker_TrailingProfitMethod=-3; MaxOrders=0; MaxOrdersPerType=0;
+     5 -1134.61          950          0.79           -1.19    1218.33      12.14   DeMarker_TrailingProfitMethod=2; MaxOrders=0; MaxOrdersPerType=0;
+     6 -1181.21          964          0.78           -1.23    1264.93      12.60  DeMarker_TrailingProfitMethod=-2; MaxOrders=0; MaxOrdersPerType=0;
+    53 -1411.87         1069          0.78           -1.32    1912.99      18.79  DeMarker_TrailingProfitMethod=26; MaxOrders=0; MaxOrdersPerType=0;
+    54 -1493.93         1070          0.77           -1.40    1928.46      18.94 DeMarker_TrailingProfitMethod=-26; MaxOrders=0; MaxOrdersPerType=0;

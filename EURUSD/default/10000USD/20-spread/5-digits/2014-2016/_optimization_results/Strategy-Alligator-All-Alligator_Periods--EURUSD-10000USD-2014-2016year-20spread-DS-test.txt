@@ -1,0 +1,68 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Backtest-v1.074
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2014.01.06 00:00 - 2016.12.30 21:30 (2014.01.01 - 2016.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 10000.00
+                            Spread          20
+                                                                 [Optimization Graph]
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             4   584.01          914          1.06            0.64     902.88       8.06 Alligator_Period_Jaw=11; Alligator_Period_Teeth=4;
+                                                                                                                   Alligator_Period_Lips=4;
+             7   423.21         1020          1.04            0.41    1174.57      10.28 Alligator_Period_Jaw=11; Alligator_Period_Teeth=6;
+                                                                                                                   Alligator_Period_Lips=4;
+             5   222.48          895          1.02            0.25     987.52       8.84 Alligator_Period_Jaw=13; Alligator_Period_Teeth=4;
+                                                                                                                   Alligator_Period_Lips=4;
+            13   169.99          925          1.02            0.18    1000.15       9.23 Alligator_Period_Jaw=11; Alligator_Period_Teeth=4;
+                                                                                                                   Alligator_Period_Lips=6;
+             8   116.21         1003          1.01            0.12    1295.51      11.39 Alligator_Period_Jaw=13; Alligator_Period_Teeth=6;
+                                                                                                                   Alligator_Period_Lips=4;
+             6    21.14          891          1.00            0.02    1056.91       9.56 Alligator_Period_Jaw=15; Alligator_Period_Teeth=4;
+                                                                                                                   Alligator_Period_Lips=4;
+            14     7.46          904          1.00            0.01    1033.74       9.58 Alligator_Period_Jaw=13; Alligator_Period_Teeth=4;
+                                                                                                                   Alligator_Period_Lips=6;
+             9     3.94          985          1.00            0.00    1306.68      11.57 Alligator_Period_Jaw=15; Alligator_Period_Teeth=6;
+                                                                                                                   Alligator_Period_Lips=4;
+            25   -36.73         1159          1.00           -0.03    1398.18      12.43 Alligator_Period_Jaw=11; Alligator_Period_Teeth=6;
+                                                                                                                   Alligator_Period_Lips=8;
+            22  -115.25          703          0.98           -0.16     807.26       7.61 Alligator_Period_Jaw=11; Alligator_Period_Teeth=4;
+                                                                                                                   Alligator_Period_Lips=8;
+            15  -204.94          901          0.98           -0.23    1041.47      10.09 Alligator_Period_Jaw=15; Alligator_Period_Teeth=4;
+                                                                                                                   Alligator_Period_Lips=6;
+            26  -328.83         1140          0.97           -0.29    1571.24      14.00 Alligator_Period_Jaw=13; Alligator_Period_Teeth=6;
+                                                                                                                   Alligator_Period_Lips=8;
+            23  -373.25          688          0.95           -0.54     839.97       8.04 Alligator_Period_Jaw=13; Alligator_Period_Teeth=4;
+                                                                                                                   Alligator_Period_Lips=8;
+            10  -387.28          496          0.93           -0.78    1146.54      11.06 Alligator_Period_Jaw=11; Alligator_Period_Teeth=2;
+                                                                                                                   Alligator_Period_Lips=6;
+            27  -423.43         1124          0.96           -0.38    1555.01      13.99 Alligator_Period_Jaw=15; Alligator_Period_Teeth=6;
+                                                                                                                   Alligator_Period_Lips=8;
+            11  -436.69          486          0.93           -0.90     978.88       9.48 Alligator_Period_Jaw=13; Alligator_Period_Teeth=2;
+                                                                                                                   Alligator_Period_Lips=6;
+            17  -439.56         1166          0.96           -0.38    1100.03      10.66 Alligator_Period_Jaw=13; Alligator_Period_Teeth=6;
+                                                                                                                   Alligator_Period_Lips=6;
+            16  -505.24         1184          0.95           -0.43    1071.37      10.34 Alligator_Period_Jaw=11; Alligator_Period_Teeth=6;
+                                                                                                                   Alligator_Period_Lips=6;
+            12  -535.96          484          0.91           -1.11     997.08       9.68 Alligator_Period_Jaw=15; Alligator_Period_Teeth=2;
+                                                                                                                   Alligator_Period_Lips=6;
+            24  -541.31          690          0.93           -0.78     932.49       8.99 Alligator_Period_Jaw=15; Alligator_Period_Teeth=4;
+                                                                                                                   Alligator_Period_Lips=8;
+            19  -614.92          310          0.84           -1.98    1311.79      12.92 Alligator_Period_Jaw=11; Alligator_Period_Teeth=2;
+                                                                                                                   Alligator_Period_Lips=8;
+            20  -743.83          310          0.82           -2.40    1319.73      12.96 Alligator_Period_Jaw=13; Alligator_Period_Teeth=2;
+                                                                                                                   Alligator_Period_Lips=8;
+            18  -778.01         1160          0.93           -0.67    1178.15      11.64 Alligator_Period_Jaw=15; Alligator_Period_Teeth=6;
+                                                                                                                   Alligator_Period_Lips=6;
+            21  -816.21          306          0.80           -2.67    1333.85      13.10 Alligator_Period_Jaw=15; Alligator_Period_Teeth=2;
+                                                                                                                   Alligator_Period_Lips=8;
+             1  -981.88          668          0.87           -1.47    1644.75      16.09 Alligator_Period_Jaw=11; Alligator_Period_Teeth=2;
+                                                                                                                   Alligator_Period_Lips=4;
+             2 -1042.87          649          0.86           -1.61    1612.00      15.75 Alligator_Period_Jaw=13; Alligator_Period_Teeth=2;
+                                                                                                                   Alligator_Period_Lips=4;
+             3 -1226.87          656          0.84           -1.87    1612.11      15.82 Alligator_Period_Jaw=15; Alligator_Period_Teeth=2;
+                                                                                                                   Alligator_Period_Lips=4;

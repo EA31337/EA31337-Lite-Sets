@@ -2,19 +2,20 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Lite-Backtest-v1.073
+                                                             EA31337-Lite-Backtest-v1.074
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2014.01.06 00:00 - 2016.12.30 21:30 (2014.01.01 - 2016.12.31)
-                            Model           Control points (a very crude method, the results must not be considered)
+                            Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 10000.00
                             Spread          20
                                                                  [Optimization Graph]
              Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-                5 3498.80          402          1.22            8.70    2796.29      19.53 RSI_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
-                6 3187.53          402          1.20            7.93    2754.06      19.73 RSI_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
-                2 2928.29          406          1.19            7.21    3000.96      21.65 RSI_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
-                4 2633.86          401          1.17            6.57    2974.00      21.37 RSI_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
-                1 2493.76          403          1.16            6.19    3407.93      24.33 RSI_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
-                3 2450.67          397          1.16            6.17    3251.39      23.31 RSI_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+                5  425.57           88          2.13            4.84     208.70       1.97 RSI_Shift=4; MaxOrders=0; MaxOrdersPerType=0;
+                4  367.43          113          1.74            3.25     210.30       2.00 RSI_Shift=3; MaxOrders=0; MaxOrdersPerType=0;
+                1  344.49          178          1.38            1.94     363.90       3.50 RSI_Shift=0; MaxOrders=0; MaxOrdersPerType=0;
+                2  304.76          160          1.40            1.90     303.30       2.92 RSI_Shift=1; MaxOrders=0; MaxOrdersPerType=0;
+                3  295.43          142          1.42            2.08     262.60       2.54 RSI_Shift=2; MaxOrders=0; MaxOrdersPerType=0;
+                7  -66.51           69          0.83           -0.96     360.60       3.52 RSI_Shift=6; MaxOrders=0; MaxOrdersPerType=0;
+                6 -191.57           92          0.70           -2.08     573.93       5.56 RSI_Shift=5; MaxOrders=0; MaxOrdersPerType=0;
