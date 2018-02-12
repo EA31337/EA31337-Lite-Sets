@@ -42,7 +42,6 @@ before_install:
 - test "$GITHUB_API_TOKEN" && get_gh_asset.sh $OWNER $OWNER-Backtest-Releases $EA_VERSION $EA_MODE-Backtest "$EA_DIR"
 install:
 - sudo env PATH="$PATH" provision.sh
-- sudo env PATH="$PATH" secur32_fix.sh
 before_script:
 - find "$CWD" -name test.ini -execdir bash -c '. <(grep = {} | sed "s/;/#/g")' ';'
 - find "$CWD" -name "*.rules" -exec bash -n "{}" ';'
