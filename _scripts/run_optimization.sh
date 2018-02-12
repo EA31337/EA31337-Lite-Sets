@@ -4,7 +4,8 @@ set -e
 cd -P -- "$(dirname -- "$0")" && pwd -P
 [ "$TRACE" ] && set -x
 ROOT="$(git rev-parse --show-toplevel)"
-PATH="$PATH:$ROOT/_scripts:$ROOT/_VM/scripts"
+VM_DIR="$(find "$ROOT" -type d -name _VM -print -quit)"
+PATH="$PATH:$ROOT/_scripts:$VM_DIR"
 RULES_INIT="$ROOT/_rules/.init.rules.inc"
 OUT="README.md"
 [ "$TRACE" ] && set -x

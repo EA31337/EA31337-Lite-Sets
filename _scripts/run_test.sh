@@ -3,7 +3,8 @@
 set -e
 [ "$TRACE" ] && set -x
 ROOT="$(git rev-parse --show-toplevel)"
-PATH="$PATH:$ROOT/_scripts:$ROOT/_VM/scripts"
+VM_DIR="$(find "$ROOT" -type d -name _VM -print -quit)"
+PATH="$PATH:$ROOT/_scripts:$VM_DIR"
 [ $# -eq 0 ] && { echo "Usage: $0 [ini-file]"; exit 1; }
 read file args <<<$@
 

@@ -3,7 +3,8 @@
 set -e
 cd -P -- "$(dirname -- "$0")" && pwd -P
 ROOT="$(git rev-parse --show-toplevel)"
-PATH="$PATH:$ROOT/_scripts:$ROOT/_VM/scripts"
+VM_DIR="$(find "$ROOT" -type d -name _VM -print -quit)"
+PATH="$PATH:$ROOT/_scripts:$VM_DIR"
 OUT="README.md"
 
 # Find, parse configuration and run the tests.
